@@ -956,3 +956,42 @@
 [2023-06-30 01:03:22] INFO root fetch - processPackages [pibble]: Remove: archive file [/home/abi/fetcher/tmp/pibble-0.6.4.tar.gz]
 [2023-06-30 01:03:22] INFO root fetch - main [MainThread]: End processing [pibble]: success
 [2023-06-30 01:03:22] INFO root fetch - main [MainThread]: Store serial: [18701978]
+[2023-06-30 01:08:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18701978]
+[2023-06-30 01:08:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-30 01:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt
+[2023-06-30 01:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickbolt
+[2023-06-30 01:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: khoj-assistant
+[2023-06-30 01:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: freeplay
+[2023-06-30 01:08:30] INFO root fetch - processPackages [freeplay]: New version: [0.1.5.post1] Old Version: [0.1.4]
+[2023-06-30 01:08:30] INFO root fetch - processPackages [quickbolt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-30 01:08:30] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev98] Old Version: [0.6.3.dev97]
+[2023-06-30 01:08:30] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230629] Old Version: [0.7.0b20230628]
+[2023-06-30 01:08:30] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/52/3e/00e8a7320c4f8c9c3debe4b1423c02ef13f01f377e74630e1cc35e085a3a/khoj_assistant-0.6.3.dev97.tar.gz
+[2023-06-30 01:08:31] INFO root fetch - processPackages [quickbolt]: Downloading https://files.pythonhosted.org/packages/54/ae/910e864ba160c8587b8e5000784201de50bfcc7d45df72b8fd78e6eac8c0/quickbolt-0.1.1.tar.gz
+[2023-06-30 01:08:31] INFO root fetch - processPackages [freeplay]: Downloading https://files.pythonhosted.org/packages/71/4f/934d7d32622cb18627858b1fc3517c19d28dcdac045f86e321da6d67b5fd/freeplay-0.1.4.tar.gz
+[2023-06-30 01:08:31] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/cd/0b/dda3ad9021a1a65ad1e58f318bafd855a382fbe8fda02e2be4048d9268ff/tmnt-0.7.0b20230628.tar.gz
+[2023-06-30 01:08:31] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/9d/ff/7cbd5090c4832c8d2352fba09f03c093a4d17e209c1cf794a07d2b16b554/khoj_assistant-0.6.3.dev98.tar.gz
+[2023-06-30 01:08:31] INFO root fetch - processPackages [quickbolt]: Downloading https://files.pythonhosted.org/packages/14/da/3e010e8be87b6a5b21150d68dcd4d151e25fa9077aa88ffdba87a84e62b4/quickbolt-0.1.2.tar.gz
+[2023-06-30 01:08:31] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-30 01:08:31] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev97.tar.gz tmp/khoj_assistant-0.6.3.dev98.tar.gz --markdown 20230630/k/khoj-assistant/0.6.3.dev97-0.6.3.dev98/diff.md --exclude *.pyd
+[2023-06-30 01:08:31] INFO root fetch - processPackages [freeplay]: Downloading https://files.pythonhosted.org/packages/14/1d/e1e5159f8d05191906081d1eb2c6820b274a721a56e5f189b2a9f1183444/freeplay-0.1.5.post1.tar.gz
+[2023-06-30 01:08:31] INFO root fetch - processPackages [quickbolt]: executing diffoscope
+[2023-06-30 01:08:31] INFO root fetch - processPackages [quickbolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickbolt-0.1.1.tar.gz tmp/quickbolt-0.1.2.tar.gz --markdown 20230630/q/quickbolt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-30 01:08:31] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/86/6d/b99fbcec3bcc56cba53ff18be0290ca585e2be17930988bbde4f1ee2f698/tmnt-0.7.0b20230629.tar.gz
+[2023-06-30 01:08:31] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-30 01:08:31] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230628.tar.gz tmp/tmnt-0.7.0b20230629.tar.gz --markdown 20230630/t/tmnt/0.7.0b20230628-0.7.0b20230629/diff.md --exclude *.pyd
+[2023-06-30 01:08:31] INFO root fetch - processPackages [freeplay]: executing diffoscope
+[2023-06-30 01:08:31] INFO root fetch - processPackages [freeplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeplay-0.1.4.tar.gz tmp/freeplay-0.1.5.post1.tar.gz --markdown 20230630/f/freeplay/0.1.4-0.1.5.post1/diff.md --exclude *.pyd
+[2023-06-30 01:08:32] INFO root fetch - processPackages [quickbolt]: Remove: archive file [/home/abi/fetcher/tmp/quickbolt-0.1.1.tar.gz]
+[2023-06-30 01:08:32] INFO root fetch - processPackages [quickbolt]: Remove: archive file [/home/abi/fetcher/tmp/quickbolt-0.1.2.tar.gz]
+[2023-06-30 01:08:32] INFO root fetch - main [MainThread]: End processing [quickbolt]: success
+[2023-06-30 01:08:32] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230628.tar.gz]
+[2023-06-30 01:08:32] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230629.tar.gz]
+[2023-06-30 01:08:32] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-30 01:08:32] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev97.tar.gz]
+[2023-06-30 01:08:32] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev98.tar.gz]
+[2023-06-30 01:08:32] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-30 01:09:26] INFO root fetch - processPackages [freeplay]: Remove: archive file [/home/abi/fetcher/tmp/freeplay-0.1.4.tar.gz]
+[2023-06-30 01:09:26] INFO root fetch - processPackages [freeplay]: Remove: archive file [/home/abi/fetcher/tmp/freeplay-0.1.5.post1.tar.gz]
+[2023-06-30 01:09:26] INFO root fetch - main [MainThread]: End processing [freeplay]: success
+[2023-06-30 01:09:26] INFO root fetch - main [MainThread]: Store serial: [18701990]
