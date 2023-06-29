@@ -81,3 +81,73 @@
 [2023-06-30 00:07:27] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-30 00:07:27] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
 [2023-06-30 00:07:27] INFO root fetch - main [MainThread]: Store serial: [18701658]
+[2023-06-30 00:12:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18701658]
+[2023-06-30 00:12:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-30 00:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lollms
+[2023-06-30 00:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: up-fast-downward
+[2023-06-30 00:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mbnk
+[2023-06-30 00:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matchcode-toolkit
+[2023-06-30 00:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strawberry-django-pubsub
+[2023-06-30 00:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: msgraph-sdk
+[2023-06-30 00:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hspylib-firebase
+[2023-06-30 00:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mbnk
+[2023-06-30 00:12:51] INFO root fetch - processPackages [up-fast-downward]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-30 00:12:51] INFO root fetch - processPackages [mbnk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-30 00:12:51] INFO root fetch - processPackages [strawberry-django-pubsub]: New version: [0.0.8a0] Old Version: [0.0.7a0]
+[2023-06-30 00:12:51] INFO root fetch - processPackages [mbnk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-30 00:12:51] INFO root fetch - processPackages [strawberry-django-pubsub]: Downloading https://files.pythonhosted.org/packages/00/90/5bec30bde15fa4141d708bed3a5acdb3fdcd27acdc6ed579281d23d42415/strawberry_django_pubsub-0.0.7a0.tar.gz
+[2023-06-30 00:12:51] INFO root fetch - processPackages [up-fast-downward]: Downloading https://files.pythonhosted.org/packages/7a/cf/70e12d6c8d084326d863b48e41021403d9ad9ee99258ee2c8c2d9eca77f4/up_fast_downward-0.2.1-py3-none-win_amd64.whl
+[2023-06-30 00:12:51] INFO root fetch - processPackages [matchcode-toolkit]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-30 00:12:51] INFO root fetch - processPackages [msgraph-sdk]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-30 00:12:51] INFO root fetch - processPackages [hspylib-firebase]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-30 00:12:51] INFO root fetch - processPackages [lollms]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-06-30 00:12:51] INFO root fetch - processPackages [up-fast-downward]: Downloading https://files.pythonhosted.org/packages/54/32/94404da6fa8c53817cea5e9cfb6e4004e021ef97288b68b296f6f4e0863f/up_fast_downward-0.2.2-py3-none-win_amd64.whl
+[2023-06-30 00:12:51] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/11/fb/edb3d8188f16a3dd1bbebfd94c5b88d19b212721d9d6e126acf4bf412c68/lollms-2.1.7.tar.gz
+[2023-06-30 00:12:51] INFO root fetch - processPackages [mbnk]: Downloading https://files.pythonhosted.org/packages/71/5f/0b65204fb2b8dcca011b2349fba26316a33aaf5b45899ac05c9a7676f024/mbnk-0.0.5.tar.gz
+[2023-06-30 00:12:51] INFO root fetch - processPackages [msgraph-sdk]: Downloading https://files.pythonhosted.org/packages/a8/2e/de35f275de1d2df32a7905faa17d1b6ad66c96c89d5821256e533411d3de/msgraph-sdk-1.0.0a8.tar.gz
+[2023-06-30 00:12:51] INFO root fetch - processPackages [mbnk]: Downloading https://files.pythonhosted.org/packages/71/5f/0b65204fb2b8dcca011b2349fba26316a33aaf5b45899ac05c9a7676f024/mbnk-0.0.5.tar.gz
+[2023-06-30 00:12:51] INFO root fetch - processPackages [matchcode-toolkit]: Downloading https://files.pythonhosted.org/packages/58/71/dfda1085bf13dd390bd1c5d2db19e9fd78b74e002c5643141a6336bd3bcb/matchcode-toolkit-1.1.0.tar.gz
+[2023-06-30 00:12:51] INFO root fetch - processPackages [hspylib-firebase]: Downloading https://files.pythonhosted.org/packages/b3/c1/df924c9a05ded1364ea44caeaf6b35bb300ce4bfaec0c1b8300044798fe7/hspylib-firebase-0.9.98.tar.gz
+[2023-06-30 00:12:51] INFO root fetch - processPackages [strawberry-django-pubsub]: Downloading https://files.pythonhosted.org/packages/2c/1c/a4a3dc17b5e9fd7cd327bfc07a38726c34975ded07b46cf25db7176d50b1/strawberry_django_pubsub-0.0.8a0.tar.gz
+[2023-06-30 00:12:51] INFO root fetch - processPackages [up-fast-downward]: executing diffoscope
+[2023-06-30 00:12:51] INFO root fetch - processPackages [up-fast-downward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_fast_downward-0.2.1-py3-none-win_amd64.whl.zip tmp/up_fast_downward-0.2.2-py3-none-win_amd64.whl.zip --markdown 20230630/u/up-fast-downward/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-30 00:12:51] INFO root fetch - processPackages [mbnk]: executing diffoscope
+[2023-06-30 00:12:51] INFO root fetch - processPackages [mbnk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbnk-0.0.4.tar.gz tmp/mbnk-0.0.5.tar.gz --markdown 20230630/m/mbnk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-30 00:12:51] INFO root fetch - processPackages [mbnk]: executing diffoscope
+[2023-06-30 00:12:51] INFO root fetch - processPackages [mbnk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbnk-0.0.4.tar.gz tmp/mbnk-0.0.5.tar.gz --markdown 20230630/m/mbnk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-30 00:12:51] INFO root fetch - processPackages [strawberry-django-pubsub]: executing diffoscope
+[2023-06-30 00:12:51] INFO root fetch - processPackages [strawberry-django-pubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_pubsub-0.0.7a0.tar.gz tmp/strawberry_django_pubsub-0.0.8a0.tar.gz --markdown 20230630/s/strawberry-django-pubsub/0.0.7a0-0.0.8a0/diff.md --exclude *.pyd
+[2023-06-30 00:12:51] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-06-30 00:12:51] INFO root fetch - processPackages [matchcode-toolkit]: Downloading https://files.pythonhosted.org/packages/ee/fd/9868fb94e721abe31999fa15fd002ab89f361210626c4f732d0c5c358776/matchcode-toolkit-1.1.1.tar.gz
+[2023-06-30 00:12:52] INFO root fetch - processPackages [matchcode-toolkit]: executing diffoscope
+[2023-06-30 00:12:52] INFO root fetch - processPackages [matchcode-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matchcode-toolkit-1.1.0.tar.gz tmp/matchcode-toolkit-1.1.1.tar.gz --markdown 20230630/m/matchcode-toolkit/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-30 00:12:52] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-06-30 00:12:52] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.7.tar.gz tmp/lollms-2.1.8.tar.gz --markdown 20230630/l/lollms/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-06-30 00:12:52] INFO root fetch - processPackages [hspylib-firebase]: Downloading https://files.pythonhosted.org/packages/b3/3b/97937a13574633ebabf4064ad625a14153340d653ddaf08abb25c870255d/hspylib-firebase-0.9.99.tar.gz
+[2023-06-30 00:12:52] INFO root fetch - processPackages [msgraph-sdk]: Downloading https://files.pythonhosted.org/packages/85/a9/65d3cfcdd7cf16f8bdebca0b7cd07f871628a0ed3f8f9178fb546ad5df66/msgraph-sdk-1.0.0a9.tar.gz
+[2023-06-30 00:12:52] INFO root fetch - processPackages [hspylib-firebase]: executing diffoscope
+[2023-06-30 00:12:52] INFO root fetch - processPackages [hspylib-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-firebase-0.9.98.tar.gz tmp/hspylib-firebase-0.9.99.tar.gz --markdown 20230630/h/hspylib-firebase/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-30 00:12:52] INFO root fetch - processPackages [msgraph-sdk]: executing diffoscope
+[2023-06-30 00:12:52] INFO root fetch - processPackages [msgraph-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgraph-sdk-1.0.0a8.tar.gz tmp/msgraph-sdk-1.0.0a9.tar.gz --markdown 20230630/m/msgraph-sdk/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-30 00:12:53] INFO root fetch - processPackages [mbnk]: Remove: archive file [/home/abi/fetcher/tmp/mbnk-0.0.4.tar.gz]
+[2023-06-30 00:12:53] INFO root fetch - processPackages [mbnk]: Remove: archive file [/home/abi/fetcher/tmp/mbnk-0.0.5.tar.gz]
+[2023-06-30 00:12:53] INFO root fetch - main [MainThread]: End processing [mbnk]: success
+[2023-06-30 00:12:53] INFO root fetch - main [MainThread]: End processing [mbnk]: success
+[2023-06-30 00:12:53] INFO root fetch - processPackages [up-fast-downward]: Remove: archive file [/home/abi/fetcher/tmp/up_fast_downward-0.2.1-py3-none-win_amd64.whl.zip]
+[2023-06-30 00:12:53] INFO root fetch - processPackages [up-fast-downward]: Remove: archive file [/home/abi/fetcher/tmp/up_fast_downward-0.2.2-py3-none-win_amd64.whl.zip]
+[2023-06-30 00:12:53] INFO root fetch - main [MainThread]: End processing [up-fast-downward]: success
+[2023-06-30 00:12:53] INFO root fetch - processPackages [strawberry-django-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_pubsub-0.0.7a0.tar.gz]
+[2023-06-30 00:12:53] INFO root fetch - processPackages [strawberry-django-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_pubsub-0.0.8a0.tar.gz]
+[2023-06-30 00:12:53] INFO root fetch - main [MainThread]: End processing [strawberry-django-pubsub]: success
+[2023-06-30 00:12:53] INFO root fetch - processPackages [matchcode-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/matchcode-toolkit-1.1.0.tar.gz]
+[2023-06-30 00:12:53] INFO root fetch - processPackages [matchcode-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/matchcode-toolkit-1.1.1.tar.gz]
+[2023-06-30 00:12:53] INFO root fetch - main [MainThread]: End processing [matchcode-toolkit]: success
+[2023-06-30 00:12:55] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.7.tar.gz]
+[2023-06-30 00:12:55] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-06-30 00:12:55] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-06-30 00:13:41] INFO root fetch - processPackages [hspylib-firebase]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-firebase-0.9.98.tar.gz]
+[2023-06-30 00:13:41] INFO root fetch - processPackages [hspylib-firebase]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-firebase-0.9.99.tar.gz]
+[2023-06-30 00:13:41] INFO root fetch - main [MainThread]: End processing [hspylib-firebase]: success
+[2023-06-30 00:15:52] ERROR root fetch - processPackages [msgraph-sdk]: Timeout during execution of pkgdiff
+[2023-06-30 00:15:52] INFO root fetch - main [MainThread]: End processing [msgraph-sdk] error
+[2023-06-30 00:15:52] INFO root fetch - main [MainThread]: Store serial: [18701683]
