@@ -151,3 +151,186 @@
 [2023-06-30 00:15:52] ERROR root fetch - processPackages [msgraph-sdk]: Timeout during execution of pkgdiff
 [2023-06-30 00:15:52] INFO root fetch - main [MainThread]: End processing [msgraph-sdk] error
 [2023-06-30 00:15:52] INFO root fetch - main [MainThread]: Store serial: [18701683]
+[2023-06-30 00:20:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18701683]
+[2023-06-30 00:21:01] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-30 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SentiLEYE
+[2023-06-30 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blacksmith-ai
+[2023-06-30 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ABR
+[2023-06-30 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nsj-rest-lib
+[2023-06-30 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mksync
+[2023-06-30 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: khoj-assistant
+[2023-06-30 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amazon-kclpy
+[2023-06-30 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sniimapp
+[2023-06-30 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opvious
+[2023-06-30 00:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modal-client
+[2023-06-30 00:21:01] WARNING root fetch - processPackages [SentiLEYE]: Skipping, unable to determine old version
+[2023-06-30 00:21:01] INFO root fetch - processPackages [SentiLEYE]: Start processing: rai-benchmark-test
+[2023-06-30 00:21:01] INFO root fetch - main [MainThread]: End processing [SentiLEYE] error
+[2023-06-30 00:21:01] INFO root fetch - processPackages [ABR]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 00:21:01] WARNING root fetch - processPackages [blacksmith-ai]: Skipping, unable to determine old version
+[2023-06-30 00:21:01] INFO root fetch - processPackages [blacksmith-ai]: Start processing: modal
+[2023-06-30 00:21:01] INFO root fetch - main [MainThread]: End processing [blacksmith-ai] error
+[2023-06-30 00:21:01] INFO root fetch - processPackages [sniimapp]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-30 00:21:01] INFO root fetch - processPackages [amazon-kclpy]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-30 00:21:01] INFO root fetch - processPackages [mksync]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-30 00:21:01] INFO root fetch - processPackages [nsj-rest-lib]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-30 00:21:01] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-30 00:21:01] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev98] Old Version: [0.6.3.dev97]
+[2023-06-30 00:21:01] INFO root fetch - processPackages [modal-client]: New version: [0.49.2509] Old Version: [0.49.2504]
+[2023-06-30 00:21:01] INFO root fetch - processPackages [rai-benchmark-test]: New version: [1.0] Old Version: [0.9]
+[2023-06-30 00:21:01] INFO root fetch - processPackages [modal]: New version: [0.49.2509] Old Version: [0.49.2504]
+[2023-06-30 00:21:01] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/35/0b/af6b32692532d29195ac8507e906d24880c57c788735618c3950d3424a66/sniimapp-0.0.5.tar.gz
+[2023-06-30 00:21:01] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/39/04/5d7b7cd3d87d20380f36661f494fc0946dda8fa3a0020bddd0b018a5fa0c/nsj_rest_lib-1.2.0.tar.gz
+[2023-06-30 00:21:01] INFO root fetch - processPackages [mksync]: Downloading https://files.pythonhosted.org/packages/04/c0/e22d82aa3285a3f91156a58dae9365c660935171121cecd3ade4637e874b/mksync-0.1.3.tar.gz
+[2023-06-30 00:21:01] INFO root fetch - processPackages [amazon-kclpy]: Downloading https://files.pythonhosted.org/packages/02/22/cb5c3179c6f543f3179f19fc69a38f982e01f38824ba03a9439b66d2c987/amazon_kclpy-2.1.1.tar.gz
+[2023-06-30 00:21:01] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2023-06-30 00:21:01] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/52/3e/00e8a7320c4f8c9c3debe4b1423c02ef13f01f377e74630e1cc35e085a3a/khoj_assistant-0.6.3.dev97.tar.gz
+[2023-06-30 00:21:01] INFO root fetch - processPackages [rai-benchmark-test]: Downloading https://files.pythonhosted.org/packages/f1/c6/af7e29c0191e61f84549975aa6873d0f61d1fcb82e7988b948bece7f2aa0/rai_benchmark_test-0.9.tar.gz
+[2023-06-30 00:21:01] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/e5/2b/759e758b0b1de3c48bb993faeacd6f306599884ba18b84f60c39bd2b7be7/modal-0.49.2504-py3-none-any.whl
+[2023-06-30 00:21:01] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/39/5a/a4bd81270e1ac2a16c7479619ea70bdde1b5118fba5a41d5bca7cd8c805b/modal_client-0.49.2504-py3-none-any.whl
+[2023-06-30 00:21:01] INFO root fetch - processPackages [ABR]: Downloading https://files.pythonhosted.org/packages/94/e4/5a902f2f89f37608f75e630fa47189e5f07ca836535252f1265ac5868f8a/ABR-0.0.9.tar.gz
+[2023-06-30 00:21:01] INFO root fetch - processPackages [nsj-rest-lib]: Downloading https://files.pythonhosted.org/packages/54/37/6ccac787b8d075e4e08ed55642b5bdad4ac9b4fe76e6e61f326a53d13be9/nsj_rest_lib-1.2.1.tar.gz
+[2023-06-30 00:21:01] INFO root fetch - processPackages [ABR]: executing diffoscope
+[2023-06-30 00:21:01] INFO root fetch - processPackages [ABR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ABR-0.0.8.tar.gz tmp/ABR-0.0.9.tar.gz --markdown 20230630/A/ABR/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 00:21:01] INFO root fetch - processPackages [mksync]: Downloading https://files.pythonhosted.org/packages/79/88/9ac650c1b5cb2de3a5a2aa6136caf3e856a5ea8e5218c64ff4d6d674241e/mksync-0.1.4.tar.gz
+[2023-06-30 00:21:01] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2023-06-30 00:21:01] INFO root fetch - processPackages [rai-benchmark-test]: Downloading https://files.pythonhosted.org/packages/79/db/61e4f65f8c64235f41b0ddd702e8697761e5ea2cdd9ae1beacb57624b23c/rai_benchmark_test-1.0.tar.gz
+[2023-06-30 00:21:01] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/b0/23/3833aa9a9f8373d8051eec2eab46ff5defe4c41fbbffcb8e51cfb00d420b/sniimapp-0.0.6.tar.gz
+[2023-06-30 00:21:01] INFO root fetch - processPackages [amazon-kclpy]: Downloading https://files.pythonhosted.org/packages/8d/26/c0dbac6e8497f89ed18ff91222ae924bf7d568b39b34e4cbbb7d5a6cd98b/amazon_kclpy-2.1.2.tar.gz
+[2023-06-30 00:21:02] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/9d/ff/7cbd5090c4832c8d2352fba09f03c093a4d17e209c1cf794a07d2b16b554/khoj_assistant-0.6.3.dev98.tar.gz
+[2023-06-30 00:21:02] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/1f/9f/2ac4ddf0189082731961f07841a7f7eaa9fb3c474755c9611ace6634a9a5/modal-0.49.2509-py3-none-any.whl
+[2023-06-30 00:21:02] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/c8/ad/f45160534afd6f82920143fbf88a7d90f7ad1272afb756287c53bb6b66f3/modal_client-0.49.2509-py3-none-any.whl
+[2023-06-30 00:21:02] INFO root fetch - processPackages [nsj-rest-lib]: executing diffoscope
+[2023-06-30 00:21:02] INFO root fetch - processPackages [nsj-rest-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_rest_lib-1.2.0.tar.gz tmp/nsj_rest_lib-1.2.1.tar.gz --markdown 20230630/n/nsj-rest-lib/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-30 00:21:02] INFO root fetch - processPackages [mksync]: executing diffoscope
+[2023-06-30 00:21:02] INFO root fetch - processPackages [mksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mksync-0.1.3.tar.gz tmp/mksync-0.1.4.tar.gz --markdown 20230630/m/mksync/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-30 00:21:02] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-06-30 00:21:02] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230630/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-30 00:21:02] INFO root fetch - processPackages [rai-benchmark-test]: executing diffoscope
+[2023-06-30 00:21:02] INFO root fetch - processPackages [rai-benchmark-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai_benchmark_test-0.9.tar.gz tmp/rai_benchmark_test-1.0.tar.gz --markdown 20230630/r/rai-benchmark-test/0.9-1.0/diff.md --exclude *.pyd
+[2023-06-30 00:21:02] INFO root fetch - processPackages [amazon-kclpy]: executing diffoscope
+[2023-06-30 00:21:02] INFO root fetch - processPackages [amazon-kclpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_kclpy-2.1.1.tar.gz tmp/amazon_kclpy-2.1.2.tar.gz --markdown 20230630/a/amazon-kclpy/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-30 00:21:02] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-06-30 00:21:02] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.5.tar.gz tmp/sniimapp-0.0.6.tar.gz --markdown 20230630/s/sniimapp/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-30 00:21:02] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-06-30 00:21:02] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.49.2504-py3-none-any.whl.zip tmp/modal-0.49.2509-py3-none-any.whl.zip --markdown 20230630/m/modal/0.49.2504-0.49.2509/diff.md --exclude *.pyd
+[2023-06-30 00:21:02] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-06-30 00:21:02] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2504-py3-none-any.whl.zip tmp/modal_client-0.49.2509-py3-none-any.whl.zip --markdown 20230630/m/modal-client/0.49.2504-0.49.2509/diff.md --exclude *.pyd
+[2023-06-30 00:21:02] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-30 00:21:02] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev97.tar.gz tmp/khoj_assistant-0.6.3.dev98.tar.gz --markdown 20230630/k/khoj-assistant/0.6.3.dev97-0.6.3.dev98/diff.md --exclude *.pyd
+[2023-06-30 00:21:03] INFO root fetch - processPackages [ABR]: Remove: archive file [/home/abi/fetcher/tmp/ABR-0.0.8.tar.gz]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [ABR]: Remove: archive file [/home/abi/fetcher/tmp/ABR-0.0.9.tar.gz]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [ABR]: Start processing: nics
+[2023-06-30 00:21:03] INFO root fetch - main [MainThread]: End processing [ABR]: success
+[2023-06-30 00:21:03] INFO root fetch - processPackages [nics]: New version: [1.0.0rc9] Old Version: [1.0.0rc8]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/2a/95/827e42bcc2c84911f217f4da34316ada0eadf83a9ea123ef6510c4272c41/nics-1.0.0rc8.tar.gz
+[2023-06-30 00:21:03] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/18/3e/c9428066a9b1775cf3259ac1885d2a4b68522eeb8327de46159ad37427d7/nics-1.0.0rc9.tar.gz
+[2023-06-30 00:21:03] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-30 00:21:03] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-1.0.0rc8.tar.gz tmp/nics-1.0.0rc9.tar.gz --markdown 20230630/n/nics/1.0.0rc8-1.0.0rc9/diff.md --exclude *.pyd
+[2023-06-30 00:21:03] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2504-py3-none-any.whl.zip]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2509-py3-none-any.whl.zip]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [modal]: Start processing: python-adjudicator
+[2023-06-30 00:21:03] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-06-30 00:21:03] INFO root fetch - processPackages [mksync]: Remove: archive file [/home/abi/fetcher/tmp/mksync-0.1.3.tar.gz]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [mksync]: Remove: archive file [/home/abi/fetcher/tmp/mksync-0.1.4.tar.gz]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [mksync]: Start processing: c-custom-code-checker
+[2023-06-30 00:21:03] INFO root fetch - main [MainThread]: End processing [mksync]: success
+[2023-06-30 00:21:03] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.5.tar.gz]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.6.tar.gz]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [sniimapp]: Start processing: neon-gui
+[2023-06-30 00:21:03] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-06-30 00:21:03] INFO root fetch - processPackages [python-adjudicator]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.5.tar.gz]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.6.tar.gz]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [opvious]: Start processing: dataflat
+[2023-06-30 00:21:03] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-06-30 00:21:03] INFO root fetch - processPackages [c-custom-code-checker]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [neon-gui]: New version: [1.1.3a9] Old Version: [1.1.3a8]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [rai-benchmark-test]: Remove: archive file [/home/abi/fetcher/tmp/rai_benchmark_test-0.9.tar.gz]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [rai-benchmark-test]: Remove: archive file [/home/abi/fetcher/tmp/rai_benchmark_test-1.0.tar.gz]
+[2023-06-30 00:21:03] INFO root fetch - processPackages [rai-benchmark-test]: Start processing: tableau-utilities
+[2023-06-30 00:21:03] INFO root fetch - main [MainThread]: End processing [rai-benchmark-test]: success
+[2023-06-30 00:21:03] INFO root fetch - processPackages [dataflat]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-30 00:21:04] INFO root fetch - processPackages [python-adjudicator]: Downloading https://files.pythonhosted.org/packages/f6/70/6564e386eff578f7888e76477b49a42d8b27ca39446e78017f222158219f/python_adjudicator-0.3.1.tar.gz
+[2023-06-30 00:21:04] INFO root fetch - processPackages [c-custom-code-checker]: Downloading https://files.pythonhosted.org/packages/b5/01/3dcf1be9d1f03d2bea568716cde075a11dffc5d1d54b3c6729cb3098f054/c_custom_code_checker-1.0.3.tar.gz
+[2023-06-30 00:21:04] INFO root fetch - processPackages [neon-gui]: Downloading https://files.pythonhosted.org/packages/37/4e/a52ac8750288020483beb6290241e2705f042616a11e59748b46f93f9947/neon_gui-1.1.3a8.tar.gz
+[2023-06-30 00:21:04] INFO root fetch - processPackages [tableau-utilities]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-30 00:21:04] INFO root fetch - processPackages [amazon-kclpy]: Remove: archive file [/home/abi/fetcher/tmp/amazon_kclpy-2.1.1.tar.gz]
+[2023-06-30 00:21:04] INFO root fetch - processPackages [amazon-kclpy]: Remove: archive file [/home/abi/fetcher/tmp/amazon_kclpy-2.1.2.tar.gz]
+[2023-06-30 00:21:04] INFO root fetch - processPackages [amazon-kclpy]: Start processing: parsing
+[2023-06-30 00:21:04] INFO root fetch - main [MainThread]: End processing [amazon-kclpy]: success
+[2023-06-30 00:21:04] INFO root fetch - processPackages [dataflat]: Downloading https://files.pythonhosted.org/packages/1d/d5/92debf8f7693b0c0b82fba3b3ab11cbc5bd13d16de6d430ef118d87078ae/dataflat-1.0.4.tar.gz
+[2023-06-30 00:21:04] INFO root fetch - processPackages [parsing]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-30 00:21:04] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-1.2.0.tar.gz]
+[2023-06-30 00:21:04] INFO root fetch - processPackages [nsj-rest-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_rest_lib-1.2.1.tar.gz]
+[2023-06-30 00:21:04] INFO root fetch - processPackages [nsj-rest-lib]: Start processing: htcondor
+[2023-06-30 00:21:04] INFO root fetch - main [MainThread]: End processing [nsj-rest-lib]: success
+[2023-06-30 00:21:04] INFO root fetch - processPackages [parsing]: Downloading https://files.pythonhosted.org/packages/50/74/59a8375162cf14443f02edcc819a05742a04cac5e38c5218789c8e7e8a5e/parsing-2.0.1.tar.gz
+[2023-06-30 00:21:04] INFO root fetch - processPackages [python-adjudicator]: Downloading https://files.pythonhosted.org/packages/79/99/74aa473cfd1c980625b47cae83763bad0edfb5d396b391ad486bd49ab967/python_adjudicator-0.3.2.tar.gz
+[2023-06-30 00:21:04] INFO root fetch - processPackages [htcondor]: New version: [9.9.0] Old Version: [9.8.1]
+[2023-06-30 00:21:04] INFO root fetch - processPackages [c-custom-code-checker]: Downloading https://files.pythonhosted.org/packages/71/5b/0b2b86274988dc8138fbcaaf71205ec922293c9e0c63c8cbb6d63079ca8f/c_custom_code_checker-1.0.4.tar.gz
+[2023-06-30 00:21:04] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev97.tar.gz]
+[2023-06-30 00:21:04] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev98.tar.gz]
+[2023-06-30 00:21:04] INFO root fetch - processPackages [khoj-assistant]: Start processing: orbit-database-shell
+[2023-06-30 00:21:04] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-30 00:21:04] INFO root fetch - processPackages [neon-gui]: Downloading https://files.pythonhosted.org/packages/21/50/5538bc67363725d9ebe2d2387cbd2b1c075610cc3b2f1f5e426156098b6a/neon_gui-1.1.3a9.tar.gz
+[2023-06-30 00:21:04] INFO root fetch - processPackages [parsing]: Downloading https://files.pythonhosted.org/packages/f8/ea/445dcfe1798d302cbb45710334bdf983866e07c232a9807536cf2de1f144/parsing-2.0.2.tar.gz
+[2023-06-30 00:21:04] INFO root fetch - processPackages [dataflat]: Downloading https://files.pythonhosted.org/packages/27/80/a78c1d2a50a0c8a6e48c4494ae423a3e7215f4d218c80f51d239efb74fcd/dataflat-1.0.5.tar.gz
+[2023-06-30 00:21:04] INFO root fetch - processPackages [python-adjudicator]: executing diffoscope
+[2023-06-30 00:21:04] INFO root fetch - processPackages [python-adjudicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_adjudicator-0.3.1.tar.gz tmp/python_adjudicator-0.3.2.tar.gz --markdown 20230630/p/python-adjudicator/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-30 00:21:04] INFO root fetch - processPackages [c-custom-code-checker]: executing diffoscope
+[2023-06-30 00:21:04] INFO root fetch - processPackages [c-custom-code-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c_custom_code_checker-1.0.3.tar.gz tmp/c_custom_code_checker-1.0.4.tar.gz --markdown 20230630/c/c-custom-code-checker/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-30 00:21:04] INFO root fetch - processPackages [tableau-utilities]: Downloading https://files.pythonhosted.org/packages/34/08/5499c7ac6a3d018c092c09ec40e97779710b870c73a3ac03f4c82b108a8b/tableau_utilities-2.0.2.tar.gz
+[2023-06-30 00:21:04] INFO root fetch - processPackages [neon-gui]: executing diffoscope
+[2023-06-30 00:21:04] INFO root fetch - processPackages [neon-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_gui-1.1.3a8.tar.gz tmp/neon_gui-1.1.3a9.tar.gz --markdown 20230630/n/neon-gui/1.1.3a8-1.1.3a9/diff.md --exclude *.pyd
+[2023-06-30 00:21:04] INFO root fetch - processPackages [orbit-database-shell]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-30 00:21:04] INFO root fetch - processPackages [parsing]: executing diffoscope
+[2023-06-30 00:21:04] INFO root fetch - processPackages [parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsing-2.0.1.tar.gz tmp/parsing-2.0.2.tar.gz --markdown 20230630/p/parsing/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-30 00:21:04] INFO root fetch - processPackages [dataflat]: executing diffoscope
+[2023-06-30 00:21:04] INFO root fetch - processPackages [dataflat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataflat-1.0.4.tar.gz tmp/dataflat-1.0.5.tar.gz --markdown 20230630/d/dataflat/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-30 00:21:04] INFO root fetch - processPackages [htcondor]: Downloading https://files.pythonhosted.org/packages/d1/07/5a689eae039ef73c8ffceab1af15c78058e539bc8dd1112c58854b5fe235/htcondor-9.8.1-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-30 00:21:04] INFO root fetch - processPackages [tableau-utilities]: executing diffoscope
+[2023-06-30 00:21:04] INFO root fetch - processPackages [tableau-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableau_utilities-2.0.1.tar.gz tmp/tableau_utilities-2.0.2.tar.gz --markdown 20230630/t/tableau-utilities/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-30 00:21:04] INFO root fetch - processPackages [orbit-database-shell]: Downloading https://files.pythonhosted.org/packages/81/27/818c0e48d4de2b9d3431d489af21bfb93e7f6060e5629b8ce8bdc8dfc4c9/orbit_database_shell-1.0.7.tar.gz
+[2023-06-30 00:21:04] INFO root fetch - processPackages [orbit-database-shell]: Downloading https://files.pythonhosted.org/packages/76/45/5ab6c9df3822efddeba922876ce2ec3e7c12d7bada0edbc6665bf7db06e4/orbit_database_shell-1.0.8.tar.gz
+[2023-06-30 00:21:04] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc8.tar.gz]
+[2023-06-30 00:21:04] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc9.tar.gz]
+[2023-06-30 00:21:04] INFO root fetch - processPackages [nics]: Start processing: sqlite3-to-mysql
+[2023-06-30 00:21:04] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-30 00:21:05] INFO root fetch - processPackages [orbit-database-shell]: executing diffoscope
+[2023-06-30 00:21:05] INFO root fetch - processPackages [orbit-database-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_database_shell-1.0.7.tar.gz tmp/orbit_database_shell-1.0.8.tar.gz --markdown 20230630/o/orbit-database-shell/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-30 00:21:05] INFO root fetch - processPackages [sqlite3-to-mysql]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-30 00:21:05] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2504-py3-none-any.whl.zip]
+[2023-06-30 00:21:05] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2509-py3-none-any.whl.zip]
+[2023-06-30 00:21:05] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-06-30 00:21:05] WARNING root fetch - processPackages [htcondor]: Skipping package: exceeds size limit 41992609>=10485760
+[2023-06-30 00:21:05] INFO root fetch - main [MainThread]: End processing [htcondor] error
+[2023-06-30 00:21:05] INFO root fetch - processPackages [sqlite3-to-mysql]: Downloading https://files.pythonhosted.org/packages/8f/54/9b601742e49910c1faf80f1f6a7a190185f43718ed948cb5079e193c85c8/sqlite3_to_mysql-2.0.2.tar.gz
+[2023-06-30 00:21:05] INFO root fetch - processPackages [sqlite3-to-mysql]: Downloading https://files.pythonhosted.org/packages/0a/9f/0d80b6158b4f20400a3ddb5a5c9bc7fb3f929ab0261dab0d1e13ab36d827/sqlite3_to_mysql-2.0.3.tar.gz
+[2023-06-30 00:21:05] INFO root fetch - processPackages [python-adjudicator]: Remove: archive file [/home/abi/fetcher/tmp/python_adjudicator-0.3.1.tar.gz]
+[2023-06-30 00:21:05] INFO root fetch - processPackages [python-adjudicator]: Remove: archive file [/home/abi/fetcher/tmp/python_adjudicator-0.3.2.tar.gz]
+[2023-06-30 00:21:05] INFO root fetch - main [MainThread]: End processing [python-adjudicator]: success
+[2023-06-30 00:21:05] INFO root fetch - processPackages [sqlite3-to-mysql]: executing diffoscope
+[2023-06-30 00:21:05] INFO root fetch - processPackages [sqlite3-to-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite3_to_mysql-2.0.2.tar.gz tmp/sqlite3_to_mysql-2.0.3.tar.gz --markdown 20230630/s/sqlite3-to-mysql/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-30 00:21:05] INFO root fetch - processPackages [neon-gui]: Remove: archive file [/home/abi/fetcher/tmp/neon_gui-1.1.3a8.tar.gz]
+[2023-06-30 00:21:05] INFO root fetch - processPackages [neon-gui]: Remove: archive file [/home/abi/fetcher/tmp/neon_gui-1.1.3a9.tar.gz]
+[2023-06-30 00:21:05] INFO root fetch - main [MainThread]: End processing [neon-gui]: success
+[2023-06-30 00:21:05] INFO root fetch - processPackages [tableau-utilities]: Remove: archive file [/home/abi/fetcher/tmp/tableau_utilities-2.0.1.tar.gz]
+[2023-06-30 00:21:05] INFO root fetch - processPackages [tableau-utilities]: Remove: archive file [/home/abi/fetcher/tmp/tableau_utilities-2.0.2.tar.gz]
+[2023-06-30 00:21:05] INFO root fetch - main [MainThread]: End processing [tableau-utilities]: success
+[2023-06-30 00:21:05] INFO root fetch - processPackages [c-custom-code-checker]: Remove: archive file [/home/abi/fetcher/tmp/c_custom_code_checker-1.0.3.tar.gz]
+[2023-06-30 00:21:05] INFO root fetch - processPackages [c-custom-code-checker]: Remove: archive file [/home/abi/fetcher/tmp/c_custom_code_checker-1.0.4.tar.gz]
+[2023-06-30 00:21:05] INFO root fetch - main [MainThread]: End processing [c-custom-code-checker]: success
+[2023-06-30 00:21:06] INFO root fetch - processPackages [dataflat]: Remove: archive file [/home/abi/fetcher/tmp/dataflat-1.0.4.tar.gz]
+[2023-06-30 00:21:06] INFO root fetch - processPackages [dataflat]: Remove: archive file [/home/abi/fetcher/tmp/dataflat-1.0.5.tar.gz]
+[2023-06-30 00:21:06] INFO root fetch - main [MainThread]: End processing [dataflat]: success
+[2023-06-30 00:21:06] INFO root fetch - processPackages [parsing]: Remove: archive file [/home/abi/fetcher/tmp/parsing-2.0.1.tar.gz]
+[2023-06-30 00:21:06] INFO root fetch - processPackages [parsing]: Remove: archive file [/home/abi/fetcher/tmp/parsing-2.0.2.tar.gz]
+[2023-06-30 00:21:06] INFO root fetch - main [MainThread]: End processing [parsing]: success
+[2023-06-30 00:21:06] INFO root fetch - processPackages [orbit-database-shell]: Remove: archive file [/home/abi/fetcher/tmp/orbit_database_shell-1.0.7.tar.gz]
+[2023-06-30 00:21:06] INFO root fetch - processPackages [orbit-database-shell]: Remove: archive file [/home/abi/fetcher/tmp/orbit_database_shell-1.0.8.tar.gz]
+[2023-06-30 00:21:06] INFO root fetch - main [MainThread]: End processing [orbit-database-shell]: success
+[2023-06-30 00:21:07] INFO root fetch - processPackages [sqlite3-to-mysql]: Remove: archive file [/home/abi/fetcher/tmp/sqlite3_to_mysql-2.0.2.tar.gz]
+[2023-06-30 00:21:07] INFO root fetch - processPackages [sqlite3-to-mysql]: Remove: archive file [/home/abi/fetcher/tmp/sqlite3_to_mysql-2.0.3.tar.gz]
+[2023-06-30 00:21:07] INFO root fetch - main [MainThread]: End processing [sqlite3-to-mysql]: success
+[2023-06-30 00:21:07] INFO root fetch - main [MainThread]: Store serial: [18701773]
