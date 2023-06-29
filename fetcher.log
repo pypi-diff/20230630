@@ -1178,3 +1178,72 @@
 [2023-06-30 01:25:59] INFO root fetch - processPackages [pipettor]: Remove: archive file [/home/abi/fetcher/tmp/pipettor-1.0.0.tar.gz]
 [2023-06-30 01:25:59] INFO root fetch - main [MainThread]: End processing [pipettor]: success
 [2023-06-30 01:25:59] INFO root fetch - main [MainThread]: Store serial: [18702073]
+[2023-06-30 01:31:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702073]
+[2023-06-30 01:31:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-30 01:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stellanow-cli
+[2023-06-30 01:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopack-tools
+[2023-06-30 01:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: user-discord
+[2023-06-30 01:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ortega
+[2023-06-30 01:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llmreflect
+[2023-06-30 01:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-hr-timesheet-sheet
+[2023-06-30 01:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cocoserver
+[2023-06-30 01:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dank-mids
+[2023-06-30 01:31:08] INFO root fetch - processPackages [ortega]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-06-30 01:31:08] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.1.0.9]
+[2023-06-30 01:31:08] INFO root fetch - processPackages [user-discord]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-06-30 01:31:08] INFO root fetch - processPackages [cocoserver]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-06-30 01:31:08] INFO root fetch - processPackages [stellanow-cli]: New version: [0.0.9rc2] Old Version: [0.0.9rc1]
+[2023-06-30 01:31:08] WARNING root fetch - processPackages [llmreflect]: Skipping, unable to determine old version
+[2023-06-30 01:31:08] INFO root fetch - main [MainThread]: End processing [llmreflect] error
+[2023-06-30 01:31:08] INFO root fetch - processPackages [autopack-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 01:31:08] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-30 01:31:08] INFO root fetch - processPackages [ortega]: Downloading https://files.pythonhosted.org/packages/17/36/33f4880b3aaf0babb76bc987edee9c68f6451a1c63e4c4883ee108debf73/ortega-1.0.5.tar.gz
+[2023-06-30 01:31:08] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/71/cf/4e682b588c1e44233a2037a1b1ac4e87f652cadf477f1dbfeaf7c40ffb61/user_discord-1.3.4.tar.gz
+[2023-06-30 01:31:08] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/ef/0c/f57d60eb05dae4cba5d661461902b4a48bcf09ed761732d4d1b06da5e1ec/autopack_tools-0.1.8.tar.gz
+[2023-06-30 01:31:08] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-30 01:31:08] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/98/e1/9b4eab039c7b0f4fe7b9733bb8ebf2fc493ef34155e00c7cb2bf1f2f5d55/odoo_addon_hr_timesheet_sheet-15.0.1.1.0.9-py3-none-any.whl
+[2023-06-30 01:31:08] INFO root fetch - processPackages [stellanow-cli]: Downloading https://files.pythonhosted.org/packages/b9/3b/8f0c4cf59ff8befe0ca97f06d667e335c68a1e520cd3ec90e83861e393f9/stellanow_cli-0.0.9rc1.tar.gz
+[2023-06-30 01:31:08] INFO root fetch - processPackages [ortega]: Downloading https://files.pythonhosted.org/packages/f7/01/95a00a394b3409c5ae92b1f0e15dd1c30eb447c49eea880ebf0b294421b8/ortega-1.0.7.tar.gz
+[2023-06-30 01:31:08] INFO root fetch - processPackages [cocoserver]: Downloading https://files.pythonhosted.org/packages/8e/64/089e65e3a1155235fb121f05c4c9ccc736c1fab97302b7ab5b7c823ccc55/cocoserver-1.0.6.tar.gz
+[2023-06-30 01:31:08] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/bc/2e/f0d8e8182bf7f585a96ee564c6c8516419f3a7e7ef764e3e0cc4ac7831ba/autopack_tools-0.1.9.tar.gz
+[2023-06-30 01:31:08] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/3a/8c/cc645b032438772df7c02c5522084316d390ff4983fe0e5260a5d6fa7654/user_discord-1.3.5.tar.gz
+[2023-06-30 01:31:08] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-30 01:31:08] INFO root fetch - processPackages [ortega]: executing diffoscope
+[2023-06-30 01:31:08] INFO root fetch - processPackages [ortega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ortega-1.0.5.tar.gz tmp/ortega-1.0.7.tar.gz --markdown 20230630/o/ortega/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-06-30 01:31:08] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-06-30 01:31:08] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.1.8.tar.gz tmp/autopack_tools-0.1.9.tar.gz --markdown 20230630/a/autopack-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 01:31:09] INFO root fetch - processPackages [user-discord]: executing diffoscope
+[2023-06-30 01:31:09] INFO root fetch - processPackages [user-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user_discord-1.3.4.tar.gz tmp/user_discord-1.3.5.tar.gz --markdown 20230630/u/user-discord/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-06-30 01:31:09] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-30 01:31:09] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230630/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-30 01:31:09] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/fb/f8/94e147901bbe9388c035dd1f8f1cdd120ddb920a04161ce30e844c9408b3/odoo_addon_hr_timesheet_sheet-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-30 01:31:09] INFO root fetch - processPackages [stellanow-cli]: Downloading https://files.pythonhosted.org/packages/e1/95/0462e5ab4f979e3575a8103327dd7f7a42482faedb7b204c016236ee88b9/stellanow_cli-0.0.9rc2.tar.gz
+[2023-06-30 01:31:09] INFO root fetch - processPackages [cocoserver]: Downloading https://files.pythonhosted.org/packages/5c/dc/b56c061ff445a858051180168b8d05f9a5308b952965a8a432de5d811686/cocoserver-1.0.8.tar.gz
+[2023-06-30 01:31:09] INFO root fetch - processPackages [stellanow-cli]: executing diffoscope
+[2023-06-30 01:31:09] INFO root fetch - processPackages [stellanow-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stellanow_cli-0.0.9rc1.tar.gz tmp/stellanow_cli-0.0.9rc2.tar.gz --markdown 20230630/s/stellanow-cli/0.0.9rc1-0.0.9rc2/diff.md --exclude *.pyd
+[2023-06-30 01:31:09] INFO root fetch - processPackages [cocoserver]: executing diffoscope
+[2023-06-30 01:31:09] INFO root fetch - processPackages [cocoserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocoserver-1.0.6.tar.gz tmp/cocoserver-1.0.8.tar.gz --markdown 20230630/c/cocoserver/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-06-30 01:31:09] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: executing diffoscope
+[2023-06-30 01:31:09] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_timesheet_sheet-15.0.1.1.0.9-py3-none-any.whl.zip tmp/odoo_addon_hr_timesheet_sheet-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230630/o/odoo-addon-hr-timesheet-sheet/15.0.1.1.0.9-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-30 01:31:10] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.3.4.tar.gz]
+[2023-06-30 01:31:10] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.3.5.tar.gz]
+[2023-06-30 01:31:10] INFO root fetch - main [MainThread]: End processing [user-discord]: success
+[2023-06-30 01:31:10] INFO root fetch - processPackages [ortega]: Remove: archive file [/home/abi/fetcher/tmp/ortega-1.0.5.tar.gz]
+[2023-06-30 01:31:10] INFO root fetch - processPackages [ortega]: Remove: archive file [/home/abi/fetcher/tmp/ortega-1.0.7.tar.gz]
+[2023-06-30 01:31:10] INFO root fetch - main [MainThread]: End processing [ortega]: success
+[2023-06-30 01:31:10] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-30 01:31:10] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-30 01:31:10] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-30 01:31:10] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.1.8.tar.gz]
+[2023-06-30 01:31:10] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.1.9.tar.gz]
+[2023-06-30 01:31:10] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-06-30 01:31:10] INFO root fetch - processPackages [cocoserver]: Remove: archive file [/home/abi/fetcher/tmp/cocoserver-1.0.6.tar.gz]
+[2023-06-30 01:31:10] INFO root fetch - processPackages [cocoserver]: Remove: archive file [/home/abi/fetcher/tmp/cocoserver-1.0.8.tar.gz]
+[2023-06-30 01:31:10] INFO root fetch - main [MainThread]: End processing [cocoserver]: success
+[2023-06-30 01:31:10] INFO root fetch - processPackages [stellanow-cli]: Remove: archive file [/home/abi/fetcher/tmp/stellanow_cli-0.0.9rc1.tar.gz]
+[2023-06-30 01:31:10] INFO root fetch - processPackages [stellanow-cli]: Remove: archive file [/home/abi/fetcher/tmp/stellanow_cli-0.0.9rc2.tar.gz]
+[2023-06-30 01:31:10] INFO root fetch - main [MainThread]: End processing [stellanow-cli]: success
+[2023-06-30 01:31:11] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_sheet-15.0.1.1.0.9-py3-none-any.whl.zip]
+[2023-06-30 01:31:11] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_sheet-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-30 01:31:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-sheet]: success
+[2023-06-30 01:31:11] INFO root fetch - main [MainThread]: Store serial: [18702096]
