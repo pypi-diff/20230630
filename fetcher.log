@@ -1575,3 +1575,65 @@
 [2023-06-30 01:54:29] INFO root fetch - processPackages [datahtml]: Remove: archive file [/home/abi/fetcher/tmp/datahtml-0.4.0rc9.tar.gz]
 [2023-06-30 01:54:29] INFO root fetch - main [MainThread]: End processing [datahtml]: success
 [2023-06-30 01:54:29] INFO root fetch - main [MainThread]: Store serial: [18702250]
+[2023-06-30 01:59:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702250]
+[2023-06-30 01:59:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-30 01:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minilog
+[2023-06-30 01:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-github
+[2023-06-30 01:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nimblephysics
+[2023-06-30 01:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymsbuild
+[2023-06-30 01:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydwm1001
+[2023-06-30 01:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hypha
+[2023-06-30 01:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ptarcade
+[2023-06-30 01:59:38] INFO root fetch - processPackages [minilog]: New version: [2.2b1] Old Version: [2.2]
+[2023-06-30 01:59:38] INFO root fetch - processPackages [pymsbuild]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-06-30 01:59:38] INFO root fetch - processPackages [nimblephysics]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-30 01:59:38] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 01:59:38] INFO root fetch - processPackages [pydwm1001]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-30 01:59:38] INFO root fetch - processPackages [ptarcade]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 01:59:38] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-06-30 01:59:38] INFO root fetch - processPackages [minilog]: Downloading https://files.pythonhosted.org/packages/0f/1b/971e1fed3069da0d8872ef2d559cf1f22dccd7946264276bb1a3db0572b3/minilog-2.2.tar.gz
+[2023-06-30 01:59:38] INFO root fetch - processPackages [nimblephysics]: Downloading https://files.pythonhosted.org/packages/e2/b9/4722adb08c31a974418723f0ac892aa3845d4afb9dbcc696ac2515a3fca8/nimblephysics-0.9.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-30 01:59:38] INFO root fetch - processPackages [pydwm1001]: Downloading https://files.pythonhosted.org/packages/6f/70/c3be4fbb310e00c417e7a405ae76a7e3172c8d6d3c6f7d3efce74e981a4e/pydwm1001-0.4.0.tar.gz
+[2023-06-30 01:59:38] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-06-30 01:59:38] INFO root fetch - processPackages [pymsbuild]: Downloading https://files.pythonhosted.org/packages/39/82/0a6b19f03bd8d0554cc392cc46fbe030cf10285cfacf556f5d78b765f03d/pymsbuild-1.0.0a1.tar.gz
+[2023-06-30 01:59:38] INFO root fetch - processPackages [ptarcade]: Downloading https://files.pythonhosted.org/packages/91/b0/7e98a4650c27ff4f9a7bdfa8fb55d1cd162f034e0b93363c9334bf5d3c7c/ptarcade-0.1.0.tar.gz
+[2023-06-30 01:59:38] WARNING root fetch - processPackages [nimblephysics]: Skipping package: exceeds size limit 67824984>=10485760
+[2023-06-30 01:59:38] INFO root fetch - main [MainThread]: End processing [nimblephysics] error
+[2023-06-30 01:59:38] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-06-30 01:59:38] INFO root fetch - processPackages [minilog]: Downloading https://files.pythonhosted.org/packages/0d/ed/5a186cc38796c82e614d1ae74d5b6e1b40d7ae0bd31238d78e3a6f6cd4f9/minilog-2.2b1.tar.gz
+[2023-06-30 01:59:38] INFO root fetch - processPackages [pydwm1001]: Downloading https://files.pythonhosted.org/packages/3c/83/9cd2ff07d39bb4fd392c4cb015896582fd46507a81796318ab1cf2732323/pydwm1001-0.5.0.tar.gz
+[2023-06-30 01:59:38] INFO root fetch - processPackages [pymsbuild]: Downloading https://files.pythonhosted.org/packages/b7/7a/200c9d1af67f3a0bb0127d3e61c66bfaafba455279b12994da3ae87409ab/pymsbuild-1.0.0a2.tar.gz
+[2023-06-30 01:59:38] INFO root fetch - processPackages [minilog]: executing diffoscope
+[2023-06-30 01:59:38] INFO root fetch - processPackages [minilog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minilog-2.2.tar.gz tmp/minilog-2.2b1.tar.gz --markdown 20230630/m/minilog/2.2-2.2b1/diff.md --exclude *.pyd
+[2023-06-30 01:59:39] INFO root fetch - processPackages [ptarcade]: Downloading https://files.pythonhosted.org/packages/be/72/1acd75605ee9d4ee22919727a375dbb7d5ca8e94b830694ac4b5883c7968/ptarcade-0.1.1-py3-none-any.whl
+[2023-06-30 01:59:39] INFO root fetch - processPackages [pydwm1001]: executing diffoscope
+[2023-06-30 01:59:39] INFO root fetch - processPackages [pydwm1001]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydwm1001-0.4.0.tar.gz tmp/pydwm1001-0.5.0.tar.gz --markdown 20230630/p/pydwm1001/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-30 01:59:39] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-06-30 01:59:39] INFO root fetch - processPackages [pymsbuild]: executing diffoscope
+[2023-06-30 01:59:39] INFO root fetch - processPackages [pymsbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymsbuild-1.0.0a1.tar.gz tmp/pymsbuild-1.0.0a2.tar.gz --markdown 20230630/p/pymsbuild/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-06-30 01:59:39] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-06-30 01:59:39] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-06-30 01:59:39] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230630/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 01:59:39] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-06-30 01:59:39] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230630/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-06-30 01:59:39] INFO root fetch - processPackages [ptarcade]: executing diffoscope
+[2023-06-30 01:59:39] INFO root fetch - processPackages [ptarcade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptarcade-0.1.0.tar.gz tmp/ptarcade-0.1.1-py3-none-any.whl.zip --markdown 20230630/p/ptarcade/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 01:59:40] INFO root fetch - processPackages [minilog]: Remove: archive file [/home/abi/fetcher/tmp/minilog-2.2.tar.gz]
+[2023-06-30 01:59:40] INFO root fetch - processPackages [minilog]: Remove: archive file [/home/abi/fetcher/tmp/minilog-2.2b1.tar.gz]
+[2023-06-30 01:59:40] INFO root fetch - main [MainThread]: End processing [minilog]: success
+[2023-06-30 01:59:40] INFO root fetch - processPackages [pydwm1001]: Remove: archive file [/home/abi/fetcher/tmp/pydwm1001-0.4.0.tar.gz]
+[2023-06-30 01:59:40] INFO root fetch - processPackages [pydwm1001]: Remove: archive file [/home/abi/fetcher/tmp/pydwm1001-0.5.0.tar.gz]
+[2023-06-30 01:59:40] INFO root fetch - main [MainThread]: End processing [pydwm1001]: success
+[2023-06-30 01:59:40] INFO root fetch - processPackages [ptarcade]: Remove: archive file [/home/abi/fetcher/tmp/ptarcade-0.1.0.tar.gz]
+[2023-06-30 01:59:40] INFO root fetch - processPackages [ptarcade]: Remove: archive file [/home/abi/fetcher/tmp/ptarcade-0.1.1-py3-none-any.whl.zip]
+[2023-06-30 01:59:40] INFO root fetch - main [MainThread]: End processing [ptarcade]: success
+[2023-06-30 01:59:40] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-06-30 01:59:40] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-06-30 01:59:40] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-06-30 01:59:40] INFO root fetch - processPackages [pymsbuild]: Remove: archive file [/home/abi/fetcher/tmp/pymsbuild-1.0.0a1.tar.gz]
+[2023-06-30 01:59:40] INFO root fetch - processPackages [pymsbuild]: Remove: archive file [/home/abi/fetcher/tmp/pymsbuild-1.0.0a2.tar.gz]
+[2023-06-30 01:59:40] INFO root fetch - main [MainThread]: End processing [pymsbuild]: success
+[2023-06-30 01:59:40] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-06-30 01:59:40] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-06-30 01:59:40] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-06-30 01:59:40] INFO root fetch - main [MainThread]: Store serial: [18702271]
