@@ -1106,3 +1106,75 @@
 [2023-06-30 01:20:48] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306292317-py3-none-any.whl.zip]
 [2023-06-30 01:20:48] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-30 01:20:48] INFO root fetch - main [MainThread]: Store serial: [18702045]
+[2023-06-30 01:25:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702045]
+[2023-06-30 01:25:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-30 01:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipettor
+[2023-06-30 01:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: user-discord
+[2023-06-30 01:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llmreflect
+[2023-06-30 01:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exergenics-etl
+[2023-06-30 01:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ollama
+[2023-06-30 01:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: macrometa-target-mssql
+[2023-06-30 01:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-model-import
+[2023-06-30 01:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cetpy
+[2023-06-30 01:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RcToolBox
+[2023-06-30 01:25:57] WARNING root fetch - processPackages [llmreflect]: Skipping, unable to determine old version
+[2023-06-30 01:25:57] INFO root fetch - main [MainThread]: End processing [llmreflect] error
+[2023-06-30 01:25:57] INFO root fetch - processPackages [pipettor]: New version: [1.0.0] Old Version: [0.8.0]
+[2023-06-30 01:25:57] INFO root fetch - processPackages [exergenics-etl]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-30 01:25:57] INFO root fetch - processPackages [ollama]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-30 01:25:57] INFO root fetch - processPackages [django-model-import]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-30 01:25:57] INFO root fetch - processPackages [user-discord]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-30 01:25:57] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 01:25:57] INFO root fetch - processPackages [ollama]: Downloading https://files.pythonhosted.org/packages/f5/de/65b309154785eb62a37fad4868cb309d92476b13e694f9525c925244ba49/ollama-0.0.5.tar.gz
+[2023-06-30 01:25:57] WARNING root fetch - processPackages [cetpy]: Skipping, unable to determine old version
+[2023-06-30 01:25:57] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-06-30 01:25:57] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/3b/04/5e70b59cb7649670b999b488353c0575751168649003f52b720263623909/user_discord-1.3.3.tar.gz
+[2023-06-30 01:25:57] INFO root fetch - main [MainThread]: End processing [cetpy] error
+[2023-06-30 01:25:57] INFO root fetch - processPackages [RcToolBox]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-30 01:25:57] INFO root fetch - processPackages [exergenics-etl]: Downloading https://files.pythonhosted.org/packages/bf/ba/bef9ef10587b3ed92aebe51d45c629a4629d15cbb041c17cb534b9ed7abf/exergenics-etl-1.5.2.tar.gz
+[2023-06-30 01:25:57] INFO root fetch - processPackages [pipettor]: Downloading https://files.pythonhosted.org/packages/e4/e4/7a7ec5c2a96622a22db616077390ce69d0d13c7e94adb0b01d8d404d96dc/pipettor-0.8.0.tar.gz
+[2023-06-30 01:25:57] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-06-30 01:25:57] INFO root fetch - processPackages [django-model-import]: Downloading https://files.pythonhosted.org/packages/92/f6/28828855ada81dd446bfe617b44b35ef82d130ea530975c97eebaeafae9a/django_model_import-0.7.1.tar.gz
+[2023-06-30 01:25:57] INFO root fetch - processPackages [RcToolBox]: Downloading https://files.pythonhosted.org/packages/ba/85/f541b35c497b49944c7187c7e9f1f3041be0e317e867fa9cd1efc954a4fe/RcToolBox-0.0.4.tar.gz
+[2023-06-30 01:25:57] INFO root fetch - processPackages [ollama]: Downloading https://files.pythonhosted.org/packages/f4/62/60ba6f2eba2932cd601fbdb2a62d26238187dbd2ac72097258df525f3a3f/ollama-0.0.6.tar.gz
+[2023-06-30 01:25:57] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/71/cf/4e682b588c1e44233a2037a1b1ac4e87f652cadf477f1dbfeaf7c40ffb61/user_discord-1.3.4.tar.gz
+[2023-06-30 01:25:57] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-30 01:25:57] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230630/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 01:25:57] INFO root fetch - processPackages [exergenics-etl]: Downloading https://files.pythonhosted.org/packages/28/14/f31672af322a68ef3a3d27ec8f4a6f857bb93a3df0b17f569c4fe2ee110a/exergenics-etl-1.5.3.tar.gz
+[2023-06-30 01:25:57] INFO root fetch - processPackages [user-discord]: executing diffoscope
+[2023-06-30 01:25:57] INFO root fetch - processPackages [user-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user_discord-1.3.3.tar.gz tmp/user_discord-1.3.4.tar.gz --markdown 20230630/u/user-discord/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-30 01:25:57] INFO root fetch - processPackages [ollama]: executing diffoscope
+[2023-06-30 01:25:57] INFO root fetch - processPackages [ollama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ollama-0.0.5.tar.gz tmp/ollama-0.0.6.tar.gz --markdown 20230630/o/ollama/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-30 01:25:57] INFO root fetch - processPackages [RcToolBox]: Downloading https://files.pythonhosted.org/packages/04/af/cdbb8659a2b11ebcac9d99e360879623ebb87f50f070e5e99594f37285ad/RcToolBox-0.0.5.tar.gz
+[2023-06-30 01:25:57] INFO root fetch - processPackages [pipettor]: Downloading https://files.pythonhosted.org/packages/cf/89/280b4b62215b9cd3055cce365a59ad1da5a6437b3fb445884010369125e5/pipettor-1.0.0.tar.gz
+[2023-06-30 01:25:57] INFO root fetch - processPackages [django-model-import]: Downloading https://files.pythonhosted.org/packages/13/4f/8edd7b54a7ceb539e65d72dfeab1d0f9acd0b457231ee9f0c350ef0e0622/django_model_import-0.7.2.tar.gz
+[2023-06-30 01:25:57] INFO root fetch - processPackages [exergenics-etl]: executing diffoscope
+[2023-06-30 01:25:57] INFO root fetch - processPackages [exergenics-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-etl-1.5.2.tar.gz tmp/exergenics-etl-1.5.3.tar.gz --markdown 20230630/e/exergenics-etl/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-30 01:25:57] INFO root fetch - processPackages [pipettor]: executing diffoscope
+[2023-06-30 01:25:57] INFO root fetch - processPackages [pipettor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipettor-0.8.0.tar.gz tmp/pipettor-1.0.0.tar.gz --markdown 20230630/p/pipettor/0.8.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-30 01:25:57] INFO root fetch - processPackages [RcToolBox]: executing diffoscope
+[2023-06-30 01:25:57] INFO root fetch - processPackages [RcToolBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RcToolBox-0.0.4.tar.gz tmp/RcToolBox-0.0.5.tar.gz --markdown 20230630/R/RcToolBox/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-30 01:25:57] INFO root fetch - processPackages [django-model-import]: executing diffoscope
+[2023-06-30 01:25:57] INFO root fetch - processPackages [django-model-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_model_import-0.7.1.tar.gz tmp/django_model_import-0.7.2.tar.gz --markdown 20230630/d/django-model-import/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-30 01:25:58] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.3.3.tar.gz]
+[2023-06-30 01:25:58] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.3.4.tar.gz]
+[2023-06-30 01:25:58] INFO root fetch - main [MainThread]: End processing [user-discord]: success
+[2023-06-30 01:25:59] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-06-30 01:25:59] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-06-30 01:25:59] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-30 01:25:59] INFO root fetch - processPackages [RcToolBox]: Remove: archive file [/home/abi/fetcher/tmp/RcToolBox-0.0.4.tar.gz]
+[2023-06-30 01:25:59] INFO root fetch - processPackages [RcToolBox]: Remove: archive file [/home/abi/fetcher/tmp/RcToolBox-0.0.5.tar.gz]
+[2023-06-30 01:25:59] INFO root fetch - main [MainThread]: End processing [RcToolBox]: success
+[2023-06-30 01:25:59] INFO root fetch - processPackages [exergenics-etl]: Remove: archive file [/home/abi/fetcher/tmp/exergenics-etl-1.5.2.tar.gz]
+[2023-06-30 01:25:59] INFO root fetch - processPackages [exergenics-etl]: Remove: archive file [/home/abi/fetcher/tmp/exergenics-etl-1.5.3.tar.gz]
+[2023-06-30 01:25:59] INFO root fetch - main [MainThread]: End processing [exergenics-etl]: success
+[2023-06-30 01:25:59] INFO root fetch - processPackages [django-model-import]: Remove: archive file [/home/abi/fetcher/tmp/django_model_import-0.7.1.tar.gz]
+[2023-06-30 01:25:59] INFO root fetch - processPackages [django-model-import]: Remove: archive file [/home/abi/fetcher/tmp/django_model_import-0.7.2.tar.gz]
+[2023-06-30 01:25:59] INFO root fetch - main [MainThread]: End processing [django-model-import]: success
+[2023-06-30 01:25:59] INFO root fetch - processPackages [ollama]: Remove: archive file [/home/abi/fetcher/tmp/ollama-0.0.5.tar.gz]
+[2023-06-30 01:25:59] INFO root fetch - processPackages [ollama]: Remove: archive file [/home/abi/fetcher/tmp/ollama-0.0.6.tar.gz]
+[2023-06-30 01:25:59] INFO root fetch - main [MainThread]: End processing [ollama]: success
+[2023-06-30 01:25:59] INFO root fetch - processPackages [pipettor]: Remove: archive file [/home/abi/fetcher/tmp/pipettor-0.8.0.tar.gz]
+[2023-06-30 01:25:59] INFO root fetch - processPackages [pipettor]: Remove: archive file [/home/abi/fetcher/tmp/pipettor-1.0.0.tar.gz]
+[2023-06-30 01:25:59] INFO root fetch - main [MainThread]: End processing [pipettor]: success
+[2023-06-30 01:25:59] INFO root fetch - main [MainThread]: Store serial: [18702073]
