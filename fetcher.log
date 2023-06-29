@@ -1320,3 +1320,127 @@
 [2023-06-30 01:38:47] INFO root fetch - processPackages [apache-flink-ml]: Remove: archive file [/home/abi/fetcher/tmp/apache-flink-ml-2.3.0.tar.gz]
 [2023-06-30 01:38:47] INFO root fetch - main [MainThread]: End processing [apache-flink-ml]: success
 [2023-06-30 01:38:47] INFO root fetch - main [MainThread]: Store serial: [18702128]
+[2023-06-30 01:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702128]
+[2023-06-30 01:43:57] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-30 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-06-30 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: consultapmuxm
+[2023-06-30 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seleniumbase
+[2023-06-30 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: numina-data-client
+[2023-06-30 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chiapos
+[2023-06-30 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blackboardsync
+[2023-06-30 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sbase
+[2023-06-30 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: selenium-base
+[2023-06-30 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-sbase
+[2023-06-30 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-seleniumbase
+[2023-06-30 01:43:57] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-30 01:43:57] INFO root fetch - processPackages [chiapos]: New version: [2.0.0b1] Old Version: [1.0.9]
+[2023-06-30 01:43:57] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-30 01:43:57] INFO root fetch - processPackages [numina-data-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-30 01:43:57] INFO root fetch - processPackages [blackboardsync]: New version: [0.9.7a1] Old Version: [0.9.6a1]
+[2023-06-30 01:43:57] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-30 01:43:57] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-30 01:43:57] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-30 01:43:57] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-30 01:43:57] WARNING root fetch - processPackages [consultapmuxm]: Skipping, unable to determine old version
+[2023-06-30 01:43:57] INFO root fetch - processPackages [consultapmuxm]: Start processing: qworker
+[2023-06-30 01:43:57] INFO root fetch - main [MainThread]: End processing [consultapmuxm] error
+[2023-06-30 01:43:57] INFO root fetch - processPackages [qworker]: New version: [1.8.8] Old Version: [1.8.7]
+[2023-06-30 01:43:57] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/5c/ee/c63c1b185d2dde60efa0c32a925de1654f85cfb922f42de74b28d5b22530/blackboardsync-0.9.6a1.tar.gz
+[2023-06-30 01:43:57] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-30 01:43:57] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2023-06-30 01:43:57] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/27/b5/cfc684a398db3c4d671b2baf9749cd589978252a04749962e1f1b1fae313/chiapos-1.0.9.tar.gz
+[2023-06-30 01:43:57] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2023-06-30 01:43:57] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2023-06-30 01:43:57] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/f2/81/71bbd9c4c8976792b661d7a2f93a62a00d9240640b87852ff451873749dd/qworker-1.8.7-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-30 01:43:57] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-06-30 01:43:57] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2023-06-30 01:43:57] INFO root fetch - processPackages [numina-data-client]: executing diffoscope
+[2023-06-30 01:43:57] INFO root fetch - processPackages [numina-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numina-data-client-0.8.0.tar.gz tmp/numina-data-client-0.9.0.tar.gz --markdown 20230630/n/numina-data-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-30 01:43:57] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/bc/b3/183d2e6e6059e743294c11203762b0e53e71410ad00aaf6caed85b08b7d4/blackboardsync-0.9.7a1.tar.gz
+[2023-06-30 01:43:57] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-30 01:43:57] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2023-06-30 01:43:57] INFO root fetch - processPackages [blackboardsync]: executing diffoscope
+[2023-06-30 01:43:57] INFO root fetch - processPackages [blackboardsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboardsync-0.9.6a1.tar.gz tmp/blackboardsync-0.9.7a1.tar.gz --markdown 20230630/b/blackboardsync/0.9.6a1-0.9.7a1/diff.md --exclude *.pyd
+[2023-06-30 01:43:57] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2023-06-30 01:43:57] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/72/82/3f70f5e67e163363ef714d9ef0b8b657571b9ceae09eec7149bb905f6ab7/qworker-1.8.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-30 01:43:57] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2023-06-30 01:43:57] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-30 01:43:57] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230630/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-30 01:43:57] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-06-30 01:43:57] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230630/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-30 01:43:58] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-06-30 01:43:58] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-06-30 01:43:58] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230630/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-30 01:43:58] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-06-30 01:43:58] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230630/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-30 01:43:58] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-06-30 01:43:58] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.8.7-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.8.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230630/q/qworker/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2023-06-30 01:43:58] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-06-30 01:43:58] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230630/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-30 01:43:58] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2023-06-30 01:43:58] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-06-30 01:43:58] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230630/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-30 01:43:58] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/e1/2b/c9d0145b1d5abe8f6eb057605434700a6643589030a6d9380cc23187a898/chiapos-2.0.0b1.tar.gz
+[2023-06-30 01:43:58] INFO root fetch - processPackages [chiapos]: executing diffoscope
+[2023-06-30 01:43:58] INFO root fetch - processPackages [chiapos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiapos-1.0.9.tar.gz tmp/chiapos-2.0.0b1.tar.gz --markdown 20230630/c/chiapos/1.0.9-2.0.0b1/diff.md --exclude *.pyd
+[2023-06-30 01:43:58] INFO root fetch - processPackages [numina-data-client]: Remove: archive file [/home/abi/fetcher/tmp/numina-data-client-0.8.0.tar.gz]
+[2023-06-30 01:43:58] INFO root fetch - processPackages [numina-data-client]: Remove: archive file [/home/abi/fetcher/tmp/numina-data-client-0.9.0.tar.gz]
+[2023-06-30 01:43:58] INFO root fetch - processPackages [numina-data-client]: Start processing: ecoengine
+[2023-06-30 01:43:58] INFO root fetch - main [MainThread]: End processing [numina-data-client]: success
+[2023-06-30 01:43:58] INFO root fetch - processPackages [ecoengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 01:43:59] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/d8/e5/5b3594045f107ce24e058d4f5ac188087d76010f4389991a7c9a9ce4beb6/ecoengine-0.0.8.tar.gz
+[2023-06-30 01:43:59] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/b4/06/8712491ed487422ca74801e6051cd89e398183d43abb0a99e904022af6ba/ecoengine-0.0.9.tar.gz
+[2023-06-30 01:43:59] INFO root fetch - processPackages [ecoengine]: executing diffoscope
+[2023-06-30 01:43:59] INFO root fetch - processPackages [ecoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoengine-0.0.8.tar.gz tmp/ecoengine-0.0.9.tar.gz --markdown 20230630/e/ecoengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 01:43:59] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2023-06-30 01:43:59] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2023-06-30 01:43:59] INFO root fetch - processPackages [sbase]: Start processing: flowtask
+[2023-06-30 01:43:59] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-06-30 01:43:59] INFO root fetch - processPackages [flowtask]: New version: [4.5.9] Old Version: [4.5.8]
+[2023-06-30 01:43:59] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-30 01:43:59] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-30 01:43:59] INFO root fetch - processPackages [dank-mids]: Start processing: ICICONSOLE-GPT
+[2023-06-30 01:43:59] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-30 01:43:59] WARNING root fetch - processPackages [ICICONSOLE-GPT]: Skipping, unable to determine old version
+[2023-06-30 01:43:59] INFO root fetch - processPackages [ICICONSOLE-GPT]: Start processing: odoo-addon-l10n-es-aeat-sii-oca
+[2023-06-30 01:43:59] INFO root fetch - main [MainThread]: End processing [ICICONSOLE-GPT] error
+[2023-06-30 01:43:59] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.6a1.tar.gz]
+[2023-06-30 01:43:59] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.7a1.tar.gz]
+[2023-06-30 01:43:59] INFO root fetch - main [MainThread]: End processing [blackboardsync]: success
+[2023-06-30 01:43:59] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2023-06-30 01:43:59] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2023-06-30 01:43:59] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-06-30 01:43:59] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: New version: [16.0.1.3.1] Old Version: [16.0.1.3.0]
+[2023-06-30 01:43:59] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/ad/e7/2a7bdbefc43301a163c5989db8711c8a7285f1cad001672a53b0613d45cc/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-30 01:44:00] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/dc/b1/4825bb34bb46de835ddc9fe82d13a0684ebdb4bfacc424e0d618d37d5d09/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl
+[2023-06-30 01:44:00] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/40/3f/6507a40a2b7c28c76b87c5c1a167ebe91fb68b890e36eadc35df33e5f2a8/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl
+[2023-06-30 01:44:00] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.8.7-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-30 01:44:00] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.8.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-30 01:44:00] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-06-30 01:44:00] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: executing diffoscope
+[2023-06-30 01:44:00] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl.zip --markdown 20230630/o/odoo-addon-l10n-es-aeat-sii-oca/16.0.1.3.0-16.0.1.3.1/diff.md --exclude *.pyd
+[2023-06-30 01:44:00] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2023-06-30 01:44:00] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2023-06-30 01:44:00] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-06-30 01:44:00] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.8.tar.gz]
+[2023-06-30 01:44:00] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.9.tar.gz]
+[2023-06-30 01:44:00] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
+[2023-06-30 01:44:00] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/76/cb/ef23ff55853e577b3477d762009a1fc68908a244c1bfb016650886d6699b/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-30 01:44:00] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2023-06-30 01:44:00] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2023-06-30 01:44:00] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-06-30 01:44:00] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-06-30 01:44:00] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230630/f/flowtask/4.5.8-4.5.9/diff.md --exclude *.pyd
+[2023-06-30 01:44:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl.zip]
+[2023-06-30 01:44:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl.zip]
+[2023-06-30 01:44:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oca]: success
+[2023-06-30 01:44:03] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2023-06-30 01:44:03] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2023-06-30 01:44:03] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-06-30 01:44:03] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-30 01:44:03] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-30 01:44:03] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-06-30 01:44:04] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-1.0.9.tar.gz]
+[2023-06-30 01:44:04] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-2.0.0b1.tar.gz]
+[2023-06-30 01:44:04] INFO root fetch - main [MainThread]: End processing [chiapos]: success
+[2023-06-30 01:44:04] INFO root fetch - main [MainThread]: Store serial: [18702198]
