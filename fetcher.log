@@ -418,3 +418,92 @@
 [2023-06-30 00:26:23] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.9.tar.gz]
 [2023-06-30 00:26:23] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2023-06-30 00:26:23] INFO root fetch - main [MainThread]: Store serial: [18701798]
+[2023-06-30 00:31:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18701798]
+[2023-06-30 00:31:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-30 00:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelbit
+[2023-06-30 00:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ollama
+[2023-06-30 00:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgbelt
+[2023-06-30 00:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nics
+[2023-06-30 00:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: user-discord
+[2023-06-30 00:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bentoml
+[2023-06-30 00:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: example-package-zaw
+[2023-06-30 00:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-databricks
+[2023-06-30 00:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-equilibrium
+[2023-06-30 00:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rai-benchmark-test
+[2023-06-30 00:31:31] INFO root fetch - processPackages [example-package-zaw]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-30 00:31:31] INFO root fetch - processPackages [user-discord]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-30 00:31:31] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-30 00:31:31] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2023-06-30 00:31:31] INFO root fetch - processPackages [nics]: New version: [1.0.0rc9] Old Version: [1.0.0rc8]
+[2023-06-30 00:31:31] INFO root fetch - processPackages [ollama]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-30 00:31:31] INFO root fetch - processPackages [pgbelt]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-06-30 00:31:31] INFO root fetch - processPackages [bentoml]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 00:31:31] INFO root fetch - processPackages [rai-benchmark-test]: New version: [1.1] Old Version: [1.0]
+[2023-06-30 00:31:31] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2023-06-30 00:31:31] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/2a/95/827e42bcc2c84911f217f4da34316ada0eadf83a9ea123ef6510c4272c41/nics-1.0.0rc8.tar.gz
+[2023-06-30 00:31:31] INFO root fetch - processPackages [ollama]: Downloading https://files.pythonhosted.org/packages/02/3e/64f060b6709c8dcf463140263d42f19d2c591ae27a65eedccfd6bf9381fd/ollama-0.0.4.tar.gz
+[2023-06-30 00:31:31] INFO root fetch - processPackages [rai-benchmark-test]: Downloading https://files.pythonhosted.org/packages/79/db/61e4f65f8c64235f41b0ddd702e8697761e5ea2cdd9ae1beacb57624b23c/rai_benchmark_test-1.0.tar.gz
+[2023-06-30 00:31:31] INFO root fetch - processPackages [python-equilibrium]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-30 00:31:31] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2023-06-30 00:31:31] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/59/f4/bea1d660cb984d7df8cd1834cc50520ebeccb8f95ce207bcf289f2eab6ad/user_discord-1.2.9.tar.gz
+[2023-06-30 00:31:31] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/18/3e/c9428066a9b1775cf3259ac1885d2a4b68522eeb8327de46159ad37427d7/nics-1.0.0rc9.tar.gz
+[2023-06-30 00:31:31] INFO root fetch - processPackages [pgbelt]: Downloading https://files.pythonhosted.org/packages/b5/07/4193c1bf4e20175ebdb1cfac5bad1638965605f3f79d0f7f82e3664eddcd/pgbelt-0.2.4.tar.gz
+[2023-06-30 00:31:31] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2023-06-30 00:31:31] INFO root fetch - processPackages [example-package-zaw]: Downloading https://files.pythonhosted.org/packages/cb/85/7fd298c7d7af6420c8d04f1131278ff1c6900dbfcc302aa68338dc3c4768/example_package_zaw-0.0.1.tar.gz
+[2023-06-30 00:31:32] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/03/dd/fcdee2ea476e419e1baa92d9614d8de2d843cd53fc82c4ccb1b5a86d7b46/bentoml-1.0.8.tar.gz
+[2023-06-30 00:31:32] INFO root fetch - processPackages [python-equilibrium]: Downloading https://files.pythonhosted.org/packages/b3/95/a2ed31d30455c4952c6b805b545e8980082e933ae085407952f0848ede0c/python_equilibrium-0.7.0.tar.gz
+[2023-06-30 00:31:32] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-30 00:31:32] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-1.0.0rc8.tar.gz tmp/nics-1.0.0rc9.tar.gz --markdown 20230630/n/nics/1.0.0rc8-1.0.0rc9/diff.md --exclude *.pyd
+[2023-06-30 00:31:32] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2023-06-30 00:31:32] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20230630/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/diff.md --exclude *.pyd
+[2023-06-30 00:31:32] INFO root fetch - processPackages [rai-benchmark-test]: Downloading https://files.pythonhosted.org/packages/0a/53/93181ce2adffe245a2449f457ebbee091bb272caf27565a45def1a9158d2/rai_benchmark_test-1.1.tar.gz
+[2023-06-30 00:31:32] INFO root fetch - processPackages [ollama]: Downloading https://files.pythonhosted.org/packages/f5/de/65b309154785eb62a37fad4868cb309d92476b13e694f9525c925244ba49/ollama-0.0.5.tar.gz
+[2023-06-30 00:31:32] INFO root fetch - processPackages [rai-benchmark-test]: executing diffoscope
+[2023-06-30 00:31:32] INFO root fetch - processPackages [rai-benchmark-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai_benchmark_test-1.0.tar.gz tmp/rai_benchmark_test-1.1.tar.gz --markdown 20230630/r/rai-benchmark-test/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-30 00:31:32] INFO root fetch - processPackages [example-package-zaw]: Downloading https://files.pythonhosted.org/packages/86/a2/af305fb22a165dfe1aba871c4f5e3fe681dd86edf5dedc73a9f909028229/example_package_zaw-0.0.2.tar.gz
+[2023-06-30 00:31:32] INFO root fetch - processPackages [ollama]: executing diffoscope
+[2023-06-30 00:31:32] INFO root fetch - processPackages [ollama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ollama-0.0.4.tar.gz tmp/ollama-0.0.5.tar.gz --markdown 20230630/o/ollama/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-30 00:31:32] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2023-06-30 00:31:32] INFO root fetch - processPackages [example-package-zaw]: executing diffoscope
+[2023-06-30 00:31:32] INFO root fetch - processPackages [example-package-zaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example_package_zaw-0.0.1.tar.gz tmp/example_package_zaw-0.0.2.tar.gz --markdown 20230630/e/example-package-zaw/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 00:31:32] INFO root fetch - processPackages [pgbelt]: Downloading https://files.pythonhosted.org/packages/50/f8/d1cdea4581c5f8afe5dadedba4a098d65196672eebd9ed9e580d0188f6de/pgbelt-0.3.0.tar.gz
+[2023-06-30 00:31:32] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/e0/82/9fbb3e95520f6cec4baea83cd1de75bdb8f68940ff1d85ec9498a011aa2d/user_discord-1.3.0.tar.gz
+[2023-06-30 00:31:32] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-06-30 00:31:32] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230630/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-30 00:31:32] INFO root fetch - processPackages [python-equilibrium]: Downloading https://files.pythonhosted.org/packages/73/74/f8899ec457deb8774fa76a67fd44c63b97bdf82824428f4dbfc62869235b/python_equilibrium-0.7.1.tar.gz
+[2023-06-30 00:31:32] INFO root fetch - processPackages [pgbelt]: executing diffoscope
+[2023-06-30 00:31:32] INFO root fetch - processPackages [pgbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgbelt-0.2.4.tar.gz tmp/pgbelt-0.3.0.tar.gz --markdown 20230630/p/pgbelt/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-06-30 00:31:32] INFO root fetch - processPackages [user-discord]: executing diffoscope
+[2023-06-30 00:31:32] INFO root fetch - processPackages [user-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user_discord-1.2.9.tar.gz tmp/user_discord-1.3.0.tar.gz --markdown 20230630/u/user-discord/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-30 00:31:32] INFO root fetch - processPackages [python-equilibrium]: executing diffoscope
+[2023-06-30 00:31:32] INFO root fetch - processPackages [python-equilibrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_equilibrium-0.7.0.tar.gz tmp/python_equilibrium-0.7.1.tar.gz --markdown 20230630/p/python-equilibrium/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-30 00:31:32] WARNING root fetch - processPackages [bentoml]: Skipping package: exceeds size limit 14352845>=10485760
+[2023-06-30 00:31:32] INFO root fetch - main [MainThread]: End processing [bentoml] error
+[2023-06-30 00:31:33] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc8.tar.gz]
+[2023-06-30 00:31:33] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc9.tar.gz]
+[2023-06-30 00:31:33] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-30 00:31:33] INFO root fetch - processPackages [rai-benchmark-test]: Remove: archive file [/home/abi/fetcher/tmp/rai_benchmark_test-1.0.tar.gz]
+[2023-06-30 00:31:33] INFO root fetch - processPackages [rai-benchmark-test]: Remove: archive file [/home/abi/fetcher/tmp/rai_benchmark_test-1.1.tar.gz]
+[2023-06-30 00:31:33] INFO root fetch - main [MainThread]: End processing [rai-benchmark-test]: success
+[2023-06-30 00:31:33] INFO root fetch - processPackages [example-package-zaw]: Remove: archive file [/home/abi/fetcher/tmp/example_package_zaw-0.0.1.tar.gz]
+[2023-06-30 00:31:33] INFO root fetch - processPackages [example-package-zaw]: Remove: archive file [/home/abi/fetcher/tmp/example_package_zaw-0.0.2.tar.gz]
+[2023-06-30 00:31:33] INFO root fetch - main [MainThread]: End processing [example-package-zaw]: success
+[2023-06-30 00:31:33] INFO root fetch - processPackages [ollama]: Remove: archive file [/home/abi/fetcher/tmp/ollama-0.0.4.tar.gz]
+[2023-06-30 00:31:33] INFO root fetch - processPackages [ollama]: Remove: archive file [/home/abi/fetcher/tmp/ollama-0.0.5.tar.gz]
+[2023-06-30 00:31:33] INFO root fetch - main [MainThread]: End processing [ollama]: success
+[2023-06-30 00:31:33] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2023-06-30 00:31:33] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2023-06-30 00:31:33] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-06-30 00:31:34] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.2.9.tar.gz]
+[2023-06-30 00:31:34] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.3.0.tar.gz]
+[2023-06-30 00:31:34] INFO root fetch - main [MainThread]: End processing [user-discord]: success
+[2023-06-30 00:31:34] INFO root fetch - processPackages [pgbelt]: Remove: archive file [/home/abi/fetcher/tmp/pgbelt-0.2.4.tar.gz]
+[2023-06-30 00:31:34] INFO root fetch - processPackages [pgbelt]: Remove: archive file [/home/abi/fetcher/tmp/pgbelt-0.3.0.tar.gz]
+[2023-06-30 00:31:34] INFO root fetch - main [MainThread]: End processing [pgbelt]: success
+[2023-06-30 00:31:34] INFO root fetch - processPackages [python-equilibrium]: Remove: archive file [/home/abi/fetcher/tmp/python_equilibrium-0.7.0.tar.gz]
+[2023-06-30 00:31:34] INFO root fetch - processPackages [python-equilibrium]: Remove: archive file [/home/abi/fetcher/tmp/python_equilibrium-0.7.1.tar.gz]
+[2023-06-30 00:31:34] INFO root fetch - main [MainThread]: End processing [python-equilibrium]: success
+[2023-06-30 00:31:34] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2023-06-30 00:31:34] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2023-06-30 00:31:34] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2023-06-30 00:31:34] INFO root fetch - main [MainThread]: Store serial: [18701825]
