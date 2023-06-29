@@ -837,3 +837,33 @@
 [2023-06-30 00:52:54] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.2.0rc9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-30 00:52:54] INFO root fetch - main [MainThread]: End processing [quil]: success
 [2023-06-30 00:52:54] INFO root fetch - main [MainThread]: Store serial: [18701941]
+[2023-06-30 00:58:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18701941]
+[2023-06-30 00:58:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-30 00:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-30 00:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: user-discord
+[2023-06-30 00:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-target-mssql
+[2023-06-30 00:58:07] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 00:58:07] INFO root fetch - processPackages [user-discord]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-30 00:58:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.382] Old Version: [0.3.381]
+[2023-06-30 00:58:07] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-06-30 00:58:07] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/e0/82/9fbb3e95520f6cec4baea83cd1de75bdb8f68940ff1d85ec9498a011aa2d/user_discord-1.3.0.tar.gz
+[2023-06-30 00:58:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/e2/b1/5d25a4ec23cbf7a44551d30930033421bf27b6a383d3803854a1c1b8220a/pepperize.cdk-ses-smtp-credentials-0.3.381.tar.gz
+[2023-06-30 00:58:07] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-06-30 00:58:07] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-30 00:58:07] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230630/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 00:58:07] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/cf/ce/562a72fbe7f710fb529a7adda7777b1c3e32eae1b755096f7b671bc66a18/user_discord-1.3.1.tar.gz
+[2023-06-30 00:58:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/37/1a/d0c7e9aa2087e2f7a1d7a953048a4b8b1569867bdf71f0cceac75de1fc16/pepperize.cdk-ses-smtp-credentials-0.3.382.tar.gz
+[2023-06-30 00:58:07] INFO root fetch - processPackages [user-discord]: executing diffoscope
+[2023-06-30 00:58:07] INFO root fetch - processPackages [user-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user_discord-1.3.0.tar.gz tmp/user_discord-1.3.1.tar.gz --markdown 20230630/u/user-discord/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-30 00:58:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-30 00:58:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.381.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.382.tar.gz --markdown 20230630/p/pepperize.cdk-ses-smtp-credentials/0.3.381-0.3.382/diff.md --exclude *.pyd
+[2023-06-30 00:58:08] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.3.0.tar.gz]
+[2023-06-30 00:58:08] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.3.1.tar.gz]
+[2023-06-30 00:58:08] INFO root fetch - main [MainThread]: End processing [user-discord]: success
+[2023-06-30 00:58:08] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-06-30 00:58:08] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-06-30 00:58:08] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-30 00:58:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.381.tar.gz]
+[2023-06-30 00:58:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.382.tar.gz]
+[2023-06-30 00:58:08] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-30 00:58:08] INFO root fetch - main [MainThread]: Store serial: [18701950]
