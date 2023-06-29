@@ -1502,3 +1502,76 @@
 [2023-06-30 01:49:15] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202306292345.tar.gz]
 [2023-06-30 01:49:15] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
 [2023-06-30 01:49:15] INFO root fetch - main [MainThread]: Store serial: [18702225]
+[2023-06-30 01:54:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702225]
+[2023-06-30 01:54:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-30 01:54:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ICICONSOLE-GPT
+[2023-06-30 01:54:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invoke-common-tasks
+[2023-06-30 01:54:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: com.castsoftware.uc.oneclick
+[2023-06-30 01:54:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sh40-carmine
+[2023-06-30 01:54:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moesifwsgi
+[2023-06-30 01:54:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ICICONSOLE-GPT
+[2023-06-30 01:54:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datahtml
+[2023-06-30 01:54:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: com.castsoftware.uc.python.common
+[2023-06-30 01:54:25] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: New version: [0.2.3.2b0] Old Version: [0.2.3.1b0]
+[2023-06-30 01:54:25] INFO root fetch - processPackages [ICICONSOLE-GPT]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-30 01:54:25] INFO root fetch - processPackages [moesifwsgi]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-06-30 01:54:25] INFO root fetch - processPackages [sh40-carmine]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-30 01:54:25] INFO root fetch - processPackages [ICICONSOLE-GPT]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-30 01:54:25] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 01:54:25] INFO root fetch - processPackages [invoke-common-tasks]: New version: [0.4.0b1] Old Version: [0.3.2]
+[2023-06-30 01:54:25] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Downloading https://files.pythonhosted.org/packages/3e/f5/e84af1e36dfe8428763a04eea38ae40c42c6898ac0d3abe395bedb3fe2ba/com.castsoftware.uc.oneclick-0.2.3.1b0.tar.gz
+[2023-06-30 01:54:25] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: Downloading https://files.pythonhosted.org/packages/80/8e/fbc02a94f934844f87e6f0df2a9898e2cd0ce0c137c675cec5e95eaa17e6/com.castsoftware.uc.python.common-1.0.8.tar.gz
+[2023-06-30 01:54:25] INFO root fetch - processPackages [datahtml]: New version: [0.4.0rc9] Old Version: [0.4.0rc8]
+[2023-06-30 01:54:25] INFO root fetch - processPackages [ICICONSOLE-GPT]: Downloading https://files.pythonhosted.org/packages/42/c6/1a6054bee600e7344f464218c16663773a85945ec71de76319dd0d341acb/ICICONSOLE-GPT-0.0.3.tar.gz
+[2023-06-30 01:54:25] INFO root fetch - processPackages [ICICONSOLE-GPT]: Downloading https://files.pythonhosted.org/packages/42/c6/1a6054bee600e7344f464218c16663773a85945ec71de76319dd0d341acb/ICICONSOLE-GPT-0.0.3.tar.gz
+[2023-06-30 01:54:25] INFO root fetch - processPackages [datahtml]: Downloading https://files.pythonhosted.org/packages/3d/56/22ada13e1f8e72a448cb7c9efd2b8f7755ba2b45cdc9f986193471bd3b4f/datahtml-0.4.0rc8.tar.gz
+[2023-06-30 01:54:25] INFO root fetch - processPackages [moesifwsgi]: Downloading https://files.pythonhosted.org/packages/0b/8d/26422a499d162668f263749e57d5f256f396d442c9b322af3ad761361170/moesifwsgi-1.8.0.tar.gz
+[2023-06-30 01:54:25] INFO root fetch - processPackages [sh40-carmine]: Downloading https://files.pythonhosted.org/packages/cc/d8/15e5aa845136afece41ed2a3db63bc02db96d4d9cb77faed17772904f059/sh40_carmine-0.1.0.tar.gz
+[2023-06-30 01:54:26] INFO root fetch - processPackages [invoke-common-tasks]: Downloading https://files.pythonhosted.org/packages/8c/b8/3f6419bc85344774398fe1d12c97a5a070d827ac66f14677d5efbcdc5eb9/invoke-common-tasks-0.3.2.tar.gz
+[2023-06-30 01:54:26] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: Downloading https://files.pythonhosted.org/packages/84/93/d95ee2e0763796458166b5e0aa32c45741b2b0be7e91cf97a77779079abb/com.castsoftware.uc.python.common-1.0.9.tar.gz
+[2023-06-30 01:54:26] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Downloading https://files.pythonhosted.org/packages/a4/6d/6c202559618998ff9124a210a766bd705fd33050907821aacae64b362146/com.castsoftware.uc.oneclick-0.2.3.2b0.tar.gz
+[2023-06-30 01:54:26] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: executing diffoscope
+[2023-06-30 01:54:26] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.castsoftware.uc.python.common-1.0.8.tar.gz tmp/com.castsoftware.uc.python.common-1.0.9.tar.gz --markdown 20230630/c/com.castsoftware.uc.python.common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 01:54:26] INFO root fetch - processPackages [datahtml]: Downloading https://files.pythonhosted.org/packages/61/32/9dae453c5476be7de2ed987aaa37d0fbb7aa0f4035a0b0537963b2f2e50f/datahtml-0.4.0rc9.tar.gz
+[2023-06-30 01:54:26] INFO root fetch - processPackages [invoke-common-tasks]: Downloading https://files.pythonhosted.org/packages/ce/2e/5dfb3b95b6cea86c9faefc8bcf59b62ba43f6034519f6d4299bc57c2f8e7/invoke_common_tasks-0.4.0b1.tar.gz
+[2023-06-30 01:54:26] INFO root fetch - processPackages [moesifwsgi]: Downloading https://files.pythonhosted.org/packages/4c/ef/116e926f92d3ca09b79820c4c4cc86df53178e4005e6c51521b5a24e4300/moesifwsgi-1.8.1.tar.gz
+[2023-06-30 01:54:26] INFO root fetch - processPackages [ICICONSOLE-GPT]: Downloading https://files.pythonhosted.org/packages/59/15/6d1b851ce1dbb904bb415d23410542adadae53805e63e65899d13acb3de5/ICICONSOLE-GPT-0.0.4.tar.gz
+[2023-06-30 01:54:26] INFO root fetch - processPackages [datahtml]: executing diffoscope
+[2023-06-30 01:54:26] INFO root fetch - processPackages [datahtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datahtml-0.4.0rc8.tar.gz tmp/datahtml-0.4.0rc9.tar.gz --markdown 20230630/d/datahtml/0.4.0rc8-0.4.0rc9/diff.md --exclude *.pyd
+[2023-06-30 01:54:26] INFO root fetch - processPackages [ICICONSOLE-GPT]: Downloading https://files.pythonhosted.org/packages/59/15/6d1b851ce1dbb904bb415d23410542adadae53805e63e65899d13acb3de5/ICICONSOLE-GPT-0.0.4.tar.gz
+[2023-06-30 01:54:26] INFO root fetch - processPackages [sh40-carmine]: Downloading https://files.pythonhosted.org/packages/5e/8b/fb949bed49801aaecd0128a45a5ad0dd2ff2f542449032c826f83174f830/sh40_carmine-0.2.0.tar.gz
+[2023-06-30 01:54:26] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: executing diffoscope
+[2023-06-30 01:54:26] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.castsoftware.uc.oneclick-0.2.3.1b0.tar.gz tmp/com.castsoftware.uc.oneclick-0.2.3.2b0.tar.gz --markdown 20230630/c/com.castsoftware.uc.oneclick/0.2.3.1b0-0.2.3.2b0/diff.md --exclude *.pyd
+[2023-06-30 01:54:26] INFO root fetch - processPackages [invoke-common-tasks]: executing diffoscope
+[2023-06-30 01:54:26] INFO root fetch - processPackages [invoke-common-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invoke-common-tasks-0.3.2.tar.gz tmp/invoke_common_tasks-0.4.0b1.tar.gz --markdown 20230630/i/invoke-common-tasks/0.3.2-0.4.0b1/diff.md --exclude *.pyd
+[2023-06-30 01:54:26] INFO root fetch - processPackages [sh40-carmine]: executing diffoscope
+[2023-06-30 01:54:26] INFO root fetch - processPackages [sh40-carmine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh40_carmine-0.1.0.tar.gz tmp/sh40_carmine-0.2.0.tar.gz --markdown 20230630/s/sh40-carmine/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-30 01:54:26] INFO root fetch - processPackages [ICICONSOLE-GPT]: executing diffoscope
+[2023-06-30 01:54:26] INFO root fetch - processPackages [ICICONSOLE-GPT]: executing diffoscope
+[2023-06-30 01:54:26] INFO root fetch - processPackages [ICICONSOLE-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICICONSOLE-GPT-0.0.3.tar.gz tmp/ICICONSOLE-GPT-0.0.4.tar.gz --markdown 20230630/I/ICICONSOLE-GPT/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-30 01:54:26] INFO root fetch - processPackages [ICICONSOLE-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICICONSOLE-GPT-0.0.3.tar.gz tmp/ICICONSOLE-GPT-0.0.4.tar.gz --markdown 20230630/I/ICICONSOLE-GPT/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-30 01:54:26] INFO root fetch - processPackages [moesifwsgi]: executing diffoscope
+[2023-06-30 01:54:26] INFO root fetch - processPackages [moesifwsgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moesifwsgi-1.8.0.tar.gz tmp/moesifwsgi-1.8.1.tar.gz --markdown 20230630/m/moesifwsgi/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-06-30 01:54:27] INFO root fetch - processPackages [invoke-common-tasks]: Remove: archive file [/home/abi/fetcher/tmp/invoke-common-tasks-0.3.2.tar.gz]
+[2023-06-30 01:54:27] INFO root fetch - processPackages [invoke-common-tasks]: Remove: archive file [/home/abi/fetcher/tmp/invoke_common_tasks-0.4.0b1.tar.gz]
+[2023-06-30 01:54:27] INFO root fetch - main [MainThread]: End processing [invoke-common-tasks]: success
+[2023-06-30 01:54:27] INFO root fetch - processPackages [ICICONSOLE-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ICICONSOLE-GPT-0.0.3.tar.gz]
+[2023-06-30 01:54:27] INFO root fetch - processPackages [ICICONSOLE-GPT]: Remove: archive file [/home/abi/fetcher/tmp/ICICONSOLE-GPT-0.0.4.tar.gz]
+[2023-06-30 01:54:27] INFO root fetch - main [MainThread]: End processing [ICICONSOLE-GPT]: success
+[2023-06-30 01:54:27] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: Remove: archive file [/home/abi/fetcher/tmp/com.castsoftware.uc.python.common-1.0.8.tar.gz]
+[2023-06-30 01:54:27] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: Remove: archive file [/home/abi/fetcher/tmp/com.castsoftware.uc.python.common-1.0.9.tar.gz]
+[2023-06-30 01:54:27] INFO root fetch - main [MainThread]: End processing [com.castsoftware.uc.python.common]: success
+[2023-06-30 01:54:27] INFO root fetch - processPackages [moesifwsgi]: Remove: archive file [/home/abi/fetcher/tmp/moesifwsgi-1.8.0.tar.gz]
+[2023-06-30 01:54:27] INFO root fetch - processPackages [moesifwsgi]: Remove: archive file [/home/abi/fetcher/tmp/moesifwsgi-1.8.1.tar.gz]
+[2023-06-30 01:54:27] INFO root fetch - main [MainThread]: End processing [moesifwsgi]: success
+[2023-06-30 01:54:28] INFO root fetch - main [MainThread]: End processing [ICICONSOLE-GPT]: success
+[2023-06-30 01:54:28] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Remove: archive file [/home/abi/fetcher/tmp/com.castsoftware.uc.oneclick-0.2.3.1b0.tar.gz]
+[2023-06-30 01:54:28] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Remove: archive file [/home/abi/fetcher/tmp/com.castsoftware.uc.oneclick-0.2.3.2b0.tar.gz]
+[2023-06-30 01:54:28] INFO root fetch - main [MainThread]: End processing [com.castsoftware.uc.oneclick]: success
+[2023-06-30 01:54:28] INFO root fetch - processPackages [sh40-carmine]: Remove: archive file [/home/abi/fetcher/tmp/sh40_carmine-0.1.0.tar.gz]
+[2023-06-30 01:54:28] INFO root fetch - processPackages [sh40-carmine]: Remove: archive file [/home/abi/fetcher/tmp/sh40_carmine-0.2.0.tar.gz]
+[2023-06-30 01:54:28] INFO root fetch - main [MainThread]: End processing [sh40-carmine]: success
+[2023-06-30 01:54:29] INFO root fetch - processPackages [datahtml]: Remove: archive file [/home/abi/fetcher/tmp/datahtml-0.4.0rc8.tar.gz]
+[2023-06-30 01:54:29] INFO root fetch - processPackages [datahtml]: Remove: archive file [/home/abi/fetcher/tmp/datahtml-0.4.0rc9.tar.gz]
+[2023-06-30 01:54:29] INFO root fetch - main [MainThread]: End processing [datahtml]: success
+[2023-06-30 01:54:29] INFO root fetch - main [MainThread]: Store serial: [18702250]
