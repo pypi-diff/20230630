@@ -507,3 +507,33 @@
 [2023-06-30 00:31:34] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
 [2023-06-30 00:31:34] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
 [2023-06-30 00:31:34] INFO root fetch - main [MainThread]: Store serial: [18701825]
+[2023-06-30 00:36:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18701825]
+[2023-06-30 00:36:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-30 00:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yea-wandb
+[2023-06-30 00:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccxt
+[2023-06-30 00:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-events
+[2023-06-30 00:36:43] INFO root fetch - processPackages [google-events]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-30 00:36:43] INFO root fetch - processPackages [yea-wandb]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-30 00:36:43] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-30 00:36:43] INFO root fetch - processPackages [google-events]: Downloading https://files.pythonhosted.org/packages/8f/c3/e9cc13cbfc930a23c7bcc33f53c18a730a690bc9684fc0d384b27d98dbfa/google-events-0.8.0.tar.gz
+[2023-06-30 00:36:43] INFO root fetch - processPackages [yea-wandb]: Downloading https://files.pythonhosted.org/packages/a5/59/c565e112781e00e020cf837de4ff85e8d70081811d4a91dabc47ba527028/yea-wandb-0.9.8.tar.gz
+[2023-06-30 00:36:43] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-30 00:36:44] INFO root fetch - processPackages [google-events]: Downloading https://files.pythonhosted.org/packages/64/69/f488acfc09f3e5ac64a93a4ca683342e1bb58809c0c41e703143332104a4/google-events-0.9.0.tar.gz
+[2023-06-30 00:36:44] INFO root fetch - processPackages [yea-wandb]: Downloading https://files.pythonhosted.org/packages/91/66/c56ccf3e1c3196994bd1aa81fc78d09cc428628791a95a71c968d2dc4329/yea-wandb-0.9.9.tar.gz
+[2023-06-30 00:36:44] INFO root fetch - processPackages [google-events]: executing diffoscope
+[2023-06-30 00:36:44] INFO root fetch - processPackages [google-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-events-0.8.0.tar.gz tmp/google-events-0.9.0.tar.gz --markdown 20230630/g/google-events/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-30 00:36:44] INFO root fetch - processPackages [yea-wandb]: executing diffoscope
+[2023-06-30 00:36:44] INFO root fetch - processPackages [yea-wandb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yea-wandb-0.9.8.tar.gz tmp/yea-wandb-0.9.9.tar.gz --markdown 20230630/y/yea-wandb/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-30 00:36:45] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-30 00:36:45] INFO root fetch - processPackages [yea-wandb]: Remove: archive file [/home/abi/fetcher/tmp/yea-wandb-0.9.8.tar.gz]
+[2023-06-30 00:36:45] INFO root fetch - processPackages [yea-wandb]: Remove: archive file [/home/abi/fetcher/tmp/yea-wandb-0.9.9.tar.gz]
+[2023-06-30 00:36:45] INFO root fetch - main [MainThread]: End processing [yea-wandb]: success
+[2023-06-30 00:36:46] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-30 00:36:46] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230630/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-30 00:36:47] INFO root fetch - processPackages [google-events]: Remove: archive file [/home/abi/fetcher/tmp/google-events-0.8.0.tar.gz]
+[2023-06-30 00:36:47] INFO root fetch - processPackages [google-events]: Remove: archive file [/home/abi/fetcher/tmp/google-events-0.9.0.tar.gz]
+[2023-06-30 00:36:47] INFO root fetch - main [MainThread]: End processing [google-events]: success
+[2023-06-30 00:36:56] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-30 00:36:56] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-30 00:36:56] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-30 00:36:56] INFO root fetch - main [MainThread]: Store serial: [18701835]
