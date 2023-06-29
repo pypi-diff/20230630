@@ -537,3 +537,108 @@
 [2023-06-30 00:36:56] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
 [2023-06-30 00:36:56] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-06-30 00:36:56] INFO root fetch - main [MainThread]: Store serial: [18701835]
+[2023-06-30 00:42:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18701835]
+[2023-06-30 00:42:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-30 00:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: truss
+[2023-06-30 00:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-equilibrium
+[2023-06-30 00:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yaetos
+[2023-06-30 00:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mercury-sync
+[2023-06-30 00:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blacksmith-ai
+[2023-06-30 00:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: griptape
+[2023-06-30 00:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiotus
+[2023-06-30 00:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: galah-python
+[2023-06-30 00:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zeno-build
+[2023-06-30 00:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ecopipeline
+[2023-06-30 00:42:05] INFO root fetch - processPackages [truss]: New version: [0.4.9rc9] Old Version: [0.4.9rc5]
+[2023-06-30 00:42:05] ERROR root fetch - processPackages [blacksmith-ai]: Unable to get metadata: No such project 'blacksmith-ai'
+[2023-06-30 00:42:05] INFO root fetch - processPackages [blacksmith-ai]: Start processing: autotraders
+[2023-06-30 00:42:05] INFO root fetch - main [MainThread]: End processing [blacksmith-ai] error
+[2023-06-30 00:42:05] INFO root fetch - processPackages [yaetos]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-30 00:42:05] INFO root fetch - processPackages [python-equilibrium]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-30 00:42:05] INFO root fetch - processPackages [zeno-build]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-30 00:42:05] INFO root fetch - processPackages [griptape]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-30 00:42:05] INFO root fetch - processPackages [aiotus]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 00:42:05] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-30 00:42:06] INFO root fetch - processPackages [galah-python]: New version: [0.5.0] Old Version: [0.1.0]
+[2023-06-30 00:42:06] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 00:42:06] INFO root fetch - processPackages [autotraders]: New version: [1.6.0] Old Version: [1.5.5]
+[2023-06-30 00:42:06] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/a5/ac/6da658c05b328c158997857f4315d9203f0c68cfcb1a90b247c8966bad5b/truss-0.4.9rc5.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [python-equilibrium]: Downloading https://files.pythonhosted.org/packages/73/74/f8899ec457deb8774fa76a67fd44c63b97bdf82824428f4dbfc62869235b/python_equilibrium-0.7.1.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [yaetos]: Downloading https://files.pythonhosted.org/packages/e5/c7/071e8854d0198df21f3ed96803e096ebdc06d5d107b00d50d03f2bf41fd5/yaetos-0.9.8-py2.py3-none-any.whl
+[2023-06-30 00:42:06] INFO root fetch - processPackages [galah-python]: Downloading https://files.pythonhosted.org/packages/7a/10/550d7962f10cf79f1f1a4ed6f752db91e4c3af848d234a6f0d40b270bc6b/galah_python-0.1.0-py3-none-any.whl
+[2023-06-30 00:42:06] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/cb/75/4560f5e82f0f4207498d2d541602a9919ddc6ae8fabf6f5226fdc7cd498d/ecopipeline-0.0.8.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/92/97/5f78d50e5618eaf7c5f3f918d7ea2a494d65cb8ebc0daf5e329af774240d/truss-0.4.9rc9.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/29/6d/fc7b90c70cd63b8696e72fd64a36fc8241b54cb79583727577606bd5f865/autotraders-1.5.5.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [zeno-build]: Downloading https://files.pythonhosted.org/packages/79/8b/35cf8c6d6fc41ef224e0357fcdb96e9036952ede0ebee323a7841d4fa580/zeno_build-0.0.2.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [aiotus]: Downloading https://files.pythonhosted.org/packages/a7/8c/8aae26a10747f37ea8c94a6de313d968d8a0f64f4b9175ac3566ffcd1125/aiotus-0.1.8.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/61/6a/bcf2cf6048e3abdc73de35cbae9b02a4d5a43d68bdd51e246ecddb0472b1/griptape-0.9.0.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [python-equilibrium]: Downloading https://files.pythonhosted.org/packages/5a/f5/a066e40bd8dd031ffd9b2931c4336ab5f6e434e8bcc378855694b3479a0e/python_equilibrium-0.7.2.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-06-30 00:42:06] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.4.9rc5.tar.gz tmp/truss-0.4.9rc9.tar.gz --markdown 20230630/t/truss/0.4.9rc5-0.4.9rc9/diff.md --exclude *.pyd
+[2023-06-30 00:42:06] INFO root fetch - processPackages [python-equilibrium]: executing diffoscope
+[2023-06-30 00:42:06] INFO root fetch - processPackages [python-equilibrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_equilibrium-0.7.1.tar.gz tmp/python_equilibrium-0.7.2.tar.gz --markdown 20230630/p/python-equilibrium/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-30 00:42:06] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/3a/ba/d8a45feb20c25eba0a4e627b0d5ebc86967c08d62663693c523c091a8486/ecopipeline-0.0.9.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [yaetos]: Downloading https://files.pythonhosted.org/packages/94/31/2bcba20cf3bbb1f57eef310d61b69cc212ef9c68bef267d6aa374a4e044f/yaetos-0.9.9-py2.py3-none-any.whl
+[2023-06-30 00:42:06] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/7d/83/93dec8526ac31aba83a36c4a9452ac994c7a30d4ce44692a28363a650e5b/autotraders-1.6.0.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [zeno-build]: Downloading https://files.pythonhosted.org/packages/e3/35/78aae3e483a0d6ce8c7997202b0a0334ea19ca80f7708569927d0f20b4f2/zeno_build-0.0.3.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [aiotus]: Downloading https://files.pythonhosted.org/packages/30/be/1c79803915a6ba6aa4c09521a8db8d33bffa83be0ad0e59a4e29efbc2abf/aiotus-0.1.9.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/d3/e7/7c06c5c2173f5e68123d3bdeb9f89c59f9548675ab8e244c9a62bd4cf34d/griptape-0.9.1.tar.gz
+[2023-06-30 00:42:06] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-06-30 00:42:06] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-1.5.5.tar.gz tmp/autotraders-1.6.0.tar.gz --markdown 20230630/a/autotraders/1.5.5-1.6.0/diff.md --exclude *.pyd
+[2023-06-30 00:42:06] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-06-30 00:42:06] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230630/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-30 00:42:06] INFO root fetch - processPackages [zeno-build]: executing diffoscope
+[2023-06-30 00:42:06] INFO root fetch - processPackages [zeno-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeno_build-0.0.2.tar.gz tmp/zeno_build-0.0.3.tar.gz --markdown 20230630/z/zeno-build/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-30 00:42:06] INFO root fetch - processPackages [aiotus]: executing diffoscope
+[2023-06-30 00:42:06] INFO root fetch - processPackages [aiotus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotus-0.1.8.tar.gz tmp/aiotus-0.1.9.tar.gz --markdown 20230630/a/aiotus/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 00:42:06] INFO root fetch - processPackages [yaetos]: executing diffoscope
+[2023-06-30 00:42:06] INFO root fetch - processPackages [yaetos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaetos-0.9.8-py2.py3-none-any.whl.zip tmp/yaetos-0.9.9-py2.py3-none-any.whl.zip --markdown 20230630/y/yaetos/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-30 00:42:06] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-06-30 00:42:06] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.9.0.tar.gz tmp/griptape-0.9.1.tar.gz --markdown 20230630/g/griptape/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-30 00:42:07] INFO root fetch - processPackages [galah-python]: Downloading https://files.pythonhosted.org/packages/ee/9b/3dc23afab556f9d43a057558f7c3b3bb212356f6e87cd24b815a8747abec/galah_python-0.5.0-py3-none-any.whl
+[2023-06-30 00:42:07] INFO root fetch - processPackages [galah-python]: executing diffoscope
+[2023-06-30 00:42:07] INFO root fetch - processPackages [galah-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galah_python-0.1.0-py3-none-any.whl.zip tmp/galah_python-0.5.0-py3-none-any.whl.zip --markdown 20230630/g/galah-python/0.1.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-30 00:42:07] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-06-30 00:42:07] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230630/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 00:42:08] INFO root fetch - processPackages [zeno-build]: Remove: archive file [/home/abi/fetcher/tmp/zeno_build-0.0.2.tar.gz]
+[2023-06-30 00:42:08] INFO root fetch - processPackages [zeno-build]: Remove: archive file [/home/abi/fetcher/tmp/zeno_build-0.0.3.tar.gz]
+[2023-06-30 00:42:08] INFO root fetch - processPackages [zeno-build]: Start processing: griptape-tools
+[2023-06-30 00:42:08] INFO root fetch - main [MainThread]: End processing [zeno-build]: success
+[2023-06-30 00:42:08] INFO root fetch - processPackages [griptape-tools]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-30 00:42:08] INFO root fetch - processPackages [python-equilibrium]: Remove: archive file [/home/abi/fetcher/tmp/python_equilibrium-0.7.1.tar.gz]
+[2023-06-30 00:42:08] INFO root fetch - processPackages [python-equilibrium]: Remove: archive file [/home/abi/fetcher/tmp/python_equilibrium-0.7.2.tar.gz]
+[2023-06-30 00:42:08] INFO root fetch - main [MainThread]: End processing [python-equilibrium]: success
+[2023-06-30 00:42:08] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/80/f6/2945313523cc8317cb34e41910b4de85f151c6fcc6fea79f7ad8c382d8e0/griptape_tools-0.9.1.tar.gz
+[2023-06-30 00:42:08] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.5.5.tar.gz]
+[2023-06-30 00:42:08] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.6.0.tar.gz]
+[2023-06-30 00:42:08] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-06-30 00:42:08] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.0.8.tar.gz]
+[2023-06-30 00:42:08] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.0.9.tar.gz]
+[2023-06-30 00:42:08] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-06-30 00:42:08] INFO root fetch - processPackages [galah-python]: Remove: archive file [/home/abi/fetcher/tmp/galah_python-0.1.0-py3-none-any.whl.zip]
+[2023-06-30 00:42:08] INFO root fetch - processPackages [galah-python]: Remove: archive file [/home/abi/fetcher/tmp/galah_python-0.5.0-py3-none-any.whl.zip]
+[2023-06-30 00:42:08] INFO root fetch - main [MainThread]: End processing [galah-python]: success
+[2023-06-30 00:42:08] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-06-30 00:42:08] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-06-30 00:42:08] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-06-30 00:42:08] INFO root fetch - processPackages [yaetos]: Remove: archive file [/home/abi/fetcher/tmp/yaetos-0.9.8-py2.py3-none-any.whl.zip]
+[2023-06-30 00:42:08] INFO root fetch - processPackages [yaetos]: Remove: archive file [/home/abi/fetcher/tmp/yaetos-0.9.9-py2.py3-none-any.whl.zip]
+[2023-06-30 00:42:08] INFO root fetch - main [MainThread]: End processing [yaetos]: success
+[2023-06-30 00:42:08] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/93/f3/cee260713c8847e2863876ce5fdb8817ed49bd31ce80cd349a8276389733/griptape_tools-0.9.2.tar.gz
+[2023-06-30 00:42:08] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.0.tar.gz]
+[2023-06-30 00:42:08] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.1.tar.gz]
+[2023-06-30 00:42:08] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-06-30 00:42:09] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc5.tar.gz]
+[2023-06-30 00:42:09] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc9.tar.gz]
+[2023-06-30 00:42:09] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-06-30 00:42:09] INFO root fetch - processPackages [aiotus]: Remove: archive file [/home/abi/fetcher/tmp/aiotus-0.1.8.tar.gz]
+[2023-06-30 00:42:09] INFO root fetch - processPackages [aiotus]: Remove: archive file [/home/abi/fetcher/tmp/aiotus-0.1.9.tar.gz]
+[2023-06-30 00:42:09] INFO root fetch - main [MainThread]: End processing [aiotus]: success
+[2023-06-30 00:42:09] INFO root fetch - processPackages [griptape-tools]: executing diffoscope
+[2023-06-30 00:42:09] INFO root fetch - processPackages [griptape-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_tools-0.9.1.tar.gz tmp/griptape_tools-0.9.2.tar.gz --markdown 20230630/g/griptape-tools/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-30 00:42:10] INFO root fetch - processPackages [griptape-tools]: Remove: archive file [/home/abi/fetcher/tmp/griptape_tools-0.9.1.tar.gz]
+[2023-06-30 00:42:10] INFO root fetch - processPackages [griptape-tools]: Remove: archive file [/home/abi/fetcher/tmp/griptape_tools-0.9.2.tar.gz]
+[2023-06-30 00:42:10] INFO root fetch - main [MainThread]: End processing [griptape-tools]: success
+[2023-06-30 00:42:10] INFO root fetch - main [MainThread]: Store serial: [18701870]
