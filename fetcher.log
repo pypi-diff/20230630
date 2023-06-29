@@ -867,3 +867,92 @@
 [2023-06-30 00:58:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.382.tar.gz]
 [2023-06-30 00:58:08] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
 [2023-06-30 00:58:08] INFO root fetch - main [MainThread]: Store serial: [18701950]
+[2023-06-30 01:03:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18701950]
+[2023-06-30 01:03:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-30 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asf-search
+[2023-06-30 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: outerbounds
+[2023-06-30 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-reusable
+[2023-06-30 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyudemy
+[2023-06-30 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyeapi
+[2023-06-30 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metrics-layer
+[2023-06-30 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pibble
+[2023-06-30 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: malta
+[2023-06-30 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tmnt-cu101
+[2023-06-30 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flwr-nightly
+[2023-06-30 01:03:17] INFO root fetch - processPackages [outerbounds]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-30 01:03:17] INFO root fetch - processPackages [malta]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-30 01:03:17] INFO root fetch - processPackages [django-reusable]: New version: [9.6] Old Version: [9.5]
+[2023-06-30 01:03:17] INFO root fetch - processPackages [pyeapi]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-06-30 01:03:17] INFO root fetch - processPackages [pyudemy]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-30 01:03:17] INFO root fetch - processPackages [asf-search]: New version: [6.6.0] Old Version: [6.5.0]
+[2023-06-30 01:03:17] INFO root fetch - processPackages [metrics-layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-30 01:03:17] INFO root fetch - processPackages [pibble]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-30 01:03:17] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230628] Old Version: [0.7.0b20230627]
+[2023-06-30 01:03:17] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230629] Old Version: [1.5.0.dev20230628]
+[2023-06-30 01:03:17] INFO root fetch - processPackages [malta]: Downloading https://files.pythonhosted.org/packages/84/2e/357fa420a3b115238ec3beaa6da75f49798b97ff795475bd1018d7e70862/malta-0.1.1.tar.gz
+[2023-06-30 01:03:17] INFO root fetch - processPackages [django-reusable]: Downloading https://files.pythonhosted.org/packages/73/b4/c4d6db6ca246c4d6e07208a4471b105b3caf0e006ae9c4c918d493604c67/django-reusable-9.5.tar.gz
+[2023-06-30 01:03:17] INFO root fetch - processPackages [pyeapi]: Downloading https://files.pythonhosted.org/packages/4c/e0/a7ec6a25d797981f5043980276e0b63d8adf28b290d7f0196079b5410dda/pyeapi-1.0.0.tar.gz
+[2023-06-30 01:03:17] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/db/c3/414322f3ea100053ac3662e6bb112f6d3bc83f54c5c0996e89fef5c3d384/outerbounds-0.3.8-py3-none-any.whl
+[2023-06-30 01:03:17] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2023-06-30 01:03:17] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/8c/47/12af102981c078df8e82c81fda4bbd4ce32f1eb3fabdb3b5fb728302e5c4/tmnt-cu101-0.7.0b20230627.tar.gz
+[2023-06-30 01:03:17] INFO root fetch - processPackages [asf-search]: Downloading https://files.pythonhosted.org/packages/b8/ff/73a872126ac0c05b5a51aa9d272c099ef53440e512bd177c5e2dda3f397d/asf_search-6.5.0.tar.gz
+[2023-06-30 01:03:17] INFO root fetch - processPackages [pyudemy]: Downloading https://files.pythonhosted.org/packages/58/63/f99b9b1a22e857563336042e058109a2ae6f29d59f795d2ae4bfe79e1656/pyudemy-1.0.7.tar.gz
+[2023-06-30 01:03:17] INFO root fetch - processPackages [pibble]: Downloading https://files.pythonhosted.org/packages/bb/87/babad9d99960dcb7f67f63d287c2f21d3ae422e2684983b1ace3ceae8a60/pibble-0.6.3.tar.gz
+[2023-06-30 01:03:17] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/85/e0/08a0c6773fd48fb82495e39d9950cbfb33f282f1094a80edb7f47d7fc559/flwr_nightly-1.5.0.dev20230628.tar.gz
+[2023-06-30 01:03:18] INFO root fetch - processPackages [django-reusable]: Downloading https://files.pythonhosted.org/packages/f2/09/23efb6c1f039f3d767c80a52eb8e8b46814b8cbd7c8d1f3b9cfd994517ba/django-reusable-9.6.tar.gz
+[2023-06-30 01:03:18] INFO root fetch - processPackages [pyeapi]: Downloading https://files.pythonhosted.org/packages/30/ee/01766afc89250a2731f5f2c073998c47affb2c3932256e7a0dbed1f739b5/pyeapi-1.0.2.tar.gz
+[2023-06-30 01:03:18] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/eb/c8/c87d25484be12f66ee78314f7ebd89ca4200a29e85c757b1d2e469e06c52/outerbounds-0.3.9-py3-none-any.whl
+[2023-06-30 01:03:18] INFO root fetch - processPackages [pyudemy]: Downloading https://files.pythonhosted.org/packages/42/54/1ec36405b8f66c4b88f94c90f5271997a6fa4f356b068c2c597329d342ec/pyudemy-1.0.8.tar.gz
+[2023-06-30 01:03:18] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/c9/24/3c9126da7a4d79308a713e51b5746ef6de2d59e6cea49d0477bb2b2c96e6/flwr_nightly-1.5.0.dev20230629.tar.gz
+[2023-06-30 01:03:18] INFO root fetch - processPackages [asf-search]: Downloading https://files.pythonhosted.org/packages/a3/ad/3bbcf03b37aed208909525833cbf5402636992d7d320513d1a6c5278e8f8/asf_search-6.6.0.tar.gz
+[2023-06-30 01:03:18] WARNING root fetch - processPackages [malta]: Skipping package: exceeds size limit 12370082>=10485760
+[2023-06-30 01:03:18] INFO root fetch - main [MainThread]: End processing [malta] error
+[2023-06-30 01:03:18] INFO root fetch - processPackages [pibble]: Downloading https://files.pythonhosted.org/packages/8f/a6/dc50ff6cba6c8179594d7bee4a864e446ed5f042296bc6a3f6395b282248/pibble-0.6.4.tar.gz
+[2023-06-30 01:03:18] INFO root fetch - processPackages [django-reusable]: executing diffoscope
+[2023-06-30 01:03:18] INFO root fetch - processPackages [django-reusable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-reusable-9.5.tar.gz tmp/django-reusable-9.6.tar.gz --markdown 20230630/d/django-reusable/9.5-9.6/diff.md --exclude *.pyd
+[2023-06-30 01:03:18] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2023-06-30 01:03:18] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/f9/66/c6d5eb16b85a2f39e0c3aa87a6bafffb698137576e3f17d99a6242d5a501/tmnt-cu101-0.7.0b20230628.tar.gz
+[2023-06-30 01:03:18] INFO root fetch - processPackages [pyeapi]: executing diffoscope
+[2023-06-30 01:03:18] INFO root fetch - processPackages [pyeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeapi-1.0.0.tar.gz tmp/pyeapi-1.0.2.tar.gz --markdown 20230630/p/pyeapi/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-06-30 01:03:18] INFO root fetch - processPackages [pyudemy]: executing diffoscope
+[2023-06-30 01:03:18] INFO root fetch - processPackages [pyudemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyudemy-1.0.7.tar.gz tmp/pyudemy-1.0.8.tar.gz --markdown 20230630/p/pyudemy/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-30 01:03:18] INFO root fetch - processPackages [outerbounds]: executing diffoscope
+[2023-06-30 01:03:18] INFO root fetch - processPackages [outerbounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outerbounds-0.3.8-py3-none-any.whl.zip tmp/outerbounds-0.3.9-py3-none-any.whl.zip --markdown 20230630/o/outerbounds/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-30 01:03:18] INFO root fetch - processPackages [asf-search]: executing diffoscope
+[2023-06-30 01:03:18] INFO root fetch - processPackages [asf-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asf_search-6.5.0.tar.gz tmp/asf_search-6.6.0.tar.gz --markdown 20230630/a/asf-search/6.5.0-6.6.0/diff.md --exclude *.pyd
+[2023-06-30 01:03:18] INFO root fetch - processPackages [pibble]: executing diffoscope
+[2023-06-30 01:03:18] INFO root fetch - processPackages [pibble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibble-0.6.3.tar.gz tmp/pibble-0.6.4.tar.gz --markdown 20230630/p/pibble/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-30 01:03:18] INFO root fetch - processPackages [metrics-layer]: executing diffoscope
+[2023-06-30 01:03:18] INFO root fetch - processPackages [metrics-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20230630/m/metrics-layer/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-30 01:03:18] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-30 01:03:18] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230627.tar.gz tmp/tmnt-cu101-0.7.0b20230628.tar.gz --markdown 20230630/t/tmnt-cu101/0.7.0b20230627-0.7.0b20230628/diff.md --exclude *.pyd
+[2023-06-30 01:03:18] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-06-30 01:03:18] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230628.tar.gz tmp/flwr_nightly-1.5.0.dev20230629.tar.gz --markdown 20230630/f/flwr-nightly/1.5.0.dev20230628-1.5.0.dev20230629/diff.md --exclude *.pyd
+[2023-06-30 01:03:19] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.8-py3-none-any.whl.zip]
+[2023-06-30 01:03:19] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.9-py3-none-any.whl.zip]
+[2023-06-30 01:03:19] INFO root fetch - main [MainThread]: End processing [outerbounds]: success
+[2023-06-30 01:03:19] INFO root fetch - processPackages [pyudemy]: Remove: archive file [/home/abi/fetcher/tmp/pyudemy-1.0.7.tar.gz]
+[2023-06-30 01:03:19] INFO root fetch - processPackages [pyudemy]: Remove: archive file [/home/abi/fetcher/tmp/pyudemy-1.0.8.tar.gz]
+[2023-06-30 01:03:19] INFO root fetch - main [MainThread]: End processing [pyudemy]: success
+[2023-06-30 01:03:19] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230627.tar.gz]
+[2023-06-30 01:03:19] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230628.tar.gz]
+[2023-06-30 01:03:19] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-30 01:03:20] INFO root fetch - processPackages [metrics-layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.8.tar.gz]
+[2023-06-30 01:03:20] INFO root fetch - processPackages [metrics-layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
+[2023-06-30 01:03:20] INFO root fetch - main [MainThread]: End processing [metrics-layer]: success
+[2023-06-30 01:03:20] INFO root fetch - processPackages [django-reusable]: Remove: archive file [/home/abi/fetcher/tmp/django-reusable-9.5.tar.gz]
+[2023-06-30 01:03:20] INFO root fetch - processPackages [django-reusable]: Remove: archive file [/home/abi/fetcher/tmp/django-reusable-9.6.tar.gz]
+[2023-06-30 01:03:20] INFO root fetch - main [MainThread]: End processing [django-reusable]: success
+[2023-06-30 01:03:20] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230628.tar.gz]
+[2023-06-30 01:03:20] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230629.tar.gz]
+[2023-06-30 01:03:20] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-06-30 01:03:20] INFO root fetch - processPackages [pyeapi]: Remove: archive file [/home/abi/fetcher/tmp/pyeapi-1.0.0.tar.gz]
+[2023-06-30 01:03:20] INFO root fetch - processPackages [pyeapi]: Remove: archive file [/home/abi/fetcher/tmp/pyeapi-1.0.2.tar.gz]
+[2023-06-30 01:03:20] INFO root fetch - main [MainThread]: End processing [pyeapi]: success
+[2023-06-30 01:03:20] INFO root fetch - processPackages [asf-search]: Remove: archive file [/home/abi/fetcher/tmp/asf_search-6.5.0.tar.gz]
+[2023-06-30 01:03:20] INFO root fetch - processPackages [asf-search]: Remove: archive file [/home/abi/fetcher/tmp/asf_search-6.6.0.tar.gz]
+[2023-06-30 01:03:20] INFO root fetch - main [MainThread]: End processing [asf-search]: success
+[2023-06-30 01:03:22] INFO root fetch - processPackages [pibble]: Remove: archive file [/home/abi/fetcher/tmp/pibble-0.6.3.tar.gz]
+[2023-06-30 01:03:22] INFO root fetch - processPackages [pibble]: Remove: archive file [/home/abi/fetcher/tmp/pibble-0.6.4.tar.gz]
+[2023-06-30 01:03:22] INFO root fetch - main [MainThread]: End processing [pibble]: success
+[2023-06-30 01:03:22] INFO root fetch - main [MainThread]: Store serial: [18701978]
