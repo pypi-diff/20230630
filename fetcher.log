@@ -642,3 +642,87 @@
 [2023-06-30 00:42:10] INFO root fetch - processPackages [griptape-tools]: Remove: archive file [/home/abi/fetcher/tmp/griptape_tools-0.9.2.tar.gz]
 [2023-06-30 00:42:10] INFO root fetch - main [MainThread]: End processing [griptape-tools]: success
 [2023-06-30 00:42:10] INFO root fetch - main [MainThread]: Store serial: [18701870]
+[2023-06-30 00:47:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18701870]
+[2023-06-30 00:47:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-30 00:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sleap-io
+[2023-06-30 00:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monarch-py
+[2023-06-30 00:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcnum
+[2023-06-30 00:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shady-island
+[2023-06-30 00:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prom
+[2023-06-30 00:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imjoy-rpc
+[2023-06-30 00:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ValiotWorker
+[2023-06-30 00:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lollms
+[2023-06-30 00:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: roboto-sdk
+[2023-06-30 00:47:19] INFO root fetch - processPackages [sleap-io]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-30 00:47:19] INFO root fetch - processPackages [prom]: New version: [4.5.0] Old Version: [4.4.2]
+[2023-06-30 00:47:19] INFO root fetch - processPackages [monarch-py]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-30 00:47:19] INFO root fetch - processPackages [dcnum]: New version: [0.11.2] Old Version: [0.11.1]
+[2023-06-30 00:47:19] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 00:47:19] INFO root fetch - processPackages [ValiotWorker]: New version: [6.0.0] Old Version: [5.3.5]
+[2023-06-30 00:47:19] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-30 00:47:19] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-30 00:47:19] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/ed/ae/a7a990a5b643750cce1402cad9e15fd73a9c16dc25acb3c8a49f79eb7a7d/shady-island-0.0.8.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [roboto-sdk]: New version: [0.1.2a0] Old Version: [0.1.1]
+[2023-06-30 00:47:19] INFO root fetch - processPackages [ValiotWorker]: Downloading https://files.pythonhosted.org/packages/4e/64/6a40d5cf9126dd40c6d0c93bf0f2afb8c8d9139b0d92e98761eb8472b4ec/ValiotWorker-5.3.5.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [prom]: Downloading https://files.pythonhosted.org/packages/33/58/e6040bfe726353f141809e8b236da328ccce7a29131912478c580cda605d/prom-4.4.2.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [sleap-io]: Downloading https://files.pythonhosted.org/packages/9c/74/33201ff6072a2defb945ca6215398d6eabe9bda97d0e7bd0d5a417f73a49/sleap_io-0.0.6-py3-none-any.whl
+[2023-06-30 00:47:19] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/10/fb/5308ec5947fb66e4988dfcc692181f2cbe1e09ffde0e3e406e18886508c0/dcnum-0.11.1.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/6d/48/f8584db7808c58dfe36efe458cdf928f83c7345eafb177d0517f07dac0c4/monarch_py-0.9.4.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-06-30 00:47:19] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230630/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-30 00:47:19] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/69/14/ae3dbf243e4cb1db1d1a6d89c5b0ab88ad11f64d1873591474d5e78d2c24/shady-island-0.0.9.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [roboto-sdk]: Downloading https://files.pythonhosted.org/packages/d0/3c/74c97574bcba025dd5baa2844d1ed94788655c7cffdfc5e78ddc4e594ab6/roboto_sdk-0.1.1.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-06-30 00:47:19] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230630/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 00:47:19] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-06-30 00:47:19] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230630/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-30 00:47:19] INFO root fetch - processPackages [prom]: Downloading https://files.pythonhosted.org/packages/47/18/16a86dff5bc64f06a013c0296486d159a13a40b820fc1f94092b9bc5d55a/prom-4.5.0.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/bf/35/9170a5b3562d19fc5fd825d8358226029e6a4a5d87fdfc516b155e0e6338/dcnum-0.11.2.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [ValiotWorker]: Downloading https://files.pythonhosted.org/packages/02/00/7e74d4facf76ed6e70a82f5950a046fc68a345141c785514e72148155228/ValiotWorker-6.0.0.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/f2/a8/60e40f29cd6213ebb7999bf65fcc3c1afdcb0e84887f0d2d7736866e4844/monarch_py-0.9.5.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [prom]: executing diffoscope
+[2023-06-30 00:47:19] INFO root fetch - processPackages [prom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prom-4.4.2.tar.gz tmp/prom-4.5.0.tar.gz --markdown 20230630/p/prom/4.4.2-4.5.0/diff.md --exclude *.pyd
+[2023-06-30 00:47:19] INFO root fetch - processPackages [sleap-io]: Downloading https://files.pythonhosted.org/packages/f8/23/75d4051d876c66561b2522332936cf3117d366d896c59c770afe6e8f1f4d/sleap_io-0.0.7-py3-none-any.whl
+[2023-06-30 00:47:19] INFO root fetch - processPackages [roboto-sdk]: Downloading https://files.pythonhosted.org/packages/b3/01/99ba4e8960c2580c529563d25bec76a544a595a9c8fc2922d7f7966fee7e/roboto_sdk-0.1.2a0.tar.gz
+[2023-06-30 00:47:19] INFO root fetch - processPackages [dcnum]: executing diffoscope
+[2023-06-30 00:47:19] INFO root fetch - processPackages [dcnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcnum-0.11.1.tar.gz tmp/dcnum-0.11.2.tar.gz --markdown 20230630/d/dcnum/0.11.1-0.11.2/diff.md --exclude *.pyd
+[2023-06-30 00:47:19] INFO root fetch - processPackages [ValiotWorker]: executing diffoscope
+[2023-06-30 00:47:19] INFO root fetch - processPackages [ValiotWorker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ValiotWorker-5.3.5.tar.gz tmp/ValiotWorker-6.0.0.tar.gz --markdown 20230630/V/ValiotWorker/5.3.5-6.0.0/diff.md --exclude *.pyd
+[2023-06-30 00:47:19] INFO root fetch - processPackages [sleap-io]: executing diffoscope
+[2023-06-30 00:47:19] INFO root fetch - processPackages [sleap-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleap_io-0.0.6-py3-none-any.whl.zip tmp/sleap_io-0.0.7-py3-none-any.whl.zip --markdown 20230630/s/sleap-io/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-30 00:47:19] INFO root fetch - processPackages [monarch-py]: executing diffoscope
+[2023-06-30 00:47:19] INFO root fetch - processPackages [monarch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monarch_py-0.9.4.tar.gz tmp/monarch_py-0.9.5.tar.gz --markdown 20230630/m/monarch-py/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-30 00:47:19] INFO root fetch - processPackages [roboto-sdk]: executing diffoscope
+[2023-06-30 00:47:19] INFO root fetch - processPackages [roboto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboto_sdk-0.1.1.tar.gz tmp/roboto_sdk-0.1.2a0.tar.gz --markdown 20230630/r/roboto-sdk/0.1.1-0.1.2a0/diff.md --exclude *.pyd
+[2023-06-30 00:47:20] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.8.tar.gz]
+[2023-06-30 00:47:20] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.9.tar.gz]
+[2023-06-30 00:47:20] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-06-30 00:47:21] INFO root fetch - processPackages [prom]: Remove: archive file [/home/abi/fetcher/tmp/prom-4.4.2.tar.gz]
+[2023-06-30 00:47:21] INFO root fetch - processPackages [prom]: Remove: archive file [/home/abi/fetcher/tmp/prom-4.5.0.tar.gz]
+[2023-06-30 00:47:21] INFO root fetch - main [MainThread]: End processing [prom]: success
+[2023-06-30 00:47:21] INFO root fetch - processPackages [sleap-io]: Remove: archive file [/home/abi/fetcher/tmp/sleap_io-0.0.6-py3-none-any.whl.zip]
+[2023-06-30 00:47:21] INFO root fetch - processPackages [sleap-io]: Remove: archive file [/home/abi/fetcher/tmp/sleap_io-0.0.7-py3-none-any.whl.zip]
+[2023-06-30 00:47:21] INFO root fetch - main [MainThread]: End processing [sleap-io]: success
+[2023-06-30 00:47:21] INFO root fetch - processPackages [monarch-py]: Remove: archive file [/home/abi/fetcher/tmp/monarch_py-0.9.4.tar.gz]
+[2023-06-30 00:47:21] INFO root fetch - processPackages [monarch-py]: Remove: archive file [/home/abi/fetcher/tmp/monarch_py-0.9.5.tar.gz]
+[2023-06-30 00:47:21] INFO root fetch - main [MainThread]: End processing [monarch-py]: success
+[2023-06-30 00:47:21] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-06-30 00:47:21] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-06-30 00:47:21] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-06-30 00:47:21] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.11.1.tar.gz]
+[2023-06-30 00:47:21] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.11.2.tar.gz]
+[2023-06-30 00:47:21] INFO root fetch - main [MainThread]: End processing [dcnum]: success
+[2023-06-30 00:47:21] INFO root fetch - processPackages [ValiotWorker]: Remove: archive file [/home/abi/fetcher/tmp/ValiotWorker-5.3.5.tar.gz]
+[2023-06-30 00:47:21] INFO root fetch - processPackages [ValiotWorker]: Remove: archive file [/home/abi/fetcher/tmp/ValiotWorker-6.0.0.tar.gz]
+[2023-06-30 00:47:21] INFO root fetch - main [MainThread]: End processing [ValiotWorker]: success
+[2023-06-30 00:47:21] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.1.tar.gz]
+[2023-06-30 00:47:21] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.2a0.tar.gz]
+[2023-06-30 00:47:21] INFO root fetch - main [MainThread]: End processing [roboto-sdk]: success
+[2023-06-30 00:47:22] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-06-30 00:47:22] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-06-30 00:47:22] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-06-30 00:47:22] INFO root fetch - main [MainThread]: Store serial: [18701895]
