@@ -726,3 +726,114 @@
 [2023-06-30 00:47:22] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
 [2023-06-30 00:47:22] INFO root fetch - main [MainThread]: End processing [lollms]: success
 [2023-06-30 00:47:22] INFO root fetch - main [MainThread]: Store serial: [18701895]
+[2023-06-30 00:52:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18701895]
+[2023-06-30 00:52:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-30 00:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataflat
+[2023-06-30 00:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhrms
+[2023-06-30 00:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quil
+[2023-06-30 00:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: git-init-repo
+[2023-06-30 00:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vgetpupil
+[2023-06-30 00:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arabica
+[2023-06-30 00:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: molgenis-emx2-pyclient
+[2023-06-30 00:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prfect
+[2023-06-30 00:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: roboto-sdk
+[2023-06-30 00:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aind-data-schema
+[2023-06-30 00:52:31] INFO root fetch - processPackages [git-init-repo]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-30 00:52:31] INFO root fetch - processPackages [pyhrms]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-30 00:52:31] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.199.8] Old Version: [8.199.7]
+[2023-06-30 00:52:31] INFO root fetch - processPackages [vgetpupil]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-30 00:52:31] INFO root fetch - processPackages [dataflat]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-30 00:52:31] INFO root fetch - processPackages [arabica]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-06-30 00:52:31] INFO root fetch - processPackages [prfect]: New version: [0.4] Old Version: [0.36]
+[2023-06-30 00:52:31] INFO root fetch - processPackages [roboto-sdk]: New version: [0.1.2a0] Old Version: [0.1.2]
+[2023-06-30 00:52:31] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-30 00:52:31] INFO root fetch - processPackages [quil]: New version: [0.2.0rc9] Old Version: [0.2.0rc8]
+[2023-06-30 00:52:31] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/1e/77/8d19ae1f36224afdcc7a1f4b79cb3a69d725fa764a95c7afdfb6b19de016/molgenis_emx2_pyclient-8.199.7.tar.gz
+[2023-06-30 00:52:31] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/94/78/03d63317e11b6758655ca8302d3f8d97fb6e2ab5e7c04edd1e87d64f7875/quil-0.2.0rc8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-30 00:52:31] INFO root fetch - processPackages [dataflat]: Downloading https://files.pythonhosted.org/packages/27/80/a78c1d2a50a0c8a6e48c4494ae423a3e7215f4d218c80f51d239efb74fcd/dataflat-1.0.5.tar.gz
+[2023-06-30 00:52:31] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2023-06-30 00:52:31] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/fb/ab/1cbb95340004067c485bd14877c75460f688bd04c994064a627de240fd01/arabica-1.6.6.tar.gz
+[2023-06-30 00:52:31] INFO root fetch - processPackages [prfect]: Downloading https://files.pythonhosted.org/packages/3f/ec/a92f818bfa26a507d58ae9933fe4fb369963a16d1d1da2a5560f0fb15bc4/prfect-0.36.tar.gz
+[2023-06-30 00:52:31] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/49/eb/58e7ae6b47f3d72762cb73ede0311824e38465ff0942a43cf06395fbefa9/pyhrms-0.5.8.zip
+[2023-06-30 00:52:31] INFO root fetch - processPackages [git-init-repo]: Downloading https://files.pythonhosted.org/packages/b7/7f/54900e7c715dc9fa43ee3b0f1aac70bb1410c4e21227588900f5e101d4a0/git_init_repo-1.0.1.tar.gz
+[2023-06-30 00:52:31] INFO root fetch - processPackages [vgetpupil]: Downloading https://files.pythonhosted.org/packages/da/20/05e835c792cb6946fd81d21ef2934106fda9d1cea6dc2a18bdd1a6c8561f/vgetpupil-1.0.3.tar.gz
+[2023-06-30 00:52:31] INFO root fetch - processPackages [roboto-sdk]: Downloading https://files.pythonhosted.org/packages/a9/e9/e3a3f23117a9ada823a96523722a0ac895379bfbf92f7487c71fb19783b4/roboto_sdk-0.1.2.tar.gz
+[2023-06-30 00:52:31] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2023-06-30 00:52:31] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/68/85/cd8f37c7902faa450c384198f572e807118cf2a478cde168ec389aad0c29/molgenis_emx2_pyclient-8.199.8.tar.gz
+[2023-06-30 00:52:31] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/b1/3c/00401430a1be1644e4a3cb6e13e5f3d10cb99725d133fdb62d7d15ccef22/quil-0.2.0rc9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-30 00:52:31] INFO root fetch - processPackages [dataflat]: Downloading https://files.pythonhosted.org/packages/15/74/bd47e06b9b06042ed09dc0feac5c3a39a7ab40d3fa711f11715bb681da74/dataflat-1.0.6.tar.gz
+[2023-06-30 00:52:32] INFO root fetch - processPackages [roboto-sdk]: Downloading https://files.pythonhosted.org/packages/b3/01/99ba4e8960c2580c529563d25bec76a544a595a9c8fc2922d7f7966fee7e/roboto_sdk-0.1.2a0.tar.gz
+[2023-06-30 00:52:32] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/02/e1/01dec68a90d5c696636599601c00411f15e7f3dc2bb4b36e58e46cb0033a/arabica-1.6.7.tar.gz
+[2023-06-30 00:52:32] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-06-30 00:52:32] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230630/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-30 00:52:32] INFO root fetch - processPackages [quil]: executing diffoscope
+[2023-06-30 00:52:32] INFO root fetch - processPackages [quil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quil-0.2.0rc8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/quil-0.2.0rc9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230630/q/quil/0.2.0rc8-0.2.0rc9/diff.md --exclude *.pyd
+[2023-06-30 00:52:32] INFO root fetch - processPackages [roboto-sdk]: executing diffoscope
+[2023-06-30 00:52:32] INFO root fetch - processPackages [roboto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboto_sdk-0.1.2.tar.gz tmp/roboto_sdk-0.1.2a0.tar.gz --markdown 20230630/r/roboto-sdk/0.1.2-0.1.2a0/diff.md --exclude *.pyd
+[2023-06-30 00:52:32] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-06-30 00:52:32] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.199.7.tar.gz tmp/molgenis_emx2_pyclient-8.199.8.tar.gz --markdown 20230630/m/molgenis-emx2-pyclient/8.199.7-8.199.8/diff.md --exclude *.pyd
+[2023-06-30 00:52:32] INFO root fetch - processPackages [dataflat]: executing diffoscope
+[2023-06-30 00:52:32] INFO root fetch - processPackages [dataflat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataflat-1.0.5.tar.gz tmp/dataflat-1.0.6.tar.gz --markdown 20230630/d/dataflat/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-30 00:52:32] INFO root fetch - processPackages [git-init-repo]: Downloading https://files.pythonhosted.org/packages/be/88/646eadab9fcae17bcb189b114dc2499d624313566a1ece1c3adf9a7e39e4/git_init_repo-1.0.2.tar.gz
+[2023-06-30 00:52:32] INFO root fetch - processPackages [arabica]: executing diffoscope
+[2023-06-30 00:52:32] INFO root fetch - processPackages [arabica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabica-1.6.6.tar.gz tmp/arabica-1.6.7.tar.gz --markdown 20230630/a/arabica/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-06-30 00:52:32] INFO root fetch - processPackages [prfect]: Downloading https://files.pythonhosted.org/packages/73/04/d85e08d5bfd489b49ebb22b764fdaa9a8b389db5c4eb920c925f8ea204bc/prfect-0.4.tar.gz
+[2023-06-30 00:52:32] INFO root fetch - processPackages [vgetpupil]: Downloading https://files.pythonhosted.org/packages/e7/8a/058dc01a4d5eb1c94d0b852dc2233cefa4ad61a6b08bf3ab2df219065a39/vgetpupil-1.0.4.tar.gz
+[2023-06-30 00:52:32] INFO root fetch - processPackages [git-init-repo]: executing diffoscope
+[2023-06-30 00:52:32] INFO root fetch - processPackages [git-init-repo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_init_repo-1.0.1.tar.gz tmp/git_init_repo-1.0.2.tar.gz --markdown 20230630/g/git-init-repo/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-30 00:52:32] INFO root fetch - processPackages [prfect]: executing diffoscope
+[2023-06-30 00:52:32] INFO root fetch - processPackages [prfect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prfect-0.36.tar.gz tmp/prfect-0.4.tar.gz --markdown 20230630/p/prfect/0.36-0.4/diff.md --exclude *.pyd
+[2023-06-30 00:52:32] INFO root fetch - processPackages [vgetpupil]: executing diffoscope
+[2023-06-30 00:52:32] INFO root fetch - processPackages [vgetpupil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgetpupil-1.0.3.tar.gz tmp/vgetpupil-1.0.4.tar.gz --markdown 20230630/v/vgetpupil/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-30 00:52:32] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/4a/38/4c2653756894e534fd6089efc0802f4ac851c79c6767968ef00ef0184b3a/pyhrms-0.5.9.zip
+[2023-06-30 00:52:32] INFO root fetch - processPackages [pyhrms]: executing diffoscope
+[2023-06-30 00:52:32] INFO root fetch - processPackages [pyhrms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhrms-0.5.8.zip tmp/pyhrms-0.5.9.zip --markdown 20230630/p/pyhrms/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-30 00:52:33] INFO root fetch - processPackages [dataflat]: Remove: archive file [/home/abi/fetcher/tmp/dataflat-1.0.5.tar.gz]
+[2023-06-30 00:52:33] INFO root fetch - processPackages [dataflat]: Remove: archive file [/home/abi/fetcher/tmp/dataflat-1.0.6.tar.gz]
+[2023-06-30 00:52:33] INFO root fetch - processPackages [dataflat]: Start processing: peaklets
+[2023-06-30 00:52:33] INFO root fetch - main [MainThread]: End processing [dataflat]: success
+[2023-06-30 00:52:33] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.199.7.tar.gz]
+[2023-06-30 00:52:33] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.199.8.tar.gz]
+[2023-06-30 00:52:33] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Start processing: anesthetic
+[2023-06-30 00:52:33] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-06-30 00:52:33] INFO root fetch - processPackages [anesthetic]: New version: [2.0.0b9] Old Version: [2.0.0b7]
+[2023-06-30 00:52:33] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/bb/ee/510009a21351f1f3cc40d53f647047eef65a83196f66a74bdcab71213051/anesthetic-2.0.0b7.tar.gz
+[2023-06-30 00:52:33] INFO root fetch - processPackages [peaklets]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 00:52:33] INFO root fetch - processPackages [vgetpupil]: Remove: archive file [/home/abi/fetcher/tmp/vgetpupil-1.0.3.tar.gz]
+[2023-06-30 00:52:33] INFO root fetch - processPackages [vgetpupil]: Remove: archive file [/home/abi/fetcher/tmp/vgetpupil-1.0.4.tar.gz]
+[2023-06-30 00:52:33] INFO root fetch - main [MainThread]: End processing [vgetpupil]: success
+[2023-06-30 00:52:33] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/69/67/acd5153fe2efa969ee04ccb4079ccc1c108090ffab6b45ac362cbe2bf3b2/anesthetic-2.0.0b9.tar.gz
+[2023-06-30 00:52:33] INFO root fetch - processPackages [peaklets]: Downloading https://files.pythonhosted.org/packages/aa/22/17e66102c439781bd7014a06b0da2b1cbc8ad3183121ec1e92da163f3fa9/peaklets-0.1.0.tar.gz
+[2023-06-30 00:52:34] INFO root fetch - processPackages [git-init-repo]: Remove: archive file [/home/abi/fetcher/tmp/git_init_repo-1.0.1.tar.gz]
+[2023-06-30 00:52:34] INFO root fetch - processPackages [git-init-repo]: Remove: archive file [/home/abi/fetcher/tmp/git_init_repo-1.0.2.tar.gz]
+[2023-06-30 00:52:34] INFO root fetch - main [MainThread]: End processing [git-init-repo]: success
+[2023-06-30 00:52:34] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.5.8.zip]
+[2023-06-30 00:52:34] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.5.9.zip]
+[2023-06-30 00:52:34] INFO root fetch - main [MainThread]: End processing [pyhrms]: success
+[2023-06-30 00:52:34] INFO root fetch - processPackages [anesthetic]: executing diffoscope
+[2023-06-30 00:52:34] INFO root fetch - processPackages [anesthetic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anesthetic-2.0.0b7.tar.gz tmp/anesthetic-2.0.0b9.tar.gz --markdown 20230630/a/anesthetic/2.0.0b7-2.0.0b9/diff.md --exclude *.pyd
+[2023-06-30 00:52:34] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.6.tar.gz]
+[2023-06-30 00:52:34] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.7.tar.gz]
+[2023-06-30 00:52:34] INFO root fetch - main [MainThread]: End processing [arabica]: success
+[2023-06-30 00:52:34] INFO root fetch - processPackages [peaklets]: Downloading https://files.pythonhosted.org/packages/1e/49/542ab7b9d42e9e86767852b059d2f0227af02f97c4b5e2504ef08b99c652/peaklets-0.1.1.tar.gz
+[2023-06-30 00:52:34] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.2.tar.gz]
+[2023-06-30 00:52:34] INFO root fetch - processPackages [roboto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/roboto_sdk-0.1.2a0.tar.gz]
+[2023-06-30 00:52:34] INFO root fetch - main [MainThread]: End processing [roboto-sdk]: success
+[2023-06-30 00:52:34] INFO root fetch - processPackages [peaklets]: executing diffoscope
+[2023-06-30 00:52:34] INFO root fetch - processPackages [peaklets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaklets-0.1.0.tar.gz tmp/peaklets-0.1.1.tar.gz --markdown 20230630/p/peaklets/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 00:52:35] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2023-06-30 00:52:35] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2023-06-30 00:52:35] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-06-30 00:52:35] INFO root fetch - processPackages [peaklets]: Remove: archive file [/home/abi/fetcher/tmp/peaklets-0.1.0.tar.gz]
+[2023-06-30 00:52:35] INFO root fetch - processPackages [peaklets]: Remove: archive file [/home/abi/fetcher/tmp/peaklets-0.1.1.tar.gz]
+[2023-06-30 00:52:35] INFO root fetch - main [MainThread]: End processing [peaklets]: success
+[2023-06-30 00:52:36] INFO root fetch - processPackages [prfect]: Remove: archive file [/home/abi/fetcher/tmp/prfect-0.36.tar.gz]
+[2023-06-30 00:52:36] INFO root fetch - processPackages [prfect]: Remove: archive file [/home/abi/fetcher/tmp/prfect-0.4.tar.gz]
+[2023-06-30 00:52:36] INFO root fetch - main [MainThread]: End processing [prfect]: success
+[2023-06-30 00:52:37] INFO root fetch - processPackages [anesthetic]: Remove: archive file [/home/abi/fetcher/tmp/anesthetic-2.0.0b7.tar.gz]
+[2023-06-30 00:52:37] INFO root fetch - processPackages [anesthetic]: Remove: archive file [/home/abi/fetcher/tmp/anesthetic-2.0.0b9.tar.gz]
+[2023-06-30 00:52:37] INFO root fetch - main [MainThread]: End processing [anesthetic]: success
+[2023-06-30 00:52:54] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.2.0rc8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-30 00:52:54] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.2.0rc9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-30 00:52:54] INFO root fetch - main [MainThread]: End processing [quil]: success
+[2023-06-30 00:52:54] INFO root fetch - main [MainThread]: Store serial: [18701941]
