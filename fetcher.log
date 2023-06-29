@@ -334,3 +334,87 @@
 [2023-06-30 00:21:07] INFO root fetch - processPackages [sqlite3-to-mysql]: Remove: archive file [/home/abi/fetcher/tmp/sqlite3_to_mysql-2.0.3.tar.gz]
 [2023-06-30 00:21:07] INFO root fetch - main [MainThread]: End processing [sqlite3-to-mysql]: success
 [2023-06-30 00:21:07] INFO root fetch - main [MainThread]: Store serial: [18701773]
+[2023-06-30 00:26:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18701773]
+[2023-06-30 00:26:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-30 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imageryclient
+[2023-06-30 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oakvar
+[2023-06-30 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lollms
+[2023-06-30 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rai-benchmark-test
+[2023-06-30 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-usd
+[2023-06-30 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opvious
+[2023-06-30 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unstructured-inference
+[2023-06-30 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wafer
+[2023-06-30 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: whisper-mic
+[2023-06-30 00:26:16] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-30 00:26:16] INFO root fetch - processPackages [whisper-mic]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-30 00:26:16] INFO root fetch - processPackages [rai-benchmark-test]: New version: [1.1] Old Version: [1.0]
+[2023-06-30 00:26:16] INFO root fetch - processPackages [imageryclient]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-30 00:26:16] INFO root fetch - processPackages [unstructured-inference]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-30 00:26:16] INFO root fetch - processPackages [oakvar]: New version: [2.9.9] Old Version: [2.9.7]
+[2023-06-30 00:26:16] INFO root fetch - processPackages [types-usd]: New version: [23.5.1] Old Version: [23.5.0]
+[2023-06-30 00:26:16] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-30 00:26:16] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [whisper-mic]: Downloading https://files.pythonhosted.org/packages/41/cd/bab1e9b685332510392c98ea4a04c1321e728cf56fdf739774e669180a60/whisper_mic-0.0.1.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [unstructured-inference]: Downloading https://files.pythonhosted.org/packages/1d/39/61510c07d59a6dfacaacf4701f2f724d0c67fe30d0ff98939617bb8b0f2e/unstructured_inference-0.5.3.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [rai-benchmark-test]: Downloading https://files.pythonhosted.org/packages/79/db/61e4f65f8c64235f41b0ddd702e8697761e5ea2cdd9ae1beacb57624b23c/rai_benchmark_test-1.0.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/e4/c2/69b7c1ff79a3dd17db69dff3b9c943f9532080cb799bb30dc4db234c5df9/oakvar-2.9.7.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [wafer]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-30 00:26:16] INFO root fetch - processPackages [imageryclient]: Downloading https://files.pythonhosted.org/packages/27/2a/2e21ab6f38ccb14688902531d369e41db849fe13bd1ee972989e522579c7/imageryclient-1.0.2.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [whisper-mic]: Downloading https://files.pythonhosted.org/packages/69/bf/f37c92a354d7788ab59d5e99da36cef98c1c5527b7c449d15ec989922b74/whisper_mic-1.0.0.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [types-usd]: Downloading https://files.pythonhosted.org/packages/70/b6/3407c21fb53a57d3c5321039bc1dff3b7dfe2571dc25be059b9e87fb80cd/types-usd-23.5.0.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [rai-benchmark-test]: Downloading https://files.pythonhosted.org/packages/0a/53/93181ce2adffe245a2449f457ebbee091bb272caf27565a45def1a9158d2/rai_benchmark_test-1.1.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [wafer]: Downloading https://files.pythonhosted.org/packages/31/a3/cd2e9a94b078c65e4e1652da2f723856f476ddab2edc963f7c42533158da/wafer-0.9.3.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [whisper-mic]: executing diffoscope
+[2023-06-30 00:26:16] INFO root fetch - processPackages [whisper-mic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_mic-0.0.1.tar.gz tmp/whisper_mic-1.0.0.tar.gz --markdown 20230630/w/whisper-mic/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-30 00:26:16] INFO root fetch - processPackages [unstructured-inference]: Downloading https://files.pythonhosted.org/packages/5f/23/2631fdb5b341793d474ce6e24232523fe73342a81a4b204cc82e1abfb981/unstructured_inference-0.5.4.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-06-30 00:26:16] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230630/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-30 00:26:16] INFO root fetch - processPackages [rai-benchmark-test]: executing diffoscope
+[2023-06-30 00:26:16] INFO root fetch - processPackages [rai-benchmark-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai_benchmark_test-1.0.tar.gz tmp/rai_benchmark_test-1.1.tar.gz --markdown 20230630/r/rai-benchmark-test/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-30 00:26:16] INFO root fetch - processPackages [types-usd]: Downloading https://files.pythonhosted.org/packages/90/51/296dbd46fea3fce424bb948330ffdedd1b8d7a4429c22b48772fbc6bf015/types_usd-23.5.1.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [unstructured-inference]: executing diffoscope
+[2023-06-30 00:26:16] INFO root fetch - processPackages [unstructured-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured_inference-0.5.3.tar.gz tmp/unstructured_inference-0.5.4.tar.gz --markdown 20230630/u/unstructured-inference/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-30 00:26:16] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-06-30 00:26:16] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230630/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-30 00:26:16] INFO root fetch - processPackages [imageryclient]: Downloading https://files.pythonhosted.org/packages/82/a3/6c98dfaf3d5a670ecc2b52d654090b3867191d8e580dd3e2dd89fe3e5c1c/imageryclient-1.0.3.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [types-usd]: executing diffoscope
+[2023-06-30 00:26:16] INFO root fetch - processPackages [types-usd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-usd-23.5.0.tar.gz tmp/types_usd-23.5.1.tar.gz --markdown 20230630/t/types-usd/23.5.0-23.5.1/diff.md --exclude *.pyd
+[2023-06-30 00:26:16] INFO root fetch - processPackages [wafer]: Downloading https://files.pythonhosted.org/packages/7a/85/f281d55b0ed1de9fe22b6286c952efa997a6ac3f8d225d2aed06f86c1711/wafer-0.9.4.tar.gz
+[2023-06-30 00:26:16] INFO root fetch - processPackages [imageryclient]: executing diffoscope
+[2023-06-30 00:26:16] INFO root fetch - processPackages [imageryclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imageryclient-1.0.2.tar.gz tmp/imageryclient-1.0.3.tar.gz --markdown 20230630/i/imageryclient/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-30 00:26:17] INFO root fetch - processPackages [wafer]: executing diffoscope
+[2023-06-30 00:26:17] INFO root fetch - processPackages [wafer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafer-0.9.3.tar.gz tmp/wafer-0.9.4.tar.gz --markdown 20230630/w/wafer/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-30 00:26:17] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/aa/b5/98830752d15a39d3fe7ee973d8ff37f1a3498ab33f56838ffd4d470de442/oakvar-2.9.9.tar.gz
+[2023-06-30 00:26:17] INFO root fetch - processPackages [whisper-mic]: Remove: archive file [/home/abi/fetcher/tmp/whisper_mic-0.0.1.tar.gz]
+[2023-06-30 00:26:17] INFO root fetch - processPackages [whisper-mic]: Remove: archive file [/home/abi/fetcher/tmp/whisper_mic-1.0.0.tar.gz]
+[2023-06-30 00:26:17] INFO root fetch - main [MainThread]: End processing [whisper-mic]: success
+[2023-06-30 00:26:17] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-06-30 00:26:17] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-06-30 00:26:17] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-06-30 00:26:17] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.5.tar.gz]
+[2023-06-30 00:26:17] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.6.tar.gz]
+[2023-06-30 00:26:17] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-06-30 00:26:18] INFO root fetch - processPackages [rai-benchmark-test]: Remove: archive file [/home/abi/fetcher/tmp/rai_benchmark_test-1.0.tar.gz]
+[2023-06-30 00:26:18] INFO root fetch - processPackages [rai-benchmark-test]: Remove: archive file [/home/abi/fetcher/tmp/rai_benchmark_test-1.1.tar.gz]
+[2023-06-30 00:26:18] INFO root fetch - main [MainThread]: End processing [rai-benchmark-test]: success
+[2023-06-30 00:26:18] INFO root fetch - processPackages [unstructured-inference]: Remove: archive file [/home/abi/fetcher/tmp/unstructured_inference-0.5.3.tar.gz]
+[2023-06-30 00:26:18] INFO root fetch - processPackages [unstructured-inference]: Remove: archive file [/home/abi/fetcher/tmp/unstructured_inference-0.5.4.tar.gz]
+[2023-06-30 00:26:18] INFO root fetch - main [MainThread]: End processing [unstructured-inference]: success
+[2023-06-30 00:26:18] INFO root fetch - processPackages [types-usd]: Remove: archive file [/home/abi/fetcher/tmp/types-usd-23.5.0.tar.gz]
+[2023-06-30 00:26:18] INFO root fetch - processPackages [types-usd]: Remove: archive file [/home/abi/fetcher/tmp/types_usd-23.5.1.tar.gz]
+[2023-06-30 00:26:18] INFO root fetch - main [MainThread]: End processing [types-usd]: success
+[2023-06-30 00:26:18] INFO root fetch - processPackages [imageryclient]: Remove: archive file [/home/abi/fetcher/tmp/imageryclient-1.0.2.tar.gz]
+[2023-06-30 00:26:18] INFO root fetch - processPackages [imageryclient]: Remove: archive file [/home/abi/fetcher/tmp/imageryclient-1.0.3.tar.gz]
+[2023-06-30 00:26:18] INFO root fetch - main [MainThread]: End processing [imageryclient]: success
+[2023-06-30 00:26:18] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2023-06-30 00:26:18] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.7.tar.gz tmp/oakvar-2.9.9.tar.gz --markdown 20230630/o/oakvar/2.9.7-2.9.9/diff.md --exclude *.pyd
+[2023-06-30 00:26:21] INFO root fetch - processPackages [wafer]: Remove: archive file [/home/abi/fetcher/tmp/wafer-0.9.3.tar.gz]
+[2023-06-30 00:26:21] INFO root fetch - processPackages [wafer]: Remove: archive file [/home/abi/fetcher/tmp/wafer-0.9.4.tar.gz]
+[2023-06-30 00:26:21] INFO root fetch - main [MainThread]: End processing [wafer]: success
+[2023-06-30 00:26:23] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.7.tar.gz]
+[2023-06-30 00:26:23] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.9.tar.gz]
+[2023-06-30 00:26:23] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2023-06-30 00:26:23] INFO root fetch - main [MainThread]: Store serial: [18701798]
