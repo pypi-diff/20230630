@@ -15680,3 +15680,159 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 10:38:59] INFO root fetch - processPackages [whatshap]: Remove: archive file [/home/abi/fetcher/tmp/whatshap-2.0.tar.gz]
 [2023-06-30 10:38:59] INFO root fetch - main [MainThread]: End processing [whatshap]: success
 [2023-06-30 10:38:59] INFO root fetch - main [MainThread]: Store serial: [18707644]
+[2023-06-30 10:44:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18707644]
+[2023-06-30 10:44:08] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-30 10:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poe-shell
+[2023-06-30 10:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ztffields
+[2023-06-30 10:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gg-release-notes
+[2023-06-30 10:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neosctl
+[2023-06-30 10:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cognite-pygen
+[2023-06-30 10:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymasmovil
+[2023-06-30 10:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autodistill-vit
+[2023-06-30 10:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tasknet
+[2023-06-30 10:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: superposed-pulses
+[2023-06-30 10:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: remotivelabs-cli
+[2023-06-30 10:44:08] INFO root fetch - processPackages [autodistill-vit]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-30 10:44:08] INFO root fetch - processPackages [poe-shell]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-30 10:44:08] INFO root fetch - processPackages [neosctl]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-06-30 10:44:08] INFO root fetch - processPackages [superposed-pulses]: New version: [1.3] Old Version: [1.1]
+[2023-06-30 10:44:08] INFO root fetch - processPackages [remotivelabs-cli]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-06-30 10:44:08] INFO root fetch - processPackages [cognite-pygen]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-30 10:44:08] INFO root fetch - processPackages [gg-release-notes]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-30 10:44:08] INFO root fetch - processPackages [ztffields]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-30 10:44:08] INFO root fetch - processPackages [pymasmovil]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 10:44:08] INFO root fetch - processPackages [tasknet]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-30 10:44:09] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/00/1d/45e130588e398bb316a98f0e6793ef0d61220b74c7d14db5213e3f9f977e/cognite_pygen-0.9.0.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [ztffields]: Downloading https://files.pythonhosted.org/packages/e7/25/4eed6494685bcb0ddd434f048dbb961fa0c0490d1b769f77a93309b8ad1f/ztffields-0.4.2-py3-none-any.whl
+[2023-06-30 10:44:09] INFO root fetch - processPackages [tasknet]: Downloading https://files.pythonhosted.org/packages/68/62/c1a8b0523c4c4bf417bfd30d9575606b9f5865084f23356173adc64f9f15/tasknet-1.8.0.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [poe-shell]: Downloading https://files.pythonhosted.org/packages/7c/0e/18d9ddec5c385f27ef57775e641ca2be1766066af863ae00bf21c0ff2eca/poe_shell-0.1.4.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/f7/2a/7857bf036fb508b4ffa0c7c8c2f6e41f92eb0ce6a86ac9194b38831fa11d/neosctl-0.8.5.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [superposed-pulses]: Downloading https://files.pythonhosted.org/packages/63/b2/501fb57941ae58c73677be18ce77daee9c589ab628661aa12461df1b6289/superposed-pulses-1.1.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [autodistill-vit]: Downloading https://files.pythonhosted.org/packages/aa/89/e0f2ee60c589f348d4dfe5fec7bf60f3a7677f07809691f8df8edd712666/autodistill-vit-0.0.1.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/9e/af/b85d4ab12b3ff8b26eeb84f5748bf68a170ccb0483ce464fbc14dfacaa8e/remotivelabs_cli-0.0.1a8.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [pymasmovil]: Downloading https://files.pythonhosted.org/packages/0d/02/53655f5483ce277110577dff569dfd42ea712e347462adc1fbdb5dac2876/pymasmovil-0.0.8.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [gg-release-notes]: Downloading https://files.pythonhosted.org/packages/87/92/531393fb5130f6b13d2a58ab44d3d9c2157e0e4b7c36b923f7757d9f55e9/gg_release_notes-1.2.9-py3-none-any.whl
+[2023-06-30 10:44:09] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/ce/02/7ecd0882d447246a79ac11eff331b1c4e7890eb9fd3e85568a959aef9aa9/cognite_pygen-0.9.1.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [tasknet]: Downloading https://files.pythonhosted.org/packages/9e/0f/6b503cbc1a8ea21dc3286c2dc50b71751f72f32c9b73e987057cb7d5cdbf/tasknet-1.9.0.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [ztffields]: Downloading https://files.pythonhosted.org/packages/0c/99/8618d9e7a3ff8c09f26188360ab960e22a23a504d6f20a860d93776997ec/ztffields-0.4.3.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [cognite-pygen]: executing diffoscope
+[2023-06-30 10:44:09] INFO root fetch - processPackages [cognite-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_pygen-0.9.0.tar.gz tmp/cognite_pygen-0.9.1.tar.gz --markdown 20230630/c/cognite-pygen/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-30 10:44:09] INFO root fetch - processPackages [poe-shell]: Downloading https://files.pythonhosted.org/packages/07/d0/55a56bf423dfa87b3e45c7e705425b0ea8fdf669915343f4999600018dd6/poe_shell-0.1.5.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [tasknet]: executing diffoscope
+[2023-06-30 10:44:09] INFO root fetch - processPackages [tasknet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tasknet-1.8.0.tar.gz tmp/tasknet-1.9.0.tar.gz --markdown 20230630/t/tasknet/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-30 10:44:09] INFO root fetch - processPackages [superposed-pulses]: Downloading https://files.pythonhosted.org/packages/34/f0/1b2dd318b9c5d26cb1f6e238346f3b84dcfd2b2f520f836266a64f2bf579/superposed-pulses-1.3.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [autodistill-vit]: Downloading https://files.pythonhosted.org/packages/12/ba/706462907af88808df357a3513c674335af226d1276ec26bd56369149c24/autodistill-vit-0.1.0.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [ztffields]: executing diffoscope
+[2023-06-30 10:44:09] INFO root fetch - processPackages [ztffields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ztffields-0.4.2-py3-none-any.whl.zip tmp/ztffields-0.4.3.tar.gz --markdown 20230630/z/ztffields/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-30 10:44:09] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/6e/ec/8b4e17df12c5a2d39a005264591da395be8eae3517772654316d89e40301/remotivelabs_cli-0.0.1a9.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [gg-release-notes]: Downloading https://files.pythonhosted.org/packages/2b/fd/15989e57475916c7c4d4e9051b47546eb1594f179a80d61a836d7157e7ef/gg-release-notes-1.3.0.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/db/dc/c983f4b720c26829f5321d53a8200df2c4eabe5cb89c49c3b289f43011b6/neosctl-0.8.6.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [autodistill-vit]: executing diffoscope
+[2023-06-30 10:44:09] INFO root fetch - processPackages [autodistill-vit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill-vit-0.0.1.tar.gz tmp/autodistill-vit-0.1.0.tar.gz --markdown 20230630/a/autodistill-vit/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-30 10:44:09] INFO root fetch - processPackages [remotivelabs-cli]: executing diffoscope
+[2023-06-30 10:44:09] INFO root fetch - processPackages [remotivelabs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_cli-0.0.1a8.tar.gz tmp/remotivelabs_cli-0.0.1a9.tar.gz --markdown 20230630/r/remotivelabs-cli/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-06-30 10:44:09] INFO root fetch - processPackages [poe-shell]: executing diffoscope
+[2023-06-30 10:44:09] INFO root fetch - processPackages [poe-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_shell-0.1.4.tar.gz tmp/poe_shell-0.1.5.tar.gz --markdown 20230630/p/poe-shell/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-30 10:44:09] INFO root fetch - processPackages [gg-release-notes]: executing diffoscope
+[2023-06-30 10:44:09] INFO root fetch - processPackages [gg-release-notes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gg_release_notes-1.2.9-py3-none-any.whl.zip tmp/gg-release-notes-1.3.0.tar.gz --markdown 20230630/g/gg-release-notes/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-30 10:44:09] INFO root fetch - processPackages [neosctl]: executing diffoscope
+[2023-06-30 10:44:09] INFO root fetch - processPackages [neosctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosctl-0.8.5.tar.gz tmp/neosctl-0.8.6.tar.gz --markdown 20230630/n/neosctl/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-06-30 10:44:09] INFO root fetch - processPackages [superposed-pulses]: executing diffoscope
+[2023-06-30 10:44:09] INFO root fetch - processPackages [superposed-pulses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superposed-pulses-1.1.tar.gz tmp/superposed-pulses-1.3.tar.gz --markdown 20230630/s/superposed-pulses/1.1-1.3/diff.md --exclude *.pyd
+[2023-06-30 10:44:09] INFO root fetch - processPackages [pymasmovil]: Downloading https://files.pythonhosted.org/packages/88/47/23deff68a5c8564e6fd7ac172979cc214067a970f9f22187e04595bbfc04/pymasmovil-0.0.9.tar.gz
+[2023-06-30 10:44:09] INFO root fetch - processPackages [pymasmovil]: executing diffoscope
+[2023-06-30 10:44:09] INFO root fetch - processPackages [pymasmovil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymasmovil-0.0.8.tar.gz tmp/pymasmovil-0.0.9.tar.gz --markdown 20230630/p/pymasmovil/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 10:44:10] INFO root fetch - processPackages [tasknet]: Remove: archive file [/home/abi/fetcher/tmp/tasknet-1.8.0.tar.gz]
+[2023-06-30 10:44:10] INFO root fetch - processPackages [tasknet]: Remove: archive file [/home/abi/fetcher/tmp/tasknet-1.9.0.tar.gz]
+[2023-06-30 10:44:10] INFO root fetch - processPackages [tasknet]: Start processing: tff-nightly
+[2023-06-30 10:44:10] INFO root fetch - main [MainThread]: End processing [tasknet]: success
+[2023-06-30 10:44:10] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230629] Old Version: [0.0.1.dev20230628]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/96/5d/127be7c3924c86137d0ce46e3745881203240315bbf21c2cf461e2f5240e/tff_nightly-0.0.1.dev20230628-py2.py3-none-any.whl
+[2023-06-30 10:44:11] INFO root fetch - processPackages [autodistill-vit]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-vit-0.0.1.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [autodistill-vit]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-vit-0.1.0.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [autodistill-vit]: Start processing: hcloud
+[2023-06-30 10:44:11] INFO root fetch - main [MainThread]: End processing [autodistill-vit]: success
+[2023-06-30 10:44:11] INFO root fetch - processPackages [hcloud]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [ztffields]: Remove: archive file [/home/abi/fetcher/tmp/ztffields-0.4.2-py3-none-any.whl.zip]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [ztffields]: Remove: archive file [/home/abi/fetcher/tmp/ztffields-0.4.3.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [ztffields]: Start processing: irene-pro1
+[2023-06-30 10:44:11] INFO root fetch - main [MainThread]: End processing [ztffields]: success
+[2023-06-30 10:44:11] INFO root fetch - processPackages [irene-pro1]: New version: [0.0.79] Old Version: [0.0.78]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [hcloud]: Downloading https://files.pythonhosted.org/packages/75/ae/3377e93b699a5a13d41b1da469eadc345a199ceebf95e75d000414478955/hcloud-1.9.0.tar.gz
+[2023-06-30 10:44:11] INFO root fetch - processPackages [irene-pro1]: Downloading https://files.pythonhosted.org/packages/60/44/4f955771d119c73ed3c484e36b9bb290da5b91ee2ad56a777c224c2ea7d8/irene_pro1-0.0.78.tar.gz
+[2023-06-30 10:44:11] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/be/3a/56e1dace60452937d6fe9f97ca57fe8dbfc3681a08fedf9acdf7a160da5c/tff_nightly-0.0.1.dev20230629-py2.py3-none-any.whl
+[2023-06-30 10:44:11] INFO root fetch - processPackages [gg-release-notes]: Remove: archive file [/home/abi/fetcher/tmp/gg_release_notes-1.2.9-py3-none-any.whl.zip]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [gg-release-notes]: Remove: archive file [/home/abi/fetcher/tmp/gg-release-notes-1.3.0.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [gg-release-notes]: Start processing: dq-module
+[2023-06-30 10:44:11] INFO root fetch - main [MainThread]: End processing [gg-release-notes]: success
+[2023-06-30 10:44:11] INFO root fetch - processPackages [hcloud]: Downloading https://files.pythonhosted.org/packages/57/06/ffb83beaa4a583e87937570492b0fa3ee49120b1617e90ec90aa3801054e/hcloud-1.9.1.tar.gz
+[2023-06-30 10:44:11] INFO root fetch - processPackages [dq-module]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.0.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.1.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [cognite-pygen]: Start processing: DDesignerAPI
+[2023-06-30 10:44:11] INFO root fetch - main [MainThread]: End processing [cognite-pygen]: success
+[2023-06-30 10:44:11] INFO root fetch - processPackages [hcloud]: executing diffoscope
+[2023-06-30 10:44:11] INFO root fetch - processPackages [hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcloud-1.9.0.tar.gz tmp/hcloud-1.9.1.tar.gz --markdown 20230630/h/hcloud/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-30 10:44:11] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.3.1] Old Version: [0.0.3.0]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [poe-shell]: Remove: archive file [/home/abi/fetcher/tmp/poe_shell-0.1.4.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [poe-shell]: Remove: archive file [/home/abi/fetcher/tmp/poe_shell-0.1.5.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [poe-shell]: Start processing: ht-pricing-module
+[2023-06-30 10:44:11] INFO root fetch - main [MainThread]: End processing [poe-shell]: success
+[2023-06-30 10:44:11] INFO root fetch - processPackages [irene-pro1]: Downloading https://files.pythonhosted.org/packages/6f/46/ded15cc11db709de4025748d05d246dcc41ddb93e796785522d3750b7efb/irene_pro1-0.0.79.tar.gz
+[2023-06-30 10:44:11] INFO root fetch - processPackages [ht-pricing-module]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-30 10:44:11] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230628-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230629-py2.py3-none-any.whl.zip --markdown 20230630/t/tff-nightly/0.0.1.dev20230628-0.0.1.dev20230629/diff.md --exclude *.pyd
+[2023-06-30 10:44:11] INFO root fetch - processPackages [dq-module]: Downloading https://files.pythonhosted.org/packages/f2/64/86ae77ece76786a9b3df0d45286fbb1b2f8b7377a7960d1b26214c7866b8/dq_module-1.1.2.tar.gz
+[2023-06-30 10:44:11] INFO root fetch - processPackages [ht-pricing-module]: Downloading https://files.pythonhosted.org/packages/60/da/7929586818aca193cd304eb05c0f402ddda30f57818e2d21dfe5f40464bf/ht_pricing_module-0.3.0.tar.gz
+[2023-06-30 10:44:11] INFO root fetch - processPackages [irene-pro1]: executing diffoscope
+[2023-06-30 10:44:11] INFO root fetch - processPackages [irene-pro1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro1-0.0.78.tar.gz tmp/irene_pro1-0.0.79.tar.gz --markdown 20230630/i/irene-pro1/0.0.78-0.0.79/diff.md --exclude *.pyd
+[2023-06-30 10:44:11] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/0d/aa/2b7c909939e71187ba18b27a1e7bc517e5a3e4ad378cef3cc0fb8a2c3b76/DDesignerAPI-0.0.3.0-py3-none-any.whl
+[2023-06-30 10:44:11] INFO root fetch - processPackages [superposed-pulses]: Remove: archive file [/home/abi/fetcher/tmp/superposed-pulses-1.1.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [superposed-pulses]: Remove: archive file [/home/abi/fetcher/tmp/superposed-pulses-1.3.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [superposed-pulses]: Start processing: TINTOlib
+[2023-06-30 10:44:11] INFO root fetch - main [MainThread]: End processing [superposed-pulses]: success
+[2023-06-30 10:44:11] INFO root fetch - processPackages [TINTOlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [TINTOlib]: Downloading https://files.pythonhosted.org/packages/88/66/5ff78a7354d96c5cb6040119eab2be915cdf9e9570f5bf18b1c2dba81c64/tintolib-0.0.8.tar.gz
+[2023-06-30 10:44:11] INFO root fetch - processPackages [ht-pricing-module]: Downloading https://files.pythonhosted.org/packages/21/35/9f58548925a34c73e49dfbe01a600da2a42553e52239b2bd73bf7cd3353a/ht_pricing_module-0.3.1.tar.gz
+[2023-06-30 10:44:11] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.8.5.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.8.6.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - main [MainThread]: End processing [neosctl]: success
+[2023-06-30 10:44:11] INFO root fetch - processPackages [pymasmovil]: Remove: archive file [/home/abi/fetcher/tmp/pymasmovil-0.0.8.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [pymasmovil]: Remove: archive file [/home/abi/fetcher/tmp/pymasmovil-0.0.9.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - main [MainThread]: End processing [pymasmovil]: success
+[2023-06-30 10:44:11] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a8.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a9.tar.gz]
+[2023-06-30 10:44:11] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
+[2023-06-30 10:44:11] INFO root fetch - processPackages [ht-pricing-module]: executing diffoscope
+[2023-06-30 10:44:11] INFO root fetch - processPackages [ht-pricing-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ht_pricing_module-0.3.0.tar.gz tmp/ht_pricing_module-0.3.1.tar.gz --markdown 20230630/h/ht-pricing-module/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-30 10:44:11] INFO root fetch - processPackages [dq-module]: Downloading https://files.pythonhosted.org/packages/91/d6/6fec632f12856b29c26d0d2bfc6449fe736dc353558bcc8895de92f82910/dq_module-1.1.3.tar.gz
+[2023-06-30 10:44:12] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/d6/51/99f1dde59408d02daf0fc7622b2740d0ee09313727e755f286894a13612b/DDesignerAPI-0.0.3.1-py3-none-any.whl
+[2023-06-30 10:44:12] INFO root fetch - processPackages [dq-module]: executing diffoscope
+[2023-06-30 10:44:12] INFO root fetch - processPackages [dq-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dq_module-1.1.2.tar.gz tmp/dq_module-1.1.3.tar.gz --markdown 20230630/d/dq-module/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-30 10:44:12] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-06-30 10:44:12] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.3.0-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.3.1-py3-none-any.whl.zip --markdown 20230630/D/DDesignerAPI/0.0.3.0-0.0.3.1/diff.md --exclude *.pyd
+[2023-06-30 10:44:12] INFO root fetch - processPackages [TINTOlib]: Downloading https://files.pythonhosted.org/packages/c4/27/a91d5cfaf102a55a2a1c9d05c61fa9b4e7a94ef94ddb79a837edafdb6324/tintolib-0.0.9.tar.gz
+[2023-06-30 10:44:12] INFO root fetch - processPackages [TINTOlib]: executing diffoscope
+[2023-06-30 10:44:12] INFO root fetch - processPackages [TINTOlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tintolib-0.0.8.tar.gz tmp/tintolib-0.0.9.tar.gz --markdown 20230630/T/TINTOlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 10:44:13] INFO root fetch - processPackages [irene-pro1]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro1-0.0.78.tar.gz]
+[2023-06-30 10:44:13] INFO root fetch - processPackages [irene-pro1]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro1-0.0.79.tar.gz]
+[2023-06-30 10:44:13] INFO root fetch - main [MainThread]: End processing [irene-pro1]: success
+[2023-06-30 10:44:13] INFO root fetch - processPackages [dq-module]: Remove: archive file [/home/abi/fetcher/tmp/dq_module-1.1.2.tar.gz]
+[2023-06-30 10:44:13] INFO root fetch - processPackages [dq-module]: Remove: archive file [/home/abi/fetcher/tmp/dq_module-1.1.3.tar.gz]
+[2023-06-30 10:44:13] INFO root fetch - main [MainThread]: End processing [dq-module]: success
+[2023-06-30 10:44:13] INFO root fetch - processPackages [hcloud]: Remove: archive file [/home/abi/fetcher/tmp/hcloud-1.9.0.tar.gz]
+[2023-06-30 10:44:13] INFO root fetch - processPackages [hcloud]: Remove: archive file [/home/abi/fetcher/tmp/hcloud-1.9.1.tar.gz]
+[2023-06-30 10:44:13] INFO root fetch - main [MainThread]: End processing [hcloud]: success
+[2023-06-30 10:44:13] INFO root fetch - processPackages [DDesignerAPI]: Remove: archive file [/home/abi/fetcher/tmp/DDesignerAPI-0.0.3.0-py3-none-any.whl.zip]
+[2023-06-30 10:44:13] INFO root fetch - processPackages [DDesignerAPI]: Remove: archive file [/home/abi/fetcher/tmp/DDesignerAPI-0.0.3.1-py3-none-any.whl.zip]
+[2023-06-30 10:44:13] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-06-30 10:44:13] INFO root fetch - processPackages [ht-pricing-module]: Remove: archive file [/home/abi/fetcher/tmp/ht_pricing_module-0.3.0.tar.gz]
+[2023-06-30 10:44:13] INFO root fetch - processPackages [ht-pricing-module]: Remove: archive file [/home/abi/fetcher/tmp/ht_pricing_module-0.3.1.tar.gz]
+[2023-06-30 10:44:13] INFO root fetch - main [MainThread]: End processing [ht-pricing-module]: success
+[2023-06-30 10:44:14] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230628-py2.py3-none-any.whl.zip]
+[2023-06-30 10:44:14] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230629-py2.py3-none-any.whl.zip]
+[2023-06-30 10:44:14] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-30 10:44:50] INFO root fetch - processPackages [TINTOlib]: Remove: archive file [/home/abi/fetcher/tmp/tintolib-0.0.8.tar.gz]
+[2023-06-30 10:44:50] INFO root fetch - processPackages [TINTOlib]: Remove: archive file [/home/abi/fetcher/tmp/tintolib-0.0.9.tar.gz]
+[2023-06-30 10:44:50] INFO root fetch - main [MainThread]: End processing [TINTOlib]: success
+[2023-06-30 10:44:50] INFO root fetch - main [MainThread]: Store serial: [18707698]
