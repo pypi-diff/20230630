@@ -2869,3 +2869,23 @@
 [2023-06-30 02:53:33] INFO root fetch - processPackages [pyppbox]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox-3.0b3.tar.gz]
 [2023-06-30 02:53:33] INFO root fetch - main [MainThread]: End processing [pyppbox]: success
 [2023-06-30 02:53:33] INFO root fetch - main [MainThread]: Store serial: [18702762]
+[2023-06-30 02:58:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702762]
+[2023-06-30 02:58:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-30 02:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-slack-chatbot
+[2023-06-30 02:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nats-py-worker
+[2023-06-30 02:58:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botsy
+[2023-06-30 02:58:42] WARNING root fetch - processPackages [nats-py-worker]: Skipping, unable to determine old version
+[2023-06-30 02:58:42] INFO root fetch - main [MainThread]: End processing [nats-py-worker] error
+[2023-06-30 02:58:42] INFO root fetch - processPackages [botsy]: New version: [0.1.5] Old Version: [0.1.30]
+[2023-06-30 02:58:42] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-30 02:58:42] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-06-30 02:58:42] INFO root fetch - processPackages [botsy]: Downloading https://files.pythonhosted.org/packages/9e/eb/68e4e4329356756a220904dd50c256e0a59032b59f2c3e9338a65db23c34/botsy-0.1.30.tar.gz
+[2023-06-30 02:58:43] WARNING root fetch - processPackages [botsy]: Skipping package: exceeds size limit 57265660>=10485760
+[2023-06-30 02:58:43] INFO root fetch - main [MainThread]: End processing [botsy] error
+[2023-06-30 02:58:43] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-06-30 02:58:43] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-06-30 02:58:43] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230630/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-30 02:58:44] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.98.tar.gz]
+[2023-06-30 02:58:44] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
+[2023-06-30 02:58:44] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-06-30 02:58:44] INFO root fetch - main [MainThread]: Store serial: [18702775]
