@@ -21767,3 +21767,129 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 14:28:06] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230630122428.tar.gz]
 [2023-06-30 14:28:06] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-30 14:28:06] INFO root fetch - main [MainThread]: Store serial: [18710655]
+[2023-06-30 14:33:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18710655]
+[2023-06-30 14:33:15] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-30 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FuncsForSPO
+[2023-06-30 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sniimapp
+[2023-06-30 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geodezyx
+[2023-06-30 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xtor
+[2023-06-30 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi
+[2023-06-30 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickstatements-client
+[2023-06-30 14:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: panoptic
+[2023-06-30 14:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sniimapp
+[2023-06-30 14:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nopasaran
+[2023-06-30 14:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-lazy-srcset
+[2023-06-30 14:33:16] INFO root fetch - processPackages [sniimapp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 14:33:16] INFO root fetch - processPackages [FuncsForSPO]: New version: [6.2.6] Old Version: [6.2.5]
+[2023-06-30 14:33:16] INFO root fetch - processPackages [sniimapp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 14:33:16] INFO root fetch - processPackages [nopasaran]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-30 14:33:16] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/fb/d1/ec907fcf8092b0658f18c33c834998acf50826cf6eed46c8361c96638f8f/sniimapp-0.0.8.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/74/f0/6e184afe442cc7a09f65789e3e16a6ad2c05ae7bbe2c5071683d9b389372/nopasaran-0.1.7.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/fb/d1/ec907fcf8092b0658f18c33c834998acf50826cf6eed46c8361c96638f8f/sniimapp-0.0.8.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [xtor]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-30 14:33:16] INFO root fetch - processPackages [quickstatements-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-30 14:33:16] INFO root fetch - processPackages [panoptic]: New version: [0.1.1.dev2] Old Version: [0.1.1.dev1]
+[2023-06-30 14:33:16] INFO root fetch - processPackages [django-lazy-srcset]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-30 14:33:16] INFO root fetch - processPackages [geodezyx]: New version: [0.4.3.3] Old Version: [0.4.3.2]
+[2023-06-30 14:33:16] INFO root fetch - processPackages [pulumi]: New version: [3.9.1] Old Version: [3.9.0a1627480147]
+[2023-06-30 14:33:16] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/25/05/8e6a1348fcd713d6b2c460d554fe8181c6e82f031e6a31e58241d8d04f44/FuncsForSPO-6.2.5.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [geodezyx]: Downloading https://files.pythonhosted.org/packages/a4/0a/a4dc38cf8c6892f1710f1ea3e2d9feb1dea6577854bb9426c45381666cb1/geodezyx-0.4.3.2.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/2e/76/889e2e716e40b501895c259513d8e4e12a2477266774d40af987ec6b225f/nopasaran-0.1.8.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [quickstatements-client]: Downloading https://files.pythonhosted.org/packages/6e/ac/28eafe664183eb2cfd85afbc4190458266838c986bcd9c4324321c48d7bd/quickstatements_client-0.0.2.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/32/41/5f0bd7028c0c84a365a70d9ce3684ef44e347a22a1d33861d0f928009701/sniimapp-0.0.9.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/32/41/5f0bd7028c0c84a365a70d9ce3684ef44e347a22a1d33861d0f928009701/sniimapp-0.0.9.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/43/c5/1a36fc22268af37acaf4b41b1914c7c3728d6a9af044503f6883fe570b86/panoptic-0.1.1.dev1.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [django-lazy-srcset]: Downloading https://files.pythonhosted.org/packages/af/a4/effe43a876cbc5477a9de68c1f23897f378719ce839fc55a973c48d6f8cb/django-lazy-srcset-0.2.0.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/86/e81db20648ca7b8fbc7fb663e6795bc30d94e7f71c35856cda04bb48fb84/pulumi-3.9.0a1627480147-py2.py3-none-any.whl
+[2023-06-30 14:33:16] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-06-30 14:33:16] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.8.tar.gz tmp/sniimapp-0.0.9.tar.gz --markdown 20230630/s/sniimapp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 14:33:16] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-06-30 14:33:16] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.8.tar.gz tmp/sniimapp-0.0.9.tar.gz --markdown 20230630/s/sniimapp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 14:33:16] INFO root fetch - processPackages [xtor]: Downloading https://files.pythonhosted.org/packages/2a/2c/2570863641e2adbcccc7a81ed0eafbabb5ed79ccd34e9f3099f0699ffe82/xtor-0.2.2.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [nopasaran]: executing diffoscope
+[2023-06-30 14:33:16] INFO root fetch - processPackages [nopasaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopasaran-0.1.7.tar.gz tmp/nopasaran-0.1.8.tar.gz --markdown 20230630/n/nopasaran/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-30 14:33:16] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/16/4f/5d92746a40a282475886471029a6cbcd3eb885e5cbdfcd707aa96cb01412/FuncsForSPO-6.2.6.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [xtor]: executing diffoscope
+[2023-06-30 14:33:16] INFO root fetch - processPackages [xtor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtor-0.2.1.tar.gz tmp/xtor-0.2.2.tar.gz --markdown 20230630/x/xtor/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-30 14:33:16] INFO root fetch - processPackages [geodezyx]: Downloading https://files.pythonhosted.org/packages/2e/48/d945e0655331a13061bfe4d5fd4bb2f1c1e040e06b3f6d081ee0c065172b/geodezyx-0.4.3.3.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [quickstatements-client]: Downloading https://files.pythonhosted.org/packages/d7/f4/394cafc05d05d47ae961ea4fc67083652b6ad480d827df654a6d5a8e2c07/quickstatements_client-0.0.3.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [django-lazy-srcset]: Downloading https://files.pythonhosted.org/packages/2d/21/d7b411ea79a04e91827cd368b7b44ac84298080c4cbabaefa22da3f75cdb/django-lazy-srcset-0.2.1.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-30 14:33:16] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-6.2.5.tar.gz tmp/FuncsForSPO-6.2.6.tar.gz --markdown 20230630/F/FuncsForSPO/6.2.5-6.2.6/diff.md --exclude *.pyd
+[2023-06-30 14:33:16] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/7c/5c/96db679026f6c5451569f3976fa1410000cf26767e09fd7866f9d9512d06/panoptic-0.1.1.dev2.tar.gz
+[2023-06-30 14:33:16] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/ba/a5/2a7580020b4c5bf7a2141ea9a534e88935a103da4dff30a205e4afdfb95d/pulumi-3.9.1-py2.py3-none-any.whl
+[2023-06-30 14:33:16] INFO root fetch - processPackages [quickstatements-client]: executing diffoscope
+[2023-06-30 14:33:16] INFO root fetch - processPackages [quickstatements-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstatements_client-0.0.2.tar.gz tmp/quickstatements_client-0.0.3.tar.gz --markdown 20230630/q/quickstatements-client/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-30 14:33:16] INFO root fetch - processPackages [django-lazy-srcset]: executing diffoscope
+[2023-06-30 14:33:16] INFO root fetch - processPackages [django-lazy-srcset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-lazy-srcset-0.2.0.tar.gz tmp/django-lazy-srcset-0.2.1.tar.gz --markdown 20230630/d/django-lazy-srcset/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-30 14:33:16] INFO root fetch - processPackages [geodezyx]: executing diffoscope
+[2023-06-30 14:33:16] INFO root fetch - processPackages [geodezyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodezyx-0.4.3.2.tar.gz tmp/geodezyx-0.4.3.3.tar.gz --markdown 20230630/g/geodezyx/0.4.3.2-0.4.3.3/diff.md --exclude *.pyd
+[2023-06-30 14:33:16] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2023-06-30 14:33:16] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.1.1.dev1.tar.gz tmp/panoptic-0.1.1.dev2.tar.gz --markdown 20230630/p/panoptic/0.1.1.dev1-0.1.1.dev2/diff.md --exclude *.pyd
+[2023-06-30 14:33:16] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2023-06-30 14:33:16] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.9.0a1627480147-py2.py3-none-any.whl.zip tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip --markdown 20230630/p/pulumi/3.9.0a1627480147-3.9.1/diff.md --exclude *.pyd
+[2023-06-30 14:33:17] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.8.tar.gz]
+[2023-06-30 14:33:17] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.9.tar.gz]
+[2023-06-30 14:33:17] INFO root fetch - processPackages [sniimapp]: Start processing: llvd
+[2023-06-30 14:33:17] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-06-30 14:33:17] INFO root fetch - processPackages [sniimapp]: Start processing: netbox-cisco-support-plugin
+[2023-06-30 14:33:17] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-06-30 14:33:17] INFO root fetch - processPackages [llvd]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-06-30 14:33:17] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 14:33:18] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-30 14:33:18] INFO root fetch - processPackages [xtor]: Remove: archive file [/home/abi/fetcher/tmp/xtor-0.2.1.tar.gz]
+[2023-06-30 14:33:18] INFO root fetch - processPackages [xtor]: Remove: archive file [/home/abi/fetcher/tmp/xtor-0.2.2.tar.gz]
+[2023-06-30 14:33:18] INFO root fetch - processPackages [xtor]: Start processing: prompton
+[2023-06-30 14:33:18] INFO root fetch - main [MainThread]: End processing [xtor]: success
+[2023-06-30 14:33:18] INFO root fetch - processPackages [prompton]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-30 14:33:18] INFO root fetch - processPackages [llvd]: Downloading https://files.pythonhosted.org/packages/02/2d/aef81b074209fc546327e5f09f360dc642375a28209c949ba096f6566345/llvd-3.0.3.tar.gz
+[2023-06-30 14:33:18] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-30 14:33:18] INFO root fetch - processPackages [prompton]: Downloading https://files.pythonhosted.org/packages/91/05/11e8a33595806b476bf5d4c794be2507ca7eb4d109d7013a1716f80edbb0/prompton-0.0.7.tar.gz
+[2023-06-30 14:33:18] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-30 14:33:18] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230630/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 14:33:18] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.1.7.tar.gz]
+[2023-06-30 14:33:18] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.1.8.tar.gz]
+[2023-06-30 14:33:18] INFO root fetch - processPackages [llvd]: Downloading https://files.pythonhosted.org/packages/56/b6/d3ce0d466f69a753208bb1889e7c44d488570ff80ff37e5d66e70eb73c96/llvd-3.0.4.tar.gz
+[2023-06-30 14:33:18] INFO root fetch - processPackages [nopasaran]: Start processing: LbNightlyTools
+[2023-06-30 14:33:18] INFO root fetch - main [MainThread]: End processing [nopasaran]: success
+[2023-06-30 14:33:18] INFO root fetch - processPackages [LbNightlyTools]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-30 14:33:18] INFO root fetch - processPackages [prompton]: Downloading https://files.pythonhosted.org/packages/15/41/339da777573c4572156279ad1a8088b5f4908dd27a971383d47693efe9fa/prompton-0.0.8.tar.gz
+[2023-06-30 14:33:18] INFO root fetch - processPackages [llvd]: executing diffoscope
+[2023-06-30 14:33:18] INFO root fetch - processPackages [llvd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llvd-3.0.3.tar.gz tmp/llvd-3.0.4.tar.gz --markdown 20230630/l/llvd/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-06-30 14:33:18] INFO root fetch - processPackages [LbNightlyTools]: Downloading https://files.pythonhosted.org/packages/e8/b5/a810fde1a1a3f9b6b9cea7023cf753b77b967e53d829831c8eb6597d37ad/LbNightlyTools-3.0.8.tar.gz
+[2023-06-30 14:33:18] INFO root fetch - processPackages [prompton]: executing diffoscope
+[2023-06-30 14:33:18] INFO root fetch - processPackages [prompton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompton-0.0.7.tar.gz tmp/prompton-0.0.8.tar.gz --markdown 20230630/p/prompton/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-30 14:33:18] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.2.5.tar.gz]
+[2023-06-30 14:33:18] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.2.6.tar.gz]
+[2023-06-30 14:33:18] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-30 14:33:18] INFO root fetch - processPackages [LbNightlyTools]: Downloading https://files.pythonhosted.org/packages/51/fa/9c92013dcb7178b558b9f90d6b89df82070caf9d26a963eb71ddf4899f17/LbNightlyTools-3.0.9.tar.gz
+[2023-06-30 14:33:18] INFO root fetch - processPackages [django-lazy-srcset]: Remove: archive file [/home/abi/fetcher/tmp/django-lazy-srcset-0.2.0.tar.gz]
+[2023-06-30 14:33:18] INFO root fetch - processPackages [django-lazy-srcset]: Remove: archive file [/home/abi/fetcher/tmp/django-lazy-srcset-0.2.1.tar.gz]
+[2023-06-30 14:33:18] INFO root fetch - main [MainThread]: End processing [django-lazy-srcset]: success
+[2023-06-30 14:33:18] INFO root fetch - processPackages [LbNightlyTools]: executing diffoscope
+[2023-06-30 14:33:18] INFO root fetch - processPackages [LbNightlyTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbNightlyTools-3.0.8.tar.gz tmp/LbNightlyTools-3.0.9.tar.gz --markdown 20230630/L/LbNightlyTools/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-30 14:33:19] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.1.1.dev1.tar.gz]
+[2023-06-30 14:33:19] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.1.1.dev2.tar.gz]
+[2023-06-30 14:33:19] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2023-06-30 14:33:19] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.9.0a1627480147-py2.py3-none-any.whl.zip]
+[2023-06-30 14:33:19] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip]
+[2023-06-30 14:33:19] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2023-06-30 14:33:19] INFO root fetch - processPackages [geodezyx]: Remove: archive file [/home/abi/fetcher/tmp/geodezyx-0.4.3.2.tar.gz]
+[2023-06-30 14:33:19] INFO root fetch - processPackages [geodezyx]: Remove: archive file [/home/abi/fetcher/tmp/geodezyx-0.4.3.3.tar.gz]
+[2023-06-30 14:33:19] INFO root fetch - main [MainThread]: End processing [geodezyx]: success
+[2023-06-30 14:33:19] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-30 14:33:19] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-30 14:33:19] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-30 14:33:19] INFO root fetch - processPackages [llvd]: Remove: archive file [/home/abi/fetcher/tmp/llvd-3.0.3.tar.gz]
+[2023-06-30 14:33:19] INFO root fetch - processPackages [llvd]: Remove: archive file [/home/abi/fetcher/tmp/llvd-3.0.4.tar.gz]
+[2023-06-30 14:33:19] INFO root fetch - main [MainThread]: End processing [llvd]: success
+[2023-06-30 14:33:20] INFO root fetch - processPackages [prompton]: Remove: archive file [/home/abi/fetcher/tmp/prompton-0.0.7.tar.gz]
+[2023-06-30 14:33:20] INFO root fetch - processPackages [prompton]: Remove: archive file [/home/abi/fetcher/tmp/prompton-0.0.8.tar.gz]
+[2023-06-30 14:33:20] INFO root fetch - main [MainThread]: End processing [prompton]: success
+[2023-06-30 14:33:20] INFO root fetch - processPackages [quickstatements-client]: Remove: archive file [/home/abi/fetcher/tmp/quickstatements_client-0.0.2.tar.gz]
+[2023-06-30 14:33:20] INFO root fetch - processPackages [quickstatements-client]: Remove: archive file [/home/abi/fetcher/tmp/quickstatements_client-0.0.3.tar.gz]
+[2023-06-30 14:33:20] INFO root fetch - main [MainThread]: End processing [quickstatements-client]: success
+[2023-06-30 14:33:21] INFO root fetch - processPackages [LbNightlyTools]: Remove: archive file [/home/abi/fetcher/tmp/LbNightlyTools-3.0.8.tar.gz]
+[2023-06-30 14:33:21] INFO root fetch - processPackages [LbNightlyTools]: Remove: archive file [/home/abi/fetcher/tmp/LbNightlyTools-3.0.9.tar.gz]
+[2023-06-30 14:33:21] INFO root fetch - main [MainThread]: End processing [LbNightlyTools]: success
+[2023-06-30 14:33:21] INFO root fetch - main [MainThread]: Store serial: [18710697]
