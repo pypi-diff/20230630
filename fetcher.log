@@ -18480,3 +18480,148 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 12:32:54] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post874-py3-none-any.whl.zip]
 [2023-06-30 12:32:54] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-06-30 12:32:54] INFO root fetch - main [MainThread]: Store serial: [18708807]
+[2023-06-30 12:37:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18708807]
+[2023-06-30 12:38:03] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-30 12:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: itkdb-gtk
+[2023-06-30 12:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beavers
+[2023-06-30 12:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: youwol
+[2023-06-30 12:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dagster-polars
+[2023-06-30 12:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sniimapp
+[2023-06-30 12:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydantic-core
+[2023-06-30 12:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airtouch2
+[2023-06-30 12:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-contributor-assets
+[2023-06-30 12:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybiolib
+[2023-06-30 12:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: riseup-vpn-configurator
+[2023-06-30 12:38:03] INFO root fetch - processPackages [beavers]: New version: [0.0.2] Old Version: [0.0.1rc0]
+[2023-06-30 12:38:03] INFO root fetch - processPackages [sniimapp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 12:38:03] INFO root fetch - processPackages [youwol]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-30 12:38:03] INFO root fetch - processPackages [dagster-polars]: New version: [0.0.3a0] Old Version: [0.0.2]
+[2023-06-30 12:38:03] INFO root fetch - processPackages [itkdb-gtk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 12:38:03] INFO root fetch - processPackages [riseup-vpn-configurator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-30 12:38:03] INFO root fetch - processPackages [airtouch2]: New version: [0.7.1] Old Version: [0.7]
+[2023-06-30 12:38:03] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2023-06-30 12:38:03] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post875] Old Version: [1.0.0.post874]
+[2023-06-30 12:38:03] INFO root fetch - processPackages [pydantic-core]: New version: [2.0.0] Old Version: [0.9.0]
+[2023-06-30 12:38:03] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/fb/d1/ec907fcf8092b0658f18c33c834998acf50826cf6eed46c8361c96638f8f/sniimapp-0.0.8.tar.gz
+[2023-06-30 12:38:03] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/93/35/874e8d99948d428a98b54310a93c509f50df92b1f9e96b1bff897c86936e/nucliadb_contributor_assets-1.0.0.post874-py3-none-any.whl
+[2023-06-30 12:38:04] INFO root fetch - processPackages [beavers]: Downloading https://files.pythonhosted.org/packages/64/50/844c577da4a05ddc03bd8ec143fd78e6976b97835390613a5e5953e21138/beavers-0.0.1rc0.tar.gz
+[2023-06-30 12:38:04] INFO root fetch - processPackages [youwol]: Downloading https://files.pythonhosted.org/packages/57/6b/d7dfdb38ecafca19a73aa2f6c26d87184b237d3ad8639a3ff5c793068a37/youwol-0.1.1-py3-none-any.whl
+[2023-06-30 12:38:04] INFO root fetch - processPackages [dagster-polars]: Downloading https://files.pythonhosted.org/packages/24/b6/8dcffe30b7ff0b0f71541698d3b432f9db62f35913d75645626138962cc7/dagster_polars-0.0.2.tar.gz
+[2023-06-30 12:38:04] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/17/03/0dbd6e2369231fd2f08df4e1af7bdb6929400aae232b863b88950648a366/itkdb_gtk-0.0.8.tar.gz
+[2023-06-30 12:38:04] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/32/41/5f0bd7028c0c84a365a70d9ce3684ef44e347a22a1d33861d0f928009701/sniimapp-0.0.9.tar.gz
+[2023-06-30 12:38:04] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/2e/1a/9ec3f8a8f91655cc0083532474c55e68289a042bec1dae3920e0823fc513/airtouch2-0.7.tar.gz
+[2023-06-30 12:38:04] INFO root fetch - processPackages [pydantic-core]: Downloading https://files.pythonhosted.org/packages/73/d2/71067fc29dbd97ad9dc288b715da55c8dfaa72d17617642f96c30d880981/pydantic_core-0.9.0.tar.gz
+[2023-06-30 12:38:04] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-06-30 12:38:04] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.8.tar.gz tmp/sniimapp-0.0.9.tar.gz --markdown 20230630/s/sniimapp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 12:38:04] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/7a/30/d0b186b3efe21bfd0547bf98065ec44276dff81d4635fba9babb043643f3/itkdb_gtk-0.0.9.tar.gz
+[2023-06-30 12:38:04] INFO root fetch - processPackages [beavers]: Downloading https://files.pythonhosted.org/packages/77/47/18b877620e50f5704b44c6b62df055c24f51c51bc893a5017b646def3f52/beavers-0.0.2.tar.gz
+[2023-06-30 12:38:04] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/b7/99/c27fcf7edce68df97f8eba432ae0ce6b5b893f0d3cd5ed2e2d2ce55ea002/nucliadb_contributor_assets-1.0.0.post875-py3-none-any.whl
+[2023-06-30 12:38:04] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-06-30 12:38:04] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20230630/p/pybiolib/1.1.997-1.1.999/diff.md --exclude *.pyd
+[2023-06-30 12:38:04] INFO root fetch - processPackages [riseup-vpn-configurator]: Downloading https://files.pythonhosted.org/packages/65/05/3d72fc55e52fa20709863d3900f9bb9a479744d3dacbeb21530358682d42/riseup_vpn_configurator-1.0.0.tar.gz
+[2023-06-30 12:38:04] INFO root fetch - processPackages [dagster-polars]: Downloading https://files.pythonhosted.org/packages/c7/c5/a0482d7d00419f61d49b2c9724a1e63c215880b18270578d532f5ec34449/dagster_polars-0.0.3a0.tar.gz
+[2023-06-30 12:38:04] INFO root fetch - processPackages [itkdb-gtk]: executing diffoscope
+[2023-06-30 12:38:04] INFO root fetch - processPackages [itkdb-gtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb_gtk-0.0.8.tar.gz tmp/itkdb_gtk-0.0.9.tar.gz --markdown 20230630/i/itkdb-gtk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 12:38:04] INFO root fetch - processPackages [beavers]: executing diffoscope
+[2023-06-30 12:38:04] INFO root fetch - processPackages [beavers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beavers-0.0.1rc0.tar.gz tmp/beavers-0.0.2.tar.gz --markdown 20230630/b/beavers/0.0.1rc0-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 12:38:04] INFO root fetch - processPackages [dagster-polars]: executing diffoscope
+[2023-06-30 12:38:04] INFO root fetch - processPackages [dagster-polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster_polars-0.0.2.tar.gz tmp/dagster_polars-0.0.3a0.tar.gz --markdown 20230630/d/dagster-polars/0.0.2-0.0.3a0/diff.md --exclude *.pyd
+[2023-06-30 12:38:04] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-30 12:38:04] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post874-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post875-py3-none-any.whl.zip --markdown 20230630/n/nucliadb-contributor-assets/1.0.0.post874-1.0.0.post875/diff.md --exclude *.pyd
+[2023-06-30 12:38:04] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/b5/e2/3295af00fc280ca93de37bebbbeaa0eadc99ced3634321778be1529c7a07/airtouch2-0.7.1.tar.gz
+[2023-06-30 12:38:04] INFO root fetch - processPackages [youwol]: Downloading https://files.pythonhosted.org/packages/21/02/abb3cc3117c5783c23223e81b7a351501e3a204b850917afe35937b7c1f3/youwol-0.1.2-py3-none-any.whl
+[2023-06-30 12:38:04] INFO root fetch - processPackages [airtouch2]: executing diffoscope
+[2023-06-30 12:38:04] INFO root fetch - processPackages [airtouch2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtouch2-0.7.tar.gz tmp/airtouch2-0.7.1.tar.gz --markdown 20230630/a/airtouch2/0.7-0.7.1/diff.md --exclude *.pyd
+[2023-06-30 12:38:04] INFO root fetch - processPackages [pydantic-core]: Downloading https://files.pythonhosted.org/packages/8c/32/94096c6f3a6bb94da4bc53be10011ba6d5fbea6f39eadd52f571a01cdd78/pydantic_core-2.0.0-pp38-pypy38_pp73-musllinux_1_1_x86_64.whl
+[2023-06-30 12:38:04] INFO root fetch - processPackages [youwol]: executing diffoscope
+[2023-06-30 12:38:04] INFO root fetch - processPackages [youwol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youwol-0.1.1-py3-none-any.whl.zip tmp/youwol-0.1.2-py3-none-any.whl.zip --markdown 20230630/y/youwol/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-30 12:38:04] INFO root fetch - processPackages [riseup-vpn-configurator]: Downloading https://files.pythonhosted.org/packages/e0/53/0ae2b8644f18cac06e8cfc42767d3b7151a0d3e52f1529c66d779cab5ccb/riseup_vpn_configurator-1.0.1.tar.gz
+[2023-06-30 12:38:04] INFO root fetch - processPackages [riseup-vpn-configurator]: executing diffoscope
+[2023-06-30 12:38:04] INFO root fetch - processPackages [riseup-vpn-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riseup_vpn_configurator-1.0.0.tar.gz tmp/riseup_vpn_configurator-1.0.1.tar.gz --markdown 20230630/r/riseup-vpn-configurator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-30 12:38:05] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2023-06-30 12:38:05] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2023-06-30 12:38:05] INFO root fetch - processPackages [pybiolib]: Start processing: odoo14-addon-l10n-br-nfe
+[2023-06-30 12:38:05] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-06-30 12:38:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: New version: [14.0.8.4.3] Old Version: [14.0.8.4.2]
+[2023-06-30 12:38:05] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.8.tar.gz]
+[2023-06-30 12:38:05] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.9.tar.gz]
+[2023-06-30 12:38:05] INFO root fetch - processPackages [sniimapp]: Start processing: odoo14-addon-l10n-br-nfe-spec
+[2023-06-30 12:38:05] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-06-30 12:38:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe-spec]: New version: [14.0.3.0.1.dev1] Old Version: [14.0.3.0.1]
+[2023-06-30 12:38:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/28/c7/20d4c0bbacec70ec0a4901598252345deb3b24b9d2d436b44a26c8937542/odoo14_addon_l10n_br_nfe-14.0.8.4.2-py3-none-any.whl
+[2023-06-30 12:38:05] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe-spec]: Downloading https://files.pythonhosted.org/packages/72/f2/7322152145d7546ae8e915d3339eb0fb3b2717a2079b22c7581443e22e83/odoo14_addon_l10n_br_nfe_spec-14.0.3.0.1-py3-none-any.whl
+[2023-06-30 12:38:06] INFO root fetch - processPackages [pydantic-core]: executing diffoscope
+[2023-06-30 12:38:06] INFO root fetch - processPackages [pydantic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_core-0.9.0.tar.gz tmp/pydantic_core-2.0.0-pp38-pypy38_pp73-musllinux_1_1_x86_64.whl.zip --markdown 20230630/p/pydantic-core/0.9.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-30 12:38:06] INFO root fetch - processPackages [beavers]: Remove: archive file [/home/abi/fetcher/tmp/beavers-0.0.1rc0.tar.gz]
+[2023-06-30 12:38:06] INFO root fetch - processPackages [beavers]: Remove: archive file [/home/abi/fetcher/tmp/beavers-0.0.2.tar.gz]
+[2023-06-30 12:38:06] INFO root fetch - processPackages [beavers]: Start processing: oc-ldap-user-locker
+[2023-06-30 12:38:06] INFO root fetch - main [MainThread]: End processing [beavers]: success
+[2023-06-30 12:38:06] INFO root fetch - processPackages [dagster-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster_polars-0.0.2.tar.gz]
+[2023-06-30 12:38:06] INFO root fetch - processPackages [dagster-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster_polars-0.0.3a0.tar.gz]
+[2023-06-30 12:38:06] INFO root fetch - processPackages [dagster-polars]: Start processing: WebtoonScraper
+[2023-06-30 12:38:06] INFO root fetch - main [MainThread]: End processing [dagster-polars]: success
+[2023-06-30 12:38:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/86/cc/85512c28d636ad0c0acc6d1f0bda35fe73ea635852dcf43920707c93f9d8/odoo14_addon_l10n_br_nfe-14.0.8.4.3-py3-none-any.whl
+[2023-06-30 12:38:06] INFO root fetch - processPackages [WebtoonScraper]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-06-30 12:38:06] INFO root fetch - processPackages [oc-ldap-user-locker]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-30 12:38:06] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/ca/21/df0963cb05b378cd8637400d99b7555e438eaaa5691e2d5fe7a933148b30/WebtoonScraper-0.1.2.tar.gz
+[2023-06-30 12:38:06] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.0.8.tar.gz]
+[2023-06-30 12:38:06] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.0.9.tar.gz]
+[2023-06-30 12:38:06] INFO root fetch - processPackages [itkdb-gtk]: Start processing: DDesignerAPI
+[2023-06-30 12:38:06] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
+[2023-06-30 12:38:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe-spec]: Downloading https://files.pythonhosted.org/packages/ca/fa/f6ffea7e6ca7c347a8b0435fab15f9e3a7087ad1aa1b3674088920e0ba17/odoo14_addon_l10n_br_nfe_spec-14.0.3.0.1.dev1-py3-none-any.whl
+[2023-06-30 12:38:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: executing diffoscope
+[2023-06-30 12:38:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_nfe-14.0.8.4.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_nfe-14.0.8.4.3-py3-none-any.whl.zip --markdown 20230630/o/odoo14-addon-l10n-br-nfe/14.0.8.4.2-14.0.8.4.3/diff.md --exclude *.pyd
+[2023-06-30 12:38:06] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.3.1] Old Version: [0.0.3.0]
+[2023-06-30 12:38:06] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/0d/aa/2b7c909939e71187ba18b27a1e7bc517e5a3e4ad378cef3cc0fb8a2c3b76/DDesignerAPI-0.0.3.0-py3-none-any.whl
+[2023-06-30 12:38:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe-spec]: executing diffoscope
+[2023-06-30 12:38:06] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_nfe_spec-14.0.3.0.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_nfe_spec-14.0.3.0.1.dev1-py3-none-any.whl.zip --markdown 20230630/o/odoo14-addon-l10n-br-nfe-spec/14.0.3.0.1-14.0.3.0.1.dev1/diff.md --exclude *.pyd
+[2023-06-30 12:38:06] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/0d/0a/50378ba743991fd724ea814ebab413e7248e417584b49a65f67fa621df6b/WebtoonScraper-1.0.0.tar.gz
+[2023-06-30 12:38:06] INFO root fetch - processPackages [oc-ldap-user-locker]: Downloading https://files.pythonhosted.org/packages/12/a5/312f1c2dc8c53791f1fe2b518a7ad86ef788244b8c39b4313401f2b6b884/oc_ldap_user_locker-1.2.1-py3-none-any.whl
+[2023-06-30 12:38:06] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-06-30 12:38:06] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.1.2.tar.gz tmp/WebtoonScraper-1.0.0.tar.gz --markdown 20230630/W/WebtoonScraper/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-30 12:38:06] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/d6/51/99f1dde59408d02daf0fc7622b2740d0ee09313727e755f286894a13612b/DDesignerAPI-0.0.3.1-py3-none-any.whl
+[2023-06-30 12:38:06] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.tar.gz]
+[2023-06-30 12:38:06] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.1.tar.gz]
+[2023-06-30 12:38:06] INFO root fetch - processPackages [airtouch2]: Start processing: idyntree
+[2023-06-30 12:38:06] INFO root fetch - main [MainThread]: End processing [airtouch2]: success
+[2023-06-30 12:38:06] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-06-30 12:38:06] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.3.0-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.3.1-py3-none-any.whl.zip --markdown 20230630/D/DDesignerAPI/0.0.3.0-0.0.3.1/diff.md --exclude *.pyd
+[2023-06-30 12:38:06] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post874-py3-none-any.whl.zip]
+[2023-06-30 12:38:06] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post875-py3-none-any.whl.zip]
+[2023-06-30 12:38:06] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-30 12:38:06] INFO root fetch - processPackages [oc-ldap-user-locker]: Downloading https://files.pythonhosted.org/packages/5f/83/e5320508a90f449b9daad92c5e14d3dc42a4f135f5b09d97c5c221b0e1ee/oc_ldap_user_locker-1.2.2-py3-none-any.whl
+[2023-06-30 12:38:06] INFO root fetch - processPackages [idyntree]: New version: [9.1.1.dev3] Old Version: [9.1.0]
+[2023-06-30 12:38:06] INFO root fetch - processPackages [riseup-vpn-configurator]: Remove: archive file [/home/abi/fetcher/tmp/riseup_vpn_configurator-1.0.0.tar.gz]
+[2023-06-30 12:38:06] INFO root fetch - processPackages [riseup-vpn-configurator]: Remove: archive file [/home/abi/fetcher/tmp/riseup_vpn_configurator-1.0.1.tar.gz]
+[2023-06-30 12:38:06] INFO root fetch - main [MainThread]: End processing [riseup-vpn-configurator]: success
+[2023-06-30 12:38:06] INFO root fetch - processPackages [oc-ldap-user-locker]: executing diffoscope
+[2023-06-30 12:38:06] INFO root fetch - processPackages [oc-ldap-user-locker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_ldap_user_locker-1.2.1-py3-none-any.whl.zip tmp/oc_ldap_user_locker-1.2.2-py3-none-any.whl.zip --markdown 20230630/o/oc-ldap-user-locker/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-30 12:38:07] INFO root fetch - processPackages [idyntree]: Downloading https://files.pythonhosted.org/packages/aa/cf/522ca67fdf938ba79de232b5b82eeb3739273833b71e0922d55d35eaefb7/idyntree-9.1.0.tar.gz
+[2023-06-30 12:38:07] INFO root fetch - processPackages [idyntree]: Downloading https://files.pythonhosted.org/packages/28/bb/b7014ee221e30bc2fb7e5eaae908142a6c80162e759a98686d2fbf513508/idyntree-9.1.1.dev3.tar.gz
+[2023-06-30 12:38:07] INFO root fetch - processPackages [pydantic-core]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_core-0.9.0.tar.gz]
+[2023-06-30 12:38:07] INFO root fetch - processPackages [pydantic-core]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_core-2.0.0-pp38-pypy38_pp73-musllinux_1_1_x86_64.whl.zip]
+[2023-06-30 12:38:07] INFO root fetch - main [MainThread]: End processing [pydantic-core]: success
+[2023-06-30 12:38:07] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe-spec]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe_spec-14.0.3.0.1-py3-none-any.whl.zip]
+[2023-06-30 12:38:07] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe-spec]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe_spec-14.0.3.0.1.dev1-py3-none-any.whl.zip]
+[2023-06-30 12:38:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfe-spec]: success
+[2023-06-30 12:38:07] INFO root fetch - processPackages [idyntree]: executing diffoscope
+[2023-06-30 12:38:07] INFO root fetch - processPackages [idyntree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idyntree-9.1.0.tar.gz tmp/idyntree-9.1.1.dev3.tar.gz --markdown 20230630/i/idyntree/9.1.0-9.1.1.dev3/diff.md --exclude *.pyd
+[2023-06-30 12:38:08] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/WebtoonScraper-0.1.2.tar.gz]
+[2023-06-30 12:38:08] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/WebtoonScraper-1.0.0.tar.gz]
+[2023-06-30 12:38:08] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-06-30 12:38:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe-14.0.8.4.2-py3-none-any.whl.zip]
+[2023-06-30 12:38:08] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe-14.0.8.4.3-py3-none-any.whl.zip]
+[2023-06-30 12:38:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfe]: success
+[2023-06-30 12:38:08] INFO root fetch - processPackages [oc-ldap-user-locker]: Remove: archive file [/home/abi/fetcher/tmp/oc_ldap_user_locker-1.2.1-py3-none-any.whl.zip]
+[2023-06-30 12:38:08] INFO root fetch - processPackages [oc-ldap-user-locker]: Remove: archive file [/home/abi/fetcher/tmp/oc_ldap_user_locker-1.2.2-py3-none-any.whl.zip]
+[2023-06-30 12:38:08] INFO root fetch - main [MainThread]: End processing [oc-ldap-user-locker]: success
+[2023-06-30 12:38:08] INFO root fetch - processPackages [DDesignerAPI]: Remove: archive file [/home/abi/fetcher/tmp/DDesignerAPI-0.0.3.0-py3-none-any.whl.zip]
+[2023-06-30 12:38:08] INFO root fetch - processPackages [DDesignerAPI]: Remove: archive file [/home/abi/fetcher/tmp/DDesignerAPI-0.0.3.1-py3-none-any.whl.zip]
+[2023-06-30 12:38:08] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-06-30 12:38:08] INFO root fetch - processPackages [youwol]: Remove: archive file [/home/abi/fetcher/tmp/youwol-0.1.1-py3-none-any.whl.zip]
+[2023-06-30 12:38:08] INFO root fetch - processPackages [youwol]: Remove: archive file [/home/abi/fetcher/tmp/youwol-0.1.2-py3-none-any.whl.zip]
+[2023-06-30 12:38:08] INFO root fetch - main [MainThread]: End processing [youwol]: success
+[2023-06-30 12:38:20] INFO root fetch - processPackages [idyntree]: Remove: archive file [/home/abi/fetcher/tmp/idyntree-9.1.0.tar.gz]
+[2023-06-30 12:38:20] INFO root fetch - processPackages [idyntree]: Remove: archive file [/home/abi/fetcher/tmp/idyntree-9.1.1.dev3.tar.gz]
+[2023-06-30 12:38:20] INFO root fetch - main [MainThread]: End processing [idyntree]: success
+[2023-06-30 12:38:20] INFO root fetch - main [MainThread]: Store serial: [18708920]
