@@ -2646,3 +2646,72 @@
 [2023-06-30 02:37:45] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
 [2023-06-30 02:37:45] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
 [2023-06-30 02:37:45] INFO root fetch - main [MainThread]: Store serial: [18702677]
+[2023-06-30 02:42:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702677]
+[2023-06-30 02:42:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-30 02:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orthosnap
+[2023-06-30 02:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-nuke
+[2023-06-30 02:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-26
+[2023-06-30 02:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irisml
+[2023-06-30 02:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rtorrent-rpc
+[2023-06-30 02:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-ecr-deployment
+[2023-06-30 02:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shiny-mdc
+[2023-06-30 02:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-30 02:42:54] WARNING root fetch - processPackages [types-nuke]: Skipping, unable to determine old version
+[2023-06-30 02:42:54] INFO root fetch - main [MainThread]: End processing [types-nuke] error
+[2023-06-30 02:42:54] INFO root fetch - processPackages [cdk-ecr-deployment]: New version: [2.5.6] Old Version: [2.5.5]
+[2023-06-30 02:42:54] INFO root fetch - processPackages [orthosnap]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-06-30 02:42:54] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-30 02:42:54] INFO root fetch - processPackages [irisml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 02:42:54] INFO root fetch - processPackages [shiny-mdc]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-30 02:42:54] INFO root fetch - processPackages [rtorrent-rpc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-30 02:42:54] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 02:42:54] INFO root fetch - processPackages [cdk-ecr-deployment]: Downloading https://files.pythonhosted.org/packages/64/bf/1264153be589ef27e35f9c6dce5fa20c62679465383b177c27cb15215559/cdk-ecr-deployment-2.5.5.tar.gz
+[2023-06-30 02:42:54] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/46/53/110a492a30e8f6161056860edb948c94106ecdbd3fb1735e6df1f0055a35/rtorrent_rpc-0.0.3.tar.gz
+[2023-06-30 02:42:54] INFO root fetch - processPackages [irisml]: Downloading https://files.pythonhosted.org/packages/d4/77/8fe10cadf12b529cfcb45955279bced0df877351825f09eec8e8e3dc70cc/irisml-0.0.8.tar.gz
+[2023-06-30 02:42:54] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-30 02:42:54] INFO root fetch - processPackages [orthosnap]: Downloading https://files.pythonhosted.org/packages/1a/8a/5ca4cebf894f919af6233f06151c8f466b34e09201fc60463641a7666ccf/orthosnap-0.1.1.tar.gz
+[2023-06-30 02:42:54] INFO root fetch - processPackages [cdk-ecr-deployment]: Downloading https://files.pythonhosted.org/packages/00/31/421538c00ab58bb86c2af0ece51b9158717b04501999bd689351ea5ae8f2/cdk-ecr-deployment-2.5.6.tar.gz
+[2023-06-30 02:42:54] INFO root fetch - processPackages [shiny-mdc]: Downloading https://files.pythonhosted.org/packages/f3/0d/4ac1e402ecc36500ad1d2d3aaa01648e2631136f8d6103c803c3097d9404/shiny_mdc-1.7.0.tar.gz
+[2023-06-30 02:42:54] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/87/92/4e49fec2fdcf2364a5748d2d38725fb1700be5489bddd83991ad59486047/rtorrent_rpc-0.0.4.tar.gz
+[2023-06-30 02:42:54] INFO root fetch - processPackages [cdk-ecr-deployment]: executing diffoscope
+[2023-06-30 02:42:54] INFO root fetch - processPackages [cdk-ecr-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecr-deployment-2.5.5.tar.gz tmp/cdk-ecr-deployment-2.5.6.tar.gz --markdown 20230630/c/cdk-ecr-deployment/2.5.5-2.5.6/diff.md --exclude *.pyd
+[2023-06-30 02:42:55] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-06-30 02:42:55] INFO root fetch - processPackages [rtorrent-rpc]: executing diffoscope
+[2023-06-30 02:42:55] INFO root fetch - processPackages [rtorrent-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtorrent_rpc-0.0.3.tar.gz tmp/rtorrent_rpc-0.0.4.tar.gz --markdown 20230630/r/rtorrent-rpc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-30 02:42:55] INFO root fetch - processPackages [orthosnap]: Downloading https://files.pythonhosted.org/packages/95/1b/dd6bc9ebc49ebe70837ad96e13a6f4d6523cfaf14baecd8538f6c881c1d3/orthosnap-1.0.0.tar.gz
+[2023-06-30 02:42:55] INFO root fetch - processPackages [irisml]: Downloading https://files.pythonhosted.org/packages/89/fc/e470679233b923db63ba24ec0fe777e6ba04634022230150073d36bfe279/irisml-0.0.9.tar.gz
+[2023-06-30 02:42:55] INFO root fetch - processPackages [shiny-mdc]: Downloading https://files.pythonhosted.org/packages/e4/d4/538b67554aeb93085cfe2ca10c00d5fc08a22d50187ceb282c4d617cf5b5/shiny_mdc-1.7.1.tar.gz
+[2023-06-30 02:42:55] INFO root fetch - processPackages [orthosnap]: executing diffoscope
+[2023-06-30 02:42:55] INFO root fetch - processPackages [orthosnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orthosnap-0.1.1.tar.gz tmp/orthosnap-1.0.0.tar.gz --markdown 20230630/o/orthosnap/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-30 02:42:55] INFO root fetch - processPackages [irisml]: executing diffoscope
+[2023-06-30 02:42:55] INFO root fetch - processPackages [irisml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-0.0.8.tar.gz tmp/irisml-0.0.9.tar.gz --markdown 20230630/i/irisml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 02:42:55] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-30 02:42:55] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-06-30 02:42:55] INFO root fetch - processPackages [shiny-mdc]: executing diffoscope
+[2023-06-30 02:42:55] INFO root fetch - processPackages [shiny-mdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shiny_mdc-1.7.0.tar.gz tmp/shiny_mdc-1.7.1.tar.gz --markdown 20230630/s/shiny-mdc/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-30 02:42:55] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-30 02:42:55] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230630/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 02:42:56] INFO root fetch - processPackages [cdk-ecr-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecr-deployment-2.5.5.tar.gz]
+[2023-06-30 02:42:56] INFO root fetch - processPackages [cdk-ecr-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecr-deployment-2.5.6.tar.gz]
+[2023-06-30 02:42:56] INFO root fetch - main [MainThread]: End processing [cdk-ecr-deployment]: success
+[2023-06-30 02:42:56] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.0.3.tar.gz]
+[2023-06-30 02:42:56] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.0.4.tar.gz]
+[2023-06-30 02:42:56] INFO root fetch - main [MainThread]: End processing [rtorrent-rpc]: success
+[2023-06-30 02:42:56] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-30 02:42:56] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230630/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-30 02:42:56] INFO root fetch - processPackages [irisml]: Remove: archive file [/home/abi/fetcher/tmp/irisml-0.0.8.tar.gz]
+[2023-06-30 02:42:56] INFO root fetch - processPackages [irisml]: Remove: archive file [/home/abi/fetcher/tmp/irisml-0.0.9.tar.gz]
+[2023-06-30 02:42:56] INFO root fetch - main [MainThread]: End processing [irisml]: success
+[2023-06-30 02:42:56] INFO root fetch - processPackages [orthosnap]: Remove: archive file [/home/abi/fetcher/tmp/orthosnap-0.1.1.tar.gz]
+[2023-06-30 02:42:56] INFO root fetch - processPackages [orthosnap]: Remove: archive file [/home/abi/fetcher/tmp/orthosnap-1.0.0.tar.gz]
+[2023-06-30 02:42:56] INFO root fetch - main [MainThread]: End processing [orthosnap]: success
+[2023-06-30 02:42:57] INFO root fetch - processPackages [shiny-mdc]: Remove: archive file [/home/abi/fetcher/tmp/shiny_mdc-1.7.0.tar.gz]
+[2023-06-30 02:42:57] INFO root fetch - processPackages [shiny-mdc]: Remove: archive file [/home/abi/fetcher/tmp/shiny_mdc-1.7.1.tar.gz]
+[2023-06-30 02:42:57] INFO root fetch - main [MainThread]: End processing [shiny-mdc]: success
+[2023-06-30 02:42:57] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-30 02:42:57] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-30 02:42:57] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-30 02:42:57] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-06-30 02:42:57] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-06-30 02:42:57] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-30 02:42:57] INFO root fetch - main [MainThread]: Store serial: [18702703]
