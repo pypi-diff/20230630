@@ -12948,3 +12948,45 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 08:14:39] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.9.tar.gz]
 [2023-06-30 08:14:39] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2023-06-30 08:14:39] INFO root fetch - main [MainThread]: Store serial: [18706502]
+[2023-06-30 08:19:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706502]
+[2023-06-30 08:19:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-30 08:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pretext
+[2023-06-30 08:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-06-30 08:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepseqcoverageqc
+[2023-06-30 08:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: halring
+[2023-06-30 08:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: w3bstream-client-python
+[2023-06-30 08:19:48] WARNING root fetch - processPackages [deepseqcoverageqc]: Skipping, unable to determine old version
+[2023-06-30 08:19:48] INFO root fetch - main [MainThread]: End processing [deepseqcoverageqc] error
+[2023-06-30 08:19:48] INFO root fetch - processPackages [yplib]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-30 08:19:48] INFO root fetch - processPackages [w3bstream-client-python]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-30 08:19:48] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230629] Old Version: [1.6.1.dev20230628]
+[2023-06-30 08:19:48] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/19/51/0ef30bd59f376602ad89f43c92bad3c412e7bd9f913da1506551773158ff/pretext-1.6.1.dev20230628.tar.gz
+[2023-06-30 08:19:48] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e6/09/fa17de8447beb8dea3765c9bca89769509679d37ac3dbe89b62254045870/yplib-2.0.5.tar.gz
+[2023-06-30 08:19:48] INFO root fetch - processPackages [halring]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-06-30 08:19:48] INFO root fetch - processPackages [w3bstream-client-python]: Downloading https://files.pythonhosted.org/packages/3d/f4/db7834b5afbae2953a5b403c8b2398b04ff286d8a5615e7f42d58aec2408/w3bstream_client_python-0.3.0.tar.gz
+[2023-06-30 08:19:48] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/9e/db/00e22ae1ab0b7c2a19a3f501921502965983af60a32d27723413f079808a/yplib-2.0.6.tar.gz
+[2023-06-30 08:19:48] INFO root fetch - processPackages [w3bstream-client-python]: Downloading https://files.pythonhosted.org/packages/9f/d5/77ba0f8ed55063619a85b2979af458d06077b62ae778dbfbe011955d58e4/w3bstream_client_python-0.4.0.tar.gz
+[2023-06-30 08:19:48] INFO root fetch - processPackages [halring]: Downloading https://files.pythonhosted.org/packages/11/d3/5decd49c9d41768240a470cc1551d2fe5a735b942255c3437378eaaf4557/halring-2.2.2-py3-none-any.whl
+[2023-06-30 08:19:48] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/fb/12/0cb80c3698c5ec4cdc3a9a83868edeadaae56fca805f0e8e66052c784edf/pretext-1.6.1.dev20230629.tar.gz
+[2023-06-30 08:19:48] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-30 08:19:48] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.0.5.tar.gz tmp/yplib-2.0.6.tar.gz --markdown 20230630/y/yplib/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-30 08:19:48] INFO root fetch - processPackages [w3bstream-client-python]: executing diffoscope
+[2023-06-30 08:19:48] INFO root fetch - processPackages [w3bstream-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3bstream_client_python-0.3.0.tar.gz tmp/w3bstream_client_python-0.4.0.tar.gz --markdown 20230630/w/w3bstream-client-python/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-30 08:19:48] INFO root fetch - processPackages [halring]: Downloading https://files.pythonhosted.org/packages/ee/f9/017948bf3a4024b4c62ae2db572cd8fd963e163db3a6a36674f7b930eef2/halring-2.2.3-py3-none-any.whl
+[2023-06-30 08:19:48] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-30 08:19:48] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230628.tar.gz tmp/pretext-1.6.1.dev20230629.tar.gz --markdown 20230630/p/pretext/1.6.1.dev20230628-1.6.1.dev20230629/diff.md --exclude *.pyd
+[2023-06-30 08:19:48] INFO root fetch - processPackages [halring]: executing diffoscope
+[2023-06-30 08:19:48] INFO root fetch - processPackages [halring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halring-2.2.2-py3-none-any.whl.zip tmp/halring-2.2.3-py3-none-any.whl.zip --markdown 20230630/h/halring/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-06-30 08:19:49] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.0.5.tar.gz]
+[2023-06-30 08:19:49] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.0.6.tar.gz]
+[2023-06-30 08:19:49] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-30 08:19:49] INFO root fetch - processPackages [w3bstream-client-python]: Remove: archive file [/home/abi/fetcher/tmp/w3bstream_client_python-0.3.0.tar.gz]
+[2023-06-30 08:19:49] INFO root fetch - processPackages [w3bstream-client-python]: Remove: archive file [/home/abi/fetcher/tmp/w3bstream_client_python-0.4.0.tar.gz]
+[2023-06-30 08:19:49] INFO root fetch - main [MainThread]: End processing [w3bstream-client-python]: success
+[2023-06-30 08:19:51] INFO root fetch - processPackages [halring]: Remove: archive file [/home/abi/fetcher/tmp/halring-2.2.2-py3-none-any.whl.zip]
+[2023-06-30 08:19:51] INFO root fetch - processPackages [halring]: Remove: archive file [/home/abi/fetcher/tmp/halring-2.2.3-py3-none-any.whl.zip]
+[2023-06-30 08:19:51] INFO root fetch - main [MainThread]: End processing [halring]: success
+[2023-06-30 08:19:53] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230628.tar.gz]
+[2023-06-30 08:19:53] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230629.tar.gz]
+[2023-06-30 08:19:53] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-30 08:19:53] INFO root fetch - main [MainThread]: Store serial: [18706519]
