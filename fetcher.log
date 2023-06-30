@@ -14890,3 +14890,86 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 10:01:37] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
 [2023-06-30 10:01:38] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
 [2023-06-30 10:01:38] INFO root fetch - main [MainThread]: Store serial: [18707280]
+[2023-06-30 10:06:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18707280]
+[2023-06-30 10:06:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-30 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-utils
+[2023-06-30 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QuantumPathQSOAPySDK
+[2023-06-30 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-aeat-mod369
+[2023-06-30 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-dms-enterprise20181101
+[2023-06-30 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atc-easy-desktop
+[2023-06-30 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqladmin
+[2023-06-30 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-poke
+[2023-06-30 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agxBrick
+[2023-06-30 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: poe-shell
+[2023-06-30 10:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastmodels
+[2023-06-30 10:06:47] INFO root fetch - processPackages [sqladmin]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-30 10:06:47] INFO root fetch - processPackages [nonebot-plugin-poke]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-30 10:06:47] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-30 10:06:47] INFO root fetch - processPackages [atc-easy-desktop]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-30 10:06:47] WARNING root fetch - processPackages [odoo-addon-l10n-es-aeat-mod369]: Skipping, unable to determine old version
+[2023-06-30 10:06:47] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-06-30 10:06:47] INFO root fetch - processPackages [poe-shell]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 10:06:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod369] error
+[2023-06-30 10:06:47] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: New version: [1.51.0] Old Version: [1.50.0]
+[2023-06-30 10:06:47] INFO root fetch - processPackages [agxBrick]: New version: [0.5.26] Old Version: [0.5.25]
+[2023-06-30 10:06:47] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-06-30 10:06:47] INFO root fetch - processPackages [fastmodels]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-30 10:06:47] INFO root fetch - processPackages [nonebot-plugin-poke]: Downloading https://files.pythonhosted.org/packages/20/25/b382957a755305ce9833a6741e13991f8ff0d8936013e32792a3955ec8c8/nonebot_plugin_poke-0.0.3.tar.gz
+[2023-06-30 10:06:47] INFO root fetch - processPackages [atc-easy-desktop]: Downloading https://files.pythonhosted.org/packages/6b/0f/28763ccfbdb87e10035fdcd7640967e79b1ed543e9e182489449aa45b57c/atc_easy_desktop-1.0.4.tar.gz
+[2023-06-30 10:06:47] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/a4/dc/0a00db724a86a8339ed1a11c801b3bdd428f1a4799af39cb3ce800dec5aa/QuantumPathQSOAPySDK-1.5.6.tar.gz
+[2023-06-30 10:06:47] INFO root fetch - processPackages [poe-shell]: Downloading https://files.pythonhosted.org/packages/14/27/76313d2372bd9b14ebcf8bddbf22c34355b5c98b9c58c3c1b421e2021a67/poe_shell-0.1.0.tar.gz
+[2023-06-30 10:06:47] INFO root fetch - processPackages [sqladmin]: Downloading https://files.pythonhosted.org/packages/e2/c2/00caa80a451af253bf6bb3f74679b92dd24ec416dd0ce047e586256e86bb/sqladmin-0.8.0.tar.gz
+[2023-06-30 10:06:47] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Downloading https://files.pythonhosted.org/packages/d1/25/fb5f2ccb870cef0d9eebc17cc18e95493ab328565264baf2aabc6a36298d/alibabacloud_dms-enterprise20181101-1.50.0.tar.gz
+[2023-06-30 10:06:47] INFO root fetch - processPackages [fastmodels]: Downloading https://files.pythonhosted.org/packages/5a/ea/e7a2b0415351fa1e0045d56be8b8ae376b089e64b2f473c86d354459e13e/fastmodels-0.1.5.tar.gz
+[2023-06-30 10:06:47] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-06-30 10:06:47] INFO root fetch - processPackages [agxBrick]: Downloading https://files.pythonhosted.org/packages/86/95/10f1e090b925e73187be00719caf5667dd3b705f298948356cd883b0950a/agxBrick-0.5.25-py2.py3-none-any.whl
+[2023-06-30 10:06:47] INFO root fetch - processPackages [poe-shell]: Downloading https://files.pythonhosted.org/packages/65/a7/a97b3ed83f7c4a81e17943ab3d3d40852bc7596c8d4f637f875540be6819/poe_shell-0.1.1.tar.gz
+[2023-06-30 10:06:47] INFO root fetch - processPackages [poe-shell]: executing diffoscope
+[2023-06-30 10:06:47] INFO root fetch - processPackages [poe-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_shell-0.1.0.tar.gz tmp/poe_shell-0.1.1.tar.gz --markdown 20230630/p/poe-shell/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 10:06:47] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-06-30 10:06:47] INFO root fetch - processPackages [atc-easy-desktop]: Downloading https://files.pythonhosted.org/packages/8d/8f/c95425eb28bf4c54f33d8ab2ad7518f206b64c074928f61052c935122c7b/atc_easy_desktop-1.0.5.tar.gz
+[2023-06-30 10:06:47] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230630/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-30 10:06:47] INFO root fetch - processPackages [nonebot-plugin-poke]: Downloading https://files.pythonhosted.org/packages/d3/43/d6add7388247a6512087e10f59ea50ef1dc3352b664b5e4d232740a935be/nonebot_plugin_poke-0.0.4.tar.gz
+[2023-06-30 10:06:47] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/9d/3c/efaf1e8cc0b6fcd10ad5f6c3146cb9b318e3887bc3ce39be58af07df9d93/QuantumPathQSOAPySDK-1.5.7.tar.gz
+[2023-06-30 10:06:47] INFO root fetch - processPackages [sqladmin]: Downloading https://files.pythonhosted.org/packages/a3/b2/0b1777b71ed99e68b69056422de29864ce6be6992d094d56075ab2cbce9d/sqladmin-0.9.0.tar.gz
+[2023-06-30 10:06:47] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Downloading https://files.pythonhosted.org/packages/55/a7/aaf0055eb2578cb30405eed36089813046e2e38912ff860a54556a51f5d3/alibabacloud_dms-enterprise20181101-1.51.0.tar.gz
+[2023-06-30 10:06:47] INFO root fetch - processPackages [atc-easy-desktop]: executing diffoscope
+[2023-06-30 10:06:47] INFO root fetch - processPackages [atc-easy-desktop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atc_easy_desktop-1.0.4.tar.gz tmp/atc_easy_desktop-1.0.5.tar.gz --markdown 20230630/a/atc-easy-desktop/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-30 10:06:47] INFO root fetch - processPackages [nonebot-plugin-poke]: executing diffoscope
+[2023-06-30 10:06:47] INFO root fetch - processPackages [nonebot-plugin-poke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_poke-0.0.3.tar.gz tmp/nonebot_plugin_poke-0.0.4.tar.gz --markdown 20230630/n/nonebot-plugin-poke/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-30 10:06:48] INFO root fetch - processPackages [fastmodels]: Downloading https://files.pythonhosted.org/packages/c6/e6/d5e213e8dd573ae43eb50e2669ec9b1bf97dbcecf24eeeed108420dea765/fastmodels-0.1.6.tar.gz
+[2023-06-30 10:06:48] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: executing diffoscope
+[2023-06-30 10:06:48] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantumPathQSOAPySDK-1.5.6.tar.gz tmp/QuantumPathQSOAPySDK-1.5.7.tar.gz --markdown 20230630/Q/QuantumPathQSOAPySDK/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-06-30 10:06:48] INFO root fetch - processPackages [sqladmin]: executing diffoscope
+[2023-06-30 10:06:48] INFO root fetch - processPackages [sqladmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqladmin-0.8.0.tar.gz tmp/sqladmin-0.9.0.tar.gz --markdown 20230630/s/sqladmin/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-30 10:06:48] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: executing diffoscope
+[2023-06-30 10:06:48] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dms-enterprise20181101-1.50.0.tar.gz tmp/alibabacloud_dms-enterprise20181101-1.51.0.tar.gz --markdown 20230630/a/alibabacloud-dms-enterprise20181101/1.50.0-1.51.0/diff.md --exclude *.pyd
+[2023-06-30 10:06:48] WARNING root fetch - processPackages [agxBrick]: Skipping package: exceeds size limit 11266339>=10485760
+[2023-06-30 10:06:48] INFO root fetch - main [MainThread]: End processing [agxBrick] error
+[2023-06-30 10:06:48] INFO root fetch - processPackages [fastmodels]: executing diffoscope
+[2023-06-30 10:06:48] INFO root fetch - processPackages [fastmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmodels-0.1.5.tar.gz tmp/fastmodels-0.1.6.tar.gz --markdown 20230630/f/fastmodels/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-30 10:06:48] INFO root fetch - processPackages [poe-shell]: Remove: archive file [/home/abi/fetcher/tmp/poe_shell-0.1.0.tar.gz]
+[2023-06-30 10:06:48] INFO root fetch - processPackages [poe-shell]: Remove: archive file [/home/abi/fetcher/tmp/poe_shell-0.1.1.tar.gz]
+[2023-06-30 10:06:48] INFO root fetch - main [MainThread]: End processing [poe-shell]: success
+[2023-06-30 10:06:49] INFO root fetch - processPackages [atc-easy-desktop]: Remove: archive file [/home/abi/fetcher/tmp/atc_easy_desktop-1.0.4.tar.gz]
+[2023-06-30 10:06:49] INFO root fetch - processPackages [atc-easy-desktop]: Remove: archive file [/home/abi/fetcher/tmp/atc_easy_desktop-1.0.5.tar.gz]
+[2023-06-30 10:06:49] INFO root fetch - main [MainThread]: End processing [atc-easy-desktop]: success
+[2023-06-30 10:06:49] INFO root fetch - processPackages [nonebot-plugin-poke]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_poke-0.0.3.tar.gz]
+[2023-06-30 10:06:49] INFO root fetch - processPackages [nonebot-plugin-poke]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_poke-0.0.4.tar.gz]
+[2023-06-30 10:06:49] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-poke]: success
+[2023-06-30 10:06:49] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-30 10:06:49] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-30 10:06:49] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-06-30 10:06:49] INFO root fetch - processPackages [fastmodels]: Remove: archive file [/home/abi/fetcher/tmp/fastmodels-0.1.5.tar.gz]
+[2023-06-30 10:06:49] INFO root fetch - processPackages [fastmodels]: Remove: archive file [/home/abi/fetcher/tmp/fastmodels-0.1.6.tar.gz]
+[2023-06-30 10:06:49] INFO root fetch - main [MainThread]: End processing [fastmodels]: success
+[2023-06-30 10:06:50] INFO root fetch - processPackages [sqladmin]: Remove: archive file [/home/abi/fetcher/tmp/sqladmin-0.8.0.tar.gz]
+[2023-06-30 10:06:50] INFO root fetch - processPackages [sqladmin]: Remove: archive file [/home/abi/fetcher/tmp/sqladmin-0.9.0.tar.gz]
+[2023-06-30 10:06:50] INFO root fetch - main [MainThread]: End processing [sqladmin]: success
+[2023-06-30 10:06:51] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.6.tar.gz]
+[2023-06-30 10:06:51] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.7.tar.gz]
+[2023-06-30 10:06:51] INFO root fetch - main [MainThread]: End processing [QuantumPathQSOAPySDK]: success
+[2023-06-30 10:06:53] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dms-enterprise20181101-1.50.0.tar.gz]
+[2023-06-30 10:06:53] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dms-enterprise20181101-1.51.0.tar.gz]
+[2023-06-30 10:06:53] INFO root fetch - main [MainThread]: End processing [alibabacloud-dms-enterprise20181101]: success
+[2023-06-30 10:06:53] INFO root fetch - main [MainThread]: Store serial: [18707311]
