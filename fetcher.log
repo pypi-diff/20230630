@@ -22396,3 +22396,129 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 14:44:00] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.9.tar.gz]
 [2023-06-30 14:44:00] INFO root fetch - main [MainThread]: End processing [bycon]: success
 [2023-06-30 14:44:00] INFO root fetch - main [MainThread]: Store serial: [18710878]
+[2023-06-30 14:49:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18710878]
+[2023-06-30 14:49:09] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-30 14:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-payments
+[2023-06-30 14:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: q1pulse
+[2023-06-30 14:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2023-06-30 14:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rosetta-ce
+[2023-06-30 14:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manticore
+[2023-06-30 14:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sniimapp
+[2023-06-30 14:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: typerconf
+[2023-06-30 14:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: translucenttbb
+[2023-06-30 14:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bdq
+[2023-06-30 14:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fw-utils
+[2023-06-30 14:49:09] INFO root fetch - processPackages [drf-payments]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-30 14:49:09] INFO root fetch - processPackages [rosetta-ce]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-06-30 14:49:09] INFO root fetch - processPackages [q1pulse]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-06-30 14:49:09] INFO root fetch - processPackages [fw-utils]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-06-30 14:49:09] INFO root fetch - processPackages [bdq]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-30 14:49:09] WARNING root fetch - processPackages [translucenttbb]: Skipping, unable to determine old version
+[2023-06-30 14:49:09] INFO root fetch - processPackages [translucenttbb]: Start processing: yeref
+[2023-06-30 14:49:09] INFO root fetch - main [MainThread]: End processing [translucenttbb] error
+[2023-06-30 14:49:09] INFO root fetch - processPackages [typerconf]: New version: [2.2] Old Version: [2.1]
+[2023-06-30 14:49:09] INFO root fetch - processPackages [sniimapp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 14:49:09] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-30 14:49:09] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230630] Old Version: [0.3.8.dev230629]
+[2023-06-30 14:49:09] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-30 14:49:09] INFO root fetch - processPackages [q1pulse]: Downloading https://files.pythonhosted.org/packages/9c/07/8e3fe6e382077e652e34b81b3efd830d22348cb0e7f59bd93c4017924ad7/q1pulse-0.8.6.tar.gz
+[2023-06-30 14:49:09] INFO root fetch - processPackages [bdq]: Downloading https://files.pythonhosted.org/packages/fc/7e/a48319785cb2c1ef116bd0c6e8eaa4d929fb7e5f365bd8295351169689b5/bdq-0.0.2.tar.gz
+[2023-06-30 14:49:09] INFO root fetch - processPackages [fw-utils]: Downloading https://files.pythonhosted.org/packages/43/7d/1e6250bdb5b77891fb5bd5322e500a180d2dbb2d58a7797e38e16cc994ad/fw_utils-4.3.0-py3-none-any.whl
+[2023-06-30 14:49:09] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/1c/72/5513711fce8fcd5c63482f58a0c968f14bc94a352b2098521f729be18cf7/rosetta-ce-1.3.6.tar.gz
+[2023-06-30 14:49:09] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-06-30 14:49:09] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/fb/d1/ec907fcf8092b0658f18c33c834998acf50826cf6eed46c8361c96638f8f/sniimapp-0.0.8.tar.gz
+[2023-06-30 14:49:09] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-06-30 14:49:09] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/9a/b5/4b87676c98a2d0d6f941f87e9b541a72789a238e565ebdee760b8ccb6b63/manticore-0.3.8.dev230629.tar.gz
+[2023-06-30 14:49:10] INFO root fetch - processPackages [drf-payments]: Downloading https://files.pythonhosted.org/packages/92/a8/16b6fac0d84f18ef45efd6d7a3b5c7abce4ede7103086fbc74af30272b16/drf_payments-0.0.1.tar.gz
+[2023-06-30 14:49:10] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-06-30 14:49:10] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/32/41/5f0bd7028c0c84a365a70d9ce3684ef44e347a22a1d33861d0f928009701/sniimapp-0.0.9.tar.gz
+[2023-06-30 14:49:10] INFO root fetch - processPackages [typerconf]: Downloading https://files.pythonhosted.org/packages/6d/95/0101c63bac0165ac859948f94f5943c6b40792efae0195ecf039dd8811af/typerconf-2.1.tar.gz
+[2023-06-30 14:49:10] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-06-30 14:49:10] INFO root fetch - processPackages [bdq]: Downloading https://files.pythonhosted.org/packages/01/17/8b58b9c6d4f08226dc4931b03c78c555caa918682766c46d1b3b7bb75ee3/bdq-0.0.3.tar.gz
+[2023-06-30 14:49:10] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/65/2f/fd0668edc67efebbd40a4770f2a103db00a822115fae678585262d0dd493/rosetta-ce-1.3.7.tar.gz
+[2023-06-30 14:49:10] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-06-30 14:49:10] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.8.tar.gz tmp/sniimapp-0.0.9.tar.gz --markdown 20230630/s/sniimapp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 14:49:10] INFO root fetch - processPackages [q1pulse]: Downloading https://files.pythonhosted.org/packages/cc/ad/3049402cd7e339cc660aeef23df46896e6260a0f34fb75193e652db05057/q1pulse-0.8.7.tar.gz
+[2023-06-30 14:49:10] INFO root fetch - processPackages [fw-utils]: Downloading https://files.pythonhosted.org/packages/7e/c6/982ff6f2a5f308880a701248ce4a9243f0c37a38839c47e93454f03b8b88/fw_utils-4.3.1-py3-none-any.whl
+[2023-06-30 14:49:10] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/3b/96/aa0b5b7b27adc21fc7443f93e2230e370179dce5f8ddb42c83185d2799ec/manticore-0.3.8.dev230630.tar.gz
+[2023-06-30 14:49:10] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-06-30 14:49:10] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.3.6.tar.gz tmp/rosetta-ce-1.3.7.tar.gz --markdown 20230630/r/rosetta-ce/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-06-30 14:49:10] INFO root fetch - processPackages [q1pulse]: executing diffoscope
+[2023-06-30 14:49:10] INFO root fetch - processPackages [q1pulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q1pulse-0.8.6.tar.gz tmp/q1pulse-0.8.7.tar.gz --markdown 20230630/q/q1pulse/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-06-30 14:49:10] INFO root fetch - processPackages [drf-payments]: Downloading https://files.pythonhosted.org/packages/4b/08/f97e71d94a4bf79f4ed4eedd0812cd781c3717f0024a7c3e437d26337d32/drf_payments-0.0.2.tar.gz
+[2023-06-30 14:49:10] INFO root fetch - processPackages [bdq]: executing diffoscope
+[2023-06-30 14:49:10] INFO root fetch - processPackages [bdq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdq-0.0.2.tar.gz tmp/bdq-0.0.3.tar.gz --markdown 20230630/b/bdq/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-30 14:49:10] INFO root fetch - processPackages [typerconf]: Downloading https://files.pythonhosted.org/packages/54/67/637c0b5f7c7ddc3bcf66faab309a9f3f3d8af94e8ea9428edefbe40ec0b3/typerconf-2.2.tar.gz
+[2023-06-30 14:49:10] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-30 14:49:10] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230630/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-30 14:49:10] INFO root fetch - processPackages [fw-utils]: executing diffoscope
+[2023-06-30 14:49:10] INFO root fetch - processPackages [fw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fw_utils-4.3.0-py3-none-any.whl.zip tmp/fw_utils-4.3.1-py3-none-any.whl.zip --markdown 20230630/f/fw-utils/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2023-06-30 14:49:10] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-30 14:49:10] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230630/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-30 14:49:10] INFO root fetch - processPackages [drf-payments]: executing diffoscope
+[2023-06-30 14:49:10] INFO root fetch - processPackages [drf-payments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_payments-0.0.1.tar.gz tmp/drf_payments-0.0.2.tar.gz --markdown 20230630/d/drf-payments/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 14:49:10] INFO root fetch - processPackages [typerconf]: executing diffoscope
+[2023-06-30 14:49:10] INFO root fetch - processPackages [typerconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typerconf-2.1.tar.gz tmp/typerconf-2.2.tar.gz --markdown 20230630/t/typerconf/2.1-2.2/diff.md --exclude *.pyd
+[2023-06-30 14:49:10] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-06-30 14:49:10] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230629.tar.gz tmp/manticore-0.3.8.dev230630.tar.gz --markdown 20230630/m/manticore/0.3.8.dev230629-0.3.8.dev230630/diff.md --exclude *.pyd
+[2023-06-30 14:49:11] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.8.tar.gz]
+[2023-06-30 14:49:11] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.9.tar.gz]
+[2023-06-30 14:49:11] INFO root fetch - processPackages [sniimapp]: Start processing: agxBrick
+[2023-06-30 14:49:11] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-06-30 14:49:11] INFO root fetch - processPackages [agxBrick]: New version: [0.5.25] Old Version: [0.5.23]
+[2023-06-30 14:49:11] INFO root fetch - processPackages [agxBrick]: Downloading https://files.pythonhosted.org/packages/1b/a5/67de5203ddca32acf3f70854fb142fc4768ea9de6fa9d4f325c6b821efe8/agxBrick-0.5.23-py2.py3-none-any.whl
+[2023-06-30 14:49:11] WARNING root fetch - processPackages [agxBrick]: Skipping package: exceeds size limit 11266156>=10485760
+[2023-06-30 14:49:11] INFO root fetch - processPackages [agxBrick]: Start processing: PHX
+[2023-06-30 14:49:11] INFO root fetch - main [MainThread]: End processing [agxBrick] error
+[2023-06-30 14:49:11] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-30 14:49:12] INFO root fetch - processPackages [bdq]: Remove: archive file [/home/abi/fetcher/tmp/bdq-0.0.2.tar.gz]
+[2023-06-30 14:49:12] INFO root fetch - processPackages [bdq]: Remove: archive file [/home/abi/fetcher/tmp/bdq-0.0.3.tar.gz]
+[2023-06-30 14:49:12] INFO root fetch - processPackages [bdq]: Start processing: nopasaran
+[2023-06-30 14:49:12] INFO root fetch - main [MainThread]: End processing [bdq]: success
+[2023-06-30 14:49:12] INFO root fetch - processPackages [nopasaran]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 14:49:12] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-06-30 14:49:12] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-06-30 14:49:12] INFO root fetch - processPackages [yeref]: Start processing: aliyun-python-sdk-vpc
+[2023-06-30 14:49:12] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-30 14:49:12] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/2e/76/889e2e716e40b501895c259513d8e4e12a2477266774d40af987ec6b225f/nopasaran-0.1.8.tar.gz
+[2023-06-30 14:49:12] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/ad/48/a9b966f484d5fbfbde35e2c15c1211cc18359a09978bfbaafcd30f095d50/PHX-1.8.1.tar.gz
+[2023-06-30 14:49:12] INFO root fetch - processPackages [fw-utils]: Remove: archive file [/home/abi/fetcher/tmp/fw_utils-4.3.0-py3-none-any.whl.zip]
+[2023-06-30 14:49:12] INFO root fetch - processPackages [fw-utils]: Remove: archive file [/home/abi/fetcher/tmp/fw_utils-4.3.1-py3-none-any.whl.zip]
+[2023-06-30 14:49:12] INFO root fetch - main [MainThread]: End processing [fw-utils]: success
+[2023-06-30 14:49:12] INFO root fetch - processPackages [aliyun-python-sdk-vpc]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-30 14:49:12] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/06/39/faad0468f9b182e1dd512d9780ad8fa0e88b792e6ff42e0e5fb141a79b46/nopasaran-0.1.9.tar.gz
+[2023-06-30 14:49:12] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-30 14:49:12] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.3.6.tar.gz]
+[2023-06-30 14:49:12] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.3.7.tar.gz]
+[2023-06-30 14:49:12] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-06-30 14:49:12] INFO root fetch - processPackages [nopasaran]: executing diffoscope
+[2023-06-30 14:49:12] INFO root fetch - processPackages [nopasaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopasaran-0.1.8.tar.gz tmp/nopasaran-0.1.9.tar.gz --markdown 20230630/n/nopasaran/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 14:49:12] INFO root fetch - processPackages [typerconf]: Remove: archive file [/home/abi/fetcher/tmp/typerconf-2.1.tar.gz]
+[2023-06-30 14:49:12] INFO root fetch - processPackages [typerconf]: Remove: archive file [/home/abi/fetcher/tmp/typerconf-2.2.tar.gz]
+[2023-06-30 14:49:12] INFO root fetch - main [MainThread]: End processing [typerconf]: success
+[2023-06-30 14:49:12] INFO root fetch - processPackages [aliyun-python-sdk-vpc]: Downloading https://files.pythonhosted.org/packages/f6/94/988ac3b39fee6b1e0a780e523d5c4f784b1fd2770073712afad4d74ac430/aliyun-python-sdk-vpc-3.0.8.tar.gz
+[2023-06-30 14:49:12] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/d5/cf/427f0ced8ef3cc98e22c877b4eb980575483e2cf3ac2387f5e901120b744/PHX-1.9.0.tar.gz
+[2023-06-30 14:49:12] INFO root fetch - processPackages [drf-payments]: Remove: archive file [/home/abi/fetcher/tmp/drf_payments-0.0.1.tar.gz]
+[2023-06-30 14:49:12] INFO root fetch - processPackages [drf-payments]: Remove: archive file [/home/abi/fetcher/tmp/drf_payments-0.0.2.tar.gz]
+[2023-06-30 14:49:12] INFO root fetch - main [MainThread]: End processing [drf-payments]: success
+[2023-06-30 14:49:12] INFO root fetch - processPackages [q1pulse]: Remove: archive file [/home/abi/fetcher/tmp/q1pulse-0.8.6.tar.gz]
+[2023-06-30 14:49:12] INFO root fetch - processPackages [q1pulse]: Remove: archive file [/home/abi/fetcher/tmp/q1pulse-0.8.7.tar.gz]
+[2023-06-30 14:49:12] INFO root fetch - main [MainThread]: End processing [q1pulse]: success
+[2023-06-30 14:49:12] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-06-30 14:49:12] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230630/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-30 14:49:12] INFO root fetch - processPackages [aliyun-python-sdk-vpc]: Downloading https://files.pythonhosted.org/packages/5a/26/542e862c62b4bb1182c40068b24ce776e3def5d1bfc73b3bbf7b9fe8d648/aliyun-python-sdk-vpc-3.0.9.tar.gz
+[2023-06-30 14:49:12] INFO root fetch - processPackages [aliyun-python-sdk-vpc]: executing diffoscope
+[2023-06-30 14:49:12] INFO root fetch - processPackages [aliyun-python-sdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-vpc-3.0.8.tar.gz tmp/aliyun-python-sdk-vpc-3.0.9.tar.gz --markdown 20230630/a/aliyun-python-sdk-vpc/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-30 14:49:13] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.1.8.tar.gz]
+[2023-06-30 14:49:13] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.1.9.tar.gz]
+[2023-06-30 14:49:13] INFO root fetch - main [MainThread]: End processing [nopasaran]: success
+[2023-06-30 14:49:14] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.8.1.tar.gz]
+[2023-06-30 14:49:14] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.9.0.tar.gz]
+[2023-06-30 14:49:14] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-06-30 14:49:14] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230629.tar.gz]
+[2023-06-30 14:49:14] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230630.tar.gz]
+[2023-06-30 14:49:14] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-06-30 14:49:17] INFO root fetch - processPackages [aliyun-python-sdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-vpc-3.0.8.tar.gz]
+[2023-06-30 14:49:17] INFO root fetch - processPackages [aliyun-python-sdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-vpc-3.0.9.tar.gz]
+[2023-06-30 14:49:17] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-vpc]: success
+[2023-06-30 14:49:17] INFO root fetch - main [MainThread]: Store serial: [18710929]
