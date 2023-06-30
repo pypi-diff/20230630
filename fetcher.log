@@ -3254,3 +3254,171 @@
 [2023-06-30 03:19:53] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.6.28.tar.gz]
 [2023-06-30 03:19:53] INFO root fetch - main [MainThread]: End processing [byquant]: success
 [2023-06-30 03:19:53] INFO root fetch - main [MainThread]: Store serial: [18702929]
+[2023-06-30 03:24:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702929]
+[2023-06-30 03:25:02] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-30 03:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optimum
+[2023-06-30 03:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: navigator-api
+[2023-06-30 03:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-hugo-deploy
+[2023-06-30 03:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xsskiller
+[2023-06-30 03:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: solox
+[2023-06-30 03:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfads-o-builder
+[2023-06-30 03:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: recursive-validator
+[2023-06-30 03:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: awpr
+[2023-06-30 03:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: json-file-split
+[2023-06-30 03:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cvat-manifest-builder
+[2023-06-30 03:25:03] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 03:25:03] INFO root fetch - processPackages [optimum]: New version: [1.9.0] Old Version: [1.8.8]
+[2023-06-30 03:25:03] INFO root fetch - processPackages [recursive-validator]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 03:25:03] INFO root fetch - processPackages [xsskiller]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-30 03:25:03] INFO root fetch - processPackages [tfads-o-builder]: New version: [0.0.158] Old Version: [0.0.157]
+[2023-06-30 03:25:03] INFO root fetch - processPackages [solox]: New version: [2.6.8] Old Version: [2.6.7]
+[2023-06-30 03:25:03] INFO root fetch - processPackages [json-file-split]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 03:25:03] INFO root fetch - processPackages [awpr]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 03:25:03] INFO root fetch - processPackages [cvat-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 03:25:03] INFO root fetch - processPackages [navigator-api]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-06-30 03:25:03] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/99/d8/622632db80b721cb33feb5bafb9759e9b295589e09234724044a35a985ba/json_file_split-0.0.98.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/44/24/6e3f27033069680d4ad07aee3e1d535e1b3444f1ce72e8df548e8a16dc8e/recursive_validator-0.0.98.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/20/69/15c65a62a3a988a3178f156c6296d17502891a9da8e386979e511c8bd639/awpr-0.0.98.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/4d/53/ceeb4be50300cbb9ab2e0de8699ddef9fb20be70ac60f72cac3097f0efc9/cvat_manifest_builder-0.0.98.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/3a/cc/f8feacbe20ac476d11c94a3c866b32fb9b4dde5694a5194843b6b0dde0eb/recursive_validator-0.0.99.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [solox]: Downloading https://files.pythonhosted.org/packages/db/76/9e0142f35b8fa8646469feb335c49bcc0d330bf1c091866614d501dde8ab/solox-2.6.7.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [recursive-validator]: executing diffoscope
+[2023-06-30 03:25:03] INFO root fetch - processPackages [recursive-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recursive_validator-0.0.98.tar.gz tmp/recursive_validator-0.0.99.tar.gz --markdown 20230630/r/recursive-validator/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 03:25:03] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/43/b3/6dda4f55e1d3faa57d98d8c8339b3a8c2e280e12edcb071cf369a6eab3b8/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-30 03:25:03] INFO root fetch - processPackages [xsskiller]: Downloading https://files.pythonhosted.org/packages/91/34/52ced669619712568381af893c30195cb1c3aad6be86b9b0fa1658ecef7d/xsskiller-1.1.0.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [optimum]: Downloading https://files.pythonhosted.org/packages/59/d4/a3ff4fc6a0d3f9f0d96e63c9c017dbb349b8d51f19ee204c21fd9571c30c/optimum-1.8.8.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/43/6a/a5e099ae1a88431e28ea793094495025f2a78ac4d52ea49d8aad0e55cf8c/awpr-0.0.99.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/2d/fd/8ffcf4ea6e13da75ab842cd4fdacad9222d483a9b210dbc27e9c251f6a20/cvat_manifest_builder-0.0.99.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/a0/bb/0991effbd14e0114fac9146f11da815fc866dc9e12a179cdfc204af7bd99/json_file_split-0.0.99.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [awpr]: executing diffoscope
+[2023-06-30 03:25:03] INFO root fetch - processPackages [awpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awpr-0.0.98.tar.gz tmp/awpr-0.0.99.tar.gz --markdown 20230630/a/awpr/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 03:25:03] INFO root fetch - processPackages [tfads-o-builder]: Downloading https://files.pythonhosted.org/packages/aa/d6/75d2bc593ebd68fe507f72ee6dccd66bc6778032d4bef92491dba5bb1aa4/tfads_o_builder-0.0.157.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [json-file-split]: executing diffoscope
+[2023-06-30 03:25:03] INFO root fetch - processPackages [json-file-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_file_split-0.0.98.tar.gz tmp/json_file_split-0.0.99.tar.gz --markdown 20230630/j/json-file-split/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 03:25:03] INFO root fetch - processPackages [cvat-manifest-builder]: executing diffoscope
+[2023-06-30 03:25:03] INFO root fetch - processPackages [cvat-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_manifest_builder-0.0.98.tar.gz tmp/cvat_manifest_builder-0.0.99.tar.gz --markdown 20230630/c/cvat-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 03:25:03] INFO root fetch - processPackages [optimum]: Downloading https://files.pythonhosted.org/packages/a7/24/410e1ddb5012dee559f2eaca7a0f04688b8817501ac63d08eac5dc5d2f97/optimum-1.9.0.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [xsskiller]: Downloading https://files.pythonhosted.org/packages/e2/8b/eaf5eea58d0d02a153e3816132c3ebf94f6a610052c0a61254c2bdabcf49/xsskiller-1.1.1.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-30 03:25:03] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230630/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 03:25:03] INFO root fetch - processPackages [tfads-o-builder]: Downloading https://files.pythonhosted.org/packages/f9/5d/a81271a621b8064beedaa99283189ddc13533970a446df21a3097b5a96f1/tfads_o_builder-0.0.158.tar.gz
+[2023-06-30 03:25:03] INFO root fetch - processPackages [xsskiller]: executing diffoscope
+[2023-06-30 03:25:03] INFO root fetch - processPackages [xsskiller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsskiller-1.1.0.tar.gz tmp/xsskiller-1.1.1.tar.gz --markdown 20230630/x/xsskiller/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-30 03:25:03] INFO root fetch - processPackages [optimum]: executing diffoscope
+[2023-06-30 03:25:03] INFO root fetch - processPackages [optimum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-1.8.8.tar.gz tmp/optimum-1.9.0.tar.gz --markdown 20230630/o/optimum/1.8.8-1.9.0/diff.md --exclude *.pyd
+[2023-06-30 03:25:03] INFO root fetch - processPackages [tfads-o-builder]: executing diffoscope
+[2023-06-30 03:25:03] INFO root fetch - processPackages [tfads-o-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfads_o_builder-0.0.157.tar.gz tmp/tfads_o_builder-0.0.158.tar.gz --markdown 20230630/t/tfads-o-builder/0.0.157-0.0.158/diff.md --exclude *.pyd
+[2023-06-30 03:25:04] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/e1/98/0334482971a969cfa2dfd38298d37844a48ae8a8052b69f9cfb99fc44292/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-30 03:25:04] INFO root fetch - processPackages [navigator-api]: executing diffoscope
+[2023-06-30 03:25:04] INFO root fetch - processPackages [navigator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230630/n/navigator-api/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-06-30 03:25:04] INFO root fetch - processPackages [solox]: Downloading https://files.pythonhosted.org/packages/00/16/6aea9b88ac54c33ad08e265925ca7b1707ad318cb4293d81a238980ee55a/solox-2.6.8.tar.gz
+[2023-06-30 03:25:04] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.98.tar.gz]
+[2023-06-30 03:25:04] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.99.tar.gz]
+[2023-06-30 03:25:04] INFO root fetch - processPackages [recursive-validator]: Start processing: cdk-sops-secrets
+[2023-06-30 03:25:04] INFO root fetch - main [MainThread]: End processing [recursive-validator]: success
+[2023-06-30 03:25:04] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.98.tar.gz]
+[2023-06-30 03:25:04] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.99.tar.gz]
+[2023-06-30 03:25:04] INFO root fetch - processPackages [awpr]: Start processing: iwx-manifest-builder
+[2023-06-30 03:25:04] INFO root fetch - main [MainThread]: End processing [awpr]: success
+[2023-06-30 03:25:04] INFO root fetch - processPackages [iwx-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 03:25:04] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-30 03:25:04] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/33/bf/02ba356059e9069f6db9f027bf1bd97a4c1de39fe82e72814ed2f73f3c39/iwx_manifest_builder-0.0.98.tar.gz
+[2023-06-30 03:25:04] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-30 03:25:04] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.98.tar.gz]
+[2023-06-30 03:25:04] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.99.tar.gz]
+[2023-06-30 03:25:04] INFO root fetch - processPackages [json-file-split]: Start processing: fsai-shared-funcs
+[2023-06-30 03:25:04] INFO root fetch - main [MainThread]: End processing [json-file-split]: success
+[2023-06-30 03:25:05] INFO root fetch - processPackages [fsai-shared-funcs]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 03:25:05] INFO root fetch - processPackages [xsskiller]: Remove: archive file [/home/abi/fetcher/tmp/xsskiller-1.1.0.tar.gz]
+[2023-06-30 03:25:05] INFO root fetch - processPackages [xsskiller]: Remove: archive file [/home/abi/fetcher/tmp/xsskiller-1.1.1.tar.gz]
+[2023-06-30 03:25:05] INFO root fetch - processPackages [xsskiller]: Start processing: geopix
+[2023-06-30 03:25:05] INFO root fetch - main [MainThread]: End processing [xsskiller]: success
+[2023-06-30 03:25:05] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.98.tar.gz]
+[2023-06-30 03:25:05] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.99.tar.gz]
+[2023-06-30 03:25:05] INFO root fetch - processPackages [cvat-manifest-builder]: Start processing: fsai-grpc-api
+[2023-06-30 03:25:05] INFO root fetch - main [MainThread]: End processing [cvat-manifest-builder]: success
+[2023-06-30 03:25:05] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/d7/d6/4db840a6915c649204176fabdc1a7d70a4fdf7a1d3bd33ddd8cd11c02111/iwx_manifest_builder-0.0.99.tar.gz
+[2023-06-30 03:25:05] INFO root fetch - processPackages [geopix]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 03:25:05] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/61/bc/39412ebc8deaeb66f457caebc15c02bc1fe07bc33108672e4bf143d64e3b/fsai_shared_funcs-0.0.98.tar.gz
+[2023-06-30 03:25:05] INFO root fetch - processPackages [fsai-grpc-api]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 03:25:05] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/b6/a3/41b4f581e7463e3bce55e79579de9bf1f2c828011573c06bf7ab33a974bd/geopix-0.0.98.tar.gz
+[2023-06-30 03:25:05] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/08/a7/9a7ebe38ab432231655f1bfd81e702be8be178baa4b6a212002bdcf3cd96/fsai_grpc_api-0.0.98.tar.gz
+[2023-06-30 03:25:05] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-30 03:25:05] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-30 03:25:05] INFO root fetch - processPackages [cdk-hugo-deploy]: Start processing: ncbi-datasets-pylib
+[2023-06-30 03:25:05] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-30 03:25:05] INFO root fetch - processPackages [ncbi-datasets-pylib]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-06-30 03:25:05] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/3d/ad/0128c444d5b95fa3b9882d63404069f05fbee06ab63f54a541348c51a445/fsai_shared_funcs-0.0.99.tar.gz
+[2023-06-30 03:25:05] INFO root fetch - processPackages [iwx-manifest-builder]: executing diffoscope
+[2023-06-30 03:25:05] INFO root fetch - processPackages [iwx-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iwx_manifest_builder-0.0.98.tar.gz tmp/iwx_manifest_builder-0.0.99.tar.gz --markdown 20230630/i/iwx-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 03:25:05] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/9b/76/8a69144e2e7db3d7b70f7a9a6458e71d63b921d67ca39c9f646ee438e103/fsai_grpc_api-0.0.99.tar.gz
+[2023-06-30 03:25:05] INFO root fetch - processPackages [fsai-shared-funcs]: executing diffoscope
+[2023-06-30 03:25:05] INFO root fetch - processPackages [fsai-shared-funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_shared_funcs-0.0.98.tar.gz tmp/fsai_shared_funcs-0.0.99.tar.gz --markdown 20230630/f/fsai-shared-funcs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 03:25:05] INFO root fetch - processPackages [tfads-o-builder]: Remove: archive file [/home/abi/fetcher/tmp/tfads_o_builder-0.0.157.tar.gz]
+[2023-06-30 03:25:05] INFO root fetch - processPackages [tfads-o-builder]: Remove: archive file [/home/abi/fetcher/tmp/tfads_o_builder-0.0.158.tar.gz]
+[2023-06-30 03:25:05] INFO root fetch - processPackages [tfads-o-builder]: Start processing: openai-pricing
+[2023-06-30 03:25:05] INFO root fetch - main [MainThread]: End processing [tfads-o-builder]: success
+[2023-06-30 03:25:05] INFO root fetch - processPackages [fsai-grpc-api]: executing diffoscope
+[2023-06-30 03:25:05] INFO root fetch - processPackages [fsai-grpc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_grpc_api-0.0.98.tar.gz tmp/fsai_grpc_api-0.0.99.tar.gz --markdown 20230630/f/fsai-grpc-api/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 03:25:05] INFO root fetch - processPackages [openai-pricing]: New version: [1.1.1] Old Version: [1.1]
+[2023-06-30 03:25:05] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/6a/35/1c90409a83c347836b8e4e5b2ad3d6ad6534718a8977dd9b3a646edd5e26/geopix-0.0.99.tar.gz
+[2023-06-30 03:25:05] INFO root fetch - processPackages [openai-pricing]: Downloading https://files.pythonhosted.org/packages/ad/94/be44612a8d21fcd78fe1afe24a963cc267d9f2d25b65d55e159cb779649f/openai_pricing-1.1.tar.gz
+[2023-06-30 03:25:05] INFO root fetch - processPackages [ncbi-datasets-pylib]: Downloading https://files.pythonhosted.org/packages/ff/d0/5c7c45e275e2c71c22acb9f315a1cbcd706e71659505e30a22bec4a2632b/ncbi-datasets-pylib-9.0.0.tar.gz
+[2023-06-30 03:25:05] INFO root fetch - processPackages [geopix]: executing diffoscope
+[2023-06-30 03:25:05] INFO root fetch - processPackages [geopix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopix-0.0.98.tar.gz tmp/geopix-0.0.99.tar.gz --markdown 20230630/g/geopix/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 03:25:05] INFO root fetch - processPackages [solox]: executing diffoscope
+[2023-06-30 03:25:05] INFO root fetch - processPackages [solox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solox-2.6.7.tar.gz tmp/solox-2.6.8.tar.gz --markdown 20230630/s/solox/2.6.7-2.6.8/diff.md --exclude *.pyd
+[2023-06-30 03:25:05] INFO root fetch - processPackages [ncbi-datasets-pylib]: Downloading https://files.pythonhosted.org/packages/77/91/854e74c2b35a5a11892b0eae72690c8d49d04f38f57cbc2a7868200881dd/ncbi-datasets-pylib-9.1.0.tar.gz
+[2023-06-30 03:25:05] INFO root fetch - processPackages [openai-pricing]: Downloading https://files.pythonhosted.org/packages/36/e0/0b6ea74cbee59eca79c3487dff131c28c2e7036c3df0784fbb5afae589a3/openai-pricing-1.1.1.tar.gz
+[2023-06-30 03:25:05] INFO root fetch - processPackages [openai-pricing]: executing diffoscope
+[2023-06-30 03:25:05] INFO root fetch - processPackages [openai-pricing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_pricing-1.1.tar.gz tmp/openai-pricing-1.1.1.tar.gz --markdown 20230630/o/openai-pricing/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-06-30 03:25:06] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-30 03:25:06] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-30 03:25:06] INFO root fetch - processPackages [navigator-api]: Start processing: byquant
+[2023-06-30 03:25:06] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
+[2023-06-30 03:25:06] INFO root fetch - processPackages [byquant]: New version: [1.6.29] Old Version: [1.6.28]
+[2023-06-30 03:25:06] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/29/90/d4b83d154a90a56df8e2e5eafbb18438e0371360b52242dbdbd4af78d1f2/byquant-1.6.28.tar.gz
+[2023-06-30 03:25:06] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.98.tar.gz]
+[2023-06-30 03:25:06] INFO root fetch - processPackages [ncbi-datasets-pylib]: executing diffoscope
+[2023-06-30 03:25:06] INFO root fetch - processPackages [ncbi-datasets-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbi-datasets-pylib-9.0.0.tar.gz tmp/ncbi-datasets-pylib-9.1.0.tar.gz --markdown 20230630/n/ncbi-datasets-pylib/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-06-30 03:25:06] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.99.tar.gz]
+[2023-06-30 03:25:06] INFO root fetch - processPackages [fsai-shared-funcs]: Start processing: requirements-score
+[2023-06-30 03:25:06] INFO root fetch - main [MainThread]: End processing [fsai-shared-funcs]: success
+[2023-06-30 03:25:06] WARNING root fetch - processPackages [requirements-score]: Skipping, unable to determine old version
+[2023-06-30 03:25:06] INFO root fetch - main [MainThread]: End processing [requirements-score] error
+[2023-06-30 03:25:06] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/d1/fa/61cef42ddf380aa98273c5ae19b04cd258630787ac7b7bc5e89d1d114d76/byquant-1.6.29-py3-none-any.whl
+[2023-06-30 03:25:06] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.98.tar.gz]
+[2023-06-30 03:25:06] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.99.tar.gz]
+[2023-06-30 03:25:06] INFO root fetch - main [MainThread]: End processing [iwx-manifest-builder]: success
+[2023-06-30 03:25:06] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.98.tar.gz]
+[2023-06-30 03:25:06] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.99.tar.gz]
+[2023-06-30 03:25:06] INFO root fetch - main [MainThread]: End processing [geopix]: success
+[2023-06-30 03:25:06] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.98.tar.gz]
+[2023-06-30 03:25:06] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.99.tar.gz]
+[2023-06-30 03:25:06] INFO root fetch - main [MainThread]: End processing [fsai-grpc-api]: success
+[2023-06-30 03:25:06] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-30 03:25:07] INFO root fetch - processPackages [byquant]: executing diffoscope
+[2023-06-30 03:25:07] INFO root fetch - processPackages [byquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byquant-1.6.28.tar.gz tmp/byquant-1.6.29-py3-none-any.whl.zip --markdown 20230630/b/byquant/1.6.28-1.6.29/diff.md --exclude *.pyd
+[2023-06-30 03:25:07] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-30 03:25:07] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230630/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-30 03:25:07] INFO root fetch - processPackages [openai-pricing]: Remove: archive file [/home/abi/fetcher/tmp/openai_pricing-1.1.tar.gz]
+[2023-06-30 03:25:07] INFO root fetch - processPackages [openai-pricing]: Remove: archive file [/home/abi/fetcher/tmp/openai-pricing-1.1.1.tar.gz]
+[2023-06-30 03:25:07] INFO root fetch - main [MainThread]: End processing [openai-pricing]: success
+[2023-06-30 03:25:08] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.6.28.tar.gz]
+[2023-06-30 03:25:08] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.6.29-py3-none-any.whl.zip]
+[2023-06-30 03:25:08] INFO root fetch - main [MainThread]: End processing [byquant]: success
+[2023-06-30 03:25:08] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-30 03:25:08] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-30 03:25:08] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-30 03:25:09] INFO root fetch - processPackages [optimum]: Remove: archive file [/home/abi/fetcher/tmp/optimum-1.8.8.tar.gz]
+[2023-06-30 03:25:09] INFO root fetch - processPackages [optimum]: Remove: archive file [/home/abi/fetcher/tmp/optimum-1.9.0.tar.gz]
+[2023-06-30 03:25:09] INFO root fetch - main [MainThread]: End processing [optimum]: success
+[2023-06-30 03:25:09] INFO root fetch - processPackages [solox]: Remove: archive file [/home/abi/fetcher/tmp/solox-2.6.7.tar.gz]
+[2023-06-30 03:25:09] INFO root fetch - processPackages [solox]: Remove: archive file [/home/abi/fetcher/tmp/solox-2.6.8.tar.gz]
+[2023-06-30 03:25:09] INFO root fetch - main [MainThread]: End processing [solox]: success
+[2023-06-30 03:25:10] INFO root fetch - processPackages [ncbi-datasets-pylib]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-datasets-pylib-9.0.0.tar.gz]
+[2023-06-30 03:25:10] INFO root fetch - processPackages [ncbi-datasets-pylib]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-datasets-pylib-9.1.0.tar.gz]
+[2023-06-30 03:25:10] INFO root fetch - main [MainThread]: End processing [ncbi-datasets-pylib]: success
+[2023-06-30 03:25:10] INFO root fetch - main [MainThread]: Store serial: [18702986]
