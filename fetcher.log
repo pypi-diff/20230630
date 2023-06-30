@@ -9938,3 +9938,90 @@ AssertionError: tmp/PyFakeDados-0.0.1.2.tar.gz does not exist
 [2023-06-30 04:41:38] INFO root fetch - processPackages [minium]: Remove: archive file [/home/abi/fetcher/tmp/minium-1.4.2.tar.gz]
 [2023-06-30 04:41:38] INFO root fetch - main [MainThread]: End processing [minium]: success
 [2023-06-30 04:41:38] INFO root fetch - main [MainThread]: Store serial: [18705236]
+[2023-06-30 04:46:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705236]
+[2023-06-30 04:46:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-30 04:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-24
+[2023-06-30 04:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpc-obscodes
+[2023-06-30 04:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rest-api-supporter
+[2023-06-30 04:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-plus-25
+[2023-06-30 04:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naif-eop-high-prec
+[2023-06-30 04:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-plus-26
+[2023-06-30 04:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fedml
+[2023-06-30 04:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atc-easy-desktop
+[2023-06-30 04:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: umapi-cli
+[2023-06-30 04:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yplib
+[2023-06-30 04:46:47] INFO root fetch - processPackages [mpc-obscodes]: New version: [2023.6.8] Old Version: [2023.6.4]
+[2023-06-30 04:46:47] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 04:46:47] INFO root fetch - processPackages [atc-easy-desktop]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-30 04:46:47] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-30 04:46:47] INFO root fetch - processPackages [yplib]: New version: [2.0.0] Old Version: [1.9.9]
+[2023-06-30 04:46:47] WARNING root fetch - processPackages [umapi-cli]: Skipping, unable to determine old version
+[2023-06-30 04:46:47] INFO root fetch - main [MainThread]: End processing [umapi-cli] error
+[2023-06-30 04:46:47] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-30 04:46:47] INFO root fetch - processPackages [fedml]: New version: [0.8.5a5] Old Version: [0.8.5a4]
+[2023-06-30 04:46:47] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-30 04:46:47] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-30 04:46:47] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/57/bc/d8ccd4c7810014c5436a1e6934284f87a446e21aa71492a05eb14157c958/yplib-1.9.9.tar.gz
+[2023-06-30 04:46:47] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/f4/16/0c2fc27776d8257953b960eea527e7f83b54019b51fbb132e634d73c5c0e/rest-api-supporter-0.0.8.tar.gz
+[2023-06-30 04:46:47] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-30 04:46:47] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-30 04:46:47] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/af/d0/68ad465ce4acc84d32698b1c4a84ba9ededad201c8b362b2ef1aa85bb0cd/fedml-0.8.5a4.tar.gz
+[2023-06-30 04:46:48] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/ea/0f/9044bbdb2efd71c50d870fc6fcaa6c3fd51bb323c9c484bdca69334e5a1e/naif_eop_high_prec-2023.6.8.tar.gz
+[2023-06-30 04:46:48] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/9a/aa/ec068e0492f65edac793f3ac5d7c8288328cbc861af38391f23c8e2e564c/mpc_obscodes-2023.6.4.tar.gz
+[2023-06-30 04:46:48] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-30 04:46:48] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/35/47/76da32bcf0507aa9dbf370e1c9e91408c29a80232299067f97883d4ef255/rest-api-supporter-0.0.9.tar.gz
+[2023-06-30 04:46:48] INFO root fetch - processPackages [atc-easy-desktop]: Downloading https://files.pythonhosted.org/packages/de/de/8015cd447e3ce2c77e03763e41fee62899abd0167014c9ebd6651acf1645/atc_easy_desktop-1.0.3.tar.gz
+[2023-06-30 04:46:48] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/fc/c8/c76ccf10db8c62a0efb7e500be315b1c8185fb0ffe27ad4182b4d38fd789/yplib-2.0.0.tar.gz
+[2023-06-30 04:46:48] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-30 04:46:48] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.9.9.tar.gz tmp/yplib-2.0.0.tar.gz --markdown 20230630/y/yplib/1.9.9-2.0.0/diff.md --exclude *.pyd
+[2023-06-30 04:46:48] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-06-30 04:46:48] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.8.tar.gz tmp/rest-api-supporter-0.0.9.tar.gz --markdown 20230630/r/rest-api-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 04:46:48] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/e4/71/3c7ece8ebd6d26539b8aeae0e60191dcdef63c206d000187b7e96c3594d3/fedml-0.8.5a5.tar.gz
+[2023-06-30 04:46:48] INFO root fetch - processPackages [atc-easy-desktop]: Downloading https://files.pythonhosted.org/packages/6b/0f/28763ccfbdb87e10035fdcd7640967e79b1ed543e9e182489449aa45b57c/atc_easy_desktop-1.0.4.tar.gz
+[2023-06-30 04:46:48] INFO root fetch - processPackages [atc-easy-desktop]: executing diffoscope
+[2023-06-30 04:46:48] INFO root fetch - processPackages [atc-easy-desktop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atc_easy_desktop-1.0.3.tar.gz tmp/atc_easy_desktop-1.0.4.tar.gz --markdown 20230630/a/atc-easy-desktop/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-30 04:46:48] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-06-30 04:46:48] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.5a4.tar.gz tmp/fedml-0.8.5a5.tar.gz --markdown 20230630/f/fedml/0.8.5a4-0.8.5a5/diff.md --exclude *.pyd
+[2023-06-30 04:46:48] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/be/07/4ad74682bf9b07fedd0d34086d66c6090aa90431059a6aaaf74d5874ae78/mpc_obscodes-2023.6.8.tar.gz
+[2023-06-30 04:46:48] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-30 04:46:48] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-30 04:46:48] INFO root fetch - processPackages [mpc-obscodes]: executing diffoscope
+[2023-06-30 04:46:48] INFO root fetch - processPackages [mpc-obscodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_obscodes-2023.6.4.tar.gz tmp/mpc_obscodes-2023.6.8.tar.gz --markdown 20230630/m/mpc-obscodes/2023.6.4-2023.6.8/diff.md --exclude *.pyd
+[2023-06-30 04:46:48] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-30 04:46:48] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230630/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-30 04:46:49] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-30 04:46:49] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230630/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-30 04:46:49] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-30 04:46:49] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.9.9.tar.gz]
+[2023-06-30 04:46:49] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.0.0.tar.gz]
+[2023-06-30 04:46:49] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-30 04:46:49] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.8.tar.gz]
+[2023-06-30 04:46:49] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.9.tar.gz]
+[2023-06-30 04:46:49] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-06-30 04:46:49] INFO root fetch - processPackages [atc-easy-desktop]: Remove: archive file [/home/abi/fetcher/tmp/atc_easy_desktop-1.0.3.tar.gz]
+[2023-06-30 04:46:49] INFO root fetch - processPackages [atc-easy-desktop]: Remove: archive file [/home/abi/fetcher/tmp/atc_easy_desktop-1.0.4.tar.gz]
+[2023-06-30 04:46:49] INFO root fetch - main [MainThread]: End processing [atc-easy-desktop]: success
+[2023-06-30 04:46:49] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-30 04:46:49] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230630/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-30 04:46:50] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-30 04:46:50] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-30 04:46:50] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-30 04:46:50] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-30 04:46:50] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-30 04:46:50] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-30 04:46:51] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2023.6.4.tar.gz]
+[2023-06-30 04:46:51] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2023.6.8.tar.gz]
+[2023-06-30 04:46:51] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
+[2023-06-30 04:46:51] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-30 04:46:51] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-30 04:46:51] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-30 04:46:54] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/86/df/7e6a8b8768d3fb282891cae7859ab48b4ff949a7ed50e8d31090c561c199/naif_eop_high_prec-2023.6.9.tar.gz
+[2023-06-30 04:46:54] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-30 04:46:54] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.8.tar.gz tmp/naif_eop_high_prec-2023.6.9.tar.gz --markdown 20230630/n/naif-eop-high-prec/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-30 04:46:57] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.5a4.tar.gz]
+[2023-06-30 04:46:57] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.5a5.tar.gz]
+[2023-06-30 04:46:57] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-06-30 04:46:58] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.8.tar.gz]
+[2023-06-30 04:46:58] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
+[2023-06-30 04:46:58] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-30 04:46:58] INFO root fetch - main [MainThread]: Store serial: [18705294]
