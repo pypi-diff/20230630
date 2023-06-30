@@ -14027,3 +14027,93 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 09:18:21] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-06-30 09:18:21] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-06-30 09:18:21] INFO root fetch - main [MainThread]: Store serial: [18706943]
+[2023-06-30 09:23:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706943]
+[2023-06-30 09:23:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-30 09:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: authress-sdk
+[2023-06-30 09:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextpcg
+[2023-06-30 09:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trimnami
+[2023-06-30 09:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ns-asphalt9
+[2023-06-30 09:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raga-testing-platform
+[2023-06-30 09:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fractal-server
+[2023-06-30 09:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: QuantumPathQSOAPySDK
+[2023-06-30 09:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drf-payments
+[2023-06-30 09:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unified-planning
+[2023-06-30 09:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: session-repository
+[2023-06-30 09:23:31] INFO root fetch - processPackages [fractal-server]: New version: [1.3.2a1] Old Version: [1.3.2a0]
+[2023-06-30 09:23:31] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-06-30 09:23:31] WARNING root fetch - processPackages [session-repository]: Skipping, unable to determine old version
+[2023-06-30 09:23:31] INFO root fetch - processPackages [session-repository]: Start processing: trilium-py
+[2023-06-30 09:23:31] INFO root fetch - main [MainThread]: End processing [session-repository] error
+[2023-06-30 09:23:31] WARNING root fetch - processPackages [drf-payments]: Skipping, unable to determine old version
+[2023-06-30 09:23:31] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 09:23:31] INFO root fetch - processPackages [trimnami]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-30 09:23:31] INFO root fetch - main [MainThread]: End processing [drf-payments] error
+[2023-06-30 09:23:31] INFO root fetch - processPackages [ns-asphalt9]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-30 09:23:31] INFO root fetch - processPackages [nextpcg]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-30 09:23:31] INFO root fetch - processPackages [authress-sdk]: New version: [2.0.23] Old Version: [2.0.21]
+[2023-06-30 09:23:31] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-06-30 09:23:31] INFO root fetch - processPackages [trilium-py]: New version: [0.8.0] Old Version: [0.7.6]
+[2023-06-30 09:23:31] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/81/ae/ef005002e16a23e48930a0ec07b269ad9493d0ee246ed24bbd57f1d8f75e/fractal_server-1.3.2a0.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/21/e3/8961a1cf36f2a32bba3be0f2801702c4fb37c36164a44be1749419c9b3e7/nextpcg-0.5.8.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/bc/71/5936f046270dbf3aaf9586d1f0c635944416cfb9df4125c6cbc3ef69fd65/ns_asphalt9-0.0.1.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [trimnami]: Downloading https://files.pythonhosted.org/packages/de/63/a6faf71448f4af86f2f361de000b10a8c3c3248484f14d87ea1d51e939b6/trimnami-0.0.1.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [authress-sdk]: Downloading https://files.pythonhosted.org/packages/4e/c5/d2f5ef3a52e5a6b8c184fa48b3336c9813fa84eb9514a2728748eead300e/authress-sdk-2.0.21.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [trilium-py]: Downloading https://files.pythonhosted.org/packages/66/8b/cd5538435e1cd6ba9f87d34d251f6485eaeed6d75cc9c267e78b4465dff5/trilium_py-0.7.6-py3-none-any.whl
+[2023-06-30 09:23:31] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/e3/4e/7c5b866578646f07608ccd918f5f7878a1dea545bddc766ecfcfc7cdb9ae/QuantumPathQSOAPySDK-1.5.5.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/47/44/b13fcddb5405f914c9898095cd7fd61a47cc4647a4065d3a61f28919f91a/unified_planning-0.6.0.94.dev1.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/cf/08/4cf741b08ba79aab0af730a364994d72c10b23055730e8331317a461fdee/nextpcg-0.5.9.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/e3/02/d6da296e964206fd0fee014bef41a1386d5d38801a9c1824caa738d2e45e/fractal_server-1.3.2a1.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-06-30 09:23:31] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230630/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 09:23:31] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-06-30 09:23:31] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230630/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-06-30 09:23:31] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-06-30 09:23:31] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.5.8.tar.gz tmp/nextpcg-0.5.9.tar.gz --markdown 20230630/n/nextpcg/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-30 09:23:31] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/b8/2e/5274411983dd86f412dd8fb3bbe5accfa66d9abf812d24b971b8b5298ff6/ns_asphalt9-0.0.2.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-06-30 09:23:31] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.3.2a0.tar.gz tmp/fractal_server-1.3.2a1.tar.gz --markdown 20230630/f/fractal-server/1.3.2a0-1.3.2a1/diff.md --exclude *.pyd
+[2023-06-30 09:23:31] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2023-06-30 09:23:31] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-0.0.1.tar.gz tmp/ns_asphalt9-0.0.2.tar.gz --markdown 20230630/n/ns-asphalt9/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 09:23:31] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Downloading https://files.pythonhosted.org/packages/a4/dc/0a00db724a86a8339ed1a11c801b3bdd428f1a4799af39cb3ce800dec5aa/QuantumPathQSOAPySDK-1.5.6.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [authress-sdk]: Downloading https://files.pythonhosted.org/packages/c4/bc/217f9bee8517f9b25d01b10825f392801470c5729c0a2633184701ab65be/authress-sdk-2.0.23.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [trilium-py]: Downloading https://files.pythonhosted.org/packages/cc/30/b2825dc06126f6dfd0b05aa341e5d10b2a1408d63957f3d632e2b52f5e24/trilium_py-0.8.0-py3-none-any.whl
+[2023-06-30 09:23:31] INFO root fetch - processPackages [trimnami]: Downloading https://files.pythonhosted.org/packages/37/66/11a9d9a79d2cd3327c8f5c9eb655aa48b3d11500b18d08a6241bd5e32dee/trimnami-0.0.2.tar.gz
+[2023-06-30 09:23:31] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: executing diffoscope
+[2023-06-30 09:23:31] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantumPathQSOAPySDK-1.5.5.tar.gz tmp/QuantumPathQSOAPySDK-1.5.6.tar.gz --markdown 20230630/Q/QuantumPathQSOAPySDK/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-06-30 09:23:31] INFO root fetch - processPackages [authress-sdk]: executing diffoscope
+[2023-06-30 09:23:31] INFO root fetch - processPackages [authress-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authress-sdk-2.0.21.tar.gz tmp/authress-sdk-2.0.23.tar.gz --markdown 20230630/a/authress-sdk/2.0.21-2.0.23/diff.md --exclude *.pyd
+[2023-06-30 09:23:31] INFO root fetch - processPackages [trilium-py]: executing diffoscope
+[2023-06-30 09:23:31] INFO root fetch - processPackages [trilium-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trilium_py-0.7.6-py3-none-any.whl.zip tmp/trilium_py-0.8.0-py3-none-any.whl.zip --markdown 20230630/t/trilium-py/0.7.6-0.8.0/diff.md --exclude *.pyd
+[2023-06-30 09:23:31] INFO root fetch - processPackages [trimnami]: executing diffoscope
+[2023-06-30 09:23:31] INFO root fetch - processPackages [trimnami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trimnami-0.0.1.tar.gz tmp/trimnami-0.0.2.tar.gz --markdown 20230630/t/trimnami/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 09:23:33] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.0.1.tar.gz]
+[2023-06-30 09:23:33] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.0.2.tar.gz]
+[2023-06-30 09:23:33] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2023-06-30 09:23:33] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.5.tar.gz]
+[2023-06-30 09:23:33] INFO root fetch - processPackages [QuantumPathQSOAPySDK]: Remove: archive file [/home/abi/fetcher/tmp/QuantumPathQSOAPySDK-1.5.6.tar.gz]
+[2023-06-30 09:23:33] INFO root fetch - main [MainThread]: End processing [QuantumPathQSOAPySDK]: success
+[2023-06-30 09:23:33] INFO root fetch - processPackages [trilium-py]: Remove: archive file [/home/abi/fetcher/tmp/trilium_py-0.7.6-py3-none-any.whl.zip]
+[2023-06-30 09:23:33] INFO root fetch - processPackages [trilium-py]: Remove: archive file [/home/abi/fetcher/tmp/trilium_py-0.8.0-py3-none-any.whl.zip]
+[2023-06-30 09:23:33] INFO root fetch - main [MainThread]: End processing [trilium-py]: success
+[2023-06-30 09:23:33] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.2a0.tar.gz]
+[2023-06-30 09:23:33] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.8.tar.gz]
+[2023-06-30 09:23:33] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.9.tar.gz]
+[2023-06-30 09:23:33] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.2a1.tar.gz]
+[2023-06-30 09:23:33] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-06-30 09:23:33] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-06-30 09:23:33] INFO root fetch - processPackages [authress-sdk]: Remove: archive file [/home/abi/fetcher/tmp/authress-sdk-2.0.21.tar.gz]
+[2023-06-30 09:23:33] INFO root fetch - processPackages [authress-sdk]: Remove: archive file [/home/abi/fetcher/tmp/authress-sdk-2.0.23.tar.gz]
+[2023-06-30 09:23:33] INFO root fetch - main [MainThread]: End processing [authress-sdk]: success
+[2023-06-30 09:23:34] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.0.1.tar.gz]
+[2023-06-30 09:23:34] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.0.2.tar.gz]
+[2023-06-30 09:23:34] INFO root fetch - main [MainThread]: End processing [trimnami]: success
+[2023-06-30 09:23:34] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-06-30 09:23:34] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-06-30 09:23:34] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-06-30 09:23:35] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.9.dev1.tar.gz]
+[2023-06-30 09:23:35] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.94.dev1.tar.gz]
+[2023-06-30 09:23:35] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-06-30 09:23:35] INFO root fetch - main [MainThread]: Store serial: [18706979]
