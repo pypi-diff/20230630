@@ -16271,3 +16271,302 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 11:01:14] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.1.3.tar.gz]
 [2023-06-30 11:01:14] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
 [2023-06-30 11:01:14] INFO root fetch - main [MainThread]: Store serial: [18707859]
+[2023-06-30 11:06:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18707859]
+[2023-06-30 11:06:23] INFO root fetch - main [MainThread]: Found 35 changed packages
+[2023-06-30 11:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yxr-atcoder-core
+[2023-06-30 11:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sspr.python.by.designermadsen
+[2023-06-30 11:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inmanta-module-apt
+[2023-06-30 11:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyaedt
+[2023-06-30 11:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: speechmos
+[2023-06-30 11:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inmanta-module-cron
+[2023-06-30 11:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inmanta-module-graph
+[2023-06-30 11:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: misura
+[2023-06-30 11:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inmanta-module-exec
+[2023-06-30 11:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netdoc
+[2023-06-30 11:06:23] WARNING root fetch - processPackages [yxr-atcoder-core]: Skipping, unable to determine old version
+[2023-06-30 11:06:23] INFO root fetch - processPackages [yxr-atcoder-core]: Start processing: prolog-primitives
+[2023-06-30 11:06:23] INFO root fetch - main [MainThread]: End processing [yxr-atcoder-core] error
+[2023-06-30 11:06:23] INFO root fetch - processPackages [netdoc]: New version: [0.9.71] Old Version: [0.9.70]
+[2023-06-30 11:06:23] INFO root fetch - processPackages [sspr.python.by.designermadsen]: New version: [0.0.6.dev0] Old Version: [0.0.5]
+[2023-06-30 11:06:23] WARNING root fetch - processPackages [speechmos]: Skipping, unable to determine old version
+[2023-06-30 11:06:23] INFO root fetch - processPackages [speechmos]: Start processing: robotframework-robosapiens
+[2023-06-30 11:06:23] INFO root fetch - main [MainThread]: End processing [speechmos] error
+[2023-06-30 11:06:23] INFO root fetch - processPackages [inmanta-module-apt]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-30 11:06:23] INFO root fetch - processPackages [inmanta-module-graph]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-30 11:06:23] INFO root fetch - processPackages [inmanta-module-cron]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 11:06:23] INFO root fetch - processPackages [inmanta-module-exec]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-30 11:06:23] INFO root fetch - processPackages [misura]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-06-30 11:06:23] INFO root fetch - processPackages [pyaedt]: New version: [0.6.82] Old Version: [0.6.81]
+[2023-06-30 11:06:23] INFO root fetch - processPackages [prolog-primitives]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-30 11:06:23] INFO root fetch - processPackages [robotframework-robosapiens]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-30 11:06:23] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/f2/ef/1d391989d1fcf09c8c91936ac38fc2ecb4b2432ab959707ae3761c31002a/netdoc-0.9.70.tar.gz
+[2023-06-30 11:06:24] INFO root fetch - processPackages [pyaedt]: Downloading https://files.pythonhosted.org/packages/1f/ee/be1e5c3c740d5ba3a59a7db059d6f7e1a66651b1f808bd5e04b0f849adfc/pyaedt-0.6.81.tar.gz
+[2023-06-30 11:06:24] INFO root fetch - processPackages [sspr.python.by.designermadsen]: Downloading https://files.pythonhosted.org/packages/e5/6f/e76198d554fed1e26f459f983f9a5f9760994a007a1653550195fafd5358/sspr.python.by.designermadsen-0.0.5.tar.gz
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-cron]: Downloading https://files.pythonhosted.org/packages/b8/f9/dd5c043a38bcfae3f9a8ac17f23db391ae981171bb5946528d08974a5d5a/inmanta_module_cron-1.0.8-py3-none-any.whl
+[2023-06-30 11:06:24] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/9e/8b/058458a26e36f65692c2a96bb577d5649dc50f128b247f352dcdf7522624/prolog_primitives-0.2.0.tar.gz
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-graph]: Downloading https://files.pythonhosted.org/packages/90/48/2910908ce3352efc434821fd200e26321ca51a26726ebbdf49ebe9362645/inmanta_module_graph-0.8.8-py3-none-any.whl
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-apt]: Downloading https://files.pythonhosted.org/packages/ad/d4/5ac33c4770849709b5eba2f389b1ff08aba8be6a50061ecad7305f2c6662/inmanta_module_apt-0.4.8-py3-none-any.whl
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-exec]: Downloading https://files.pythonhosted.org/packages/be/e9/e16ec1b06f7d481ba995e6da0583a15f58aaec3796e2f3bf35c2ea69b3e8/inmanta_module_exec-1.1.8-py3-none-any.whl
+[2023-06-30 11:06:24] INFO root fetch - processPackages [robotframework-robosapiens]: Downloading https://files.pythonhosted.org/packages/61/21/df09742d65e71044da906c63759641da1902b7458d3ffb4f098db2f28245/robotframework_robosapiens-1.2.1-py3-none-any.whl
+[2023-06-30 11:06:24] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/c5/bc/813dccd0af76852b3fea6f6f9ba3ebc578c1efa3980ff3e4676ac88f2077/netdoc-0.9.71.tar.gz
+[2023-06-30 11:06:24] INFO root fetch - processPackages [misura]: Downloading https://files.pythonhosted.org/packages/1a/9a/41f3ca00339a95e97b534c638fd1ce121968873c7f11e5eb8b780194ada7/misura-1.6.2.tar.gz
+[2023-06-30 11:06:24] INFO root fetch - processPackages [netdoc]: executing diffoscope
+[2023-06-30 11:06:24] INFO root fetch - processPackages [netdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdoc-0.9.70.tar.gz tmp/netdoc-0.9.71.tar.gz --markdown 20230630/n/netdoc/0.9.70-0.9.71/diff.md --exclude *.pyd
+[2023-06-30 11:06:24] INFO root fetch - processPackages [sspr.python.by.designermadsen]: Downloading https://files.pythonhosted.org/packages/29/1f/3870e0292179c85caa2026a04d2d178c8413c2cc4b041c84f2aa1022501e/sspr.python.by.designermadsen-0.0.6.dev0.tar.gz
+[2023-06-30 11:06:24] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/d9/24/e6a092b88dea3e10a1ab7c5db45a655e11c9dd1b3b52e6d9bd93004798d9/prolog_primitives-0.3.0.tar.gz
+[2023-06-30 11:06:24] INFO root fetch - processPackages [misura]: executing diffoscope
+[2023-06-30 11:06:24] INFO root fetch - processPackages [misura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misura-1.6.1.tar.gz tmp/misura-1.6.2.tar.gz --markdown 20230630/m/misura/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-apt]: Downloading https://files.pythonhosted.org/packages/ae/26/76d50fee827d21ae2368889ce1c41dd81e6c616ede1cecdbbd45350a3413/inmanta_module_apt-0.4.9-py3-none-any.whl
+[2023-06-30 11:06:24] INFO root fetch - processPackages [prolog-primitives]: executing diffoscope
+[2023-06-30 11:06:24] INFO root fetch - processPackages [prolog-primitives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prolog_primitives-0.2.0.tar.gz tmp/prolog_primitives-0.3.0.tar.gz --markdown 20230630/p/prolog-primitives/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-graph]: Downloading https://files.pythonhosted.org/packages/49/20/79a6846577669055ea20cb626c91379b3f5a07155c6f0f327ec86b00b00a/inmanta_module_graph-0.8.9-py3-none-any.whl
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-cron]: Downloading https://files.pythonhosted.org/packages/8f/e5/6c7e7d94db406fbdf79343558087a1507c209c09318bbb9bce6292e045f0/inmanta_module_cron-1.0.9-py3-none-any.whl
+[2023-06-30 11:06:24] INFO root fetch - processPackages [pyaedt]: Downloading https://files.pythonhosted.org/packages/32/86/8356d519a2fe3127e29150f208a383e775fc8c9eb130ce3c33129ba1d081/pyaedt-0.6.82.tar.gz
+[2023-06-30 11:06:24] INFO root fetch - processPackages [sspr.python.by.designermadsen]: executing diffoscope
+[2023-06-30 11:06:24] INFO root fetch - processPackages [sspr.python.by.designermadsen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspr.python.by.designermadsen-0.0.5.tar.gz tmp/sspr.python.by.designermadsen-0.0.6.dev0.tar.gz --markdown 20230630/s/sspr.python.by.designermadsen/0.0.5-0.0.6.dev0/diff.md --exclude *.pyd
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-cron]: executing diffoscope
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-cron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_cron-1.0.8-py3-none-any.whl.zip tmp/inmanta_module_cron-1.0.9-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-cron/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-apt]: executing diffoscope
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-apt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_apt-0.4.8-py3-none-any.whl.zip tmp/inmanta_module_apt-0.4.9-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-apt/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-exec]: Downloading https://files.pythonhosted.org/packages/6c/cd/a9e7c8878eb7d1358e8bd10b5de270f664478bdf566a67d583a2be7795f8/inmanta_module_exec-1.1.9-py3-none-any.whl
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-graph]: executing diffoscope
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_graph-0.8.8-py3-none-any.whl.zip tmp/inmanta_module_graph-0.8.9-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-graph/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-30 11:06:24] INFO root fetch - processPackages [pyaedt]: executing diffoscope
+[2023-06-30 11:06:24] INFO root fetch - processPackages [pyaedt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaedt-0.6.81.tar.gz tmp/pyaedt-0.6.82.tar.gz --markdown 20230630/p/pyaedt/0.6.81-0.6.82/diff.md --exclude *.pyd
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-exec]: executing diffoscope
+[2023-06-30 11:06:24] INFO root fetch - processPackages [inmanta-module-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_exec-1.1.8-py3-none-any.whl.zip tmp/inmanta_module_exec-1.1.9-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-exec/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-30 11:06:25] INFO root fetch - processPackages [robotframework-robosapiens]: Downloading https://files.pythonhosted.org/packages/ac/7b/b489384148b371cb229cff0d83be8f409510aa022c53e01429f54267d6ee/robotframework_robosapiens-1.2.2-py3-none-any.whl
+[2023-06-30 11:06:25] INFO root fetch - processPackages [robotframework-robosapiens]: executing diffoscope
+[2023-06-30 11:06:25] INFO root fetch - processPackages [robotframework-robosapiens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_robosapiens-1.2.1-py3-none-any.whl.zip tmp/robotframework_robosapiens-1.2.2-py3-none-any.whl.zip --markdown 20230630/r/robotframework-robosapiens/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-30 11:06:25] INFO root fetch - processPackages [misura]: Remove: archive file [/home/abi/fetcher/tmp/misura-1.6.1.tar.gz]
+[2023-06-30 11:06:25] INFO root fetch - processPackages [misura]: Remove: archive file [/home/abi/fetcher/tmp/misura-1.6.2.tar.gz]
+[2023-06-30 11:06:25] INFO root fetch - processPackages [misura]: Start processing: inmanta-module-net
+[2023-06-30 11:06:25] INFO root fetch - main [MainThread]: End processing [misura]: success
+[2023-06-30 11:06:25] INFO root fetch - processPackages [inmanta-module-net]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-net]: Downloading https://files.pythonhosted.org/packages/cf/b1/e05754588c85e7067905dbd07dd2271ad5bb663d9a88abfcfe2286c60a47/inmanta_module_net-1.0.8-py3-none-any.whl
+[2023-06-30 11:06:26] INFO root fetch - processPackages [sspr.python.by.designermadsen]: Remove: archive file [/home/abi/fetcher/tmp/sspr.python.by.designermadsen-0.0.5.tar.gz]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [sspr.python.by.designermadsen]: Remove: archive file [/home/abi/fetcher/tmp/sspr.python.by.designermadsen-0.0.6.dev0.tar.gz]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [sspr.python.by.designermadsen]: Start processing: autogluon.common
+[2023-06-30 11:06:26] INFO root fetch - main [MainThread]: End processing [sspr.python.by.designermadsen]: success
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autogluon.common]: New version: [0.8.1b20230630] Old Version: [0.8.1b20230629]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-cron]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_cron-1.0.8-py3-none-any.whl.zip]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-cron]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_cron-1.0.9-py3-none-any.whl.zip]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-cron]: Start processing: autodistill-blip
+[2023-06-30 11:06:26] INFO root fetch - main [MainThread]: End processing [inmanta-module-cron]: success
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-apt]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_apt-0.4.8-py3-none-any.whl.zip]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-apt]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_apt-0.4.9-py3-none-any.whl.zip]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-apt]: Start processing: autogluon.core
+[2023-06-30 11:06:26] INFO root fetch - main [MainThread]: End processing [inmanta-module-apt]: success
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autodistill-blip]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autogluon.core]: New version: [0.8.1b20230630] Old Version: [0.8.1b20230629]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/76/6b/2f1a0089436e360e4d270ca94ae73c6c93149d640175f30fa4902f1646cd/autogluon.common-0.8.1b20230629.tar.gz
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/5a/33/7457d7f6670244101103c59a915e9b572e7a437b669009a38e5d85435c28/autogluon.core-0.8.1b20230629.tar.gz
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-net]: Downloading https://files.pythonhosted.org/packages/87/43/af6e45e07c013f110bd1b16f6f7eb1893db65bda384ec68a828a294554ad/inmanta_module_net-1.0.9-py3-none-any.whl
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-graph]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_graph-0.8.8-py3-none-any.whl.zip]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-graph]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_graph-0.8.9-py3-none-any.whl.zip]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-graph]: Start processing: autogluon.features
+[2023-06-30 11:06:26] INFO root fetch - main [MainThread]: End processing [inmanta-module-graph]: success
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autodistill-blip]: Downloading https://files.pythonhosted.org/packages/0b/09/4ecfecf7bab2f41b32e0f8b6e0f592ae80f4cf6a5889ba47d1c4ef47ef2a/autodistill-blip-0.0.1.tar.gz
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autogluon.features]: New version: [0.8.1b20230630] Old Version: [0.8.1b20230629]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-exec]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_exec-1.1.8-py3-none-any.whl.zip]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-exec]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_exec-1.1.9-py3-none-any.whl.zip]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-exec]: Start processing: rosetta-ce
+[2023-06-30 11:06:26] INFO root fetch - main [MainThread]: End processing [inmanta-module-exec]: success
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-net]: executing diffoscope
+[2023-06-30 11:06:26] INFO root fetch - processPackages [inmanta-module-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_net-1.0.8-py3-none-any.whl.zip tmp/inmanta_module_net-1.0.9-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-net/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 11:06:26] INFO root fetch - processPackages [rosetta-ce]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/b3/d6/117e6b92e5bd10a06ddfd487930401109f4fe0d4452eb793ed58dc116114/autogluon.common-0.8.1b20230630.tar.gz
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/50/79/b304674d37b5b9af4fb1ad019620af7771eda01522530d2d1b84238e8df2/autogluon.features-0.8.1b20230629.tar.gz
+[2023-06-30 11:06:26] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-0.2.0.tar.gz]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-0.3.0.tar.gz]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [prolog-primitives]: Start processing: autogluon.tabular
+[2023-06-30 11:06:26] INFO root fetch - main [MainThread]: End processing [prolog-primitives]: success
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/6d/b7/23305a880d33e082fb22467ad7f66d98f440a472917f426c4c351ce450fe/autogluon.core-0.8.1b20230630.tar.gz
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.8.1b20230630] Old Version: [0.8.1b20230629]
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autodistill-blip]: Downloading https://files.pythonhosted.org/packages/24/60/638118a2be05fdfc04e48f07a5381c3d6b66c9a996f65acb16759738c7a0/autodistill-blip-0.1.0.tar.gz
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/7c/fa/919586dc412430c911eb8c07749f0377f75d6badd1e242956aa5a5d642e8/autogluon.tabular-0.8.1b20230629.tar.gz
+[2023-06-30 11:06:26] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/1f/5d/e952659e6bdbc7183debc47dfea4d9839406eeab0bd0fdce53c37de4627e/rosetta-ce-1.3.3.tar.gz
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.8.1b20230629.tar.gz tmp/autogluon.common-0.8.1b20230630.tar.gz --markdown 20230630/a/autogluon.common/0.8.1b20230629-0.8.1b20230630/diff.md --exclude *.pyd
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autodistill-blip]: executing diffoscope
+[2023-06-30 11:06:26] INFO root fetch - processPackages [autodistill-blip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill-blip-0.0.1.tar.gz tmp/autodistill-blip-0.1.0.tar.gz --markdown 20230630/a/autodistill-blip/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-30 11:06:27] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/19/3c/a32b255cffbede0391ba78bcc9c16c88b106d71631b63f551f889fc23d41/autogluon.features-0.8.1b20230630.tar.gz
+[2023-06-30 11:06:27] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-06-30 11:06:27] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.8.1b20230629.tar.gz tmp/autogluon.core-0.8.1b20230630.tar.gz --markdown 20230630/a/autogluon.core/0.8.1b20230629-0.8.1b20230630/diff.md --exclude *.pyd
+[2023-06-30 11:06:27] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-06-30 11:06:27] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.8.1b20230629.tar.gz tmp/autogluon.features-0.8.1b20230630.tar.gz --markdown 20230630/a/autogluon.features/0.8.1b20230629-0.8.1b20230630/diff.md --exclude *.pyd
+[2023-06-30 11:06:27] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.70.tar.gz]
+[2023-06-30 11:06:27] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.71.tar.gz]
+[2023-06-30 11:06:27] INFO root fetch - processPackages [netdoc]: Start processing: inmanta-module-mysql
+[2023-06-30 11:06:27] INFO root fetch - main [MainThread]: End processing [netdoc]: success
+[2023-06-30 11:06:27] INFO root fetch - processPackages [inmanta-module-mysql]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-30 11:06:27] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/d1/c2/37e84922f76a30f0aaa7a402b4ffa906c8bd1674446203b41d07594e3ac9/autogluon.tabular-0.8.1b20230630.tar.gz
+[2023-06-30 11:06:27] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/07/4c/91d20b88ec615b60ed4b77e8f3e5142848d059d9273d1472d2a098056b9b/rosetta-ce-1.3.4.tar.gz
+[2023-06-30 11:06:27] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-06-30 11:06:27] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.3.3.tar.gz tmp/rosetta-ce-1.3.4.tar.gz --markdown 20230630/r/rosetta-ce/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-30 11:06:27] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-06-30 11:06:27] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.8.1b20230629.tar.gz tmp/autogluon.tabular-0.8.1b20230630.tar.gz --markdown 20230630/a/autogluon.tabular/0.8.1b20230629-0.8.1b20230630/diff.md --exclude *.pyd
+[2023-06-30 11:06:27] INFO root fetch - processPackages [inmanta-module-mysql]: Downloading https://files.pythonhosted.org/packages/54/98/1e0cee0a0f5430386c22eb630fc1b86fcacf768758c7ce49b825978930a4/inmanta_module_mysql-0.6.8-py3-none-any.whl
+[2023-06-30 11:06:27] INFO root fetch - processPackages [robotframework-robosapiens]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_robosapiens-1.2.1-py3-none-any.whl.zip]
+[2023-06-30 11:06:27] INFO root fetch - processPackages [robotframework-robosapiens]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_robosapiens-1.2.2-py3-none-any.whl.zip]
+[2023-06-30 11:06:27] INFO root fetch - processPackages [robotframework-robosapiens]: Start processing: autogluon.multimodal
+[2023-06-30 11:06:27] INFO root fetch - main [MainThread]: End processing [robotframework-robosapiens]: success
+[2023-06-30 11:06:27] INFO root fetch - processPackages [inmanta-module-mysql]: Downloading https://files.pythonhosted.org/packages/4d/d0/9b2e85bc7faeb5b46e8ebff2f33b819f0d0ec17ea542aeb0d89818a902c2/inmanta_module_mysql-0.6.9-py3-none-any.whl
+[2023-06-30 11:06:27] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.8.1b20230630] Old Version: [0.8.1b20230629]
+[2023-06-30 11:06:27] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/41/ae/747d0c98d2959201752a5866287b7f72fd3413c79b2b2b37008dc95fff0f/autogluon.multimodal-0.8.1b20230629.tar.gz
+[2023-06-30 11:06:28] INFO root fetch - processPackages [inmanta-module-mysql]: executing diffoscope
+[2023-06-30 11:06:28] INFO root fetch - processPackages [inmanta-module-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_mysql-0.6.8-py3-none-any.whl.zip tmp/inmanta_module_mysql-0.6.9-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-mysql/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-30 11:06:28] INFO root fetch - processPackages [inmanta-module-net]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_net-1.0.8-py3-none-any.whl.zip]
+[2023-06-30 11:06:28] INFO root fetch - processPackages [inmanta-module-net]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_net-1.0.9-py3-none-any.whl.zip]
+[2023-06-30 11:06:28] INFO root fetch - processPackages [inmanta-module-net]: Start processing: autogluon.timeseries
+[2023-06-30 11:06:28] INFO root fetch - main [MainThread]: End processing [inmanta-module-net]: success
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.8.1b20230630] Old Version: [0.8.1b20230629]
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/91/b0/f72c9cda24fce48d6d2d892378195523515437b9f6e2e468897a940c1352/autogluon.timeseries-0.8.1b20230629.tar.gz
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/42/cf/4497cbaee432ed4f7f97284ff584aa75c4636814bc394ca8af364f17ef29/autogluon.multimodal-0.8.1b20230630.tar.gz
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autodistill-blip]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-blip-0.0.1.tar.gz]
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autodistill-blip]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-blip-0.1.0.tar.gz]
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autodistill-blip]: Start processing: autogluon
+[2023-06-30 11:06:28] INFO root fetch - main [MainThread]: End processing [autodistill-blip]: success
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/e8/15/e635db84790a5bd7fad6612f851a6ba3b9f966a50e48cfd3bebb11a36fda/autogluon.timeseries-0.8.1b20230630.tar.gz
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon]: New version: [0.8.1b20230630] Old Version: [0.8.1b20230629]
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.1b20230629.tar.gz]
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.1b20230630.tar.gz]
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon.common]: Start processing: apidev-coop-cms
+[2023-06-30 11:06:28] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/66/42/d9f55a6ca27d3e769bfc9d8b9f9b3d2b6b063f8a87534d6ed167910af759/autogluon-0.8.1b20230629.tar.gz
+[2023-06-30 11:06:28] INFO root fetch - processPackages [apidev-coop-cms]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.8.1b20230629.tar.gz tmp/autogluon.multimodal-0.8.1b20230630.tar.gz --markdown 20230630/a/autogluon.multimodal/0.8.1b20230629-0.8.1b20230630/diff.md --exclude *.pyd
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.8.1b20230629.tar.gz tmp/autogluon.timeseries-0.8.1b20230630.tar.gz --markdown 20230630/a/autogluon.timeseries/0.8.1b20230629-0.8.1b20230630/diff.md --exclude *.pyd
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/d7/25/36ed105099db66388c5621a9b122379a24adb90cca8a51d72d69d5e8a0c3/autogluon-0.8.1b20230630.tar.gz
+[2023-06-30 11:06:28] INFO root fetch - processPackages [apidev-coop-cms]: Downloading https://files.pythonhosted.org/packages/98/90/1874934b4e2f2a6a7490b58514e75b946ca796b7d0c285aaee9a2785bb54/apidev-coop_cms-1.6.0.tar.gz
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.8.1b20230629.tar.gz tmp/autogluon-0.8.1b20230630.tar.gz --markdown 20230630/a/autogluon/0.8.1b20230629-0.8.1b20230630/diff.md --exclude *.pyd
+[2023-06-30 11:06:28] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.3.3.tar.gz]
+[2023-06-30 11:06:28] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.3.4.tar.gz]
+[2023-06-30 11:06:28] INFO root fetch - processPackages [rosetta-ce]: Start processing: autogluon.eda
+[2023-06-30 11:06:28] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-06-30 11:06:28] INFO root fetch - processPackages [autogluon.eda]: New version: [0.8.1b20230630] Old Version: [0.8.1b20230629]
+[2023-06-30 11:06:29] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/24/55/953eae4656a8ab8d22f5523b7d4917969c5d9f022617f19df97e02530177/autogluon.eda-0.8.1b20230629.tar.gz
+[2023-06-30 11:06:29] INFO root fetch - processPackages [inmanta-module-mysql]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_mysql-0.6.8-py3-none-any.whl.zip]
+[2023-06-30 11:06:29] INFO root fetch - processPackages [inmanta-module-mysql]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_mysql-0.6.9-py3-none-any.whl.zip]
+[2023-06-30 11:06:29] INFO root fetch - processPackages [inmanta-module-mysql]: Start processing: autogluon.cloud
+[2023-06-30 11:06:29] INFO root fetch - main [MainThread]: End processing [inmanta-module-mysql]: success
+[2023-06-30 11:06:29] INFO root fetch - processPackages [apidev-coop-cms]: Downloading https://files.pythonhosted.org/packages/ff/33/bd30cff98819ad028f33894de25bcc7f2f83e1f1e7811c8d7fd78ac466af/apidev-coop_cms-1.6.1.tar.gz
+[2023-06-30 11:06:29] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/06/97/1c7ed71802c90206d89eb54086b94029706967f883eaf0b5da28722a20ee/autogluon.eda-0.8.1b20230630.tar.gz
+[2023-06-30 11:06:29] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230630] Old Version: [0.2.1b20230629]
+[2023-06-30 11:06:29] INFO root fetch - processPackages [apidev-coop-cms]: executing diffoscope
+[2023-06-30 11:06:29] INFO root fetch - processPackages [apidev-coop-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidev-coop_cms-1.6.0.tar.gz tmp/apidev-coop_cms-1.6.1.tar.gz --markdown 20230630/a/apidev-coop-cms/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-30 11:06:29] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-06-30 11:06:29] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.8.1b20230629.tar.gz tmp/autogluon.eda-0.8.1b20230630.tar.gz --markdown 20230630/a/autogluon.eda/0.8.1b20230629-0.8.1b20230630/diff.md --exclude *.pyd
+[2023-06-30 11:06:29] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/62/60/ce3d6f19f568d0b564191d5b93e704a06c72af67689fdae6216b51963d2e/autogluon.cloud-0.2.1b20230629.tar.gz
+[2023-06-30 11:06:29] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/61/26/7cea2dfdb184afa075d0787d93e98a1d4e8a0bef91870e46169ff8a93f88/autogluon.cloud-0.2.1b20230630.tar.gz
+[2023-06-30 11:06:29] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-06-30 11:06:29] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230629.tar.gz tmp/autogluon.cloud-0.2.1b20230630.tar.gz --markdown 20230630/a/autogluon.cloud/0.2.1b20230629-0.2.1b20230630/diff.md --exclude *.pyd
+[2023-06-30 11:06:29] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.1b20230629.tar.gz]
+[2023-06-30 11:06:29] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.1b20230630.tar.gz]
+[2023-06-30 11:06:29] INFO root fetch - processPackages [autogluon.features]: Start processing: inmanta-module-platform
+[2023-06-30 11:06:29] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-06-30 11:06:30] INFO root fetch - processPackages [inmanta-module-platform]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-30 11:06:30] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.1b20230629.tar.gz]
+[2023-06-30 11:06:30] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.1b20230630.tar.gz]
+[2023-06-30 11:06:30] INFO root fetch - processPackages [autogluon]: Start processing: inmanta-module-redhat
+[2023-06-30 11:06:30] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-06-30 11:06:30] INFO root fetch - processPackages [inmanta-module-platform]: Downloading https://files.pythonhosted.org/packages/8e/c4/2807ccc42a52f25cb46cfd38bc2e522a3f160635704910ee9b7e7172e2af/inmanta_module_platform-1.1.8-py3-none-any.whl
+[2023-06-30 11:06:30] INFO root fetch - processPackages [inmanta-module-redhat]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-30 11:06:30] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.1b20230629.tar.gz]
+[2023-06-30 11:06:30] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.1b20230630.tar.gz]
+[2023-06-30 11:06:30] INFO root fetch - processPackages [autogluon.timeseries]: Start processing: delphai-fastapi
+[2023-06-30 11:06:30] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-06-30 11:06:30] INFO root fetch - processPackages [delphai-fastapi]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-06-30 11:06:30] INFO root fetch - processPackages [inmanta-module-redhat]: Downloading https://files.pythonhosted.org/packages/d2/5a/38bde17d71f3b6260c4918c885c5e2e4cc854c40c37c36897ae025df03d7/inmanta_module_redhat-1.0.5-py3-none-any.whl
+[2023-06-30 11:06:30] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/c6/ac/b155d6cccaf158ec9f8688af0d09e1d5f33b529ce0989fe951cc78292c11/delphai_fastapi-0.1.5.tar.gz
+[2023-06-30 11:06:30] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.1b20230629.tar.gz]
+[2023-06-30 11:06:30] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.1b20230630.tar.gz]
+[2023-06-30 11:06:30] INFO root fetch - processPackages [autogluon.multimodal]: Start processing: bump-pydantic
+[2023-06-30 11:06:30] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-06-30 11:06:30] INFO root fetch - processPackages [inmanta-module-platform]: Downloading https://files.pythonhosted.org/packages/04/10/10b66ec3caf2cf85554303d6e64a4148d40f86ec115959bedd261bdef767/inmanta_module_platform-1.1.9-py3-none-any.whl
+[2023-06-30 11:06:30] INFO root fetch - processPackages [bump-pydantic]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-30 11:06:30] INFO root fetch - processPackages [inmanta-module-redhat]: Downloading https://files.pythonhosted.org/packages/69/89/a2bbd699110bdc7227e5765a85148119db4cafe6214f40fa6e63f639ffc0/inmanta_module_redhat-1.0.6-py3-none-any.whl
+[2023-06-30 11:06:30] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.1b20230629.tar.gz]
+[2023-06-30 11:06:30] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.1b20230630.tar.gz]
+[2023-06-30 11:06:30] INFO root fetch - processPackages [autogluon.eda]: Start processing: funsecret
+[2023-06-30 11:06:30] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-06-30 11:06:30] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/71/e2/90b973c43abd5be710d7c7eec728f45ea56f7b6e384167f93ed4bd1849c5/delphai_fastapi-0.1.7.tar.gz
+[2023-06-30 11:06:30] WARNING root fetch - processPackages [funsecret]: Skipping, unable to determine old version
+[2023-06-30 11:06:30] INFO root fetch - processPackages [funsecret]: Start processing: session-repository
+[2023-06-30 11:06:30] INFO root fetch - main [MainThread]: End processing [funsecret] error
+[2023-06-30 11:06:30] INFO root fetch - processPackages [inmanta-module-platform]: executing diffoscope
+[2023-06-30 11:06:30] INFO root fetch - processPackages [inmanta-module-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_platform-1.1.8-py3-none-any.whl.zip tmp/inmanta_module_platform-1.1.9-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-platform/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-30 11:06:30] INFO root fetch - processPackages [session-repository]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-30 11:06:30] INFO root fetch - processPackages [inmanta-module-redhat]: executing diffoscope
+[2023-06-30 11:06:30] INFO root fetch - processPackages [inmanta-module-redhat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_redhat-1.0.5-py3-none-any.whl.zip tmp/inmanta_module_redhat-1.0.6-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-redhat/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-30 11:06:30] INFO root fetch - processPackages [bump-pydantic]: Downloading https://files.pythonhosted.org/packages/29/97/9cefc5fce9310628fd694b4d4fd4a616babb9ab87b07d2975bad51c4aa82/bump_pydantic-0.0.1.tar.gz
+[2023-06-30 11:06:31] INFO root fetch - processPackages [session-repository]: Downloading https://files.pythonhosted.org/packages/a3/3e/8780505c8c89fb2075780baf9003dd75642c3005849dc90f46a011a327e3/session-repository-0.1.3.tar.gz
+[2023-06-30 11:06:31] INFO root fetch - processPackages [delphai-fastapi]: executing diffoscope
+[2023-06-30 11:06:31] INFO root fetch - processPackages [delphai-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphai_fastapi-0.1.5.tar.gz tmp/delphai_fastapi-0.1.7.tar.gz --markdown 20230630/d/delphai-fastapi/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-06-30 11:06:31] INFO root fetch - processPackages [bump-pydantic]: Downloading https://files.pythonhosted.org/packages/9b/ed/b9a747545374962e46e3ec036fa0a4cf9bb70ede98501c925672fcc4605a/bump_pydantic-0.1.0.tar.gz
+[2023-06-30 11:06:31] INFO root fetch - processPackages [session-repository]: Downloading https://files.pythonhosted.org/packages/b2/4d/5b860376448e573468dcc4665328d0913c0b15f8f5b29e5e526c6406820a/session-repository-0.1.4.tar.gz
+[2023-06-30 11:06:31] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.1b20230629.tar.gz]
+[2023-06-30 11:06:31] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.1b20230630.tar.gz]
+[2023-06-30 11:06:31] INFO root fetch - processPackages [autogluon.core]: Start processing: inmanta-module-rest
+[2023-06-30 11:06:31] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-06-30 11:06:31] INFO root fetch - processPackages [bump-pydantic]: executing diffoscope
+[2023-06-30 11:06:31] INFO root fetch - processPackages [bump-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bump_pydantic-0.0.1.tar.gz tmp/bump_pydantic-0.1.0.tar.gz --markdown 20230630/b/bump-pydantic/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-30 11:06:31] INFO root fetch - processPackages [inmanta-module-rest]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-30 11:06:31] INFO root fetch - processPackages [session-repository]: executing diffoscope
+[2023-06-30 11:06:31] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230629.tar.gz]
+[2023-06-30 11:06:31] INFO root fetch - processPackages [session-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/session-repository-0.1.3.tar.gz tmp/session-repository-0.1.4.tar.gz --markdown 20230630/s/session-repository/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-30 11:06:31] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230630.tar.gz]
+[2023-06-30 11:06:31] INFO root fetch - processPackages [autogluon.cloud]: Start processing: inmanta-module-ssh
+[2023-06-30 11:06:31] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-06-30 11:06:31] INFO root fetch - processPackages [inmanta-module-ssh]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-30 11:06:31] INFO root fetch - processPackages [inmanta-module-rest]: Downloading https://files.pythonhosted.org/packages/ce/2d/0cb9405696097c0085f9547c0f47f265a1072cfab828202166625d00c6cb/inmanta_module_rest-0.2.8-py3-none-any.whl
+[2023-06-30 11:06:31] INFO root fetch - processPackages [inmanta-module-ssh]: Downloading https://files.pythonhosted.org/packages/4d/40/551b33e14055b7f4fcb4eb33977d6b530c50e3aabeb9333318da9efd26a9/inmanta_module_ssh-0.6.8-py3-none-any.whl
+[2023-06-30 11:06:32] INFO root fetch - processPackages [inmanta-module-rest]: Downloading https://files.pythonhosted.org/packages/41/3a/8329ea3d13fedaec16798087c208b2679e0ee8917e069b8546d4f0801d1a/inmanta_module_rest-0.2.9-py3-none-any.whl
+[2023-06-30 11:06:32] INFO root fetch - processPackages [inmanta-module-platform]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_platform-1.1.8-py3-none-any.whl.zip]
+[2023-06-30 11:06:32] INFO root fetch - processPackages [inmanta-module-platform]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_platform-1.1.9-py3-none-any.whl.zip]
+[2023-06-30 11:06:32] INFO root fetch - processPackages [inmanta-module-platform]: Start processing: autodistill-blip
+[2023-06-30 11:06:32] INFO root fetch - main [MainThread]: End processing [inmanta-module-platform]: success
+[2023-06-30 11:06:32] INFO root fetch - processPackages [inmanta-module-ssh]: Downloading https://files.pythonhosted.org/packages/2b/7c/378cb1b4850460404066f927323648ba23ed988ce091dc40e088db707d73/inmanta_module_ssh-0.6.9-py3-none-any.whl
+[2023-06-30 11:06:32] INFO root fetch - processPackages [autodistill-blip]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 11:06:32] INFO root fetch - processPackages [inmanta-module-rest]: executing diffoscope
+[2023-06-30 11:06:32] INFO root fetch - processPackages [inmanta-module-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_rest-0.2.8-py3-none-any.whl.zip tmp/inmanta_module_rest-0.2.9-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-rest/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-30 11:06:32] INFO root fetch - processPackages [inmanta-module-ssh]: executing diffoscope
+[2023-06-30 11:06:32] INFO root fetch - processPackages [inmanta-module-ssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_ssh-0.6.8-py3-none-any.whl.zip tmp/inmanta_module_ssh-0.6.9-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-ssh/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-30 11:06:32] INFO root fetch - processPackages [autodistill-blip]: Downloading https://files.pythonhosted.org/packages/24/60/638118a2be05fdfc04e48f07a5381c3d6b66c9a996f65acb16759738c7a0/autodistill-blip-0.1.0.tar.gz
+[2023-06-30 11:06:32] INFO root fetch - processPackages [inmanta-module-redhat]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_redhat-1.0.5-py3-none-any.whl.zip]
+[2023-06-30 11:06:32] INFO root fetch - processPackages [inmanta-module-redhat]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_redhat-1.0.6-py3-none-any.whl.zip]
+[2023-06-30 11:06:32] INFO root fetch - main [MainThread]: End processing [inmanta-module-redhat]: success
+[2023-06-30 11:06:32] INFO root fetch - processPackages [autodistill-blip]: Downloading https://files.pythonhosted.org/packages/fc/b6/3d21e9a16d26874183cb08361245150bb408a8e887c1e87b3c9616ca75e4/autodistill-blip-0.1.1.tar.gz
+[2023-06-30 11:06:32] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.1b20230629.tar.gz]
+[2023-06-30 11:06:32] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.1b20230630.tar.gz]
+[2023-06-30 11:06:32] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-06-30 11:06:32] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-0.1.5.tar.gz]
+[2023-06-30 11:06:32] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-0.1.7.tar.gz]
+[2023-06-30 11:06:32] INFO root fetch - main [MainThread]: End processing [delphai-fastapi]: success
+[2023-06-30 11:06:32] INFO root fetch - processPackages [autodistill-blip]: executing diffoscope
+[2023-06-30 11:06:32] INFO root fetch - processPackages [autodistill-blip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill-blip-0.1.0.tar.gz tmp/autodistill-blip-0.1.1.tar.gz --markdown 20230630/a/autodistill-blip/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 11:06:32] INFO root fetch - processPackages [session-repository]: Remove: archive file [/home/abi/fetcher/tmp/session-repository-0.1.3.tar.gz]
+[2023-06-30 11:06:32] INFO root fetch - processPackages [session-repository]: Remove: archive file [/home/abi/fetcher/tmp/session-repository-0.1.4.tar.gz]
+[2023-06-30 11:06:32] INFO root fetch - main [MainThread]: End processing [session-repository]: success
+[2023-06-30 11:06:33] INFO root fetch - processPackages [bump-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/bump_pydantic-0.0.1.tar.gz]
+[2023-06-30 11:06:33] INFO root fetch - processPackages [bump-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/bump_pydantic-0.1.0.tar.gz]
+[2023-06-30 11:06:33] INFO root fetch - main [MainThread]: End processing [bump-pydantic]: success
+[2023-06-30 11:06:33] INFO root fetch - processPackages [inmanta-module-ssh]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_ssh-0.6.8-py3-none-any.whl.zip]
+[2023-06-30 11:06:33] INFO root fetch - processPackages [inmanta-module-ssh]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_ssh-0.6.9-py3-none-any.whl.zip]
+[2023-06-30 11:06:33] INFO root fetch - main [MainThread]: End processing [inmanta-module-ssh]: success
+[2023-06-30 11:06:33] INFO root fetch - processPackages [inmanta-module-rest]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_rest-0.2.8-py3-none-any.whl.zip]
+[2023-06-30 11:06:33] INFO root fetch - processPackages [inmanta-module-rest]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_rest-0.2.9-py3-none-any.whl.zip]
+[2023-06-30 11:06:33] INFO root fetch - main [MainThread]: End processing [inmanta-module-rest]: success
+[2023-06-30 11:06:33] INFO root fetch - processPackages [autodistill-blip]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-blip-0.1.0.tar.gz]
+[2023-06-30 11:06:33] INFO root fetch - processPackages [autodistill-blip]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-blip-0.1.1.tar.gz]
+[2023-06-30 11:06:33] INFO root fetch - main [MainThread]: End processing [autodistill-blip]: success
+[2023-06-30 11:06:34] INFO root fetch - processPackages [apidev-coop-cms]: Remove: archive file [/home/abi/fetcher/tmp/apidev-coop_cms-1.6.0.tar.gz]
+[2023-06-30 11:06:34] INFO root fetch - processPackages [apidev-coop-cms]: Remove: archive file [/home/abi/fetcher/tmp/apidev-coop_cms-1.6.1.tar.gz]
+[2023-06-30 11:06:34] INFO root fetch - main [MainThread]: End processing [apidev-coop-cms]: success
+[2023-06-30 11:06:34] INFO root fetch - processPackages [pyaedt]: Remove: archive file [/home/abi/fetcher/tmp/pyaedt-0.6.81.tar.gz]
+[2023-06-30 11:06:34] INFO root fetch - processPackages [pyaedt]: Remove: archive file [/home/abi/fetcher/tmp/pyaedt-0.6.82.tar.gz]
+[2023-06-30 11:06:34] INFO root fetch - main [MainThread]: End processing [pyaedt]: success
+[2023-06-30 11:06:34] INFO root fetch - main [MainThread]: Store serial: [18707962]
