@@ -9734,3 +9734,104 @@ AssertionError: tmp/PyFakeDados-0.0.1.2.tar.gz does not exist
 [2023-06-30 04:31:04] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-06-30 04:31:04] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-30 04:31:04] INFO root fetch - main [MainThread]: Store serial: [18705144]
+[2023-06-30 04:36:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705144]
+[2023-06-30 04:36:13] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-30 04:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-06-30 04:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Ultimarc
+[2023-06-30 04:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ppmmvehicle
+[2023-06-30 04:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dibug
+[2023-06-30 04:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-account-multicurrency-revaluation-report
+[2023-06-30 04:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo9-addon-account-multicurrency-revaluation
+[2023-06-30 04:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-cutoff-base
+[2023-06-30 04:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qcparse
+[2023-06-30 04:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-invoice-start-end-dates
+[2023-06-30 04:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: thonny-quecpython
+[2023-06-30 04:36:13] INFO root fetch - processPackages [odoo9-addon-account-multicurrency-revaluation]: New version: [9.0.1.0.0.99.dev29] Old Version: [9.0.1.0.0.99.dev28]
+[2023-06-30 04:36:13] INFO root fetch - processPackages [dibug]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-30 04:36:13] INFO root fetch - processPackages [qcparse]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-30 04:36:13] WARNING root fetch - processPackages [ppmmvehicle]: Skipping, unable to determine old version
+[2023-06-30 04:36:13] INFO root fetch - processPackages [ppmmvehicle]: Start processing: odoo-addon-account-financial-report
+[2023-06-30 04:36:13] INFO root fetch - main [MainThread]: End processing [ppmmvehicle] error
+[2023-06-30 04:36:13] INFO root fetch - processPackages [odoo9-addon-account-multicurrency-revaluation-report]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-06-30 04:36:13] INFO root fetch - processPackages [Ultimarc]: New version: [1.0.0a4] Old Version: [1.0.0a3]
+[2023-06-30 04:36:13] INFO root fetch - processPackages [thonny-quecpython]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-30 04:36:13] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: New version: [16.0.1.1.0.4] Old Version: [16.0.1.1.0.3]
+[2023-06-30 04:36:13] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: New version: [16.0.1.2.0.4] Old Version: [16.0.1.2.0.3]
+[2023-06-30 04:36:13] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-30 04:36:13] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [16.0.1.3.5.1] Old Version: [16.0.1.3.5]
+[2023-06-30 04:36:13] INFO root fetch - processPackages [dibug]: Downloading https://files.pythonhosted.org/packages/b7/c5/744da3b149cd8e83515b8dd4fd7138d56aa030741962a5e8769d44e8c81d/dibug-0.4.0.tar.gz
+[2023-06-30 04:36:13] INFO root fetch - processPackages [Ultimarc]: Downloading https://files.pythonhosted.org/packages/73/4b/64a05c46bd2d493c4a0a2a23d2864f9354568b9e4ed5d48d588fe586c28e/Ultimarc-1.0.0a3.tar.gz
+[2023-06-30 04:36:13] INFO root fetch - processPackages [qcparse]: Downloading https://files.pythonhosted.org/packages/34/c8/ef8640029057a447f05939ce5e3046ea194e8522352fbb25e886eaf8feff/qcparse-0.3.0.tar.gz
+[2023-06-30 04:36:13] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-30 04:36:13] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: Downloading https://files.pythonhosted.org/packages/58/67/4a3acafbd899fad09c69072d477e04bc2264a73399baa15b0b8928c89555/odoo_addon_account_invoice_start_end_dates-16.0.1.2.0.3-py3-none-any.whl
+[2023-06-30 04:36:13] INFO root fetch - processPackages [odoo9-addon-account-multicurrency-revaluation-report]: Downloading https://files.pythonhosted.org/packages/97/0b/537879e49b7281748ee662e86950015004f4e1e0f26aeddcf7c5711606b6/odoo9_addon_account_multicurrency_revaluation_report-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-30 04:36:13] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/53/d5/d44e9779433feeda4b2e1a21c0f251a56a5ee5c912d48b4a05251150a398/odoo_addon_account_financial_report-16.0.1.3.5-py3-none-any.whl
+[2023-06-30 04:36:13] INFO root fetch - processPackages [odoo9-addon-account-multicurrency-revaluation]: Downloading https://files.pythonhosted.org/packages/d0/23/7677678f3c071ad8b50f80f7e90473d9c75d37ebd335071b4dea6f4ede37/odoo9_addon_account_multicurrency_revaluation-9.0.1.0.0.99.dev28-py2-none-any.whl
+[2023-06-30 04:36:13] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/b9/f7/3da7e9fec1d6adb593dd390dc70c6173ebfccc0647e762c9f887d4e0008e/odoo_addon_account_cutoff_base-16.0.1.1.0.3-py3-none-any.whl
+[2023-06-30 04:36:13] INFO root fetch - processPackages [thonny-quecpython]: Downloading https://files.pythonhosted.org/packages/7a/6c/e17f051b570d3cd4b920977ccc3c94096d3702beca3d3366f250ab0f13e0/thonny-quecpython-0.0.3.tar.gz
+[2023-06-30 04:36:14] WARNING root fetch - processPackages [thonny-quecpython]: Skipping package: exceeds size limit 23298536>=10485760
+[2023-06-30 04:36:14] INFO root fetch - processPackages [thonny-quecpython]: Start processing: atc-easy-desktop
+[2023-06-30 04:36:14] INFO root fetch - main [MainThread]: End processing [thonny-quecpython] error
+[2023-06-30 04:36:14] INFO root fetch - processPackages [atc-easy-desktop]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-30 04:36:14] INFO root fetch - processPackages [dibug]: Downloading https://files.pythonhosted.org/packages/f0/64/892a00ac30feb2c94a092e68841ca6ace7b30cd08aa0f349ea367f4a5841/dibug-0.5.0.tar.gz
+[2023-06-30 04:36:14] INFO root fetch - processPackages [atc-easy-desktop]: Downloading https://files.pythonhosted.org/packages/0c/37/100cc969a77f991177dc2db0912bdc02969aa4ca81b81e41140aace0cfe7/atc_easy_desktop-1.0.1.tar.gz
+[2023-06-30 04:36:14] INFO root fetch - processPackages [qcparse]: Downloading https://files.pythonhosted.org/packages/a6/c7/96f2bf54a11d73952fc2d32b13c0cd3246b42b60e2e37f94408b212a2f8d/qcparse-0.3.1.tar.gz
+[2023-06-30 04:36:14] INFO root fetch - processPackages [Ultimarc]: Downloading https://files.pythonhosted.org/packages/68/f8/a51a14f266455c1cce3dc74fbf0654ea468a7543306fe2c6e048b0da5a2b/Ultimarc-1.0.0a4.tar.gz
+[2023-06-30 04:36:14] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-30 04:36:14] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/69/de/1f2646bea42552e28bde3bfced6171c56f5de9b8a7e2124f7b6b31d8acd8/odoo_addon_account_cutoff_base-16.0.1.1.0.4-py3-none-any.whl
+[2023-06-30 04:36:14] INFO root fetch - processPackages [dibug]: executing diffoscope
+[2023-06-30 04:36:14] INFO root fetch - processPackages [odoo9-addon-account-multicurrency-revaluation-report]: Downloading https://files.pythonhosted.org/packages/88/6e/7246d1a0eaf539df378a34d7d5eff73156ae7bf1e58d13781329d2e15e0d/odoo9_addon_account_multicurrency_revaluation_report-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-30 04:36:14] INFO root fetch - processPackages [dibug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dibug-0.4.0.tar.gz tmp/dibug-0.5.0.tar.gz --markdown 20230630/d/dibug/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-30 04:36:14] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: Downloading https://files.pythonhosted.org/packages/b1/d4/4337776b9f0642845922dfa99f8e19bca18161e4cbf662499febc7a15f16/odoo_addon_account_invoice_start_end_dates-16.0.1.2.0.4-py3-none-any.whl
+[2023-06-30 04:36:14] INFO root fetch - processPackages [odoo9-addon-account-multicurrency-revaluation]: Downloading https://files.pythonhosted.org/packages/a6/90/8f5a1d621dbf26bb5913f320266f6e6b628b1d2ee77008add5c01b3ea210/odoo9_addon_account_multicurrency_revaluation-9.0.1.0.0.99.dev29-py2-none-any.whl
+[2023-06-30 04:36:14] INFO root fetch - processPackages [qcparse]: executing diffoscope
+[2023-06-30 04:36:14] INFO root fetch - processPackages [qcparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcparse-0.3.0.tar.gz tmp/qcparse-0.3.1.tar.gz --markdown 20230630/q/qcparse/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-30 04:36:14] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-30 04:36:14] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230630/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-30 04:36:14] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: executing diffoscope
+[2023-06-30 04:36:14] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.4-py3-none-any.whl.zip --markdown 20230630/o/odoo-addon-account-cutoff-base/16.0.1.1.0.3-16.0.1.1.0.4/diff.md --exclude *.pyd
+[2023-06-30 04:36:14] INFO root fetch - processPackages [odoo9-addon-account-multicurrency-revaluation-report]: executing diffoscope
+[2023-06-30 04:36:14] INFO root fetch - processPackages [odoo9-addon-account-multicurrency-revaluation-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_account_multicurrency_revaluation_report-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_account_multicurrency_revaluation_report-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230630/o/odoo9-addon-account-multicurrency-revaluation-report/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-30 04:36:14] INFO root fetch - processPackages [Ultimarc]: executing diffoscope
+[2023-06-30 04:36:14] INFO root fetch - processPackages [Ultimarc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Ultimarc-1.0.0a3.tar.gz tmp/Ultimarc-1.0.0a4.tar.gz --markdown 20230630/U/Ultimarc/1.0.0a3-1.0.0a4/diff.md --exclude *.pyd
+[2023-06-30 04:36:14] INFO root fetch - processPackages [odoo9-addon-account-multicurrency-revaluation]: executing diffoscope
+[2023-06-30 04:36:14] INFO root fetch - processPackages [odoo9-addon-account-multicurrency-revaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_account_multicurrency_revaluation-9.0.1.0.0.99.dev28-py2-none-any.whl.zip tmp/odoo9_addon_account_multicurrency_revaluation-9.0.1.0.0.99.dev29-py2-none-any.whl.zip --markdown 20230630/o/odoo9-addon-account-multicurrency-revaluation/9.0.1.0.0.99.dev28-9.0.1.0.0.99.dev29/diff.md --exclude *.pyd
+[2023-06-30 04:36:14] INFO root fetch - processPackages [atc-easy-desktop]: Downloading https://files.pythonhosted.org/packages/9c/97/f0f0add5af61c38cfcf5530cc88ad1107370283b9e56bab4f80d314c1881/atc_easy_desktop-1.0.2.tar.gz
+[2023-06-30 04:36:14] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: executing diffoscope
+[2023-06-30 04:36:14] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_start_end_dates-16.0.1.2.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_start_end_dates-16.0.1.2.0.4-py3-none-any.whl.zip --markdown 20230630/o/odoo-addon-account-invoice-start-end-dates/16.0.1.2.0.3-16.0.1.2.0.4/diff.md --exclude *.pyd
+[2023-06-30 04:36:14] INFO root fetch - processPackages [atc-easy-desktop]: executing diffoscope
+[2023-06-30 04:36:14] INFO root fetch - processPackages [atc-easy-desktop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atc_easy_desktop-1.0.1.tar.gz tmp/atc_easy_desktop-1.0.2.tar.gz --markdown 20230630/a/atc-easy-desktop/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-30 04:36:14] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/62/f6/6e5568fd3ca67542367431e7fbf10a8ad7a8f39c148e300b46edc36ec654/odoo_addon_account_financial_report-16.0.1.3.5.1-py3-none-any.whl
+[2023-06-30 04:36:14] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2023-06-30 04:36:14] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-16.0.1.3.5-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-16.0.1.3.5.1-py3-none-any.whl.zip --markdown 20230630/o/odoo-addon-account-financial-report/16.0.1.3.5-16.0.1.3.5.1/diff.md --exclude *.pyd
+[2023-06-30 04:36:15] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-30 04:36:15] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-30 04:36:15] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-30 04:36:15] INFO root fetch - processPackages [dibug]: Remove: archive file [/home/abi/fetcher/tmp/dibug-0.4.0.tar.gz]
+[2023-06-30 04:36:15] INFO root fetch - processPackages [dibug]: Remove: archive file [/home/abi/fetcher/tmp/dibug-0.5.0.tar.gz]
+[2023-06-30 04:36:15] INFO root fetch - main [MainThread]: End processing [dibug]: success
+[2023-06-30 04:36:16] INFO root fetch - processPackages [qcparse]: Remove: archive file [/home/abi/fetcher/tmp/qcparse-0.3.0.tar.gz]
+[2023-06-30 04:36:16] INFO root fetch - processPackages [qcparse]: Remove: archive file [/home/abi/fetcher/tmp/qcparse-0.3.1.tar.gz]
+[2023-06-30 04:36:16] INFO root fetch - main [MainThread]: End processing [qcparse]: success
+[2023-06-30 04:36:16] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_start_end_dates-16.0.1.2.0.3-py3-none-any.whl.zip]
+[2023-06-30 04:36:16] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_start_end_dates-16.0.1.2.0.4-py3-none-any.whl.zip]
+[2023-06-30 04:36:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-start-end-dates]: success
+[2023-06-30 04:36:16] INFO root fetch - processPackages [Ultimarc]: Remove: archive file [/home/abi/fetcher/tmp/Ultimarc-1.0.0a3.tar.gz]
+[2023-06-30 04:36:16] INFO root fetch - processPackages [Ultimarc]: Remove: archive file [/home/abi/fetcher/tmp/Ultimarc-1.0.0a4.tar.gz]
+[2023-06-30 04:36:16] INFO root fetch - main [MainThread]: End processing [Ultimarc]: success
+[2023-06-30 04:36:16] INFO root fetch - processPackages [atc-easy-desktop]: Remove: archive file [/home/abi/fetcher/tmp/atc_easy_desktop-1.0.1.tar.gz]
+[2023-06-30 04:36:16] INFO root fetch - processPackages [atc-easy-desktop]: Remove: archive file [/home/abi/fetcher/tmp/atc_easy_desktop-1.0.2.tar.gz]
+[2023-06-30 04:36:16] INFO root fetch - main [MainThread]: End processing [atc-easy-desktop]: success
+[2023-06-30 04:36:16] INFO root fetch - processPackages [odoo9-addon-account-multicurrency-revaluation]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_account_multicurrency_revaluation-9.0.1.0.0.99.dev28-py2-none-any.whl.zip]
+[2023-06-30 04:36:16] INFO root fetch - processPackages [odoo9-addon-account-multicurrency-revaluation]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_account_multicurrency_revaluation-9.0.1.0.0.99.dev29-py2-none-any.whl.zip]
+[2023-06-30 04:36:16] INFO root fetch - main [MainThread]: End processing [odoo9-addon-account-multicurrency-revaluation]: success
+[2023-06-30 04:36:16] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.3-py3-none-any.whl.zip]
+[2023-06-30 04:36:16] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.4-py3-none-any.whl.zip]
+[2023-06-30 04:36:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-base]: success
+[2023-06-30 04:36:17] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-16.0.1.3.5-py3-none-any.whl.zip]
+[2023-06-30 04:36:17] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-16.0.1.3.5.1-py3-none-any.whl.zip]
+[2023-06-30 04:36:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2023-06-30 04:36:17] INFO root fetch - processPackages [odoo9-addon-account-multicurrency-revaluation-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_account_multicurrency_revaluation_report-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-30 04:36:17] INFO root fetch - processPackages [odoo9-addon-account-multicurrency-revaluation-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_account_multicurrency_revaluation_report-9.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-30 04:36:17] INFO root fetch - main [MainThread]: End processing [odoo9-addon-account-multicurrency-revaluation-report]: success
+[2023-06-30 04:36:17] INFO root fetch - main [MainThread]: Store serial: [18705176]
