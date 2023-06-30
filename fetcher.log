@@ -18359,3 +18359,124 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 12:27:27] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc2.tar.gz]
 [2023-06-30 12:27:27] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
 [2023-06-30 12:27:27] INFO root fetch - main [MainThread]: Store serial: [18708767]
+[2023-06-30 12:32:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18708767]
+[2023-06-30 12:32:36] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-30 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funding-service-design-utils
+[2023-06-30 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: express-env
+[2023-06-30 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: angmom-suite
+[2023-06-30 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: 77mr
+[2023-06-30 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: web3py-ext
+[2023-06-30 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: instagpy
+[2023-06-30 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TEST-TC
+[2023-06-30 12:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mmcv-geo
+[2023-06-30 12:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: WebAppDIRAC
+[2023-06-30 12:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oc-confluence-ci-type-sync
+[2023-06-30 12:32:37] INFO root fetch - processPackages [express-env]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-30 12:32:37] INFO root fetch - processPackages [angmom-suite]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-30 12:32:37] INFO root fetch - processPackages [mmcv-geo]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-30 12:32:37] INFO root fetch - processPackages [TEST-TC]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 12:32:37] INFO root fetch - processPackages [funding-service-design-utils]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-06-30 12:32:37] WARNING root fetch - processPackages [web3py-ext]: Skipping, unable to determine old version
+[2023-06-30 12:32:37] INFO root fetch - processPackages [web3py-ext]: Start processing: tigerblog
+[2023-06-30 12:32:37] INFO root fetch - main [MainThread]: End processing [web3py-ext] error
+[2023-06-30 12:32:37] INFO root fetch - processPackages [oc-confluence-ci-type-sync]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-30 12:32:37] INFO root fetch - processPackages [instagpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 12:32:37] INFO root fetch - processPackages [77mr]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-30 12:32:37] INFO root fetch - processPackages [WebAppDIRAC]: New version: [5.1.0a7] Old Version: [5.1.0a6]
+[2023-06-30 12:32:37] INFO root fetch - processPackages [tigerblog]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 12:32:37] INFO root fetch - processPackages [mmcv-geo]: Downloading https://files.pythonhosted.org/packages/8a/15/c7c74cea68417e9712fcda5403a9e094ee9e42c250551c08187920296e48/mmcv_geo-0.1.1.tar.gz
+[2023-06-30 12:32:37] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/b6/1f/99d7e75f9b78c86b5f90c83a64054f3b34b5ed82c7a78bf51fd86095cdba/tigerblog-0.1.8.tar.gz
+[2023-06-30 12:32:37] INFO root fetch - processPackages [77mr]: Downloading https://files.pythonhosted.org/packages/6f/b6/d403c2aa5d8f6c3fa78dc159b31b2ad720846fd10a230bdd86120861494a/77mr-1.0.2.tar.gz
+[2023-06-30 12:32:37] INFO root fetch - processPackages [oc-confluence-ci-type-sync]: Downloading https://files.pythonhosted.org/packages/ee/23/820401f6021c96a8c8df2b81f394d078e2cf96f8e1cc65fb005e811f3c92/oc_confluence_ci_type_sync-1.0.1-py3-none-any.whl
+[2023-06-30 12:32:37] INFO root fetch - processPackages [express-env]: Downloading https://files.pythonhosted.org/packages/92/df/549aef981f304a4234676aa132bf6216e45f9e4632d069b6d105f3cc2082/express_env-0.0.1.tar.gz
+[2023-06-30 12:32:37] INFO root fetch - processPackages [WebAppDIRAC]: Downloading https://files.pythonhosted.org/packages/30/6d/6226e2e27d9236c1f87f236deb51fc0b6a3f4d58b8dd8ecbedf9fc7cfc09/WebAppDIRAC-5.1.0a6.tar.gz
+[2023-06-30 12:32:37] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/0c/61/698f9619ad7ae1dda4e582a74dae0e7910c95d6910e49af840cd217ca385/angmom_suite-1.8.2.tar.gz
+[2023-06-30 12:32:37] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/ad/11/780b220b9e1064e2cb6c40df96619ffcbffb3dd408b2f9b3144ddceecccc/funding-service-design-utils-2.0.7.tar.gz
+[2023-06-30 12:32:37] INFO root fetch - processPackages [instagpy]: Downloading https://files.pythonhosted.org/packages/35/58/c43b309d4c8b8440f09fcbc082a73a41e237fee683bf7fa166bf5db1a3ee/instagpy-0.1.8.tar.gz
+[2023-06-30 12:32:37] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/23/0f/6a0fec4b0cafdb4c1a9f42e93a456ba31cc0b1f03240d001db6df1ee282d/tigerblog-0.1.9.tar.gz
+[2023-06-30 12:32:37] INFO root fetch - processPackages [mmcv-geo]: Downloading https://files.pythonhosted.org/packages/ef/b8/31a2d8db98af4ab2c039e4250ae2a8e385aee76d7988404e63dbef6587e1/mmcv_geo-0.1.2.tar.gz
+[2023-06-30 12:32:37] INFO root fetch - processPackages [mmcv-geo]: executing diffoscope
+[2023-06-30 12:32:37] INFO root fetch - processPackages [mmcv-geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcv_geo-0.1.1.tar.gz tmp/mmcv_geo-0.1.2.tar.gz --markdown 20230630/m/mmcv-geo/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-30 12:32:37] INFO root fetch - processPackages [tigerblog]: executing diffoscope
+[2023-06-30 12:32:37] INFO root fetch - processPackages [tigerblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigerblog-0.1.8.tar.gz tmp/tigerblog-0.1.9.tar.gz --markdown 20230630/t/tigerblog/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 12:32:37] INFO root fetch - processPackages [77mr]: Downloading https://files.pythonhosted.org/packages/c8/21/743f730f9d8588760395e50c6298db09eeed102b731c2cfcc186602bcc8e/77mr-1.0.3.tar.gz
+[2023-06-30 12:32:37] INFO root fetch - processPackages [express-env]: Downloading https://files.pythonhosted.org/packages/7f/4a/4eabc64a2d4beb467d38258198464c2dfc9828b6c4cb145f2da0a751f13a/express_env-0.0.2.tar.gz
+[2023-06-30 12:32:37] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-06-30 12:32:37] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-0.1.8.tar.gz tmp/TEST_TC-0.1.9.tar.gz --markdown 20230630/T/TEST-TC/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 12:32:37] INFO root fetch - processPackages [oc-confluence-ci-type-sync]: Downloading https://files.pythonhosted.org/packages/d4/3b/1ea0cb7cb8f3e165afcd28826c2693da9ec6067b3256795b0411f4b625e0/oc_confluence_ci_type_sync-1.0.2-py3-none-any.whl
+[2023-06-30 12:32:37] INFO root fetch - processPackages [instagpy]: Downloading https://files.pythonhosted.org/packages/59/01/881db124ac0d2f46a202510337ad34a55070a53b5aaa01351f7ae4eb1225/instagpy-0.1.9.tar.gz
+[2023-06-30 12:32:37] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/fc/05/ebfd1361ff3bd9a9b0a15e036dfd215e147713cb058c15778765feded45b/funding-service-design-utils-2.0.8.tar.gz
+[2023-06-30 12:32:37] INFO root fetch - processPackages [77mr]: executing diffoscope
+[2023-06-30 12:32:37] INFO root fetch - processPackages [77mr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/77mr-1.0.2.tar.gz tmp/77mr-1.0.3.tar.gz --markdown 20230630/7/77mr/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-30 12:32:37] INFO root fetch - processPackages [express-env]: executing diffoscope
+[2023-06-30 12:32:37] INFO root fetch - processPackages [express-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/express_env-0.0.1.tar.gz tmp/express_env-0.0.2.tar.gz --markdown 20230630/e/express-env/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 12:32:37] INFO root fetch - processPackages [oc-confluence-ci-type-sync]: executing diffoscope
+[2023-06-30 12:32:37] INFO root fetch - processPackages [oc-confluence-ci-type-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_confluence_ci_type_sync-1.0.1-py3-none-any.whl.zip tmp/oc_confluence_ci_type_sync-1.0.2-py3-none-any.whl.zip --markdown 20230630/o/oc-confluence-ci-type-sync/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-30 12:32:37] INFO root fetch - processPackages [instagpy]: executing diffoscope
+[2023-06-30 12:32:37] INFO root fetch - processPackages [instagpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instagpy-0.1.8.tar.gz tmp/instagpy-0.1.9.tar.gz --markdown 20230630/i/instagpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 12:32:37] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/aa/f2/4b1999e91fe587a8c51098a142e94717915c29c1d2b7e5107e95bd5da4af/angmom_suite-1.9.0.tar.gz
+[2023-06-30 12:32:37] INFO root fetch - processPackages [funding-service-design-utils]: executing diffoscope
+[2023-06-30 12:32:37] INFO root fetch - processPackages [funding-service-design-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funding-service-design-utils-2.0.7.tar.gz tmp/funding-service-design-utils-2.0.8.tar.gz --markdown 20230630/f/funding-service-design-utils/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-06-30 12:32:37] INFO root fetch - processPackages [angmom-suite]: executing diffoscope
+[2023-06-30 12:32:37] INFO root fetch - processPackages [angmom-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angmom_suite-1.8.2.tar.gz tmp/angmom_suite-1.9.0.tar.gz --markdown 20230630/a/angmom-suite/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-30 12:32:37] INFO root fetch - processPackages [WebAppDIRAC]: Downloading https://files.pythonhosted.org/packages/7c/77/896a4b5aca841c729c3e823cf5516afdc974e0640752529817b95465c4d6/WebAppDIRAC-5.1.0a7.tar.gz
+[2023-06-30 12:32:38] INFO root fetch - processPackages [WebAppDIRAC]: executing diffoscope
+[2023-06-30 12:32:38] INFO root fetch - processPackages [WebAppDIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebAppDIRAC-5.1.0a6.tar.gz tmp/WebAppDIRAC-5.1.0a7.tar.gz --markdown 20230630/W/WebAppDIRAC/5.1.0a6-5.1.0a7/diff.md --exclude *.pyd
+[2023-06-30 12:32:38] INFO root fetch - processPackages [mmcv-geo]: Remove: archive file [/home/abi/fetcher/tmp/mmcv_geo-0.1.1.tar.gz]
+[2023-06-30 12:32:38] INFO root fetch - processPackages [mmcv-geo]: Remove: archive file [/home/abi/fetcher/tmp/mmcv_geo-0.1.2.tar.gz]
+[2023-06-30 12:32:38] INFO root fetch - processPackages [mmcv-geo]: Start processing: nucliadb-contributor-assets
+[2023-06-30 12:32:38] INFO root fetch - main [MainThread]: End processing [mmcv-geo]: success
+[2023-06-30 12:32:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post874] Old Version: [1.0.0.post870]
+[2023-06-30 12:32:38] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.8.tar.gz]
+[2023-06-30 12:32:38] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.9.tar.gz]
+[2023-06-30 12:32:38] INFO root fetch - processPackages [TEST-TC]: Start processing: mltrainer
+[2023-06-30 12:32:38] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-06-30 12:32:39] INFO root fetch - processPackages [mltrainer]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-30 12:32:39] INFO root fetch - processPackages [mltrainer]: Downloading https://files.pythonhosted.org/packages/bf/32/1bccb710abfa600c655839fdea62f26b150dca631f11bf2fa7a935ba9118/mltrainer-0.1.2.tar.gz
+[2023-06-30 12:32:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/19/d9/f54a6103cc8e110a4c0dcd48d2dbee8d9dc74d57fda7ce3716459e0febb7/nucliadb_contributor_assets-1.0.0.post870-py3-none-any.whl
+[2023-06-30 12:32:39] INFO root fetch - processPackages [mltrainer]: Downloading https://files.pythonhosted.org/packages/ce/0a/07034fbeb1fa2b35cdd5306b99c75305f7ec25491ab068c104db581d806b/mltrainer-0.1.3.tar.gz
+[2023-06-30 12:32:39] INFO root fetch - processPackages [77mr]: Remove: archive file [/home/abi/fetcher/tmp/77mr-1.0.2.tar.gz]
+[2023-06-30 12:32:39] INFO root fetch - processPackages [77mr]: Remove: archive file [/home/abi/fetcher/tmp/77mr-1.0.3.tar.gz]
+[2023-06-30 12:32:39] INFO root fetch - processPackages [77mr]: Start processing: itkdb-gtk
+[2023-06-30 12:32:39] INFO root fetch - main [MainThread]: End processing [77mr]: success
+[2023-06-30 12:32:39] INFO root fetch - processPackages [mltrainer]: executing diffoscope
+[2023-06-30 12:32:39] INFO root fetch - processPackages [mltrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltrainer-0.1.2.tar.gz tmp/mltrainer-0.1.3.tar.gz --markdown 20230630/m/mltrainer/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-30 12:32:39] INFO root fetch - processPackages [oc-confluence-ci-type-sync]: Remove: archive file [/home/abi/fetcher/tmp/oc_confluence_ci_type_sync-1.0.1-py3-none-any.whl.zip]
+[2023-06-30 12:32:39] INFO root fetch - processPackages [oc-confluence-ci-type-sync]: Remove: archive file [/home/abi/fetcher/tmp/oc_confluence_ci_type_sync-1.0.2-py3-none-any.whl.zip]
+[2023-06-30 12:32:39] INFO root fetch - main [MainThread]: End processing [oc-confluence-ci-type-sync]: success
+[2023-06-30 12:32:39] INFO root fetch - processPackages [express-env]: Remove: archive file [/home/abi/fetcher/tmp/express_env-0.0.1.tar.gz]
+[2023-06-30 12:32:39] INFO root fetch - processPackages [express-env]: Remove: archive file [/home/abi/fetcher/tmp/express_env-0.0.2.tar.gz]
+[2023-06-30 12:32:39] INFO root fetch - main [MainThread]: End processing [express-env]: success
+[2023-06-30 12:32:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/93/35/874e8d99948d428a98b54310a93c509f50df92b1f9e96b1bff897c86936e/nucliadb_contributor_assets-1.0.0.post874-py3-none-any.whl
+[2023-06-30 12:32:39] INFO root fetch - processPackages [itkdb-gtk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 12:32:39] INFO root fetch - processPackages [instagpy]: Remove: archive file [/home/abi/fetcher/tmp/instagpy-0.1.8.tar.gz]
+[2023-06-30 12:32:39] INFO root fetch - processPackages [instagpy]: Remove: archive file [/home/abi/fetcher/tmp/instagpy-0.1.9.tar.gz]
+[2023-06-30 12:32:39] INFO root fetch - main [MainThread]: End processing [instagpy]: success
+[2023-06-30 12:32:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-30 12:32:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post870-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post874-py3-none-any.whl.zip --markdown 20230630/n/nucliadb-contributor-assets/1.0.0.post870-1.0.0.post874/diff.md --exclude *.pyd
+[2023-06-30 12:32:39] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/17/03/0dbd6e2369231fd2f08df4e1af7bdb6929400aae232b863b88950648a366/itkdb_gtk-0.0.8.tar.gz
+[2023-06-30 12:32:39] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.8.2.tar.gz]
+[2023-06-30 12:32:39] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.9.0.tar.gz]
+[2023-06-30 12:32:39] INFO root fetch - main [MainThread]: End processing [angmom-suite]: success
+[2023-06-30 12:32:40] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/7a/30/d0b186b3efe21bfd0547bf98065ec44276dff81d4635fba9babb043643f3/itkdb_gtk-0.0.9.tar.gz
+[2023-06-30 12:32:40] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.7.tar.gz]
+[2023-06-30 12:32:40] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.8.tar.gz]
+[2023-06-30 12:32:40] INFO root fetch - main [MainThread]: End processing [funding-service-design-utils]: success
+[2023-06-30 12:32:40] INFO root fetch - processPackages [itkdb-gtk]: executing diffoscope
+[2023-06-30 12:32:40] INFO root fetch - processPackages [itkdb-gtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb_gtk-0.0.8.tar.gz tmp/itkdb_gtk-0.0.9.tar.gz --markdown 20230630/i/itkdb-gtk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 12:32:40] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.8.tar.gz]
+[2023-06-30 12:32:40] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.9.tar.gz]
+[2023-06-30 12:32:40] INFO root fetch - main [MainThread]: End processing [tigerblog]: success
+[2023-06-30 12:32:40] INFO root fetch - processPackages [mltrainer]: Remove: archive file [/home/abi/fetcher/tmp/mltrainer-0.1.2.tar.gz]
+[2023-06-30 12:32:40] INFO root fetch - processPackages [mltrainer]: Remove: archive file [/home/abi/fetcher/tmp/mltrainer-0.1.3.tar.gz]
+[2023-06-30 12:32:40] INFO root fetch - main [MainThread]: End processing [mltrainer]: success
+[2023-06-30 12:32:41] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.0.8.tar.gz]
+[2023-06-30 12:32:41] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.0.9.tar.gz]
+[2023-06-30 12:32:41] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
+[2023-06-30 12:32:45] INFO root fetch - processPackages [WebAppDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/WebAppDIRAC-5.1.0a6.tar.gz]
+[2023-06-30 12:32:45] INFO root fetch - processPackages [WebAppDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/WebAppDIRAC-5.1.0a7.tar.gz]
+[2023-06-30 12:32:45] INFO root fetch - main [MainThread]: End processing [WebAppDIRAC]: success
+[2023-06-30 12:32:54] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post870-py3-none-any.whl.zip]
+[2023-06-30 12:32:54] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post874-py3-none-any.whl.zip]
+[2023-06-30 12:32:54] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-30 12:32:54] INFO root fetch - main [MainThread]: Store serial: [18708807]

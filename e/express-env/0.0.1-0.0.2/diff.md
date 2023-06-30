@@ -1,0 +1,157 @@
+# Comparing `tmp/express_env-0.0.1.tar.gz` & `tmp/express_env-0.0.2.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "express_env-0.0.1.tar", max compression
++gzip compressed data, was "express_env-0.0.2.tar", max compression
+```
+
+## Comparing `express_env-0.0.1.tar` & `express_env-0.0.2.tar`
+
+### file list
+
+```diff
+@@ -1,7 +1,19 @@
+--rw-r--r--   0        0        0     1505 2023-06-26 16:58:04.705402 express_env-0.0.1/LICENSE
+--rw-r--r--   0        0        0      526 2023-06-26 16:58:04.705402 express_env-0.0.1/README.md
+--rw-r--r--   0        0        0        0 2023-06-26 16:58:04.705402 express_env-0.0.1/express_env/__init__.py
+--rw-r--r--   0        0        0      259 2023-06-26 16:58:04.705402 express_env-0.0.1/express_env/cli.py
+--rw-r--r--   0        0        0        0 2023-06-26 16:58:04.705402 express_env-0.0.1/express_env/py.typed
+--rw-r--r--   0        0        0     1181 2023-06-26 16:58:24.809228 express_env-0.0.1/pyproject.toml
+--rw-r--r--   0        0        0     1066 1970-01-01 00:00:00.000000 express_env-0.0.1/PKG-INFO
++-rw-r--r--   0        0        0     1505 2023-06-30 10:27:51.878341 express_env-0.0.2/LICENSE
++-rw-r--r--   0        0        0      982 2023-06-30 10:27:51.878341 express_env-0.0.2/README.md
++-rw-r--r--   0        0        0        0 2023-06-30 10:27:51.882341 express_env-0.0.2/express_env/__init__.py
++-rw-r--r--   0        0        0      686 2023-06-30 10:27:51.882341 express_env-0.0.2/express_env/ast.py
++-rw-r--r--   0        0        0     1241 2023-06-30 10:27:51.882341 express_env-0.0.2/express_env/cli.py
++-rw-r--r--   0        0        0        0 2023-06-30 10:27:51.882341 express_env-0.0.2/express_env/commands/__init__.py
++-rw-r--r--   0        0        0     2181 2023-06-30 10:27:51.882341 express_env-0.0.2/express_env/commands/generate.py
++-rw-r--r--   0        0        0     1347 2023-06-30 10:27:51.882341 express_env-0.0.2/express_env/config.py
++-rw-r--r--   0        0        0      426 2023-06-30 10:27:51.882341 express_env-0.0.2/express_env/plugins/__init__.py
++-rw-r--r--   0        0        0     1024 2023-06-30 10:27:51.882341 express_env-0.0.2/express_env/plugins/base.py
++-rw-r--r--   0        0        0     1361 2023-06-30 10:27:51.882341 express_env-0.0.2/express_env/plugins/const.py
++-rw-r--r--   0        0        0     1377 2023-06-30 10:27:51.882341 express_env-0.0.2/express_env/plugins/one_password.py
++-rw-r--r--   0        0        0      873 2023-06-30 10:27:51.882341 express_env-0.0.2/express_env/plugins/vault.py
++-rw-r--r--   0        0        0        0 2023-06-30 10:27:51.882341 express_env-0.0.2/express_env/py.typed
++-rw-r--r--   0        0        0      363 2023-06-30 10:27:51.882341 express_env-0.0.2/express_env/render.py
++-rw-r--r--   0        0        0       63 2023-06-30 10:27:51.882341 express_env-0.0.2/express_env/terminal.py
++-rw-r--r--   0        0        0      101 2023-06-30 10:27:51.882341 express_env-0.0.2/express_env/types.py
++-rw-r--r--   0        0        0     1213 2023-06-30 10:28:15.906269 express_env-0.0.2/pyproject.toml
++-rw-r--r--   0        0        0     1557 1970-01-01 00:00:00.000000 express_env-0.0.2/PKG-INFO
+```
+
+### Comparing `express_env-0.0.1/LICENSE` & `express_env-0.0.2/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `express_env-0.0.1/README.md` & `express_env-0.0.2/README.md`
+
+ * *Files 26% similar despite different names*
+
+```diff
+@@ -1,30 +1,51 @@
+-# Express env, .env generator
++# Express-env, .env generator
+ 
+ Express env configuration is safe to be committed to the repository,
+ as it does not contain any secrets, but contain information where secrets are stored.
+ All secret values are collected from third party services like `vault`,
+ `1Password`, etc.
+ 
+-```
+-Example usage:
+-    ee --config-file .ee/default.yaml generate .env
+-    # or
+-    source $(ee generate -)
+-```
++## Usage
+ 
++1. Create confing file: `.ee/default.yml` with the following content:
++```yaml
++# .ee/default.yml
++env:
++  CONST_VARIABLE: value
++  CONST_VARIABLE_LONG_FORMAT:
++    type: const
++    value: value
++  VARIABLE_FROM_VAULT:
++    type: vault
++    path: secret/path
++    field: value
++```
++
++2a. Run `express-env` to generate `.env` file:
++```bash
++ee generate > .env
++```
++
++2b (or) Run `express-env` to set environment variables:
++```bash
++eval "$(ee generate --format bash)"
++```
+ 
+ ## Installation
+ 
+ Using pipx:
+-```
+-pipx isntall express-env
++```bash
++pipx install express-env
+ ```
+ 
+ Using pip:
+-```
++```bash
+ pip install express-env
+ ```
+ 
+ From source:
++```bash
++git clone https://github.com/dswistowski/express-env ~/.express-env
++cd ~/.express-env
++pip install .
+ ```
+-git clone
+```
+
+### Comparing `express_env-0.0.1/pyproject.toml` & `express_env-0.0.2/pyproject.toml`
+
+ * *Files 3% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [tool.poetry]
+ name = "express-env"
+-version = "0.0.1"  # autogenerated
++version = "0.0.2"  # autogenerated
+ description = "Safe and easy environment variables management"
+ authors = ["Damian Świstowski <damian@swistowski.org>"]
+ readme = "README.md"
+ license = "MIT"
+ packages = [{include = "express_env"}]
+ include = ["express_env/py.typed"]
+ classifiers = [
+@@ -14,17 +14,19 @@
+     "Natural Language :: English",
+     "Programming Language :: Python :: 3",
+     "Programming Language :: Python :: 3.11",
+ ]
+ 
+ [tool.poetry.dependencies]
+ python = ">=3.11,<4.0"
++pyyaml = "^6.0"
+ 
+ 
+ [tool.poetry.group.dev.dependencies]
++mypy = "^1.4.1"
+ ruff = "^0.0.275"
+ pre-commit = "^3.3.3"
+ black = "^23.3.0"
+ pytest = "^7.4.0"
+ 
+ [build-system]
+ requires = ["poetry-core"]
+```
+
