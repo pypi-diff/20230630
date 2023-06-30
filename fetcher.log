@@ -22522,3 +22522,165 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 14:49:17] INFO root fetch - processPackages [aliyun-python-sdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-vpc-3.0.9.tar.gz]
 [2023-06-30 14:49:17] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-vpc]: success
 [2023-06-30 14:49:17] INFO root fetch - main [MainThread]: Store serial: [18710929]
+[2023-06-30 14:54:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18710929]
+[2023-06-30 14:54:27] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-30 14:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-identity-sdk
+[2023-06-30 14:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: goc
+[2023-06-30 14:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wtfutil
+[2023-06-30 14:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: climy
+[2023-06-30 14:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xtor
+[2023-06-30 14:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funfluid
+[2023-06-30 14:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oking
+[2023-06-30 14:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: armonik
+[2023-06-30 14:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zpretty
+[2023-06-30 14:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: homeassistant-stubs
+[2023-06-30 14:54:27] INFO root fetch - processPackages [funfluid]: New version: [202306302052] Old Version: [202306302050]
+[2023-06-30 14:54:27] INFO root fetch - processPackages [xtor]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-30 14:54:27] INFO root fetch - processPackages [wtfutil]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 14:54:27] INFO root fetch - processPackages [goc]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-30 14:54:27] INFO root fetch - processPackages [zpretty]: New version: [3.1.0a2] Old Version: [3.1.0a1]
+[2023-06-30 14:54:27] INFO root fetch - processPackages [climy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 14:54:27] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2469]
+[2023-06-30 14:54:27] INFO root fetch - processPackages [armonik]: New version: [3.9.1.dev607] Old Version: [3.9.1.dev604]
+[2023-06-30 14:54:27] INFO root fetch - processPackages [oking]: New version: [4.1.179] Old Version: [4.1.178]
+[2023-06-30 14:54:27] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.7.0b2] Old Version: [2023.7.0b1]
+[2023-06-30 14:54:27] INFO root fetch - processPackages [xtor]: Downloading https://files.pythonhosted.org/packages/2a/2c/2570863641e2adbcccc7a81ed0eafbabb5ed79ccd34e9f3099f0699ffe82/xtor-0.2.2.tar.gz
+[2023-06-30 14:54:27] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/17/83/2ff2b33016450687a7f6b67bf6e9e40832c2e28a07baea1e2d7138115311/armonik-3.9.1.dev604.tar.gz
+[2023-06-30 14:54:27] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/b9/56/d76ba3be3e95ef151675cabf261094f38e8a7ee7a92291fd0f5f753ddc8d/homeassistant_stubs-2023.7.0b1.tar.gz
+[2023-06-30 14:54:27] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/41/11/8e2ba3a9e6889b53056d9f2d58654f9c87aa006afbf0743ea1fbcceabe67/funfluid-202306302050.tar.gz
+[2023-06-30 14:54:27] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/4d/9f/a4fd450716d227114199257664eee7acfd0b583ad48db8eab2befdfb3cbf/finbourne-identity-sdk-0.0.2469.tar.gz
+[2023-06-30 14:54:27] INFO root fetch - processPackages [wtfutil]: Downloading https://files.pythonhosted.org/packages/c8/7c/e552245f3f74a3b0ce79478c264c39b0b8f680465bf475f5858e0069fcfc/wtfutil-1.0.8-py2.py3-none-any.whl
+[2023-06-30 14:54:27] INFO root fetch - processPackages [climy]: Downloading https://files.pythonhosted.org/packages/6d/cc/6c46cd6a228002f6888f953b772534306dde4e967426421dc047b4a67144/climy-0.1.0.tar.gz
+[2023-06-30 14:54:27] INFO root fetch - processPackages [goc]: Downloading https://files.pythonhosted.org/packages/6a/04/48fad26e8b0279b864c2aa556b28e8de9fe0eab6f7b38130a77f005bdb20/goc-0.3.0.tar.gz
+[2023-06-30 14:54:27] INFO root fetch - processPackages [zpretty]: Downloading https://files.pythonhosted.org/packages/c4/b8/269fe93675ef47edb16aeb31cd78e8ed038498b0a5d3d3374cfea80e405e/zpretty-3.1.0a1.tar.gz
+[2023-06-30 14:54:27] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/59/9a/0394aca50e3cd3aabbb1552f29d90ee2b9357bceb6af03c41f7e1b144a23/oking-4.1.178.tar.gz
+[2023-06-30 14:54:27] INFO root fetch - processPackages [xtor]: Downloading https://files.pythonhosted.org/packages/0f/90/2fbeefaabd599384807f8872bfc9cd251a732fb94d65428ec465344ceaf7/xtor-0.3.0.tar.gz
+[2023-06-30 14:54:27] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/82/bf/a4b1cf9a42ab39c602f71a305d3ede290a92c0cc62177aa0084f73a0424c/funfluid-202306302052.tar.gz
+[2023-06-30 14:54:27] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82500984>=10485760
+[2023-06-30 14:54:27] INFO root fetch - processPackages [oking]: Start processing: funfluid
+[2023-06-30 14:54:27] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-06-30 14:54:27] INFO root fetch - processPackages [funfluid]: New version: [202306302052] Old Version: [202306302050]
+[2023-06-30 14:54:27] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/60/02/556fee55b1aaf556ab945658f46e9f25aae842d2790fb15aa1ad81b2ba2a/finbourne-identity-sdk-0.0.840.tar.gz
+[2023-06-30 14:54:27] INFO root fetch - processPackages [xtor]: executing diffoscope
+[2023-06-30 14:54:27] INFO root fetch - processPackages [xtor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtor-0.2.2.tar.gz tmp/xtor-0.3.0.tar.gz --markdown 20230630/x/xtor/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-30 14:54:27] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-06-30 14:54:27] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202306302050.tar.gz tmp/funfluid-202306302052.tar.gz --markdown 20230630/f/funfluid/202306302050-202306302052/diff.md --exclude *.pyd
+[2023-06-30 14:54:27] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/53/6b/1895dc158cb47a814351a6812b0efcc04635f8ec3601a8637909598b4722/homeassistant_stubs-2023.7.0b2.tar.gz
+[2023-06-30 14:54:27] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/ba/1a/2a0142c7732484a2ccb0b10686ed0a10365793fbfb189b902fd37f4c11d6/armonik-3.9.1.dev607.tar.gz
+[2023-06-30 14:54:27] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-06-30 14:54:27] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202306302050.tar.gz tmp/funfluid-202306302052.tar.gz --markdown 20230630/f/funfluid/202306302050-202306302052/diff.md --exclude *.pyd
+[2023-06-30 14:54:27] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-06-30 14:54:27] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2469.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230630/f/finbourne-identity-sdk/0.0.2469-0.0.840/diff.md --exclude *.pyd
+[2023-06-30 14:54:27] INFO root fetch - processPackages [goc]: Downloading https://files.pythonhosted.org/packages/79/ce/53ac2b67da985e2340bc35a839fd80591a9757c8a9143379aba35e0fc837/goc-0.4.0.tar.gz
+[2023-06-30 14:54:27] INFO root fetch - processPackages [climy]: Downloading https://files.pythonhosted.org/packages/4c/93/99d82cb42019ed3d1cf277e3ad2ed14cf19a289fcfb80e0bda068be69bc4/climy-0.1.1.tar.gz
+[2023-06-30 14:54:27] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-06-30 14:54:27] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.7.0b1.tar.gz tmp/homeassistant_stubs-2023.7.0b2.tar.gz --markdown 20230630/h/homeassistant-stubs/2023.7.0b1-2023.7.0b2/diff.md --exclude *.pyd
+[2023-06-30 14:54:27] INFO root fetch - processPackages [goc]: executing diffoscope
+[2023-06-30 14:54:27] INFO root fetch - processPackages [goc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goc-0.3.0.tar.gz tmp/goc-0.4.0.tar.gz --markdown 20230630/g/goc/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-30 14:54:27] INFO root fetch - processPackages [wtfutil]: Downloading https://files.pythonhosted.org/packages/7c/17/9753ffecedc6f31909b872005fdc062bfb889f54193d4a2cb1463cabc305/wtfutil-1.0.9-py2.py3-none-any.whl
+[2023-06-30 14:54:27] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-06-30 14:54:27] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.1.dev604.tar.gz tmp/armonik-3.9.1.dev607.tar.gz --markdown 20230630/a/armonik/3.9.1.dev604-3.9.1.dev607/diff.md --exclude *.pyd
+[2023-06-30 14:54:27] INFO root fetch - processPackages [climy]: executing diffoscope
+[2023-06-30 14:54:27] INFO root fetch - processPackages [climy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climy-0.1.0.tar.gz tmp/climy-0.1.1.tar.gz --markdown 20230630/c/climy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 14:54:27] INFO root fetch - processPackages [zpretty]: Downloading https://files.pythonhosted.org/packages/9c/63/dee9a96009536c7f57297b6095319d71ed6cad98ec8444edf0d684457cf0/zpretty-3.1.0a2.tar.gz
+[2023-06-30 14:54:28] INFO root fetch - processPackages [wtfutil]: executing diffoscope
+[2023-06-30 14:54:28] INFO root fetch - processPackages [wtfutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtfutil-1.0.8-py2.py3-none-any.whl.zip tmp/wtfutil-1.0.9-py2.py3-none-any.whl.zip --markdown 20230630/w/wtfutil/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 14:54:28] INFO root fetch - processPackages [zpretty]: executing diffoscope
+[2023-06-30 14:54:28] INFO root fetch - processPackages [zpretty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zpretty-3.1.0a1.tar.gz tmp/zpretty-3.1.0a2.tar.gz --markdown 20230630/z/zpretty/3.1.0a1-3.1.0a2/diff.md --exclude *.pyd
+[2023-06-30 14:54:28] INFO root fetch - processPackages [xtor]: Remove: archive file [/home/abi/fetcher/tmp/xtor-0.2.2.tar.gz]
+[2023-06-30 14:54:28] INFO root fetch - processPackages [xtor]: Remove: archive file [/home/abi/fetcher/tmp/xtor-0.3.0.tar.gz]
+[2023-06-30 14:54:28] INFO root fetch - processPackages [xtor]: Start processing: season
+[2023-06-30 14:54:28] INFO root fetch - main [MainThread]: End processing [xtor]: success
+[2023-06-30 14:54:28] INFO root fetch - processPackages [season]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-30 14:54:29] INFO root fetch - processPackages [season]: Downloading https://files.pythonhosted.org/packages/ff/c0/ceae42c9248e6c2b60f56d2ed27e9685c62c5b4083307ef441a62f14251b/season-2.3.8-py3-none-any.whl
+[2023-06-30 14:54:29] WARNING root fetch - processPackages [season]: Skipping package: exceeds size limit 13772906>=10485760
+[2023-06-30 14:54:29] INFO root fetch - processPackages [season]: Start processing: odd-collector-sdk
+[2023-06-30 14:54:29] INFO root fetch - main [MainThread]: End processing [season] error
+[2023-06-30 14:54:29] INFO root fetch - processPackages [odd-collector-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-30 14:54:29] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/cf/ba/ce865f52258c39c0b1d62ee3998decaf12b77f41fc74cc29f739aef2418a/odd-collector-sdk-0.3.8.tar.gz
+[2023-06-30 14:54:29] INFO root fetch - processPackages [climy]: Remove: archive file [/home/abi/fetcher/tmp/climy-0.1.0.tar.gz]
+[2023-06-30 14:54:29] INFO root fetch - processPackages [climy]: Remove: archive file [/home/abi/fetcher/tmp/climy-0.1.1.tar.gz]
+[2023-06-30 14:54:29] INFO root fetch - processPackages [climy]: Start processing: pigar
+[2023-06-30 14:54:29] INFO root fetch - main [MainThread]: End processing [climy]: success
+[2023-06-30 14:54:29] INFO root fetch - processPackages [pigar]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-30 14:54:29] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202306302050.tar.gz]
+[2023-06-30 14:54:29] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202306302052.tar.gz]
+[2023-06-30 14:54:29] INFO root fetch - processPackages [funfluid]: Start processing: netbox-cisco-support-plugin
+[2023-06-30 14:54:29] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-06-30 14:54:29] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 14:54:29] INFO root fetch - processPackages [goc]: Remove: archive file [/home/abi/fetcher/tmp/goc-0.3.0.tar.gz]
+[2023-06-30 14:54:29] INFO root fetch - processPackages [goc]: Remove: archive file [/home/abi/fetcher/tmp/goc-0.4.0.tar.gz]
+[2023-06-30 14:54:29] INFO root fetch - processPackages [goc]: Start processing: bigdl-orca-spark2
+[2023-06-30 14:54:29] INFO root fetch - main [MainThread]: End processing [goc]: success
+[2023-06-30 14:54:29] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230630] Old Version: [2.4.0b20230629]
+[2023-06-30 14:54:29] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-30 14:54:29] INFO root fetch - processPackages [pigar]: Downloading https://files.pythonhosted.org/packages/57/fc/aee160c2a85255d55da1ff31dec2689bea3082973eb14631b3101a833398/pigar-2.1.0.tar.gz
+[2023-06-30 14:54:29] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/b7/09/a072e072a86ba00164c8e4095f66211981ce5e1276abb17076ff23854b5d/odd_collector_sdk-0.3.9.tar.gz
+[2023-06-30 14:54:29] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-30 14:54:29] INFO root fetch - processPackages [wtfutil]: Remove: archive file [/home/abi/fetcher/tmp/wtfutil-1.0.8-py2.py3-none-any.whl.zip]
+[2023-06-30 14:54:29] INFO root fetch - processPackages [wtfutil]: Remove: archive file [/home/abi/fetcher/tmp/wtfutil-1.0.9-py2.py3-none-any.whl.zip]
+[2023-06-30 14:54:29] INFO root fetch - processPackages [wtfutil]: Start processing: csv-detective
+[2023-06-30 14:54:29] INFO root fetch - main [MainThread]: End processing [wtfutil]: success
+[2023-06-30 14:54:29] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-30 14:54:29] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230630/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 14:54:29] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/f6/44/5237e62a209d776bcef0e3af83f0a0dbaf6ae52e7ad35811a247c59a660f/bigdl_orca_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-30 14:54:29] INFO root fetch - processPackages [csv-detective]: New version: [0.6.4.dev390] Old Version: [0.6.4.dev367]
+[2023-06-30 14:54:29] WARNING root fetch - processPackages [pigar]: Skipping package: exceeds size limit 23107972>=10485760
+[2023-06-30 14:54:29] INFO root fetch - processPackages [pigar]: Start processing: mllibs
+[2023-06-30 14:54:29] INFO root fetch - main [MainThread]: End processing [pigar] error
+[2023-06-30 14:54:29] INFO root fetch - processPackages [funfluid]: Start processing: bigdl-friesian-spark2
+[2023-06-30 14:54:29] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-06-30 14:54:29] INFO root fetch - processPackages [odd-collector-sdk]: executing diffoscope
+[2023-06-30 14:54:29] INFO root fetch - processPackages [odd-collector-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd-collector-sdk-0.3.8.tar.gz tmp/odd_collector_sdk-0.3.9.tar.gz --markdown 20230630/o/odd-collector-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-30 14:54:29] INFO root fetch - processPackages [mllibs]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-30 14:54:29] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230630] Old Version: [2.4.0b20230629]
+[2023-06-30 14:54:29] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369656>=10485760
+[2023-06-30 14:54:29] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: bigdl-chronos-spark2
+[2023-06-30 14:54:29] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-06-30 14:54:30] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230626]
+[2023-06-30 14:54:30] INFO root fetch - processPackages [csv-detective]: Downloading https://files.pythonhosted.org/packages/72/db/6316336f5d3a1625977c80e28bdbe280ccdecc458920496bda4d7afde14c/csv_detective-0.6.4.dev367-py3-none-any.whl
+[2023-06-30 14:54:30] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.1.dev604.tar.gz]
+[2023-06-30 14:54:30] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.1.dev607.tar.gz]
+[2023-06-30 14:54:30] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-06-30 14:54:30] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/ff/34/45635b768539f346d3225abed8177b6659a76b92ef9ce111d3bf48529174/bigdl_friesian_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-30 14:54:30] INFO root fetch - processPackages [zpretty]: Remove: archive file [/home/abi/fetcher/tmp/zpretty-3.1.0a1.tar.gz]
+[2023-06-30 14:54:30] INFO root fetch - processPackages [zpretty]: Remove: archive file [/home/abi/fetcher/tmp/zpretty-3.1.0a2.tar.gz]
+[2023-06-30 14:54:30] INFO root fetch - main [MainThread]: End processing [zpretty]: success
+[2023-06-30 14:54:30] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/26/2e/1941990d8f3d658fdc52832331d295e698a6ec0aa1098d7069dfedddfb82/bigdl_chronos_spark2-2.4.0b20230626-py3-none-manylinux1_x86_64.whl
+[2023-06-30 14:54:30] INFO root fetch - processPackages [mllibs]: Downloading https://files.pythonhosted.org/packages/37/3c/cf08abf359281d3aee49f4fab9c77daf402dbd26fe4e07a23e435b5b8db3/mllibs-0.1.5-py3-none-any.whl
+[2023-06-30 14:54:30] INFO root fetch - processPackages [mllibs]: executing diffoscope
+[2023-06-30 14:54:30] INFO root fetch - processPackages [mllibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mllibs-0.1.4-py3-none-any.whl.zip tmp/mllibs-0.1.5-py3-none-any.whl.zip --markdown 20230630/m/mllibs/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-30 14:54:30] INFO root fetch - processPackages [csv-detective]: Downloading https://files.pythonhosted.org/packages/05/b8/23de739d505eb26ca7ac84a574cdcedc4b7a4db9a5172484e4259fe5cfaa/csv_detective-0.6.4.dev390-py3-none-any.whl
+[2023-06-30 14:54:30] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/9e/74/c79d6c86e7d6035b922b2c6bbbaf05d53db00dc96b233a04f8ac228c5aaf/bigdl_friesian_spark2-2.4.0b20230630-py3-none-manylinux1_x86_64.whl
+[2023-06-30 14:54:30] INFO root fetch - processPackages [csv-detective]: executing diffoscope
+[2023-06-30 14:54:30] INFO root fetch - processPackages [csv-detective]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_detective-0.6.4.dev367-py3-none-any.whl.zip tmp/csv_detective-0.6.4.dev390-py3-none-any.whl.zip --markdown 20230630/c/csv-detective/0.6.4.dev367-0.6.4.dev390/diff.md --exclude *.pyd
+[2023-06-30 14:54:30] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/16/72/439616681cf247caf5f82efb157f7c39c6f0400ed04965fcfb24573d9ec0/bigdl_chronos_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-30 14:54:30] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-06-30 14:54:30] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip --markdown 20230630/b/bigdl-friesian-spark2/2.4.0b20230629-2.4.0b20230630/diff.md --exclude *.pyd
+[2023-06-30 14:54:30] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-06-30 14:54:30] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip --markdown 20230630/b/bigdl-chronos-spark2/2.4.0b20230626-2.4.0b20230629/diff.md --exclude *.pyd
+[2023-06-30 14:54:31] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-30 14:54:31] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-30 14:54:31] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-30 14:54:31] INFO root fetch - processPackages [mllibs]: Remove: archive file [/home/abi/fetcher/tmp/mllibs-0.1.4-py3-none-any.whl.zip]
+[2023-06-30 14:54:31] INFO root fetch - processPackages [mllibs]: Remove: archive file [/home/abi/fetcher/tmp/mllibs-0.1.5-py3-none-any.whl.zip]
+[2023-06-30 14:54:31] INFO root fetch - main [MainThread]: End processing [mllibs]: success
+[2023-06-30 14:54:31] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd-collector-sdk-0.3.8.tar.gz]
+[2023-06-30 14:54:31] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd_collector_sdk-0.3.9.tar.gz]
+[2023-06-30 14:54:31] INFO root fetch - main [MainThread]: End processing [odd-collector-sdk]: success
+[2023-06-30 14:54:31] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.2469.tar.gz]
+[2023-06-30 14:54:31] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.840.tar.gz]
+[2023-06-30 14:54:31] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-06-30 14:54:32] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-30 14:54:32] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-30 14:54:32] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-06-30 14:54:32] INFO root fetch - processPackages [csv-detective]: Remove: archive file [/home/abi/fetcher/tmp/csv_detective-0.6.4.dev367-py3-none-any.whl.zip]
+[2023-06-30 14:54:32] INFO root fetch - processPackages [csv-detective]: Remove: archive file [/home/abi/fetcher/tmp/csv_detective-0.6.4.dev390-py3-none-any.whl.zip]
+[2023-06-30 14:54:32] INFO root fetch - main [MainThread]: End processing [csv-detective]: success
+[2023-06-30 14:54:33] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-30 14:54:33] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-30 14:54:33] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-06-30 14:55:20] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b1.tar.gz]
+[2023-06-30 14:55:20] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b2.tar.gz]
+[2023-06-30 14:55:20] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-06-30 14:55:20] INFO root fetch - main [MainThread]: Store serial: [18710986]
