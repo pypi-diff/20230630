@@ -13381,3 +13381,90 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 08:46:44] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio-separator-0.1.2.tar.gz]
 [2023-06-30 08:46:44] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
 [2023-06-30 08:46:44] INFO root fetch - main [MainThread]: Store serial: [18706674]
+[2023-06-30 08:51:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706674]
+[2023-06-30 08:51:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-30 08:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyess
+[2023-06-30 08:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spidex-python-sdk
+[2023-06-30 08:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sj-tool
+[2023-06-30 08:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-grpc-sim
+[2023-06-30 08:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-stock-inventory-line-open
+[2023-06-30 08:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addons-oca-stock-logistics-warehouse
+[2023-06-30 08:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CartiMorph-nnUNet
+[2023-06-30 08:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SecureMessaging
+[2023-06-30 08:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: molgenis-emx2-pyclient
+[2023-06-30 08:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cg-hermes
+[2023-06-30 08:51:53] INFO root fetch - processPackages [th2-grpc-sim]: New version: [5.0.0.dev5420121459] Old Version: [5.0.0.dev5387674261]
+[2023-06-30 08:51:53] INFO root fetch - processPackages [odoo14-addon-stock-inventory-line-open]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev4]
+[2023-06-30 08:51:53] WARNING root fetch - processPackages [spidex-python-sdk]: Skipping, unable to determine old version
+[2023-06-30 08:51:53] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 08:51:53] INFO root fetch - processPackages [SecureMessaging]: New version: [3.8.8] Old Version: [3.8.7]
+[2023-06-30 08:51:53] INFO root fetch - main [MainThread]: End processing [spidex-python-sdk] error
+[2023-06-30 08:51:53] INFO root fetch - processPackages [CartiMorph-nnUNet]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-30 08:51:53] INFO root fetch - processPackages [pyess]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 08:51:53] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.200.0] Old Version: [8.199.8]
+[2023-06-30 08:51:53] INFO root fetch - processPackages [cg-hermes]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-30 08:51:53] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: New version: [14.0.20230629.0] Old Version: [14.0.20230529.0]
+[2023-06-30 08:51:53] INFO root fetch - processPackages [pyess]: Downloading https://files.pythonhosted.org/packages/54/27/1cac6cbcdff3132de1bb72abeb797075411b68bc9a2caa220db933a89b76/pyess-0.1.8.tar.gz
+[2023-06-30 08:51:53] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/68/85/cd8f37c7902faa450c384198f572e807118cf2a478cde168ec389aad0c29/molgenis_emx2_pyclient-8.199.8.tar.gz
+[2023-06-30 08:51:53] INFO root fetch - processPackages [th2-grpc-sim]: Downloading https://files.pythonhosted.org/packages/27/95/871813c5827b809cdb709b2467d734e9d8f43b8ae63749fa9878fbed073c/th2_grpc_sim-5.0.0.dev5387674261.tar.gz
+[2023-06-30 08:51:53] INFO root fetch - processPackages [SecureMessaging]: Downloading https://files.pythonhosted.org/packages/13/b9/6d100732c33f7a003e0e16bbf78d4d757f8f9aa525618cdbf9c5692e4c81/SecureMessaging-3.8.7.tar.gz
+[2023-06-30 08:51:53] INFO root fetch - processPackages [odoo14-addon-stock-inventory-line-open]: Downloading https://files.pythonhosted.org/packages/41/79/18eee653e8bf04b6ed8b3049be59213b2c47f9fe5d21093bb7910b280256/odoo14_addon_stock_inventory_line_open-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-06-30 08:51:53] INFO root fetch - processPackages [CartiMorph-nnUNet]: Downloading https://files.pythonhosted.org/packages/b1/08/300bf84bfeac01f70ad6fe8ae7da58eaff7a45e68cbb9f2b40a27f431e85/CartiMorph_nnUnet-1.7.1.tar.gz
+[2023-06-30 08:51:53] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-06-30 08:51:53] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/4c/b8/92ab3820dc9ba57d7384833e08a439c18199c5a826f4afcccd045f02bc77/odoo14_addons_oca_stock_logistics_warehouse-14.0.20230529.0-py3-none-any.whl
+[2023-06-30 08:51:53] INFO root fetch - processPackages [cg-hermes]: Downloading https://files.pythonhosted.org/packages/6f/0c/a584534c39bc4d96f13ad4273e0913b59d074204fc74b955f3f496188808/cg-hermes-1.8.0.tar.gz
+[2023-06-30 08:51:53] INFO root fetch - processPackages [pyess]: Downloading https://files.pythonhosted.org/packages/8f/70/690cb7ccfcd6d6639dc262445b47037442cc2747c77801ca68e2754a37c4/pyess-0.1.9.tar.gz
+[2023-06-30 08:51:54] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/c9/c4/f365e85cedcc63f80ea463cbfb8e064d0a5a8263105706891a01f38f7155/molgenis_emx2_pyclient-8.200.0.tar.gz
+[2023-06-30 08:51:54] INFO root fetch - processPackages [th2-grpc-sim]: Downloading https://files.pythonhosted.org/packages/2b/62/246185be57a5df74f86ada06979af0063dbbc902fccb143ea46a3fd1a1ec/th2_grpc_sim-5.0.0.dev5420121459.tar.gz
+[2023-06-30 08:51:54] INFO root fetch - processPackages [pyess]: executing diffoscope
+[2023-06-30 08:51:54] INFO root fetch - processPackages [pyess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyess-0.1.8.tar.gz tmp/pyess-0.1.9.tar.gz --markdown 20230630/p/pyess/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 08:51:54] INFO root fetch - processPackages [SecureMessaging]: Downloading https://files.pythonhosted.org/packages/73/10/a9896c6bbdca0cf9ac7843d7f7c27011b399f84fd4ff3fa98046fc0cdfc8/SecureMessaging-3.8.8.tar.gz
+[2023-06-30 08:51:54] INFO root fetch - processPackages [CartiMorph-nnUNet]: Downloading https://files.pythonhosted.org/packages/42/ce/05ccead37cb7f0be0368aa85e9720023691def3cb2cad5975c3ecb3507f9/CartiMorph_nnUNet-1.7.2.tar.gz
+[2023-06-30 08:51:54] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/72/91/8cb2bd38865b934a6b3b98e953cbc3958779e17d3c3694c7cc6c87a6f767/odoo14_addons_oca_stock_logistics_warehouse-14.0.20230629.0-py3-none-any.whl
+[2023-06-30 08:51:54] INFO root fetch - processPackages [th2-grpc-sim]: executing diffoscope
+[2023-06-30 08:51:54] INFO root fetch - processPackages [th2-grpc-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_sim-5.0.0.dev5387674261.tar.gz tmp/th2_grpc_sim-5.0.0.dev5420121459.tar.gz --markdown 20230630/t/th2-grpc-sim/5.0.0.dev5387674261-5.0.0.dev5420121459/diff.md --exclude *.pyd
+[2023-06-30 08:51:54] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-06-30 08:51:54] INFO root fetch - processPackages [odoo14-addon-stock-inventory-line-open]: Downloading https://files.pythonhosted.org/packages/83/f3/723102d82c08dcb2fa5e117c7caeb349c1f131742cdd999e960a68e0d484/odoo14_addon_stock_inventory_line_open-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-06-30 08:51:54] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-06-30 08:51:54] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.199.8.tar.gz tmp/molgenis_emx2_pyclient-8.200.0.tar.gz --markdown 20230630/m/molgenis-emx2-pyclient/8.199.8-8.200.0/diff.md --exclude *.pyd
+[2023-06-30 08:51:54] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: executing diffoscope
+[2023-06-30 08:51:54] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_stock_logistics_warehouse-14.0.20230529.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_stock_logistics_warehouse-14.0.20230629.0-py3-none-any.whl.zip --markdown 20230630/o/odoo14-addons-oca-stock-logistics-warehouse/14.0.20230529.0-14.0.20230629.0/diff.md --exclude *.pyd
+[2023-06-30 08:51:54] INFO root fetch - processPackages [CartiMorph-nnUNet]: executing diffoscope
+[2023-06-30 08:51:54] INFO root fetch - processPackages [CartiMorph-nnUNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CartiMorph_nnUnet-1.7.1.tar.gz tmp/CartiMorph_nnUNet-1.7.2.tar.gz --markdown 20230630/C/CartiMorph-nnUNet/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-30 08:51:54] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-30 08:51:54] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230630/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 08:51:54] INFO root fetch - processPackages [odoo14-addon-stock-inventory-line-open]: executing diffoscope
+[2023-06-30 08:51:54] INFO root fetch - processPackages [odoo14-addon-stock-inventory-line-open]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_inventory_line_open-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_stock_inventory_line_open-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230630/o/odoo14-addon-stock-inventory-line-open/14.0.1.0.1.dev4-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-06-30 08:51:54] INFO root fetch - processPackages [SecureMessaging]: executing diffoscope
+[2023-06-30 08:51:54] INFO root fetch - processPackages [SecureMessaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SecureMessaging-3.8.7.tar.gz tmp/SecureMessaging-3.8.8.tar.gz --markdown 20230630/S/SecureMessaging/3.8.7-3.8.8/diff.md --exclude *.pyd
+[2023-06-30 08:51:54] INFO root fetch - processPackages [cg-hermes]: Downloading https://files.pythonhosted.org/packages/67/6e/f35065005ad8e514ccb9524361723cdde5d9f965e4abcae652b25b97d748/cg-hermes-1.9.0.tar.gz
+[2023-06-30 08:51:54] INFO root fetch - processPackages [cg-hermes]: executing diffoscope
+[2023-06-30 08:51:54] INFO root fetch - processPackages [cg-hermes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-hermes-1.8.0.tar.gz tmp/cg-hermes-1.9.0.tar.gz --markdown 20230630/c/cg-hermes/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-30 08:51:55] INFO root fetch - processPackages [th2-grpc-sim]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim-5.0.0.dev5387674261.tar.gz]
+[2023-06-30 08:51:55] INFO root fetch - processPackages [th2-grpc-sim]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim-5.0.0.dev5420121459.tar.gz]
+[2023-06-30 08:51:55] INFO root fetch - main [MainThread]: End processing [th2-grpc-sim]: success
+[2023-06-30 08:51:55] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.199.8.tar.gz]
+[2023-06-30 08:51:55] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.200.0.tar.gz]
+[2023-06-30 08:51:55] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-06-30 08:51:55] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_stock_logistics_warehouse-14.0.20230529.0-py3-none-any.whl.zip]
+[2023-06-30 08:51:55] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_stock_logistics_warehouse-14.0.20230629.0-py3-none-any.whl.zip]
+[2023-06-30 08:51:55] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-stock-logistics-warehouse]: success
+[2023-06-30 08:51:55] INFO root fetch - processPackages [odoo14-addon-stock-inventory-line-open]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_inventory_line_open-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-06-30 08:51:55] INFO root fetch - processPackages [odoo14-addon-stock-inventory-line-open]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_inventory_line_open-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-06-30 08:51:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-inventory-line-open]: success
+[2023-06-30 08:51:55] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-06-30 08:51:55] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-06-30 08:51:55] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-30 08:51:55] INFO root fetch - processPackages [pyess]: Remove: archive file [/home/abi/fetcher/tmp/pyess-0.1.8.tar.gz]
+[2023-06-30 08:51:55] INFO root fetch - processPackages [pyess]: Remove: archive file [/home/abi/fetcher/tmp/pyess-0.1.9.tar.gz]
+[2023-06-30 08:51:55] INFO root fetch - main [MainThread]: End processing [pyess]: success
+[2023-06-30 08:51:55] INFO root fetch - processPackages [SecureMessaging]: Remove: archive file [/home/abi/fetcher/tmp/SecureMessaging-3.8.7.tar.gz]
+[2023-06-30 08:51:55] INFO root fetch - processPackages [SecureMessaging]: Remove: archive file [/home/abi/fetcher/tmp/SecureMessaging-3.8.8.tar.gz]
+[2023-06-30 08:51:55] INFO root fetch - main [MainThread]: End processing [SecureMessaging]: success
+[2023-06-30 08:51:56] INFO root fetch - processPackages [cg-hermes]: Remove: archive file [/home/abi/fetcher/tmp/cg-hermes-1.8.0.tar.gz]
+[2023-06-30 08:51:56] INFO root fetch - processPackages [cg-hermes]: Remove: archive file [/home/abi/fetcher/tmp/cg-hermes-1.9.0.tar.gz]
+[2023-06-30 08:51:56] INFO root fetch - main [MainThread]: End processing [cg-hermes]: success
+[2023-06-30 08:51:59] INFO root fetch - processPackages [CartiMorph-nnUNet]: Remove: archive file [/home/abi/fetcher/tmp/CartiMorph_nnUnet-1.7.1.tar.gz]
+[2023-06-30 08:51:59] INFO root fetch - processPackages [CartiMorph-nnUNet]: Remove: archive file [/home/abi/fetcher/tmp/CartiMorph_nnUNet-1.7.2.tar.gz]
+[2023-06-30 08:51:59] INFO root fetch - main [MainThread]: End processing [CartiMorph-nnUNet]: success
+[2023-06-30 08:51:59] INFO root fetch - main [MainThread]: Store serial: [18706715]
