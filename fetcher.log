@@ -11714,3 +11714,90 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 06:46:28] INFO root fetch - processPackages [grai-graph]: Remove: archive file [/home/abi/fetcher/tmp/grai_graph-0.2.4a0.tar.gz]
 [2023-06-30 06:46:28] INFO root fetch - main [MainThread]: End processing [grai-graph]: success
 [2023-06-30 06:46:28] INFO root fetch - main [MainThread]: Store serial: [18705958]
+[2023-06-30 06:51:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705958]
+[2023-06-30 06:51:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-30 06:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-maintenance-request-sequence
+[2023-06-30 06:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-maintenance
+[2023-06-30 06:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anyon
+[2023-06-30 06:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: otx
+[2023-06-30 06:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grai-source-fivetran
+[2023-06-30 06:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vai-utils
+[2023-06-30 06:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CNUfof-utils
+[2023-06-30 06:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mootdx
+[2023-06-30 06:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: macrometa-target-mssql
+[2023-06-30 06:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oloren
+[2023-06-30 06:51:37] INFO root fetch - processPackages [grai-source-fivetran]: New version: [0.1.0a1] Old Version: [0.0.9]
+[2023-06-30 06:51:37] INFO root fetch - processPackages [anyon]: New version: [3.5.0rc2] Old Version: [3.5.0rc1]
+[2023-06-30 06:51:37] INFO root fetch - processPackages [otx]: New version: [1.3.2rc1] Old Version: [1.3.1rc2]
+[2023-06-30 06:51:37] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 06:51:37] INFO root fetch - processPackages [odoo-addon-maintenance-request-sequence]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-30 06:51:37] WARNING root fetch - processPackages [CNUfof-utils]: Skipping, unable to determine old version
+[2023-06-30 06:51:37] INFO root fetch - processPackages [vai-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 06:51:37] INFO root fetch - main [MainThread]: End processing [CNUfof-utils] error
+[2023-06-30 06:51:37] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: New version: [16.0.20230629.1] Old Version: [16.0.20230608.0]
+[2023-06-30 06:51:37] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 06:51:37] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-30 06:51:37] INFO root fetch - processPackages [odoo-addon-maintenance-request-sequence]: Downloading https://files.pythonhosted.org/packages/e6/96/1a562d013e4e82efcdc50ab8e05a53eaaa43f32843b6d8216c070357bf73/odoo_addon_maintenance_request_sequence-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-30 06:51:37] INFO root fetch - processPackages [mootdx]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-30 06:51:37] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/75/45/2c68860e4b1a617d12de5f1aa90072b6c76b3fb322884189034dd9d3bfed/anyon-3.5.0rc1-cp311-none-macosx_10_9_universal2.whl
+[2023-06-30 06:51:37] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/ef/34/820dc8e89fc0ee9ab0d13fa3b19bba963aae85ca2c9b65b51b1ad8fa6d19/odoo_addons_oca_maintenance-16.0.20230608.0-py3-none-any.whl
+[2023-06-30 06:51:37] INFO root fetch - processPackages [grai-source-fivetran]: Downloading https://files.pythonhosted.org/packages/40/ed/96ee587d74304f1d6881db0bb7ea235a453570304878e890a7a2f9264af0/grai_source_fivetran-0.0.9.tar.gz
+[2023-06-30 06:51:37] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/2a/c5/b650201e1ea7e829855614f40907ef2defa39710f779531e35c319e50057/vai_utils-0.0.8.tar.gz
+[2023-06-30 06:51:37] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/5d/ed/c0b7c45808d96f212a7d0b210eb2571a81c8e6a3335cd50868507ed8f7e8/otx-1.3.1rc2.tar.gz
+[2023-06-30 06:51:37] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-06-30 06:51:37] INFO root fetch - processPackages [mootdx]: Downloading https://files.pythonhosted.org/packages/72/07/da98b3355ddcc663ca86afb6fc85557412fdf562280b02ffe9a7c7b14f05/mootdx-0.9.8.tar.gz
+[2023-06-30 06:51:38] INFO root fetch - processPackages [odoo-addon-maintenance-request-sequence]: Downloading https://files.pythonhosted.org/packages/15/5f/6ffe473d0a18f553700d729247c450e2bc13890fe909fb8f552cd36f86b9/odoo_addon_maintenance_request_sequence-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-30 06:51:38] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-30 06:51:38] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-06-30 06:51:38] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/a5/8e/d054d50dd01badd77610955a9177986f42e72a227c38bee793807bbba443/anyon-3.5.0rc2-cp311-none-macosx_10_9_universal2.whl
+[2023-06-30 06:51:38] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/63/da/8bd46fb7dfa95fea6302187e7200d32aacfcbffa9a31fcfc305fed81d257/odoo_addons_oca_maintenance-16.0.20230629.1-py3-none-any.whl
+[2023-06-30 06:51:38] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-30 06:51:38] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230630/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 06:51:38] INFO root fetch - processPackages [odoo-addon-maintenance-request-sequence]: executing diffoscope
+[2023-06-30 06:51:38] INFO root fetch - processPackages [odoo-addon-maintenance-request-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_request_sequence-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_maintenance_request_sequence-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230630/o/odoo-addon-maintenance-request-sequence/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-30 06:51:38] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: executing diffoscope
+[2023-06-30 06:51:38] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_maintenance-16.0.20230608.0-py3-none-any.whl.zip tmp/odoo_addons_oca_maintenance-16.0.20230629.1-py3-none-any.whl.zip --markdown 20230630/o/odoo-addons-oca-maintenance/16.0.20230608.0-16.0.20230629.1/diff.md --exclude *.pyd
+[2023-06-30 06:51:38] INFO root fetch - processPackages [grai-source-fivetran]: Downloading https://files.pythonhosted.org/packages/09/44/a23b4bdd7b1ba3ed3aa3400cd258712f92d215a380d6d1414964cc3e37d4/grai_source_fivetran-0.1.0a1.tar.gz
+[2023-06-30 06:51:38] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-30 06:51:38] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230630/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 06:51:38] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-06-30 06:51:38] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.5.0rc1-cp311-none-macosx_10_9_universal2.whl.zip tmp/anyon-3.5.0rc2-cp311-none-macosx_10_9_universal2.whl.zip --markdown 20230630/a/anyon/3.5.0rc1-3.5.0rc2/diff.md --exclude *.pyd
+[2023-06-30 06:51:38] INFO root fetch - processPackages [grai-source-fivetran]: executing diffoscope
+[2023-06-30 06:51:38] INFO root fetch - processPackages [grai-source-fivetran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_fivetran-0.0.9.tar.gz tmp/grai_source_fivetran-0.1.0a1.tar.gz --markdown 20230630/g/grai-source-fivetran/0.0.9-0.1.0a1/diff.md --exclude *.pyd
+[2023-06-30 06:51:38] INFO root fetch - processPackages [mootdx]: Downloading https://files.pythonhosted.org/packages/f7/94/bebf14fdb2cde078167d69a93a491cd27d77902c24eaa462b2faaa154f28/mootdx-0.9.9.tar.gz
+[2023-06-30 06:51:38] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/50/d6/c8a89feec709275794b4ada17977186c2238b1c83c33a83b29230047b749/vai_utils-0.0.9.tar.gz
+[2023-06-30 06:51:38] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/8d/3f/5da28ed62fb87653b7489b3033b00f1a18093f189ce0d96de854d492aa85/otx-1.3.2rc1.tar.gz
+[2023-06-30 06:51:38] INFO root fetch - processPackages [vai-utils]: executing diffoscope
+[2023-06-30 06:51:38] INFO root fetch - processPackages [vai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vai_utils-0.0.8.tar.gz tmp/vai_utils-0.0.9.tar.gz --markdown 20230630/v/vai-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 06:51:38] INFO root fetch - processPackages [mootdx]: executing diffoscope
+[2023-06-30 06:51:38] INFO root fetch - processPackages [mootdx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mootdx-0.9.8.tar.gz tmp/mootdx-0.9.9.tar.gz --markdown 20230630/m/mootdx/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-30 06:51:38] INFO root fetch - processPackages [otx]: executing diffoscope
+[2023-06-30 06:51:38] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.3.1rc2.tar.gz tmp/otx-1.3.2rc1.tar.gz --markdown 20230630/o/otx/1.3.1rc2-1.3.2rc1/diff.md --exclude *.pyd
+[2023-06-30 06:51:39] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-06-30 06:51:39] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-06-30 06:51:39] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-30 06:51:39] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_maintenance-16.0.20230608.0-py3-none-any.whl.zip]
+[2023-06-30 06:51:39] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_maintenance-16.0.20230629.1-py3-none-any.whl.zip]
+[2023-06-30 06:51:39] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-maintenance]: success
+[2023-06-30 06:51:39] INFO root fetch - processPackages [odoo-addon-maintenance-request-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_request_sequence-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-30 06:51:39] INFO root fetch - processPackages [odoo-addon-maintenance-request-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_request_sequence-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-30 06:51:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-request-sequence]: success
+[2023-06-30 06:51:40] INFO root fetch - processPackages [mootdx]: Remove: archive file [/home/abi/fetcher/tmp/mootdx-0.9.8.tar.gz]
+[2023-06-30 06:51:40] INFO root fetch - processPackages [mootdx]: Remove: archive file [/home/abi/fetcher/tmp/mootdx-0.9.9.tar.gz]
+[2023-06-30 06:51:40] INFO root fetch - main [MainThread]: End processing [mootdx]: success
+[2023-06-30 06:51:41] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.8.tar.gz]
+[2023-06-30 06:51:41] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.9.tar.gz]
+[2023-06-30 06:51:41] INFO root fetch - main [MainThread]: End processing [vai-utils]: success
+[2023-06-30 06:51:41] INFO root fetch - processPackages [grai-source-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_fivetran-0.0.9.tar.gz]
+[2023-06-30 06:51:41] INFO root fetch - processPackages [grai-source-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_fivetran-0.1.0a1.tar.gz]
+[2023-06-30 06:51:41] INFO root fetch - main [MainThread]: End processing [grai-source-fivetran]: success
+[2023-06-30 06:51:47] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-30 06:51:47] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-30 06:51:47] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-30 06:52:02] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.5.0rc1-cp311-none-macosx_10_9_universal2.whl.zip]
+[2023-06-30 06:52:02] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.5.0rc2-cp311-none-macosx_10_9_universal2.whl.zip]
+[2023-06-30 06:52:02] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-06-30 06:52:18] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.3.1rc2.tar.gz]
+[2023-06-30 06:52:18] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.3.2rc1.tar.gz]
+[2023-06-30 06:52:18] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2023-06-30 06:52:18] INFO root fetch - main [MainThread]: Store serial: [18705989]
