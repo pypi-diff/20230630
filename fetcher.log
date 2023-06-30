@@ -20726,3 +20726,156 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 13:53:46] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.78.tar.gz]
 [2023-06-30 13:53:46] INFO root fetch - main [MainThread]: End processing [UComp]: success
 [2023-06-30 13:53:46] INFO root fetch - main [MainThread]: Store serial: [18710127]
+[2023-06-30 13:58:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18710127]
+[2023-06-30 13:58:55] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-30 13:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radomermbg
+[2023-06-30 13:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grai-client
+[2023-06-30 13:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rosetta-ce
+[2023-06-30 13:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylookyloomonitoring
+[2023-06-30 13:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-base-tier-validation
+[2023-06-30 13:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fa-models
+[2023-06-30 13:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: content-security-policy
+[2023-06-30 13:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prompton
+[2023-06-30 13:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-organization-python
+[2023-06-30 13:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: UnleashClient
+[2023-06-30 13:58:55] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.5] Old Version: [16.0.1.0.4.76]
+[2023-06-30 13:58:55] INFO root fetch - processPackages [pylookyloomonitoring]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-06-30 13:58:55] INFO root fetch - processPackages [radomermbg]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-30 13:58:55] INFO root fetch - processPackages [grai-client]: New version: [0.3.0a7] Old Version: [0.3.0a6]
+[2023-06-30 13:58:55] INFO root fetch - processPackages [prompton]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-30 13:58:55] INFO root fetch - processPackages [fa-models]: New version: [1.0.57] Old Version: [1.0.56]
+[2023-06-30 13:58:55] INFO root fetch - processPackages [rosetta-ce]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-06-30 13:58:56] WARNING root fetch - processPackages [content-security-policy]: Skipping, unable to determine old version
+[2023-06-30 13:58:56] INFO root fetch - processPackages [content-security-policy]: Start processing: cybrid-api-bank-python
+[2023-06-30 13:58:56] INFO root fetch - main [MainThread]: End processing [content-security-policy] error
+[2023-06-30 13:58:56] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-30 13:58:56] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/c5/b6/42e58c1d449824d0b2e10a06e58c6bbde7da9e299559283b3532d46489b9/odoo_addon_base_tier_validation-16.0.1.0.4.76-py3-none-any.whl
+[2023-06-30 13:58:56] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/6c/31/b327ba3e44f724cafc6924d37d70fa53977e227e80f36a0bb161ce4b50ef/fa-models-1.0.56.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [UnleashClient]: New version: [5.7.0] Old Version: [5.6.0]
+[2023-06-30 13:58:56] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-30 13:58:56] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/12/d0/61cde790b8fd596cb3e4f5846f62f48f8bd0fd870a6b604316c11580b3dd/rosetta-ce-1.3.5.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [radomermbg]: Downloading https://files.pythonhosted.org/packages/a7/76/9c20a0a6f62dae39fb420573e5e47e1227ea60ba95d617abcf4c6e01d54c/radomermbg-0.0.7.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [prompton]: Downloading https://files.pythonhosted.org/packages/91/05/11e8a33595806b476bf5d4c794be2507ca7eb4d109d7013a1716f80edbb0/prompton-0.0.7.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [pylookyloomonitoring]: Downloading https://files.pythonhosted.org/packages/1d/14/6db416afb2283c211dd0477228c7336cca29f45a1b37038805ac1ff3381a/pylookyloomonitoring-1.0.5.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/03/4d/5f7a020e21180bcc951ad5eecb6299d75a6a28eb078661670fe5e765edc2/grai_client-0.3.0a6.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [UnleashClient]: Downloading https://files.pythonhosted.org/packages/45/54/990c1faabd40bb0a089847ffea291720c71c3b7710462312c7a566ebac9d/UnleashClient-5.6.0.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-06-30 13:58:56] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230630/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-30 13:58:56] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/31/d6/779e17b11d0b24ae5936219a3df6e842e9e1c16f9f827adf85a8d18bad8a/fa-models-1.0.57.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/ae/10/4de5b1618a0dc049d8b636d4423574ea5475d33887e8882ed413eb6b4c8a/odoo_addon_base_tier_validation-16.0.1.0.5-py3-none-any.whl
+[2023-06-30 13:58:56] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-06-30 13:58:56] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.56.tar.gz tmp/fa-models-1.0.57.tar.gz --markdown 20230630/f/fa-models/1.0.56-1.0.57/diff.md --exclude *.pyd
+[2023-06-30 13:58:56] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/1c/72/5513711fce8fcd5c63482f58a0c968f14bc94a352b2098521f729be18cf7/rosetta-ce-1.3.6.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-06-30 13:58:56] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230630/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-30 13:58:56] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-06-30 13:58:56] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.4.76-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.5-py3-none-any.whl.zip --markdown 20230630/o/odoo-addon-base-tier-validation/16.0.1.0.4.76-16.0.1.0.5/diff.md --exclude *.pyd
+[2023-06-30 13:58:56] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-06-30 13:58:56] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.3.5.tar.gz tmp/rosetta-ce-1.3.6.tar.gz --markdown 20230630/r/rosetta-ce/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-06-30 13:58:56] INFO root fetch - processPackages [radomermbg]: Downloading https://files.pythonhosted.org/packages/a2/bf/e216f659f7befffabbf4e2c64e343c3f53530a6054c17ebe0718a38ba7b0/radomermbg-0.0.8.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [pylookyloomonitoring]: Downloading https://files.pythonhosted.org/packages/bb/d5/6440672b75a8d28c93e2f5b882241c91c8e42a0e51a49f996b52bf8d46bf/pylookyloomonitoring-1.1.0.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [prompton]: Downloading https://files.pythonhosted.org/packages/15/41/339da777573c4572156279ad1a8088b5f4908dd27a971383d47693efe9fa/prompton-0.0.8.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/a8/98/4517178269f7c156b077344dc748143d4da8eaa0c649ea8e88a9a87be63d/grai_client-0.3.0a7.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [pylookyloomonitoring]: executing diffoscope
+[2023-06-30 13:58:56] INFO root fetch - processPackages [pylookyloomonitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylookyloomonitoring-1.0.5.tar.gz tmp/pylookyloomonitoring-1.1.0.tar.gz --markdown 20230630/p/pylookyloomonitoring/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-06-30 13:58:56] INFO root fetch - processPackages [radomermbg]: executing diffoscope
+[2023-06-30 13:58:56] INFO root fetch - processPackages [radomermbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radomermbg-0.0.7.tar.gz tmp/radomermbg-0.0.8.tar.gz --markdown 20230630/r/radomermbg/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-30 13:58:56] INFO root fetch - processPackages [UnleashClient]: Downloading https://files.pythonhosted.org/packages/cc/e6/ad33276cd0c47e73092a524a92f282f4fed5267896e2600b7d1ca2123adf/UnleashClient-5.7.0.tar.gz
+[2023-06-30 13:58:56] INFO root fetch - processPackages [prompton]: executing diffoscope
+[2023-06-30 13:58:56] INFO root fetch - processPackages [prompton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompton-0.0.7.tar.gz tmp/prompton-0.0.8.tar.gz --markdown 20230630/p/prompton/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-30 13:58:56] INFO root fetch - processPackages [grai-client]: executing diffoscope
+[2023-06-30 13:58:56] INFO root fetch - processPackages [grai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_client-0.3.0a6.tar.gz tmp/grai_client-0.3.0a7.tar.gz --markdown 20230630/g/grai-client/0.3.0a6-0.3.0a7/diff.md --exclude *.pyd
+[2023-06-30 13:58:56] INFO root fetch - processPackages [UnleashClient]: executing diffoscope
+[2023-06-30 13:58:56] INFO root fetch - processPackages [UnleashClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UnleashClient-5.6.0.tar.gz tmp/UnleashClient-5.7.0.tar.gz --markdown 20230630/U/UnleashClient/5.6.0-5.7.0/diff.md --exclude *.pyd
+[2023-06-30 13:58:58] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.56.tar.gz]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.57.tar.gz]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [fa-models]: Start processing: cybrid-api-id-python
+[2023-06-30 13:58:58] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-06-30 13:58:58] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [radomermbg]: Remove: archive file [/home/abi/fetcher/tmp/radomermbg-0.0.7.tar.gz]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [radomermbg]: Remove: archive file [/home/abi/fetcher/tmp/radomermbg-0.0.8.tar.gz]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [radomermbg]: Start processing: evosegment
+[2023-06-30 13:58:58] INFO root fetch - main [MainThread]: End processing [radomermbg]: success
+[2023-06-30 13:58:58] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.3.5.tar.gz]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.3.6.tar.gz]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [rosetta-ce]: Start processing: cfr
+[2023-06-30 13:58:58] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-06-30 13:58:58] INFO root fetch - processPackages [pylookyloomonitoring]: Remove: archive file [/home/abi/fetcher/tmp/pylookyloomonitoring-1.0.5.tar.gz]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [pylookyloomonitoring]: Remove: archive file [/home/abi/fetcher/tmp/pylookyloomonitoring-1.1.0.tar.gz]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [pylookyloomonitoring]: Start processing: hazm
+[2023-06-30 13:58:58] INFO root fetch - main [MainThread]: End processing [pylookyloomonitoring]: success
+[2023-06-30 13:58:58] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-06-30 13:58:58] INFO root fetch - processPackages [evosegment]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [cfr]: New version: [2023.6.30] Old Version: [2023.6.29]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [hazm]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-06-30 13:58:58] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/da/f1/bc3aaf60584abf34d73668afcf4eb73ddab2f5dff95304e3c9bee1861cc3/cfr-2023.6.29.tar.gz
+[2023-06-30 13:58:58] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-06-30 13:58:58] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230630/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-30 13:58:58] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-16.0.1.0.4.76-py3-none-any.whl.zip]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-16.0.1.0.5-py3-none-any.whl.zip]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Start processing: radomermbg
+[2023-06-30 13:58:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-06-30 13:58:58] INFO root fetch - processPackages [hazm]: Downloading https://files.pythonhosted.org/packages/92/a2/165800629f61f121de2fb0ff988a328747442eb259f755d499dd09734c05/hazm-0.9.0.tar.gz
+[2023-06-30 13:58:58] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a6.tar.gz]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a7.tar.gz]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [grai-client]: Start processing: pydatawork
+[2023-06-30 13:58:58] INFO root fetch - main [MainThread]: End processing [grai-client]: success
+[2023-06-30 13:58:58] INFO root fetch - processPackages [radomermbg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [prompton]: Remove: archive file [/home/abi/fetcher/tmp/prompton-0.0.7.tar.gz]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [prompton]: Remove: archive file [/home/abi/fetcher/tmp/prompton-0.0.8.tar.gz]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [prompton]: Start processing: pwasopt
+[2023-06-30 13:58:58] INFO root fetch - main [MainThread]: End processing [prompton]: success
+[2023-06-30 13:58:58] INFO root fetch - processPackages [radomermbg]: Downloading https://files.pythonhosted.org/packages/a2/bf/e216f659f7befffabbf4e2c64e343c3f53530a6054c17ebe0718a38ba7b0/radomermbg-0.0.8.tar.gz
+[2023-06-30 13:58:58] INFO root fetch - processPackages [evosegment]: Downloading https://files.pythonhosted.org/packages/b7/56/2f636fe1232d53ecddc94407373d6f817a86eec4e80a9ed3e934098c7308/evosegment-0.0.4.tar.gz
+[2023-06-30 13:58:58] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-06-30 13:58:58] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-06-30 13:58:58] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-06-30 13:58:58] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/c4/10/802bbb078ecafb9bf0e0c01f9c3c3be7078578b238faff0c8392ce54c459/cfr-2023.6.30.tar.gz
+[2023-06-30 13:58:58] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 13:58:58] WARNING root fetch - processPackages [pwasopt]: Skipping, unable to determine old version
+[2023-06-30 13:58:58] INFO root fetch - main [MainThread]: End processing [pwasopt] error
+[2023-06-30 13:58:58] INFO root fetch - processPackages [cfr]: executing diffoscope
+[2023-06-30 13:58:58] INFO root fetch - processPackages [cfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfr-2023.6.29.tar.gz tmp/cfr-2023.6.30.tar.gz --markdown 20230630/c/cfr/2023.6.29-2023.6.30/diff.md --exclude *.pyd
+[2023-06-30 13:58:58] INFO root fetch - processPackages [radomermbg]: Downloading https://files.pythonhosted.org/packages/1d/6b/372da1c86c965efcdb8059573d9203db6852fa9562dac4c65d809c498e0c/radomermbg-0.0.9.tar.gz
+[2023-06-30 13:58:58] INFO root fetch - processPackages [hazm]: Downloading https://files.pythonhosted.org/packages/1f/6e/d8cedea269e5e72cb863ae5d7a53d1e09ce5c963346edd20893f97a1e9e6/hazm-0.9.1.tar.gz
+[2023-06-30 13:58:58] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-30 13:58:59] INFO root fetch - processPackages [radomermbg]: executing diffoscope
+[2023-06-30 13:58:59] INFO root fetch - processPackages [radomermbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radomermbg-0.0.8.tar.gz tmp/radomermbg-0.0.9.tar.gz --markdown 20230630/r/radomermbg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 13:58:59] INFO root fetch - processPackages [hazm]: executing diffoscope
+[2023-06-30 13:58:59] INFO root fetch - processPackages [hazm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hazm-0.9.0.tar.gz tmp/hazm-0.9.1.tar.gz --markdown 20230630/h/hazm/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-30 13:58:59] INFO root fetch - processPackages [UnleashClient]: Remove: archive file [/home/abi/fetcher/tmp/UnleashClient-5.6.0.tar.gz]
+[2023-06-30 13:58:59] INFO root fetch - processPackages [UnleashClient]: Remove: archive file [/home/abi/fetcher/tmp/UnleashClient-5.7.0.tar.gz]
+[2023-06-30 13:58:59] INFO root fetch - main [MainThread]: End processing [UnleashClient]: success
+[2023-06-30 13:58:59] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-30 13:58:59] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-30 13:58:59] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230630/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 13:58:59] INFO root fetch - processPackages [evosegment]: Downloading https://files.pythonhosted.org/packages/55/26/fb12b6041aea9c90f35edd0547e968cae306456a6d2c839096422e13749d/evosegment-0.0.5.tar.gz
+[2023-06-30 13:59:00] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-2023.6.29.tar.gz]
+[2023-06-30 13:59:00] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-2023.6.30.tar.gz]
+[2023-06-30 13:59:00] INFO root fetch - main [MainThread]: End processing [cfr]: success
+[2023-06-30 13:59:00] INFO root fetch - processPackages [radomermbg]: Remove: archive file [/home/abi/fetcher/tmp/radomermbg-0.0.8.tar.gz]
+[2023-06-30 13:59:00] INFO root fetch - processPackages [radomermbg]: Remove: archive file [/home/abi/fetcher/tmp/radomermbg-0.0.9.tar.gz]
+[2023-06-30 13:59:00] INFO root fetch - main [MainThread]: End processing [radomermbg]: success
+[2023-06-30 13:59:00] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-30 13:59:00] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-30 13:59:00] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-30 13:59:00] INFO root fetch - processPackages [evosegment]: executing diffoscope
+[2023-06-30 13:59:00] INFO root fetch - processPackages [evosegment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evosegment-0.0.4.tar.gz tmp/evosegment-0.0.5.tar.gz --markdown 20230630/e/evosegment/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-30 13:59:00] INFO root fetch - processPackages [hazm]: Remove: archive file [/home/abi/fetcher/tmp/hazm-0.9.0.tar.gz]
+[2023-06-30 13:59:00] INFO root fetch - processPackages [hazm]: Remove: archive file [/home/abi/fetcher/tmp/hazm-0.9.1.tar.gz]
+[2023-06-30 13:59:00] INFO root fetch - main [MainThread]: End processing [hazm]: success
+[2023-06-30 13:59:01] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-06-30 13:59:01] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-06-30 13:59:01] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-06-30 13:59:01] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-06-30 13:59:01] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-06-30 13:59:01] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-06-30 13:59:02] INFO root fetch - processPackages [evosegment]: Remove: archive file [/home/abi/fetcher/tmp/evosegment-0.0.4.tar.gz]
+[2023-06-30 13:59:02] INFO root fetch - processPackages [evosegment]: Remove: archive file [/home/abi/fetcher/tmp/evosegment-0.0.5.tar.gz]
+[2023-06-30 13:59:02] INFO root fetch - main [MainThread]: End processing [evosegment]: success
+[2023-06-30 13:59:02] INFO root fetch - main [MainThread]: Store serial: [18710186]
