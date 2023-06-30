@@ -17351,3 +17351,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 11:33:17] INFO root fetch - processPackages [goldpy]: Remove: archive file [/home/abi/fetcher/tmp/goldpy-2.2.0-cp311-cp311-macosx_10_9_x86_64.macosx_11_0_arm64.macosx_10_9_universal2.whl.zip]
 [2023-06-30 11:33:17] INFO root fetch - main [MainThread]: End processing [goldpy]: success
 [2023-06-30 11:33:17] INFO root fetch - main [MainThread]: Store serial: [18708286]
+[2023-06-30 11:38:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18708286]
+[2023-06-30 11:38:26] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-30 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modular-cli-sdk
+[2023-06-30 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mmWave
+[2023-06-30 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index
+[2023-06-30 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-cisco-support-plugin
+[2023-06-30 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt-index
+[2023-06-30 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyPLNmodels
+[2023-06-30 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mayfpayapi
+[2023-06-30 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dspawpy
+[2023-06-30 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: waivek
+[2023-06-30 11:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Generation-Image-Gaston
+[2023-06-30 11:38:26] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 11:38:26] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-30 11:38:26] INFO root fetch - processPackages [modular-cli-sdk]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-30 11:38:26] INFO root fetch - processPackages [waivek]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 11:38:26] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-30 11:38:26] INFO root fetch - processPackages [Generation-Image-Gaston]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-30 11:38:26] INFO root fetch - processPackages [mmWave]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-30 11:38:26] INFO root fetch - processPackages [Generation-Image-Gaston]: Downloading https://files.pythonhosted.org/packages/78/b8/9e8d8dd04e72fcc6d9464ec41df1fd970a073e578f12ce6b8b9e8af187a7/Generation_Image_Gaston-0.1.6.tar.gz
+[2023-06-30 11:38:26] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-30 11:38:26] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/39/ed/965dee00b18d04a9e723c02a028442b257e1b226780861f81ac52cd324ba/gpt_index-0.6.8.tar.gz
+[2023-06-30 11:38:26] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/8c/d1/949e523dd2d5b53ef756c740c7633425f3adeb94ad2c376cf81a62587e2e/waivek-0.1.8.tar.gz
+[2023-06-30 11:38:26] INFO root fetch - processPackages [mayfpayapi]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-30 11:38:26] INFO root fetch - processPackages [dspawpy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-30 11:38:26] INFO root fetch - processPackages [pyPLNmodels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 11:38:26] INFO root fetch - processPackages [modular-cli-sdk]: Downloading https://files.pythonhosted.org/packages/80/72/79ef410f808ea5f42b93fbcf1ad8b8228d5f7a371347f6cf71fe4c0332b7/modular_cli_sdk-1.1.1.tar.gz
+[2023-06-30 11:38:26] INFO root fetch - processPackages [mmWave]: Downloading https://files.pythonhosted.org/packages/40/ab/0fb967aeff054c14e7d1610d6aecdecc566e1c8084d01a597e4f0688bc6d/mmWave-0.1.98.tar.gz
+[2023-06-30 11:38:26] INFO root fetch - processPackages [Generation-Image-Gaston]: Downloading https://files.pythonhosted.org/packages/7e/7a/9cef369e4ebca1d1189d27b6216c8a4cd0078ba45338709c6fec0f2563f9/Generation_Image_Gaston-0.1.8.tar.gz
+[2023-06-30 11:38:26] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/f3/a4/8fcac26c887b38aa528079ee4a511159fe89337c438c32c575ef70afe1dc/llama_index-0.6.8.tar.gz
+[2023-06-30 11:38:26] INFO root fetch - processPackages [pyPLNmodels]: Downloading https://files.pythonhosted.org/packages/51/b0/7d9557b8945170adab935eafed81fb717ab0a6849909f142dfcf9ab78264/pyPLNmodels-0.0.8.tar.gz
+[2023-06-30 11:38:26] INFO root fetch - processPackages [mayfpayapi]: Downloading https://files.pythonhosted.org/packages/a9/6e/edc769a115b41146759ee6086b9c20516824885e659767a8cd34628cf826/mayfpayapi-1.3.0.tar.gz
+[2023-06-30 11:38:26] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/f3/04/9766f64d07447d0b379718b50a7fd5b84b853fad973a640ac558f77aedb7/dspawpy-1.0.0-py3-none-any.whl
+[2023-06-30 11:38:26] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fd/af/29feddbce0290a3ddaa8adad399a5fa0c83d3d4d9637bf47751161c55d5c/gpt_index-0.6.9.tar.gz
+[2023-06-30 11:38:26] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-30 11:38:26] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/a4/ea/4c15b5c565a13175de2213d36052b88233e76e92301d40a51c483f4f346c/waivek-0.1.9.tar.gz
+[2023-06-30 11:38:27] INFO root fetch - processPackages [Generation-Image-Gaston]: executing diffoscope
+[2023-06-30 11:38:27] INFO root fetch - processPackages [Generation-Image-Gaston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Generation_Image_Gaston-0.1.6.tar.gz tmp/Generation_Image_Gaston-0.1.8.tar.gz --markdown 20230630/G/Generation-Image-Gaston/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-30 11:38:27] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-30 11:38:27] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230630/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 11:38:27] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-30 11:38:27] INFO root fetch - processPackages [waivek]: executing diffoscope
+[2023-06-30 11:38:27] INFO root fetch - processPackages [waivek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waivek-0.1.8.tar.gz tmp/waivek-0.1.9.tar.gz --markdown 20230630/w/waivek/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 11:38:27] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230630/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-30 11:38:27] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/9c/96/62b5a23720114f0ce0f6331a1c6f89c27b66d44db7187a5632221f0d6f27/llama_index-0.6.9.tar.gz
+[2023-06-30 11:38:27] INFO root fetch - processPackages [modular-cli-sdk]: Downloading https://files.pythonhosted.org/packages/dc/c1/b0a093bb5f4339dd54bafb20a10c6b71e80553059a8c864ab23e0eb0cdab/modular_cli_sdk-1.1.2.tar.gz
+[2023-06-30 11:38:27] INFO root fetch - processPackages [mmWave]: Downloading https://files.pythonhosted.org/packages/61/fa/6257dbf26b26ba9efebbbd239943e6981e9caff26d8b4d2c88d2d2c53a9a/mmWave-0.1.99.tar.gz
+[2023-06-30 11:38:27] INFO root fetch - processPackages [mayfpayapi]: Downloading https://files.pythonhosted.org/packages/35/68/329a8cc5b7b6ef012e46b06300645f0b82c58bd5eabc9d11ba3990099518/mayfpayapi-1.4.0.tar.gz
+[2023-06-30 11:38:27] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/c3/91/7d59a937409ea06619572a8056a7b68d362d16623eab3b82827e624e119e/dspawpy-1.0.1-py3-none-any.whl
+[2023-06-30 11:38:27] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-30 11:38:27] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230630/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-30 11:38:27] INFO root fetch - processPackages [mmWave]: executing diffoscope
+[2023-06-30 11:38:27] INFO root fetch - processPackages [mmWave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmWave-0.1.98.tar.gz tmp/mmWave-0.1.99.tar.gz --markdown 20230630/m/mmWave/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-30 11:38:27] INFO root fetch - processPackages [mayfpayapi]: executing diffoscope
+[2023-06-30 11:38:27] INFO root fetch - processPackages [mayfpayapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayfpayapi-1.3.0.tar.gz tmp/mayfpayapi-1.4.0.tar.gz --markdown 20230630/m/mayfpayapi/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-30 11:38:27] INFO root fetch - processPackages [pyPLNmodels]: Downloading https://files.pythonhosted.org/packages/d9/ee/b1ce119365c9ee2f1e8f012450c38c4ebaa0ba7795d2a008d8fcde4dfd07/pyPLNmodels-0.0.9.tar.gz
+[2023-06-30 11:38:27] INFO root fetch - processPackages [modular-cli-sdk]: executing diffoscope
+[2023-06-30 11:38:27] INFO root fetch - processPackages [modular-cli-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modular_cli_sdk-1.1.1.tar.gz tmp/modular_cli_sdk-1.1.2.tar.gz --markdown 20230630/m/modular-cli-sdk/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-30 11:38:27] INFO root fetch - processPackages [dspawpy]: executing diffoscope
+[2023-06-30 11:38:27] INFO root fetch - processPackages [dspawpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspawpy-1.0.0-py3-none-any.whl.zip tmp/dspawpy-1.0.1-py3-none-any.whl.zip --markdown 20230630/d/dspawpy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-30 11:38:27] INFO root fetch - processPackages [pyPLNmodels]: executing diffoscope
+[2023-06-30 11:38:27] INFO root fetch - processPackages [pyPLNmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPLNmodels-0.0.8.tar.gz tmp/pyPLNmodels-0.0.9.tar.gz --markdown 20230630/p/pyPLNmodels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 11:38:28] INFO root fetch - processPackages [Generation-Image-Gaston]: Remove: archive file [/home/abi/fetcher/tmp/Generation_Image_Gaston-0.1.6.tar.gz]
+[2023-06-30 11:38:28] INFO root fetch - processPackages [Generation-Image-Gaston]: Remove: archive file [/home/abi/fetcher/tmp/Generation_Image_Gaston-0.1.8.tar.gz]
+[2023-06-30 11:38:28] INFO root fetch - processPackages [Generation-Image-Gaston]: Start processing: pyproject-examples
+[2023-06-30 11:38:28] INFO root fetch - main [MainThread]: End processing [Generation-Image-Gaston]: success
+[2023-06-30 11:38:28] INFO root fetch - processPackages [pyproject-examples]: New version: [2023.6.30] Old Version: [2022.5.3]
+[2023-06-30 11:38:28] INFO root fetch - processPackages [pyproject-examples]: Downloading https://files.pythonhosted.org/packages/37/d0/123667973c8dac7166439fd57785452bbe83fee4721cdab9abab5559a0b5/pyproject_examples-2022.5.3.tar.gz
+[2023-06-30 11:38:28] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-30 11:38:28] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-30 11:38:28] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Start processing: griffon
+[2023-06-30 11:38:28] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-30 11:38:28] INFO root fetch - processPackages [griffon]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-30 11:38:28] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/0b/6b/5564fe5b66bd54e15cf6684604c2924c6d6a5b6aab4160ec053aea1dcab8/griffon-0.2.8.tar.gz
+[2023-06-30 11:38:28] INFO root fetch - processPackages [mayfpayapi]: Remove: archive file [/home/abi/fetcher/tmp/mayfpayapi-1.3.0.tar.gz]
+[2023-06-30 11:38:28] INFO root fetch - processPackages [mayfpayapi]: Remove: archive file [/home/abi/fetcher/tmp/mayfpayapi-1.4.0.tar.gz]
+[2023-06-30 11:38:28] INFO root fetch - processPackages [mayfpayapi]: Start processing: fipper
+[2023-06-30 11:38:28] INFO root fetch - main [MainThread]: End processing [mayfpayapi]: success
+[2023-06-30 11:38:28] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/e8/3c/17888a21a950e536dbbfb731858cdc8be559b6a88de9a48f58a3cbf592d4/griffon-0.2.9.tar.gz
+[2023-06-30 11:38:28] INFO root fetch - processPackages [fipper]: New version: [0.0.4.dev1] Old Version: [0.0.3]
+[2023-06-30 11:38:28] INFO root fetch - processPackages [modular-cli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modular_cli_sdk-1.1.1.tar.gz]
+[2023-06-30 11:38:28] INFO root fetch - processPackages [modular-cli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modular_cli_sdk-1.1.2.tar.gz]
+[2023-06-30 11:38:28] INFO root fetch - main [MainThread]: End processing [modular-cli-sdk]: success
+[2023-06-30 11:38:28] INFO root fetch - processPackages [pyproject-examples]: Downloading https://files.pythonhosted.org/packages/22/a4/61afc3d1d90f575e289ddd230302e76a99d7f348d5c9fd0f7b5c769264c6/pyproject_examples-2023.6.30.tar.gz
+[2023-06-30 11:38:29] INFO root fetch - processPackages [fipper]: Downloading https://files.pythonhosted.org/packages/71/ca/9678a0431947fe4ab8818497ca8c6ceb44fc560822760c7fd70949b0d5f3/fipper-0.0.3.tar.gz
+[2023-06-30 11:38:29] INFO root fetch - processPackages [griffon]: executing diffoscope
+[2023-06-30 11:38:29] INFO root fetch - processPackages [griffon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffon-0.2.8.tar.gz tmp/griffon-0.2.9.tar.gz --markdown 20230630/g/griffon/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-30 11:38:29] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.8.tar.gz]
+[2023-06-30 11:38:29] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.9.tar.gz]
+[2023-06-30 11:38:29] INFO root fetch - main [MainThread]: End processing [waivek]: success
+[2023-06-30 11:38:29] INFO root fetch - processPackages [pyproject-examples]: executing diffoscope
+[2023-06-30 11:38:29] INFO root fetch - processPackages [pyproject-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_examples-2022.5.3.tar.gz tmp/pyproject_examples-2023.6.30.tar.gz --markdown 20230630/p/pyproject-examples/2022.5.3-2023.6.30/diff.md --exclude *.pyd
+[2023-06-30 11:38:29] INFO root fetch - processPackages [pyPLNmodels]: Remove: archive file [/home/abi/fetcher/tmp/pyPLNmodels-0.0.8.tar.gz]
+[2023-06-30 11:38:29] INFO root fetch - processPackages [pyPLNmodels]: Remove: archive file [/home/abi/fetcher/tmp/pyPLNmodels-0.0.9.tar.gz]
+[2023-06-30 11:38:29] INFO root fetch - main [MainThread]: End processing [pyPLNmodels]: success
+[2023-06-30 11:38:29] INFO root fetch - processPackages [fipper]: Downloading https://files.pythonhosted.org/packages/97/5f/e0c81a521da20be870646c6da4ac1ce279911d452e22ab7e7bc23036aa90/fipper-0.0.4.dev1.tar.gz
+[2023-06-30 11:38:29] INFO root fetch - processPackages [fipper]: executing diffoscope
+[2023-06-30 11:38:29] INFO root fetch - processPackages [fipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fipper-0.0.3.tar.gz tmp/fipper-0.0.4.dev1.tar.gz --markdown 20230630/f/fipper/0.0.3-0.0.4.dev1/diff.md --exclude *.pyd
+[2023-06-30 11:38:29] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-1.0.0-py3-none-any.whl.zip]
+[2023-06-30 11:38:29] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-1.0.1-py3-none-any.whl.zip]
+[2023-06-30 11:38:29] INFO root fetch - main [MainThread]: End processing [dspawpy]: success
+[2023-06-30 11:38:30] INFO root fetch - processPackages [mmWave]: Remove: archive file [/home/abi/fetcher/tmp/mmWave-0.1.98.tar.gz]
+[2023-06-30 11:38:30] INFO root fetch - processPackages [mmWave]: Remove: archive file [/home/abi/fetcher/tmp/mmWave-0.1.99.tar.gz]
+[2023-06-30 11:38:30] INFO root fetch - main [MainThread]: End processing [mmWave]: success
+[2023-06-30 11:38:30] INFO root fetch - processPackages [pyproject-examples]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_examples-2022.5.3.tar.gz]
+[2023-06-30 11:38:30] INFO root fetch - processPackages [pyproject-examples]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_examples-2023.6.30.tar.gz]
+[2023-06-30 11:38:30] INFO root fetch - main [MainThread]: End processing [pyproject-examples]: success
+[2023-06-30 11:38:30] INFO root fetch - processPackages [griffon]: Remove: archive file [/home/abi/fetcher/tmp/griffon-0.2.8.tar.gz]
+[2023-06-30 11:38:30] INFO root fetch - processPackages [griffon]: Remove: archive file [/home/abi/fetcher/tmp/griffon-0.2.9.tar.gz]
+[2023-06-30 11:38:30] INFO root fetch - main [MainThread]: End processing [griffon]: success
+[2023-06-30 11:38:31] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.8.tar.gz]
+[2023-06-30 11:38:31] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
+[2023-06-30 11:38:31] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-30 11:38:33] INFO root fetch - processPackages [fipper]: Remove: archive file [/home/abi/fetcher/tmp/fipper-0.0.3.tar.gz]
+[2023-06-30 11:38:33] INFO root fetch - processPackages [fipper]: Remove: archive file [/home/abi/fetcher/tmp/fipper-0.0.4.dev1.tar.gz]
+[2023-06-30 11:38:33] INFO root fetch - main [MainThread]: End processing [fipper]: success
+[2023-06-30 11:38:33] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.8.tar.gz]
+[2023-06-30 11:38:33] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.9.tar.gz]
+[2023-06-30 11:38:33] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-06-30 11:38:33] INFO root fetch - main [MainThread]: Store serial: [18708355]
