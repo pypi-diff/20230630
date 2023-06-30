@@ -13134,3 +13134,122 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 08:31:10] INFO root fetch - processPackages [python-jsonpath]: Remove: archive file [/home/abi/fetcher/tmp/python_jsonpath-0.8.0.tar.gz]
 [2023-06-30 08:31:10] INFO root fetch - main [MainThread]: End processing [python-jsonpath]: success
 [2023-06-30 08:31:10] INFO root fetch - main [MainThread]: Store serial: [18706569]
+[2023-06-30 08:36:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706569]
+[2023-06-30 08:36:19] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-30 08:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Aspose.Slides
+[2023-06-30 08:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: echoloader
+[2023-06-30 08:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: star-chart-spherical-projection
+[2023-06-30 08:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-server-tools
+[2023-06-30 08:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trongrid-extractor
+[2023-06-30 08:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addon-document-quick-access
+[2023-06-30 08:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addon-base-tier-validation
+[2023-06-30 08:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-base-substate
+[2023-06-30 08:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo13-addon-announcement
+[2023-06-30 08:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: audio-separator
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: New version: [13.0.1.9.1.dev8] Old Version: [13.0.1.9.1.dev6]
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo13-addon-base-substate]: New version: [13.0.1.1.1.dev2] Old Version: [13.0.1.1.1.dev1]
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo13-addon-document-quick-access]: New version: [13.0.1.0.1.dev8] Old Version: [13.0.1.0.1.dev6]
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: New version: [14.0.20230629.1] Old Version: [14.0.20230511.0]
+[2023-06-30 08:36:19] INFO root fetch - processPackages [Aspose.Slides]: New version: [23.6.0] Old Version: [23.5.0]
+[2023-06-30 08:36:19] WARNING root fetch - processPackages [audio-separator]: Skipping, unable to determine old version
+[2023-06-30 08:36:19] INFO root fetch - processPackages [echoloader]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 08:36:19] INFO root fetch - processPackages [audio-separator]: Start processing: odoo13-addon-date-range
+[2023-06-30 08:36:19] INFO root fetch - processPackages [star-chart-spherical-projection]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-06-30 08:36:19] INFO root fetch - main [MainThread]: End processing [audio-separator] error
+[2023-06-30 08:36:19] INFO root fetch - processPackages [trongrid-extractor]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo13-addon-announcement]: New version: [13.0.2.1.1.dev4] Old Version: [13.0.2.1.1.dev2]
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo13-addon-date-range]: New version: [13.0.1.0.3.dev7] Old Version: [13.0.1.0.3.dev5]
+[2023-06-30 08:36:19] INFO root fetch - processPackages [trongrid-extractor]: Downloading https://files.pythonhosted.org/packages/c1/a8/cc1d5bc3f7f589931f1793b1d618fe2bd6376ad29c27676b943b14cb0e2a/trongrid_extractor-0.3.5.tar.gz
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/de/1d/82b0cb30c933266cd7f05c24de12453edd84c419238c15405fac1e4719a2/odoo13_addon_base_tier_validation-13.0.1.9.1.dev6-py3-none-any.whl
+[2023-06-30 08:36:19] INFO root fetch - processPackages [Aspose.Slides]: Downloading https://files.pythonhosted.org/packages/7d/34/b96ff347b46599b6454f9d8b5159eda12b2869972f9c94be3252975e611d/Aspose.Slides-23.5.0-py3-none-win_amd64.whl
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo13-addon-base-substate]: Downloading https://files.pythonhosted.org/packages/8e/af/d5fbdf6a1e4262d040edd57cd2fe4d46fd11bee40ff24bb3971fc3e4306a/odoo13_addon_base_substate-13.0.1.1.1.dev1-py3-none-any.whl
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo13-addon-announcement]: Downloading https://files.pythonhosted.org/packages/7c/83/c6ffdc7652d5723c892ced0337a417020903daa8f50a17c3d7fb1b3c01ef/odoo13_addon_announcement-13.0.2.1.1.dev2-py3-none-any.whl
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo13-addon-document-quick-access]: Downloading https://files.pythonhosted.org/packages/39/87/f7ce838246e0acbc1495a527c09ef8fdbc38028d959a15a2740efc1f2aa1/odoo13_addon_document_quick_access-13.0.1.0.1.dev6-py3-none-any.whl
+[2023-06-30 08:36:19] INFO root fetch - processPackages [star-chart-spherical-projection]: Downloading https://files.pythonhosted.org/packages/ef/99/0ba73558e7daac159e53ad012131073699957fc68bd13fc7e62740fea3f2/star-chart-spherical-projection-1.4.1.tar.gz
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/15/d0/3836248fcec3fbaa0ad74ab8db676974d94ab57dd8b344b4c587a1a9ae0d/odoo14_addons_oca_server_tools-14.0.20230511.0-py3-none-any.whl
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo13-addon-date-range]: Downloading https://files.pythonhosted.org/packages/7a/85/005ae8aae4c4b9d9ba172485478ae7ff6225dabaea36d467475a8e4b66ca/odoo13_addon_date_range-13.0.1.0.3.dev5-py3-none-any.whl
+[2023-06-30 08:36:19] INFO root fetch - processPackages [echoloader]: Downloading https://files.pythonhosted.org/packages/0b/91/36a5d473efe57fb90f171c6f3e1d81224ea9bdc4a213c36d50a39ce3b5ff/echoloader-0.1.8.tar.gz
+[2023-06-30 08:36:19] WARNING root fetch - processPackages [Aspose.Slides]: Skipping package: exceeds size limit 64722262>=10485760
+[2023-06-30 08:36:19] INFO root fetch - processPackages [Aspose.Slides]: Start processing: odoo13-addons-oca-server-ux
+[2023-06-30 08:36:19] INFO root fetch - main [MainThread]: End processing [Aspose.Slides] error
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo13-addons-oca-server-ux]: New version: [13.0.20230629.0] Old Version: [13.0.20230617.0]
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo13-addon-base-substate]: Downloading https://files.pythonhosted.org/packages/c0/8a/1768239d1745f26bdec29018ea8f8a883d50e772fc04c9739e5313010c21/odoo13_addon_base_substate-13.0.1.1.1.dev2-py3-none-any.whl
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/88/c6/22e8b39fc436489f7fe1e2bf36c41530c448020706e6282e7eafc6ece56e/odoo13_addon_base_tier_validation-13.0.1.9.1.dev8-py3-none-any.whl
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo13-addon-document-quick-access]: Downloading https://files.pythonhosted.org/packages/eb/f7/87ff588014772dc48f03d83b456ed9b06c510120b02bfee840a6cd113a31/odoo13_addon_document_quick_access-13.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/f5/f5/107f179fa23daee2682208ba123c298934303484ec8b4bffd3df015057ca/odoo14_addons_oca_server_tools-14.0.20230629.1-py3-none-any.whl
+[2023-06-30 08:36:19] INFO root fetch - processPackages [trongrid-extractor]: Downloading https://files.pythonhosted.org/packages/21/dd/2771fe5f4d1485a934a613db050ac279814c9d231a6bc761661961b04cce/trongrid_extractor-0.3.6.tar.gz
+[2023-06-30 08:36:19] INFO root fetch - processPackages [odoo13-addon-date-range]: Downloading https://files.pythonhosted.org/packages/05/e1/1ca4f35398e9d12583c3d568e3993a9e680c843f7d44f6935fc6aba5da84/odoo13_addon_date_range-13.0.1.0.3.dev7-py3-none-any.whl
+[2023-06-30 08:36:20] INFO root fetch - processPackages [star-chart-spherical-projection]: Downloading https://files.pythonhosted.org/packages/69/79/456746c93531a36283f0f51a092e50f5584990c0dc4556cb9a90a6e4f90f/star-chart-spherical-projection-1.5.0.tar.gz
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo13-addon-base-substate]: executing diffoscope
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo13-addon-base-substate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_base_substate-13.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo13_addon_base_substate-13.0.1.1.1.dev2-py3-none-any.whl.zip --markdown 20230630/o/odoo13-addon-base-substate/13.0.1.1.1.dev1-13.0.1.1.1.dev2/diff.md --exclude *.pyd
+[2023-06-30 08:36:20] INFO root fetch - processPackages [echoloader]: Downloading https://files.pythonhosted.org/packages/b7/f3/470c40bb2ae59cc22bb0d30cdbadad02e309abc8d3fc8fa3d69cdc370fbd/echoloader-0.1.9.tar.gz
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: executing diffoscope
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_base_tier_validation-13.0.1.9.1.dev6-py3-none-any.whl.zip tmp/odoo13_addon_base_tier_validation-13.0.1.9.1.dev8-py3-none-any.whl.zip --markdown 20230630/o/odoo13-addon-base-tier-validation/13.0.1.9.1.dev6-13.0.1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo13-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/ca/64/af44a8849cf4590b2daa3b79123fd59be276d5da8d61555f271cae9665a1/odoo13_addons_oca_server_ux-13.0.20230617.0-py3-none-any.whl
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo13-addon-announcement]: Downloading https://files.pythonhosted.org/packages/13/ea/62af7faa0f2a8877a45e28190387cc6539f2974f57f879b631a131287019/odoo13_addon_announcement-13.0.2.1.1.dev4-py3-none-any.whl
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo13-addon-document-quick-access]: executing diffoscope
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo13-addon-document-quick-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_document_quick_access-13.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo13_addon_document_quick_access-13.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230630/o/odoo13-addon-document-quick-access/13.0.1.0.1.dev6-13.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: executing diffoscope
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_server_tools-14.0.20230511.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_server_tools-14.0.20230629.1-py3-none-any.whl.zip --markdown 20230630/o/odoo14-addons-oca-server-tools/14.0.20230511.0-14.0.20230629.1/diff.md --exclude *.pyd
+[2023-06-30 08:36:20] INFO root fetch - processPackages [star-chart-spherical-projection]: executing diffoscope
+[2023-06-30 08:36:20] INFO root fetch - processPackages [star-chart-spherical-projection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/star-chart-spherical-projection-1.4.1.tar.gz tmp/star-chart-spherical-projection-1.5.0.tar.gz --markdown 20230630/s/star-chart-spherical-projection/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo13-addon-date-range]: executing diffoscope
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo13-addon-date-range]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_date_range-13.0.1.0.3.dev5-py3-none-any.whl.zip tmp/odoo13_addon_date_range-13.0.1.0.3.dev7-py3-none-any.whl.zip --markdown 20230630/o/odoo13-addon-date-range/13.0.1.0.3.dev5-13.0.1.0.3.dev7/diff.md --exclude *.pyd
+[2023-06-30 08:36:20] INFO root fetch - processPackages [echoloader]: executing diffoscope
+[2023-06-30 08:36:20] INFO root fetch - processPackages [echoloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echoloader-0.1.8.tar.gz tmp/echoloader-0.1.9.tar.gz --markdown 20230630/e/echoloader/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 08:36:20] INFO root fetch - processPackages [trongrid-extractor]: executing diffoscope
+[2023-06-30 08:36:20] INFO root fetch - processPackages [trongrid-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trongrid_extractor-0.3.5.tar.gz tmp/trongrid_extractor-0.3.6.tar.gz --markdown 20230630/t/trongrid-extractor/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo13-addon-announcement]: executing diffoscope
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo13-addon-announcement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_announcement-13.0.2.1.1.dev2-py3-none-any.whl.zip tmp/odoo13_addon_announcement-13.0.2.1.1.dev4-py3-none-any.whl.zip --markdown 20230630/o/odoo13-addon-announcement/13.0.2.1.1.dev2-13.0.2.1.1.dev4/diff.md --exclude *.pyd
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo13-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/fa/c0/282ab0cc1e9f1082ff3bc40d41861ef543286d7bea41749efa73f7ed7579/odoo13_addons_oca_server_ux-13.0.20230629.0-py3-none-any.whl
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo13-addons-oca-server-ux]: executing diffoscope
+[2023-06-30 08:36:20] INFO root fetch - processPackages [odoo13-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_server_ux-13.0.20230617.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_server_ux-13.0.20230629.0-py3-none-any.whl.zip --markdown 20230630/o/odoo13-addons-oca-server-ux/13.0.20230617.0-13.0.20230629.0/diff.md --exclude *.pyd
+[2023-06-30 08:36:21] INFO root fetch - processPackages [odoo13-addon-base-substate]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_substate-13.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-06-30 08:36:21] INFO root fetch - processPackages [odoo13-addon-base-substate]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_substate-13.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-06-30 08:36:21] INFO root fetch - processPackages [odoo13-addon-base-substate]: Start processing: CartiMorph-nnUnet
+[2023-06-30 08:36:21] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-substate]: success
+[2023-06-30 08:36:21] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_tools-14.0.20230511.0-py3-none-any.whl.zip]
+[2023-06-30 08:36:21] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_tools-14.0.20230629.1-py3-none-any.whl.zip]
+[2023-06-30 08:36:21] INFO root fetch - processPackages [odoo14-addons-oca-server-tools]: Start processing: intercode-bench
+[2023-06-30 08:36:21] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-server-tools]: success
+[2023-06-30 08:36:21] WARNING root fetch - processPackages [CartiMorph-nnUnet]: Skipping, unable to determine old version
+[2023-06-30 08:36:21] INFO root fetch - processPackages [CartiMorph-nnUnet]: Start processing: SecureMessaging
+[2023-06-30 08:36:21] INFO root fetch - main [MainThread]: End processing [CartiMorph-nnUnet] error
+[2023-06-30 08:36:21] WARNING root fetch - processPackages [SecureMessaging]: Skipping, unable to determine old version
+[2023-06-30 08:36:21] INFO root fetch - processPackages [SecureMessaging]: Start processing: homeassistant
+[2023-06-30 08:36:21] INFO root fetch - main [MainThread]: End processing [SecureMessaging] error
+[2023-06-30 08:36:21] INFO root fetch - processPackages [intercode-bench]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 08:36:21] INFO root fetch - processPackages [homeassistant]: New version: [2023.7.0b2] Old Version: [2023.7.0b1]
+[2023-06-30 08:36:21] INFO root fetch - processPackages [trongrid-extractor]: Remove: archive file [/home/abi/fetcher/tmp/trongrid_extractor-0.3.5.tar.gz]
+[2023-06-30 08:36:21] INFO root fetch - processPackages [trongrid-extractor]: Remove: archive file [/home/abi/fetcher/tmp/trongrid_extractor-0.3.6.tar.gz]
+[2023-06-30 08:36:21] INFO root fetch - main [MainThread]: End processing [trongrid-extractor]: success
+[2023-06-30 08:36:21] INFO root fetch - processPackages [echoloader]: Remove: archive file [/home/abi/fetcher/tmp/echoloader-0.1.8.tar.gz]
+[2023-06-30 08:36:21] INFO root fetch - processPackages [echoloader]: Remove: archive file [/home/abi/fetcher/tmp/echoloader-0.1.9.tar.gz]
+[2023-06-30 08:36:21] INFO root fetch - main [MainThread]: End processing [echoloader]: success
+[2023-06-30 08:36:22] INFO root fetch - processPackages [odoo13-addon-document-quick-access]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_document_quick_access-13.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-06-30 08:36:22] INFO root fetch - processPackages [odoo13-addon-document-quick-access]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_document_quick_access-13.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-30 08:36:22] INFO root fetch - main [MainThread]: End processing [odoo13-addon-document-quick-access]: success
+[2023-06-30 08:36:22] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/63/d5/9e02e42038c189940afe860abdb28475565d6b4c4723f0c5be317edf3cc2/homeassistant-2023.7.0b1.tar.gz
+[2023-06-30 08:36:22] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 14550875>=10485760
+[2023-06-30 08:36:22] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-06-30 08:36:22] INFO root fetch - processPackages [intercode-bench]: executing diffoscope
+[2023-06-30 08:36:22] INFO root fetch - processPackages [intercode-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intercode-bench-0.1.8.tar.gz tmp/intercode-bench-0.1.9.tar.gz --markdown 20230630/i/intercode-bench/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 08:36:22] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_tier_validation-13.0.1.9.1.dev6-py3-none-any.whl.zip]
+[2023-06-30 08:36:22] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_tier_validation-13.0.1.9.1.dev8-py3-none-any.whl.zip]
+[2023-06-30 08:36:22] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-tier-validation]: success
+[2023-06-30 08:36:22] INFO root fetch - processPackages [odoo13-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_server_ux-13.0.20230617.0-py3-none-any.whl.zip]
+[2023-06-30 08:36:22] INFO root fetch - processPackages [odoo13-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_server_ux-13.0.20230629.0-py3-none-any.whl.zip]
+[2023-06-30 08:36:22] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-server-ux]: success
+[2023-06-30 08:36:22] INFO root fetch - processPackages [star-chart-spherical-projection]: Remove: archive file [/home/abi/fetcher/tmp/star-chart-spherical-projection-1.4.1.tar.gz]
+[2023-06-30 08:36:22] INFO root fetch - processPackages [star-chart-spherical-projection]: Remove: archive file [/home/abi/fetcher/tmp/star-chart-spherical-projection-1.5.0.tar.gz]
+[2023-06-30 08:36:22] INFO root fetch - main [MainThread]: End processing [star-chart-spherical-projection]: success
+[2023-06-30 08:36:22] INFO root fetch - processPackages [odoo13-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_announcement-13.0.2.1.1.dev2-py3-none-any.whl.zip]
+[2023-06-30 08:36:22] INFO root fetch - processPackages [odoo13-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_announcement-13.0.2.1.1.dev4-py3-none-any.whl.zip]
+[2023-06-30 08:36:22] INFO root fetch - main [MainThread]: End processing [odoo13-addon-announcement]: success
+[2023-06-30 08:36:22] INFO root fetch - processPackages [odoo13-addon-date-range]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_date_range-13.0.1.0.3.dev5-py3-none-any.whl.zip]
+[2023-06-30 08:36:22] INFO root fetch - processPackages [odoo13-addon-date-range]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_date_range-13.0.1.0.3.dev7-py3-none-any.whl.zip]
+[2023-06-30 08:36:22] INFO root fetch - main [MainThread]: End processing [odoo13-addon-date-range]: success
+[2023-06-30 08:36:23] INFO root fetch - processPackages [intercode-bench]: Remove: archive file [/home/abi/fetcher/tmp/intercode-bench-0.1.8.tar.gz]
+[2023-06-30 08:36:23] INFO root fetch - processPackages [intercode-bench]: Remove: archive file [/home/abi/fetcher/tmp/intercode-bench-0.1.9.tar.gz]
+[2023-06-30 08:36:23] INFO root fetch - main [MainThread]: End processing [intercode-bench]: success
+[2023-06-30 08:36:23] INFO root fetch - main [MainThread]: Store serial: [18706619]
