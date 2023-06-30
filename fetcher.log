@@ -22684,3 +22684,154 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 14:55:20] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b2.tar.gz]
 [2023-06-30 14:55:20] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2023-06-30 14:55:20] INFO root fetch - main [MainThread]: Store serial: [18710986]
+[2023-06-30 15:00:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18710986]
+[2023-06-30 15:00:30] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-30 15:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-spark2
+[2023-06-30 15:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: riptide-cpp
+[2023-06-30 15:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: live-parquet
+[2023-06-30 15:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ice-simplex-assimilate
+[2023-06-30 15:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edcrypt
+[2023-06-30 15:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seaplane
+[2023-06-30 15:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OpenFisca-France
+[2023-06-30 15:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: specklia
+[2023-06-30 15:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: QuNet
+[2023-06-30 15:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: returnn
+[2023-06-30 15:00:30] INFO root fetch - processPackages [specklia]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-30 15:00:30] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230630] Old Version: [2.4.0b20230629]
+[2023-06-30 15:00:30] INFO root fetch - processPackages [live-parquet]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-30 15:00:30] INFO root fetch - processPackages [ice-simplex-assimilate]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-30 15:00:30] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 15:00:30] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-30 15:00:30] INFO root fetch - processPackages [returnn]: New version: [1.20230630.93532] Old Version: [1.20230630.144332]
+[2023-06-30 15:00:30] WARNING root fetch - processPackages [edcrypt]: Skipping, unable to determine old version
+[2023-06-30 15:00:30] INFO root fetch - processPackages [edcrypt]: Start processing: pynter-defects
+[2023-06-30 15:00:30] INFO root fetch - main [MainThread]: End processing [edcrypt] error
+[2023-06-30 15:00:30] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2023-06-30 15:00:30] INFO root fetch - processPackages [riptide-cpp]: New version: [1.9.0] Old Version: [1.8.9]
+[2023-06-30 15:00:30] INFO root fetch - processPackages [pynter-defects]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 15:00:30] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-06-30 15:00:30] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-06-30 15:00:30] INFO root fetch - processPackages [live-parquet]: Downloading https://files.pythonhosted.org/packages/cc/a5/452e199aaba61381874842671a159fb9c8d21916e95cb9b57b85c3b4000b/live_parquet-0.3.0.tar.gz
+[2023-06-30 15:00:30] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/96/76/8b85b90f72cfa2149bf44d0237d2b7bf8800101d324724b518331f85083e/returnn-1.20230630.144332.tar.gz
+[2023-06-30 15:00:30] INFO root fetch - processPackages [ice-simplex-assimilate]: Downloading https://files.pythonhosted.org/packages/f7/99/899068c730831578581ffb64b40297e11666f7ee19b480e5d9ac2b39d4af/ice_simplex_assimilate-0.1.1.tar.gz
+[2023-06-30 15:00:31] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/33/6a/c2285111da3cf84ccf0a0fe5707fe578a6a613cac9f9c80584fa463ce1e4/specklia-1.1.8.tar.gz
+[2023-06-30 15:00:31] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/8f/34/56dfe7ab9021bdc4ae7a631d20869d404707a83f17d4f3778da0425e2a5c/bigdl_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-30 15:00:31] INFO root fetch - processPackages [riptide-cpp]: Downloading https://files.pythonhosted.org/packages/db/fd/c4b17669c6c70a11070c05654d0b1d7e3cccd44508f35ffd5ed5c52b0059/riptide_cpp-1.8.9.tar.gz
+[2023-06-30 15:00:31] INFO root fetch - processPackages [pynter-defects]: Downloading https://files.pythonhosted.org/packages/ed/41/6a22be9a322e8a05d87c3f642b838eec335f999eb4a33e5688706c280378/pynter-defects-1.0.8.tar.gz
+[2023-06-30 15:00:31] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-06-30 15:00:31] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-06-30 15:00:31] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-30 15:00:31] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230630/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 15:00:31] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2023-06-30 15:00:31] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20230630/O/OpenFisca-France/99.0.0-99.0.1/diff.md --exclude *.pyd
+[2023-06-30 15:00:31] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/8d/f2/62097226974f5a605bbe2b9505b1f7b6eb50447f91332f10291c40136656/returnn-1.20230630.93532.tar.gz
+[2023-06-30 15:00:31] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-06-30 15:00:31] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230630/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-30 15:00:31] INFO root fetch - processPackages [ice-simplex-assimilate]: Downloading https://files.pythonhosted.org/packages/20/93/59dbaf9e5e4af77140b57457d360c2efa2809cbfb4e8cd7d3a7aef381e4c/ice_simplex_assimilate-0.1.2.tar.gz
+[2023-06-30 15:00:31] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/8a/bb/adc9508110e9672f037719fab6326e71a9f7072e8fae904f3ee9f818ed69/specklia-1.1.9.tar.gz
+[2023-06-30 15:00:31] INFO root fetch - processPackages [live-parquet]: Downloading https://files.pythonhosted.org/packages/d1/4d/26369d6408aa53d2f4d8aecef149165ae06fb2d3988f3f37c9bd039a6540/live_parquet-0.4.0.tar.gz
+[2023-06-30 15:00:31] INFO root fetch - processPackages [ice-simplex-assimilate]: executing diffoscope
+[2023-06-30 15:00:31] INFO root fetch - processPackages [ice-simplex-assimilate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ice_simplex_assimilate-0.1.1.tar.gz tmp/ice_simplex_assimilate-0.1.2.tar.gz --markdown 20230630/i/ice-simplex-assimilate/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-30 15:00:31] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-06-30 15:00:31] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.1.8.tar.gz tmp/specklia-1.1.9.tar.gz --markdown 20230630/s/specklia/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-30 15:00:31] INFO root fetch - processPackages [live-parquet]: executing diffoscope
+[2023-06-30 15:00:31] INFO root fetch - processPackages [live-parquet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/live_parquet-0.3.0.tar.gz tmp/live_parquet-0.4.0.tar.gz --markdown 20230630/l/live-parquet/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-30 15:00:31] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/03/81/a3bc21b165c46f64006e122be6eff998c432cb3cd3f76e5913ed824d781c/bigdl_spark2-2.4.0b20230630-py3-none-manylinux1_x86_64.whl
+[2023-06-30 15:00:31] INFO root fetch - processPackages [pynter-defects]: Downloading https://files.pythonhosted.org/packages/f9/aa/1c1e433831cbf1ed97fd892eb51c38d5c2656bf4058a4a9743e577d60ed0/pynter-defects-1.0.9.tar.gz
+[2023-06-30 15:00:31] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-06-30 15:00:31] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip --markdown 20230630/b/bigdl-spark2/2.4.0b20230629-2.4.0b20230630/diff.md --exclude *.pyd
+[2023-06-30 15:00:31] INFO root fetch - processPackages [pynter-defects]: executing diffoscope
+[2023-06-30 15:00:31] INFO root fetch - processPackages [pynter-defects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynter-defects-1.0.8.tar.gz tmp/pynter-defects-1.0.9.tar.gz --markdown 20230630/p/pynter-defects/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 15:00:31] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-06-30 15:00:31] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230630.144332.tar.gz tmp/returnn-1.20230630.93532.tar.gz --markdown 20230630/r/returnn/1.20230630.144332-1.20230630.93532/diff.md --exclude *.pyd
+[2023-06-30 15:00:32] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip]
+[2023-06-30 15:00:32] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
+[2023-06-30 15:00:32] INFO root fetch - processPackages [OpenFisca-France]: Start processing: cdspyreadme
+[2023-06-30 15:00:32] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2023-06-30 15:00:32] INFO root fetch - processPackages [cdspyreadme]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-30 15:00:32] INFO root fetch - processPackages [riptide-cpp]: Downloading https://files.pythonhosted.org/packages/76/be/c8ec5af2c132d512e5ddcc7edf4ddbd661747c5c6daa3cd571e3b158f613/riptide_cpp-1.9.0.tar.gz
+[2023-06-30 15:00:32] INFO root fetch - processPackages [cdspyreadme]: Downloading https://files.pythonhosted.org/packages/d1/d1/9423a18518262c7a7728a01b4cffbab3f802b932a12a9e00cb83ea582652/cdspyreadme-1.5.1.tar.gz
+[2023-06-30 15:00:32] INFO root fetch - processPackages [ice-simplex-assimilate]: Remove: archive file [/home/abi/fetcher/tmp/ice_simplex_assimilate-0.1.1.tar.gz]
+[2023-06-30 15:00:32] INFO root fetch - processPackages [ice-simplex-assimilate]: Remove: archive file [/home/abi/fetcher/tmp/ice_simplex_assimilate-0.1.2.tar.gz]
+[2023-06-30 15:00:32] INFO root fetch - processPackages [ice-simplex-assimilate]: Start processing: django-sys-indicator
+[2023-06-30 15:00:32] INFO root fetch - main [MainThread]: End processing [ice-simplex-assimilate]: success
+[2023-06-30 15:00:32] INFO root fetch - processPackages [django-sys-indicator]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-30 15:00:33] INFO root fetch - processPackages [django-sys-indicator]: Downloading https://files.pythonhosted.org/packages/f0/e8/50fa7317e13e5860ff5cb7d0c7e4e5abfcb6ca533c267eed1a0d54aab371/django-sys-indicator-2.0.0.tar.gz
+[2023-06-30 15:00:33] INFO root fetch - processPackages [live-parquet]: Remove: archive file [/home/abi/fetcher/tmp/live_parquet-0.3.0.tar.gz]
+[2023-06-30 15:00:33] INFO root fetch - processPackages [live-parquet]: Remove: archive file [/home/abi/fetcher/tmp/live_parquet-0.4.0.tar.gz]
+[2023-06-30 15:00:33] INFO root fetch - processPackages [live-parquet]: Start processing: quickstart-rhy
+[2023-06-30 15:00:33] INFO root fetch - main [MainThread]: End processing [live-parquet]: success
+[2023-06-30 15:00:33] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-06-30 15:00:33] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-06-30 15:00:33] INFO root fetch - processPackages [QuNet]: Start processing: riptide
+[2023-06-30 15:00:33] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-30 15:00:33] INFO root fetch - processPackages [quickstart-rhy]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-30 15:00:33] INFO root fetch - processPackages [cdspyreadme]: Downloading https://files.pythonhosted.org/packages/67/66/ce33af3db81002b2cffa7422707ec8714ea7e05beba9cc3c381c656b0cd5/cdspyreadme-1.5.2.tar.gz
+[2023-06-30 15:00:33] INFO root fetch - processPackages [riptide]: New version: [3.4.9] Old Version: [3.4.81]
+[2023-06-30 15:00:33] INFO root fetch - processPackages [cdspyreadme]: executing diffoscope
+[2023-06-30 15:00:33] INFO root fetch - processPackages [cdspyreadme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdspyreadme-1.5.1.tar.gz tmp/cdspyreadme-1.5.2.tar.gz --markdown 20230630/c/cdspyreadme/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-30 15:00:33] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-30 15:00:33] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-30 15:00:33] INFO root fetch - processPackages [bigdl-spark2]: Start processing: bdq
+[2023-06-30 15:00:33] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-06-30 15:00:33] INFO root fetch - processPackages [bdq]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-30 15:00:33] INFO root fetch - processPackages [riptide]: Downloading https://files.pythonhosted.org/packages/51/42/e02d5567ac6f1c488550ce742fd58429d57c4209763b8931cccca9fb3be4/riptide-3.4.81.tar.gz
+[2023-06-30 15:00:33] INFO root fetch - processPackages [bdq]: Downloading https://files.pythonhosted.org/packages/01/17/8b58b9c6d4f08226dc4931b03c78c555caa918682766c46d1b3b7bb75ee3/bdq-0.0.3.tar.gz
+[2023-06-30 15:00:33] INFO root fetch - processPackages [quickstart-rhy]: Downloading https://files.pythonhosted.org/packages/f0/eb/ebaca14fc2743159644e49f20ea7915eda2349860cbb7c611b580cf052e9/quickstart_rhy-0.7.2.tar.gz
+[2023-06-30 15:00:33] INFO root fetch - processPackages [django-sys-indicator]: Downloading https://files.pythonhosted.org/packages/d3/aa/887ed189dd430bc65382addfb95499b350d2a9f61bae5c4277a408d51305/django-sys-indicator-2.1.0.tar.gz
+[2023-06-30 15:00:33] INFO root fetch - processPackages [django-sys-indicator]: executing diffoscope
+[2023-06-30 15:00:33] INFO root fetch - processPackages [django-sys-indicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sys-indicator-2.0.0.tar.gz tmp/django-sys-indicator-2.1.0.tar.gz --markdown 20230630/d/django-sys-indicator/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-30 15:00:33] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.1.8.tar.gz]
+[2023-06-30 15:00:33] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.1.9.tar.gz]
+[2023-06-30 15:00:33] INFO root fetch - processPackages [specklia]: Start processing: vunnel
+[2023-06-30 15:00:33] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-06-30 15:00:33] INFO root fetch - processPackages [vunnel]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-30 15:00:33] INFO root fetch - processPackages [vunnel]: Downloading https://files.pythonhosted.org/packages/f6/6a/85f266b939729e0527c20e7f0d1d4bdb18f43de4df5e4de358517863b381/vunnel-0.8.1.tar.gz
+[2023-06-30 15:00:33] INFO root fetch - processPackages [bdq]: Downloading https://files.pythonhosted.org/packages/7d/23/bf2f3e7c7fbc4bff841da3a83eac80b9470395b62615041afe105ec10589/bdq-0.0.4.tar.gz
+[2023-06-30 15:00:33] INFO root fetch - processPackages [quickstart-rhy]: Downloading https://files.pythonhosted.org/packages/59/a4/dce114e662feb9a2d46692594bd9c94b684bb605f8ae01b7bb5c46c0fa09/quickstart_rhy-0.7.3.tar.gz
+[2023-06-30 15:00:33] INFO root fetch - processPackages [riptide]: Downloading https://files.pythonhosted.org/packages/cc/2c/3de6f3bcc401cc3becad55abc39172e6f219cfaa191f6e9f4a7129148228/riptide-3.4.9.tar.gz
+[2023-06-30 15:00:33] INFO root fetch - processPackages [vunnel]: Downloading https://files.pythonhosted.org/packages/28/00/513fd11c9a1cce9d061a9d193f4a8185a9d477a88073e4bb693a5516e783/vunnel-0.9.0.tar.gz
+[2023-06-30 15:00:33] INFO root fetch - processPackages [bdq]: executing diffoscope
+[2023-06-30 15:00:33] INFO root fetch - processPackages [bdq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdq-0.0.3.tar.gz tmp/bdq-0.0.4.tar.gz --markdown 20230630/b/bdq/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-30 15:00:33] INFO root fetch - processPackages [quickstart-rhy]: executing diffoscope
+[2023-06-30 15:00:33] INFO root fetch - processPackages [quickstart-rhy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart_rhy-0.7.2.tar.gz tmp/quickstart_rhy-0.7.3.tar.gz --markdown 20230630/q/quickstart-rhy/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-30 15:00:33] INFO root fetch - processPackages [vunnel]: executing diffoscope
+[2023-06-30 15:00:33] INFO root fetch - processPackages [vunnel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vunnel-0.8.1.tar.gz tmp/vunnel-0.9.0.tar.gz --markdown 20230630/v/vunnel/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-30 15:00:34] INFO root fetch - processPackages [riptide]: executing diffoscope
+[2023-06-30 15:00:34] INFO root fetch - processPackages [riptide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptide-3.4.81.tar.gz tmp/riptide-3.4.9.tar.gz --markdown 20230630/r/riptide/3.4.81-3.4.9/diff.md --exclude *.pyd
+[2023-06-30 15:00:34] INFO root fetch - processPackages [riptide-cpp]: executing diffoscope
+[2023-06-30 15:00:34] INFO root fetch - processPackages [riptide-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptide_cpp-1.8.9.tar.gz tmp/riptide_cpp-1.9.0.tar.gz --markdown 20230630/r/riptide-cpp/1.8.9-1.9.0/diff.md --exclude *.pyd
+[2023-06-30 15:00:34] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-06-30 15:00:34] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-06-30 15:00:34] INFO root fetch - processPackages [seaplane]: Start processing: fast-align-audio
+[2023-06-30 15:00:34] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-06-30 15:00:34] WARNING root fetch - processPackages [fast-align-audio]: Skipping, unable to determine old version
+[2023-06-30 15:00:34] INFO root fetch - main [MainThread]: End processing [fast-align-audio] error
+[2023-06-30 15:00:34] INFO root fetch - processPackages [django-sys-indicator]: Remove: archive file [/home/abi/fetcher/tmp/django-sys-indicator-2.0.0.tar.gz]
+[2023-06-30 15:00:34] INFO root fetch - processPackages [django-sys-indicator]: Remove: archive file [/home/abi/fetcher/tmp/django-sys-indicator-2.1.0.tar.gz]
+[2023-06-30 15:00:34] INFO root fetch - main [MainThread]: End processing [django-sys-indicator]: success
+[2023-06-30 15:00:34] INFO root fetch - processPackages [cdspyreadme]: Remove: archive file [/home/abi/fetcher/tmp/cdspyreadme-1.5.1.tar.gz]
+[2023-06-30 15:00:34] INFO root fetch - processPackages [cdspyreadme]: Remove: archive file [/home/abi/fetcher/tmp/cdspyreadme-1.5.2.tar.gz]
+[2023-06-30 15:00:34] INFO root fetch - main [MainThread]: End processing [cdspyreadme]: success
+[2023-06-30 15:00:35] INFO root fetch - processPackages [bdq]: Remove: archive file [/home/abi/fetcher/tmp/bdq-0.0.3.tar.gz]
+[2023-06-30 15:00:35] INFO root fetch - processPackages [bdq]: Remove: archive file [/home/abi/fetcher/tmp/bdq-0.0.4.tar.gz]
+[2023-06-30 15:00:35] INFO root fetch - main [MainThread]: End processing [bdq]: success
+[2023-06-30 15:00:35] INFO root fetch - processPackages [quickstart-rhy]: Remove: archive file [/home/abi/fetcher/tmp/quickstart_rhy-0.7.2.tar.gz]
+[2023-06-30 15:00:35] INFO root fetch - processPackages [quickstart-rhy]: Remove: archive file [/home/abi/fetcher/tmp/quickstart_rhy-0.7.3.tar.gz]
+[2023-06-30 15:00:35] INFO root fetch - main [MainThread]: End processing [quickstart-rhy]: success
+[2023-06-30 15:00:35] INFO root fetch - processPackages [vunnel]: Remove: archive file [/home/abi/fetcher/tmp/vunnel-0.8.1.tar.gz]
+[2023-06-30 15:00:35] INFO root fetch - processPackages [vunnel]: Remove: archive file [/home/abi/fetcher/tmp/vunnel-0.9.0.tar.gz]
+[2023-06-30 15:00:35] INFO root fetch - main [MainThread]: End processing [vunnel]: success
+[2023-06-30 15:00:35] INFO root fetch - processPackages [pynter-defects]: Remove: archive file [/home/abi/fetcher/tmp/pynter-defects-1.0.8.tar.gz]
+[2023-06-30 15:00:35] INFO root fetch - processPackages [pynter-defects]: Remove: archive file [/home/abi/fetcher/tmp/pynter-defects-1.0.9.tar.gz]
+[2023-06-30 15:00:35] INFO root fetch - main [MainThread]: End processing [pynter-defects]: success
+[2023-06-30 15:00:36] INFO root fetch - processPackages [riptide]: Remove: archive file [/home/abi/fetcher/tmp/riptide-3.4.81.tar.gz]
+[2023-06-30 15:00:36] INFO root fetch - processPackages [riptide]: Remove: archive file [/home/abi/fetcher/tmp/riptide-3.4.9.tar.gz]
+[2023-06-30 15:00:36] INFO root fetch - main [MainThread]: End processing [riptide]: success
+[2023-06-30 15:00:36] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230630.144332.tar.gz]
+[2023-06-30 15:00:36] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230630.93532.tar.gz]
+[2023-06-30 15:00:36] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-06-30 15:01:20] INFO root fetch - processPackages [riptide-cpp]: Remove: archive file [/home/abi/fetcher/tmp/riptide_cpp-1.8.9.tar.gz]
+[2023-06-30 15:01:20] INFO root fetch - processPackages [riptide-cpp]: Remove: archive file [/home/abi/fetcher/tmp/riptide_cpp-1.9.0.tar.gz]
+[2023-06-30 15:01:20] INFO root fetch - main [MainThread]: End processing [riptide-cpp]: success
+[2023-06-30 15:01:20] INFO root fetch - main [MainThread]: Store serial: [18711040]
