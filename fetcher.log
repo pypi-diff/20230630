@@ -13253,3 +13253,71 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 08:36:23] INFO root fetch - processPackages [intercode-bench]: Remove: archive file [/home/abi/fetcher/tmp/intercode-bench-0.1.9.tar.gz]
 [2023-06-30 08:36:23] INFO root fetch - main [MainThread]: End processing [intercode-bench]: success
 [2023-06-30 08:36:23] INFO root fetch - main [MainThread]: Store serial: [18706619]
+[2023-06-30 08:41:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706619]
+[2023-06-30 08:41:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-30 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homeassistant
+[2023-06-30 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt4-api
+[2023-06-30 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-free-quantity
+[2023-06-30 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyc-gbm
+[2023-06-30 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-stock-logistics-availability
+[2023-06-30 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: egune
+[2023-06-30 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audio-separator
+[2023-06-30 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arcan
+[2023-06-30 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-dot
+[2023-06-30 08:41:31] INFO root fetch - processPackages [gpt4-api]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-30 08:41:31] INFO root fetch - processPackages [egune]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-30 08:41:31] WARNING root fetch - processPackages [audio-separator]: Skipping, unable to determine old version
+[2023-06-30 08:41:31] INFO root fetch - processPackages [arcan]: New version: [1.1.1] Old Version: [1.0.1]
+[2023-06-30 08:41:31] INFO root fetch - main [MainThread]: End processing [audio-separator] error
+[2023-06-30 08:41:31] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1.4]
+[2023-06-30 08:41:31] INFO root fetch - processPackages [homeassistant]: New version: [2023.7.0b2] Old Version: [2023.7.0b1]
+[2023-06-30 08:41:31] INFO root fetch - processPackages [egune]: Downloading https://files.pythonhosted.org/packages/97/42/7c2dd6b04736bffa890a5c34420b59d954c6102f8fa405f25d20c6f27334/egune-0.2.8.tar.gz
+[2023-06-30 08:41:31] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/b7/1f/c6e1230e32813c4c54d25d84cb57659667b9b79965d8135d10714589d106/gpt4-api-0.1.9.tar.gz
+[2023-06-30 08:41:31] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: Downloading https://files.pythonhosted.org/packages/df/ab/1e12c4a9704eb598e22b9613d5e98b15e60b918de84f3ad5a60e20b7b0d2/odoo_addon_stock_free_quantity-15.0.1.0.1.4-py3-none-any.whl
+[2023-06-30 08:41:31] INFO root fetch - processPackages [py-dot]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-30 08:41:31] WARNING root fetch - processPackages [cyc-gbm]: Skipping, unable to determine old version
+[2023-06-30 08:41:31] INFO root fetch - main [MainThread]: End processing [cyc-gbm] error
+[2023-06-30 08:41:31] INFO root fetch - processPackages [arcan]: Downloading https://files.pythonhosted.org/packages/56/3e/aca61c1c30e278d1671440ea0a25e82468b61cedf724b3972081c6a4716b/arcan-1.0.1.tar.gz
+[2023-06-30 08:41:31] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: New version: [16.0.20230629.0] Old Version: [16.0.20230424.0]
+[2023-06-30 08:41:32] INFO root fetch - processPackages [egune]: Downloading https://files.pythonhosted.org/packages/f6/3f/63951447f046b34d9d429bbf3a8f8e46cd998e857461e5ba92c8b1a76ede/egune-0.2.9.tar.gz
+[2023-06-30 08:41:32] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/63/d5/9e02e42038c189940afe860abdb28475565d6b4c4723f0c5be317edf3cc2/homeassistant-2023.7.0b1.tar.gz
+[2023-06-30 08:41:32] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/a6/65/c0a9703d887ab6eebc186741491901c1dab4507938279950efddef047226/gpt4-api-0.2.0.tar.gz
+[2023-06-30 08:41:32] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: Downloading https://files.pythonhosted.org/packages/71/31/513b5605104b4863c9a6679fd0be31a24c96ace768c1029748de1495b6b5/odoo_addon_stock_free_quantity-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-30 08:41:32] INFO root fetch - processPackages [arcan]: Downloading https://files.pythonhosted.org/packages/3a/d0/a8c34c26d17f44e599fad934d1ede3d734c5a7309a9d76ac4f44b873fa0c/arcan-1.1.1.tar.gz
+[2023-06-30 08:41:32] INFO root fetch - processPackages [py-dot]: Downloading https://files.pythonhosted.org/packages/55/25/e24d1ccd058c20d2d8a03888d34da39feeccd469ed9efe2371be4ef22c7b/py_dot-0.6.0.tar.gz
+[2023-06-30 08:41:32] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 14550875>=10485760
+[2023-06-30 08:41:32] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-06-30 08:41:32] INFO root fetch - processPackages [egune]: executing diffoscope
+[2023-06-30 08:41:32] INFO root fetch - processPackages [egune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/egune-0.2.8.tar.gz tmp/egune-0.2.9.tar.gz --markdown 20230630/e/egune/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-30 08:41:32] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: Downloading https://files.pythonhosted.org/packages/a8/2c/c6b3d1a897868bbda1ee8e74b54859f05476871b14e0366987b8cde81f2c/odoo_addons_oca_stock_logistics_availability-16.0.20230424.0-py3-none-any.whl
+[2023-06-30 08:41:32] INFO root fetch - processPackages [arcan]: executing diffoscope
+[2023-06-30 08:41:32] INFO root fetch - processPackages [arcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcan-1.0.1.tar.gz tmp/arcan-1.1.1.tar.gz --markdown 20230630/a/arcan/1.0.1-1.1.1/diff.md --exclude *.pyd
+[2023-06-30 08:41:32] INFO root fetch - processPackages [gpt4-api]: executing diffoscope
+[2023-06-30 08:41:32] INFO root fetch - processPackages [gpt4-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4-api-0.1.9.tar.gz tmp/gpt4-api-0.2.0.tar.gz --markdown 20230630/g/gpt4-api/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-30 08:41:32] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: executing diffoscope
+[2023-06-30 08:41:32] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_free_quantity-15.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_stock_free_quantity-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230630/o/odoo-addon-stock-free-quantity/15.0.1.0.1.4-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-30 08:41:32] INFO root fetch - processPackages [py-dot]: Downloading https://files.pythonhosted.org/packages/d8/ec/570aa2d4662682f9f9f724c1ded3f2dc6f5302dece7d35e7b7768fb33700/py_dot-0.6.1.tar.gz
+[2023-06-30 08:41:32] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: Downloading https://files.pythonhosted.org/packages/61/df/67c7be147ae8eb6e66fd43d4fa406e658a1f3744edaf7b5749da8d1e39a4/odoo_addons_oca_stock_logistics_availability-16.0.20230629.0-py3-none-any.whl
+[2023-06-30 08:41:32] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: executing diffoscope
+[2023-06-30 08:41:32] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_availability-16.0.20230424.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_availability-16.0.20230629.0-py3-none-any.whl.zip --markdown 20230630/o/odoo-addons-oca-stock-logistics-availability/16.0.20230424.0-16.0.20230629.0/diff.md --exclude *.pyd
+[2023-06-30 08:41:32] INFO root fetch - processPackages [py-dot]: executing diffoscope
+[2023-06-30 08:41:32] INFO root fetch - processPackages [py-dot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dot-0.6.0.tar.gz tmp/py_dot-0.6.1.tar.gz --markdown 20230630/p/py-dot/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-30 08:41:33] INFO root fetch - processPackages [egune]: Remove: archive file [/home/abi/fetcher/tmp/egune-0.2.8.tar.gz]
+[2023-06-30 08:41:33] INFO root fetch - processPackages [egune]: Remove: archive file [/home/abi/fetcher/tmp/egune-0.2.9.tar.gz]
+[2023-06-30 08:41:33] INFO root fetch - main [MainThread]: End processing [egune]: success
+[2023-06-30 08:41:33] INFO root fetch - processPackages [gpt4-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-api-0.1.9.tar.gz]
+[2023-06-30 08:41:33] INFO root fetch - processPackages [gpt4-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-api-0.2.0.tar.gz]
+[2023-06-30 08:41:33] INFO root fetch - main [MainThread]: End processing [gpt4-api]: success
+[2023-06-30 08:41:33] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-1.0.1.tar.gz]
+[2023-06-30 08:41:33] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-1.1.1.tar.gz]
+[2023-06-30 08:41:33] INFO root fetch - main [MainThread]: End processing [arcan]: success
+[2023-06-30 08:41:33] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_free_quantity-15.0.1.0.1.4-py3-none-any.whl.zip]
+[2023-06-30 08:41:33] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_free_quantity-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-30 08:41:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-free-quantity]: success
+[2023-06-30 08:41:33] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_availability-16.0.20230424.0-py3-none-any.whl.zip]
+[2023-06-30 08:41:33] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_availability-16.0.20230629.0-py3-none-any.whl.zip]
+[2023-06-30 08:41:33] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-availability]: success
+[2023-06-30 08:41:33] INFO root fetch - processPackages [py-dot]: Remove: archive file [/home/abi/fetcher/tmp/py_dot-0.6.0.tar.gz]
+[2023-06-30 08:41:33] INFO root fetch - processPackages [py-dot]: Remove: archive file [/home/abi/fetcher/tmp/py_dot-0.6.1.tar.gz]
+[2023-06-30 08:41:33] INFO root fetch - main [MainThread]: End processing [py-dot]: success
+[2023-06-30 08:41:33] INFO root fetch - main [MainThread]: Store serial: [18706651]
