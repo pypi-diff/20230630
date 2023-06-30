@@ -13837,3 +13837,90 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 09:07:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
 [2023-06-30 09:07:46] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-06-30 09:07:46] INFO root fetch - main [MainThread]: Store serial: [18706848]
+[2023-06-30 09:12:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706848]
+[2023-06-30 09:12:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-30 09:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bs-db-migration
+[2023-06-30 09:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrefact
+[2023-06-30 09:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Generation-Image-Gaston
+[2023-06-30 09:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: huntflow-webhook-models
+[2023-06-30 09:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CartiMorph-nnUNet
+[2023-06-30 09:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tondortools
+[2023-06-30 09:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchkeras
+[2023-06-30 09:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: speakez
+[2023-06-30 09:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jolt-docker
+[2023-06-30 09:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jolt
+[2023-06-30 09:12:55] INFO root fetch - processPackages [huntflow-webhook-models]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-30 09:12:55] WARNING root fetch - processPackages [Generation-Image-Gaston]: Skipping, unable to determine old version
+[2023-06-30 09:12:55] INFO root fetch - processPackages [pyrefact]: New version: [9] Old Version: [89]
+[2023-06-30 09:12:55] INFO root fetch - processPackages [bs-db-migration]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-30 09:12:55] INFO root fetch - processPackages [Generation-Image-Gaston]: Start processing: servifai
+[2023-06-30 09:12:55] INFO root fetch - main [MainThread]: End processing [Generation-Image-Gaston] error
+[2023-06-30 09:12:55] INFO root fetch - processPackages [tondortools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 09:12:55] WARNING root fetch - processPackages [speakez]: Skipping, unable to determine old version
+[2023-06-30 09:12:55] WARNING root fetch - processPackages [CartiMorph-nnUNet]: Skipping, unable to determine old version
+[2023-06-30 09:12:55] INFO root fetch - processPackages [speakez]: Start processing: alipai
+[2023-06-30 09:12:55] INFO root fetch - processPackages [jolt-docker]: New version: [0.9.95] Old Version: [0.9.93]
+[2023-06-30 09:12:55] INFO root fetch - main [MainThread]: End processing [speakez] error
+[2023-06-30 09:12:55] INFO root fetch - processPackages [torchkeras]: New version: [3.9.0] Old Version: [3.8.9]
+[2023-06-30 09:12:55] INFO root fetch - main [MainThread]: End processing [CartiMorph-nnUNet] error
+[2023-06-30 09:12:55] WARNING root fetch - processPackages [servifai]: Skipping, unable to determine old version
+[2023-06-30 09:12:55] INFO root fetch - main [MainThread]: End processing [servifai] error
+[2023-06-30 09:12:55] INFO root fetch - processPackages [jolt]: New version: [0.9.97] Old Version: [0.9.95]
+[2023-06-30 09:12:55] INFO root fetch - processPackages [alipai]: New version: [0.4.1] Old Version: [0.4.0.post0]
+[2023-06-30 09:12:56] INFO root fetch - processPackages [torchkeras]: Downloading https://files.pythonhosted.org/packages/a7/01/8c1d5ec4e07f8940c4d4d08097233da28a14f1b9cada3eba781720722633/torchkeras-3.8.9.tar.gz
+[2023-06-30 09:12:56] INFO root fetch - processPackages [bs-db-migration]: Downloading https://files.pythonhosted.org/packages/17/c1/f7474ce506a7c3f38101d29d073525fb540409b0d20f0e7ee5b03562c3c8/bs_db_migration-0.2.1.tar.gz
+[2023-06-30 09:12:56] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/0e/e4/40cba332c59467a5be521b4108354c92fa61274e5e170eb9536a02e7bb3b/pyrefact-89.tar.gz
+[2023-06-30 09:12:56] INFO root fetch - processPackages [huntflow-webhook-models]: Downloading https://files.pythonhosted.org/packages/cc/ed/8bd9800372deb5b7ecf3e936dd7c2654ab3370a07380a015f881a522ec96/huntflow_webhook_models-0.0.5.tar.gz
+[2023-06-30 09:12:56] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/82/e1/2aa1fedb662921036c377a44557417b3457324fa888edd02a9f166b12fdd/tondortools-1.0.8.tar.gz
+[2023-06-30 09:12:56] INFO root fetch - processPackages [jolt]: Downloading https://files.pythonhosted.org/packages/18/39/073ecb0a9c17c9b36216fa00f733a95be6171d7d71cbade0058f937ce53b/jolt-0.9.95.tar.gz
+[2023-06-30 09:12:56] INFO root fetch - processPackages [jolt-docker]: Downloading https://files.pythonhosted.org/packages/3d/4d/20e2eb0ad39991eb2d6b511721ad7bb18df2823d3f65953c13be025e1e3b/jolt_docker-0.9.93.tar.gz
+[2023-06-30 09:12:56] INFO root fetch - processPackages [alipai]: Downloading https://files.pythonhosted.org/packages/2b/7b/4c288d24f812d1d4782b3489aa2bb30e80ee7ac547f93834b7d2bfa1c7e7/alipai-0.4.0.post0-py2.py3-none-any.whl
+[2023-06-30 09:12:56] INFO root fetch - processPackages [bs-db-migration]: Downloading https://files.pythonhosted.org/packages/ba/e2/b840d5d8b01fd9bd47f1487bb936cb236440c02ec2b1285da2885b4388f8/bs_db_migration-0.2.2.tar.gz
+[2023-06-30 09:12:56] INFO root fetch - processPackages [huntflow-webhook-models]: Downloading https://files.pythonhosted.org/packages/a0/21/d88afd53b0700c86fd2e4d967c17209f9b17b0d3e8b187048938f9dd3953/huntflow_webhook_models-0.0.6.tar.gz
+[2023-06-30 09:12:56] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/ec/25/07a98c4557e35e22a88708b9a988bbedf69d9c83d14aa843166c1bc82677/pyrefact-9.tar.gz
+[2023-06-30 09:12:56] INFO root fetch - processPackages [torchkeras]: Downloading https://files.pythonhosted.org/packages/32/ce/b2779c1f072d885b0f24dca6cee027b123da58845b2b28be8500b71494a4/torchkeras-3.9.0.tar.gz
+[2023-06-30 09:12:56] INFO root fetch - processPackages [tondortools]: Downloading https://files.pythonhosted.org/packages/7b/e5/c2a6c8cdb037b89a83b125d896c8496a2fb76ce7b44d0aac0f39fd3bf1ac/tondortools-1.0.9.tar.gz
+[2023-06-30 09:12:56] INFO root fetch - processPackages [bs-db-migration]: executing diffoscope
+[2023-06-30 09:12:56] INFO root fetch - processPackages [bs-db-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_db_migration-0.2.1.tar.gz tmp/bs_db_migration-0.2.2.tar.gz --markdown 20230630/b/bs-db-migration/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-30 09:12:56] INFO root fetch - processPackages [huntflow-webhook-models]: executing diffoscope
+[2023-06-30 09:12:56] INFO root fetch - processPackages [huntflow-webhook-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_webhook_models-0.0.5.tar.gz tmp/huntflow_webhook_models-0.0.6.tar.gz --markdown 20230630/h/huntflow-webhook-models/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-30 09:12:56] INFO root fetch - processPackages [alipai]: Downloading https://files.pythonhosted.org/packages/e9/5f/0184a0e82cdc0979a9aa70e5dcf273ad3fe20a714d18e5c6be1e26fd8bb6/alipai-0.4.1-py2.py3-none-any.whl
+[2023-06-30 09:12:56] INFO root fetch - processPackages [jolt]: Downloading https://files.pythonhosted.org/packages/cf/1e/068e7b8bff7d0eadf039a015bb6286f250cc8a3cf5edf54927424bb4fe1e/jolt-0.9.97.tar.gz
+[2023-06-30 09:12:56] INFO root fetch - processPackages [pyrefact]: executing diffoscope
+[2023-06-30 09:12:56] INFO root fetch - processPackages [pyrefact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrefact-89.tar.gz tmp/pyrefact-9.tar.gz --markdown 20230630/p/pyrefact/89-9/diff.md --exclude *.pyd
+[2023-06-30 09:12:56] INFO root fetch - processPackages [jolt-docker]: Downloading https://files.pythonhosted.org/packages/65/3b/fcaa54d80d4d38a7f457352705a6b33e69dcd69a3514df6f2b49d9fce7bd/jolt_docker-0.9.95.tar.gz
+[2023-06-30 09:12:56] INFO root fetch - processPackages [jolt]: executing diffoscope
+[2023-06-30 09:12:56] INFO root fetch - processPackages [jolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolt-0.9.95.tar.gz tmp/jolt-0.9.97.tar.gz --markdown 20230630/j/jolt/0.9.95-0.9.97/diff.md --exclude *.pyd
+[2023-06-30 09:12:56] INFO root fetch - processPackages [alipai]: executing diffoscope
+[2023-06-30 09:12:56] INFO root fetch - processPackages [alipai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alipai-0.4.0.post0-py2.py3-none-any.whl.zip tmp/alipai-0.4.1-py2.py3-none-any.whl.zip --markdown 20230630/a/alipai/0.4.0.post0-0.4.1/diff.md --exclude *.pyd
+[2023-06-30 09:12:56] INFO root fetch - processPackages [tondortools]: executing diffoscope
+[2023-06-30 09:12:56] INFO root fetch - processPackages [tondortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tondortools-1.0.8.tar.gz tmp/tondortools-1.0.9.tar.gz --markdown 20230630/t/tondortools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 09:12:56] INFO root fetch - processPackages [jolt-docker]: executing diffoscope
+[2023-06-30 09:12:56] INFO root fetch - processPackages [jolt-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolt_docker-0.9.93.tar.gz tmp/jolt_docker-0.9.95.tar.gz --markdown 20230630/j/jolt-docker/0.9.93-0.9.95/diff.md --exclude *.pyd
+[2023-06-30 09:12:57] INFO root fetch - processPackages [torchkeras]: executing diffoscope
+[2023-06-30 09:12:57] INFO root fetch - processPackages [torchkeras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchkeras-3.8.9.tar.gz tmp/torchkeras-3.9.0.tar.gz --markdown 20230630/t/torchkeras/3.8.9-3.9.0/diff.md --exclude *.pyd
+[2023-06-30 09:12:57] INFO root fetch - processPackages [huntflow-webhook-models]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_webhook_models-0.0.5.tar.gz]
+[2023-06-30 09:12:57] INFO root fetch - processPackages [huntflow-webhook-models]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_webhook_models-0.0.6.tar.gz]
+[2023-06-30 09:12:57] INFO root fetch - main [MainThread]: End processing [huntflow-webhook-models]: success
+[2023-06-30 09:12:57] INFO root fetch - processPackages [pyrefact]: Remove: archive file [/home/abi/fetcher/tmp/pyrefact-89.tar.gz]
+[2023-06-30 09:12:57] INFO root fetch - processPackages [pyrefact]: Remove: archive file [/home/abi/fetcher/tmp/pyrefact-9.tar.gz]
+[2023-06-30 09:12:57] INFO root fetch - main [MainThread]: End processing [pyrefact]: success
+[2023-06-30 09:12:58] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.8.tar.gz]
+[2023-06-30 09:12:58] INFO root fetch - processPackages [tondortools]: Remove: archive file [/home/abi/fetcher/tmp/tondortools-1.0.9.tar.gz]
+[2023-06-30 09:12:58] INFO root fetch - main [MainThread]: End processing [tondortools]: success
+[2023-06-30 09:12:58] INFO root fetch - processPackages [bs-db-migration]: Remove: archive file [/home/abi/fetcher/tmp/bs_db_migration-0.2.1.tar.gz]
+[2023-06-30 09:12:58] INFO root fetch - processPackages [bs-db-migration]: Remove: archive file [/home/abi/fetcher/tmp/bs_db_migration-0.2.2.tar.gz]
+[2023-06-30 09:12:58] INFO root fetch - main [MainThread]: End processing [bs-db-migration]: success
+[2023-06-30 09:12:58] INFO root fetch - processPackages [jolt-docker]: Remove: archive file [/home/abi/fetcher/tmp/jolt_docker-0.9.93.tar.gz]
+[2023-06-30 09:12:58] INFO root fetch - processPackages [jolt-docker]: Remove: archive file [/home/abi/fetcher/tmp/jolt_docker-0.9.95.tar.gz]
+[2023-06-30 09:12:58] INFO root fetch - main [MainThread]: End processing [jolt-docker]: success
+[2023-06-30 09:12:59] INFO root fetch - processPackages [alipai]: Remove: archive file [/home/abi/fetcher/tmp/alipai-0.4.0.post0-py2.py3-none-any.whl.zip]
+[2023-06-30 09:12:59] INFO root fetch - processPackages [alipai]: Remove: archive file [/home/abi/fetcher/tmp/alipai-0.4.1-py2.py3-none-any.whl.zip]
+[2023-06-30 09:12:59] INFO root fetch - main [MainThread]: End processing [alipai]: success
+[2023-06-30 09:12:59] INFO root fetch - processPackages [torchkeras]: Remove: archive file [/home/abi/fetcher/tmp/torchkeras-3.8.9.tar.gz]
+[2023-06-30 09:12:59] INFO root fetch - processPackages [torchkeras]: Remove: archive file [/home/abi/fetcher/tmp/torchkeras-3.9.0.tar.gz]
+[2023-06-30 09:12:59] INFO root fetch - main [MainThread]: End processing [torchkeras]: success
+[2023-06-30 09:13:00] INFO root fetch - processPackages [jolt]: Remove: archive file [/home/abi/fetcher/tmp/jolt-0.9.95.tar.gz]
+[2023-06-30 09:13:00] INFO root fetch - processPackages [jolt]: Remove: archive file [/home/abi/fetcher/tmp/jolt-0.9.97.tar.gz]
+[2023-06-30 09:13:00] INFO root fetch - main [MainThread]: End processing [jolt]: success
+[2023-06-30 09:13:00] INFO root fetch - main [MainThread]: Store serial: [18706898]
