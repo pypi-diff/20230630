@@ -20367,3 +20367,188 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 13:42:15] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
 [2023-06-30 13:42:15] INFO root fetch - main [MainThread]: End processing [supervisely]: success
 [2023-06-30 13:42:15] INFO root fetch - main [MainThread]: Store serial: [18709958]
+[2023-06-30 13:47:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18709958]
+[2023-06-30 13:47:24] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-30 13:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feedancy
+[2023-06-30 13:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xia-storer-gcs
+[2023-06-30 13:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepdoctection
+[2023-06-30 13:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bfgdealer
+[2023-06-30 13:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fa-models
+[2023-06-30 13:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-token-flask
+[2023-06-30 13:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-ddmrp
+[2023-06-30 13:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composabl-ray-dev
+[2023-06-30 13:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xia-synchronizer
+[2023-06-30 13:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xia-user
+[2023-06-30 13:47:25] INFO root fetch - processPackages [bfgdealer]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-user]: New version: [0.1.30] Old Version: [0.1.28]
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-token-flask]: New version: [0.1.14] Old Version: [0.1.13]
+[2023-06-30 13:47:25] INFO root fetch - processPackages [fa-models]: New version: [1.0.49] Old Version: [1.0.48]
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-synchronizer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-30 13:47:25] INFO root fetch - processPackages [bfgdealer]: Downloading https://files.pythonhosted.org/packages/f0/7f/5ef164bd29fdae8d025e78d67556c0c88c3f331a61ac60decc455b275a0d/bfgdealer-0.0.7.tar.gz
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-token-flask]: Downloading https://files.pythonhosted.org/packages/6b/75/806b30502025a372ce47f06164f94d78d098fef032cab3464481dbf6ec69/xia_token_flask-0.1.13-cp39-none-win_amd64.whl
+[2023-06-30 13:47:25] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/48/f0/0de8f1039e369e142babed4e591ddabe0d109348758f7381d1cbed1f56cb/fa-models-1.0.48.tar.gz
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-user]: Downloading https://files.pythonhosted.org/packages/cd/17/7bf8683b16e7ae8e230dbcef60f3ee8b8645d300c1413afa9b2fb44cde7b/xia_user-0.1.28-cp39-none-win_amd64.whl
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-storer-gcs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-30 13:47:25] WARNING root fetch - processPackages [feedancy]: Skipping, unable to determine old version
+[2023-06-30 13:47:25] INFO root fetch - processPackages [feedancy]: Start processing: mobile-env-rl
+[2023-06-30 13:47:25] INFO root fetch - main [MainThread]: End processing [feedancy] error
+[2023-06-30 13:47:25] INFO root fetch - processPackages [deepdoctection]: New version: [0.25] Old Version: [0.24]
+[2023-06-30 13:47:25] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.2.3.dev3] Old Version: [0.2.1.dev98]
+[2023-06-30 13:47:25] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2023-06-30 13:47:25] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/8d/08/c14696c5e80513500b683e4358ca28851e4e5818db305106da416dd0d9f5/fa-models-1.0.49.tar.gz
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-synchronizer]: Downloading https://files.pythonhosted.org/packages/7e/cd/27ca8221538a0c21642d1bef6aa23ac0226b75ba439dfa223bf33438ee15/xia_synchronizer-0.0.3-cp39-none-win_amd64.whl
+[2023-06-30 13:47:25] WARNING root fetch - processPackages [mobile-env-rl]: Skipping, unable to determine old version
+[2023-06-30 13:47:25] INFO root fetch - processPackages [mobile-env-rl]: Start processing: fa-models
+[2023-06-30 13:47:25] INFO root fetch - main [MainThread]: End processing [mobile-env-rl] error
+[2023-06-30 13:47:25] INFO root fetch - processPackages [fa-models]: New version: [1.0.52] Old Version: [1.0.51]
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-user]: Downloading https://files.pythonhosted.org/packages/c4/6e/f821474cfa907787eb8a5a28eec5b2c19925064331cd61584eba3dc2633b/xia_user-0.1.30-cp39-none-win_amd64.whl
+[2023-06-30 13:47:25] INFO root fetch - processPackages [bfgdealer]: Downloading https://files.pythonhosted.org/packages/29/61/164c2041e3cafb49c13e2b531d004efc61b418ced4cd7955d11f7e37ea73/bfgdealer-0.0.8.tar.gz
+[2023-06-30 13:47:25] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/a2/6f/2e8ea1fc4146c29ae87ff3b2d0038da0a6bb4b43213f93929c731657a4db/composabl_ray_dev-0.2.1.dev98-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-storer-gcs]: Downloading https://files.pythonhosted.org/packages/b2/c3/1646dd1bd55f349e4b202872bd5db1a9a8ed22046a6c13b85d5811a67522/xia_storer_gcs-0.0.4-cp39-none-win_amd64.whl
+[2023-06-30 13:47:25] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-06-30 13:47:25] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.48.tar.gz tmp/fa-models-1.0.49.tar.gz --markdown 20230630/f/fa-models/1.0.48-1.0.49/diff.md --exclude *.pyd
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-token-flask]: Downloading https://files.pythonhosted.org/packages/80/c3/3a235a1b435f6b2bede79327dc3829597b1063172ada626c46a89dd87e6e/xia_token_flask-0.1.14-cp39-none-win_amd64.whl
+[2023-06-30 13:47:25] INFO root fetch - processPackages [deepdoctection]: Downloading https://files.pythonhosted.org/packages/9d/9a/89f3f3f6c73466229af8002838b364b624a8b1631b9548ed7f33b189bb74/deepdoctection-0.24.tar.gz
+[2023-06-30 13:47:25] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/92/c5/5cc91e541a0dfd7e1a564e2754c43b3bf8dad8a3f510617e8a7c737dd29e/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl
+[2023-06-30 13:47:25] INFO root fetch - processPackages [bfgdealer]: executing diffoscope
+[2023-06-30 13:47:25] INFO root fetch - processPackages [bfgdealer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgdealer-0.0.7.tar.gz tmp/bfgdealer-0.0.8.tar.gz --markdown 20230630/b/bfgdealer/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-user]: executing diffoscope
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_user-0.1.28-cp39-none-win_amd64.whl.zip tmp/xia_user-0.1.30-cp39-none-win_amd64.whl.zip --markdown 20230630/x/xia-user/0.1.28-0.1.30/diff.md --exclude *.pyd
+[2023-06-30 13:47:25] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/c3/68/efae9a45846cdb508628dd9c107f060268757e7f5da09921fb5a610b3cd4/fa-models-1.0.51.tar.gz
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-token-flask]: executing diffoscope
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-token-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_token_flask-0.1.13-cp39-none-win_amd64.whl.zip tmp/xia_token_flask-0.1.14-cp39-none-win_amd64.whl.zip --markdown 20230630/x/xia-token-flask/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-synchronizer]: Downloading https://files.pythonhosted.org/packages/0b/29/38d3bb9d3275d7e9c347ef6e790d660e04a732a08ee8f6fce31030480d94/xia_synchronizer-0.0.4-cp39-none-win_amd64.whl
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-storer-gcs]: Downloading https://files.pythonhosted.org/packages/0d/23/541f2ab3c184fea34836b4cbf38b2dc0eff7cd530a232fd3b4ce0d1433fa/xia_storer_gcs-0.0.5-cp39-none-win_amd64.whl
+[2023-06-30 13:47:25] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/ca/bd/f796fcac94ae965974dd39baa0d0f864c3763c28d8b4d36889dfa686f458/composabl_ray_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-30 13:47:25] INFO root fetch - processPackages [deepdoctection]: Downloading https://files.pythonhosted.org/packages/33/3e/afdac92dbac66af69153551dfb35e24ad8f4190abd196315c1a67c4741f1/deepdoctection-0.25.tar.gz
+[2023-06-30 13:47:25] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/ec/2e/c3c9612d99ab67b267bb160e82ff01adf6fc0d39b84fa753fdf79f199ff1/fa-models-1.0.52.tar.gz
+[2023-06-30 13:47:25] INFO root fetch - processPackages [deepdoctection]: executing diffoscope
+[2023-06-30 13:47:25] INFO root fetch - processPackages [deepdoctection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdoctection-0.24.tar.gz tmp/deepdoctection-0.25.tar.gz --markdown 20230630/d/deepdoctection/0.24-0.25/diff.md --exclude *.pyd
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-synchronizer]: executing diffoscope
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-synchronizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_synchronizer-0.0.3-cp39-none-win_amd64.whl.zip tmp/xia_synchronizer-0.0.4-cp39-none-win_amd64.whl.zip --markdown 20230630/x/xia-synchronizer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-storer-gcs]: executing diffoscope
+[2023-06-30 13:47:25] INFO root fetch - processPackages [xia-storer-gcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_storer_gcs-0.0.4-cp39-none-win_amd64.whl.zip tmp/xia_storer_gcs-0.0.5-cp39-none-win_amd64.whl.zip --markdown 20230630/x/xia-storer-gcs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-30 13:47:25] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-06-30 13:47:25] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.51.tar.gz tmp/fa-models-1.0.52.tar.gz --markdown 20230630/f/fa-models/1.0.51-1.0.52/diff.md --exclude *.pyd
+[2023-06-30 13:47:26] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-06-30 13:47:26] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.2.1.dev98-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230630/c/composabl-ray-dev/0.2.1.dev98-0.2.3.dev3/diff.md --exclude *.pyd
+[2023-06-30 13:47:26] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/47/ef/92f082c955236c0b4ec84ba6f9e93d400901d2b87e31d1399f2d4e310029/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl
+[2023-06-30 13:47:26] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2023-06-30 13:47:26] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230630/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-06-30 13:47:26] INFO root fetch - processPackages [xia-user]: Remove: archive file [/home/abi/fetcher/tmp/xia_user-0.1.28-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:47:26] INFO root fetch - processPackages [xia-user]: Remove: archive file [/home/abi/fetcher/tmp/xia_user-0.1.30-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [xia-user]: Start processing: netbox-cisco-support-plugin
+[2023-06-30 13:47:27] INFO root fetch - main [MainThread]: End processing [xia-user]: success
+[2023-06-30 13:47:27] INFO root fetch - processPackages [bfgdealer]: Remove: archive file [/home/abi/fetcher/tmp/bfgdealer-0.0.7.tar.gz]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [bfgdealer]: Remove: archive file [/home/abi/fetcher/tmp/bfgdealer-0.0.8.tar.gz]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [bfgdealer]: Start processing: oc-client-provider
+[2023-06-30 13:47:27] INFO root fetch - main [MainThread]: End processing [bfgdealer]: success
+[2023-06-30 13:47:27] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.48.tar.gz]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.49.tar.gz]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [fa-models]: Start processing: radomermbg
+[2023-06-30 13:47:27] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-06-30 13:47:27] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [xia-token-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_token_flask-0.1.13-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [xia-token-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_token_flask-0.1.14-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [xia-token-flask]: Start processing: web3py-ext
+[2023-06-30 13:47:27] INFO root fetch - main [MainThread]: End processing [xia-token-flask]: success
+[2023-06-30 13:47:27] INFO root fetch - processPackages [radomermbg]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-30 13:47:27] WARNING root fetch - processPackages [oc-client-provider]: Skipping, unable to determine old version
+[2023-06-30 13:47:27] INFO root fetch - processPackages [oc-client-provider]: Start processing: bio-attention
+[2023-06-30 13:47:27] INFO root fetch - main [MainThread]: End processing [oc-client-provider] error
+[2023-06-30 13:47:27] INFO root fetch - processPackages [bio-attention]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-30 13:47:27] INFO root fetch - processPackages [radomermbg]: Downloading https://files.pythonhosted.org/packages/30/40/d74f84d4fdd9fb431b128ca026dcb9997057838c2d424a18640e5594b2ca/radomermbg-0.0.4.tar.gz
+[2023-06-30 13:47:27] INFO root fetch - processPackages [bio-attention]: Downloading https://files.pythonhosted.org/packages/e0/96/bbc597bdc47f051e39fda79f500dd288adf20749bdab8afbf8cacb01366f/bio-attention-0.0.8.tar.gz
+[2023-06-30 13:47:27] WARNING root fetch - processPackages [web3py-ext]: Skipping, unable to determine old version
+[2023-06-30 13:47:27] INFO root fetch - processPackages [web3py-ext]: Start processing: fa-models
+[2023-06-30 13:47:27] INFO root fetch - main [MainThread]: End processing [web3py-ext] error
+[2023-06-30 13:47:27] INFO root fetch - processPackages [fa-models]: New version: [1.0.52] Old Version: [1.0.51]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [xia-storer-gcs]: Remove: archive file [/home/abi/fetcher/tmp/xia_storer_gcs-0.0.4-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [xia-storer-gcs]: Remove: archive file [/home/abi/fetcher/tmp/xia_storer_gcs-0.0.5-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [xia-storer-gcs]: Start processing: ramodels
+[2023-06-30 13:47:27] INFO root fetch - main [MainThread]: End processing [xia-storer-gcs]: success
+[2023-06-30 13:47:27] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-30 13:47:27] INFO root fetch - processPackages [xia-synchronizer]: Remove: archive file [/home/abi/fetcher/tmp/xia_synchronizer-0.0.3-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [xia-synchronizer]: Remove: archive file [/home/abi/fetcher/tmp/xia_synchronizer-0.0.4-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [xia-synchronizer]: Start processing: bigdl-llm
+[2023-06-30 13:47:27] INFO root fetch - main [MainThread]: End processing [xia-synchronizer]: success
+[2023-06-30 13:47:27] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230628]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-30 13:47:27] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230630/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 13:47:27] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-06-30 13:47:27] INFO root fetch - processPackages [radomermbg]: Downloading https://files.pythonhosted.org/packages/62/83/afa3ed17b6f8379db39bd0f3fed08586bbd136ad12d59c459d6df99e3ff6/radomermbg-0.0.5.tar.gz
+[2023-06-30 13:47:27] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-30 13:47:27] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.51.tar.gz tmp/fa-models-1.0.52.tar.gz --markdown 20230630/f/fa-models/1.0.51-1.0.52/diff.md --exclude *.pyd
+[2023-06-30 13:47:27] INFO root fetch - processPackages [bio-attention]: Downloading https://files.pythonhosted.org/packages/5e/53/1a0fd800e5833b863507457123215b7c8120d53d7a48ddfe23ea0cc783c9/bio-attention-0.0.9.tar.gz
+[2023-06-30 13:47:27] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-30 13:47:27] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/70/ae/178bc90dfeb4c3cf9918fbfb873b84214bf20c282713d25aaeaa1cf60fdf/bigdl_llm-2.4.0b20230628-py3-none-win_amd64.whl
+[2023-06-30 13:47:27] INFO root fetch - processPackages [radomermbg]: executing diffoscope
+[2023-06-30 13:47:27] INFO root fetch - processPackages [radomermbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radomermbg-0.0.4.tar.gz tmp/radomermbg-0.0.5.tar.gz --markdown 20230630/r/radomermbg/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-30 13:47:27] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-30 13:47:27] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230630/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-30 13:47:27] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.1.dev98-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [composabl-ray-dev]: Start processing: typerconf
+[2023-06-30 13:47:27] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-06-30 13:47:27] INFO root fetch - processPackages [bio-attention]: executing diffoscope
+[2023-06-30 13:47:27] INFO root fetch - processPackages [bio-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio-attention-0.0.8.tar.gz tmp/bio-attention-0.0.9.tar.gz --markdown 20230630/b/bio-attention/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 13:47:27] INFO root fetch - processPackages [typerconf]: New version: [2.0] Old Version: [1.9]
+[2023-06-30 13:47:27] INFO root fetch - processPackages [typerconf]: Downloading https://files.pythonhosted.org/packages/b1/08/c73a0eb6e557dd8d7356c02b5fff2d5d2f0d89f42f8b40d719e78f89c839/typerconf-1.9.tar.gz
+[2023-06-30 13:47:28] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/bd/49/e324db28958f5fbf516320425584c159f219717d27a21d9eadf30f3849e3/bigdl_llm-2.4.0b20230629-py3-none-win_amd64.whl
+[2023-06-30 13:47:28] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.51.tar.gz]
+[2023-06-30 13:47:28] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.52.tar.gz]
+[2023-06-30 13:47:28] INFO root fetch - processPackages [fa-models]: Start processing: bigdl-chronos
+[2023-06-30 13:47:28] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-06-30 13:47:28] INFO root fetch - processPackages [typerconf]: Downloading https://files.pythonhosted.org/packages/6a/f7/ac91c1248cff935e6acd6ef9037acee5b50cc3bccdce35531e18db19deed/typerconf-2.0.tar.gz
+[2023-06-30 13:47:28] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230628]
+[2023-06-30 13:47:28] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-30 13:47:28] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230628-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230629-py3-none-win_amd64.whl.zip --markdown 20230630/b/bigdl-llm/2.4.0b20230628-2.4.0b20230629/diff.md --exclude *.pyd
+[2023-06-30 13:47:28] INFO root fetch - processPackages [typerconf]: executing diffoscope
+[2023-06-30 13:47:28] INFO root fetch - processPackages [typerconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typerconf-1.9.tar.gz tmp/typerconf-2.0.tar.gz --markdown 20230630/t/typerconf/1.9-2.0/diff.md --exclude *.pyd
+[2023-06-30 13:47:28] ERROR root fetch - processPackages [fa-models]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/fa-models-1.0.51.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/fa-models-1.0.52.tar.gz: No such file or directory
+
+[2023-06-30 13:47:28] INFO root fetch - processPackages [fa-models]: Start processing: xoa-driver
+[2023-06-30 13:47:28] INFO root fetch - main [MainThread]: End processing [fa-models] error
+[2023-06-30 13:47:28] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/65/ad/9c3ea72e46cdfe0e79cd6a640130cc1af57ed74950b4f72633dedcef0613/bigdl_chronos-2.4.0b20230628-py3-none-win_amd64.whl
+[2023-06-30 13:47:28] INFO root fetch - processPackages [xoa-driver]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-30 13:47:28] INFO root fetch - processPackages [xoa-driver]: Downloading https://files.pythonhosted.org/packages/e5/2c/dd9cef50c2b674316d2674e0fbe9ff335ced57a172ff174866de93b429f5/xoa-driver-2.1.0.tar.gz
+[2023-06-30 13:47:28] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/0e/60/986d65235847e8cd7e83fb63b2c5847bf76bc94f186aead887f2c7aa543a/bigdl_chronos-2.4.0b20230629-py3-none-win_amd64.whl
+[2023-06-30 13:47:28] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip]
+[2023-06-30 13:47:28] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2023-06-30 13:47:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2023-06-30 13:47:28] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-30 13:47:28] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230628-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230629-py3-none-win_amd64.whl.zip --markdown 20230630/b/bigdl-chronos/2.4.0b20230628-2.4.0b20230629/diff.md --exclude *.pyd
+[2023-06-30 13:47:28] INFO root fetch - processPackages [xoa-driver]: Downloading https://files.pythonhosted.org/packages/87/89/a774825e115be654b32d8436a34a8ffc1385b1131ca78be91e5bb351a1a1/xoa-driver-2.1.1.tar.gz
+[2023-06-30 13:47:29] INFO root fetch - processPackages [radomermbg]: Remove: archive file [/home/abi/fetcher/tmp/radomermbg-0.0.4.tar.gz]
+[2023-06-30 13:47:29] INFO root fetch - processPackages [radomermbg]: Remove: archive file [/home/abi/fetcher/tmp/radomermbg-0.0.5.tar.gz]
+[2023-06-30 13:47:29] INFO root fetch - main [MainThread]: End processing [radomermbg]: success
+[2023-06-30 13:47:29] INFO root fetch - processPackages [xoa-driver]: executing diffoscope
+[2023-06-30 13:47:29] INFO root fetch - processPackages [xoa-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xoa-driver-2.1.0.tar.gz tmp/xoa-driver-2.1.1.tar.gz --markdown 20230630/x/xoa-driver/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-30 13:47:29] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-30 13:47:29] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-30 13:47:29] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-30 13:47:29] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-30 13:47:29] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-30 13:47:29] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-30 13:47:29] INFO root fetch - processPackages [typerconf]: Remove: archive file [/home/abi/fetcher/tmp/typerconf-1.9.tar.gz]
+[2023-06-30 13:47:29] INFO root fetch - processPackages [typerconf]: Remove: archive file [/home/abi/fetcher/tmp/typerconf-2.0.tar.gz]
+[2023-06-30 13:47:29] INFO root fetch - main [MainThread]: End processing [typerconf]: success
+[2023-06-30 13:47:30] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230628-py3-none-win_amd64.whl.zip]
+[2023-06-30 13:47:30] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230629-py3-none-win_amd64.whl.zip]
+[2023-06-30 13:47:30] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-30 13:47:31] INFO root fetch - processPackages [bio-attention]: Remove: archive file [/home/abi/fetcher/tmp/bio-attention-0.0.8.tar.gz]
+[2023-06-30 13:47:31] INFO root fetch - processPackages [bio-attention]: Remove: archive file [/home/abi/fetcher/tmp/bio-attention-0.0.9.tar.gz]
+[2023-06-30 13:47:31] INFO root fetch - main [MainThread]: End processing [bio-attention]: success
+[2023-06-30 13:47:31] INFO root fetch - processPackages [deepdoctection]: Remove: archive file [/home/abi/fetcher/tmp/deepdoctection-0.24.tar.gz]
+[2023-06-30 13:47:31] INFO root fetch - processPackages [deepdoctection]: Remove: archive file [/home/abi/fetcher/tmp/deepdoctection-0.25.tar.gz]
+[2023-06-30 13:47:31] INFO root fetch - main [MainThread]: End processing [deepdoctection]: success
+[2023-06-30 13:47:32] INFO root fetch - processPackages [xoa-driver]: Remove: archive file [/home/abi/fetcher/tmp/xoa-driver-2.1.0.tar.gz]
+[2023-06-30 13:47:32] INFO root fetch - processPackages [xoa-driver]: Remove: archive file [/home/abi/fetcher/tmp/xoa-driver-2.1.1.tar.gz]
+[2023-06-30 13:47:32] INFO root fetch - main [MainThread]: End processing [xoa-driver]: success
+[2023-06-30 13:48:18] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230628-py3-none-win_amd64.whl.zip]
+[2023-06-30 13:48:18] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230629-py3-none-win_amd64.whl.zip]
+[2023-06-30 13:48:18] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-30 13:48:18] INFO root fetch - main [MainThread]: Store serial: [18710060]
