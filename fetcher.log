@@ -18073,3 +18073,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 12:05:37] INFO root fetch - processPackages [autodistill-yolov5]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-yolov5-0.1.2.tar.gz]
 [2023-06-30 12:05:37] INFO root fetch - main [MainThread]: End processing [autodistill-yolov5]: success
 [2023-06-30 12:05:37] INFO root fetch - main [MainThread]: Store serial: [18708562]
+[2023-06-30 12:10:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18708562]
+[2023-06-30 12:10:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-30 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: substrafl
+[2023-06-30 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: orkgnlp
+[2023-06-30 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-cisco-support-plugin
+[2023-06-30 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xw-utils
+[2023-06-30 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atomcache
+[2023-06-30 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gnomonicus
+[2023-06-30 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wodoo
+[2023-06-30 12:10:47] INFO root fetch - processPackages [substrafl]: New version: [0.38.0rc1] Old Version: [0.38.0]
+[2023-06-30 12:10:47] INFO root fetch - processPackages [orkgnlp]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-30 12:10:47] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 12:10:47] INFO root fetch - processPackages [gnomonicus]: New version: [2.0.0] Old Version: [1.1.3]
+[2023-06-30 12:10:47] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-30 12:10:47] INFO root fetch - processPackages [atomcache]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-06-30 12:10:47] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 12:10:47] INFO root fetch - processPackages [orkgnlp]: Downloading https://files.pythonhosted.org/packages/11/03/2ce68716b85c13c94d7d441b31a0032689d30d13a365b6297778fbd97f4b/orkgnlp-0.8.0.tar.gz
+[2023-06-30 12:10:47] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-30 12:10:47] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-06-30 12:10:47] INFO root fetch - processPackages [atomcache]: Downloading https://files.pythonhosted.org/packages/58/21/c50ca7f226b9df085b73b55a7b679df8514077db18fafbf07a046fec955e/atomcache-0.7.3.tar.gz
+[2023-06-30 12:10:47] INFO root fetch - processPackages [substrafl]: Downloading https://files.pythonhosted.org/packages/d3/40/aab51e691d6372d4826561c83b0c5c8711226ad1ad88c35c736ac08f569f/substrafl-0.38.0.tar.gz
+[2023-06-30 12:10:47] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-06-30 12:10:47] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-06-30 12:10:47] INFO root fetch - processPackages [gnomonicus]: Downloading https://files.pythonhosted.org/packages/bc/ac/8435fd76d42d7c61cdf28a4ca9296ece64dd6ab457058f104d1ebc8ec6ca/gnomonicus-1.1.3.tar.gz
+[2023-06-30 12:10:47] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-06-30 12:10:47] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230630/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-30 12:10:47] INFO root fetch - processPackages [orkgnlp]: Downloading https://files.pythonhosted.org/packages/d1/db/a999fda387713546ba35bae570af6e4ce3c639c27aff6d568f8119691e38/orkgnlp-0.9.0.tar.gz
+[2023-06-30 12:10:47] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-30 12:10:47] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-30 12:10:47] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230630/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 12:10:47] INFO root fetch - processPackages [atomcache]: Downloading https://files.pythonhosted.org/packages/fb/80/6b83447ea15fdc93d58e04e8994fa58bb1cb1750ff39c835ed89e102c1c8/atomcache-0.7.4.tar.gz
+[2023-06-30 12:10:47] INFO root fetch - processPackages [orkgnlp]: executing diffoscope
+[2023-06-30 12:10:47] INFO root fetch - processPackages [orkgnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orkgnlp-0.8.0.tar.gz tmp/orkgnlp-0.9.0.tar.gz --markdown 20230630/o/orkgnlp/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-30 12:10:47] INFO root fetch - processPackages [substrafl]: Downloading https://files.pythonhosted.org/packages/f9/ad/bcaef5abe01bdb0208fbde39fb098450eff5e2766804f1dd76e3705e7413/substrafl-0.38.0rc1.tar.gz
+[2023-06-30 12:10:47] INFO root fetch - processPackages [atomcache]: executing diffoscope
+[2023-06-30 12:10:47] INFO root fetch - processPackages [atomcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomcache-0.7.3.tar.gz tmp/atomcache-0.7.4.tar.gz --markdown 20230630/a/atomcache/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-06-30 12:10:47] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-06-30 12:10:47] INFO root fetch - processPackages [substrafl]: executing diffoscope
+[2023-06-30 12:10:47] INFO root fetch - processPackages [substrafl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrafl-0.38.0.tar.gz tmp/substrafl-0.38.0rc1.tar.gz --markdown 20230630/s/substrafl/0.38.0-0.38.0rc1/diff.md --exclude *.pyd
+[2023-06-30 12:10:47] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-06-30 12:10:47] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230630/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 12:10:47] INFO root fetch - processPackages [gnomonicus]: Downloading https://files.pythonhosted.org/packages/63/a0/709349c9af931a9a01ffff3b371cbc74f11d77c21d9853067758310f1cfe/gnomonicus-2.0.0.tar.gz
+[2023-06-30 12:10:47] INFO root fetch - processPackages [gnomonicus]: executing diffoscope
+[2023-06-30 12:10:47] INFO root fetch - processPackages [gnomonicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnomonicus-1.1.3.tar.gz tmp/gnomonicus-2.0.0.tar.gz --markdown 20230630/g/gnomonicus/1.1.3-2.0.0/diff.md --exclude *.pyd
+[2023-06-30 12:10:48] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-30 12:10:48] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-30 12:10:48] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-30 12:10:48] INFO root fetch - processPackages [atomcache]: Remove: archive file [/home/abi/fetcher/tmp/atomcache-0.7.3.tar.gz]
+[2023-06-30 12:10:48] INFO root fetch - processPackages [atomcache]: Remove: archive file [/home/abi/fetcher/tmp/atomcache-0.7.4.tar.gz]
+[2023-06-30 12:10:48] INFO root fetch - main [MainThread]: End processing [atomcache]: success
+[2023-06-30 12:10:49] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-30 12:10:49] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-30 12:10:49] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-06-30 12:10:49] INFO root fetch - processPackages [gnomonicus]: Remove: archive file [/home/abi/fetcher/tmp/gnomonicus-1.1.3.tar.gz]
+[2023-06-30 12:10:49] INFO root fetch - processPackages [gnomonicus]: Remove: archive file [/home/abi/fetcher/tmp/gnomonicus-2.0.0.tar.gz]
+[2023-06-30 12:10:49] INFO root fetch - main [MainThread]: End processing [gnomonicus]: success
+[2023-06-30 12:10:49] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-06-30 12:10:49] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-06-30 12:10:49] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-06-30 12:10:49] INFO root fetch - processPackages [orkgnlp]: Remove: archive file [/home/abi/fetcher/tmp/orkgnlp-0.8.0.tar.gz]
+[2023-06-30 12:10:49] INFO root fetch - processPackages [orkgnlp]: Remove: archive file [/home/abi/fetcher/tmp/orkgnlp-0.9.0.tar.gz]
+[2023-06-30 12:10:49] INFO root fetch - main [MainThread]: End processing [orkgnlp]: success
+[2023-06-30 12:10:51] INFO root fetch - processPackages [substrafl]: Remove: archive file [/home/abi/fetcher/tmp/substrafl-0.38.0.tar.gz]
+[2023-06-30 12:10:51] INFO root fetch - processPackages [substrafl]: Remove: archive file [/home/abi/fetcher/tmp/substrafl-0.38.0rc1.tar.gz]
+[2023-06-30 12:10:51] INFO root fetch - main [MainThread]: End processing [substrafl]: success
+[2023-06-30 12:10:51] INFO root fetch - main [MainThread]: Store serial: [18708618]
