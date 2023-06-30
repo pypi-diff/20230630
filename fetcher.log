@@ -18625,3 +18625,98 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 12:38:20] INFO root fetch - processPackages [idyntree]: Remove: archive file [/home/abi/fetcher/tmp/idyntree-9.1.1.dev3.tar.gz]
 [2023-06-30 12:38:20] INFO root fetch - main [MainThread]: End processing [idyntree]: success
 [2023-06-30 12:38:20] INFO root fetch - main [MainThread]: Store serial: [18708920]
+[2023-06-30 12:43:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18708920]
+[2023-06-30 12:43:29] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-30 12:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alice-onboarding
+[2023-06-30 12:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-akamai
+[2023-06-30 12:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-cisco-support-plugin
+[2023-06-30 12:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redturtle.prenotazioni
+[2023-06-30 12:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: defichain
+[2023-06-30 12:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rest-api-supporter
+[2023-06-30 12:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oc-checksums-worker
+[2023-06-30 12:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-account-asset-management
+[2023-06-30 12:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytket-qir
+[2023-06-30 12:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netgen-mesher
+[2023-06-30 12:43:29] INFO root fetch - processPackages [alice-onboarding]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-06-30 12:43:29] INFO root fetch - processPackages [redturtle.prenotazioni]: New version: [2.0.0.dev2] Old Version: [2.0.0.dev1]
+[2023-06-30 12:43:29] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 12:43:29] WARNING root fetch - processPackages [oc-checksums-worker]: Skipping, unable to determine old version
+[2023-06-30 12:43:29] INFO root fetch - processPackages [defichain]: New version: [3.0.0b3] Old Version: [3.0.0b2]
+[2023-06-30 12:43:29] INFO root fetch - processPackages [oc-checksums-worker]: Start processing: nopasaran
+[2023-06-30 12:43:29] INFO root fetch - main [MainThread]: End processing [oc-checksums-worker] error
+[2023-06-30 12:43:29] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2302.post81.dev0] Old Version: [6.2.2302.post80.dev0]
+[2023-06-30 12:43:29] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 12:43:29] INFO root fetch - processPackages [pytket-qir]: New version: [0.2.0rc9] Old Version: [0.2.0rc8]
+[2023-06-30 12:43:29] INFO root fetch - processPackages [odoo14-addon-account-asset-management]: New version: [14.0.3.1.0] Old Version: [14.0.3.0.1.dev4]
+[2023-06-30 12:43:29] INFO root fetch - processPackages [pulumi-akamai]: New version: [4.6.0a1688120123] Old Version: [4.6.0a1686633427]
+[2023-06-30 12:43:29] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/f4/16/0c2fc27776d8257953b960eea527e7f83b54019b51fbb132e634d73c5c0e/rest-api-supporter-0.0.8.tar.gz
+[2023-06-30 12:43:29] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-30 12:43:30] WARNING root fetch - processPackages [nopasaran]: Skipping, unable to determine old version
+[2023-06-30 12:43:30] INFO root fetch - processPackages [nopasaran]: Start processing: dbt-snapshot-analysis
+[2023-06-30 12:43:30] INFO root fetch - main [MainThread]: End processing [nopasaran] error
+[2023-06-30 12:43:30] INFO root fetch - processPackages [alice-onboarding]: Downloading https://files.pythonhosted.org/packages/bf/91/731e9a35e867f8cd607ca54d42ff01339855015028c8413b7f3e60357644/alice-onboarding-3.0.0.tar.gz
+[2023-06-30 12:43:30] INFO root fetch - processPackages [defichain]: Downloading https://files.pythonhosted.org/packages/4d/f2/57c49de294152d5c7dd8f992fa4d9c4d96a77b09158cfe25788b26841301/defichain-3.0.0b2.tar.gz
+[2023-06-30 12:43:30] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/b1/f5/7535a3189c240d9ab8064d6c2693d252e1ed35630ca54960155406596154/pulumi_akamai-4.6.0a1686633427.tar.gz
+[2023-06-30 12:43:30] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/03/14/1e6b932c9e8f474c771539736738d003af21a7f7e17130d08a963fd11362/netgen_mesher-6.2.2302.post80.dev0-cp39-cp39-win_amd64.whl
+[2023-06-30 12:43:30] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/35/47/76da32bcf0507aa9dbf370e1c9e91408c29a80232299067f97883d4ef255/rest-api-supporter-0.0.9.tar.gz
+[2023-06-30 12:43:30] INFO root fetch - processPackages [odoo14-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/d5/d6/918ae9504ad916ddccdeb56b99648af23de85050b1410b0996dfb8fb3bd3/odoo14_addon_account_asset_management-14.0.3.0.1.dev4-py3-none-any.whl
+[2023-06-30 12:43:30] INFO root fetch - processPackages [dbt-snapshot-analysis]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-30 12:43:30] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-30 12:43:30] INFO root fetch - processPackages [pytket-qir]: Downloading https://files.pythonhosted.org/packages/92/f6/3e8ca5bf6d4d62e24ba5aee76c249f5322e0ec3b520f50715982269f6aa9/pytket_qir-0.2.0rc8-py3-none-any.whl
+[2023-06-30 12:43:30] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/d9/e1/8820671883c13a60a7e9c4c2443c2736ac2895628b21b647f8710c34b40f/redturtle.prenotazioni-2.0.0.dev1.tar.gz
+[2023-06-30 12:43:30] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20018817>=10485760
+[2023-06-30 12:43:30] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2023-06-30 12:43:30] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-30 12:43:30] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230630/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 12:43:30] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-06-30 12:43:30] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.8.tar.gz tmp/rest-api-supporter-0.0.9.tar.gz --markdown 20230630/r/rest-api-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 12:43:30] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/3c/19/70dce8d11ae6488e1c0e3278ad603087652868a5b7148557944c29d15b14/dbt_snapshot_analysis-0.2.7.tar.gz
+[2023-06-30 12:43:30] INFO root fetch - processPackages [alice-onboarding]: Downloading https://files.pythonhosted.org/packages/a5/fb/bd97f8dfecadc75a0f62266f5d6963dd64430f089633f29625d8ad1afb88/alice-onboarding-3.1.0.tar.gz
+[2023-06-30 12:43:30] INFO root fetch - processPackages [defichain]: Downloading https://files.pythonhosted.org/packages/d1/82/9d2d5501700546e7a99b1372a799252659d9164da0aa7e7ad256a4257ac3/defichain-3.0.0b3.tar.gz
+[2023-06-30 12:43:30] INFO root fetch - processPackages [pytket-qir]: Downloading https://files.pythonhosted.org/packages/c9/21/7aeb3a95f17a5965c4e211e4a4650a83141cf9d88593c9e694ed44344587/pytket_qir-0.2.0rc9-py3-none-any.whl
+[2023-06-30 12:43:30] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/54/32/27008cff936f665e04efec3dac66aa6fa2e1f7d480c248f2a9d53489faa5/redturtle.prenotazioni-2.0.0.dev2.tar.gz
+[2023-06-30 12:43:30] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/ee/43/b52f7a92ca666cab071319ef09427803fbc44a6919c6b70e6b8d387fde67/pulumi_akamai-4.6.0a1688120123.tar.gz
+[2023-06-30 12:43:30] INFO root fetch - processPackages [odoo14-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/1c/79/87fea8b75015c3483ffe3eceacb90f80849d1b1a8ccf9856e5d0657f3b2d/odoo14_addon_account_asset_management-14.0.3.1.0-py3-none-any.whl
+[2023-06-30 12:43:30] INFO root fetch - processPackages [defichain]: executing diffoscope
+[2023-06-30 12:43:30] INFO root fetch - processPackages [defichain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defichain-3.0.0b2.tar.gz tmp/defichain-3.0.0b3.tar.gz --markdown 20230630/d/defichain/3.0.0b2-3.0.0b3/diff.md --exclude *.pyd
+[2023-06-30 12:43:30] INFO root fetch - processPackages [alice-onboarding]: executing diffoscope
+[2023-06-30 12:43:30] INFO root fetch - processPackages [alice-onboarding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alice-onboarding-3.0.0.tar.gz tmp/alice-onboarding-3.1.0.tar.gz --markdown 20230630/a/alice-onboarding/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-06-30 12:43:30] INFO root fetch - processPackages [pytket-qir]: executing diffoscope
+[2023-06-30 12:43:30] INFO root fetch - processPackages [pytket-qir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket_qir-0.2.0rc8-py3-none-any.whl.zip tmp/pytket_qir-0.2.0rc9-py3-none-any.whl.zip --markdown 20230630/p/pytket-qir/0.2.0rc8-0.2.0rc9/diff.md --exclude *.pyd
+[2023-06-30 12:43:30] INFO root fetch - processPackages [redturtle.prenotazioni]: executing diffoscope
+[2023-06-30 12:43:30] INFO root fetch - processPackages [redturtle.prenotazioni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle.prenotazioni-2.0.0.dev1.tar.gz tmp/redturtle.prenotazioni-2.0.0.dev2.tar.gz --markdown 20230630/r/redturtle.prenotazioni/2.0.0.dev1-2.0.0.dev2/diff.md --exclude *.pyd
+[2023-06-30 12:43:30] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2023-06-30 12:43:30] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-4.6.0a1686633427.tar.gz tmp/pulumi_akamai-4.6.0a1688120123.tar.gz --markdown 20230630/p/pulumi-akamai/4.6.0a1686633427-4.6.0a1688120123/diff.md --exclude *.pyd
+[2023-06-30 12:43:30] INFO root fetch - processPackages [odoo14-addon-account-asset-management]: executing diffoscope
+[2023-06-30 12:43:30] INFO root fetch - processPackages [odoo14-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_asset_management-14.0.3.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_account_asset_management-14.0.3.1.0-py3-none-any.whl.zip --markdown 20230630/o/odoo14-addon-account-asset-management/14.0.3.0.1.dev4-14.0.3.1.0/diff.md --exclude *.pyd
+[2023-06-30 12:43:30] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/b8/92/f01ae41373870a4d520f05249c97846f72dc982373dfdc2cf8f563cd27a8/dbt_snapshot_analysis-0.2.8.tar.gz
+[2023-06-30 12:43:30] INFO root fetch - processPackages [dbt-snapshot-analysis]: executing diffoscope
+[2023-06-30 12:43:30] INFO root fetch - processPackages [dbt-snapshot-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_snapshot_analysis-0.2.7.tar.gz tmp/dbt_snapshot_analysis-0.2.8.tar.gz --markdown 20230630/d/dbt-snapshot-analysis/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-30 12:43:31] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.8.tar.gz]
+[2023-06-30 12:43:31] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.9.tar.gz]
+[2023-06-30 12:43:31] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-06-30 12:43:31] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-30 12:43:31] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-30 12:43:31] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-30 12:43:32] INFO root fetch - processPackages [pytket-qir]: Remove: archive file [/home/abi/fetcher/tmp/pytket_qir-0.2.0rc8-py3-none-any.whl.zip]
+[2023-06-30 12:43:32] INFO root fetch - processPackages [pytket-qir]: Remove: archive file [/home/abi/fetcher/tmp/pytket_qir-0.2.0rc9-py3-none-any.whl.zip]
+[2023-06-30 12:43:32] INFO root fetch - main [MainThread]: End processing [pytket-qir]: success
+[2023-06-30 12:43:32] INFO root fetch - processPackages [alice-onboarding]: Remove: archive file [/home/abi/fetcher/tmp/alice-onboarding-3.0.0.tar.gz]
+[2023-06-30 12:43:32] INFO root fetch - processPackages [alice-onboarding]: Remove: archive file [/home/abi/fetcher/tmp/alice-onboarding-3.1.0.tar.gz]
+[2023-06-30 12:43:32] INFO root fetch - main [MainThread]: End processing [alice-onboarding]: success
+[2023-06-30 12:43:32] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.2.7.tar.gz]
+[2023-06-30 12:43:32] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.2.8.tar.gz]
+[2023-06-30 12:43:32] INFO root fetch - main [MainThread]: End processing [dbt-snapshot-analysis]: success
+[2023-06-30 12:43:33] INFO root fetch - processPackages [defichain]: Remove: archive file [/home/abi/fetcher/tmp/defichain-3.0.0b2.tar.gz]
+[2023-06-30 12:43:33] INFO root fetch - processPackages [defichain]: Remove: archive file [/home/abi/fetcher/tmp/defichain-3.0.0b3.tar.gz]
+[2023-06-30 12:43:33] INFO root fetch - main [MainThread]: End processing [defichain]: success
+[2023-06-30 12:43:33] INFO root fetch - processPackages [odoo14-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_asset_management-14.0.3.0.1.dev4-py3-none-any.whl.zip]
+[2023-06-30 12:43:33] INFO root fetch - processPackages [odoo14-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_asset_management-14.0.3.1.0-py3-none-any.whl.zip]
+[2023-06-30 12:43:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-asset-management]: success
+[2023-06-30 12:43:33] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.0.0.dev1.tar.gz]
+[2023-06-30 12:43:33] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.0.0.dev2.tar.gz]
+[2023-06-30 12:43:33] INFO root fetch - main [MainThread]: End processing [redturtle.prenotazioni]: success
+[2023-06-30 12:43:33] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-4.6.0a1686633427.tar.gz]
+[2023-06-30 12:43:33] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-4.6.0a1688120123.tar.gz]
+[2023-06-30 12:43:33] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2023-06-30 12:43:33] INFO root fetch - main [MainThread]: Store serial: [18708967]
