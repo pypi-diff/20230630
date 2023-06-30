@@ -3479,3 +3479,63 @@
 [2023-06-30 03:30:22] INFO root fetch - processPackages [bkbit]: Remove: archive file [/home/abi/fetcher/tmp/bkbit-0.0.2.tar.gz]
 [2023-06-30 03:30:22] INFO root fetch - main [MainThread]: End processing [bkbit]: success
 [2023-06-30 03:30:22] INFO root fetch - main [MainThread]: Store serial: [18703020]
+[2023-06-30 03:35:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18703020]
+[2023-06-30 03:35:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-30 03:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tkadw
+[2023-06-30 03:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2023-06-30 03:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloud-radar
+[2023-06-30 03:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: devopsstringprocess
+[2023-06-30 03:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: exotic
+[2023-06-30 03:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: restsuite
+[2023-06-30 03:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: runningz
+[2023-06-30 03:35:31] INFO root fetch - processPackages [tkadw]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-30 03:35:31] INFO root fetch - processPackages [runningz]: New version: [0.11.7.2] Old Version: [0.11.7.1]
+[2023-06-30 03:35:31] WARNING root fetch - processPackages [devopsstringprocess]: Skipping, unable to determine old version
+[2023-06-30 03:35:31] INFO root fetch - main [MainThread]: End processing [devopsstringprocess] error
+[2023-06-30 03:35:31] INFO root fetch - processPackages [cloud-radar]: New version: [0.9.1a1] Old Version: [0.9.1a0]
+[2023-06-30 03:35:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-30 03:35:31] INFO root fetch - processPackages [restsuite]: New version: [1.0.0] Old Version: [0.1.7.1]
+[2023-06-30 03:35:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-30 03:35:31] INFO root fetch - processPackages [exotic]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-30 03:35:31] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/35/90/d95fdf9d9bc5cbba5242302cd27835c54ab1e8298096299a9640762c8989/tkadw-0.2.3.tar.gz
+[2023-06-30 03:35:31] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/09/01/872264b0f9cc739ab3b4f54050490e5f8febd0cfd02f86dbe48fe1c49f83/runningz-0.11.7.1-py39-none-any.whl
+[2023-06-30 03:35:31] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/9a/a9/e7eb14fbdfe4539791bb6a28cdb4f69ee17e3efef8577bfbca8deef8a3cd/cloud_radar-0.9.1a0.tar.gz
+[2023-06-30 03:35:31] INFO root fetch - processPackages [restsuite]: Downloading https://files.pythonhosted.org/packages/bb/06/448bee691efa1248c3a1ad4bc7c6bde35bca256e719ba555ef6d10bbec51/restsuite-0.1.7.1.tar.gz
+[2023-06-30 03:35:31] INFO root fetch - processPackages [exotic]: Downloading https://files.pythonhosted.org/packages/ab/73/6bd8fe608f968241702e971439557bf4d87ff69a060ad17b9cde9933ac87/exotic-3.0.0.zip
+[2023-06-30 03:35:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-30 03:35:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-30 03:35:31] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/ac/1c/7249ac9f0c64355910976f5ca7c9a90261fa15a2801476976259ee9dcdb3/tkadw-0.2.4.tar.gz
+[2023-06-30 03:35:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230630/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-30 03:35:31] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/c8/eb/5ab32b10607c095c19feb2cf68bf05cd6764320751123005c568d6ab1ce1/cloud_radar-0.9.1a1.tar.gz
+[2023-06-30 03:35:31] INFO root fetch - processPackages [restsuite]: Downloading https://files.pythonhosted.org/packages/66/ed/876a6ae33faba876700d6587f89647c57ec900cadb12a21ce3e9eeaeac38/restsuite-1.0.0.tar.gz
+[2023-06-30 03:35:32] INFO root fetch - processPackages [cloud-radar]: executing diffoscope
+[2023-06-30 03:35:32] INFO root fetch - processPackages [cloud-radar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_radar-0.9.1a0.tar.gz tmp/cloud_radar-0.9.1a1.tar.gz --markdown 20230630/c/cloud-radar/0.9.1a0-0.9.1a1/diff.md --exclude *.pyd
+[2023-06-30 03:35:32] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/ea/f3/4aab533a98efbfb43c9087a3c060f5e1cf86a6e176b2402eb898831ddd86/runningz-0.11.7.2-py39-none-any.whl
+[2023-06-30 03:35:32] INFO root fetch - processPackages [restsuite]: executing diffoscope
+[2023-06-30 03:35:32] INFO root fetch - processPackages [restsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restsuite-0.1.7.1.tar.gz tmp/restsuite-1.0.0.tar.gz --markdown 20230630/r/restsuite/0.1.7.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-30 03:35:32] INFO root fetch - processPackages [tkadw]: executing diffoscope
+[2023-06-30 03:35:32] INFO root fetch - processPackages [tkadw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkadw-0.2.3.tar.gz tmp/tkadw-0.2.4.tar.gz --markdown 20230630/t/tkadw/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-30 03:35:32] INFO root fetch - processPackages [runningz]: executing diffoscope
+[2023-06-30 03:35:32] INFO root fetch - processPackages [runningz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runningz-0.11.7.1-py39-none-any.whl.zip tmp/runningz-0.11.7.2-py39-none-any.whl.zip --markdown 20230630/r/runningz/0.11.7.1-0.11.7.2/diff.md --exclude *.pyd
+[2023-06-30 03:35:32] INFO root fetch - processPackages [exotic]: Downloading https://files.pythonhosted.org/packages/4e/4c/18e81c93db1ab5ca10816c093c0a30fbb8aeabf8f8526976b4c98acc2891/exotic-3.0.1.zip
+[2023-06-30 03:35:33] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.9.1a0.tar.gz]
+[2023-06-30 03:35:33] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.9.1a1.tar.gz]
+[2023-06-30 03:35:33] INFO root fetch - main [MainThread]: End processing [cloud-radar]: success
+[2023-06-30 03:35:33] INFO root fetch - processPackages [restsuite]: Remove: archive file [/home/abi/fetcher/tmp/restsuite-0.1.7.1.tar.gz]
+[2023-06-30 03:35:33] INFO root fetch - processPackages [restsuite]: Remove: archive file [/home/abi/fetcher/tmp/restsuite-1.0.0.tar.gz]
+[2023-06-30 03:35:33] INFO root fetch - main [MainThread]: End processing [restsuite]: success
+[2023-06-30 03:35:33] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.2.3.tar.gz]
+[2023-06-30 03:35:33] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.2.4.tar.gz]
+[2023-06-30 03:35:33] INFO root fetch - main [MainThread]: End processing [tkadw]: success
+[2023-06-30 03:35:33] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-30 03:35:33] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-30 03:35:33] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-30 03:35:33] INFO root fetch - processPackages [exotic]: executing diffoscope
+[2023-06-30 03:35:33] INFO root fetch - processPackages [exotic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exotic-3.0.0.zip tmp/exotic-3.0.1.zip --markdown 20230630/e/exotic/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-30 03:35:33] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.11.7.1-py39-none-any.whl.zip]
+[2023-06-30 03:35:33] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.11.7.2-py39-none-any.whl.zip]
+[2023-06-30 03:35:33] INFO root fetch - main [MainThread]: End processing [runningz]: success
+[2023-06-30 03:35:35] INFO root fetch - processPackages [exotic]: Remove: archive file [/home/abi/fetcher/tmp/exotic-3.0.0.zip]
+[2023-06-30 03:35:35] INFO root fetch - processPackages [exotic]: Remove: archive file [/home/abi/fetcher/tmp/exotic-3.0.1.zip]
+[2023-06-30 03:35:35] INFO root fetch - main [MainThread]: End processing [exotic]: success
+[2023-06-30 03:35:35] INFO root fetch - main [MainThread]: Store serial: [18703044]
