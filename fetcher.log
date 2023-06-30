@@ -10881,3 +10881,112 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 05:35:52] INFO root fetch - processPackages [umirobot]: Remove: archive file [/home/abi/fetcher/tmp/umirobot-22.4.9.tar.gz]
 [2023-06-30 05:35:52] INFO root fetch - main [MainThread]: End processing [umirobot]: success
 [2023-06-30 05:35:52] INFO root fetch - main [MainThread]: Store serial: [18705631]
+[2023-06-30 05:40:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705631]
+[2023-06-30 05:41:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-30 05:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bardapi
+[2023-06-30 05:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oloren
+[2023-06-30 05:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-userinfo
+[2023-06-30 05:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flux-local
+[2023-06-30 05:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: glsm
+[2023-06-30 05:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: beastiary
+[2023-06-30 05:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: teamanchorhello
+[2023-06-30 05:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: blockit
+[2023-06-30 05:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: voicegain-speech
+[2023-06-30 05:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: domain-admin
+[2023-06-30 05:41:01] INFO root fetch - processPackages [blockit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-30 05:41:01] INFO root fetch - processPackages [teamanchorhello]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-30 05:41:01] INFO root fetch - processPackages [bardapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 05:41:01] INFO root fetch - processPackages [glsm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 05:41:01] INFO root fetch - processPackages [nonebot-plugin-userinfo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-30 05:41:01] INFO root fetch - processPackages [flux-local]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-30 05:41:01] INFO root fetch - processPackages [beastiary]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-30 05:41:01] INFO root fetch - processPackages [voicegain-speech]: New version: [1.85.2] Old Version: [1.85.1]
+[2023-06-30 05:41:01] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-30 05:41:01] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 05:41:01] INFO root fetch - processPackages [blockit]: Downloading https://files.pythonhosted.org/packages/b7/01/a76c515b5aad6d1781088996b6079128236bfa8fe5836ab4beb4771fadd2/blockit-0.0.1.tar.gz
+[2023-06-30 05:41:01] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-06-30 05:41:01] INFO root fetch - processPackages [voicegain-speech]: Downloading https://files.pythonhosted.org/packages/34/5e/cb2de1ccd5adad1eabd9facfa85b0974d65d750cbb3206c0f055923c10fd/voicegain-speech-1.85.1.tar.gz
+[2023-06-30 05:41:01] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/2c/70/c9bc4348b258fb74d2a6bb5aa18fa1a9dd8197649e2ef2d525fa08c50367/teamanchorhello-0.0.6.tar.gz
+[2023-06-30 05:41:01] INFO root fetch - processPackages [beastiary]: Downloading https://files.pythonhosted.org/packages/6f/e2/a8a16675d49f2c754f969fe925bebc31a338b436f6c76c4089b4bc4011c2/beastiary-1.6.0.tar.gz
+[2023-06-30 05:41:01] INFO root fetch - processPackages [nonebot-plugin-userinfo]: Downloading https://files.pythonhosted.org/packages/9e/6e/0865c365534eff0aa8c6faa2ef342e73853924051b4fbfe3f999d395eaba/nonebot_plugin_userinfo-0.0.1.tar.gz
+[2023-06-30 05:41:01] INFO root fetch - processPackages [flux-local]: Downloading https://files.pythonhosted.org/packages/52/b6/020ea0605a5adac427894bd4a3f144716ccfd9a2f03cfc9d994825e02d95/flux-local-1.3.1.tar.gz
+[2023-06-30 05:41:01] INFO root fetch - processPackages [glsm]: Downloading https://files.pythonhosted.org/packages/12/e7/825ed680de5559da3a98c3dc1cc2a749c8dd592e24e7ce824120081bd492/glsm-0.1.0.tar.gz
+[2023-06-30 05:41:01] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-30 05:41:01] INFO root fetch - processPackages [blockit]: Downloading https://files.pythonhosted.org/packages/99/31/5dc639e045602bb2044f70ac46c841c8fa1f77edf96d6ab7f33a0fcb82f3/blockit-0.0.2.tar.gz
+[2023-06-30 05:41:01] INFO root fetch - processPackages [blockit]: executing diffoscope
+[2023-06-30 05:41:01] INFO root fetch - processPackages [blockit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockit-0.0.1.tar.gz tmp/blockit-0.0.2.tar.gz --markdown 20230630/b/blockit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 05:41:02] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/f7/c5/925c38a85d594f972d4b5545b3f36c4503b31e57333dcbd357a577707b7b/teamanchorhello-0.0.7.tar.gz
+[2023-06-30 05:41:02] INFO root fetch - processPackages [bardapi]: executing diffoscope
+[2023-06-30 05:41:02] INFO root fetch - processPackages [bardapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bardapi-0.1.8.tar.gz tmp/bardapi-0.1.9.tar.gz --markdown 20230630/b/bardapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 05:41:02] INFO root fetch - processPackages [nonebot-plugin-userinfo]: Downloading https://files.pythonhosted.org/packages/ff/69/af7b31cff0fa7699906cef72eea03a927f650a843d802717585dfc932ea2/nonebot_plugin_userinfo-0.0.2.tar.gz
+[2023-06-30 05:41:02] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-06-30 05:41:02] INFO root fetch - processPackages [teamanchorhello]: executing diffoscope
+[2023-06-30 05:41:02] INFO root fetch - processPackages [teamanchorhello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teamanchorhello-0.0.6.tar.gz tmp/teamanchorhello-0.0.7.tar.gz --markdown 20230630/t/teamanchorhello/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-30 05:41:02] INFO root fetch - processPackages [nonebot-plugin-userinfo]: executing diffoscope
+[2023-06-30 05:41:02] INFO root fetch - processPackages [nonebot-plugin-userinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_userinfo-0.0.1.tar.gz tmp/nonebot_plugin_userinfo-0.0.2.tar.gz --markdown 20230630/n/nonebot-plugin-userinfo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 05:41:02] INFO root fetch - processPackages [flux-local]: Downloading https://files.pythonhosted.org/packages/55/48/21ed05573fded1dc61ec7bf4a90e06c727bf35e190c98afaa77177e131ab/flux-local-1.3.2.tar.gz
+[2023-06-30 05:41:02] INFO root fetch - processPackages [glsm]: Downloading https://files.pythonhosted.org/packages/d4/57/6e98def2130b2dc5245bb9dde891662017d9b1cd1d4a813de2cd1122106c/glsm-0.1.1.tar.gz
+[2023-06-30 05:41:02] INFO root fetch - processPackages [flux-local]: executing diffoscope
+[2023-06-30 05:41:02] INFO root fetch - processPackages [flux-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-local-1.3.1.tar.gz tmp/flux-local-1.3.2.tar.gz --markdown 20230630/f/flux-local/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-30 05:41:02] INFO root fetch - processPackages [glsm]: executing diffoscope
+[2023-06-30 05:41:02] INFO root fetch - processPackages [glsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glsm-0.1.0.tar.gz tmp/glsm-0.1.1.tar.gz --markdown 20230630/g/glsm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 05:41:02] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-30 05:41:02] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-30 05:41:02] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230630/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-30 05:41:02] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-30 05:41:02] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230630/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 05:41:02] INFO root fetch - processPackages [voicegain-speech]: Downloading https://files.pythonhosted.org/packages/93/c0/d109b939e827bdc3d72ea6ab2b4c7ca1dce0d339b2e2148856944e3ebe0c/voicegain-speech-1.85.2.tar.gz
+[2023-06-30 05:41:02] INFO root fetch - processPackages [voicegain-speech]: executing diffoscope
+[2023-06-30 05:41:02] INFO root fetch - processPackages [voicegain-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicegain-speech-1.85.1.tar.gz tmp/voicegain-speech-1.85.2.tar.gz --markdown 20230630/v/voicegain-speech/1.85.1-1.85.2/diff.md --exclude *.pyd
+[2023-06-30 05:41:02] INFO root fetch - processPackages [beastiary]: Downloading https://files.pythonhosted.org/packages/f5/1d/6731c9947b933d4ed556cbbe119e02e77060895265eebc1fee0a208d1328/beastiary-1.6.1.tar.gz
+[2023-06-30 05:41:02] INFO root fetch - processPackages [beastiary]: executing diffoscope
+[2023-06-30 05:41:02] INFO root fetch - processPackages [beastiary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beastiary-1.6.0.tar.gz tmp/beastiary-1.6.1.tar.gz --markdown 20230630/b/beastiary/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-30 05:41:03] INFO root fetch - processPackages [bardapi]: Remove: archive file [/home/abi/fetcher/tmp/bardapi-0.1.8.tar.gz]
+[2023-06-30 05:41:03] INFO root fetch - processPackages [bardapi]: Remove: archive file [/home/abi/fetcher/tmp/bardapi-0.1.9.tar.gz]
+[2023-06-30 05:41:03] INFO root fetch - processPackages [bardapi]: Start processing: qt5-cef
+[2023-06-30 05:41:03] INFO root fetch - main [MainThread]: End processing [bardapi]: success
+[2023-06-30 05:41:03] INFO root fetch - processPackages [qt5-cef]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-30 05:41:03] INFO root fetch - processPackages [blockit]: Remove: archive file [/home/abi/fetcher/tmp/blockit-0.0.1.tar.gz]
+[2023-06-30 05:41:03] INFO root fetch - processPackages [blockit]: Remove: archive file [/home/abi/fetcher/tmp/blockit-0.0.2.tar.gz]
+[2023-06-30 05:41:03] INFO root fetch - processPackages [blockit]: Start processing: rime-sdk
+[2023-06-30 05:41:03] INFO root fetch - main [MainThread]: End processing [blockit]: success
+[2023-06-30 05:41:03] INFO root fetch - processPackages [rime-sdk]: New version: [2.2.0rc0] Old Version: [2.1.2]
+[2023-06-30 05:41:03] INFO root fetch - processPackages [qt5-cef]: Downloading https://files.pythonhosted.org/packages/37/95/3cad9ba62356abef266a0f8040d3811ce13be52092c8a7b9b2a61a2e0c17/qt5-cef-1.1.7.tar.gz
+[2023-06-30 05:41:03] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.6.tar.gz]
+[2023-06-30 05:41:03] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.7.tar.gz]
+[2023-06-30 05:41:03] INFO root fetch - main [MainThread]: End processing [teamanchorhello]: success
+[2023-06-30 05:41:03] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/ba/9c/d203af1ae24a201ef9641e1b728d35b8648ff7e63ef42b173283845ecfd3/rime_sdk-2.1.2.tar.gz
+[2023-06-30 05:41:03] INFO root fetch - processPackages [nonebot-plugin-userinfo]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_userinfo-0.0.1.tar.gz]
+[2023-06-30 05:41:03] INFO root fetch - processPackages [nonebot-plugin-userinfo]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_userinfo-0.0.2.tar.gz]
+[2023-06-30 05:41:03] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-userinfo]: success
+[2023-06-30 05:41:03] INFO root fetch - processPackages [qt5-cef]: Downloading https://files.pythonhosted.org/packages/89/b9/c7fe3aaced1d431acb1033a93e6e7ed199e98af99986d3dafa809021962d/qt5-cef-1.1.8.tar.gz
+[2023-06-30 05:41:03] INFO root fetch - processPackages [glsm]: Remove: archive file [/home/abi/fetcher/tmp/glsm-0.1.0.tar.gz]
+[2023-06-30 05:41:03] INFO root fetch - processPackages [glsm]: Remove: archive file [/home/abi/fetcher/tmp/glsm-0.1.1.tar.gz]
+[2023-06-30 05:41:03] INFO root fetch - main [MainThread]: End processing [glsm]: success
+[2023-06-30 05:41:03] INFO root fetch - processPackages [qt5-cef]: executing diffoscope
+[2023-06-30 05:41:03] INFO root fetch - processPackages [qt5-cef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qt5-cef-1.1.7.tar.gz tmp/qt5-cef-1.1.8.tar.gz --markdown 20230630/q/qt5-cef/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-30 05:41:04] INFO root fetch - processPackages [flux-local]: Remove: archive file [/home/abi/fetcher/tmp/flux-local-1.3.1.tar.gz]
+[2023-06-30 05:41:04] INFO root fetch - processPackages [flux-local]: Remove: archive file [/home/abi/fetcher/tmp/flux-local-1.3.2.tar.gz]
+[2023-06-30 05:41:04] INFO root fetch - main [MainThread]: End processing [flux-local]: success
+[2023-06-30 05:41:04] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/d0/ff/90f672abf82ab98ec061a87b3397a46e00f723b3ba96708bc7c3faeb163a/rime_sdk-2.2.0rc0.tar.gz
+[2023-06-30 05:41:04] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-06-30 05:41:04] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.1.2.tar.gz tmp/rime_sdk-2.2.0rc0.tar.gz --markdown 20230630/r/rime-sdk/2.1.2-2.2.0rc0/diff.md --exclude *.pyd
+[2023-06-30 05:41:04] INFO root fetch - processPackages [qt5-cef]: Remove: archive file [/home/abi/fetcher/tmp/qt5-cef-1.1.7.tar.gz]
+[2023-06-30 05:41:04] INFO root fetch - processPackages [qt5-cef]: Remove: archive file [/home/abi/fetcher/tmp/qt5-cef-1.1.8.tar.gz]
+[2023-06-30 05:41:04] INFO root fetch - main [MainThread]: End processing [qt5-cef]: success
+[2023-06-30 05:41:07] INFO root fetch - processPackages [beastiary]: Remove: archive file [/home/abi/fetcher/tmp/beastiary-1.6.0.tar.gz]
+[2023-06-30 05:41:07] INFO root fetch - processPackages [beastiary]: Remove: archive file [/home/abi/fetcher/tmp/beastiary-1.6.1.tar.gz]
+[2023-06-30 05:41:07] INFO root fetch - main [MainThread]: End processing [beastiary]: success
+[2023-06-30 05:41:08] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.1.2.tar.gz]
+[2023-06-30 05:41:08] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc0.tar.gz]
+[2023-06-30 05:41:08] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-06-30 05:41:10] INFO root fetch - processPackages [voicegain-speech]: Remove: archive file [/home/abi/fetcher/tmp/voicegain-speech-1.85.1.tar.gz]
+[2023-06-30 05:41:10] INFO root fetch - processPackages [voicegain-speech]: Remove: archive file [/home/abi/fetcher/tmp/voicegain-speech-1.85.2.tar.gz]
+[2023-06-30 05:41:10] INFO root fetch - main [MainThread]: End processing [voicegain-speech]: success
+[2023-06-30 05:41:11] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-30 05:41:11] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-30 05:41:11] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-30 05:41:17] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-06-30 05:41:17] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-06-30 05:41:17] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-30 05:41:17] INFO root fetch - main [MainThread]: Store serial: [18705667]
