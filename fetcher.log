@@ -12515,3 +12515,30 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 07:42:32] INFO root fetch - processPackages [nicegui]: Remove: archive file [/home/abi/fetcher/tmp/nicegui-1.2.9.tar.gz]
 [2023-06-30 07:42:32] INFO root fetch - main [MainThread]: End processing [nicegui]: success
 [2023-06-30 07:42:32] INFO root fetch - main [MainThread]: Store serial: [18706349]
+[2023-06-30 07:47:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706349]
+[2023-06-30 07:47:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-30 07:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petisco
+[2023-06-30 07:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: api-shop
+[2023-06-30 07:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localmd
+[2023-06-30 07:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PortscannerGtk
+[2023-06-30 07:47:42] INFO root fetch - processPackages [api-shop]: New version: [1.9.7] Old Version: [1.9.5]
+[2023-06-30 07:47:42] WARNING root fetch - processPackages [localmd]: Skipping, unable to determine old version
+[2023-06-30 07:47:42] INFO root fetch - main [MainThread]: End processing [localmd] error
+[2023-06-30 07:47:42] WARNING root fetch - processPackages [PortscannerGtk]: Skipping, unable to determine old version
+[2023-06-30 07:47:42] INFO root fetch - main [MainThread]: End processing [PortscannerGtk] error
+[2023-06-30 07:47:42] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc8] Old Version: [2.0.0rc7]
+[2023-06-30 07:47:42] INFO root fetch - processPackages [api-shop]: Downloading https://files.pythonhosted.org/packages/9c/a7/662d4d3eff22d59e09fe40d3a892c642e866294a537b0d736bed35693bcc/api-shop-1.9.5.tar.gz
+[2023-06-30 07:47:42] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/8d/0f/b32d3c30337fff6546a44cdccdf2d83a830cdba6cbcb762f2941a2a58c9f/petisco-2.0.0rc7.tar.gz
+[2023-06-30 07:47:42] INFO root fetch - processPackages [api-shop]: Downloading https://files.pythonhosted.org/packages/21/78/3263c32e0f57a2d15816b948350f37a9267872b3d1f7e7ab1b183ef6953b/api-shop-1.9.7.tar.gz
+[2023-06-30 07:47:42] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/6c/22/10d99d1280b98239e5c5f4c45e4e4f017af7c413c388a012689ece0e0fc4/petisco-2.0.0rc8.tar.gz
+[2023-06-30 07:47:42] INFO root fetch - processPackages [api-shop]: executing diffoscope
+[2023-06-30 07:47:42] INFO root fetch - processPackages [api-shop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-shop-1.9.5.tar.gz tmp/api-shop-1.9.7.tar.gz --markdown 20230630/a/api-shop/1.9.5-1.9.7/diff.md --exclude *.pyd
+[2023-06-30 07:47:42] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-06-30 07:47:42] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc7.tar.gz tmp/petisco-2.0.0rc8.tar.gz --markdown 20230630/p/petisco/2.0.0rc7-2.0.0rc8/diff.md --exclude *.pyd
+[2023-06-30 07:47:43] INFO root fetch - processPackages [api-shop]: Remove: archive file [/home/abi/fetcher/tmp/api-shop-1.9.5.tar.gz]
+[2023-06-30 07:47:43] INFO root fetch - processPackages [api-shop]: Remove: archive file [/home/abi/fetcher/tmp/api-shop-1.9.7.tar.gz]
+[2023-06-30 07:47:43] INFO root fetch - main [MainThread]: End processing [api-shop]: success
+[2023-06-30 07:47:44] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc7.tar.gz]
+[2023-06-30 07:47:44] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc8.tar.gz]
+[2023-06-30 07:47:44] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-06-30 07:47:44] INFO root fetch - main [MainThread]: Store serial: [18706364]
