@@ -10761,3 +10761,123 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 05:29:48] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl.zip]
 [2023-06-30 05:29:48] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp]: success
 [2023-06-30 05:29:48] INFO root fetch - main [MainThread]: Store serial: [18705592]
+[2023-06-30 05:34:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705592]
+[2023-06-30 05:34:58] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-30 05:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: umirobot
+[2023-06-30 05:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recurtx
+[2023-06-30 05:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grai-source-flat-file
+[2023-06-30 05:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grai-source-mssql
+[2023-06-30 05:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grai-source-mysql
+[2023-06-30 05:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grai-source-postgres
+[2023-06-30 05:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: konfuzio-sdk
+[2023-06-30 05:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: windbg-copilot
+[2023-06-30 05:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ppmmvehicle
+[2023-06-30 05:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyuse-core
+[2023-06-30 05:34:58] INFO root fetch - processPackages [recurtx]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-30 05:34:58] INFO root fetch - processPackages [grai-source-flat-file]: New version: [0.1.0a1] Old Version: [0.0.9]
+[2023-06-30 05:34:58] INFO root fetch - processPackages [grai-source-postgres]: New version: [0.2.0a1] Old Version: [0.1.9]
+[2023-06-30 05:34:58] INFO root fetch - processPackages [umirobot]: New version: [22.4.9] Old Version: [22.4.6]
+[2023-06-30 05:34:58] INFO root fetch - processPackages [grai-source-mysql]: New version: [0.1.0a1] Old Version: [0.0.9]
+[2023-06-30 05:34:58] INFO root fetch - processPackages [pyuse-core]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-30 05:34:58] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-06-30 05:34:58] INFO root fetch - processPackages [grai-source-mssql]: New version: [0.1.0a1] Old Version: [0.0.9]
+[2023-06-30 05:34:58] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 05:34:58] INFO root fetch - processPackages [ppmmvehicle]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-30 05:34:58] INFO root fetch - processPackages [recurtx]: Downloading https://files.pythonhosted.org/packages/25/51/7425732e8ea7831301da640e0a3d9319d71627cfb5c8b3129c057f81976c/recurtx-0.0.5.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [grai-source-flat-file]: Downloading https://files.pythonhosted.org/packages/4d/00/7850ade542f529e8acf91e7419610126645ce4343b91382d24d08b743f60/grai_source_flat_file-0.0.9.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [umirobot]: Downloading https://files.pythonhosted.org/packages/6e/1d/4755fd206acffc3d75c179bc158425fc6a2079a37710beb275acda976d93/umirobot-22.4.6.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [grai-source-postgres]: Downloading https://files.pythonhosted.org/packages/d9/c3/053ad6c134151ee11af50edd6bcdbab63797a2e653695a28458085741337/grai_source_postgres-0.1.9.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [pyuse-core]: Downloading https://files.pythonhosted.org/packages/62/7b/42a556c227e7274b111b7701e1d4822c4ef1106e69c9b337dda2c2ff8ab0/pyuse-core-0.0.5.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [ppmmvehicle]: Downloading https://files.pythonhosted.org/packages/a7/15/7867f0e96360428317713520f77c5823a6878258b0a1fedf7471072a4de3/ppmmvehicle-1.0.0.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [recurtx]: Downloading https://files.pythonhosted.org/packages/70/b0/b5e0cbe15219eab1ab4f7733ba20f8d8242d151283a11a0c47c4581bc500/recurtx-0.0.6.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [grai-source-mysql]: Downloading https://files.pythonhosted.org/packages/84/27/51123a553dd5bfb28748bcd4c356d47c5d7021dec5ca93d920c0b4c0d21f/grai_source_mysql-0.0.9.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [grai-source-mssql]: Downloading https://files.pythonhosted.org/packages/a4/cb/002467283ef3818efcb2835e23c1747834ecda5a52dfdf4ee41eb801e862/grai_source_mssql-0.0.9.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-06-30 05:34:58] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230630/w/windbg-copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 05:34:58] INFO root fetch - processPackages [recurtx]: executing diffoscope
+[2023-06-30 05:34:58] INFO root fetch - processPackages [recurtx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recurtx-0.0.5.tar.gz tmp/recurtx-0.0.6.tar.gz --markdown 20230630/r/recurtx/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-30 05:34:58] INFO root fetch - processPackages [grai-source-flat-file]: Downloading https://files.pythonhosted.org/packages/b1/26/9a3a2ba97fdd4941f21de540abf63ad0c017438cd10c43c751c3aaeb14d8/grai_source_flat_file-0.1.0a1.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [pyuse-core]: Downloading https://files.pythonhosted.org/packages/38/e8/7fd330e7d8a1938679aeb5dd9abefc95b796f19b425cf33e871032c34c68/pyuse-core-0.0.6.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [ppmmvehicle]: Downloading https://files.pythonhosted.org/packages/e0/8b/a3a3706846a7d98b6c7bf84584590442d5b42c932c40235a82255e164a6a/ppmmvehicle-1.0.1.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [grai-source-flat-file]: executing diffoscope
+[2023-06-30 05:34:58] INFO root fetch - processPackages [grai-source-flat-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_flat_file-0.0.9.tar.gz tmp/grai_source_flat_file-0.1.0a1.tar.gz --markdown 20230630/g/grai-source-flat-file/0.0.9-0.1.0a1/diff.md --exclude *.pyd
+[2023-06-30 05:34:58] INFO root fetch - processPackages [grai-source-mysql]: Downloading https://files.pythonhosted.org/packages/61/93/346c730f503d053b2e0534c1eea0e92e02b4b2c4056d8f1dde7612850b6d/grai_source_mysql-0.1.0a1.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [grai-source-mssql]: Downloading https://files.pythonhosted.org/packages/c3/f2/44db711054469ed8b9e0016dc358d81546d53ed1e8da1422a1984eb29a8f/grai_source_mssql-0.1.0a1.tar.gz
+[2023-06-30 05:34:58] INFO root fetch - processPackages [grai-source-postgres]: Downloading https://files.pythonhosted.org/packages/7f/f8/187a4b43c699b939ebcb2e3b0f2554e0f418f68cb6670cbe404b7d452f9a/grai_source_postgres-0.2.0a1.tar.gz
+[2023-06-30 05:34:59] INFO root fetch - processPackages [pyuse-core]: executing diffoscope
+[2023-06-30 05:34:59] INFO root fetch - processPackages [pyuse-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuse-core-0.0.5.tar.gz tmp/pyuse-core-0.0.6.tar.gz --markdown 20230630/p/pyuse-core/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-30 05:34:59] INFO root fetch - processPackages [umirobot]: Downloading https://files.pythonhosted.org/packages/ca/24/e451e7bbf6c22b9fde19cc5c118f322ae67e669d6b747d1a6660208aa9ef/umirobot-22.4.9.tar.gz
+[2023-06-30 05:34:59] INFO root fetch - processPackages [grai-source-mysql]: executing diffoscope
+[2023-06-30 05:34:59] INFO root fetch - processPackages [grai-source-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_mysql-0.0.9.tar.gz tmp/grai_source_mysql-0.1.0a1.tar.gz --markdown 20230630/g/grai-source-mysql/0.0.9-0.1.0a1/diff.md --exclude *.pyd
+[2023-06-30 05:34:59] INFO root fetch - processPackages [grai-source-mssql]: executing diffoscope
+[2023-06-30 05:34:59] INFO root fetch - processPackages [grai-source-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_mssql-0.0.9.tar.gz tmp/grai_source_mssql-0.1.0a1.tar.gz --markdown 20230630/g/grai-source-mssql/0.0.9-0.1.0a1/diff.md --exclude *.pyd
+[2023-06-30 05:34:59] INFO root fetch - processPackages [grai-source-postgres]: executing diffoscope
+[2023-06-30 05:34:59] INFO root fetch - processPackages [grai-source-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_postgres-0.1.9.tar.gz tmp/grai_source_postgres-0.2.0a1.tar.gz --markdown 20230630/g/grai-source-postgres/0.1.9-0.2.0a1/diff.md --exclude *.pyd
+[2023-06-30 05:34:59] INFO root fetch - processPackages [ppmmvehicle]: executing diffoscope
+[2023-06-30 05:34:59] INFO root fetch - processPackages [ppmmvehicle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppmmvehicle-1.0.0.tar.gz tmp/ppmmvehicle-1.0.1.tar.gz --markdown 20230630/p/ppmmvehicle/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-30 05:34:59] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-06-30 05:34:59] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230630/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-06-30 05:34:59] INFO root fetch - processPackages [umirobot]: executing diffoscope
+[2023-06-30 05:34:59] INFO root fetch - processPackages [umirobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umirobot-22.4.6.tar.gz tmp/umirobot-22.4.9.tar.gz --markdown 20230630/u/umirobot/22.4.6-22.4.9/diff.md --exclude *.pyd
+[2023-06-30 05:35:00] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-06-30 05:35:00] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-06-30 05:35:00] INFO root fetch - processPackages [windbg-copilot]: Start processing: voicemeeter-compact
+[2023-06-30 05:35:00] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-06-30 05:35:00] INFO root fetch - processPackages [voicemeeter-compact]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-06-30 05:35:00] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/5d/fa/4f16292146b6805fbdd973a957066f08014e8201db9da4cdf7c505bfa5b0/voicemeeter-compact-1.8.1.tar.gz
+[2023-06-30 05:35:00] INFO root fetch - processPackages [grai-source-flat-file]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_flat_file-0.0.9.tar.gz]
+[2023-06-30 05:35:00] INFO root fetch - processPackages [grai-source-flat-file]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_flat_file-0.1.0a1.tar.gz]
+[2023-06-30 05:35:00] INFO root fetch - processPackages [grai-source-flat-file]: Start processing: kBmc
+[2023-06-30 05:35:00] INFO root fetch - main [MainThread]: End processing [grai-source-flat-file]: success
+[2023-06-30 05:35:00] INFO root fetch - processPackages [kBmc]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-30 05:35:00] INFO root fetch - processPackages [recurtx]: Remove: archive file [/home/abi/fetcher/tmp/recurtx-0.0.5.tar.gz]
+[2023-06-30 05:35:00] INFO root fetch - processPackages [recurtx]: Remove: archive file [/home/abi/fetcher/tmp/recurtx-0.0.6.tar.gz]
+[2023-06-30 05:35:00] INFO root fetch - processPackages [recurtx]: Start processing: btimer
+[2023-06-30 05:35:00] INFO root fetch - main [MainThread]: End processing [recurtx]: success
+[2023-06-30 05:35:00] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/3b/94/5e15043d2a39dfdd9d729021561c9b73285600f738a17a256bfef4712021/voicemeeter_compact-1.8.2.tar.gz
+[2023-06-30 05:35:00] INFO root fetch - processPackages [btimer]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-30 05:35:00] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/2b/de/249f78c2669bc02f7556068ddf04fbc11c896564b5727a852834f39241da/kBmc-2.1.8.tar.gz
+[2023-06-30 05:35:00] INFO root fetch - processPackages [grai-source-mysql]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_mysql-0.0.9.tar.gz]
+[2023-06-30 05:35:00] INFO root fetch - processPackages [grai-source-mysql]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_mysql-0.1.0a1.tar.gz]
+[2023-06-30 05:35:00] INFO root fetch - main [MainThread]: End processing [grai-source-mysql]: success
+[2023-06-30 05:35:00] INFO root fetch - processPackages [grai-source-mssql]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_mssql-0.0.9.tar.gz]
+[2023-06-30 05:35:00] INFO root fetch - processPackages [grai-source-mssql]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_mssql-0.1.0a1.tar.gz]
+[2023-06-30 05:35:00] INFO root fetch - main [MainThread]: End processing [grai-source-mssql]: success
+[2023-06-30 05:35:00] INFO root fetch - processPackages [voicemeeter-compact]: executing diffoscope
+[2023-06-30 05:35:00] INFO root fetch - processPackages [voicemeeter-compact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter-compact-1.8.1.tar.gz tmp/voicemeeter_compact-1.8.2.tar.gz --markdown 20230630/v/voicemeeter-compact/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-06-30 05:35:00] INFO root fetch - processPackages [btimer]: Downloading https://files.pythonhosted.org/packages/d6/50/eff6563d5a71f9c2a5674b5b502de8499293b6e01a2d5b2b95229ead8e2e/btimer-1.0.6.tar.gz
+[2023-06-30 05:35:00] INFO root fetch - processPackages [grai-source-postgres]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_postgres-0.1.9.tar.gz]
+[2023-06-30 05:35:00] INFO root fetch - processPackages [grai-source-postgres]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_postgres-0.2.0a1.tar.gz]
+[2023-06-30 05:35:00] INFO root fetch - main [MainThread]: End processing [grai-source-postgres]: success
+[2023-06-30 05:35:00] INFO root fetch - processPackages [pyuse-core]: Remove: archive file [/home/abi/fetcher/tmp/pyuse-core-0.0.5.tar.gz]
+[2023-06-30 05:35:00] INFO root fetch - processPackages [pyuse-core]: Remove: archive file [/home/abi/fetcher/tmp/pyuse-core-0.0.6.tar.gz]
+[2023-06-30 05:35:00] INFO root fetch - main [MainThread]: End processing [pyuse-core]: success
+[2023-06-30 05:35:00] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/11/f3/0b422206b6dbb38439c6c57ef395a0592b89154eb63300ef3e20097bda82/kBmc-2.1.9.tar.gz
+[2023-06-30 05:35:01] INFO root fetch - processPackages [btimer]: Downloading https://files.pythonhosted.org/packages/81/37/6a0d244e4f7b60601eeae772c1ecf17e6d4eef3f6d7f6af5d8e143517a93/btimer-1.0.7.tar.gz
+[2023-06-30 05:35:01] INFO root fetch - processPackages [kBmc]: executing diffoscope
+[2023-06-30 05:35:01] INFO root fetch - processPackages [kBmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kBmc-2.1.8.tar.gz tmp/kBmc-2.1.9.tar.gz --markdown 20230630/k/kBmc/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-30 05:35:01] INFO root fetch - processPackages [btimer]: executing diffoscope
+[2023-06-30 05:35:01] INFO root fetch - processPackages [btimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btimer-1.0.6.tar.gz tmp/btimer-1.0.7.tar.gz --markdown 20230630/b/btimer/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-30 05:35:01] INFO root fetch - processPackages [ppmmvehicle]: Remove: archive file [/home/abi/fetcher/tmp/ppmmvehicle-1.0.0.tar.gz]
+[2023-06-30 05:35:01] INFO root fetch - processPackages [ppmmvehicle]: Remove: archive file [/home/abi/fetcher/tmp/ppmmvehicle-1.0.1.tar.gz]
+[2023-06-30 05:35:01] INFO root fetch - main [MainThread]: End processing [ppmmvehicle]: success
+[2023-06-30 05:35:01] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter-compact-1.8.1.tar.gz]
+[2023-06-30 05:35:01] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_compact-1.8.2.tar.gz]
+[2023-06-30 05:35:01] INFO root fetch - main [MainThread]: End processing [voicemeeter-compact]: success
+[2023-06-30 05:35:02] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-06-30 05:35:02] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-06-30 05:35:02] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-06-30 05:35:02] INFO root fetch - processPackages [btimer]: Remove: archive file [/home/abi/fetcher/tmp/btimer-1.0.6.tar.gz]
+[2023-06-30 05:35:02] INFO root fetch - processPackages [btimer]: Remove: archive file [/home/abi/fetcher/tmp/btimer-1.0.7.tar.gz]
+[2023-06-30 05:35:02] INFO root fetch - main [MainThread]: End processing [btimer]: success
+[2023-06-30 05:35:02] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.1.8.tar.gz]
+[2023-06-30 05:35:02] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.1.9.tar.gz]
+[2023-06-30 05:35:02] INFO root fetch - main [MainThread]: End processing [kBmc]: success
+[2023-06-30 05:35:52] INFO root fetch - processPackages [umirobot]: Remove: archive file [/home/abi/fetcher/tmp/umirobot-22.4.6.tar.gz]
+[2023-06-30 05:35:52] INFO root fetch - processPackages [umirobot]: Remove: archive file [/home/abi/fetcher/tmp/umirobot-22.4.9.tar.gz]
+[2023-06-30 05:35:52] INFO root fetch - main [MainThread]: End processing [umirobot]: success
+[2023-06-30 05:35:52] INFO root fetch - main [MainThread]: Store serial: [18705631]
