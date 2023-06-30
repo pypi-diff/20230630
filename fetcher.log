@@ -22835,3 +22835,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 15:01:20] INFO root fetch - processPackages [riptide-cpp]: Remove: archive file [/home/abi/fetcher/tmp/riptide_cpp-1.9.0.tar.gz]
 [2023-06-30 15:01:20] INFO root fetch - main [MainThread]: End processing [riptide-cpp]: success
 [2023-06-30 15:01:20] INFO root fetch - main [MainThread]: Store serial: [18711040]
+[2023-06-30 15:06:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18711040]
+[2023-06-30 15:06:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-30 15:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-align-audio
+[2023-06-30 15:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: preheat-open
+[2023-06-30 15:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Adyen
+[2023-06-30 15:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edcrypt
+[2023-06-30 15:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inuits-policy-based-auth
+[2023-06-30 15:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coinglass-api
+[2023-06-30 15:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mendable-py
+[2023-06-30 15:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yeref
+[2023-06-30 15:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mwdb-iocextract
+[2023-06-30 15:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mouse2
+[2023-06-30 15:06:30] WARNING root fetch - processPackages [fast-align-audio]: Skipping, unable to determine old version
+[2023-06-30 15:06:30] INFO root fetch - processPackages [fast-align-audio]: Start processing: algorun
+[2023-06-30 15:06:30] INFO root fetch - main [MainThread]: End processing [fast-align-audio] error
+[2023-06-30 15:06:30] INFO root fetch - processPackages [preheat-open]: New version: [1.39] Old Version: [1.38]
+[2023-06-30 15:06:30] WARNING root fetch - processPackages [edcrypt]: Skipping, unable to determine old version
+[2023-06-30 15:06:30] INFO root fetch - processPackages [mouse2]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-30 15:06:30] INFO root fetch - processPackages [edcrypt]: Start processing: deairequest
+[2023-06-30 15:06:30] INFO root fetch - main [MainThread]: End processing [edcrypt] error
+[2023-06-30 15:06:30] INFO root fetch - processPackages [coinglass-api]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-30 15:06:30] INFO root fetch - processPackages [Adyen]: New version: [9.0.0] Old Version: [8.0.1]
+[2023-06-30 15:06:30] INFO root fetch - processPackages [algorun]: New version: [0.0.1b2] Old Version: [0.0.1b1]
+[2023-06-30 15:06:30] WARNING root fetch - processPackages [deairequest]: Skipping, unable to determine old version
+[2023-06-30 15:06:30] INFO root fetch - processPackages [deairequest]: Start processing: sql-deta
+[2023-06-30 15:06:30] INFO root fetch - processPackages [inuits-policy-based-auth]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-06-30 15:06:30] INFO root fetch - main [MainThread]: End processing [deairequest] error
+[2023-06-30 15:06:30] INFO root fetch - processPackages [mendable-py]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-30 15:06:30] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-30 15:06:30] INFO root fetch - processPackages [algorun]: Downloading https://files.pythonhosted.org/packages/f7/52/bef1e96575854c7b81ee3e06271f6fa6644d036b1d2f9f1e1b6578ea43b2/algorun-0.0.1b1-py3-none-any.whl
+[2023-06-30 15:06:30] INFO root fetch - processPackages [mouse2]: Downloading https://files.pythonhosted.org/packages/71/af/4471c4bdb401c2eb1af021c6ca28e08d5d508db68923ca092b4bd35171e5/mouse2-0.2.8.tar.gz
+[2023-06-30 15:06:30] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-06-30 15:06:30] INFO root fetch - processPackages [mwdb-iocextract]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-30 15:06:30] WARNING root fetch - processPackages [sql-deta]: Skipping, unable to determine old version
+[2023-06-30 15:06:30] INFO root fetch - processPackages [sql-deta]: Start processing: mini-rec-sys
+[2023-06-30 15:06:30] INFO root fetch - main [MainThread]: End processing [sql-deta] error
+[2023-06-30 15:06:30] INFO root fetch - processPackages [inuits-policy-based-auth]: Downloading https://files.pythonhosted.org/packages/f9/30/a1b1cf962664aed7b0c1e0792cbd5d0dbe2e7d590545b539c94c6644b632/inuits_policy_based_auth-4.0.1.tar.gz
+[2023-06-30 15:06:30] INFO root fetch - processPackages [coinglass-api]: Downloading https://files.pythonhosted.org/packages/75/d0/1a321b20703b05b235f46fa392799558f8ae62f654e5bdebca4b22a76881/coinglass_api-0.4.0.tar.gz
+[2023-06-30 15:06:30] INFO root fetch - processPackages [mouse2]: Downloading https://files.pythonhosted.org/packages/38/4f/0f78a073a4cba3f2a488e767e2ad7e4de4de2f9a4993165d4e4cbecbc753/mouse2-0.2.9.tar.gz
+[2023-06-30 15:06:30] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-06-30 15:06:30] INFO root fetch - processPackages [preheat-open]: Downloading https://files.pythonhosted.org/packages/70/20/ad2fa173846b65c1f1bcb83eca0d10d08a39edc5d2e2b40c49919285990e/preheat_open-1.38.tar.gz
+[2023-06-30 15:06:30] INFO root fetch - processPackages [mendable-py]: Downloading https://files.pythonhosted.org/packages/fd/98/021b9d57af3dce978edad44a0adac6c5af40e659ecbdb5864bdfe465fbc5/mendable-py-0.0.1.tar.gz
+[2023-06-30 15:06:30] INFO root fetch - processPackages [Adyen]: Downloading https://files.pythonhosted.org/packages/57/1b/ba70f069525e9229a2c7a004cd30faeab78404673d894769c48903ef1964/Adyen-8.0.1.tar.gz
+[2023-06-30 15:06:30] WARNING root fetch - processPackages [mini-rec-sys]: Skipping, unable to determine old version
+[2023-06-30 15:06:30] INFO root fetch - main [MainThread]: End processing [mini-rec-sys] error
+[2023-06-30 15:06:30] INFO root fetch - processPackages [algorun]: Downloading https://files.pythonhosted.org/packages/a4/76/8946a94fa7e2ed0807bcd9de6d22b4ffc2ff55aa4a254ebcabc8857a0eb2/algorun-0.0.1b2-py3-none-any.whl
+[2023-06-30 15:06:30] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-30 15:06:30] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230630/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-30 15:06:30] INFO root fetch - processPackages [mouse2]: executing diffoscope
+[2023-06-30 15:06:30] INFO root fetch - processPackages [mouse2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mouse2-0.2.8.tar.gz tmp/mouse2-0.2.9.tar.gz --markdown 20230630/m/mouse2/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-30 15:06:30] INFO root fetch - processPackages [mwdb-iocextract]: Downloading https://files.pythonhosted.org/packages/a3/12/2ee5b02fa9a1ebeb3f6ed3a97c82e0405ed78dcb334819d815d116d5d834/mwdb_iocextract-1.1.2-py2.py3-none-any.whl
+[2023-06-30 15:06:30] INFO root fetch - processPackages [inuits-policy-based-auth]: Downloading https://files.pythonhosted.org/packages/76/27/ec16feb27a326a8e8351a5fd64bf64ad0ff0a02ff3ffb55f1039d72b66df/inuits_policy_based_auth-4.0.2.tar.gz
+[2023-06-30 15:06:30] INFO root fetch - processPackages [algorun]: executing diffoscope
+[2023-06-30 15:06:30] INFO root fetch - processPackages [algorun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algorun-0.0.1b1-py3-none-any.whl.zip tmp/algorun-0.0.1b2-py3-none-any.whl.zip --markdown 20230630/a/algorun/0.0.1b1-0.0.1b2/diff.md --exclude *.pyd
+[2023-06-30 15:06:30] INFO root fetch - processPackages [mendable-py]: Downloading https://files.pythonhosted.org/packages/4b/d2/30a5476de086f2fa1800c9c11baaf1a68ee500bccccfdff4c9f8248491cd/mendable-py-0.0.2.tar.gz
+[2023-06-30 15:06:30] INFO root fetch - processPackages [coinglass-api]: Downloading https://files.pythonhosted.org/packages/6e/b1/b3ec608680dc42a0d8e4a98beeafca3c22db90d5c118fdfbdcfc49ac47b1/coinglass_api-0.5.0.tar.gz
+[2023-06-30 15:06:30] INFO root fetch - processPackages [inuits-policy-based-auth]: executing diffoscope
+[2023-06-30 15:06:30] INFO root fetch - processPackages [inuits-policy-based-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inuits_policy_based_auth-4.0.1.tar.gz tmp/inuits_policy_based_auth-4.0.2.tar.gz --markdown 20230630/i/inuits-policy-based-auth/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-06-30 15:06:30] INFO root fetch - processPackages [preheat-open]: Downloading https://files.pythonhosted.org/packages/6f/93/ecbae3404442fd4007dcd1f5d63ea33007f9ed758e7de257472b4f958a41/preheat_open-1.39.tar.gz
+[2023-06-30 15:06:30] INFO root fetch - processPackages [Adyen]: Downloading https://files.pythonhosted.org/packages/eb/85/da1787a0894239a41321e3109a6f6b11f2fb566c47be1e1158212c2b5ae7/Adyen-9.0.0.tar.gz
+[2023-06-30 15:06:30] INFO root fetch - processPackages [mwdb-iocextract]: Downloading https://files.pythonhosted.org/packages/29/e8/dff869f9d86051f15e5e02740585351f828317ecb12d90bc3d28de12821a/mwdb-iocextract-1.1.3.tar.gz
+[2023-06-30 15:06:30] INFO root fetch - processPackages [mendable-py]: executing diffoscope
+[2023-06-30 15:06:30] INFO root fetch - processPackages [mendable-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mendable-py-0.0.1.tar.gz tmp/mendable-py-0.0.2.tar.gz --markdown 20230630/m/mendable-py/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 15:06:30] INFO root fetch - processPackages [coinglass-api]: executing diffoscope
+[2023-06-30 15:06:30] INFO root fetch - processPackages [coinglass-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coinglass_api-0.4.0.tar.gz tmp/coinglass_api-0.5.0.tar.gz --markdown 20230630/c/coinglass-api/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-30 15:06:30] INFO root fetch - processPackages [Adyen]: executing diffoscope
+[2023-06-30 15:06:30] INFO root fetch - processPackages [Adyen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Adyen-8.0.1.tar.gz tmp/Adyen-9.0.0.tar.gz --markdown 20230630/A/Adyen/8.0.1-9.0.0/diff.md --exclude *.pyd
+[2023-06-30 15:06:30] INFO root fetch - processPackages [preheat-open]: executing diffoscope
+[2023-06-30 15:06:30] INFO root fetch - processPackages [preheat-open]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preheat_open-1.38.tar.gz tmp/preheat_open-1.39.tar.gz --markdown 20230630/p/preheat-open/1.38-1.39/diff.md --exclude *.pyd
+[2023-06-30 15:06:31] INFO root fetch - processPackages [mwdb-iocextract]: executing diffoscope
+[2023-06-30 15:06:31] INFO root fetch - processPackages [mwdb-iocextract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwdb_iocextract-1.1.2-py2.py3-none-any.whl.zip tmp/mwdb-iocextract-1.1.3.tar.gz --markdown 20230630/m/mwdb-iocextract/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-30 15:06:31] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-06-30 15:06:31] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-06-30 15:06:31] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-30 15:06:32] INFO root fetch - processPackages [algorun]: Remove: archive file [/home/abi/fetcher/tmp/algorun-0.0.1b1-py3-none-any.whl.zip]
+[2023-06-30 15:06:32] INFO root fetch - processPackages [algorun]: Remove: archive file [/home/abi/fetcher/tmp/algorun-0.0.1b2-py3-none-any.whl.zip]
+[2023-06-30 15:06:32] INFO root fetch - main [MainThread]: End processing [algorun]: success
+[2023-06-30 15:06:32] INFO root fetch - processPackages [coinglass-api]: Remove: archive file [/home/abi/fetcher/tmp/coinglass_api-0.4.0.tar.gz]
+[2023-06-30 15:06:32] INFO root fetch - processPackages [coinglass-api]: Remove: archive file [/home/abi/fetcher/tmp/coinglass_api-0.5.0.tar.gz]
+[2023-06-30 15:06:32] INFO root fetch - main [MainThread]: End processing [coinglass-api]: success
+[2023-06-30 15:06:32] INFO root fetch - processPackages [mendable-py]: Remove: archive file [/home/abi/fetcher/tmp/mendable-py-0.0.1.tar.gz]
+[2023-06-30 15:06:32] INFO root fetch - processPackages [mendable-py]: Remove: archive file [/home/abi/fetcher/tmp/mendable-py-0.0.2.tar.gz]
+[2023-06-30 15:06:32] INFO root fetch - main [MainThread]: End processing [mendable-py]: success
+[2023-06-30 15:06:32] INFO root fetch - processPackages [mouse2]: Remove: archive file [/home/abi/fetcher/tmp/mouse2-0.2.8.tar.gz]
+[2023-06-30 15:06:32] INFO root fetch - processPackages [mouse2]: Remove: archive file [/home/abi/fetcher/tmp/mouse2-0.2.9.tar.gz]
+[2023-06-30 15:06:32] INFO root fetch - main [MainThread]: End processing [mouse2]: success
+[2023-06-30 15:06:32] INFO root fetch - processPackages [mwdb-iocextract]: Remove: archive file [/home/abi/fetcher/tmp/mwdb_iocextract-1.1.2-py2.py3-none-any.whl.zip]
+[2023-06-30 15:06:32] INFO root fetch - processPackages [mwdb-iocextract]: Remove: archive file [/home/abi/fetcher/tmp/mwdb-iocextract-1.1.3.tar.gz]
+[2023-06-30 15:06:32] INFO root fetch - main [MainThread]: End processing [mwdb-iocextract]: success
+[2023-06-30 15:06:32] INFO root fetch - processPackages [inuits-policy-based-auth]: Remove: archive file [/home/abi/fetcher/tmp/inuits_policy_based_auth-4.0.1.tar.gz]
+[2023-06-30 15:06:32] INFO root fetch - processPackages [inuits-policy-based-auth]: Remove: archive file [/home/abi/fetcher/tmp/inuits_policy_based_auth-4.0.2.tar.gz]
+[2023-06-30 15:06:32] INFO root fetch - main [MainThread]: End processing [inuits-policy-based-auth]: success
+[2023-06-30 15:06:33] INFO root fetch - processPackages [Adyen]: Remove: archive file [/home/abi/fetcher/tmp/Adyen-8.0.1.tar.gz]
+[2023-06-30 15:06:33] INFO root fetch - processPackages [Adyen]: Remove: archive file [/home/abi/fetcher/tmp/Adyen-9.0.0.tar.gz]
+[2023-06-30 15:06:33] INFO root fetch - main [MainThread]: End processing [Adyen]: success
+[2023-06-30 15:06:33] INFO root fetch - processPackages [preheat-open]: Remove: archive file [/home/abi/fetcher/tmp/preheat_open-1.38.tar.gz]
+[2023-06-30 15:06:33] INFO root fetch - processPackages [preheat-open]: Remove: archive file [/home/abi/fetcher/tmp/preheat_open-1.39.tar.gz]
+[2023-06-30 15:06:33] INFO root fetch - main [MainThread]: End processing [preheat-open]: success
+[2023-06-30 15:06:33] INFO root fetch - main [MainThread]: Store serial: [18711105]
