@@ -12311,3 +12311,48 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 07:26:52] INFO root fetch - processPackages [ibm-cloud-networking-services]: Remove: archive file [/home/abi/fetcher/tmp/ibm-cloud-networking-services-0.9.0.tar.gz]
 [2023-06-30 07:26:52] INFO root fetch - main [MainThread]: End processing [ibm-cloud-networking-services]: success
 [2023-06-30 07:26:52] INFO root fetch - main [MainThread]: Store serial: [18706269]
+[2023-06-30 07:31:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706269]
+[2023-06-30 07:32:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-30 07:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai2-kit
+[2023-06-30 07:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lakeapi2sql
+[2023-06-30 07:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: umapi-cli
+[2023-06-30 07:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qt5-cef
+[2023-06-30 07:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crazy-thursday
+[2023-06-30 07:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-product-supplierinfo-for-customer
+[2023-06-30 07:32:01] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-30 07:32:01] WARNING root fetch - processPackages [umapi-cli]: Skipping, unable to determine old version
+[2023-06-30 07:32:01] INFO root fetch - main [MainThread]: End processing [umapi-cli] error
+[2023-06-30 07:32:01] WARNING root fetch - processPackages [lakeapi2sql]: Skipping, unable to determine old version
+[2023-06-30 07:32:01] INFO root fetch - main [MainThread]: End processing [lakeapi2sql] error
+[2023-06-30 07:32:01] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.9.1] Old Version: [2023.6.9.0]
+[2023-06-30 07:32:01] INFO root fetch - processPackages [qt5-cef]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-06-30 07:32:01] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-06-30 07:32:01] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/b1/40/5829ec135b8688f4278ad96c53701edc59c7542d244da7fff625e9bf0586/crazy-thursday-2023.6.9.0.tar.gz
+[2023-06-30 07:32:01] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-06-30 07:32:01] INFO root fetch - processPackages [qt5-cef]: Downloading https://files.pythonhosted.org/packages/37/95/3cad9ba62356abef266a0f8040d3811ce13be52092c8a7b9b2a61a2e0c17/qt5-cef-1.1.7.tar.gz
+[2023-06-30 07:32:01] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/5e/9d/4da02a3a3f23da194e2e84c3736bb6b6dddf3afa5ff453187cab26459381/crazy-thursday-2023.6.9.1.tar.gz
+[2023-06-30 07:32:01] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Downloading https://files.pythonhosted.org/packages/90/2d/de5cc4fee9720c935f471c5e35805e93d699615c986810361871eb170411/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-30 07:32:02] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-30 07:32:02] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.9.0.tar.gz tmp/crazy-thursday-2023.6.9.1.tar.gz --markdown 20230630/c/crazy-thursday/2023.6.9.0-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-30 07:32:02] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-06-30 07:32:02] INFO root fetch - processPackages [qt5-cef]: Downloading https://files.pythonhosted.org/packages/3a/6a/4a90ad788d78aa29c4fb4e3f1d89cd60740e104bad9d1e9ca3ba78df95f0/qt5-cef-1.1.9.tar.gz
+[2023-06-30 07:32:02] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-06-30 07:32:02] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230630/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-30 07:32:02] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Downloading https://files.pythonhosted.org/packages/e3/71/f691fd07442d53a0740353926abb64a7b275c35ef5beab4911a9ce74424a/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-30 07:32:02] INFO root fetch - processPackages [qt5-cef]: executing diffoscope
+[2023-06-30 07:32:02] INFO root fetch - processPackages [qt5-cef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qt5-cef-1.1.7.tar.gz tmp/qt5-cef-1.1.9.tar.gz --markdown 20230630/q/qt5-cef/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-06-30 07:32:02] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: executing diffoscope
+[2023-06-30 07:32:02] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230630/o/odoo-addon-product-supplierinfo-for-customer/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-30 07:32:03] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.0.tar.gz]
+[2023-06-30 07:32:03] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.1.tar.gz]
+[2023-06-30 07:32:03] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-30 07:32:03] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-06-30 07:32:03] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-06-30 07:32:03] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-06-30 07:32:03] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-30 07:32:03] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-30 07:32:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-supplierinfo-for-customer]: success
+[2023-06-30 07:32:03] INFO root fetch - processPackages [qt5-cef]: Remove: archive file [/home/abi/fetcher/tmp/qt5-cef-1.1.7.tar.gz]
+[2023-06-30 07:32:03] INFO root fetch - processPackages [qt5-cef]: Remove: archive file [/home/abi/fetcher/tmp/qt5-cef-1.1.9.tar.gz]
+[2023-06-30 07:32:03] INFO root fetch - main [MainThread]: End processing [qt5-cef]: success
+[2023-06-30 07:32:03] INFO root fetch - main [MainThread]: Store serial: [18706300]
