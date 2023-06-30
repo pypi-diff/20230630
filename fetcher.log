@@ -19582,3 +19582,189 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 13:20:43] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-06-30 13:20:43] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-06-30 13:20:43] INFO root fetch - main [MainThread]: Store serial: [18709475]
+[2023-06-30 13:25:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18709475]
+[2023-06-30 13:25:52] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-30 13:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pystools
+[2023-06-30 13:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funfluid
+[2023-06-30 13:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-coder
+[2023-06-30 13:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sniimapp
+[2023-06-30 13:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xia-compiler-jsoneditor
+[2023-06-30 13:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-compiler-openapi
+[2023-06-30 13:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netbox-cisco-support-plugin
+[2023-06-30 13:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xia-compiler-python
+[2023-06-30 13:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grai-client
+[2023-06-30 13:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-profile-manager
+[2023-06-30 13:25:52] INFO root fetch - processPackages [xia-coder]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-30 13:25:52] INFO root fetch - processPackages [xia-compiler-openapi]: New version: [0.1.20] Old Version: [0.1.19]
+[2023-06-30 13:25:52] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 13:25:52] INFO root fetch - processPackages [aws-profile-manager]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-30 13:25:52] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 13:25:52] INFO root fetch - processPackages [xia-compiler-jsoneditor]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-30 13:25:52] INFO root fetch - processPackages [funfluid]: New version: [202306301920] Old Version: [202306301651]
+[2023-06-30 13:25:52] INFO root fetch - processPackages [sniimapp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 13:25:52] INFO root fetch - processPackages [xia-compiler-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-30 13:25:52] INFO root fetch - processPackages [grai-client]: New version: [0.3.0a6] Old Version: [0.3.0a5]
+[2023-06-30 13:25:52] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-06-30 13:25:52] INFO root fetch - processPackages [xia-compiler-openapi]: Downloading https://files.pythonhosted.org/packages/20/99/a0da1aded706d20914226b5ad3b09c133bc1e437ddf3605c48dd27e5f03b/xia_compiler_openapi-0.1.19-cp39-none-win_amd64.whl
+[2023-06-30 13:25:52] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/fb/d1/ec907fcf8092b0658f18c33c834998acf50826cf6eed46c8361c96638f8f/sniimapp-0.0.8.tar.gz
+[2023-06-30 13:25:52] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-30 13:25:52] INFO root fetch - processPackages [xia-compiler-jsoneditor]: Downloading https://files.pythonhosted.org/packages/68/9f/6ab6d4e31466fad7ab2ac89ca6791d7ca2bce77b343814e947d972c8777f/xia_compiler_jsoneditor-0.1.4-cp39-none-win_amd64.whl
+[2023-06-30 13:25:52] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/68/b7/e34e55c8aaa9bf916c86bf321bad0ac62f164e1683f6b434cd21d483ca32/grai_client-0.3.0a5.tar.gz
+[2023-06-30 13:25:52] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/30/04/2c9b4a1b76ae6e0528fdd6905f9846417af9591dfd99b426a9886782a8fd/funfluid-202306301651.tar.gz
+[2023-06-30 13:25:52] INFO root fetch - processPackages [aws-profile-manager]: Downloading https://files.pythonhosted.org/packages/ee/00/9f4c10206d9ab562b94178d51fb4548cda0b718cb77160a45f0e39c1dbad/aws-profile-manager-0.7.2.tar.gz
+[2023-06-30 13:25:52] INFO root fetch - processPackages [xia-compiler-python]: Downloading https://files.pythonhosted.org/packages/53/81/08aaacfe0a868b462ddc3f34e30058666fa1d4944fee2c1182a4bd96f566/xia_compiler_python-0.1.5-cp39-none-win_amd64.whl
+[2023-06-30 13:25:53] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/32/41/5f0bd7028c0c84a365a70d9ce3684ef44e347a22a1d33861d0f928009701/sniimapp-0.0.9.tar.gz
+[2023-06-30 13:25:53] INFO root fetch - processPackages [xia-coder]: Downloading https://files.pythonhosted.org/packages/4f/df/22e5138e189b6d6ef3e3214cbdad28af3a0ca3d50324cba27b341f60bb20/xia_coder-0.0.6-cp39-none-win_amd64.whl
+[2023-06-30 13:25:53] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-06-30 13:25:53] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-30 13:25:53] INFO root fetch - processPackages [xia-compiler-openapi]: Downloading https://files.pythonhosted.org/packages/a3/5d/0556a7a6331c6aa882cdf131281443ad6bbd470055c068b52d440533424c/xia_compiler_openapi-0.1.20-cp39-none-win_amd64.whl
+[2023-06-30 13:25:53] INFO root fetch - processPackages [xia-compiler-jsoneditor]: Downloading https://files.pythonhosted.org/packages/fa/a5/6a691762a04d399fe7c800151c14111ebeec64de56e1e71c57edb5a44456/xia_compiler_jsoneditor-0.1.5-cp39-none-win_amd64.whl
+[2023-06-30 13:25:53] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-06-30 13:25:53] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.8.tar.gz tmp/sniimapp-0.0.9.tar.gz --markdown 20230630/s/sniimapp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 13:25:53] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/87/51/7e170ff879fce1583b223065610c15fb73834728e69a9e3a1793e563a8bd/funfluid-202306301920.tar.gz
+[2023-06-30 13:25:53] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-06-30 13:25:53] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230630/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 13:25:53] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/03/4d/5f7a020e21180bcc951ad5eecb6299d75a6a28eb078661670fe5e765edc2/grai_client-0.3.0a6.tar.gz
+[2023-06-30 13:25:53] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-30 13:25:53] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230630/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 13:25:53] INFO root fetch - processPackages [aws-profile-manager]: Downloading https://files.pythonhosted.org/packages/1a/de/b07168ba5891de7c37d8efb448f00b89e7ca1bd8bf02bd8b59a588947b69/aws-profile-manager-0.7.3.tar.gz
+[2023-06-30 13:25:53] INFO root fetch - processPackages [xia-compiler-openapi]: executing diffoscope
+[2023-06-30 13:25:53] INFO root fetch - processPackages [xia-compiler-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_compiler_openapi-0.1.19-cp39-none-win_amd64.whl.zip tmp/xia_compiler_openapi-0.1.20-cp39-none-win_amd64.whl.zip --markdown 20230630/x/xia-compiler-openapi/0.1.19-0.1.20/diff.md --exclude *.pyd
+[2023-06-30 13:25:53] INFO root fetch - processPackages [xia-compiler-python]: Downloading https://files.pythonhosted.org/packages/09/ae/f4825c3604d18a02d51d33c43c8a40aa5384134bf49a3d2041539c4229bf/xia_compiler_python-0.1.6-cp39-none-win_amd64.whl
+[2023-06-30 13:25:53] INFO root fetch - processPackages [xia-compiler-jsoneditor]: executing diffoscope
+[2023-06-30 13:25:53] INFO root fetch - processPackages [xia-compiler-jsoneditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_compiler_jsoneditor-0.1.4-cp39-none-win_amd64.whl.zip tmp/xia_compiler_jsoneditor-0.1.5-cp39-none-win_amd64.whl.zip --markdown 20230630/x/xia-compiler-jsoneditor/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-30 13:25:53] INFO root fetch - processPackages [xia-coder]: Downloading https://files.pythonhosted.org/packages/44/2c/b847b7eb8ddd2e9fd3ac59b5da190737f02683df360bcb418ddeb96e7db9/xia_coder-0.0.7-cp39-none-win_amd64.whl
+[2023-06-30 13:25:53] INFO root fetch - processPackages [aws-profile-manager]: executing diffoscope
+[2023-06-30 13:25:53] INFO root fetch - processPackages [aws-profile-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-profile-manager-0.7.2.tar.gz tmp/aws-profile-manager-0.7.3.tar.gz --markdown 20230630/a/aws-profile-manager/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-30 13:25:53] INFO root fetch - processPackages [xia-compiler-python]: executing diffoscope
+[2023-06-30 13:25:53] INFO root fetch - processPackages [xia-compiler-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_compiler_python-0.1.5-cp39-none-win_amd64.whl.zip tmp/xia_compiler_python-0.1.6-cp39-none-win_amd64.whl.zip --markdown 20230630/x/xia-compiler-python/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-30 13:25:53] INFO root fetch - processPackages [grai-client]: executing diffoscope
+[2023-06-30 13:25:53] INFO root fetch - processPackages [grai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_client-0.3.0a5.tar.gz tmp/grai_client-0.3.0a6.tar.gz --markdown 20230630/g/grai-client/0.3.0a5-0.3.0a6/diff.md --exclude *.pyd
+[2023-06-30 13:25:53] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-06-30 13:25:53] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202306301651.tar.gz tmp/funfluid-202306301920.tar.gz --markdown 20230630/f/funfluid/202306301651-202306301920/diff.md --exclude *.pyd
+[2023-06-30 13:25:53] INFO root fetch - processPackages [xia-coder]: executing diffoscope
+[2023-06-30 13:25:53] INFO root fetch - processPackages [xia-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_coder-0.0.6-cp39-none-win_amd64.whl.zip tmp/xia_coder-0.0.7-cp39-none-win_amd64.whl.zip --markdown 20230630/x/xia-coder/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-30 13:25:54] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.8.tar.gz]
+[2023-06-30 13:25:54] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.9.tar.gz]
+[2023-06-30 13:25:54] INFO root fetch - processPackages [sniimapp]: Start processing: wineml
+[2023-06-30 13:25:54] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-06-30 13:25:54] WARNING root fetch - processPackages [wineml]: Skipping, unable to determine old version
+[2023-06-30 13:25:54] INFO root fetch - processPackages [wineml]: Start processing: LogTranslate
+[2023-06-30 13:25:54] INFO root fetch - main [MainThread]: End processing [wineml] error
+[2023-06-30 13:25:54] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-06-30 13:25:54] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-06-30 13:25:54] INFO root fetch - processPackages [pystools]: Start processing: xia-easy-proto
+[2023-06-30 13:25:54] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-06-30 13:25:54] INFO root fetch - processPackages [LogTranslate]: New version: [1.2.1] Old Version: [1.2]
+[2023-06-30 13:25:54] INFO root fetch - processPackages [xia-easy-proto]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-compiler-python]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_python-0.1.5-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-compiler-python]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_python-0.1.6-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-compiler-python]: Start processing: torchtnt-nightly
+[2023-06-30 13:25:55] INFO root fetch - main [MainThread]: End processing [xia-compiler-python]: success
+[2023-06-30 13:25:55] INFO root fetch - processPackages [LogTranslate]: Downloading https://files.pythonhosted.org/packages/cc/0c/69b3299bcdae6f64b31cafc119451eaff0697179edcfa965846df7748a22/LogTranslate-1.2.tar.gz
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-easy-proto]: Downloading https://files.pythonhosted.org/packages/86/78/06567b3cd11bf0adeeb3625bbf3a2058e4f0d3ad65f01d93d5065cf2578a/xia_easy_proto-1.0.6-cp39-none-win_amd64.whl
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-compiler-openapi]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_openapi-0.1.19-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-compiler-openapi]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_openapi-0.1.20-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-compiler-openapi]: Start processing: seaplane
+[2023-06-30 13:25:55] INFO root fetch - main [MainThread]: End processing [xia-compiler-openapi]: success
+[2023-06-30 13:25:55] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.6.5] Old Version: [2023.6.4]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-compiler-jsoneditor]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_jsoneditor-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-compiler-jsoneditor]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_jsoneditor-0.1.5-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-compiler-jsoneditor]: Start processing: grai-source-bigquery
+[2023-06-30 13:25:55] INFO root fetch - main [MainThread]: End processing [xia-compiler-jsoneditor]: success
+[2023-06-30 13:25:55] INFO root fetch - processPackages [grai-source-bigquery]: New version: [0.2.0a2] Old Version: [0.2.0a1]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/34/4f/4a90173b01a8086490f647ccb58a5421c9d44a1c56813090cb773ecd7370/torchtnt-nightly-2023.6.4.tar.gz
+[2023-06-30 13:25:55] INFO root fetch - processPackages [LogTranslate]: Downloading https://files.pythonhosted.org/packages/86/65/648e4a92c0406b4376a06dcb21561f2f1ea57ccb978ecc8e05c7006752e5/LogTranslate-1.2.1.tar.gz
+[2023-06-30 13:25:55] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/7f/23/53669c4b3a74a71f4b6daf3543461e618b7f61701a83017176e0990b9ffc/grai_source_bigquery-0.2.0a1.tar.gz
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-easy-proto]: Downloading https://files.pythonhosted.org/packages/16/39/0961586a6f503e21ef87ff3700f57b7c717d0d3c71477ae457d1bc4f9e34/xia_easy_proto-1.0.7-cp39-none-win_amd64.whl
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-coder]: Remove: archive file [/home/abi/fetcher/tmp/xia_coder-0.0.6-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-coder]: Remove: archive file [/home/abi/fetcher/tmp/xia_coder-0.0.7-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-coder]: Start processing: macrometa-target-mssql
+[2023-06-30 13:25:55] INFO root fetch - main [MainThread]: End processing [xia-coder]: success
+[2023-06-30 13:25:55] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-06-30 13:25:55] INFO root fetch - processPackages [LogTranslate]: executing diffoscope
+[2023-06-30 13:25:55] INFO root fetch - processPackages [LogTranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LogTranslate-1.2.tar.gz tmp/LogTranslate-1.2.1.tar.gz --markdown 20230630/L/LogTranslate/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-06-30 13:25:55] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [aws-profile-manager]: Remove: archive file [/home/abi/fetcher/tmp/aws-profile-manager-0.7.2.tar.gz]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [aws-profile-manager]: Remove: archive file [/home/abi/fetcher/tmp/aws-profile-manager-0.7.3.tar.gz]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [aws-profile-manager]: Start processing: xia-engine
+[2023-06-30 13:25:55] INFO root fetch - main [MainThread]: End processing [aws-profile-manager]: success
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-engine]: New version: [0.8.27] Old Version: [0.8.26]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/40/59/8e219732c8232b640b0cb88f485f6d98bd76be3c47f0cf80b9d1afd6a0de/torchtnt-nightly-2023.6.5.tar.gz
+[2023-06-30 13:25:55] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a5.tar.gz]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a6.tar.gz]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [grai-client]: Start processing: xia-engine-mysql
+[2023-06-30 13:25:55] INFO root fetch - main [MainThread]: End processing [grai-client]: success
+[2023-06-30 13:25:55] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-06-30 13:25:55] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Start processing: xia-engine-firestore
+[2023-06-30 13:25:55] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-engine-mysql]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-06-30 13:25:55] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230630/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-engine-firestore]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-easy-proto]: executing diffoscope
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-easy-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_easy_proto-1.0.6-cp39-none-win_amd64.whl.zip tmp/xia_easy_proto-1.0.7-cp39-none-win_amd64.whl.zip --markdown 20230630/x/xia-easy-proto/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-engine-mysql]: Downloading https://files.pythonhosted.org/packages/96/e7/ec1c593199901b5b9e573dd54ede6aff837cb9d7dd13f082da2f6b4e0595/xia_engine_mysql-0.1.8-cp39-none-win_amd64.whl
+[2023-06-30 13:25:55] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/81/d4/5bf283bc5f058cfff56c341a850ec787ff331e17a3ce30da1817e4368e84/grai_source_bigquery-0.2.0a2.tar.gz
+[2023-06-30 13:25:55] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-06-30 13:25:55] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.6.4.tar.gz tmp/torchtnt-nightly-2023.6.5.tar.gz --markdown 20230630/t/torchtnt-nightly/2023.6.4-2023.6.5/diff.md --exclude *.pyd
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/af/11/df0334be3aa1eea85ed19157c248da653f77d1ebe6537033c0e8ad8dbb3a/xia_engine-0.8.26-cp39-none-win_amd64.whl
+[2023-06-30 13:25:55] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-engine-firestore]: Downloading https://files.pythonhosted.org/packages/79/4c/38d526584df39187a88062398abe2bd233c1af3a5393f12542e7c6eaa5a6/xia_engine_firestore-0.3.5-cp39-none-win_amd64.whl
+[2023-06-30 13:25:55] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-30 13:25:55] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230630/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 13:25:55] INFO root fetch - processPackages [grai-source-bigquery]: executing diffoscope
+[2023-06-30 13:25:55] INFO root fetch - processPackages [grai-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_bigquery-0.2.0a1.tar.gz tmp/grai_source_bigquery-0.2.0a2.tar.gz --markdown 20230630/g/grai-source-bigquery/0.2.0a1-0.2.0a2/diff.md --exclude *.pyd
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-engine-mysql]: Downloading https://files.pythonhosted.org/packages/57/4f/d61d30f29c1ab7380287de05733eb8c9828866595a9388060401a3e5b292/xia_engine_mysql-0.1.9-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/59/a6/4e715b23aba78d111410d1c4569eec9763b95dc75c0bc0aa52bf656e5e24/xia_engine-0.8.27-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-engine-firestore]: Downloading https://files.pythonhosted.org/packages/12/6b/43e4ecbff43d121e5bf18eaf73ecfc81b225528631d33f87f6c089379ad6/xia_engine_firestore-0.3.6-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-engine-mysql]: executing diffoscope
+[2023-06-30 13:25:55] INFO root fetch - processPackages [xia-engine-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_mysql-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_engine_mysql-0.1.9-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230630/x/xia-engine-mysql/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 13:25:56] INFO root fetch - processPackages [xia-engine]: executing diffoscope
+[2023-06-30 13:25:56] INFO root fetch - processPackages [xia-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine-0.8.26-cp39-none-win_amd64.whl.zip tmp/xia_engine-0.8.27-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230630/x/xia-engine/0.8.26-0.8.27/diff.md --exclude *.pyd
+[2023-06-30 13:25:56] INFO root fetch - processPackages [xia-engine-firestore]: executing diffoscope
+[2023-06-30 13:25:56] INFO root fetch - processPackages [xia-engine-firestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_firestore-0.3.5-cp39-none-win_amd64.whl.zip tmp/xia_engine_firestore-0.3.6-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230630/x/xia-engine-firestore/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-30 13:25:56] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202306301651.tar.gz]
+[2023-06-30 13:25:56] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202306301920.tar.gz]
+[2023-06-30 13:25:56] INFO root fetch - processPackages [funfluid]: Start processing: xia-engine-rest
+[2023-06-30 13:25:56] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-06-30 13:25:56] INFO root fetch - processPackages [xia-engine-rest]: New version: [0.1.13] Old Version: [0.1.12]
+[2023-06-30 13:25:56] INFO root fetch - processPackages [xia-engine-rest]: Downloading https://files.pythonhosted.org/packages/34/5b/10984f170151a2d1f9a98fb16230267a6a8d2afd93d1983a23e79868f37a/xia_engine_rest-0.1.12-cp39-none-win_amd64.whl
+[2023-06-30 13:25:56] INFO root fetch - processPackages [LogTranslate]: Remove: archive file [/home/abi/fetcher/tmp/LogTranslate-1.2.tar.gz]
+[2023-06-30 13:25:56] INFO root fetch - processPackages [LogTranslate]: Remove: archive file [/home/abi/fetcher/tmp/LogTranslate-1.2.1.tar.gz]
+[2023-06-30 13:25:56] INFO root fetch - main [MainThread]: End processing [LogTranslate]: success
+[2023-06-30 13:25:56] INFO root fetch - processPackages [xia-engine-rest]: Downloading https://files.pythonhosted.org/packages/1e/c5/102fc5edea48b1ce09eb1de29ea67ecdf27c9c43315f45b0f84d8ec1ea13/xia_engine_rest-0.1.13-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-30 13:25:56] INFO root fetch - processPackages [xia-easy-proto]: Remove: archive file [/home/abi/fetcher/tmp/xia_easy_proto-1.0.6-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:25:56] INFO root fetch - processPackages [xia-easy-proto]: Remove: archive file [/home/abi/fetcher/tmp/xia_easy_proto-1.0.7-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:25:56] INFO root fetch - main [MainThread]: End processing [xia-easy-proto]: success
+[2023-06-30 13:25:57] INFO root fetch - processPackages [xia-engine-rest]: executing diffoscope
+[2023-06-30 13:25:57] INFO root fetch - processPackages [xia-engine-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_rest-0.1.12-cp39-none-win_amd64.whl.zip tmp/xia_engine_rest-0.1.13-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230630/x/xia-engine-rest/0.1.12-0.1.13/diff.md --exclude *.pyd
+[2023-06-30 13:25:57] INFO root fetch - processPackages [grai-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_bigquery-0.2.0a1.tar.gz]
+[2023-06-30 13:25:57] INFO root fetch - processPackages [grai-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_bigquery-0.2.0a2.tar.gz]
+[2023-06-30 13:25:57] INFO root fetch - main [MainThread]: End processing [grai-source-bigquery]: success
+[2023-06-30 13:25:57] INFO root fetch - processPackages [xia-engine-mysql]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_mysql-0.1.8-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:25:57] INFO root fetch - processPackages [xia-engine-mysql]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_mysql-0.1.9-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-30 13:25:57] INFO root fetch - main [MainThread]: End processing [xia-engine-mysql]: success
+[2023-06-30 13:25:57] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-06-30 13:25:57] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-06-30 13:25:57] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-30 13:25:57] INFO root fetch - processPackages [xia-engine]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine-0.8.26-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:25:57] INFO root fetch - processPackages [xia-engine]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine-0.8.27-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-30 13:25:57] INFO root fetch - main [MainThread]: End processing [xia-engine]: success
+[2023-06-30 13:25:57] INFO root fetch - processPackages [xia-engine-firestore]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_firestore-0.3.5-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:25:57] INFO root fetch - processPackages [xia-engine-firestore]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_firestore-0.3.6-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-30 13:25:57] INFO root fetch - main [MainThread]: End processing [xia-engine-firestore]: success
+[2023-06-30 13:25:58] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.4.tar.gz]
+[2023-06-30 13:25:58] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.5.tar.gz]
+[2023-06-30 13:25:58] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-06-30 13:25:58] INFO root fetch - processPackages [xia-engine-rest]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_rest-0.1.12-cp39-none-win_amd64.whl.zip]
+[2023-06-30 13:25:58] INFO root fetch - processPackages [xia-engine-rest]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_rest-0.1.13-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-30 13:25:58] INFO root fetch - main [MainThread]: End processing [xia-engine-rest]: success
+[2023-06-30 13:25:58] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-06-30 13:25:58] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-06-30 13:25:58] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-06-30 13:25:58] INFO root fetch - main [MainThread]: Store serial: [18709610]
