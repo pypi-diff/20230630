@@ -16153,3 +16153,121 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 10:55:59] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
 [2023-06-30 10:55:59] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-06-30 10:55:59] INFO root fetch - main [MainThread]: Store serial: [18707804]
+[2023-06-30 11:01:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18707804]
+[2023-06-30 11:01:09] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-30 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reytool
+[2023-06-30 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funbuild
+[2023-06-30 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-dwd-weatherforecast
+[2023-06-30 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grai-client
+[2023-06-30 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irene-pro
+[2023-06-30 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arraylib-solve
+[2023-06-30 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pallet-sim
+[2023-06-30 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thonny-quecpython
+[2023-06-30 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: QuNet
+[2023-06-30 11:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kevin-toolbox
+[2023-06-30 11:01:09] INFO root fetch - processPackages [grai-client]: New version: [0.3.0a5] Old Version: [0.3.0a4]
+[2023-06-30 11:01:09] WARNING root fetch - processPackages [funbuild]: Skipping, unable to determine old version
+[2023-06-30 11:01:09] INFO root fetch - processPackages [funbuild]: Start processing: kevin-toolbox-dev
+[2023-06-30 11:01:09] INFO root fetch - main [MainThread]: End processing [funbuild] error
+[2023-06-30 11:01:09] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 11:01:09] INFO root fetch - processPackages [simple-dwd-weatherforecast]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-30 11:01:09] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-30 11:01:09] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-06-30 11:01:09] INFO root fetch - processPackages [pallet-sim]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 11:01:09] INFO root fetch - processPackages [arraylib-solve]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-30 11:01:09] INFO root fetch - processPackages [thonny-quecpython]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-30 11:01:09] INFO root fetch - processPackages [irene-pro]: New version: [0.0.80] Old Version: [0.0.79]
+[2023-06-30 11:01:09] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/e6/02/8387b587787c3cce30d2eacfcd08d2292ee30237906945c89e0c7d8d74c4/grai_client-0.3.0a4.tar.gz
+[2023-06-30 11:01:09] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-30 11:01:09] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-06-30 11:01:09] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-06-30 11:01:09] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/73/74/1cdd3610fc61a044bfdef8166950587d80fe51a459aa8b575f2631a357a7/irene_pro-0.0.79.tar.gz
+[2023-06-30 11:01:09] INFO root fetch - processPackages [pallet-sim]: Downloading https://files.pythonhosted.org/packages/b4/57/2e833d36605054bd1bccd1c0e9ff05e29f56fd4e8cbafb447edd67754eff/pallet_sim-0.0.8.tar.gz
+[2023-06-30 11:01:09] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/23/e4/5549c474dbe56b0a4d0de44ef6ab9d24706111c72d5a5c4e9ee8aaecff2e/kevin-toolbox-1.1.2.tar.gz
+[2023-06-30 11:01:09] INFO root fetch - processPackages [arraylib-solve]: Downloading https://files.pythonhosted.org/packages/54/a8/3ce0db62e41731b9c9bc19b0b253b6db4486b7a766443276c20c5d0f00d5/arraylib_solve-0.8.0.tar.gz
+[2023-06-30 11:01:09] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/9c/90/7aed1e64156c38c0510fddbb6213fbf134e3efe70324c64761692e1a280e/kevin-toolbox-dev-1.1.2.tar.gz
+[2023-06-30 11:01:09] INFO root fetch - processPackages [thonny-quecpython]: Downloading https://files.pythonhosted.org/packages/ba/86/fe9ea9e7e1d513287483fa739e64e4396be14e993a75703c15c2ccdbe5dc/thonny-quecpython-0.0.4.tar.gz
+[2023-06-30 11:01:09] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-06-30 11:01:09] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-06-30 11:01:09] WARNING root fetch - processPackages [thonny-quecpython]: Skipping package: exceeds size limit 23298869>=10485760
+[2023-06-30 11:01:09] INFO root fetch - processPackages [thonny-quecpython]: Start processing: pyhomogenize
+[2023-06-30 11:01:09] INFO root fetch - main [MainThread]: End processing [thonny-quecpython] error
+[2023-06-30 11:01:10] INFO root fetch - processPackages [pyhomogenize]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-30 11:01:10] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/68/b7/e34e55c8aaa9bf916c86bf321bad0ac62f164e1683f6b434cd21d483ca32/grai_client-0.3.0a5.tar.gz
+[2023-06-30 11:01:10] INFO root fetch - processPackages [simple-dwd-weatherforecast]: Downloading https://files.pythonhosted.org/packages/10/e4/d1145a88f97e6c7dc52a0234a40230b63568d23b354b611ee0feccbebca7/simple_dwd_weatherforecast-2.0.1.tar.gz
+[2023-06-30 11:01:10] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-30 11:01:10] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230630/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 11:01:10] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-06-30 11:01:10] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230630/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-06-30 11:01:10] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/93/d0/461efb704bada2e1f461e88eb938b958afe7e607c1cf2092221270d0775e/irene_pro-0.0.80.tar.gz
+[2023-06-30 11:01:10] INFO root fetch - processPackages [grai-client]: executing diffoscope
+[2023-06-30 11:01:10] INFO root fetch - processPackages [grai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_client-0.3.0a4.tar.gz tmp/grai_client-0.3.0a5.tar.gz --markdown 20230630/g/grai-client/0.3.0a4-0.3.0a5/diff.md --exclude *.pyd
+[2023-06-30 11:01:10] INFO root fetch - processPackages [pallet-sim]: Downloading https://files.pythonhosted.org/packages/e2/73/02dd1e82bd4dd354713ac31b25d69a39732010050bc31c25e3bc5d83760d/pallet_sim-0.0.9.tar.gz
+[2023-06-30 11:01:10] INFO root fetch - processPackages [simple-dwd-weatherforecast]: executing diffoscope
+[2023-06-30 11:01:10] INFO root fetch - processPackages [simple-dwd-weatherforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_dwd_weatherforecast-2.0.0.tar.gz tmp/simple_dwd_weatherforecast-2.0.1.tar.gz --markdown 20230630/s/simple-dwd-weatherforecast/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-30 11:01:10] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/93/52/73018c686f115cfb4833de4eb90c509c8b8b6dc5e8af8a9a1395fcbcc678/kevin-toolbox-dev-1.1.3.tar.gz
+[2023-06-30 11:01:10] INFO root fetch - processPackages [pyhomogenize]: Downloading https://files.pythonhosted.org/packages/43/f4/47f65ef04eaed086e6bc45fd3b7e31ad2576eaf78de51226f983dec939bc/pyhomogenize-0.5.1.tar.gz
+[2023-06-30 11:01:10] INFO root fetch - processPackages [pallet-sim]: executing diffoscope
+[2023-06-30 11:01:10] INFO root fetch - processPackages [pallet-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pallet_sim-0.0.8.tar.gz tmp/pallet_sim-0.0.9.tar.gz --markdown 20230630/p/pallet-sim/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 11:01:10] INFO root fetch - processPackages [arraylib-solve]: Downloading https://files.pythonhosted.org/packages/99/da/01f7df718ea448ff62fb19424a662d999214580ce453370bbadaf861d9bf/arraylib_solve-0.9.0.tar.gz
+[2023-06-30 11:01:10] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/cc/e2/1ff43f2f5ffe35d3e5d4c0906998afb5cf7a9ffc7a46fad849cf9f121e65/kevin-toolbox-1.1.3.tar.gz
+[2023-06-30 11:01:10] WARNING root fetch - processPackages [pyhomogenize]: Skipping package: exceeds size limit 44569809>=10485760
+[2023-06-30 11:01:10] INFO root fetch - processPackages [pyhomogenize]: Start processing: hpcflow-new2
+[2023-06-30 11:01:10] INFO root fetch - main [MainThread]: End processing [pyhomogenize] error
+[2023-06-30 11:01:10] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-30 11:01:10] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.79.tar.gz tmp/irene_pro-0.0.80.tar.gz --markdown 20230630/i/irene-pro/0.0.79-0.0.80/diff.md --exclude *.pyd
+[2023-06-30 11:01:10] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-06-30 11:01:10] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2023-06-30 11:01:10] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.1.2.tar.gz tmp/kevin-toolbox-dev-1.1.3.tar.gz --markdown 20230630/k/kevin-toolbox-dev/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-30 11:01:10] INFO root fetch - processPackages [arraylib-solve]: executing diffoscope
+[2023-06-30 11:01:10] INFO root fetch - processPackages [arraylib-solve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraylib_solve-0.8.0.tar.gz tmp/arraylib_solve-0.9.0.tar.gz --markdown 20230630/a/arraylib-solve/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-30 11:01:10] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2023-06-30 11:01:10] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.1.2.tar.gz tmp/kevin-toolbox-1.1.3.tar.gz --markdown 20230630/k/kevin-toolbox/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-30 11:01:10] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/cc/ca/1fd224eb5a09826e85c92dd157f8295299e773354fdb824dadc0590fb96a/hpcflow_new2-0.2.0a8.tar.gz
+[2023-06-30 11:01:10] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/8f/94/5cf6c22b7755a1754a5e0798543a3a471342e39b288d923874c390867d9f/hpcflow_new2-0.2.0a9.tar.gz
+[2023-06-30 11:01:10] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2023-06-30 11:01:10] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a8.tar.gz tmp/hpcflow_new2-0.2.0a9.tar.gz --markdown 20230630/h/hpcflow-new2/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-06-30 11:01:11] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-06-30 11:01:11] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-06-30 11:01:11] INFO root fetch - processPackages [reytool]: Start processing: funcoin
+[2023-06-30 11:01:11] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-06-30 11:01:11] WARNING root fetch - processPackages [funcoin]: Skipping, unable to determine old version
+[2023-06-30 11:01:11] INFO root fetch - processPackages [funcoin]: Start processing: visualpython
+[2023-06-30 11:01:11] INFO root fetch - main [MainThread]: End processing [funcoin] error
+[2023-06-30 11:01:11] INFO root fetch - processPackages [visualpython]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-06-30 11:01:11] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-06-30 11:01:11] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-06-30 11:01:11] INFO root fetch - processPackages [QuNet]: Start processing: jupyterlab-visualpython
+[2023-06-30 11:01:11] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-30 11:01:11] INFO root fetch - processPackages [jupyterlab-visualpython]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-06-30 11:01:11] INFO root fetch - processPackages [simple-dwd-weatherforecast]: Remove: archive file [/home/abi/fetcher/tmp/simple_dwd_weatherforecast-2.0.0.tar.gz]
+[2023-06-30 11:01:11] INFO root fetch - processPackages [simple-dwd-weatherforecast]: Remove: archive file [/home/abi/fetcher/tmp/simple_dwd_weatherforecast-2.0.1.tar.gz]
+[2023-06-30 11:01:11] INFO root fetch - main [MainThread]: End processing [simple-dwd-weatherforecast]: success
+[2023-06-30 11:01:11] INFO root fetch - processPackages [visualpython]: Downloading https://files.pythonhosted.org/packages/2d/eb/4cb2a0f6d696be125fdf8952bb64b76c68e60b252c6efc9d6d0dd793cc9f/visualpython-2.4.1.tar.gz
+[2023-06-30 11:01:11] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a4.tar.gz]
+[2023-06-30 11:01:11] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a5.tar.gz]
+[2023-06-30 11:01:11] INFO root fetch - main [MainThread]: End processing [grai-client]: success
+[2023-06-30 11:01:11] WARNING root fetch - processPackages [visualpython]: Skipping package: exceeds size limit 14922327>=10485760
+[2023-06-30 11:01:11] INFO root fetch - main [MainThread]: End processing [visualpython] error
+[2023-06-30 11:01:12] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.79.tar.gz]
+[2023-06-30 11:01:12] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.80.tar.gz]
+[2023-06-30 11:01:12] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-30 11:01:12] INFO root fetch - processPackages [jupyterlab-visualpython]: Downloading https://files.pythonhosted.org/packages/af/07/1977ae33e351ef9478566c8de86d8819d4a480ef325969b19f8e07aecfe5/jupyterlab_visualpython-2.4.1.tar.gz
+[2023-06-30 11:01:12] INFO root fetch - processPackages [arraylib-solve]: Remove: archive file [/home/abi/fetcher/tmp/arraylib_solve-0.8.0.tar.gz]
+[2023-06-30 11:01:12] INFO root fetch - processPackages [arraylib-solve]: Remove: archive file [/home/abi/fetcher/tmp/arraylib_solve-0.9.0.tar.gz]
+[2023-06-30 11:01:12] INFO root fetch - main [MainThread]: End processing [arraylib-solve]: success
+[2023-06-30 11:01:12] WARNING root fetch - processPackages [jupyterlab-visualpython]: Skipping package: exceeds size limit 19131656>=10485760
+[2023-06-30 11:01:12] INFO root fetch - main [MainThread]: End processing [jupyterlab-visualpython] error
+[2023-06-30 11:01:12] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a8.tar.gz]
+[2023-06-30 11:01:12] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a9.tar.gz]
+[2023-06-30 11:01:12] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2023-06-30 11:01:12] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.1.2.tar.gz]
+[2023-06-30 11:01:12] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.1.3.tar.gz]
+[2023-06-30 11:01:12] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2023-06-30 11:01:13] INFO root fetch - processPackages [pallet-sim]: Remove: archive file [/home/abi/fetcher/tmp/pallet_sim-0.0.8.tar.gz]
+[2023-06-30 11:01:13] INFO root fetch - processPackages [pallet-sim]: Remove: archive file [/home/abi/fetcher/tmp/pallet_sim-0.0.9.tar.gz]
+[2023-06-30 11:01:13] INFO root fetch - main [MainThread]: End processing [pallet-sim]: success
+[2023-06-30 11:01:14] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.1.2.tar.gz]
+[2023-06-30 11:01:14] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.1.3.tar.gz]
+[2023-06-30 11:01:14] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2023-06-30 11:01:14] INFO root fetch - main [MainThread]: Store serial: [18707859]
