@@ -13468,3 +13468,115 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 08:51:59] INFO root fetch - processPackages [CartiMorph-nnUNet]: Remove: archive file [/home/abi/fetcher/tmp/CartiMorph_nnUNet-1.7.2.tar.gz]
 [2023-06-30 08:51:59] INFO root fetch - main [MainThread]: End processing [CartiMorph-nnUNet]: success
 [2023-06-30 08:51:59] INFO root fetch - main [MainThread]: Store serial: [18706715]
+[2023-06-30 08:57:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706715]
+[2023-06-30 08:57:08] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-30 08:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snimpy
+[2023-06-30 08:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt4-api
+[2023-06-30 08:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mathkit
+[2023-06-30 08:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openfs
+[2023-06-30 08:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DAPPkg
+[2023-06-30 08:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySupercell
+[2023-06-30 08:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zebrazoom
+[2023-06-30 08:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mathkit
+[2023-06-30 08:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zope.site
+[2023-06-30 08:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: design.plone.ioprenoto
+[2023-06-30 08:57:08] INFO root fetch - processPackages [mathkit]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 08:57:08] INFO root fetch - processPackages [PySupercell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 08:57:08] INFO root fetch - processPackages [openfs]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-30 08:57:08] INFO root fetch - processPackages [gpt4-api]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-30 08:57:08] INFO root fetch - processPackages [design.plone.ioprenoto]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-30 08:57:08] INFO root fetch - processPackages [snimpy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-30 08:57:08] WARNING root fetch - processPackages [DAPPkg]: Skipping, unable to determine old version
+[2023-06-30 08:57:08] INFO root fetch - processPackages [DAPPkg]: Start processing: python-aternos
+[2023-06-30 08:57:08] INFO root fetch - main [MainThread]: End processing [DAPPkg] error
+[2023-06-30 08:57:08] INFO root fetch - processPackages [mathkit]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 08:57:08] INFO root fetch - processPackages [zope.site]: New version: [5.0] Old Version: [4.6.1]
+[2023-06-30 08:57:08] INFO root fetch - processPackages [zebrazoom]: New version: [1.9] Old Version: [1.8]
+[2023-06-30 08:57:08] INFO root fetch - processPackages [python-aternos]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-30 08:57:08] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/71/9a/935fb87ed74fc9a9413cb798492923b5f553de22b3ac8938d8804afea25b/mathkit-0.1.0.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/71/9a/935fb87ed74fc9a9413cb798492923b5f553de22b3ac8938d8804afea25b/mathkit-0.1.0.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [openfs]: Downloading https://files.pythonhosted.org/packages/d4/a5/8e689ebde5d8e6bb768f375fff2052f4dc3a095e7c64f1fcb28c5257a5ec/openfs-1.0.1-py3-none-any.whl
+[2023-06-30 08:57:08] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/f8/26/fb333d50056298ab69d02c7c0e0fdaeae2e51fca825888178df88926b372/zebrazoom-1.8.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/73/4e/a80df8b529fe378bfa915eadf594310c1cb8a7b17a048daa10a89dd78108/PySupercell-0.0.8.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/b1/d9/e795a2ca8fa9a9d236fb21077fb189831f4a368485addff6657afce67990/gpt4-api-0.2.1.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [design.plone.ioprenoto]: Downloading https://files.pythonhosted.org/packages/58/99/04783f5c195b7fed5d549fb616fde6c855332034b380b90309f2dacdb2ec/design.plone.ioprenoto-1.0.9.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [snimpy]: Downloading https://files.pythonhosted.org/packages/cd/47/f8b562ae49bb53f5e5858c133a6865718301d96d29d1ea4493f7ad186ade/snimpy-1.0.0.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [zope.site]: Downloading https://files.pythonhosted.org/packages/d8/24/8eaf35c06581742a73cebc70214b9f6ceb8a74663260125283251f9dfcbc/zope.site-4.6.1.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [python-aternos]: Downloading https://files.pythonhosted.org/packages/ed/da/030294036ddc028d8da8de9137d6b2f0e4de91915d146afaa312818f8373/python-aternos-3.0.0.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/81/1a/71b5299f2cb7df828727ffd1a7947b71db50a4ec1430a748c0b918298c7b/mathkit-0.1.1.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/29/37/9f2aaa64707bbcd24502e836857b6c572452e441dc5bb3229137d00bfa9b/zebrazoom-1.9.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/81/1a/71b5299f2cb7df828727ffd1a7947b71db50a4ec1430a748c0b918298c7b/mathkit-0.1.1.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [openfs]: Downloading https://files.pythonhosted.org/packages/cb/58/08b25ceb9fed35f849b68c8dac36db28ff31a00bd69ff38fbc61d7ff3eca/openfs-1.0.2-py3-none-any.whl
+[2023-06-30 08:57:08] INFO root fetch - processPackages [mathkit]: executing diffoscope
+[2023-06-30 08:57:08] INFO root fetch - processPackages [mathkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathkit-0.1.0.tar.gz tmp/mathkit-0.1.1.tar.gz --markdown 20230630/m/mathkit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 08:57:08] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/05/fc/bbd7e619a558fdf0bd7212a442d3b95393f161f9be0183eb9c2dad9cc8e5/PySupercell-0.0.9.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [mathkit]: executing diffoscope
+[2023-06-30 08:57:08] INFO root fetch - processPackages [mathkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathkit-0.1.0.tar.gz tmp/mathkit-0.1.1.tar.gz --markdown 20230630/m/mathkit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 08:57:08] INFO root fetch - processPackages [design.plone.ioprenoto]: Downloading https://files.pythonhosted.org/packages/ee/37/13846922c2c01d0884cabfe343cb6b8897737855f97790dc2c0c8ad80f56/design.plone.ioprenoto-1.1.0.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [snimpy]: Downloading https://files.pythonhosted.org/packages/cc/16/93105123b1cf2dfd8a62c77581a0346fd00a7b7d1670b351aee83264c375/snimpy-1.0.1.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [openfs]: executing diffoscope
+[2023-06-30 08:57:08] INFO root fetch - processPackages [openfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openfs-1.0.1-py3-none-any.whl.zip tmp/openfs-1.0.2-py3-none-any.whl.zip --markdown 20230630/o/openfs/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-30 08:57:08] INFO root fetch - processPackages [zope.site]: Downloading https://files.pythonhosted.org/packages/d3/4d/da5af540dfd5cd105979ce9232a84eacecd8a335535bb4d09504e286cb28/zope.site-5.0.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [python-aternos]: Downloading https://files.pythonhosted.org/packages/b4/24/4ea24ef73beb55b898f9d6499c58dbc4f27161e568e739f0afb04acdfe37/python-aternos-3.0.1.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/40/b4/f1a8a0e1cba89c9fd7b0f5e90d6fc6dfab82dde7f699a795660af0ab1289/gpt4-api-0.2.2.tar.gz
+[2023-06-30 08:57:08] INFO root fetch - processPackages [design.plone.ioprenoto]: executing diffoscope
+[2023-06-30 08:57:08] INFO root fetch - processPackages [design.plone.ioprenoto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.ioprenoto-1.0.9.tar.gz tmp/design.plone.ioprenoto-1.1.0.tar.gz --markdown 20230630/d/design.plone.ioprenoto/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-30 08:57:08] INFO root fetch - processPackages [snimpy]: executing diffoscope
+[2023-06-30 08:57:08] INFO root fetch - processPackages [snimpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snimpy-1.0.0.tar.gz tmp/snimpy-1.0.1.tar.gz --markdown 20230630/s/snimpy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-30 08:57:08] INFO root fetch - processPackages [zebrazoom]: executing diffoscope
+[2023-06-30 08:57:08] INFO root fetch - processPackages [zope.site]: executing diffoscope
+[2023-06-30 08:57:08] INFO root fetch - processPackages [zope.site]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.site-4.6.1.tar.gz tmp/zope.site-5.0.tar.gz --markdown 20230630/z/zope.site/4.6.1-5.0/diff.md --exclude *.pyd
+[2023-06-30 08:57:08] INFO root fetch - processPackages [zebrazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebrazoom-1.8.tar.gz tmp/zebrazoom-1.9.tar.gz --markdown 20230630/z/zebrazoom/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-30 08:57:09] INFO root fetch - processPackages [python-aternos]: executing diffoscope
+[2023-06-30 08:57:09] INFO root fetch - processPackages [python-aternos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-aternos-3.0.0.tar.gz tmp/python-aternos-3.0.1.tar.gz --markdown 20230630/p/python-aternos/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-30 08:57:09] INFO root fetch - processPackages [PySupercell]: executing diffoscope
+[2023-06-30 08:57:09] INFO root fetch - processPackages [PySupercell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySupercell-0.0.8.tar.gz tmp/PySupercell-0.0.9.tar.gz --markdown 20230630/P/PySupercell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 08:57:09] INFO root fetch - processPackages [gpt4-api]: executing diffoscope
+[2023-06-30 08:57:09] INFO root fetch - processPackages [gpt4-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4-api-0.2.1.tar.gz tmp/gpt4-api-0.2.2.tar.gz --markdown 20230630/g/gpt4-api/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-30 08:57:10] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-0.1.0.tar.gz]
+[2023-06-30 08:57:10] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-0.1.1.tar.gz]
+[2023-06-30 08:57:10] INFO root fetch - processPackages [mathkit]: Start processing: pypalert
+[2023-06-30 08:57:10] INFO root fetch - main [MainThread]: End processing [mathkit]: success
+[2023-06-30 08:57:10] INFO root fetch - processPackages [pypalert]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-30 08:57:10] INFO root fetch - processPackages [mathkit]: Start processing: odoo12-addon-stock-picking-send-by-mail
+[2023-06-30 08:57:10] INFO root fetch - main [MainThread]: End processing [mathkit]: success
+[2023-06-30 08:57:10] INFO root fetch - processPackages [odoo12-addon-stock-picking-send-by-mail]: New version: [12.0.1.1.0.99.dev2] Old Version: [12.0.1.1.0.99.dev1]
+[2023-06-30 08:57:10] INFO root fetch - processPackages [pypalert]: Downloading https://files.pythonhosted.org/packages/ff/cd/d6944ace410f9a518b9735255bff53fe7fe1dae7908b88cda8a589803ca0/pypalert-2.1.1.tar.gz
+[2023-06-30 08:57:10] INFO root fetch - processPackages [openfs]: Remove: archive file [/home/abi/fetcher/tmp/openfs-1.0.1-py3-none-any.whl.zip]
+[2023-06-30 08:57:10] INFO root fetch - processPackages [openfs]: Remove: archive file [/home/abi/fetcher/tmp/openfs-1.0.2-py3-none-any.whl.zip]
+[2023-06-30 08:57:10] INFO root fetch - main [MainThread]: End processing [openfs]: success
+[2023-06-30 08:57:10] INFO root fetch - processPackages [odoo12-addon-stock-picking-send-by-mail]: Downloading https://files.pythonhosted.org/packages/41/b5/0d4870ca78d95c0bde03bf411ecfce6b0da00a39258dc38c58abfa558787/odoo12_addon_stock_picking_send_by_mail-12.0.1.1.0.99.dev1-py3-none-any.whl
+[2023-06-30 08:57:10] INFO root fetch - processPackages [gpt4-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-api-0.2.1.tar.gz]
+[2023-06-30 08:57:10] INFO root fetch - processPackages [gpt4-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-api-0.2.2.tar.gz]
+[2023-06-30 08:57:10] INFO root fetch - main [MainThread]: End processing [gpt4-api]: success
+[2023-06-30 08:57:10] INFO root fetch - processPackages [pypalert]: Downloading https://files.pythonhosted.org/packages/b4/20/168dcddb5a4a2a26435f5a8d803feeff2aad2d65e6a5f99d2feb48c1c295/pypalert-2.1.2.tar.gz
+[2023-06-30 08:57:10] INFO root fetch - processPackages [design.plone.ioprenoto]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.ioprenoto-1.0.9.tar.gz]
+[2023-06-30 08:57:10] INFO root fetch - processPackages [design.plone.ioprenoto]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.ioprenoto-1.1.0.tar.gz]
+[2023-06-30 08:57:10] INFO root fetch - main [MainThread]: End processing [design.plone.ioprenoto]: success
+[2023-06-30 08:57:10] INFO root fetch - processPackages [python-aternos]: Remove: archive file [/home/abi/fetcher/tmp/python-aternos-3.0.0.tar.gz]
+[2023-06-30 08:57:10] INFO root fetch - processPackages [python-aternos]: Remove: archive file [/home/abi/fetcher/tmp/python-aternos-3.0.1.tar.gz]
+[2023-06-30 08:57:10] INFO root fetch - main [MainThread]: End processing [python-aternos]: success
+[2023-06-30 08:57:10] INFO root fetch - processPackages [odoo12-addon-stock-picking-send-by-mail]: Downloading https://files.pythonhosted.org/packages/bd/40/d220c054579bab8fba76067d014e6d788a834959e54667465b0325bbb828/odoo12_addon_stock_picking_send_by_mail-12.0.1.1.0.99.dev2-py3-none-any.whl
+[2023-06-30 08:57:10] INFO root fetch - processPackages [pypalert]: executing diffoscope
+[2023-06-30 08:57:10] INFO root fetch - processPackages [pypalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypalert-2.1.1.tar.gz tmp/pypalert-2.1.2.tar.gz --markdown 20230630/p/pypalert/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-30 08:57:11] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.8.tar.gz]
+[2023-06-30 08:57:11] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.9.tar.gz]
+[2023-06-30 08:57:11] INFO root fetch - main [MainThread]: End processing [PySupercell]: success
+[2023-06-30 08:57:11] INFO root fetch - processPackages [odoo12-addon-stock-picking-send-by-mail]: executing diffoscope
+[2023-06-30 08:57:11] INFO root fetch - processPackages [odoo12-addon-stock-picking-send-by-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_picking_send_by_mail-12.0.1.1.0.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_stock_picking_send_by_mail-12.0.1.1.0.99.dev2-py3-none-any.whl.zip --markdown 20230630/o/odoo12-addon-stock-picking-send-by-mail/12.0.1.1.0.99.dev1-12.0.1.1.0.99.dev2/diff.md --exclude *.pyd
+[2023-06-30 08:57:11] INFO root fetch - processPackages [snimpy]: Remove: archive file [/home/abi/fetcher/tmp/snimpy-1.0.0.tar.gz]
+[2023-06-30 08:57:11] INFO root fetch - processPackages [snimpy]: Remove: archive file [/home/abi/fetcher/tmp/snimpy-1.0.1.tar.gz]
+[2023-06-30 08:57:11] INFO root fetch - main [MainThread]: End processing [snimpy]: success
+[2023-06-30 08:57:11] INFO root fetch - processPackages [zope.site]: Remove: archive file [/home/abi/fetcher/tmp/zope.site-4.6.1.tar.gz]
+[2023-06-30 08:57:11] INFO root fetch - processPackages [zope.site]: Remove: archive file [/home/abi/fetcher/tmp/zope.site-5.0.tar.gz]
+[2023-06-30 08:57:11] INFO root fetch - main [MainThread]: End processing [zope.site]: success
+[2023-06-30 08:57:11] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.8.tar.gz]
+[2023-06-30 08:57:11] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.9.tar.gz]
+[2023-06-30 08:57:11] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
+[2023-06-30 08:57:11] INFO root fetch - processPackages [pypalert]: Remove: archive file [/home/abi/fetcher/tmp/pypalert-2.1.1.tar.gz]
+[2023-06-30 08:57:11] INFO root fetch - processPackages [pypalert]: Remove: archive file [/home/abi/fetcher/tmp/pypalert-2.1.2.tar.gz]
+[2023-06-30 08:57:11] INFO root fetch - main [MainThread]: End processing [pypalert]: success
+[2023-06-30 08:57:12] INFO root fetch - processPackages [odoo12-addon-stock-picking-send-by-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_picking_send_by_mail-12.0.1.1.0.99.dev1-py3-none-any.whl.zip]
+[2023-06-30 08:57:12] INFO root fetch - processPackages [odoo12-addon-stock-picking-send-by-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_picking_send_by_mail-12.0.1.1.0.99.dev2-py3-none-any.whl.zip]
+[2023-06-30 08:57:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-picking-send-by-mail]: success
+[2023-06-30 08:57:12] INFO root fetch - main [MainThread]: Store serial: [18706753]
