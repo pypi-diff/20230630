@@ -21672,3 +21672,98 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 14:22:45] INFO root fetch - processPackages [pydozer-log]: Remove: archive file [/home/abi/fetcher/tmp/pydozer_log-0.1.27-pp39-pypy39_pp73-manylinux_2_34_s390x.whl.zip]
 [2023-06-30 14:22:45] INFO root fetch - main [MainThread]: End processing [pydozer-log]: success
 [2023-06-30 14:22:45] INFO root fetch - main [MainThread]: Store serial: [18710585]
+[2023-06-30 14:27:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18710585]
+[2023-06-30 14:27:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-30 14:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crunchie
+[2023-06-30 14:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fgo-api-types
+[2023-06-30 14:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-standalone-docs
+[2023-06-30 14:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matflow-new
+[2023-06-30 14:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Weblate
+[2023-06-30 14:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TTS
+[2023-06-30 14:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localstack-core
+[2023-06-30 14:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: api-acceptance-tests
+[2023-06-30 14:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hun-date-parser
+[2023-06-30 14:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spyral-cli
+[2023-06-30 14:27:57] INFO root fetch - processPackages [crunchie]: New version: [300.0.0] Old Version: [205.0.0]
+[2023-06-30 14:27:57] INFO root fetch - processPackages [Weblate]: New version: [4.9.1] Old Version: [4.9]
+[2023-06-30 14:27:57] INFO root fetch - processPackages [fastapi-standalone-docs]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-30 14:27:57] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.6.8.15.39.7] Old Version: [2023.6.7.4.47.40]
+[2023-06-30 14:27:57] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230630122428] Old Version: [2.1.1.dev20230629145214]
+[2023-06-30 14:27:57] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-30 14:27:57] INFO root fetch - processPackages [TTS]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-30 14:27:57] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/33/06/64bf36c9f9b85be9b3b28a1d21d5a2698384823379079834bc89f2af1e7e/matflow_new-0.3.0a8.tar.gz
+[2023-06-30 14:27:57] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/0c/5c/56c19e7b2c57d1edca8d87893bbf13933ede5810e755ba90bd88963029dd/localstack-core-2.1.1.dev20230629145214.tar.gz
+[2023-06-30 14:27:57] INFO root fetch - processPackages [TTS]: Downloading https://files.pythonhosted.org/packages/67/99/6c20d7d05ba1b790ecf630c966339575f1e1ba1de99180cfb6cd0cdef613/TTS-0.8.0.tar.gz
+[2023-06-30 14:27:57] WARNING root fetch - processPackages [spyral-cli]: Skipping, unable to determine old version
+[2023-06-30 14:27:57] INFO root fetch - processPackages [spyral-cli]: Start processing: leanit-mweb
+[2023-06-30 14:27:57] INFO root fetch - main [MainThread]: End processing [spyral-cli] error
+[2023-06-30 14:27:57] INFO root fetch - processPackages [hun-date-parser]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-30 14:27:57] INFO root fetch - processPackages [leanit-mweb]: New version: [23.6.9] Old Version: [23.6.8]
+[2023-06-30 14:27:57] WARNING root fetch - processPackages [api-acceptance-tests]: Skipping, unable to determine old version
+[2023-06-30 14:27:57] INFO root fetch - processPackages [api-acceptance-tests]: Start processing: clappform
+[2023-06-30 14:27:57] INFO root fetch - main [MainThread]: End processing [api-acceptance-tests] error
+[2023-06-30 14:27:57] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/e3/d0/8c5e3921ce223331411d07702b5a482ff39b4312be82341c518fe3649360/leanit-mweb-23.6.8.tar.gz
+[2023-06-30 14:27:57] INFO root fetch - processPackages [crunchie]: Downloading https://files.pythonhosted.org/packages/7d/fb/e196af65ea3b567722847537f71a51c7e929c991e898c2ee3ca51003a02d/crunchie-205.0.0.tar.gz
+[2023-06-30 14:27:57] INFO root fetch - processPackages [Weblate]: Downloading https://files.pythonhosted.org/packages/1b/80/53ffb6a7757a493a187be7be0aa67e0606254c4f1eebdaff087cb49f09a2/Weblate-4.9.tar.gz
+[2023-06-30 14:27:57] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/40/ea/07f42b620fa19e6ea2c02886317c7c8ac5a8695f3dd29584f6dea90e367c/fgo_api_types-2023.6.7.4.47.40.tar.gz
+[2023-06-30 14:27:57] INFO root fetch - processPackages [fastapi-standalone-docs]: Downloading https://files.pythonhosted.org/packages/25/58/2c0c761fd4abae40b9e3a8f77b76886dda8ce670b70adb8e1d2aac17bbe5/fastapi_standalone_docs-0.1.2.tar.gz
+[2023-06-30 14:27:57] INFO root fetch - processPackages [clappform]: New version: [3.0.0a5] Old Version: [3.0.0a4]
+[2023-06-30 14:27:57] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/68/c9/418420420155f18aa38d7861e0cfcd92e65ff36933188ec860c52817fd64/matflow_new-0.3.0a9.tar.gz
+[2023-06-30 14:27:57] INFO root fetch - processPackages [hun-date-parser]: Downloading https://files.pythonhosted.org/packages/6b/28/29b249e259ac7ef3cabb246f3d2308f195476332e7d125951d54cee15dea/hun-date-parser-0.2.1.tar.gz
+[2023-06-30 14:27:57] WARNING root fetch - processPackages [Weblate]: Skipping package: exceeds size limit 25286022>=10485760
+[2023-06-30 14:27:57] INFO root fetch - main [MainThread]: End processing [Weblate] error
+[2023-06-30 14:27:57] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/1f/17/7a8f9e77b40f876966fe4f3c9b959f17263500de2806928bab228190248f/localstack-core-2.1.1.dev20230630122428.tar.gz
+[2023-06-30 14:27:57] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2023-06-30 14:27:57] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a8.tar.gz tmp/matflow_new-0.3.0a9.tar.gz --markdown 20230630/m/matflow-new/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-30 14:27:57] INFO root fetch - processPackages [TTS]: Downloading https://files.pythonhosted.org/packages/e6/68/26dd07a1742aa1c80702fe0bf57fbe9379806b1dda277c705a37a46dd744/TTS-0.9.0.tar.gz
+[2023-06-30 14:27:57] INFO root fetch - processPackages [clappform]: Downloading https://files.pythonhosted.org/packages/79/e9/51822eb13ed1fea83361d7da4884d46ea116f2747b53219dd7c1d90e22d9/clappform-3.0.0a4.tar.gz
+[2023-06-30 14:27:57] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/ac/d8/ca31edef88b4543a9866f049722c53b4f62cb4f26ffda726c3273f3793ef/leanit-mweb-23.6.9.tar.gz
+[2023-06-30 14:27:57] INFO root fetch - processPackages [crunchie]: Downloading https://files.pythonhosted.org/packages/fa/8d/8135738a3b86df4f4aae7503a0927c244b3edbef4ec49436abaa0a421a4c/crunchie-300.0.0.tar.gz
+[2023-06-30 14:27:58] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-30 14:27:58] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230629145214.tar.gz tmp/localstack-core-2.1.1.dev20230630122428.tar.gz --markdown 20230630/l/localstack-core/2.1.1.dev20230629145214-2.1.1.dev20230630122428/diff.md --exclude *.pyd
+[2023-06-30 14:27:58] INFO root fetch - processPackages [TTS]: executing diffoscope
+[2023-06-30 14:27:58] INFO root fetch - processPackages [TTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TTS-0.8.0.tar.gz tmp/TTS-0.9.0.tar.gz --markdown 20230630/T/TTS/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-30 14:27:58] INFO root fetch - processPackages [fastapi-standalone-docs]: Downloading https://files.pythonhosted.org/packages/3f/a4/f702b210f7e102c295015bbf97be4037a92ecb9caf7ba046e92477b952b7/fastapi_standalone_docs-0.1.3.tar.gz
+[2023-06-30 14:27:58] INFO root fetch - processPackages [leanit-mweb]: executing diffoscope
+[2023-06-30 14:27:58] INFO root fetch - processPackages [leanit-mweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leanit-mweb-23.6.8.tar.gz tmp/leanit-mweb-23.6.9.tar.gz --markdown 20230630/l/leanit-mweb/23.6.8-23.6.9/diff.md --exclude *.pyd
+[2023-06-30 14:27:58] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/d2/ee/93d61572a7f4647514cd5763194fee7ca0eb73e1c09c2693be94313a41e4/fgo_api_types-2023.6.8.15.39.7.tar.gz
+[2023-06-30 14:27:58] INFO root fetch - processPackages [hun-date-parser]: Downloading https://files.pythonhosted.org/packages/95/6a/de9a51872fb3e074ab6880d71266f059050b0cced1a80e6c04915845bd84/hun-date-parser-0.2.2.tar.gz
+[2023-06-30 14:27:58] INFO root fetch - processPackages [fastapi-standalone-docs]: executing diffoscope
+[2023-06-30 14:27:58] INFO root fetch - processPackages [fastapi-standalone-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_standalone_docs-0.1.2.tar.gz tmp/fastapi_standalone_docs-0.1.3.tar.gz --markdown 20230630/f/fastapi-standalone-docs/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-30 14:27:58] INFO root fetch - processPackages [crunchie]: executing diffoscope
+[2023-06-30 14:27:58] INFO root fetch - processPackages [crunchie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunchie-205.0.0.tar.gz tmp/crunchie-300.0.0.tar.gz --markdown 20230630/c/crunchie/205.0.0-300.0.0/diff.md --exclude *.pyd
+[2023-06-30 14:27:58] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-06-30 14:27:58] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.6.7.4.47.40.tar.gz tmp/fgo_api_types-2023.6.8.15.39.7.tar.gz --markdown 20230630/f/fgo-api-types/2023.6.7.4.47.40-2023.6.8.15.39.7/diff.md --exclude *.pyd
+[2023-06-30 14:27:58] INFO root fetch - processPackages [hun-date-parser]: executing diffoscope
+[2023-06-30 14:27:58] INFO root fetch - processPackages [hun-date-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hun-date-parser-0.2.1.tar.gz tmp/hun-date-parser-0.2.2.tar.gz --markdown 20230630/h/hun-date-parser/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-30 14:27:58] INFO root fetch - processPackages [clappform]: Downloading https://files.pythonhosted.org/packages/67/e6/2113aea4824263dd1acd9fd30268006c6a7b9a2f73f2bbc9d4a772fb04c7/clappform-3.0.0a5.tar.gz
+[2023-06-30 14:27:58] INFO root fetch - processPackages [clappform]: executing diffoscope
+[2023-06-30 14:27:58] INFO root fetch - processPackages [clappform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clappform-3.0.0a4.tar.gz tmp/clappform-3.0.0a5.tar.gz --markdown 20230630/c/clappform/3.0.0a4-3.0.0a5/diff.md --exclude *.pyd
+[2023-06-30 14:27:59] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a8.tar.gz]
+[2023-06-30 14:27:59] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a9.tar.gz]
+[2023-06-30 14:27:59] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2023-06-30 14:27:59] INFO root fetch - processPackages [crunchie]: Remove: archive file [/home/abi/fetcher/tmp/crunchie-205.0.0.tar.gz]
+[2023-06-30 14:27:59] INFO root fetch - processPackages [crunchie]: Remove: archive file [/home/abi/fetcher/tmp/crunchie-300.0.0.tar.gz]
+[2023-06-30 14:27:59] INFO root fetch - main [MainThread]: End processing [crunchie]: success
+[2023-06-30 14:27:59] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.8.tar.gz]
+[2023-06-30 14:27:59] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.9.tar.gz]
+[2023-06-30 14:27:59] INFO root fetch - main [MainThread]: End processing [leanit-mweb]: success
+[2023-06-30 14:27:59] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.6.7.4.47.40.tar.gz]
+[2023-06-30 14:27:59] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.6.8.15.39.7.tar.gz]
+[2023-06-30 14:27:59] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-06-30 14:27:59] INFO root fetch - processPackages [clappform]: Remove: archive file [/home/abi/fetcher/tmp/clappform-3.0.0a4.tar.gz]
+[2023-06-30 14:27:59] INFO root fetch - processPackages [clappform]: Remove: archive file [/home/abi/fetcher/tmp/clappform-3.0.0a5.tar.gz]
+[2023-06-30 14:27:59] INFO root fetch - main [MainThread]: End processing [clappform]: success
+[2023-06-30 14:28:00] INFO root fetch - processPackages [hun-date-parser]: Remove: archive file [/home/abi/fetcher/tmp/hun-date-parser-0.2.1.tar.gz]
+[2023-06-30 14:28:00] INFO root fetch - processPackages [hun-date-parser]: Remove: archive file [/home/abi/fetcher/tmp/hun-date-parser-0.2.2.tar.gz]
+[2023-06-30 14:28:00] INFO root fetch - main [MainThread]: End processing [hun-date-parser]: success
+[2023-06-30 14:28:00] INFO root fetch - processPackages [fastapi-standalone-docs]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_standalone_docs-0.1.2.tar.gz]
+[2023-06-30 14:28:00] INFO root fetch - processPackages [fastapi-standalone-docs]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_standalone_docs-0.1.3.tar.gz]
+[2023-06-30 14:28:00] INFO root fetch - main [MainThread]: End processing [fastapi-standalone-docs]: success
+[2023-06-30 14:28:01] INFO root fetch - processPackages [TTS]: Remove: archive file [/home/abi/fetcher/tmp/TTS-0.8.0.tar.gz]
+[2023-06-30 14:28:01] INFO root fetch - processPackages [TTS]: Remove: archive file [/home/abi/fetcher/tmp/TTS-0.9.0.tar.gz]
+[2023-06-30 14:28:01] INFO root fetch - main [MainThread]: End processing [TTS]: success
+[2023-06-30 14:28:06] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230629145214.tar.gz]
+[2023-06-30 14:28:06] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230630122428.tar.gz]
+[2023-06-30 14:28:06] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-30 14:28:06] INFO root fetch - main [MainThread]: Store serial: [18710655]
