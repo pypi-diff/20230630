@@ -1,0 +1,90 @@
+# Comparing `tmp/grai_source_bigquery-0.1.2a2.tar.gz` & `tmp/grai_source_bigquery-0.2.0a1.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "grai_source_bigquery-0.1.2a2.tar", max compression
++gzip compressed data, was "grai_source_bigquery-0.2.0a1.tar", max compression
+```
+
+## Comparing `grai_source_bigquery-0.1.2a2.tar` & `grai_source_bigquery-0.2.0a1.tar`
+
+### file list
+
+```diff
+@@ -1,9 +1,9 @@
+--rw-r--r--   0        0        0      141 2023-05-02 08:01:59.695304 grai_source_bigquery-0.1.2a2/README.md
+--rw-r--r--   0        0        0     1122 2023-06-30 10:53:29.509809 grai_source_bigquery-0.1.2a2/pyproject.toml
+--rw-r--r--   0        0        0      175 2023-06-30 10:53:33.677729 grai_source_bigquery-0.1.2a2/src/grai_source_bigquery/__init__.py
+--rw-r--r--   0        0        0     8786 2023-06-29 08:12:22.800613 grai_source_bigquery-0.1.2a2/src/grai_source_bigquery/adapters.py
+--rw-r--r--   0        0        0     2188 2023-06-30 10:48:59.170687 grai_source_bigquery-0.1.2a2/src/grai_source_bigquery/base.py
+--rw-r--r--   0        0        0    14133 2023-06-30 08:35:34.231658 grai_source_bigquery-0.1.2a2/src/grai_source_bigquery/loader.py
+--rw-r--r--   0        0        0     6222 2023-06-08 08:40:20.857764 grai_source_bigquery-0.1.2a2/src/grai_source_bigquery/models.py
+--rw-r--r--   0        0        0      199 2023-06-06 17:35:16.799326 grai_source_bigquery-0.1.2a2/src/grai_source_bigquery/package_definitions.py
+--rw-r--r--   0        0        0     1173 1970-01-01 00:00:00.000000 grai_source_bigquery-0.1.2a2/PKG-INFO
++-rw-r--r--   0        0        0      141 2023-05-02 08:01:59.695304 grai_source_bigquery-0.2.0a1/README.md
++-rw-r--r--   0        0        0     1122 2023-06-30 10:54:25.480841 grai_source_bigquery-0.2.0a1/pyproject.toml
++-rw-r--r--   0        0        0      175 2023-06-30 10:54:31.312852 grai_source_bigquery-0.2.0a1/src/grai_source_bigquery/__init__.py
++-rw-r--r--   0        0        0     8786 2023-06-29 08:12:22.800613 grai_source_bigquery-0.2.0a1/src/grai_source_bigquery/adapters.py
++-rw-r--r--   0        0        0     2188 2023-06-30 10:48:59.170687 grai_source_bigquery-0.2.0a1/src/grai_source_bigquery/base.py
++-rw-r--r--   0        0        0    14133 2023-06-30 08:35:34.231658 grai_source_bigquery-0.2.0a1/src/grai_source_bigquery/loader.py
++-rw-r--r--   0        0        0     6222 2023-06-08 08:40:20.857764 grai_source_bigquery-0.2.0a1/src/grai_source_bigquery/models.py
++-rw-r--r--   0        0        0      199 2023-06-06 17:35:16.799326 grai_source_bigquery-0.2.0a1/src/grai_source_bigquery/package_definitions.py
++-rw-r--r--   0        0        0     1173 1970-01-01 00:00:00.000000 grai_source_bigquery-0.2.0a1/PKG-INFO
+```
+
+### Comparing `grai_source_bigquery-0.1.2a2/pyproject.toml` & `grai_source_bigquery-0.2.0a1/pyproject.toml`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [tool.poetry]
+ name = "grai_source_bigquery"
+-version = "0.1.2-alpha2"
++version = "0.2.0-alpha1"
+ description = ""
+ authors = ["Edward Louth <edward@grai.io>"]
+ license = "Elastic-2.0"
+ packages = [
+     { include = "grai_source_bigquery", from = "src" },
+ ]
+ readme = "README.md"
+```
+
+### Comparing `grai_source_bigquery-0.1.2a2/src/grai_source_bigquery/adapters.py` & `grai_source_bigquery-0.2.0a1/src/grai_source_bigquery/adapters.py`
+
+ * *Files identical despite different names*
+
+### Comparing `grai_source_bigquery-0.1.2a2/src/grai_source_bigquery/base.py` & `grai_source_bigquery-0.2.0a1/src/grai_source_bigquery/base.py`
+
+ * *Files identical despite different names*
+
+### Comparing `grai_source_bigquery-0.1.2a2/src/grai_source_bigquery/loader.py` & `grai_source_bigquery-0.2.0a1/src/grai_source_bigquery/loader.py`
+
+ * *Files identical despite different names*
+
+### Comparing `grai_source_bigquery-0.1.2a2/src/grai_source_bigquery/models.py` & `grai_source_bigquery-0.2.0a1/src/grai_source_bigquery/models.py`
+
+ * *Files identical despite different names*
+
+### Comparing `grai_source_bigquery-0.1.2a2/PKG-INFO` & `grai_source_bigquery-0.2.0a1/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: grai-source-bigquery
+-Version: 0.1.2a2
++Version: 0.2.0a1
+ Summary: 
+ Home-page: https://www.grai.io/
+ License: Elastic-2.0
+ Author: Edward Louth
+ Author-email: edward@grai.io
+ Requires-Python: >=3.8,<4.0
+ Classifier: License :: Other/Proprietary License
+```
+

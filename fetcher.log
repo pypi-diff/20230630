@@ -19023,3 +19023,88 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 12:54:25] INFO root fetch - processPackages [clinlp]: Remove: archive file [/home/abi/fetcher/tmp/clinlp-0.3.0.tar.gz]
 [2023-06-30 12:54:25] INFO root fetch - main [MainThread]: End processing [clinlp]: success
 [2023-06-30 12:54:25] INFO root fetch - main [MainThread]: Store serial: [18709077]
+[2023-06-30 12:59:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18709077]
+[2023-06-30 12:59:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-30 12:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TEST-TC
+[2023-06-30 12:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grai-source-bigquery
+[2023-06-30 12:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-cisco-support-plugin
+[2023-06-30 12:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geopyv
+[2023-06-30 12:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unimpeded
+[2023-06-30 12:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sniimapp
+[2023-06-30 12:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rkvst-samples
+[2023-06-30 12:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nopasaran
+[2023-06-30 12:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ipo-india
+[2023-06-30 12:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-pgstac
+[2023-06-30 12:59:35] INFO root fetch - processPackages [TEST-TC]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 12:59:35] INFO root fetch - processPackages [geopyv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 12:59:35] INFO root fetch - processPackages [grai-source-bigquery]: New version: [0.2.0a1] Old Version: [0.1.2a2]
+[2023-06-30 12:59:35] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 12:59:35] INFO root fetch - processPackages [sniimapp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 12:59:35] INFO root fetch - processPackages [rkvst-samples]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-30 12:59:35] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/6f/e0/017b19a86d3424b8a81bdfca2c2c80fb5e172a0922225ccccec2b5f887c1/TEST_TC-0.1.8.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [rkvst-samples]: Downloading https://files.pythonhosted.org/packages/0d/a0/5a316a6155066ce810648d105dfed70839eed00bc11538223ba1f1e5174c/rkvst-samples-0.8.2.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/fb/d1/ec907fcf8092b0658f18c33c834998acf50826cf6eed46c8361c96638f8f/sniimapp-0.0.8.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [cdk-pgstac]: New version: [4.2.3] Old Version: [4.2.2]
+[2023-06-30 12:59:35] WARNING root fetch - processPackages [rkvst-samples]: Skipping package: exceeds size limit 13331472>=10485760
+[2023-06-30 12:59:35] INFO root fetch - processPackages [rkvst-samples]: Start processing: radomermbg
+[2023-06-30 12:59:35] INFO root fetch - processPackages [ipo-india]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 12:59:35] INFO root fetch - main [MainThread]: End processing [rkvst-samples] error
+[2023-06-30 12:59:35] INFO root fetch - processPackages [unimpeded]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-30 12:59:35] ERROR root fetch - processPackages [nopasaran]: Unable to get metadata: No such project 'nopasaran'
+[2023-06-30 12:59:35] INFO root fetch - main [MainThread]: End processing [nopasaran] error
+[2023-06-30 12:59:35] WARNING root fetch - processPackages [radomermbg]: Skipping, unable to determine old version
+[2023-06-30 12:59:35] INFO root fetch - main [MainThread]: End processing [radomermbg] error
+[2023-06-30 12:59:35] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/0d/50/e64c8e6e8e9b511bef4b457b9bdd94c29f7c9bd21da3063a5feb7f329c97/grai_source_bigquery-0.1.2a2.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/22/5c/36515670aef534d1fa215574fa87bf9cf9968666fce06689c80a084fb36b/TEST_TC-0.1.9.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/32/41/5f0bd7028c0c84a365a70d9ce3684ef44e347a22a1d33861d0f928009701/sniimapp-0.0.9.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [cdk-pgstac]: Downloading https://files.pythonhosted.org/packages/b7/6c/633f96276634306516027ca9cf7757da3fa015dfc0652fd9b6113f8d7f32/cdk-pgstac-4.2.2.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/59/cd/5c2cb6799fbf4df8b4ca611d25994ac3d2b2ef9ce0eb5cb7fe5555b1f774/geopyv-0.0.8.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [ipo-india]: Downloading https://files.pythonhosted.org/packages/8f/6b/041568162d7b83af73f0d51cdaf81d155de8f6a77390e0fbf6f3a1f737bf/ipo_india-0.0.8.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-06-30 12:59:35] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.8.tar.gz tmp/sniimapp-0.0.9.tar.gz --markdown 20230630/s/sniimapp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 12:59:35] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-06-30 12:59:35] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-0.1.8.tar.gz tmp/TEST_TC-0.1.9.tar.gz --markdown 20230630/T/TEST-TC/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 12:59:35] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/7f/23/53669c4b3a74a71f4b6daf3543461e618b7f61701a83017176e0990b9ffc/grai_source_bigquery-0.2.0a1.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-30 12:59:35] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230630/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 12:59:35] INFO root fetch - processPackages [unimpeded]: Downloading https://files.pythonhosted.org/packages/e5/6b/761ed27cf3bb825c27b12ac40a8b41489c41cf6da408e49b2090464ba3a2/unimpeded-0.1.2.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [cdk-pgstac]: Downloading https://files.pythonhosted.org/packages/e7/82/b4b7bafc9c63eafbfec657176bf6bf7cd1701c1bb21b481956e096d7d1b9/cdk-pgstac-4.2.3.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [ipo-india]: Downloading https://files.pythonhosted.org/packages/98/a0/579ee7b907a9facb6deee97a613a7638ef0b47f5d0d824eadd0f17a2d6ef/ipo_india-0.0.9.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [grai-source-bigquery]: executing diffoscope
+[2023-06-30 12:59:35] INFO root fetch - processPackages [grai-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_bigquery-0.1.2a2.tar.gz tmp/grai_source_bigquery-0.2.0a1.tar.gz --markdown 20230630/g/grai-source-bigquery/0.1.2a2-0.2.0a1/diff.md --exclude *.pyd
+[2023-06-30 12:59:35] INFO root fetch - processPackages [unimpeded]: executing diffoscope
+[2023-06-30 12:59:35] INFO root fetch - processPackages [unimpeded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimpeded-0.1.1.tar.gz tmp/unimpeded-0.1.2.tar.gz --markdown 20230630/u/unimpeded/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-30 12:59:35] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/76/fd/888bc0b2bd9d5003b90a509494f1d527befc7101dc39ed5d07d6f7ba03d0/geopyv-0.0.9.tar.gz
+[2023-06-30 12:59:35] INFO root fetch - processPackages [ipo-india]: executing diffoscope
+[2023-06-30 12:59:35] INFO root fetch - processPackages [ipo-india]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipo_india-0.0.8.tar.gz tmp/ipo_india-0.0.9.tar.gz --markdown 20230630/i/ipo-india/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 12:59:35] INFO root fetch - processPackages [cdk-pgstac]: executing diffoscope
+[2023-06-30 12:59:35] INFO root fetch - processPackages [cdk-pgstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-pgstac-4.2.2.tar.gz tmp/cdk-pgstac-4.2.3.tar.gz --markdown 20230630/c/cdk-pgstac/4.2.2-4.2.3/diff.md --exclude *.pyd
+[2023-06-30 12:59:36] INFO root fetch - processPackages [geopyv]: executing diffoscope
+[2023-06-30 12:59:36] INFO root fetch - processPackages [geopyv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopyv-0.0.8.tar.gz tmp/geopyv-0.0.9.tar.gz --markdown 20230630/g/geopyv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 12:59:36] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.8.tar.gz]
+[2023-06-30 12:59:36] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.9.tar.gz]
+[2023-06-30 12:59:36] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-06-30 12:59:36] INFO root fetch - processPackages [unimpeded]: Remove: archive file [/home/abi/fetcher/tmp/unimpeded-0.1.1.tar.gz]
+[2023-06-30 12:59:36] INFO root fetch - processPackages [unimpeded]: Remove: archive file [/home/abi/fetcher/tmp/unimpeded-0.1.2.tar.gz]
+[2023-06-30 12:59:36] INFO root fetch - main [MainThread]: End processing [unimpeded]: success
+[2023-06-30 12:59:36] INFO root fetch - processPackages [grai-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_bigquery-0.1.2a2.tar.gz]
+[2023-06-30 12:59:36] INFO root fetch - processPackages [grai-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_bigquery-0.2.0a1.tar.gz]
+[2023-06-30 12:59:36] INFO root fetch - main [MainThread]: End processing [grai-source-bigquery]: success
+[2023-06-30 12:59:37] INFO root fetch - processPackages [ipo-india]: Remove: archive file [/home/abi/fetcher/tmp/ipo_india-0.0.8.tar.gz]
+[2023-06-30 12:59:37] INFO root fetch - processPackages [ipo-india]: Remove: archive file [/home/abi/fetcher/tmp/ipo_india-0.0.9.tar.gz]
+[2023-06-30 12:59:37] INFO root fetch - main [MainThread]: End processing [ipo-india]: success
+[2023-06-30 12:59:37] INFO root fetch - processPackages [cdk-pgstac]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pgstac-4.2.2.tar.gz]
+[2023-06-30 12:59:37] INFO root fetch - processPackages [cdk-pgstac]: Remove: archive file [/home/abi/fetcher/tmp/cdk-pgstac-4.2.3.tar.gz]
+[2023-06-30 12:59:37] INFO root fetch - main [MainThread]: End processing [cdk-pgstac]: success
+[2023-06-30 12:59:37] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.8.tar.gz]
+[2023-06-30 12:59:37] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.9.tar.gz]
+[2023-06-30 12:59:37] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-06-30 12:59:37] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-30 12:59:37] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-30 12:59:37] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-30 12:59:38] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.8.tar.gz]
+[2023-06-30 12:59:38] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.9.tar.gz]
+[2023-06-30 12:59:38] INFO root fetch - main [MainThread]: End processing [geopyv]: success
+[2023-06-30 12:59:38] INFO root fetch - main [MainThread]: Store serial: [18709163]
