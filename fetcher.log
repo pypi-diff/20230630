@@ -20552,3 +20552,177 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 13:48:18] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230629-py3-none-win_amd64.whl.zip]
 [2023-06-30 13:48:18] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2023-06-30 13:48:18] INFO root fetch - main [MainThread]: Store serial: [18710060]
+[2023-06-30 13:53:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18710060]
+[2023-06-30 13:53:38] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-30 13:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: UComp
+[2023-06-30 13:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xoa-core
+[2023-06-30 13:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-rehive-extras
+[2023-06-30 13:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fa-models
+[2023-06-30 13:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radomermbg
+[2023-06-30 13:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reliably-cli
+[2023-06-30 13:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sniimapp
+[2023-06-30 13:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fa-models
+[2023-06-30 13:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hpcflow-new2
+[2023-06-30 13:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AlgoMaster
+[2023-06-30 13:53:38] INFO root fetch - processPackages [UComp]: New version: [1.0.78] Old Version: [1.0.73]
+[2023-06-30 13:53:38] INFO root fetch - processPackages [fa-models]: New version: [1.0.54] Old Version: [1.0.53]
+[2023-06-30 13:53:38] INFO root fetch - processPackages [drf-rehive-extras]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-30 13:53:38] INFO root fetch - processPackages [xoa-core]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-30 13:53:38] INFO root fetch - processPackages [radomermbg]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-30 13:53:38] INFO root fetch - processPackages [reliably-cli]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-30 13:53:38] INFO root fetch - processPackages [sniimapp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 13:53:38] INFO root fetch - processPackages [AlgoMaster]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-30 13:53:38] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-06-30 13:53:38] INFO root fetch - processPackages [fa-models]: New version: [1.0.54] Old Version: [1.0.53]
+[2023-06-30 13:53:38] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/fb/d1/ec907fcf8092b0658f18c33c834998acf50826cf6eed46c8361c96638f8f/sniimapp-0.0.8.tar.gz
+[2023-06-30 13:53:38] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/cc/ca/1fd224eb5a09826e85c92dd157f8295299e773354fdb824dadc0590fb96a/hpcflow_new2-0.2.0a8.tar.gz
+[2023-06-30 13:53:38] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/30/2e/612502073eeb15365f232f4de1ec73124c3e07897cf0577ef156e9062f62/UComp-1.0.73.tar.gz
+[2023-06-30 13:53:38] INFO root fetch - processPackages [radomermbg]: Downloading https://files.pythonhosted.org/packages/45/d9/66f1ece02f3b7afad63d67b53fc3395540f642ca6e80f021bb5224bed693/radomermbg-0.0.6.tar.gz
+[2023-06-30 13:53:38] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/e8/fe/7a593168778cc9c9ebc52faa8f298ea5c86e479ff2e6e6f7b217e06353cb/fa-models-1.0.53.tar.gz
+[2023-06-30 13:53:38] INFO root fetch - processPackages [xoa-core]: Downloading https://files.pythonhosted.org/packages/b2/fb/3ca95364f663d075cb5520de247e315646fb2547d4cc2c1342051d03b24d/xoa-core-2.0.0.tar.gz
+[2023-06-30 13:53:38] INFO root fetch - processPackages [AlgoMaster]: Downloading https://files.pythonhosted.org/packages/90/8e/13544e4c10a01db2dafaa8d75d9d63212b4b44dd3c54f8c5672b89b5b864/AlgoMaster-0.1.1.tar.gz
+[2023-06-30 13:53:38] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/e8/fe/7a593168778cc9c9ebc52faa8f298ea5c86e479ff2e6e6f7b217e06353cb/fa-models-1.0.53.tar.gz
+[2023-06-30 13:53:38] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/32/41/5f0bd7028c0c84a365a70d9ce3684ef44e347a22a1d33861d0f928009701/sniimapp-0.0.9.tar.gz
+[2023-06-30 13:53:38] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/08/a8/d33c9b0664313e5dc73be7965bff0553af6e3aaabd251e6bcf4ad91cf542/reliably_cli-0.8.1.tar.gz
+[2023-06-30 13:53:38] INFO root fetch - processPackages [drf-rehive-extras]: Downloading https://files.pythonhosted.org/packages/51/49/739ffd3dc0e0cd8b17029720066f4097272a2969051ff8b88fd9ebccca3e/drf-rehive-extras-2.0.2.tar.gz
+[2023-06-30 13:53:38] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/8f/94/5cf6c22b7755a1754a5e0798543a3a471342e39b288d923874c390867d9f/hpcflow_new2-0.2.0a9.tar.gz
+[2023-06-30 13:53:38] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-06-30 13:53:38] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.8.tar.gz tmp/sniimapp-0.0.9.tar.gz --markdown 20230630/s/sniimapp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 13:53:39] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2023-06-30 13:53:39] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a8.tar.gz tmp/hpcflow_new2-0.2.0a9.tar.gz --markdown 20230630/h/hpcflow-new2/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-06-30 13:53:39] INFO root fetch - processPackages [radomermbg]: Downloading https://files.pythonhosted.org/packages/a7/76/9c20a0a6f62dae39fb420573e5e47e1227ea60ba95d617abcf4c6e01d54c/radomermbg-0.0.7.tar.gz
+[2023-06-30 13:53:39] INFO root fetch - processPackages [AlgoMaster]: Downloading https://files.pythonhosted.org/packages/ee/a2/e2305aab25e237d57cd426e8cb6e5dfb24d760bcafa12bd7e546adc50153/AlgoMaster-0.1.2.tar.gz
+[2023-06-30 13:53:39] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/19/57/a963b0954979fa7dba4daba4f188fc2880a00efa820fb5eb76db96981d85/reliably_cli-0.8.2-py3-none-any.whl
+[2023-06-30 13:53:39] INFO root fetch - processPackages [radomermbg]: executing diffoscope
+[2023-06-30 13:53:39] INFO root fetch - processPackages [radomermbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radomermbg-0.0.6.tar.gz tmp/radomermbg-0.0.7.tar.gz --markdown 20230630/r/radomermbg/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-30 13:53:39] INFO root fetch - processPackages [xoa-core]: Downloading https://files.pythonhosted.org/packages/73/82/ebc0cd0abba8e1e9c2176d4fde64fddbed49771e34618b15a020f010bacf/xoa-core-2.0.1.tar.gz
+[2023-06-30 13:53:39] INFO root fetch - processPackages [drf-rehive-extras]: Downloading https://files.pythonhosted.org/packages/1b/e5/39d5b5c10fa5a3a1a51a018d35ccd3acc23121d7110b60c8f66ac5486962/drf-rehive-extras-2.0.3.tar.gz
+[2023-06-30 13:53:39] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/41/db/68ef51766f67f16f783d3a7da1770b8c04ef6f05b94eff366ee9cb7cfb68/UComp-1.0.78.tar.gz
+[2023-06-30 13:53:39] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/7d/31/6aba43e3dcbb6c196b77081f16f591ac853f567210d61b9c6c2e5ec64bed/fa-models-1.0.54.tar.gz
+[2023-06-30 13:53:39] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/7d/31/6aba43e3dcbb6c196b77081f16f591ac853f567210d61b9c6c2e5ec64bed/fa-models-1.0.54.tar.gz
+[2023-06-30 13:53:39] INFO root fetch - processPackages [AlgoMaster]: executing diffoscope
+[2023-06-30 13:53:39] INFO root fetch - processPackages [AlgoMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlgoMaster-0.1.1.tar.gz tmp/AlgoMaster-0.1.2.tar.gz --markdown 20230630/A/AlgoMaster/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-30 13:53:39] INFO root fetch - processPackages [reliably-cli]: executing diffoscope
+[2023-06-30 13:53:39] INFO root fetch - processPackages [reliably-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliably_cli-0.8.1.tar.gz tmp/reliably_cli-0.8.2-py3-none-any.whl.zip --markdown 20230630/r/reliably-cli/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-30 13:53:39] INFO root fetch - processPackages [xoa-core]: executing diffoscope
+[2023-06-30 13:53:39] INFO root fetch - processPackages [xoa-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xoa-core-2.0.0.tar.gz tmp/xoa-core-2.0.1.tar.gz --markdown 20230630/x/xoa-core/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-30 13:53:39] INFO root fetch - processPackages [drf-rehive-extras]: executing diffoscope
+[2023-06-30 13:53:39] INFO root fetch - processPackages [drf-rehive-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-rehive-extras-2.0.2.tar.gz tmp/drf-rehive-extras-2.0.3.tar.gz --markdown 20230630/d/drf-rehive-extras/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-30 13:53:39] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-06-30 13:53:39] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.53.tar.gz tmp/fa-models-1.0.54.tar.gz --markdown 20230630/f/fa-models/1.0.53-1.0.54/diff.md --exclude *.pyd
+[2023-06-30 13:53:39] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-06-30 13:53:39] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.53.tar.gz tmp/fa-models-1.0.54.tar.gz --markdown 20230630/f/fa-models/1.0.53-1.0.54/diff.md --exclude *.pyd
+[2023-06-30 13:53:39] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-30 13:53:39] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.73.tar.gz tmp/UComp-1.0.78.tar.gz --markdown 20230630/U/UComp/1.0.73-1.0.78/diff.md --exclude *.pyd
+[2023-06-30 13:53:40] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.8.tar.gz]
+[2023-06-30 13:53:40] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.9.tar.gz]
+[2023-06-30 13:53:40] INFO root fetch - processPackages [sniimapp]: Start processing: anemic
+[2023-06-30 13:53:40] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-06-30 13:53:40] WARNING root fetch - processPackages [anemic]: Skipping, unable to determine old version
+[2023-06-30 13:53:40] INFO root fetch - processPackages [anemic]: Start processing: clinlp
+[2023-06-30 13:53:40] INFO root fetch - main [MainThread]: End processing [anemic] error
+[2023-06-30 13:53:40] INFO root fetch - processPackages [clinlp]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-30 13:53:40] INFO root fetch - processPackages [clinlp]: Downloading https://files.pythonhosted.org/packages/f4/a2/0c4730cd70265735c7c0faee0b98193272ab3351a6dc58cb9f85ce1018f4/clinlp-0.2.0.tar.gz
+[2023-06-30 13:53:40] INFO root fetch - processPackages [radomermbg]: Remove: archive file [/home/abi/fetcher/tmp/radomermbg-0.0.6.tar.gz]
+[2023-06-30 13:53:40] INFO root fetch - processPackages [radomermbg]: Remove: archive file [/home/abi/fetcher/tmp/radomermbg-0.0.7.tar.gz]
+[2023-06-30 13:53:40] INFO root fetch - processPackages [radomermbg]: Start processing: aws-lambda-powertools
+[2023-06-30 13:53:40] INFO root fetch - main [MainThread]: End processing [radomermbg]: success
+[2023-06-30 13:53:40] INFO root fetch - processPackages [clinlp]: Downloading https://files.pythonhosted.org/packages/6a/0b/55135583cf0a7f3feafc3f0abf9791214a97380ec4389ddff26d50cc311a/clinlp-0.3.0.tar.gz
+[2023-06-30 13:53:40] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a8.tar.gz]
+[2023-06-30 13:53:40] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a9.tar.gz]
+[2023-06-30 13:53:40] INFO root fetch - processPackages [hpcflow-new2]: Start processing: fa-models
+[2023-06-30 13:53:40] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2023-06-30 13:53:40] INFO root fetch - processPackages [fa-models]: New version: [1.0.56] Old Version: [1.0.55]
+[2023-06-30 13:53:40] INFO root fetch - processPackages [clinlp]: executing diffoscope
+[2023-06-30 13:53:40] INFO root fetch - processPackages [clinlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clinlp-0.2.0.tar.gz tmp/clinlp-0.3.0.tar.gz --markdown 20230630/c/clinlp/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-30 13:53:40] INFO root fetch - processPackages [aws-lambda-powertools]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-30 13:53:40] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably_cli-0.8.1.tar.gz]
+[2023-06-30 13:53:40] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably_cli-0.8.2-py3-none-any.whl.zip]
+[2023-06-30 13:53:40] INFO root fetch - processPackages [reliably-cli]: Start processing: sniimapp
+[2023-06-30 13:53:40] INFO root fetch - main [MainThread]: End processing [reliably-cli]: success
+[2023-06-30 13:53:40] INFO root fetch - processPackages [sniimapp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 13:53:40] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/f7/e1/296435e491b45f792d9274fe27a2f1431039ad89e61984e701888ba52a78/fa-models-1.0.55.tar.gz
+[2023-06-30 13:53:41] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/fb/d1/ec907fcf8092b0658f18c33c834998acf50826cf6eed46c8361c96638f8f/sniimapp-0.0.8.tar.gz
+[2023-06-30 13:53:41] INFO root fetch - processPackages [aws-lambda-powertools]: Downloading https://files.pythonhosted.org/packages/a9/49/8be7a6c4973e4fb63e8009f75db67a06c1ea25a36e8e03e7562d90b909fd/aws_lambda_powertools-2.9.0.tar.gz
+[2023-06-30 13:53:41] INFO root fetch - processPackages [drf-rehive-extras]: Remove: archive file [/home/abi/fetcher/tmp/drf-rehive-extras-2.0.2.tar.gz]
+[2023-06-30 13:53:41] INFO root fetch - processPackages [drf-rehive-extras]: Remove: archive file [/home/abi/fetcher/tmp/drf-rehive-extras-2.0.3.tar.gz]
+[2023-06-30 13:53:41] INFO root fetch - processPackages [drf-rehive-extras]: Start processing: nopasaran
+[2023-06-30 13:53:41] INFO root fetch - main [MainThread]: End processing [drf-rehive-extras]: success
+[2023-06-30 13:53:41] INFO root fetch - processPackages [nopasaran]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-30 13:53:41] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/32/41/5f0bd7028c0c84a365a70d9ce3684ef44e347a22a1d33861d0f928009701/sniimapp-0.0.9.tar.gz
+[2023-06-30 13:53:41] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/b1/e9/f5f15b34e8f95ca877ed7cd3aaca723715139242cd830bf733ecd7fe07aa/nopasaran-0.1.3.tar.gz
+[2023-06-30 13:53:41] INFO root fetch - processPackages [xoa-core]: Remove: archive file [/home/abi/fetcher/tmp/xoa-core-2.0.0.tar.gz]
+[2023-06-30 13:53:41] INFO root fetch - processPackages [xoa-core]: Remove: archive file [/home/abi/fetcher/tmp/xoa-core-2.0.1.tar.gz]
+[2023-06-30 13:53:41] INFO root fetch - processPackages [xoa-core]: Start processing: airflow-provider-datarobot-early-access
+[2023-06-30 13:53:41] INFO root fetch - main [MainThread]: End processing [xoa-core]: success
+[2023-06-30 13:53:41] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-06-30 13:53:41] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.8.tar.gz tmp/sniimapp-0.0.9.tar.gz --markdown 20230630/s/sniimapp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 13:53:41] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.53.tar.gz]
+[2023-06-30 13:53:41] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.54.tar.gz]
+[2023-06-30 13:53:41] INFO root fetch - processPackages [fa-models]: Start processing: netbox-cisco-support-plugin
+[2023-06-30 13:53:41] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-06-30 13:53:41] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/6c/31/b327ba3e44f724cafc6924d37d70fa53977e227e80f36a0bb161ce4b50ef/fa-models-1.0.56.tar.gz
+[2023-06-30 13:53:41] INFO root fetch - processPackages [AlgoMaster]: Remove: archive file [/home/abi/fetcher/tmp/AlgoMaster-0.1.1.tar.gz]
+[2023-06-30 13:53:41] INFO root fetch - processPackages [AlgoMaster]: Remove: archive file [/home/abi/fetcher/tmp/AlgoMaster-0.1.2.tar.gz]
+[2023-06-30 13:53:41] INFO root fetch - processPackages [AlgoMaster]: Start processing: bfgdealer
+[2023-06-30 13:53:41] INFO root fetch - main [MainThread]: End processing [AlgoMaster]: success
+[2023-06-30 13:53:41] INFO root fetch - processPackages [bfgdealer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 13:53:41] WARNING root fetch - processPackages [airflow-provider-datarobot-early-access]: Skipping, unable to determine old version
+[2023-06-30 13:53:41] INFO root fetch - processPackages [airflow-provider-datarobot-early-access]: Start processing: fa-models
+[2023-06-30 13:53:41] INFO root fetch - main [MainThread]: End processing [airflow-provider-datarobot-early-access] error
+[2023-06-30 13:53:41] INFO root fetch - processPackages [fa-models]: Start processing: rozetka-api
+[2023-06-30 13:53:41] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-06-30 13:53:41] INFO root fetch - processPackages [fa-models]: New version: [1.0.56] Old Version: [1.0.55]
+[2023-06-30 13:53:41] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 13:53:41] INFO root fetch - processPackages [rozetka-api]: New version: [1.1] Old Version: [1.0.1]
+[2023-06-30 13:53:41] INFO root fetch - processPackages [bfgdealer]: Downloading https://files.pythonhosted.org/packages/29/61/164c2041e3cafb49c13e2b531d004efc61b418ced4cd7955d11f7e37ea73/bfgdealer-0.0.8.tar.gz
+[2023-06-30 13:53:41] INFO root fetch - processPackages [aws-lambda-powertools]: Downloading https://files.pythonhosted.org/packages/be/e3/ff85c035be26d266a4c353fb3f7d653f04b94e5cf23913e93f530125c7d6/aws_lambda_powertools-2.9.1.tar.gz
+[2023-06-30 13:53:41] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/ae/0f/1d7ee0b81aa5e9769676d195ba98ba4abe0e149d8fb1b642df931268ec6f/nopasaran-0.1.4.tar.gz
+[2023-06-30 13:53:41] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-30 13:53:41] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-06-30 13:53:41] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.55.tar.gz tmp/fa-models-1.0.56.tar.gz --markdown 20230630/f/fa-models/1.0.55-1.0.56/diff.md --exclude *.pyd
+[2023-06-30 13:53:41] INFO root fetch - processPackages [rozetka-api]: Downloading https://files.pythonhosted.org/packages/3f/7f/c405e9aa81ec30018d211d9c12b42f7ff6f441261bb2880132b401a293af/rozetka-api-1.0.1.tar.gz
+[2023-06-30 13:53:41] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-06-30 13:53:41] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.55.tar.gz tmp/fa-models-1.0.56.tar.gz --markdown 20230630/f/fa-models/1.0.55-1.0.56/diff.md --exclude *.pyd
+[2023-06-30 13:53:41] INFO root fetch - processPackages [nopasaran]: executing diffoscope
+[2023-06-30 13:53:41] INFO root fetch - processPackages [nopasaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopasaran-0.1.3.tar.gz tmp/nopasaran-0.1.4.tar.gz --markdown 20230630/n/nopasaran/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-30 13:53:41] INFO root fetch - processPackages [rozetka-api]: Downloading https://files.pythonhosted.org/packages/57/e2/d0797d426323b4232afc7577360e48c5ee39f50ab8f48ae7188439d502cf/rozetka_api-1.1.tar.gz
+[2023-06-30 13:53:41] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-30 13:53:41] INFO root fetch - processPackages [aws-lambda-powertools]: executing diffoscope
+[2023-06-30 13:53:41] INFO root fetch - processPackages [aws-lambda-powertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_powertools-2.9.0.tar.gz tmp/aws_lambda_powertools-2.9.1.tar.gz --markdown 20230630/a/aws-lambda-powertools/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-30 13:53:41] INFO root fetch - processPackages [bfgdealer]: Downloading https://files.pythonhosted.org/packages/09/02/38bba01d72eee5fb40f7c982cc57bca68c5c7507fea61e3ccb20efa9695a/bfgdealer-0.0.9.tar.gz
+[2023-06-30 13:53:41] INFO root fetch - processPackages [rozetka-api]: executing diffoscope
+[2023-06-30 13:53:41] INFO root fetch - processPackages [rozetka-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rozetka-api-1.0.1.tar.gz tmp/rozetka_api-1.1.tar.gz --markdown 20230630/r/rozetka-api/1.0.1-1.1/diff.md --exclude *.pyd
+[2023-06-30 13:53:41] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-30 13:53:41] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230630/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 13:53:41] INFO root fetch - processPackages [bfgdealer]: executing diffoscope
+[2023-06-30 13:53:41] INFO root fetch - processPackages [bfgdealer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgdealer-0.0.8.tar.gz tmp/bfgdealer-0.0.9.tar.gz --markdown 20230630/b/bfgdealer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 13:53:42] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.8.tar.gz]
+[2023-06-30 13:53:42] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.9.tar.gz]
+[2023-06-30 13:53:42] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-06-30 13:53:42] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.55.tar.gz]
+[2023-06-30 13:53:42] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.56.tar.gz]
+[2023-06-30 13:53:42] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-06-30 13:53:43] INFO root fetch - processPackages [clinlp]: Remove: archive file [/home/abi/fetcher/tmp/clinlp-0.2.0.tar.gz]
+[2023-06-30 13:53:43] INFO root fetch - processPackages [clinlp]: Remove: archive file [/home/abi/fetcher/tmp/clinlp-0.3.0.tar.gz]
+[2023-06-30 13:53:43] INFO root fetch - main [MainThread]: End processing [clinlp]: success
+[2023-06-30 13:53:43] INFO root fetch - processPackages [rozetka-api]: Remove: archive file [/home/abi/fetcher/tmp/rozetka-api-1.0.1.tar.gz]
+[2023-06-30 13:53:43] INFO root fetch - processPackages [rozetka-api]: Remove: archive file [/home/abi/fetcher/tmp/rozetka_api-1.1.tar.gz]
+[2023-06-30 13:53:43] INFO root fetch - main [MainThread]: End processing [rozetka-api]: success
+[2023-06-30 13:53:43] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.1.3.tar.gz]
+[2023-06-30 13:53:43] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.1.4.tar.gz]
+[2023-06-30 13:53:43] INFO root fetch - main [MainThread]: End processing [nopasaran]: success
+[2023-06-30 13:53:43] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-06-30 13:53:43] INFO root fetch - processPackages [bfgdealer]: Remove: archive file [/home/abi/fetcher/tmp/bfgdealer-0.0.8.tar.gz]
+[2023-06-30 13:53:43] INFO root fetch - processPackages [bfgdealer]: Remove: archive file [/home/abi/fetcher/tmp/bfgdealer-0.0.9.tar.gz]
+[2023-06-30 13:53:43] INFO root fetch - main [MainThread]: End processing [bfgdealer]: success
+[2023-06-30 13:53:43] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-30 13:53:43] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-30 13:53:43] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-30 13:53:43] INFO root fetch - processPackages [aws-lambda-powertools]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_powertools-2.9.0.tar.gz]
+[2023-06-30 13:53:43] INFO root fetch - processPackages [aws-lambda-powertools]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_powertools-2.9.1.tar.gz]
+[2023-06-30 13:53:43] INFO root fetch - main [MainThread]: End processing [aws-lambda-powertools]: success
+[2023-06-30 13:53:46] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.73.tar.gz]
+[2023-06-30 13:53:46] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.78.tar.gz]
+[2023-06-30 13:53:46] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-30 13:53:46] INFO root fetch - main [MainThread]: Store serial: [18710127]
