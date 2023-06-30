@@ -17216,3 +17216,138 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 11:28:02] INFO root fetch - processPackages [fipper]: Remove: archive file [/home/abi/fetcher/tmp/fipper-0.0.4.dev1.tar.gz]
 [2023-06-30 11:28:02] INFO root fetch - main [MainThread]: End processing [fipper]: success
 [2023-06-30 11:28:02] INFO root fetch - main [MainThread]: Store serial: [18708229]
+[2023-06-30 11:33:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18708229]
+[2023-06-30 11:33:11] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Generation-Image-Gaston
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pantherdb
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leafy
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: JustScan
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ntropy-sdk
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fair-async-rlock
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netgen-mesher
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bardapi
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: siddhesh
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ssb-sgis
+[2023-06-30 11:33:11] INFO root fetch - processPackages [fair-async-rlock]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-30 11:33:11] INFO root fetch - processPackages [pantherdb]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-30 11:33:11] INFO root fetch - processPackages [bardapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 11:33:11] INFO root fetch - processPackages [Generation-Image-Gaston]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-30 11:33:11] INFO root fetch - processPackages [JustScan]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ntropy-sdk]: New version: [4.9.1rc1] Old Version: [4.9.0rc8]
+[2023-06-30 11:33:11] INFO root fetch - processPackages [leafy]: New version: [0.1.5a1] Old Version: [0.1.5a0]
+[2023-06-30 11:33:11] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2302.post80.dev0] Old Version: [6.2.2302.post64.dev0]
+[2023-06-30 11:33:11] INFO root fetch - processPackages [fair-async-rlock]: Downloading https://files.pythonhosted.org/packages/b1/07/86dce29cc539feb3df0db955fc3ec9975ddcccb1e3b214879f4940de47d0/fair_async_rlock-1.0.4.tar.gz
+[2023-06-30 11:33:11] INFO root fetch - processPackages [leafy]: Downloading https://files.pythonhosted.org/packages/88/a0/c7ae1d87ea90e297fdfc3a8927a48b02b3e968d377015c074acf44dddff3/leafy-0.1.5a0-cp39-cp39-win_amd64.whl
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ntropy-sdk]: Downloading https://files.pythonhosted.org/packages/af/e0/ef41865115376a7eed7307dd4035a8586b800cc620d5f229dc1419de4343/ntropy_sdk-4.9.0rc8.tar.gz
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ssb-sgis]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-30 11:33:11] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/15/8c/c307da290d06da4e1a9dababf71aef7b155e7ea4f8feacfb03447cecdd15/bardapi-0.1.8.tar.gz
+[2023-06-30 11:33:11] INFO root fetch - processPackages [siddhesh]: New version: [0.1.9] Old Version: [0.1.6]
+[2023-06-30 11:33:11] INFO root fetch - processPackages [Generation-Image-Gaston]: Downloading https://files.pythonhosted.org/packages/78/b8/9e8d8dd04e72fcc6d9464ec41df1fd970a073e578f12ce6b8b9e8af187a7/Generation_Image_Gaston-0.1.6.tar.gz
+[2023-06-30 11:33:11] INFO root fetch - processPackages [pantherdb]: Downloading https://files.pythonhosted.org/packages/4a/6e/eb296bf2e10d6c1590be8b2c7788d1aeda56ceb3996453a70b64a6981b84/pantherdb-1.2.2.tar.gz
+[2023-06-30 11:33:11] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/cc/ed/15d94759d5b41790e2cfb10436a8cc790327f1d0d090f0803849c02c3f06/JustScan-1.2.1.tar.gz
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ntropy-sdk]: Downloading https://files.pythonhosted.org/packages/7d/e5/95782f26ef364e6e2a06a057d6ab310244bc61071ca838d7222936ac3456/ntropy_sdk-4.9.1rc1.tar.gz
+[2023-06-30 11:33:11] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/9b/ce/1e64a8ba6d11800a7940a4db34b2a57a5a171d4826da69b672b5fbad742f/netgen_mesher-6.2.2302.post64.dev0-cp39-cp39-win_amd64.whl
+[2023-06-30 11:33:11] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20016272>=10485760
+[2023-06-30 11:33:11] INFO root fetch - processPackages [netgen-mesher]: Start processing: oester
+[2023-06-30 11:33:11] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2023-06-30 11:33:11] INFO root fetch - processPackages [siddhesh]: Downloading https://files.pythonhosted.org/packages/75/75/7571445ccbd4b6f39a1de7e09d6cff3ad6c730ca65c0eda634075dbcd038/siddhesh-0.1.6.tar.gz
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ssb-sgis]: Downloading https://files.pythonhosted.org/packages/e4/bc/4aeb9892be65b105d4643009cf454a40d18d8dc595f212157f69165f7afc/ssb_sgis-0.2.7.tar.gz
+[2023-06-30 11:33:11] INFO root fetch - processPackages [fair-async-rlock]: Downloading https://files.pythonhosted.org/packages/50/12/567b4976a9e0e636074734ebc18aca064fffb366b9b88a676d2753e6ba72/fair_async_rlock-1.0.5.tar.gz
+[2023-06-30 11:33:11] INFO root fetch - processPackages [leafy]: Downloading https://files.pythonhosted.org/packages/32/9b/d5a96c144495ce48facbbe091ebae07d3272d08e1660d7add576cbb707ff/leafy-0.1.5a1-cp39-cp39-win_amd64.whl
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ntropy-sdk]: executing diffoscope
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ntropy-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntropy_sdk-4.9.0rc8.tar.gz tmp/ntropy_sdk-4.9.1rc1.tar.gz --markdown 20230630/n/ntropy-sdk/4.9.0rc8-4.9.1rc1/diff.md --exclude *.pyd
+[2023-06-30 11:33:11] INFO root fetch - processPackages [Generation-Image-Gaston]: Downloading https://files.pythonhosted.org/packages/7e/7a/9cef369e4ebca1d1189d27b6216c8a4cd0078ba45338709c6fec0f2563f9/Generation_Image_Gaston-0.1.8.tar.gz
+[2023-06-30 11:33:11] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/7d/28/67bed0a690d240036e208efb5d30b83c9d0f46dca1f249b426109f7ee2f4/bardapi-0.1.9.tar.gz
+[2023-06-30 11:33:11] INFO root fetch - processPackages [fair-async-rlock]: executing diffoscope
+[2023-06-30 11:33:11] INFO root fetch - processPackages [fair-async-rlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fair_async_rlock-1.0.4.tar.gz tmp/fair_async_rlock-1.0.5.tar.gz --markdown 20230630/f/fair-async-rlock/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-30 11:33:11] INFO root fetch - processPackages [oester]: New version: [1.2.0] Old Version: [1.0.0]
+[2023-06-30 11:33:11] INFO root fetch - processPackages [pantherdb]: Downloading https://files.pythonhosted.org/packages/35/a1/ab11f3bd6008ad0e0b012e1ae4fee2d70b795caaebb39de83c20f7ee72fe/pantherdb-1.2.3.tar.gz
+[2023-06-30 11:33:11] INFO root fetch - processPackages [Generation-Image-Gaston]: executing diffoscope
+[2023-06-30 11:33:11] INFO root fetch - processPackages [Generation-Image-Gaston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Generation_Image_Gaston-0.1.6.tar.gz tmp/Generation_Image_Gaston-0.1.8.tar.gz --markdown 20230630/G/Generation-Image-Gaston/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-30 11:33:11] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/12/f9/2a3cb15df27454ba4057ed0f13c49c6719846f17e7c78f44fe4b00487f49/JustScan-1.2.2.tar.gz
+[2023-06-30 11:33:11] INFO root fetch - processPackages [leafy]: executing diffoscope
+[2023-06-30 11:33:11] INFO root fetch - processPackages [leafy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leafy-0.1.5a0-cp39-cp39-win_amd64.whl.zip tmp/leafy-0.1.5a1-cp39-cp39-win_amd64.whl.zip --markdown 20230630/l/leafy/0.1.5a0-0.1.5a1/diff.md --exclude *.pyd
+[2023-06-30 11:33:11] INFO root fetch - processPackages [siddhesh]: Downloading https://files.pythonhosted.org/packages/5b/97/9eedf8a93472806524f993ed2aff49ac415ff60a0240dc870a309ac08ffa/siddhesh-0.1.9.tar.gz
+[2023-06-30 11:33:11] INFO root fetch - processPackages [bardapi]: executing diffoscope
+[2023-06-30 11:33:11] INFO root fetch - processPackages [bardapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bardapi-0.1.8.tar.gz tmp/bardapi-0.1.9.tar.gz --markdown 20230630/b/bardapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 11:33:11] INFO root fetch - processPackages [pantherdb]: executing diffoscope
+[2023-06-30 11:33:11] INFO root fetch - processPackages [pantherdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantherdb-1.2.2.tar.gz tmp/pantherdb-1.2.3.tar.gz --markdown 20230630/p/pantherdb/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-30 11:33:11] INFO root fetch - processPackages [ssb-sgis]: Downloading https://files.pythonhosted.org/packages/f6/c0/cb20e518ed5c0a804aff988845c55892868f00000abdf0d9acf03e486155/ssb_sgis-0.2.8.tar.gz
+[2023-06-30 11:33:12] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-30 11:33:12] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.2.1.tar.gz tmp/JustScan-1.2.2.tar.gz --markdown 20230630/J/JustScan/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-30 11:33:12] INFO root fetch - processPackages [oester]: Downloading https://files.pythonhosted.org/packages/76/ed/eca1311a3e78f33245e5932926b30f8b1fb4eda77f6430f30bd6c2989257/oester-1.0.0.tar.gz
+[2023-06-30 11:33:12] INFO root fetch - processPackages [ssb-sgis]: executing diffoscope
+[2023-06-30 11:33:12] INFO root fetch - processPackages [ssb-sgis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_sgis-0.2.7.tar.gz tmp/ssb_sgis-0.2.8.tar.gz --markdown 20230630/s/ssb-sgis/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-30 11:33:12] INFO root fetch - processPackages [siddhesh]: executing diffoscope
+[2023-06-30 11:33:12] INFO root fetch - processPackages [siddhesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siddhesh-0.1.6.tar.gz tmp/siddhesh-0.1.9.tar.gz --markdown 20230630/s/siddhesh/0.1.6-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 11:33:12] INFO root fetch - processPackages [oester]: Downloading https://files.pythonhosted.org/packages/17/24/53d69c9b37f471442b4d9082ab5bf56a87458ba377b95249fb6413542cd3/oester-1.2.0.tar.gz
+[2023-06-30 11:33:12] INFO root fetch - processPackages [oester]: executing diffoscope
+[2023-06-30 11:33:12] INFO root fetch - processPackages [oester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oester-1.0.0.tar.gz tmp/oester-1.2.0.tar.gz --markdown 20230630/o/oester/1.0.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-30 11:33:13] INFO root fetch - processPackages [Generation-Image-Gaston]: Remove: archive file [/home/abi/fetcher/tmp/Generation_Image_Gaston-0.1.6.tar.gz]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [Generation-Image-Gaston]: Remove: archive file [/home/abi/fetcher/tmp/Generation_Image_Gaston-0.1.8.tar.gz]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [Generation-Image-Gaston]: Start processing: nowcasting-datamodel
+[2023-06-30 11:33:13] INFO root fetch - main [MainThread]: End processing [Generation-Image-Gaston]: success
+[2023-06-30 11:33:13] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [leafy]: Remove: archive file [/home/abi/fetcher/tmp/leafy-0.1.5a0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [leafy]: Remove: archive file [/home/abi/fetcher/tmp/leafy-0.1.5a1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [leafy]: Start processing: visualpython
+[2023-06-30 11:33:13] INFO root fetch - main [MainThread]: End processing [leafy]: success
+[2023-06-30 11:33:13] INFO root fetch - processPackages [ntropy-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ntropy_sdk-4.9.0rc8.tar.gz]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [ntropy-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ntropy_sdk-4.9.1rc1.tar.gz]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [ntropy-sdk]: Start processing: hpcflow-new2
+[2023-06-30 11:33:13] INFO root fetch - main [MainThread]: End processing [ntropy-sdk]: success
+[2023-06-30 11:33:13] INFO root fetch - processPackages [visualpython]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [bardapi]: Remove: archive file [/home/abi/fetcher/tmp/bardapi-0.1.8.tar.gz]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [bardapi]: Remove: archive file [/home/abi/fetcher/tmp/bardapi-0.1.9.tar.gz]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [bardapi]: Start processing: jupyterlab-visualpython
+[2023-06-30 11:33:13] INFO root fetch - main [MainThread]: End processing [bardapi]: success
+[2023-06-30 11:33:13] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/19/f4/4cc5f046060fad5a10934ea1687954459f71de628d57c17fcc6fbb739bd2/nowcasting_datamodel-1.4.6.tar.gz
+[2023-06-30 11:33:13] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/cc/ca/1fd224eb5a09826e85c92dd157f8295299e773354fdb824dadc0590fb96a/hpcflow_new2-0.2.0a8.tar.gz
+[2023-06-30 11:33:13] INFO root fetch - processPackages [jupyterlab-visualpython]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [pantherdb]: Remove: archive file [/home/abi/fetcher/tmp/pantherdb-1.2.2.tar.gz]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [pantherdb]: Remove: archive file [/home/abi/fetcher/tmp/pantherdb-1.2.3.tar.gz]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [pantherdb]: Start processing: goldpy
+[2023-06-30 11:33:13] INFO root fetch - main [MainThread]: End processing [pantherdb]: success
+[2023-06-30 11:33:13] INFO root fetch - processPackages [visualpython]: Downloading https://files.pythonhosted.org/packages/2d/eb/4cb2a0f6d696be125fdf8952bb64b76c68e60b252c6efc9d6d0dd793cc9f/visualpython-2.4.1.tar.gz
+[2023-06-30 11:33:13] WARNING root fetch - processPackages [visualpython]: Skipping package: exceeds size limit 14922327>=10485760
+[2023-06-30 11:33:13] INFO root fetch - main [MainThread]: End processing [visualpython] error
+[2023-06-30 11:33:13] INFO root fetch - processPackages [siddhesh]: Remove: archive file [/home/abi/fetcher/tmp/siddhesh-0.1.6.tar.gz]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [siddhesh]: Remove: archive file [/home/abi/fetcher/tmp/siddhesh-0.1.9.tar.gz]
+[2023-06-30 11:33:13] INFO root fetch - main [MainThread]: End processing [siddhesh]: success
+[2023-06-30 11:33:13] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/8f/94/5cf6c22b7755a1754a5e0798543a3a471342e39b288d923874c390867d9f/hpcflow_new2-0.2.0a9.tar.gz
+[2023-06-30 11:33:13] INFO root fetch - processPackages [fair-async-rlock]: Remove: archive file [/home/abi/fetcher/tmp/fair_async_rlock-1.0.4.tar.gz]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [fair-async-rlock]: Remove: archive file [/home/abi/fetcher/tmp/fair_async_rlock-1.0.5.tar.gz]
+[2023-06-30 11:33:13] INFO root fetch - main [MainThread]: End processing [fair-async-rlock]: success
+[2023-06-30 11:33:13] INFO root fetch - processPackages [oester]: Remove: archive file [/home/abi/fetcher/tmp/oester-1.0.0.tar.gz]
+[2023-06-30 11:33:13] INFO root fetch - processPackages [oester]: Remove: archive file [/home/abi/fetcher/tmp/oester-1.2.0.tar.gz]
+[2023-06-30 11:33:13] INFO root fetch - main [MainThread]: End processing [oester]: success
+[2023-06-30 11:33:13] INFO root fetch - processPackages [jupyterlab-visualpython]: Downloading https://files.pythonhosted.org/packages/af/07/1977ae33e351ef9478566c8de86d8819d4a480ef325969b19f8e07aecfe5/jupyterlab_visualpython-2.4.1.tar.gz
+[2023-06-30 11:33:13] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2023-06-30 11:33:13] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a8.tar.gz tmp/hpcflow_new2-0.2.0a9.tar.gz --markdown 20230630/h/hpcflow-new2/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-06-30 11:33:13] WARNING root fetch - processPackages [jupyterlab-visualpython]: Skipping package: exceeds size limit 19131656>=10485760
+[2023-06-30 11:33:13] INFO root fetch - main [MainThread]: End processing [jupyterlab-visualpython] error
+[2023-06-30 11:33:14] INFO root fetch - processPackages [goldpy]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-06-30 11:33:14] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/27/d3/9e96bdd5ac4070ed1fd37a6b1498948e83ccc2ac7a505e2311861e613558/nowcasting_datamodel-1.4.7.tar.gz
+[2023-06-30 11:33:14] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-06-30 11:33:14] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.4.6.tar.gz tmp/nowcasting_datamodel-1.4.7.tar.gz --markdown 20230630/n/nowcasting-datamodel/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-06-30 11:33:14] INFO root fetch - processPackages [goldpy]: Downloading https://files.pythonhosted.org/packages/4d/81/4e52d3ffb03ddc553de783fbf87a6742412966d55618d588f616e01d245f/goldpy-2.1.1.tar.gz
+[2023-06-30 11:33:14] INFO root fetch - processPackages [goldpy]: Downloading https://files.pythonhosted.org/packages/45/61/87c644d3089f702108b0714acd0d989e1cb1af0bbf2620ed5ee789de2362/goldpy-2.2.0-cp311-cp311-macosx_10_9_x86_64.macosx_11_0_arm64.macosx_10_9_universal2.whl
+[2023-06-30 11:33:15] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a8.tar.gz]
+[2023-06-30 11:33:15] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a9.tar.gz]
+[2023-06-30 11:33:15] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2023-06-30 11:33:15] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.6.tar.gz]
+[2023-06-30 11:33:15] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.7.tar.gz]
+[2023-06-30 11:33:15] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-06-30 11:33:15] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.2.1.tar.gz]
+[2023-06-30 11:33:15] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.2.2.tar.gz]
+[2023-06-30 11:33:15] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-30 11:33:15] INFO root fetch - processPackages [ssb-sgis]: Remove: archive file [/home/abi/fetcher/tmp/ssb_sgis-0.2.7.tar.gz]
+[2023-06-30 11:33:15] INFO root fetch - processPackages [ssb-sgis]: Remove: archive file [/home/abi/fetcher/tmp/ssb_sgis-0.2.8.tar.gz]
+[2023-06-30 11:33:15] INFO root fetch - main [MainThread]: End processing [ssb-sgis]: success
+[2023-06-30 11:33:16] INFO root fetch - processPackages [goldpy]: executing diffoscope
+[2023-06-30 11:33:16] INFO root fetch - processPackages [goldpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goldpy-2.1.1.tar.gz tmp/goldpy-2.2.0-cp311-cp311-macosx_10_9_x86_64.macosx_11_0_arm64.macosx_10_9_universal2.whl.zip --markdown 20230630/g/goldpy/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-06-30 11:33:17] INFO root fetch - processPackages [goldpy]: Remove: archive file [/home/abi/fetcher/tmp/goldpy-2.1.1.tar.gz]
+[2023-06-30 11:33:17] INFO root fetch - processPackages [goldpy]: Remove: archive file [/home/abi/fetcher/tmp/goldpy-2.2.0-cp311-cp311-macosx_10_9_x86_64.macosx_11_0_arm64.macosx_10_9_universal2.whl.zip]
+[2023-06-30 11:33:17] INFO root fetch - main [MainThread]: End processing [goldpy]: success
+[2023-06-30 11:33:17] INFO root fetch - main [MainThread]: Store serial: [18708286]
