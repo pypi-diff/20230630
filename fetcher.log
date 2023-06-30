@@ -14973,3 +14973,119 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 10:06:53] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dms-enterprise20181101-1.51.0.tar.gz]
 [2023-06-30 10:06:53] INFO root fetch - main [MainThread]: End processing [alibabacloud-dms-enterprise20181101]: success
 [2023-06-30 10:06:53] INFO root fetch - main [MainThread]: Store serial: [18707311]
+[2023-06-30 10:11:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18707311]
+[2023-06-30 10:12:04] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-30 10:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spidex-python-sdk2
+[2023-06-30 10:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyglove
+[2023-06-30 10:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: extraneous-activity-delays
+[2023-06-30 10:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bio-attention
+[2023-06-30 10:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: createpass
+[2023-06-30 10:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: domain-admin
+[2023-06-30 10:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: warpzone-sdk
+[2023-06-30 10:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stdocker
+[2023-06-30 10:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-simple-accounting
+[2023-06-30 10:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yxspkg
+[2023-06-30 10:12:04] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230630] Old Version: [0.3.1.dev20230629]
+[2023-06-30 10:12:04] INFO root fetch - processPackages [extraneous-activity-delays]: New version: [2.1.9] Old Version: [2.1.13]
+[2023-06-30 10:12:04] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-30 10:12:04] INFO root fetch - processPackages [bio-attention]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-30 10:12:04] INFO root fetch - processPackages [django-simple-accounting]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-30 10:12:04] INFO root fetch - processPackages [warpzone-sdk]: New version: [8.1.1] Old Version: [8.1.0]
+[2023-06-30 10:12:04] INFO root fetch - processPackages [stdocker]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-30 10:12:04] ERROR root fetch - processPackages [createpass]: Unable to get metadata: No such project 'createpass'
+[2023-06-30 10:12:04] INFO root fetch - processPackages [createpass]: Start processing: armonik
+[2023-06-30 10:12:04] INFO root fetch - main [MainThread]: End processing [createpass] error
+[2023-06-30 10:12:04] INFO root fetch - processPackages [yxspkg]: New version: [6.9.8] Old Version: [6.9.7]
+[2023-06-30 10:12:04] INFO root fetch - processPackages [armonik]: New version: [3.9.1.dev597] Old Version: [3.9.1.dev577]
+[2023-06-30 10:12:04] WARNING root fetch - processPackages [spidex-python-sdk2]: Skipping, unable to determine old version
+[2023-06-30 10:12:04] INFO root fetch - processPackages [spidex-python-sdk2]: Start processing: AFR
+[2023-06-30 10:12:04] INFO root fetch - main [MainThread]: End processing [spidex-python-sdk2] error
+[2023-06-30 10:12:04] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-06-30 10:12:04] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/47/ee/4c63bc22406d7d1bed45bea549bf6546659c38daf6a6e8d467cdb95ada69/pyglove-0.3.1.dev20230629.tar.gz
+[2023-06-30 10:12:04] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/c4/f7/66d5b7a50f8be4a08fe21f392007a7e5b7d523e0344a5ae5089466f6bc8f/warpzone_sdk-8.1.0.tar.gz
+[2023-06-30 10:12:04] INFO root fetch - processPackages [django-simple-accounting]: Downloading https://files.pythonhosted.org/packages/ff/28/409e9cf123e115382db63a03e3b0003b8c3f5112f429c648ef1d59663bf5/django_simple_accounting-0.1.2.tar.gz
+[2023-06-30 10:12:04] INFO root fetch - processPackages [AFR]: New version: [0.2.7] Old Version: [0.2.2]
+[2023-06-30 10:12:04] INFO root fetch - processPackages [extraneous-activity-delays]: Downloading https://files.pythonhosted.org/packages/99/f0/4abfe576373bf85e33b0f4ff6a0c44913d9143b9a40e3ae964824cb4d942/extraneous_activity_delays-2.1.13.tar.gz
+[2023-06-30 10:12:04] INFO root fetch - processPackages [bio-attention]: Downloading https://files.pythonhosted.org/packages/e1/83/fbd8cb6f4d25cee61da0f578e88fbd6fbecbe36878b264c27810f00cf418/bio-attention-0.0.7.tar.gz
+[2023-06-30 10:12:05] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/e9/00/1c979a6338313aa1384817dcfb17d78f225f07292739c9ace51701b7cc62/yxspkg-6.9.7-py3-none-any.whl
+[2023-06-30 10:12:05] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-06-30 10:12:05] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/ff/38/7bb3e246541e4e3f1e3dd8b6666ba372d9100a76e43b654c89854af78410/armonik-3.9.1.dev577.tar.gz
+[2023-06-30 10:12:05] INFO root fetch - processPackages [stdocker]: Downloading https://files.pythonhosted.org/packages/f7/c8/8e96abc10a71c0360945e872865d9107780e3c315e0d57cd65518bd8d8bc/stdocker-1.0.9.tar.gz
+[2023-06-30 10:12:05] INFO root fetch - processPackages [AFR]: Downloading https://files.pythonhosted.org/packages/a5/d1/a40646bce8032fbc487368f489d4862e40c5cd6fc8ca22e5c5ffd4f43b79/AFR-0.2.2.tar.gz
+[2023-06-30 10:12:05] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/44/4b/9363451b5b2b5f25f2204f5f7280c9381d664a97156a9d79208eee9f6c4d/warpzone_sdk-8.1.1.tar.gz
+[2023-06-30 10:12:05] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-30 10:12:05] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230630/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-30 10:12:05] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2023-06-30 10:12:05] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-8.1.0.tar.gz tmp/warpzone_sdk-8.1.1.tar.gz --markdown 20230630/w/warpzone-sdk/8.1.0-8.1.1/diff.md --exclude *.pyd
+[2023-06-30 10:12:05] INFO root fetch - processPackages [django-simple-accounting]: Downloading https://files.pythonhosted.org/packages/e2/6d/b1f762f2da57b0b52ef9d4fe6c4cabc3634991d3b334a0022fadb448d1bb/django_simple_accounting-0.1.3.tar.gz
+[2023-06-30 10:12:05] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/47/ba/60d333367d5234644117c852350b81c9f7068958610116eca77a51b83d9c/pyglove-0.3.1.dev20230630.tar.gz
+[2023-06-30 10:12:05] INFO root fetch - processPackages [django-simple-accounting]: executing diffoscope
+[2023-06-30 10:12:05] INFO root fetch - processPackages [django-simple-accounting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_simple_accounting-0.1.2.tar.gz tmp/django_simple_accounting-0.1.3.tar.gz --markdown 20230630/d/django-simple-accounting/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-30 10:12:05] INFO root fetch - processPackages [extraneous-activity-delays]: Downloading https://files.pythonhosted.org/packages/f6/8b/47c27a2f7554f3e3f26621f14cdf52767dbaf6f940c6ee3e0542bbf5dc0d/extraneous_activity_delays-2.1.9.tar.gz
+[2023-06-30 10:12:05] INFO root fetch - processPackages [AFR]: Downloading https://files.pythonhosted.org/packages/08/2d/f34a6d1520856e491091692be7706c9a374ee7a3a5ccd88c1b31e8d8d3e7/AFR-0.2.7.tar.gz
+[2023-06-30 10:12:05] INFO root fetch - processPackages [stdocker]: Downloading https://files.pythonhosted.org/packages/ac/0b/057a4d8a98cd54a1851e4bc2a65840e582f69062d5afe4c3e764085c67a7/stdocker-1.1.0.tar.gz
+[2023-06-30 10:12:05] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/5b/e0/2bec4b4d28a7ad1196aec1200aa73bba1fa7b4037405a828d1899e37cd71/armonik-3.9.1.dev597.tar.gz
+[2023-06-30 10:12:05] INFO root fetch - processPackages [AFR]: executing diffoscope
+[2023-06-30 10:12:05] INFO root fetch - processPackages [AFR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AFR-0.2.2.tar.gz tmp/AFR-0.2.7.tar.gz --markdown 20230630/A/AFR/0.2.2-0.2.7/diff.md --exclude *.pyd
+[2023-06-30 10:12:05] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-30 10:12:05] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230629.tar.gz tmp/pyglove-0.3.1.dev20230630.tar.gz --markdown 20230630/p/pyglove/0.3.1.dev20230629-0.3.1.dev20230630/diff.md --exclude *.pyd
+[2023-06-30 10:12:05] INFO root fetch - processPackages [stdocker]: executing diffoscope
+[2023-06-30 10:12:05] INFO root fetch - processPackages [stdocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdocker-1.0.9.tar.gz tmp/stdocker-1.1.0.tar.gz --markdown 20230630/s/stdocker/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-30 10:12:05] INFO root fetch - processPackages [bio-attention]: Downloading https://files.pythonhosted.org/packages/e0/96/bbc597bdc47f051e39fda79f500dd288adf20749bdab8afbf8cacb01366f/bio-attention-0.0.8.tar.gz
+[2023-06-30 10:12:05] INFO root fetch - processPackages [extraneous-activity-delays]: executing diffoscope
+[2023-06-30 10:12:05] INFO root fetch - processPackages [extraneous-activity-delays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extraneous_activity_delays-2.1.13.tar.gz tmp/extraneous_activity_delays-2.1.9.tar.gz --markdown 20230630/e/extraneous-activity-delays/2.1.13-2.1.9/diff.md --exclude *.pyd
+[2023-06-30 10:12:05] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-06-30 10:12:05] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.1.dev577.tar.gz tmp/armonik-3.9.1.dev597.tar.gz --markdown 20230630/a/armonik/3.9.1.dev577-3.9.1.dev597/diff.md --exclude *.pyd
+[2023-06-30 10:12:05] INFO root fetch - processPackages [bio-attention]: executing diffoscope
+[2023-06-30 10:12:05] INFO root fetch - processPackages [bio-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio-attention-0.0.7.tar.gz tmp/bio-attention-0.0.8.tar.gz --markdown 20230630/b/bio-attention/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-30 10:12:06] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/7e/bf/a221195649dec2f4c5919f5d972d01beb568006bb8958fd387c423f1aaac/yxspkg-6.9.8-py3-none-any.whl
+[2023-06-30 10:12:06] INFO root fetch - processPackages [django-simple-accounting]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_accounting-0.1.2.tar.gz]
+[2023-06-30 10:12:06] INFO root fetch - processPackages [django-simple-accounting]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_accounting-0.1.3.tar.gz]
+[2023-06-30 10:12:06] INFO root fetch - processPackages [django-simple-accounting]: Start processing: poe-shell
+[2023-06-30 10:12:06] INFO root fetch - main [MainThread]: End processing [django-simple-accounting]: success
+[2023-06-30 10:12:06] INFO root fetch - processPackages [poe-shell]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-30 10:12:06] INFO root fetch - processPackages [yxspkg]: executing diffoscope
+[2023-06-30 10:12:06] INFO root fetch - processPackages [yxspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yxspkg-6.9.7-py3-none-any.whl.zip tmp/yxspkg-6.9.8-py3-none-any.whl.zip --markdown 20230630/y/yxspkg/6.9.7-6.9.8/diff.md --exclude *.pyd
+[2023-06-30 10:12:06] INFO root fetch - processPackages [poe-shell]: Downloading https://files.pythonhosted.org/packages/24/3a/6afa23be50d27decbc81bbc69e5c6fba9d4b83181a210b3f103d096f607b/poe_shell-0.1.2.tar.gz
+[2023-06-30 10:12:06] INFO root fetch - processPackages [stdocker]: Remove: archive file [/home/abi/fetcher/tmp/stdocker-1.0.9.tar.gz]
+[2023-06-30 10:12:06] INFO root fetch - processPackages [stdocker]: Remove: archive file [/home/abi/fetcher/tmp/stdocker-1.1.0.tar.gz]
+[2023-06-30 10:12:06] INFO root fetch - processPackages [stdocker]: Start processing: armonik
+[2023-06-30 10:12:06] INFO root fetch - main [MainThread]: End processing [stdocker]: success
+[2023-06-30 10:12:06] INFO root fetch - processPackages [armonik]: New version: [3.9.1.dev598] Old Version: [3.9.1.dev597]
+[2023-06-30 10:12:07] INFO root fetch - processPackages [extraneous-activity-delays]: Remove: archive file [/home/abi/fetcher/tmp/extraneous_activity_delays-2.1.13.tar.gz]
+[2023-06-30 10:12:07] INFO root fetch - processPackages [extraneous-activity-delays]: Remove: archive file [/home/abi/fetcher/tmp/extraneous_activity_delays-2.1.9.tar.gz]
+[2023-06-30 10:12:07] INFO root fetch - main [MainThread]: End processing [extraneous-activity-delays]: success
+[2023-06-30 10:12:07] INFO root fetch - processPackages [poe-shell]: Downloading https://files.pythonhosted.org/packages/08/5d/e052e6f2f4277fa639c715583e0149bb05c268c8a2662eb8ab967695a32a/poe_shell-0.1.3.tar.gz
+[2023-06-30 10:12:07] INFO root fetch - processPackages [poe-shell]: executing diffoscope
+[2023-06-30 10:12:07] INFO root fetch - processPackages [poe-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_shell-0.1.2.tar.gz tmp/poe_shell-0.1.3.tar.gz --markdown 20230630/p/poe-shell/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-30 10:12:07] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/9a/bb/666b694cdd9a3198c008120f8c0dd3bac590439e6e1478b41855cc1c3776/armonik-3.9.1.dev598.tar.gz
+[2023-06-30 10:12:07] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-8.1.0.tar.gz]
+[2023-06-30 10:12:07] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-8.1.1.tar.gz]
+[2023-06-30 10:12:07] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2023-06-30 10:12:07] INFO root fetch - processPackages [bio-attention]: Remove: archive file [/home/abi/fetcher/tmp/bio-attention-0.0.7.tar.gz]
+[2023-06-30 10:12:07] INFO root fetch - processPackages [bio-attention]: Remove: archive file [/home/abi/fetcher/tmp/bio-attention-0.0.8.tar.gz]
+[2023-06-30 10:12:07] INFO root fetch - main [MainThread]: End processing [bio-attention]: success
+[2023-06-30 10:12:07] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-06-30 10:12:07] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.1.dev597.tar.gz tmp/armonik-3.9.1.dev598.tar.gz --markdown 20230630/a/armonik/3.9.1.dev597-3.9.1.dev598/diff.md --exclude *.pyd
+[2023-06-30 10:12:07] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.1.dev577.tar.gz]
+[2023-06-30 10:12:07] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.1.dev597.tar.gz]
+[2023-06-30 10:12:07] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-06-30 10:12:07] INFO root fetch - processPackages [AFR]: Remove: archive file [/home/abi/fetcher/tmp/AFR-0.2.2.tar.gz]
+[2023-06-30 10:12:07] INFO root fetch - processPackages [AFR]: Remove: archive file [/home/abi/fetcher/tmp/AFR-0.2.7.tar.gz]
+[2023-06-30 10:12:07] INFO root fetch - main [MainThread]: End processing [AFR]: success
+[2023-06-30 10:12:07] ERROR root fetch - processPackages [armonik]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/armonik-3.9.1.dev597.tar.gz: No such file or directory
+
+[2023-06-30 10:12:07] INFO root fetch - main [MainThread]: End processing [armonik] error
+[2023-06-30 10:12:08] INFO root fetch - processPackages [poe-shell]: Remove: archive file [/home/abi/fetcher/tmp/poe_shell-0.1.2.tar.gz]
+[2023-06-30 10:12:08] INFO root fetch - processPackages [poe-shell]: Remove: archive file [/home/abi/fetcher/tmp/poe_shell-0.1.3.tar.gz]
+[2023-06-30 10:12:08] INFO root fetch - main [MainThread]: End processing [poe-shell]: success
+[2023-06-30 10:12:08] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.7-py3-none-any.whl.zip]
+[2023-06-30 10:12:08] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.8-py3-none-any.whl.zip]
+[2023-06-30 10:12:08] INFO root fetch - main [MainThread]: End processing [yxspkg]: success
+[2023-06-30 10:12:10] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230629.tar.gz]
+[2023-06-30 10:12:10] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230630.tar.gz]
+[2023-06-30 10:12:10] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-30 10:12:21] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-06-30 10:12:21] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-06-30 10:12:21] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-30 10:12:21] INFO root fetch - main [MainThread]: Store serial: [18707361]
