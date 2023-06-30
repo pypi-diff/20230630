@@ -11083,3 +11083,48 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 05:46:32] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-06-30 05:46:32] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-30 05:46:32] INFO root fetch - main [MainThread]: Store serial: [18705699]
+[2023-06-30 05:51:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705699]
+[2023-06-30 05:51:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-30 05:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: teamanchorhello
+[2023-06-30 05:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trazhash
+[2023-06-30 05:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyfi
+[2023-06-30 05:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyroherd
+[2023-06-30 05:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nics
+[2023-06-30 05:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trazhash
+[2023-06-30 05:51:42] WARNING root fetch - processPackages [trazhash]: Skipping, unable to determine old version
+[2023-06-30 05:51:42] INFO root fetch - main [MainThread]: End processing [trazhash] error
+[2023-06-30 05:51:42] WARNING root fetch - processPackages [trazhash]: Skipping, unable to determine old version
+[2023-06-30 05:51:42] INFO root fetch - processPackages [hyfi]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-30 05:51:42] INFO root fetch - main [MainThread]: End processing [trazhash] error
+[2023-06-30 05:51:42] INFO root fetch - processPackages [teamanchorhello]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-30 05:51:42] INFO root fetch - processPackages [nics]: New version: [1.0.0rc9] Old Version: [1.0.0rc8]
+[2023-06-30 05:51:42] INFO root fetch - processPackages [pyroherd]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-30 05:51:42] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/d6/a1/3fd6f35197d99ebc197218d98cd3b64c7011e930acd68ebb35074b8dceda/hyfi-0.9.0.tar.gz
+[2023-06-30 05:51:42] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/2a/95/827e42bcc2c84911f217f4da34316ada0eadf83a9ea123ef6510c4272c41/nics-1.0.0rc8.tar.gz
+[2023-06-30 05:51:42] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/f7/c5/925c38a85d594f972d4b5545b3f36c4503b31e57333dcbd357a577707b7b/teamanchorhello-0.0.7.tar.gz
+[2023-06-30 05:51:42] INFO root fetch - processPackages [pyroherd]: Downloading https://files.pythonhosted.org/packages/15/09/69adc0e639b4e6f863891177bf1405f969d6d94ea0da0204864d42c67ff0/pyroherd-0.0.0.tar.gz
+[2023-06-30 05:51:42] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/18/3e/c9428066a9b1775cf3259ac1885d2a4b68522eeb8327de46159ad37427d7/nics-1.0.0rc9.tar.gz
+[2023-06-30 05:51:42] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ac/9f/80928f411f6c786a00e698a782b561d60d17fe09e71cf49c42581337defe/hyfi-0.9.1.tar.gz
+[2023-06-30 05:51:42] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-30 05:51:42] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-1.0.0rc8.tar.gz tmp/nics-1.0.0rc9.tar.gz --markdown 20230630/n/nics/1.0.0rc8-1.0.0rc9/diff.md --exclude *.pyd
+[2023-06-30 05:51:42] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/21/3f/b81709eefa0229862f082516934c9d26e3e81118031d936917e8cf70267a/teamanchorhello-0.0.8.tar.gz
+[2023-06-30 05:51:42] INFO root fetch - processPackages [pyroherd]: Downloading https://files.pythonhosted.org/packages/1b/07/d85cb35f45dab37d63656d898883a220ad59c86cf9c59a80969ebcb7e330/pyroherd-0.0.1.tar.gz
+[2023-06-30 05:51:42] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-30 05:51:42] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.9.0.tar.gz tmp/hyfi-0.9.1.tar.gz --markdown 20230630/h/hyfi/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-30 05:51:42] INFO root fetch - processPackages [teamanchorhello]: executing diffoscope
+[2023-06-30 05:51:42] INFO root fetch - processPackages [teamanchorhello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teamanchorhello-0.0.7.tar.gz tmp/teamanchorhello-0.0.8.tar.gz --markdown 20230630/t/teamanchorhello/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-30 05:51:42] INFO root fetch - processPackages [pyroherd]: executing diffoscope
+[2023-06-30 05:51:42] INFO root fetch - processPackages [pyroherd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroherd-0.0.0.tar.gz tmp/pyroherd-0.0.1.tar.gz --markdown 20230630/p/pyroherd/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-30 05:51:43] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc8.tar.gz]
+[2023-06-30 05:51:43] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc9.tar.gz]
+[2023-06-30 05:51:43] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-30 05:51:43] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.7.tar.gz]
+[2023-06-30 05:51:43] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.8.tar.gz]
+[2023-06-30 05:51:43] INFO root fetch - main [MainThread]: End processing [teamanchorhello]: success
+[2023-06-30 05:51:44] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.0.tar.gz]
+[2023-06-30 05:51:44] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.1.tar.gz]
+[2023-06-30 05:51:44] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-30 05:51:46] INFO root fetch - processPackages [pyroherd]: Remove: archive file [/home/abi/fetcher/tmp/pyroherd-0.0.0.tar.gz]
+[2023-06-30 05:51:46] INFO root fetch - processPackages [pyroherd]: Remove: archive file [/home/abi/fetcher/tmp/pyroherd-0.0.1.tar.gz]
+[2023-06-30 05:51:46] INFO root fetch - main [MainThread]: End processing [pyroherd]: success
+[2023-06-30 05:51:46] INFO root fetch - main [MainThread]: Store serial: [18705721]
