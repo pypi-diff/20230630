@@ -21290,3 +21290,138 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 14:11:43] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
 [2023-06-30 14:11:43] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-06-30 14:11:43] INFO root fetch - main [MainThread]: Store serial: [18710348]
+[2023-06-30 14:16:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18710348]
+[2023-06-30 14:16:52] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-30 14:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DetaMetrics-Password-Classified
+[2023-06-30 14:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datrics-dash-pivottable
+[2023-06-30 14:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdoxy
+[2023-06-30 14:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yaecs
+[2023-06-30 14:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fa-models
+[2023-06-30 14:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DetaMetrics
+[2023-06-30 14:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dataporter
+[2023-06-30 14:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aisquared
+[2023-06-30 14:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grai-source-dbt
+[2023-06-30 14:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qoqo-qryd
+[2023-06-30 14:16:52] INFO root fetch - processPackages [fa-models]: New version: [1.0.62] Old Version: [1.0.61]
+[2023-06-30 14:16:52] INFO root fetch - processPackages [mkdoxy]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-06-30 14:16:52] INFO root fetch - processPackages [grai-source-dbt]: New version: [0.3.0a1] Old Version: [0.2.9]
+[2023-06-30 14:16:52] INFO root fetch - processPackages [mkdoxy]: Downloading https://files.pythonhosted.org/packages/9c/05/0daca12c8e280a9698288e574be67c1c07a03c65881b2d3617f75bff91b4/mkdoxy-1.0.6.tar.gz
+[2023-06-30 14:16:52] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/77/cb/4bc3ed05f811d89af0dfd8a354931782123dc5ec10e6261f850375f69fe6/fa-models-1.0.61.tar.gz
+[2023-06-30 14:16:52] INFO root fetch - processPackages [grai-source-dbt]: Downloading https://files.pythonhosted.org/packages/c4/f8/820644854a7921b59b17e8d9c7825bfa2ff205e4c7ec66543fed1eecbba2/grai_source_dbt-0.2.9.tar.gz
+[2023-06-30 14:16:52] INFO root fetch - processPackages [datrics-dash-pivottable]: New version: [0.0.2.2] Old Version: [0.0.2.1]
+[2023-06-30 14:16:52] WARNING root fetch - processPackages [DetaMetrics]: Skipping, unable to determine old version
+[2023-06-30 14:16:52] INFO root fetch - processPackages [DetaMetrics]: Start processing: nopasaran
+[2023-06-30 14:16:52] INFO root fetch - processPackages [yaecs]: New version: [4.0.2] Old Version: [3.2.5]
+[2023-06-30 14:16:52] INFO root fetch - processPackages [dataporter]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-30 14:16:52] INFO root fetch - main [MainThread]: End processing [DetaMetrics] error
+[2023-06-30 14:16:52] ERROR root fetch - processPackages [DetaMetrics-Password-Classified]: Unable to get metadata: No such project 'DetaMetrics-Password-Classified'
+[2023-06-30 14:16:52] INFO root fetch - processPackages [DetaMetrics-Password-Classified]: Start processing: nonebot-plugin-eitherchoice
+[2023-06-30 14:16:52] INFO root fetch - main [MainThread]: End processing [DetaMetrics-Password-Classified] error
+[2023-06-30 14:16:52] INFO root fetch - processPackages [aisquared]: New version: [0.3.7.dev0] Old Version: [0.3.6.dev0]
+[2023-06-30 14:16:52] INFO root fetch - processPackages [qoqo-qryd]: New version: [0.9.0] Old Version: [0.8.7]
+[2023-06-30 14:16:52] INFO root fetch - processPackages [nopasaran]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-30 14:16:52] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/6b/58/4845ab561f23746a41a87c7b941b798f933a7883786407eba461f52055ef/nopasaran-0.1.5.tar.gz
+[2023-06-30 14:16:52] INFO root fetch - processPackages [mkdoxy]: Downloading https://files.pythonhosted.org/packages/f7/86/3f46669e6a09a47565afeac4f626e34ee12e116ce2ccb2ad9bb0de9343a7/mkdoxy-1.1.0.tar.gz
+[2023-06-30 14:16:52] INFO root fetch - processPackages [nonebot-plugin-eitherchoice]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-30 14:16:53] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/56/a7/4aadd9194452e33a9a5c76e89092b977a0d3b3c998076a7e28bba42a7dd5/fa-models-1.0.62.tar.gz
+[2023-06-30 14:16:53] INFO root fetch - processPackages [grai-source-dbt]: Downloading https://files.pythonhosted.org/packages/3a/14/298484b16865ff5c0a683221360d0c2be450a13fce37011b73c09a34b081/grai_source_dbt-0.3.0a1.tar.gz
+[2023-06-30 14:16:53] INFO root fetch - processPackages [dataporter]: Downloading https://files.pythonhosted.org/packages/f2/44/c52bb2a1e7e174ca246ba4e765d64098ca26d63f3d7fa0228a1a8971ead3/dataporter-0.1.3.tar.gz
+[2023-06-30 14:16:53] INFO root fetch - processPackages [datrics-dash-pivottable]: Downloading https://files.pythonhosted.org/packages/40/a5/4767759bf3370f73a7710ebe68d28f606c31a8efb823fb1e2cb34db5a898/datrics_dash_pivottable-0.0.2.1.tar.gz
+[2023-06-30 14:16:53] INFO root fetch - processPackages [yaecs]: Downloading https://files.pythonhosted.org/packages/96/be/5c5c9d36f46cdc37155e155248d0367ee351e9eb5deb2d3b616118c998c7/yaecs-3.2.5.tar.gz
+[2023-06-30 14:16:53] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-06-30 14:16:53] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.61.tar.gz tmp/fa-models-1.0.62.tar.gz --markdown 20230630/f/fa-models/1.0.61-1.0.62/diff.md --exclude *.pyd
+[2023-06-30 14:16:53] INFO root fetch - processPackages [mkdoxy]: executing diffoscope
+[2023-06-30 14:16:53] INFO root fetch - processPackages [mkdoxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdoxy-1.0.6.tar.gz tmp/mkdoxy-1.1.0.tar.gz --markdown 20230630/m/mkdoxy/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-06-30 14:16:53] INFO root fetch - processPackages [qoqo-qryd]: Downloading https://files.pythonhosted.org/packages/ce/9a/f1ac3d32a0777e54058bb9448745c0614de30e142bfbeb40fc6fb76622cf/qoqo_qryd-0.8.7.tar.gz
+[2023-06-30 14:16:53] INFO root fetch - processPackages [grai-source-dbt]: executing diffoscope
+[2023-06-30 14:16:53] INFO root fetch - processPackages [grai-source-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_dbt-0.2.9.tar.gz tmp/grai_source_dbt-0.3.0a1.tar.gz --markdown 20230630/g/grai-source-dbt/0.2.9-0.3.0a1/diff.md --exclude *.pyd
+[2023-06-30 14:16:53] INFO root fetch - processPackages [aisquared]: Downloading https://files.pythonhosted.org/packages/98/26/b5d04a47b933f416404f47caad676eb2b2a7b3c5af2e3f10bdf5d8cf73c7/aisquared-0.3.6.dev0.tar.gz
+[2023-06-30 14:16:53] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/a7/f5/10677997f45940134280455b1b1b4507430c6fd8df8d719d33026f13beed/nopasaran-0.1.6.tar.gz
+[2023-06-30 14:16:53] INFO root fetch - processPackages [nonebot-plugin-eitherchoice]: Downloading https://files.pythonhosted.org/packages/ed/22/248be7dd113bf4924575fbfc9e9fba2f7784ddfb68d94cc573e7b422fbdb/nonebot_plugin_eitherchoice-0.1.1.tar.gz
+[2023-06-30 14:16:53] INFO root fetch - processPackages [nopasaran]: executing diffoscope
+[2023-06-30 14:16:53] INFO root fetch - processPackages [nopasaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopasaran-0.1.5.tar.gz tmp/nopasaran-0.1.6.tar.gz --markdown 20230630/n/nopasaran/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-30 14:16:53] INFO root fetch - processPackages [datrics-dash-pivottable]: Downloading https://files.pythonhosted.org/packages/c9/1e/16dec821f1017b7279c046f53081e2b07afdddca71c2f13df3fbfcd2ff4b/datrics_dash_pivottable-0.0.2.2.tar.gz
+[2023-06-30 14:16:53] INFO root fetch - processPackages [qoqo-qryd]: Downloading https://files.pythonhosted.org/packages/ca/2b/420d0f35aa32c463bc974eeb01922a2867936f072a8563a2eb31ef0fb5b4/qoqo_qryd-0.9.0.tar.gz
+[2023-06-30 14:16:53] INFO root fetch - processPackages [aisquared]: Downloading https://files.pythonhosted.org/packages/41/30/ad24d094006bf8b9802db0b355accf65e57e38aef3ea18c5433daa5c04ea/aisquared-0.3.7.dev0.tar.gz
+[2023-06-30 14:16:53] INFO root fetch - processPackages [dataporter]: Downloading https://files.pythonhosted.org/packages/b4/35/b0bb203993b792c96c11b0b29bce8d3910413804281e1b027b393cf53383/dataporter-0.1.4.tar.gz
+[2023-06-30 14:16:53] INFO root fetch - processPackages [yaecs]: Downloading https://files.pythonhosted.org/packages/27/97/8bf4638725a7c18ef57e48a153ec1e0d7bdb819f8341f692bf63a7c463ea/yaecs-4.0.2.tar.gz
+[2023-06-30 14:16:53] INFO root fetch - processPackages [nonebot-plugin-eitherchoice]: Downloading https://files.pythonhosted.org/packages/f4/ec/26857df0a27401852ef962f806241b4f6bd4a2402404d3ead279c8758297/nonebot_plugin_eitherchoice-0.1.2.tar.gz
+[2023-06-30 14:16:53] INFO root fetch - processPackages [aisquared]: executing diffoscope
+[2023-06-30 14:16:53] INFO root fetch - processPackages [aisquared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aisquared-0.3.6.dev0.tar.gz tmp/aisquared-0.3.7.dev0.tar.gz --markdown 20230630/a/aisquared/0.3.6.dev0-0.3.7.dev0/diff.md --exclude *.pyd
+[2023-06-30 14:16:53] INFO root fetch - processPackages [datrics-dash-pivottable]: executing diffoscope
+[2023-06-30 14:16:53] INFO root fetch - processPackages [datrics-dash-pivottable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datrics_dash_pivottable-0.0.2.1.tar.gz tmp/datrics_dash_pivottable-0.0.2.2.tar.gz --markdown 20230630/d/datrics-dash-pivottable/0.0.2.1-0.0.2.2/diff.md --exclude *.pyd
+[2023-06-30 14:16:53] INFO root fetch - processPackages [yaecs]: executing diffoscope
+[2023-06-30 14:16:53] INFO root fetch - processPackages [yaecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaecs-3.2.5.tar.gz tmp/yaecs-4.0.2.tar.gz --markdown 20230630/y/yaecs/3.2.5-4.0.2/diff.md --exclude *.pyd
+[2023-06-30 14:16:53] INFO root fetch - processPackages [qoqo-qryd]: executing diffoscope
+[2023-06-30 14:16:53] INFO root fetch - processPackages [qoqo-qryd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_qryd-0.8.7.tar.gz tmp/qoqo_qryd-0.9.0.tar.gz --markdown 20230630/q/qoqo-qryd/0.8.7-0.9.0/diff.md --exclude *.pyd
+[2023-06-30 14:16:53] INFO root fetch - processPackages [dataporter]: executing diffoscope
+[2023-06-30 14:16:53] INFO root fetch - processPackages [dataporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataporter-0.1.3.tar.gz tmp/dataporter-0.1.4.tar.gz --markdown 20230630/d/dataporter/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-30 14:16:53] INFO root fetch - processPackages [nonebot-plugin-eitherchoice]: executing diffoscope
+[2023-06-30 14:16:53] INFO root fetch - processPackages [nonebot-plugin-eitherchoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_eitherchoice-0.1.1.tar.gz tmp/nonebot_plugin_eitherchoice-0.1.2.tar.gz --markdown 20230630/n/nonebot-plugin-eitherchoice/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-30 14:16:54] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.61.tar.gz]
+[2023-06-30 14:16:54] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.62.tar.gz]
+[2023-06-30 14:16:54] INFO root fetch - processPackages [fa-models]: Start processing: chatllm
+[2023-06-30 14:16:54] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-06-30 14:16:54] INFO root fetch - processPackages [chatllm]: New version: [2023.6.30.20.15.36] Old Version: [2023.6.30.13.19.48]
+[2023-06-30 14:16:54] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/7f/15/85537db0d39622fa3491e1f32320be5eeb4f5c62bf3465b19a62e0522b65/chatllm-2023.6.30.13.19.48.tar.gz
+[2023-06-30 14:16:55] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.1.5.tar.gz]
+[2023-06-30 14:16:55] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.1.6.tar.gz]
+[2023-06-30 14:16:55] INFO root fetch - processPackages [nopasaran]: Start processing: assisted-service-client
+[2023-06-30 14:16:55] INFO root fetch - main [MainThread]: End processing [nopasaran]: success
+[2023-06-30 14:16:55] INFO root fetch - processPackages [mkdoxy]: Remove: archive file [/home/abi/fetcher/tmp/mkdoxy-1.0.6.tar.gz]
+[2023-06-30 14:16:55] INFO root fetch - processPackages [mkdoxy]: Remove: archive file [/home/abi/fetcher/tmp/mkdoxy-1.1.0.tar.gz]
+[2023-06-30 14:16:55] INFO root fetch - processPackages [mkdoxy]: Start processing: trackteroid
+[2023-06-30 14:16:55] INFO root fetch - main [MainThread]: End processing [mkdoxy]: success
+[2023-06-30 14:16:55] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c9/45/caab28091e8c94906c10a641750ec744bf997f5d5dd37a0741d8dc55a445/chatllm-2023.6.30.20.15.36.tar.gz
+[2023-06-30 14:16:55] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-30 14:16:55] INFO root fetch - processPackages [dataporter]: Remove: archive file [/home/abi/fetcher/tmp/dataporter-0.1.3.tar.gz]
+[2023-06-30 14:16:55] INFO root fetch - processPackages [dataporter]: Remove: archive file [/home/abi/fetcher/tmp/dataporter-0.1.4.tar.gz]
+[2023-06-30 14:16:55] INFO root fetch - processPackages [dataporter]: Start processing: spdx-tools
+[2023-06-30 14:16:55] INFO root fetch - main [MainThread]: End processing [dataporter]: success
+[2023-06-30 14:16:55] INFO root fetch - processPackages [trackteroid]: New version: [0.1.0rc4] Old Version: [0.1.0rc3]
+[2023-06-30 14:16:55] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-30 14:16:55] INFO root fetch - processPackages [spdx-tools]: New version: [0.8.0rc1] Old Version: [0.8.0a3]
+[2023-06-30 14:16:55] INFO root fetch - processPackages [nonebot-plugin-eitherchoice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_eitherchoice-0.1.1.tar.gz]
+[2023-06-30 14:16:55] INFO root fetch - processPackages [nonebot-plugin-eitherchoice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_eitherchoice-0.1.2.tar.gz]
+[2023-06-30 14:16:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-eitherchoice]: success
+[2023-06-30 14:16:55] INFO root fetch - processPackages [trackteroid]: Downloading https://files.pythonhosted.org/packages/f7/63/ff0219583b7ba056e4c4bb154a732c3c7e9b26bdbff3efc173be6b27cc37/trackteroid-0.1.0rc3.tar.gz
+[2023-06-30 14:16:55] INFO root fetch - processPackages [aisquared]: Remove: archive file [/home/abi/fetcher/tmp/aisquared-0.3.6.dev0.tar.gz]
+[2023-06-30 14:16:55] INFO root fetch - processPackages [aisquared]: Remove: archive file [/home/abi/fetcher/tmp/aisquared-0.3.7.dev0.tar.gz]
+[2023-06-30 14:16:55] INFO root fetch - main [MainThread]: End processing [aisquared]: success
+[2023-06-30 14:16:55] INFO root fetch - processPackages [spdx-tools]: Downloading https://files.pythonhosted.org/packages/8c/2f/a73ea19b76e3d288b3727f9c06a3ae124d85164bf6eba057c25311c33d55/spdx-tools-0.8.0a3.tar.gz
+[2023-06-30 14:16:55] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-30 14:16:55] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-30 14:16:55] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230630/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-30 14:16:55] INFO root fetch - processPackages [trackteroid]: Downloading https://files.pythonhosted.org/packages/fe/97/9cfb8cef643f224f77665ac5e2ce1056d74712d762f3eeba0e1dc7f2e440/trackteroid-0.1.0rc4.tar.gz
+[2023-06-30 14:16:55] INFO root fetch - processPackages [spdx-tools]: Downloading https://files.pythonhosted.org/packages/d5/c7/31b66008c4710cd364206281b8a533110ff3323aabaed828bdf854031df8/spdx-tools-0.8.0rc1.tar.gz
+[2023-06-30 14:16:56] INFO root fetch - processPackages [trackteroid]: executing diffoscope
+[2023-06-30 14:16:56] INFO root fetch - processPackages [trackteroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trackteroid-0.1.0rc3.tar.gz tmp/trackteroid-0.1.0rc4.tar.gz --markdown 20230630/t/trackteroid/0.1.0rc3-0.1.0rc4/diff.md --exclude *.pyd
+[2023-06-30 14:16:56] INFO root fetch - processPackages [yaecs]: Remove: archive file [/home/abi/fetcher/tmp/yaecs-3.2.5.tar.gz]
+[2023-06-30 14:16:56] INFO root fetch - processPackages [yaecs]: Remove: archive file [/home/abi/fetcher/tmp/yaecs-4.0.2.tar.gz]
+[2023-06-30 14:16:56] INFO root fetch - main [MainThread]: End processing [yaecs]: success
+[2023-06-30 14:16:56] INFO root fetch - processPackages [spdx-tools]: executing diffoscope
+[2023-06-30 14:16:56] INFO root fetch - processPackages [spdx-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdx-tools-0.8.0a3.tar.gz tmp/spdx-tools-0.8.0rc1.tar.gz --markdown 20230630/s/spdx-tools/0.8.0a3-0.8.0rc1/diff.md --exclude *.pyd
+[2023-06-30 14:16:56] INFO root fetch - processPackages [grai-source-dbt]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_dbt-0.2.9.tar.gz]
+[2023-06-30 14:16:56] INFO root fetch - processPackages [grai-source-dbt]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_dbt-0.3.0a1.tar.gz]
+[2023-06-30 14:16:56] INFO root fetch - main [MainThread]: End processing [grai-source-dbt]: success
+[2023-06-30 14:16:57] INFO root fetch - processPackages [trackteroid]: Remove: archive file [/home/abi/fetcher/tmp/trackteroid-0.1.0rc3.tar.gz]
+[2023-06-30 14:16:57] INFO root fetch - processPackages [trackteroid]: Remove: archive file [/home/abi/fetcher/tmp/trackteroid-0.1.0rc4.tar.gz]
+[2023-06-30 14:16:57] INFO root fetch - main [MainThread]: End processing [trackteroid]: success
+[2023-06-30 14:16:57] INFO root fetch - processPackages [qoqo-qryd]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qryd-0.8.7.tar.gz]
+[2023-06-30 14:16:57] INFO root fetch - processPackages [qoqo-qryd]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qryd-0.9.0.tar.gz]
+[2023-06-30 14:16:57] INFO root fetch - main [MainThread]: End processing [qoqo-qryd]: success
+[2023-06-30 14:16:57] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2023-06-30 14:16:57] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2023.6.30.13.19.48.tar.gz tmp/chatllm-2023.6.30.20.15.36.tar.gz --markdown 20230630/c/chatllm/2023.6.30.13.19.48-2023.6.30.20.15.36/diff.md --exclude *.pyd
+[2023-06-30 14:16:58] INFO root fetch - processPackages [datrics-dash-pivottable]: Remove: archive file [/home/abi/fetcher/tmp/datrics_dash_pivottable-0.0.2.1.tar.gz]
+[2023-06-30 14:16:58] INFO root fetch - processPackages [datrics-dash-pivottable]: Remove: archive file [/home/abi/fetcher/tmp/datrics_dash_pivottable-0.0.2.2.tar.gz]
+[2023-06-30 14:16:58] INFO root fetch - main [MainThread]: End processing [datrics-dash-pivottable]: success
+[2023-06-30 14:16:59] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-30 14:16:59] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-30 14:16:59] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-30 14:17:00] INFO root fetch - processPackages [spdx-tools]: Remove: archive file [/home/abi/fetcher/tmp/spdx-tools-0.8.0a3.tar.gz]
+[2023-06-30 14:17:00] INFO root fetch - processPackages [spdx-tools]: Remove: archive file [/home/abi/fetcher/tmp/spdx-tools-0.8.0rc1.tar.gz]
+[2023-06-30 14:17:00] INFO root fetch - main [MainThread]: End processing [spdx-tools]: success
+[2023-06-30 14:17:00] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2023.6.30.13.19.48.tar.gz]
+[2023-06-30 14:17:00] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2023.6.30.20.15.36.tar.gz]
+[2023-06-30 14:17:00] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2023-06-30 14:17:00] INFO root fetch - main [MainThread]: Store serial: [18710426]
