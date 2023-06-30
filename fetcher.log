@@ -18139,3 +18139,88 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 12:10:51] INFO root fetch - processPackages [substrafl]: Remove: archive file [/home/abi/fetcher/tmp/substrafl-0.38.0rc1.tar.gz]
 [2023-06-30 12:10:51] INFO root fetch - main [MainThread]: End processing [substrafl]: success
 [2023-06-30 12:10:51] INFO root fetch - main [MainThread]: Store serial: [18708618]
+[2023-06-30 12:15:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18708618]
+[2023-06-30 12:16:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-30 12:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zenroom
+[2023-06-30 12:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: radomermbg
+[2023-06-30 12:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: premise
+[2023-06-30 12:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dm-reverb-nightly
+[2023-06-30 12:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: revChatGPT
+[2023-06-30 12:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crunch-cli
+[2023-06-30 12:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-platform-beam
+[2023-06-30 12:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: 77mr
+[2023-06-30 12:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trtpg
+[2023-06-30 12:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ailingbot
+[2023-06-30 12:16:00] INFO root fetch - processPackages [revChatGPT]: New version: [6.6.1] Old Version: [6.6.0]
+[2023-06-30 12:16:00] WARNING root fetch - processPackages [radomermbg]: Skipping, unable to determine old version
+[2023-06-30 12:16:00] INFO root fetch - processPackages [radomermbg]: Start processing: jupyterlite-sphinx
+[2023-06-30 12:16:00] WARNING root fetch - processPackages [77mr]: Skipping, unable to determine old version
+[2023-06-30 12:16:00] INFO root fetch - processPackages [trtpg]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-06-30 12:16:00] INFO root fetch - main [MainThread]: End processing [radomermbg] error
+[2023-06-30 12:16:00] INFO root fetch - processPackages [77mr]: Start processing: fipper
+[2023-06-30 12:16:00] INFO root fetch - main [MainThread]: End processing [77mr] error
+[2023-06-30 12:16:00] INFO root fetch - processPackages [premise]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-06-30 12:16:00] INFO root fetch - processPackages [zenroom]: New version: [3.9.1] Old Version: [3.8.0]
+[2023-06-30 12:16:00] INFO root fetch - processPackages [trtpg]: Downloading https://files.pythonhosted.org/packages/f4/ae/6e62c341f0b20ad515e50bca19272f53e67d4f0774dd4cd1a84a9379fbd7/trtpg-1.0.8-py3-none-any.whl
+[2023-06-30 12:16:00] INFO root fetch - processPackages [fipper]: New version: [0.0.4.dev2] Old Version: [0.0.4.dev1]
+[2023-06-30 12:16:00] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/d1/c9/49ea81e2ddb13c4009296204a74e2b74b87af48f4f450cadd48dd85985fb/revChatGPT-6.6.0.tar.gz
+[2023-06-30 12:16:00] INFO root fetch - processPackages [ailingbot]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-30 12:16:00] WARNING root fetch - processPackages [data-platform-beam]: Skipping, unable to determine old version
+[2023-06-30 12:16:00] INFO root fetch - main [MainThread]: End processing [data-platform-beam] error
+[2023-06-30 12:16:00] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-30 12:16:00] INFO root fetch - processPackages [crunch-cli]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-30 12:16:00] INFO root fetch - processPackages [jupyterlite-sphinx]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-30 12:16:00] INFO root fetch - processPackages [fipper]: Downloading https://files.pythonhosted.org/packages/97/5f/e0c81a521da20be870646c6da4ac1ce279911d452e22ab7e7bc23036aa90/fipper-0.0.4.dev1.tar.gz
+[2023-06-30 12:16:00] INFO root fetch - processPackages [zenroom]: Downloading https://files.pythonhosted.org/packages/f3/9a/338abeb4a3c4ac5e251366dea7d38d8c492fee014147c2239dc1fe4f21fa/zenroom-3.8.0.tar.gz
+[2023-06-30 12:16:00] INFO root fetch - processPackages [premise]: Downloading https://files.pythonhosted.org/packages/04/85/cbc936c9df8e2c88ea5b839b74f9ed2c7aae49abc651ae3f769a549fd590/premise-1.5.5.tar.gz
+[2023-06-30 12:16:00] WARNING root fetch - processPackages [zenroom]: Skipping package: exceeds size limit 25654205>=10485760
+[2023-06-30 12:16:00] INFO root fetch - main [MainThread]: End processing [zenroom] error
+[2023-06-30 12:16:00] INFO root fetch - processPackages [trtpg]: Downloading https://files.pythonhosted.org/packages/0b/df/542c8edbc91d0cb0f9fc14bd129f962772cc88ba4ee428dc9f51de0ed70d/trtpg-1.1.0-py3-none-any.whl
+[2023-06-30 12:16:01] WARNING root fetch - processPackages [premise]: Skipping package: exceeds size limit 91418283>=10485760
+[2023-06-30 12:16:01] INFO root fetch - main [MainThread]: End processing [premise] error
+[2023-06-30 12:16:01] INFO root fetch - processPackages [crunch-cli]: Downloading https://files.pythonhosted.org/packages/f3/a7/b4508b046eeeee0dced6255da14681b293e6d9d007038c36fd799180fd5d/crunch-cli-1.5.0.tar.gz
+[2023-06-30 12:16:01] INFO root fetch - processPackages [ailingbot]: Downloading https://files.pythonhosted.org/packages/70/09/4158a60620bb5c45c31773fc1c3842e9e6e9d5b206810f161b6b6fa758bf/ailingbot-0.0.5.tar.gz
+[2023-06-30 12:16:01] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-30 12:16:01] INFO root fetch - processPackages [trtpg]: executing diffoscope
+[2023-06-30 12:16:01] INFO root fetch - processPackages [trtpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trtpg-1.0.8-py3-none-any.whl.zip tmp/trtpg-1.1.0-py3-none-any.whl.zip --markdown 20230630/t/trtpg/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-06-30 12:16:01] INFO root fetch - processPackages [jupyterlite-sphinx]: Downloading https://files.pythonhosted.org/packages/44/9b/a621778c619982f83c7bb9b51a6bc39d9b7257dfe85e58a5877f40fe80be/jupyterlite_sphinx-0.8.0.tar.gz
+[2023-06-30 12:16:01] INFO root fetch - processPackages [fipper]: Downloading https://files.pythonhosted.org/packages/8c/5a/7071cbffcc53d2951329c05dcd66876c9b3f758928b6ee3940d5b837da83/fipper-0.0.4.dev2.tar.gz
+[2023-06-30 12:16:01] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/47/b2/673ed1c1e9fe74cbc75dca50082ad2685a2388cb5082e0e48a3750764c53/revChatGPT-6.6.1.tar.gz
+[2023-06-30 12:16:01] INFO root fetch - processPackages [fipper]: executing diffoscope
+[2023-06-30 12:16:01] INFO root fetch - processPackages [fipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fipper-0.0.4.dev1.tar.gz tmp/fipper-0.0.4.dev2.tar.gz --markdown 20230630/f/fipper/0.0.4.dev1-0.0.4.dev2/diff.md --exclude *.pyd
+[2023-06-30 12:16:01] INFO root fetch - processPackages [crunch-cli]: Downloading https://files.pythonhosted.org/packages/48/56/f6bb31e6e1daa5e477e9ab0ce18c58e446a05ae029131ff706bbd2f0c4f6/crunch-cli-1.5.1.tar.gz
+[2023-06-30 12:16:01] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-30 12:16:01] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.6.0.tar.gz tmp/revChatGPT-6.6.1.tar.gz --markdown 20230630/r/revChatGPT/6.6.0-6.6.1/diff.md --exclude *.pyd
+[2023-06-30 12:16:01] INFO root fetch - processPackages [ailingbot]: Downloading https://files.pythonhosted.org/packages/8a/ce/9b75f1c338c35ce90d3e62c8d444b755e957d4eb58250c701c67334b3c69/ailingbot-0.0.6.tar.gz
+[2023-06-30 12:16:01] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-06-30 12:16:01] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-1.5.0.tar.gz tmp/crunch-cli-1.5.1.tar.gz --markdown 20230630/c/crunch-cli/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-30 12:16:01] INFO root fetch - processPackages [jupyterlite-sphinx]: Downloading https://files.pythonhosted.org/packages/5e/b2/20161bc433244accb2f31731dda279f106c1656171aa3419f853eb4d89a7/jupyterlite_sphinx-0.9.0.tar.gz
+[2023-06-30 12:16:01] INFO root fetch - processPackages [ailingbot]: executing diffoscope
+[2023-06-30 12:16:01] INFO root fetch - processPackages [ailingbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailingbot-0.0.5.tar.gz tmp/ailingbot-0.0.6.tar.gz --markdown 20230630/a/ailingbot/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-30 12:16:01] INFO root fetch - processPackages [jupyterlite-sphinx]: executing diffoscope
+[2023-06-30 12:16:01] INFO root fetch - processPackages [jupyterlite-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlite_sphinx-0.8.0.tar.gz tmp/jupyterlite_sphinx-0.9.0.tar.gz --markdown 20230630/j/jupyterlite-sphinx/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-30 12:16:02] INFO root fetch - processPackages [trtpg]: Remove: archive file [/home/abi/fetcher/tmp/trtpg-1.0.8-py3-none-any.whl.zip]
+[2023-06-30 12:16:02] INFO root fetch - processPackages [trtpg]: Remove: archive file [/home/abi/fetcher/tmp/trtpg-1.1.0-py3-none-any.whl.zip]
+[2023-06-30 12:16:02] INFO root fetch - main [MainThread]: End processing [trtpg]: success
+[2023-06-30 12:16:02] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-30 12:16:02] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.6.0.tar.gz]
+[2023-06-30 12:16:02] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.6.1.tar.gz]
+[2023-06-30 12:16:02] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-30 12:16:02] INFO root fetch - processPackages [crunch-cli]: Remove: archive file [/home/abi/fetcher/tmp/crunch-cli-1.5.0.tar.gz]
+[2023-06-30 12:16:02] INFO root fetch - processPackages [crunch-cli]: Remove: archive file [/home/abi/fetcher/tmp/crunch-cli-1.5.1.tar.gz]
+[2023-06-30 12:16:02] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-06-30 12:16:02] INFO root fetch - processPackages [jupyterlite-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite_sphinx-0.8.0.tar.gz]
+[2023-06-30 12:16:02] INFO root fetch - processPackages [jupyterlite-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite_sphinx-0.9.0.tar.gz]
+[2023-06-30 12:16:02] INFO root fetch - main [MainThread]: End processing [jupyterlite-sphinx]: success
+[2023-06-30 12:16:02] INFO root fetch - processPackages [ailingbot]: Remove: archive file [/home/abi/fetcher/tmp/ailingbot-0.0.5.tar.gz]
+[2023-06-30 12:16:02] INFO root fetch - processPackages [ailingbot]: Remove: archive file [/home/abi/fetcher/tmp/ailingbot-0.0.6.tar.gz]
+[2023-06-30 12:16:02] INFO root fetch - main [MainThread]: End processing [ailingbot]: success
+[2023-06-30 12:16:04] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-30 12:16:04] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230630/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-30 12:16:05] INFO root fetch - processPackages [fipper]: Remove: archive file [/home/abi/fetcher/tmp/fipper-0.0.4.dev1.tar.gz]
+[2023-06-30 12:16:05] INFO root fetch - processPackages [fipper]: Remove: archive file [/home/abi/fetcher/tmp/fipper-0.0.4.dev2.tar.gz]
+[2023-06-30 12:16:05] INFO root fetch - main [MainThread]: End processing [fipper]: success
+[2023-06-30 12:16:56] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-30 12:16:56] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-30 12:16:56] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-30 12:16:57] INFO root fetch - main [MainThread]: Store serial: [18708709]
