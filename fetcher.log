@@ -14674,3 +14674,219 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 09:55:56] INFO root fetch - processPackages [scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/scikit-learn-1.3.0rc1.tar.gz]
 [2023-06-30 09:55:56] INFO root fetch - main [MainThread]: End processing [scikit-learn]: success
 [2023-06-30 09:55:56] INFO root fetch - main [MainThread]: Store serial: [18707202]
+[2023-06-30 10:01:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18707202]
+[2023-06-30 10:01:30] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-30 10:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vcc-lib
+[2023-06-30 10:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ns-asphalt9
+[2023-06-30 10:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edsteva
+[2023-06-30 10:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RoboCam
+[2023-06-30 10:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-dms-enterprise
+[2023-06-30 10:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: temStaPy
+[2023-06-30 10:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wafer
+[2023-06-30 10:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mentord
+[2023-06-30 10:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-sec-vault
+[2023-06-30 10:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Generation-Image-Gaston
+[2023-06-30 10:01:30] INFO root fetch - processPackages [vcc-lib]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-30 10:01:30] INFO root fetch - processPackages [py-sec-vault]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-30 10:01:30] INFO root fetch - processPackages [mentord]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-30 10:01:30] INFO root fetch - processPackages [edsteva]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-06-30 10:01:30] INFO root fetch - processPackages [temStaPy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-30 10:01:30] INFO root fetch - processPackages [RoboCam]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2023-06-30 10:01:30] INFO root fetch - processPackages [ns-asphalt9]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-30 10:01:30] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-30 10:01:30] INFO root fetch - processPackages [Generation-Image-Gaston]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-30 10:01:30] INFO root fetch - processPackages [wafer]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-30 10:01:30] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/83/8e/8b3582d74bdfc3375f91d68d0c02635ea9f032902d8a71109568533b6115/mentord-1.1.8.tar.gz
+[2023-06-30 10:01:30] INFO root fetch - processPackages [wafer]: Downloading https://files.pythonhosted.org/packages/31/a3/cd2e9a94b078c65e4e1652da2f723856f476ddab2edc963f7c42533158da/wafer-0.9.3.tar.gz
+[2023-06-30 10:01:30] ERROR root fetch - processPackages [ns-asphalt9]: Unable to fetch info: No such project/version 'ns-asphalt9' 0.0.3
+[2023-06-30 10:01:30] INFO root fetch - processPackages [ns-asphalt9]: Start processing: searchlogit
+[2023-06-30 10:01:30] INFO root fetch - main [MainThread]: End processing [ns-asphalt9] error
+[2023-06-30 10:01:31] INFO root fetch - processPackages [vcc-lib]: Downloading https://files.pythonhosted.org/packages/af/95/938f8e1e6151844a29246c6d9b3f8baa7209906cbc7cede46ae14efabb72/vcc_lib-0.2.0.tar.gz
+[2023-06-30 10:01:31] INFO root fetch - processPackages [py-sec-vault]: Downloading https://files.pythonhosted.org/packages/d1/50/a3657285591faef0edab308ca6990cf89bc8deaec5a62c006f04e52b7664/py_sec_vault-0.1.2.tar.gz
+[2023-06-30 10:01:31] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Downloading https://files.pythonhosted.org/packages/e9/0e/cc33345f33fd2060514b36001a119546260044795ae49fdf813af3054969/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz
+[2023-06-30 10:01:31] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-30 10:01:31] INFO root fetch - processPackages [Generation-Image-Gaston]: Downloading https://files.pythonhosted.org/packages/d3/63/7b4dcc3561785b994dfff4dec5e682e1884bdf2870c895c54213232a4c02/Generation_Image_Gaston-0.1.5.tar.gz
+[2023-06-30 10:01:31] INFO root fetch - processPackages [temStaPy]: Downloading https://files.pythonhosted.org/packages/fc/18/d288512232c1fcc29195319742a23711fe7b89be4d5f22a8950d5dbe7961/temStaPy-0.0.2-py3-none-any.whl
+[2023-06-30 10:01:31] INFO root fetch - processPackages [edsteva]: Downloading https://files.pythonhosted.org/packages/51/57/f63b8b99cbbb5ba98cc32d97e78d949807c56b66a028138f107b1119fecb/edsteva-0.1.4.tar.gz
+[2023-06-30 10:01:31] INFO root fetch - processPackages [RoboCam]: Downloading https://files.pythonhosted.org/packages/96/2f/3f30b893f6deb99edff4e71aa8492a5f129f3779e68c0f214f0a08c60013/RoboCam-1.0.0.8-py3-none-any.whl
+[2023-06-30 10:01:31] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/8a/8b/0fa1999ba5c28980af324dfae6fba5b5190d1a4db339cb57d36a64271596/mentord-1.1.9.tar.gz
+[2023-06-30 10:01:31] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2023-06-30 10:01:31] INFO root fetch - processPackages [wafer]: Downloading https://files.pythonhosted.org/packages/7a/85/f281d55b0ed1de9fe22b6286c952efa997a6ac3f8d225d2aed06f86c1711/wafer-0.9.4.tar.gz
+[2023-06-30 10:01:31] INFO root fetch - processPackages [wafer]: executing diffoscope
+[2023-06-30 10:01:31] INFO root fetch - processPackages [wafer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafer-0.9.3.tar.gz tmp/wafer-0.9.4.tar.gz --markdown 20230630/w/wafer/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-30 10:01:31] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2023-06-30 10:01:31] INFO root fetch - processPackages [py-sec-vault]: Downloading https://files.pythonhosted.org/packages/dc/66/f6ddc34b8fe592fc84f18b484c22c0e4863323dbbee7e11704d37b679da4/py_sec_vault-0.1.3.tar.gz
+[2023-06-30 10:01:31] INFO root fetch - processPackages [mentord]: executing diffoscope
+[2023-06-30 10:01:31] INFO root fetch - processPackages [mentord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentord-1.1.8.tar.gz tmp/mentord-1.1.9.tar.gz --markdown 20230630/m/mentord/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-30 10:01:31] INFO root fetch - processPackages [temStaPy]: Downloading https://files.pythonhosted.org/packages/4e/14/cf012e532eef85d17873405c9a15e45e9d0b65215e176e7cbfd70afef82f/temStaPy-0.0.3-py3-none-any.whl
+[2023-06-30 10:01:31] INFO root fetch - processPackages [vcc-lib]: Downloading https://files.pythonhosted.org/packages/5d/e3/0cff512c6b472bdc9a1fcf97c7f0e81097e0e78dacc666b4624bd52d8d36/vcc_lib-0.3.0-py3-none-any.whl
+[2023-06-30 10:01:31] INFO root fetch - processPackages [Generation-Image-Gaston]: Downloading https://files.pythonhosted.org/packages/78/b8/9e8d8dd04e72fcc6d9464ec41df1fd970a073e578f12ce6b8b9e8af187a7/Generation_Image_Gaston-0.1.6.tar.gz
+[2023-06-30 10:01:31] INFO root fetch - processPackages [edsteva]: Downloading https://files.pythonhosted.org/packages/64/12/9919d5aa744950e8ad9f9a49973d7866e5e3de6b55ddf9db1a213c0d30e3/edsteva-0.2.0.tar.gz
+[2023-06-30 10:01:31] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Downloading https://files.pythonhosted.org/packages/c8/92/69c136282903fc0309554d335276dc109c35317870d7a85e4e7ad0799ae9/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz
+[2023-06-30 10:01:31] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-06-30 10:01:31] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230630/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-30 10:01:31] WARNING root fetch - processPackages [RoboCam]: Skipping package: exceeds size limit 12849904>=10485760
+[2023-06-30 10:01:31] INFO root fetch - processPackages [RoboCam]: Start processing: nonebot-plugin-poke
+[2023-06-30 10:01:31] INFO root fetch - main [MainThread]: End processing [RoboCam] error
+[2023-06-30 10:01:31] INFO root fetch - processPackages [temStaPy]: executing diffoscope
+[2023-06-30 10:01:31] INFO root fetch - processPackages [temStaPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temStaPy-0.0.2-py3-none-any.whl.zip tmp/temStaPy-0.0.3-py3-none-any.whl.zip --markdown 20230630/t/temStaPy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-30 10:01:31] INFO root fetch - processPackages [vcc-lib]: executing diffoscope
+[2023-06-30 10:01:31] INFO root fetch - processPackages [nonebot-plugin-poke]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-30 10:01:31] INFO root fetch - processPackages [vcc-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcc_lib-0.2.0.tar.gz tmp/vcc_lib-0.3.0-py3-none-any.whl.zip --markdown 20230630/v/vcc-lib/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-30 10:01:31] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: executing diffoscope
+[2023-06-30 10:01:31] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz tmp/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz --markdown 20230630/a/aliyun-python-sdk-dms-enterprise/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-30 10:01:31] INFO root fetch - processPackages [edsteva]: executing diffoscope
+[2023-06-30 10:01:31] INFO root fetch - processPackages [edsteva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edsteva-0.1.4.tar.gz tmp/edsteva-0.2.0.tar.gz --markdown 20230630/e/edsteva/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-06-30 10:01:31] INFO root fetch - processPackages [nonebot-plugin-poke]: Downloading https://files.pythonhosted.org/packages/19/6d/385fb4eea5bb41cad83e9940dbd3bfcd7cb42acf2dbc651b5419d396bca8/nonebot_plugin_poke-0.0.2.tar.gz
+[2023-06-30 10:01:31] INFO root fetch - processPackages [Generation-Image-Gaston]: executing diffoscope
+[2023-06-30 10:01:31] INFO root fetch - processPackages [Generation-Image-Gaston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Generation_Image_Gaston-0.1.5.tar.gz tmp/Generation_Image_Gaston-0.1.6.tar.gz --markdown 20230630/G/Generation-Image-Gaston/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-30 10:01:31] INFO root fetch - processPackages [py-sec-vault]: executing diffoscope
+[2023-06-30 10:01:31] INFO root fetch - processPackages [py-sec-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_sec_vault-0.1.2.tar.gz tmp/py_sec_vault-0.1.3.tar.gz --markdown 20230630/p/py-sec-vault/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-30 10:01:31] INFO root fetch - processPackages [nonebot-plugin-poke]: Downloading https://files.pythonhosted.org/packages/20/25/b382957a755305ce9833a6741e13991f8ff0d8936013e32792a3955ec8c8/nonebot_plugin_poke-0.0.3.tar.gz
+[2023-06-30 10:01:32] INFO root fetch - processPackages [nonebot-plugin-poke]: executing diffoscope
+[2023-06-30 10:01:32] INFO root fetch - processPackages [nonebot-plugin-poke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_poke-0.0.2.tar.gz tmp/nonebot_plugin_poke-0.0.3.tar.gz --markdown 20230630/n/nonebot-plugin-poke/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-30 10:01:32] INFO root fetch - processPackages [temStaPy]: Remove: archive file [/home/abi/fetcher/tmp/temStaPy-0.0.2-py3-none-any.whl.zip]
+[2023-06-30 10:01:32] INFO root fetch - processPackages [temStaPy]: Remove: archive file [/home/abi/fetcher/tmp/temStaPy-0.0.3-py3-none-any.whl.zip]
+[2023-06-30 10:01:32] INFO root fetch - processPackages [temStaPy]: Start processing: nucliadb
+[2023-06-30 10:01:32] INFO root fetch - main [MainThread]: End processing [temStaPy]: success
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-06-30 10:01:33] INFO root fetch - processPackages [vcc-lib]: Remove: archive file [/home/abi/fetcher/tmp/vcc_lib-0.2.0.tar.gz]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [vcc-lib]: Remove: archive file [/home/abi/fetcher/tmp/vcc_lib-0.3.0-py3-none-any.whl.zip]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [vcc-lib]: Start processing: nucliadb-client
+[2023-06-30 10:01:33] INFO root fetch - main [MainThread]: End processing [vcc-lib]: success
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.1.8.tar.gz]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.1.9.tar.gz]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [mentord]: Start processing: nucliadb
+[2023-06-30 10:01:33] INFO root fetch - main [MainThread]: End processing [mentord]: success
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230630/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230630/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-30 10:01:33] INFO root fetch - processPackages [Generation-Image-Gaston]: Remove: archive file [/home/abi/fetcher/tmp/Generation_Image_Gaston-0.1.5.tar.gz]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [Generation-Image-Gaston]: Remove: archive file [/home/abi/fetcher/tmp/Generation_Image_Gaston-0.1.6.tar.gz]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [Generation-Image-Gaston]: Start processing: nucliadb-dataset
+[2023-06-30 10:01:33] INFO root fetch - main [MainThread]: End processing [Generation-Image-Gaston]: success
+[2023-06-30 10:01:33] INFO root fetch - processPackages [py-sec-vault]: Remove: archive file [/home/abi/fetcher/tmp/py_sec_vault-0.1.2.tar.gz]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [py-sec-vault]: Remove: archive file [/home/abi/fetcher/tmp/py_sec_vault-0.1.3.tar.gz]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [py-sec-vault]: Start processing: nucliadb-client
+[2023-06-30 10:01:33] INFO root fetch - main [MainThread]: End processing [py-sec-vault]: success
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.8.tar.gz]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [searchlogit]: Start processing: nucliadb-models
+[2023-06-30 10:01:33] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230630/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230630/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nonebot-plugin-poke]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_poke-0.0.2.tar.gz]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nonebot-plugin-poke]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_poke-0.0.3.tar.gz]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nonebot-plugin-poke]: Start processing: chatglm-cli
+[2023-06-30 10:01:33] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-poke]: success
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-06-30 10:01:33] INFO root fetch - processPackages [chatglm-cli]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230630/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230630/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-30 10:01:33] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Start processing: nucliadb-dataset
+[2023-06-30 10:01:33] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dms-enterprise]: success
+[2023-06-30 10:01:33] INFO root fetch - processPackages [edsteva]: Remove: archive file [/home/abi/fetcher/tmp/edsteva-0.1.4.tar.gz]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [edsteva]: Remove: archive file [/home/abi/fetcher/tmp/edsteva-0.2.0.tar.gz]
+[2023-06-30 10:01:33] INFO root fetch - processPackages [edsteva]: Start processing: nucliadb-protos
+[2023-06-30 10:01:33] INFO root fetch - main [MainThread]: End processing [edsteva]: success
+[2023-06-30 10:01:33] INFO root fetch - processPackages [chatglm-cli]: Downloading https://files.pythonhosted.org/packages/52/82/71f7350effa4abc6ae7dd7cca00dc084dfc98040e9fbd3e66dbea6937d4c/chatglm-cli-0.0.1.tar.gz
+[2023-06-30 10:01:33] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-30 10:01:34] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-30 10:01:34] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-06-30 10:01:34] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-06-30 10:01:34] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230630/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-30 10:01:34] INFO root fetch - processPackages [chatglm-cli]: Downloading https://files.pythonhosted.org/packages/12/bc/e1dda289a3ff5a63004ee24db3fc6646c4ba3e9a3a055db6f2708604f0ca/chatglm-cli-0.1.1.tar.gz
+[2023-06-30 10:01:34] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-06-30 10:01:34] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-06-30 10:01:34] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230630/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-30 10:01:34] INFO root fetch - processPackages [chatglm-cli]: executing diffoscope
+[2023-06-30 10:01:34] INFO root fetch - processPackages [chatglm-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglm-cli-0.0.1.tar.gz tmp/chatglm-cli-0.1.1.tar.gz --markdown 20230630/c/chatglm-cli/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-models
+[2023-06-30 10:01:35] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230630/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-sdk
+[2023-06-30 10:01:35] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-protos
+[2023-06-30 10:01:35] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230630/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-utils
+[2023-06-30 10:01:35] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-models]: Start processing: nucliadb-sdk
+[2023-06-30 10:01:35] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230630/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-06-30 10:01:35] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-30 10:01:36] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-06-30 10:01:36] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230630/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-30 10:01:36] INFO root fetch - processPackages [chatglm-cli]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-cli-0.0.1.tar.gz]
+[2023-06-30 10:01:36] INFO root fetch - processPackages [chatglm-cli]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-cli-0.1.1.tar.gz]
+[2023-06-30 10:01:36] INFO root fetch - processPackages [chatglm-cli]: Start processing: nucliadb-utils
+[2023-06-30 10:01:36] INFO root fetch - main [MainThread]: End processing [chatglm-cli]: success
+[2023-06-30 10:01:36] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-30 10:01:36] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-06-30 10:01:36] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-06-30 10:01:36] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-06-30 10:01:36] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230630/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-30 10:01:36] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-06-30 10:01:36] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230630/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-30 10:01:36] ERROR root fetch - processPackages [nucliadb-models]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip: No such file or directory
+
+[2023-06-30 10:01:36] INFO root fetch - main [MainThread]: End processing [nucliadb-models] error
+[2023-06-30 10:01:36] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-30 10:01:36] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-30 10:01:36] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-06-30 10:01:36] ERROR root fetch - processPackages [nucliadb-protos]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip: No such file or directory
+
+[2023-06-30 10:01:36] INFO root fetch - main [MainThread]: End processing [nucliadb-protos] error
+[2023-06-30 10:01:36] INFO root fetch - processPackages [wafer]: Remove: archive file [/home/abi/fetcher/tmp/wafer-0.9.3.tar.gz]
+[2023-06-30 10:01:36] INFO root fetch - processPackages [wafer]: Remove: archive file [/home/abi/fetcher/tmp/wafer-0.9.4.tar.gz]
+[2023-06-30 10:01:36] INFO root fetch - main [MainThread]: End processing [wafer]: success
+[2023-06-30 10:01:37] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-30 10:01:37] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-30 10:01:37] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-06-30 10:01:37] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-06-30 10:01:37] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-30 10:01:37] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-30 10:01:37] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-06-30 10:01:37] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-06-30 10:01:37] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-30 10:01:37] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-30 10:01:37] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-06-30 10:01:38] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-06-30 10:01:38] INFO root fetch - main [MainThread]: Store serial: [18707280]
