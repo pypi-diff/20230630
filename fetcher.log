@@ -11885,3 +11885,42 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 06:57:33] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.9.tar.gz]
 [2023-06-30 06:57:33] INFO root fetch - main [MainThread]: End processing [agixt]: success
 [2023-06-30 06:57:33] INFO root fetch - main [MainThread]: Store serial: [18706024]
+[2023-06-30 07:02:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706024]
+[2023-06-30 07:02:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-30 07:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hydroloader
+[2023-06-30 07:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-api
+[2023-06-30 07:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numgrids
+[2023-06-30 07:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-multi-company
+[2023-06-30 07:02:42] INFO root fetch - processPackages [odoo14-addons-oca-multi-company]: New version: [14.0.20230629.0] Old Version: [14.0.20230215.0]
+[2023-06-30 07:02:42] INFO root fetch - processPackages [numgrids]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-30 07:02:42] INFO root fetch - processPackages [hydroloader]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-30 07:02:42] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-06-30 07:02:42] INFO root fetch - processPackages [numgrids]: Downloading https://files.pythonhosted.org/packages/97/5b/31b391f8b7cf1154bec00303aed727336be04b8fd6a6fa03bf93613dc19b/numgrids-0.0.1.tar.gz
+[2023-06-30 07:02:42] INFO root fetch - processPackages [hydroloader]: Downloading https://files.pythonhosted.org/packages/6b/d2/4d11a0221afb41217c3885dfc68e83bda1665f11cf072a4d9ae243efdd73/hydroloader-0.1.5.tar.gz
+[2023-06-30 07:02:42] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/a4/2e/3c2505b736f0001519b2af2f82bb0b59a92be1f52920841a70ed6130f95f/spaceone_api-1.9.7.dev3-py3-none-any.whl
+[2023-06-30 07:02:42] INFO root fetch - processPackages [odoo14-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/d2/30/28323575c9900cfc7bbae54367bfaa27f2ee18cc404abce9150388ae52fc/odoo14_addons_oca_multi_company-14.0.20230215.0-py3-none-any.whl
+[2023-06-30 07:02:43] INFO root fetch - processPackages [hydroloader]: Downloading https://files.pythonhosted.org/packages/40/ae/1c1046d544431ba20cda8e6e233b81284d7e716912ea460ebbc53a3b86bb/hydroloader-0.1.6.tar.gz
+[2023-06-30 07:02:43] INFO root fetch - processPackages [numgrids]: Downloading https://files.pythonhosted.org/packages/5b/e1/7cf34ce060d2fd29ff2bb75e8ec0fffb9cb28f4498498afd6b55f9bb0778/numgrids-0.1.0.tar.gz
+[2023-06-30 07:02:43] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/de/af/8e93fe948b2016f1ee538eb2313082d5abc623499eca64d48ae30013a5ad/spaceone_api-1.9.7rc1-py3-none-any.whl
+[2023-06-30 07:02:43] INFO root fetch - processPackages [odoo14-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/5e/1a/b3fce5ffb5d48228ae68179a8940d055483f7dbb105d42cf9120d9fae564/odoo14_addons_oca_multi_company-14.0.20230629.0-py3-none-any.whl
+[2023-06-30 07:02:43] INFO root fetch - processPackages [numgrids]: executing diffoscope
+[2023-06-30 07:02:43] INFO root fetch - processPackages [numgrids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numgrids-0.0.1.tar.gz tmp/numgrids-0.1.0.tar.gz --markdown 20230630/n/numgrids/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-30 07:02:43] INFO root fetch - processPackages [hydroloader]: executing diffoscope
+[2023-06-30 07:02:43] INFO root fetch - processPackages [hydroloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydroloader-0.1.5.tar.gz tmp/hydroloader-0.1.6.tar.gz --markdown 20230630/h/hydroloader/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-30 07:02:43] INFO root fetch - processPackages [odoo14-addons-oca-multi-company]: executing diffoscope
+[2023-06-30 07:02:43] INFO root fetch - processPackages [odoo14-addons-oca-multi-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_multi_company-14.0.20230215.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_multi_company-14.0.20230629.0-py3-none-any.whl.zip --markdown 20230630/o/odoo14-addons-oca-multi-company/14.0.20230215.0-14.0.20230629.0/diff.md --exclude *.pyd
+[2023-06-30 07:02:43] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-06-30 07:02:43] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230630/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-30 07:02:44] INFO root fetch - processPackages [numgrids]: Remove: archive file [/home/abi/fetcher/tmp/numgrids-0.0.1.tar.gz]
+[2023-06-30 07:02:44] INFO root fetch - processPackages [numgrids]: Remove: archive file [/home/abi/fetcher/tmp/numgrids-0.1.0.tar.gz]
+[2023-06-30 07:02:44] INFO root fetch - main [MainThread]: End processing [numgrids]: success
+[2023-06-30 07:02:44] INFO root fetch - processPackages [hydroloader]: Remove: archive file [/home/abi/fetcher/tmp/hydroloader-0.1.5.tar.gz]
+[2023-06-30 07:02:44] INFO root fetch - processPackages [hydroloader]: Remove: archive file [/home/abi/fetcher/tmp/hydroloader-0.1.6.tar.gz]
+[2023-06-30 07:02:44] INFO root fetch - main [MainThread]: End processing [hydroloader]: success
+[2023-06-30 07:02:44] INFO root fetch - processPackages [odoo14-addons-oca-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_multi_company-14.0.20230215.0-py3-none-any.whl.zip]
+[2023-06-30 07:02:44] INFO root fetch - processPackages [odoo14-addons-oca-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_multi_company-14.0.20230629.0-py3-none-any.whl.zip]
+[2023-06-30 07:02:44] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-multi-company]: success
+[2023-06-30 07:02:46] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip]
+[2023-06-30 07:02:46] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-30 07:02:46] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-06-30 07:02:46] INFO root fetch - main [MainThread]: Store serial: [18706078]
