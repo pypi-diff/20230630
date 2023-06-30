@@ -1637,3 +1637,99 @@
 [2023-06-30 01:59:40] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
 [2023-06-30 01:59:40] INFO root fetch - main [MainThread]: End processing [hypha]: success
 [2023-06-30 01:59:40] INFO root fetch - main [MainThread]: Store serial: [18702271]
+[2023-06-30 02:04:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702271]
+[2023-06-30 02:04:49] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-30 02:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ptarcade
+[2023-06-30 02:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prom
+[2023-06-30 02:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: problem-bank-helpers
+[2023-06-30 02:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: awkward-cpp
+[2023-06-30 02:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ICICONSOLEGPT
+[2023-06-30 02:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-gcp
+[2023-06-30 02:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wslink
+[2023-06-30 02:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ast-grep-cli
+[2023-06-30 02:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aegis-tools
+[2023-06-30 02:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchdatasets-nightly
+[2023-06-30 02:04:49] INFO root fetch - processPackages [pulumi-gcp]: New version: [6.9.0a1643146354] Old Version: [6.9.0]
+[2023-06-30 02:04:49] INFO root fetch - processPackages [prom]: New version: [4.5.1] Old Version: [4.5.0]
+[2023-06-30 02:04:49] INFO root fetch - processPackages [problem-bank-helpers]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 02:04:49] INFO root fetch - processPackages [ptarcade]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 02:04:49] WARNING root fetch - processPackages [ICICONSOLEGPT]: Skipping, unable to determine old version
+[2023-06-30 02:04:49] INFO root fetch - processPackages [ast-grep-cli]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-30 02:04:49] INFO root fetch - processPackages [ICICONSOLEGPT]: Start processing: mct-nightly
+[2023-06-30 02:04:49] INFO root fetch - main [MainThread]: End processing [ICICONSOLEGPT] error
+[2023-06-30 02:04:49] INFO root fetch - processPackages [wslink]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-30 02:04:49] INFO root fetch - processPackages [aegis-tools]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-06-30 02:04:49] INFO root fetch - processPackages [awkward-cpp]: New version: [9] Old Version: [8]
+[2023-06-30 02:04:49] INFO root fetch - processPackages [prom]: Downloading https://files.pythonhosted.org/packages/47/18/16a86dff5bc64f06a013c0296486d159a13a40b820fc1f94092b9bc5d55a/prom-4.5.0.tar.gz
+[2023-06-30 02:04:49] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1688083420] Old Version: [1687997036]
+[2023-06-30 02:04:49] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230630.post425] Old Version: [1.9.0.20230629.post426]
+[2023-06-30 02:04:49] INFO root fetch - processPackages [problem-bank-helpers]: Downloading https://files.pythonhosted.org/packages/a5/f7/b8bdc083da75e130fae13c02e233729cf775af24a696d168ebf5e9dbd8d5/problem_bank_helpers-0.1.8.tar.gz
+[2023-06-30 02:04:49] INFO root fetch - processPackages [ptarcade]: Downloading https://files.pythonhosted.org/packages/91/b0/7e98a4650c27ff4f9a7bdfa8fb55d1cd162f034e0b93363c9334bf5d3c7c/ptarcade-0.1.0.tar.gz
+[2023-06-30 02:04:49] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/52/cb/7dcb9fcb51adc9d87e593296151f4da396f29c8bda1adec20ceb8f90ed13/ast_grep_cli-0.7.0.tar.gz
+[2023-06-30 02:04:49] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/86/ae/df1626109ce8211e4fe361e5f6d3721bfeb1e7f9d544a73b62e837e5a7dc/aegis-tools-2.1.6.tar.gz
+[2023-06-30 02:04:49] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/03/9b/bb0c0f52cb17eac01abbac01348d951f12bac85014ab1d671932c5579a5b/pulumi_gcp-6.9.0.tar.gz
+[2023-06-30 02:04:49] INFO root fetch - processPackages [wslink]: Downloading https://files.pythonhosted.org/packages/ee/c8/b9d4c578dbb47f72024bf5247ead7468e23fc46f2ae5bd249d68bfd7e6d7/wslink-1.9.2.tar.gz
+[2023-06-30 02:04:49] INFO root fetch - processPackages [awkward-cpp]: Downloading https://files.pythonhosted.org/packages/aa/f5/64adc43fa8ade78ad35bf90276c8741d996c40c25626e9900d611f752446/awkward-cpp-8.tar.gz
+[2023-06-30 02:04:49] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/2c/61/bf64d94211a7aff6a1145fa53fba0b2b130b673db553f3f157bd7cd1e677/torchdatasets-nightly-1687997036.tar.gz
+[2023-06-30 02:04:49] INFO root fetch - processPackages [prom]: Downloading https://files.pythonhosted.org/packages/94/9f/be4a6aa947d880b33c98b513df7b2031dc021ab3cc3c8a410419a19633fc/prom-4.5.1.tar.gz
+[2023-06-30 02:04:49] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/32/1d/ac59f34989b9a06eb107600babd3ffbc0793e447372a7854bbca05213f92/mct-nightly-1.9.0.20230629.post426.tar.gz
+[2023-06-30 02:04:50] INFO root fetch - processPackages [ptarcade]: Downloading https://files.pythonhosted.org/packages/6d/88/daba5096d75e608093fe6ecc875572ca830845786e64ed4676da0e01bcd0/ptarcade-0.1.1.tar.gz
+[2023-06-30 02:04:50] INFO root fetch - processPackages [prom]: executing diffoscope
+[2023-06-30 02:04:50] INFO root fetch - processPackages [prom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prom-4.5.0.tar.gz tmp/prom-4.5.1.tar.gz --markdown 20230630/p/prom/4.5.0-4.5.1/diff.md --exclude *.pyd
+[2023-06-30 02:04:50] INFO root fetch - processPackages [problem-bank-helpers]: Downloading https://files.pythonhosted.org/packages/c3/da/2f1b36289d5d8b3d4eff0e11d97a44c675fbacb8236b5b795096ad4dfa78/problem_bank_helpers-0.1.9.tar.gz
+[2023-06-30 02:04:50] INFO root fetch - processPackages [ptarcade]: executing diffoscope
+[2023-06-30 02:04:50] INFO root fetch - processPackages [ptarcade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptarcade-0.1.0.tar.gz tmp/ptarcade-0.1.1.tar.gz --markdown 20230630/p/ptarcade/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 02:04:50] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/a6/f1/7bdf09b972e359ee1c9e4bca5e55bf87a0931216ae6faeec04cd1bbac676/ast_grep_cli-0.7.1.tar.gz
+[2023-06-30 02:04:50] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/d8/b5/0a2abc79b1d02954ac86e50eb21f4b6ca9cbf3dd84a71162a9527a7896ef/aegis-tools-2.1.7.tar.gz
+[2023-06-30 02:04:50] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/86/73/5bb809d953019c98c0a2ee7b39aff6497e579d28d4f623329768fe26748e/torchdatasets-nightly-1688083420.tar.gz
+[2023-06-30 02:04:50] INFO root fetch - processPackages [problem-bank-helpers]: executing diffoscope
+[2023-06-30 02:04:50] INFO root fetch - processPackages [problem-bank-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/problem_bank_helpers-0.1.8.tar.gz tmp/problem_bank_helpers-0.1.9.tar.gz --markdown 20230630/p/problem-bank-helpers/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 02:04:50] INFO root fetch - processPackages [wslink]: Downloading https://files.pythonhosted.org/packages/1c/99/b50331a1b9b0b2ff8ba98439bbf0ee2d9b0ea8836d4ab373f50a6566f30d/wslink-1.9.3.tar.gz
+[2023-06-30 02:04:50] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/86/8e/ff06232280591e9dca8734c917026b25e2b72f375503697224371ea83f93/mct-nightly-1.9.0.20230630.post425.tar.gz
+[2023-06-30 02:04:50] INFO root fetch - processPackages [ast-grep-cli]: executing diffoscope
+[2023-06-30 02:04:50] INFO root fetch - processPackages [ast-grep-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_cli-0.7.0.tar.gz tmp/ast_grep_cli-0.7.1.tar.gz --markdown 20230630/a/ast-grep-cli/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-30 02:04:50] INFO root fetch - processPackages [awkward-cpp]: Downloading https://files.pythonhosted.org/packages/5c/ed/9ea65e3121ca03b329734a45c17b4ba0cda78345f533ba43a30dc9fd4dd8/awkward-cpp-9.tar.gz
+[2023-06-30 02:04:50] INFO root fetch - processPackages [aegis-tools]: executing diffoscope
+[2023-06-30 02:04:50] INFO root fetch - processPackages [aegis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aegis-tools-2.1.6.tar.gz tmp/aegis-tools-2.1.7.tar.gz --markdown 20230630/a/aegis-tools/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-06-30 02:04:50] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-30 02:04:50] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1687997036.tar.gz tmp/torchdatasets-nightly-1688083420.tar.gz --markdown 20230630/t/torchdatasets-nightly/1687997036-1688083420/diff.md --exclude *.pyd
+[2023-06-30 02:04:50] INFO root fetch - processPackages [wslink]: executing diffoscope
+[2023-06-30 02:04:50] INFO root fetch - processPackages [wslink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wslink-1.9.2.tar.gz tmp/wslink-1.9.3.tar.gz --markdown 20230630/w/wslink/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-30 02:04:50] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-30 02:04:50] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230629.post426.tar.gz tmp/mct-nightly-1.9.0.20230630.post425.tar.gz --markdown 20230630/m/mct-nightly/1.9.0.20230629.post426-1.9.0.20230630.post425/diff.md --exclude *.pyd
+[2023-06-30 02:04:50] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/39/74/41d1cc3685622f458efd5675d5dac2a2be81a4c87627192c0fd616107756/pulumi_gcp-6.9.0a1643146354.tar.gz
+[2023-06-30 02:04:50] INFO root fetch - processPackages [awkward-cpp]: executing diffoscope
+[2023-06-30 02:04:50] INFO root fetch - processPackages [awkward-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awkward-cpp-8.tar.gz tmp/awkward-cpp-9.tar.gz --markdown 20230630/a/awkward-cpp/8-9/diff.md --exclude *.pyd
+[2023-06-30 02:04:50] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2023-06-30 02:04:50] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-6.9.0.tar.gz tmp/pulumi_gcp-6.9.0a1643146354.tar.gz --markdown 20230630/p/pulumi-gcp/6.9.0-6.9.0a1643146354/diff.md --exclude *.pyd
+[2023-06-30 02:04:51] INFO root fetch - processPackages [ptarcade]: Remove: archive file [/home/abi/fetcher/tmp/ptarcade-0.1.0.tar.gz]
+[2023-06-30 02:04:51] INFO root fetch - processPackages [ptarcade]: Remove: archive file [/home/abi/fetcher/tmp/ptarcade-0.1.1.tar.gz]
+[2023-06-30 02:04:51] INFO root fetch - main [MainThread]: End processing [ptarcade]: success
+[2023-06-30 02:04:51] INFO root fetch - processPackages [problem-bank-helpers]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_helpers-0.1.8.tar.gz]
+[2023-06-30 02:04:51] INFO root fetch - processPackages [problem-bank-helpers]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_helpers-0.1.9.tar.gz]
+[2023-06-30 02:04:51] INFO root fetch - main [MainThread]: End processing [problem-bank-helpers]: success
+[2023-06-30 02:04:51] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1687997036.tar.gz]
+[2023-06-30 02:04:51] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688083420.tar.gz]
+[2023-06-30 02:04:51] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-30 02:04:51] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.1.6.tar.gz]
+[2023-06-30 02:04:51] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.1.7.tar.gz]
+[2023-06-30 02:04:51] INFO root fetch - main [MainThread]: End processing [aegis-tools]: success
+[2023-06-30 02:04:52] INFO root fetch - processPackages [wslink]: Remove: archive file [/home/abi/fetcher/tmp/wslink-1.9.2.tar.gz]
+[2023-06-30 02:04:52] INFO root fetch - processPackages [wslink]: Remove: archive file [/home/abi/fetcher/tmp/wslink-1.9.3.tar.gz]
+[2023-06-30 02:04:52] INFO root fetch - main [MainThread]: End processing [wslink]: success
+[2023-06-30 02:04:53] INFO root fetch - processPackages [prom]: Remove: archive file [/home/abi/fetcher/tmp/prom-4.5.0.tar.gz]
+[2023-06-30 02:04:53] INFO root fetch - processPackages [prom]: Remove: archive file [/home/abi/fetcher/tmp/prom-4.5.1.tar.gz]
+[2023-06-30 02:04:53] INFO root fetch - main [MainThread]: End processing [prom]: success
+[2023-06-30 02:04:53] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.7.0.tar.gz]
+[2023-06-30 02:04:53] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.7.1.tar.gz]
+[2023-06-30 02:04:53] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
+[2023-06-30 02:04:58] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230629.post426.tar.gz]
+[2023-06-30 02:04:58] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230630.post425.tar.gz]
+[2023-06-30 02:04:58] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-30 02:05:01] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0.tar.gz]
+[2023-06-30 02:05:01] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0a1643146354.tar.gz]
+[2023-06-30 02:05:01] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2023-06-30 02:05:26] INFO root fetch - processPackages [awkward-cpp]: Remove: archive file [/home/abi/fetcher/tmp/awkward-cpp-8.tar.gz]
+[2023-06-30 02:05:26] INFO root fetch - processPackages [awkward-cpp]: Remove: archive file [/home/abi/fetcher/tmp/awkward-cpp-9.tar.gz]
+[2023-06-30 02:05:26] INFO root fetch - main [MainThread]: End processing [awkward-cpp]: success
+[2023-06-30 02:05:26] INFO root fetch - main [MainThread]: Store serial: [18702354]
