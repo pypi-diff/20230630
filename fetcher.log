@@ -10423,3 +10423,68 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 05:03:44] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
 [2023-06-30 05:03:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
 [2023-06-30 05:03:44] INFO root fetch - main [MainThread]: Store serial: [18705438]
+[2023-06-30 05:08:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705438]
+[2023-06-30 05:08:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-30 05:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weave
+[2023-06-30 05:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpuhub
+[2023-06-30 05:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-api-call
+[2023-06-30 05:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ht-pricing-module
+[2023-06-30 05:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PlanetProfile
+[2023-06-30 05:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gallon
+[2023-06-30 05:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyFakeDados
+[2023-06-30 05:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyFakeDados
+[2023-06-30 05:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyFakeDados
+[2023-06-30 05:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyFakeDados
+[2023-06-30 05:08:53] INFO root fetch - processPackages [weave]: New version: [0.21.0] Old Version: [0.20.0.dev2]
+[2023-06-30 05:08:53] INFO root fetch - processPackages [gallon]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-30 05:08:53] INFO root fetch - processPackages [PyFakeDados]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2023-06-30 05:08:53] INFO root fetch - processPackages [PyFakeDados]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2023-06-30 05:08:53] WARNING root fetch - processPackages [gpuhub]: Skipping, unable to determine old version
+[2023-06-30 05:08:53] INFO root fetch - processPackages [gpuhub]: Start processing: pyroherd
+[2023-06-30 05:08:53] INFO root fetch - processPackages [openai-api-call]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-30 05:08:53] INFO root fetch - main [MainThread]: End processing [gpuhub] error
+[2023-06-30 05:08:53] INFO root fetch - processPackages [PlanetProfile]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-30 05:08:53] INFO root fetch - processPackages [PyFakeDados]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2023-06-30 05:08:53] INFO root fetch - processPackages [PyFakeDados]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2023-06-30 05:08:53] INFO root fetch - processPackages [ht-pricing-module]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-06-30 05:08:53] INFO root fetch - processPackages [ht-pricing-module]: Downloading https://files.pythonhosted.org/packages/0b/a0/4c1df2fff44a63a6774ed441ba2b8450049f28fcd9f0b71d173b2c63d1e6/ht_pricing_module-0.2.5.tar.gz
+[2023-06-30 05:08:53] WARNING root fetch - processPackages [pyroherd]: Skipping, unable to determine old version
+[2023-06-30 05:08:53] INFO root fetch - processPackages [pyroherd]: Start processing: decompy
+[2023-06-30 05:08:53] INFO root fetch - main [MainThread]: End processing [pyroherd] error
+[2023-06-30 05:08:53] ERROR root fetch - processPackages [PyFakeDados]: Unable to fetch info: No such project/version 'PyFakeDados' 0.0.1.8
+[2023-06-30 05:08:53] INFO root fetch - main [MainThread]: End processing [PyFakeDados] error
+[2023-06-30 05:08:53] ERROR root fetch - processPackages [PyFakeDados]: Unable to fetch info: No such project/version 'PyFakeDados' 0.0.1.8
+[2023-06-30 05:08:53] INFO root fetch - main [MainThread]: End processing [PyFakeDados] error
+[2023-06-30 05:08:53] ERROR root fetch - processPackages [PyFakeDados]: Unable to fetch info: No such project/version 'PyFakeDados' 0.0.1.8
+[2023-06-30 05:08:53] ERROR root fetch - processPackages [PyFakeDados]: Unable to fetch info: No such project/version 'PyFakeDados' 0.0.1.8
+[2023-06-30 05:08:53] INFO root fetch - main [MainThread]: End processing [PyFakeDados] error
+[2023-06-30 05:08:53] INFO root fetch - main [MainThread]: End processing [PyFakeDados] error
+[2023-06-30 05:08:54] INFO root fetch - processPackages [openai-api-call]: Downloading https://files.pythonhosted.org/packages/d8/66/04a3cf70a5122ee6ff79afd84aca9f7f0e7481b343711ec997b9b3b8df5c/openai_api_call-0.5.2.tar.gz
+[2023-06-30 05:08:54] INFO root fetch - processPackages [gallon]: Downloading https://files.pythonhosted.org/packages/a1/e7/795c51caed32fc0596d9bbc1b89656dcecfd3dfd330fbb674a289ac431dc/gallon-0.0.0.tar.gz
+[2023-06-30 05:08:54] INFO root fetch - processPackages [PlanetProfile]: Downloading https://files.pythonhosted.org/packages/65/29/cb2a9202508a8e95a257628e98a760d9d325bc8d3660522085c5936cd904/PlanetProfile-2.3.8.tar.gz
+[2023-06-30 05:08:54] WARNING root fetch - processPackages [decompy]: Skipping, unable to determine old version
+[2023-06-30 05:08:54] INFO root fetch - main [MainThread]: End processing [decompy] error
+[2023-06-30 05:08:54] INFO root fetch - processPackages [weave]: Downloading https://files.pythonhosted.org/packages/a5/0e/680ef6af8397d91c8019985f538bf62f0cd6a0f54db001b57f7f3a33152d/weave-0.20.0.dev2.tar.gz
+[2023-06-30 05:08:54] WARNING root fetch - processPackages [weave]: Skipping package: exceeds size limit 24082320>=10485760
+[2023-06-30 05:08:54] INFO root fetch - main [MainThread]: End processing [weave] error
+[2023-06-30 05:08:54] INFO root fetch - processPackages [ht-pricing-module]: Downloading https://files.pythonhosted.org/packages/60/da/7929586818aca193cd304eb05c0f402ddda30f57818e2d21dfe5f40464bf/ht_pricing_module-0.3.0.tar.gz
+[2023-06-30 05:08:54] INFO root fetch - processPackages [gallon]: Downloading https://files.pythonhosted.org/packages/99/f5/04e3ebf4e7af7cfae8246f644621bef098503bc4305a902c6481a8851c8f/gallon-0.0.1.tar.gz
+[2023-06-30 05:08:54] INFO root fetch - processPackages [ht-pricing-module]: executing diffoscope
+[2023-06-30 05:08:54] INFO root fetch - processPackages [ht-pricing-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ht_pricing_module-0.2.5.tar.gz tmp/ht_pricing_module-0.3.0.tar.gz --markdown 20230630/h/ht-pricing-module/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-06-30 05:08:54] INFO root fetch - processPackages [gallon]: executing diffoscope
+[2023-06-30 05:08:54] INFO root fetch - processPackages [gallon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gallon-0.0.0.tar.gz tmp/gallon-0.0.1.tar.gz --markdown 20230630/g/gallon/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-30 05:08:54] INFO root fetch - processPackages [openai-api-call]: Downloading https://files.pythonhosted.org/packages/c4/c7/fd81d26a3b0f879ec3cdc0081ba431bfde78d445eeb579ae67c425e73bba/openai_api_call-0.5.3.tar.gz
+[2023-06-30 05:08:54] INFO root fetch - processPackages [openai-api-call]: executing diffoscope
+[2023-06-30 05:08:54] INFO root fetch - processPackages [openai-api-call]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_api_call-0.5.2.tar.gz tmp/openai_api_call-0.5.3.tar.gz --markdown 20230630/o/openai-api-call/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-30 05:08:54] WARNING root fetch - processPackages [PlanetProfile]: Skipping package: exceeds size limit 90531347>=10485760
+[2023-06-30 05:08:54] INFO root fetch - main [MainThread]: End processing [PlanetProfile] error
+[2023-06-30 05:08:55] INFO root fetch - processPackages [gallon]: Remove: archive file [/home/abi/fetcher/tmp/gallon-0.0.0.tar.gz]
+[2023-06-30 05:08:55] INFO root fetch - processPackages [gallon]: Remove: archive file [/home/abi/fetcher/tmp/gallon-0.0.1.tar.gz]
+[2023-06-30 05:08:55] INFO root fetch - main [MainThread]: End processing [gallon]: success
+[2023-06-30 05:08:55] INFO root fetch - processPackages [openai-api-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_api_call-0.5.2.tar.gz]
+[2023-06-30 05:08:55] INFO root fetch - processPackages [openai-api-call]: Remove: archive file [/home/abi/fetcher/tmp/openai_api_call-0.5.3.tar.gz]
+[2023-06-30 05:08:55] INFO root fetch - main [MainThread]: End processing [openai-api-call]: success
+[2023-06-30 05:08:55] INFO root fetch - processPackages [ht-pricing-module]: Remove: archive file [/home/abi/fetcher/tmp/ht_pricing_module-0.2.5.tar.gz]
+[2023-06-30 05:08:55] INFO root fetch - processPackages [ht-pricing-module]: Remove: archive file [/home/abi/fetcher/tmp/ht_pricing_module-0.3.0.tar.gz]
+[2023-06-30 05:08:55] INFO root fetch - main [MainThread]: End processing [ht-pricing-module]: success
+[2023-06-30 05:08:55] INFO root fetch - main [MainThread]: Store serial: [18705488]
