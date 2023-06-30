@@ -20879,3 +20879,156 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 13:59:02] INFO root fetch - processPackages [evosegment]: Remove: archive file [/home/abi/fetcher/tmp/evosegment-0.0.5.tar.gz]
 [2023-06-30 13:59:02] INFO root fetch - main [MainThread]: End processing [evosegment]: success
 [2023-06-30 13:59:02] INFO root fetch - main [MainThread]: Store serial: [18710186]
+[2023-06-30 14:04:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18710186]
+[2023-06-30 14:04:12] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mrdja
+[2023-06-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nopasaran
+[2023-06-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-neat
+[2023-06-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-cisco-support-plugin
+[2023-06-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-ddmrp
+[2023-06-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yxspkg
+[2023-06-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-computedfields
+[2023-06-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hanzidentifier
+[2023-06-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dclab
+[2023-06-30 14:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lingtrain-aligner
+[2023-06-30 14:04:12] INFO root fetch - processPackages [nopasaran]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-30 14:04:12] INFO root fetch - processPackages [yxspkg]: New version: [6.9.8] Old Version: [6.9.7]
+[2023-06-30 14:04:12] INFO root fetch - processPackages [mrdja]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 14:04:12] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 14:04:12] INFO root fetch - processPackages [cognite-neat]: New version: [0.14.1] Old Version: [0.14.0]
+[2023-06-30 14:04:12] INFO root fetch - processPackages [lingtrain-aligner]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-06-30 14:04:12] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/e9/00/1c979a6338313aa1384817dcfb17d78f225f07292739c9ace51701b7cc62/yxspkg-6.9.7-py3-none-any.whl
+[2023-06-30 14:04:12] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-30 14:04:12] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [15.0.1.9.0] Old Version: [15.0.1.8.3]
+[2023-06-30 14:04:12] INFO root fetch - processPackages [lingtrain-aligner]: Downloading https://files.pythonhosted.org/packages/3b/8b/e70ab4a0a3ae773e16b91c3935297fdde6b74f00fe1e6aafa617d8f02386/lingtrain-aligner-0.8.7.tar.gz
+[2023-06-30 14:04:12] INFO root fetch - processPackages [hanzidentifier]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-30 14:04:12] INFO root fetch - processPackages [django-computedfields]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-30 14:04:12] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/6b/58/4845ab561f23746a41a87c7b941b798f933a7883786407eba461f52055ef/nopasaran-0.1.5.tar.gz
+[2023-06-30 14:04:12] INFO root fetch - processPackages [dclab]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-30 14:04:12] INFO root fetch - processPackages [mrdja]: Downloading https://files.pythonhosted.org/packages/18/44/34540bbd921d8ea06f9326e374ecec7daf8297e0af144c479ee90fb7d388/mrdja-0.0.8.tar.gz
+[2023-06-30 14:04:12] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/84/63/b9694498b0bc6f15e93fe9c030126dbecd92a990acb36ee90e5b642b1553/cognite_neat-0.14.0.tar.gz
+[2023-06-30 14:04:12] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-30 14:04:12] INFO root fetch - processPackages [django-computedfields]: Downloading https://files.pythonhosted.org/packages/7d/76/b89f78a10af5ed89f305881e4eedf720092eaa4dc5443a74c6b9cbcedcba/django-computedfields-0.2.2.tar.gz
+[2023-06-30 14:04:12] INFO root fetch - processPackages [lingtrain-aligner]: Downloading https://files.pythonhosted.org/packages/e1/98/2e252be8f284ab4cb4222a84b24403c887e3b537a37636605c919d37855f/lingtrain-aligner-0.8.8.tar.gz
+[2023-06-30 14:04:12] INFO root fetch - processPackages [hanzidentifier]: Downloading https://files.pythonhosted.org/packages/50/63/68c317ee817423b0851a14a74bc21cf9317070538c85d1d6c2ba11273a92/hanzidentifier-1.1.0.tar.gz
+[2023-06-30 14:04:12] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/f7/4e/32449d4b698fcbeae621403f36794ff3164e7108df5e903c13f75e0c4742/odoo_addon_ddmrp-15.0.1.8.3-py3-none-any.whl
+[2023-06-30 14:04:12] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/7c/85/1e39b909a273589478001e4ea5a3df8fd5923e2dbc48bc5ded42f984a58f/dclab-0.9.0.tar.gz
+[2023-06-30 14:04:12] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-30 14:04:12] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230630/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 14:04:12] INFO root fetch - processPackages [lingtrain-aligner]: executing diffoscope
+[2023-06-30 14:04:12] INFO root fetch - processPackages [lingtrain-aligner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lingtrain-aligner-0.8.7.tar.gz tmp/lingtrain-aligner-0.8.8.tar.gz --markdown 20230630/l/lingtrain-aligner/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-06-30 14:04:12] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/a7/f5/10677997f45940134280455b1b1b4507430c6fd8df8d719d33026f13beed/nopasaran-0.1.6.tar.gz
+[2023-06-30 14:04:12] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/7e/bf/a221195649dec2f4c5919f5d972d01beb568006bb8958fd387c423f1aaac/yxspkg-6.9.8-py3-none-any.whl
+[2023-06-30 14:04:12] INFO root fetch - processPackages [hanzidentifier]: Downloading https://files.pythonhosted.org/packages/b1/c6/1f42864ea272c5497ba78858f6b4082cca37cf4f59b60effdc60273e2c1f/hanzidentifier-1.2.0.tar.gz
+[2023-06-30 14:04:12] INFO root fetch - processPackages [django-computedfields]: Downloading https://files.pythonhosted.org/packages/90/68/5e149df1e4bc55d9c5c6ce925786d4fd1f65e5ac222f30c66bd330d49d9e/django-computedfields-0.2.3.tar.gz
+[2023-06-30 14:04:12] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/d4/d8/5d108559fd00e396c35471ae46c05706e27734c755610e719c1b5826b227/odoo_addon_ddmrp-15.0.1.9.0-py3-none-any.whl
+[2023-06-30 14:04:12] INFO root fetch - processPackages [mrdja]: Downloading https://files.pythonhosted.org/packages/07/10/e636330cbb40547bd82d2a034ebd12f00d1fcd87b2f7300ebee7fcd96386/mrdja-0.0.9.tar.gz
+[2023-06-30 14:04:13] INFO root fetch - processPackages [nopasaran]: executing diffoscope
+[2023-06-30 14:04:13] INFO root fetch - processPackages [nopasaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopasaran-0.1.5.tar.gz tmp/nopasaran-0.1.6.tar.gz --markdown 20230630/n/nopasaran/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-30 14:04:13] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/82/9b/4f7174c1070b5b94bcb23f738e3964dce89ef50d21f0420a0fbb46fd0d81/cognite_neat-0.14.1.tar.gz
+[2023-06-30 14:04:13] INFO root fetch - processPackages [hanzidentifier]: executing diffoscope
+[2023-06-30 14:04:13] INFO root fetch - processPackages [hanzidentifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hanzidentifier-1.1.0.tar.gz tmp/hanzidentifier-1.2.0.tar.gz --markdown 20230630/h/hanzidentifier/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-30 14:04:13] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2023-06-30 14:04:13] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-15.0.1.8.3-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-15.0.1.9.0-py3-none-any.whl.zip --markdown 20230630/o/odoo-addon-ddmrp/15.0.1.8.3-15.0.1.9.0/diff.md --exclude *.pyd
+[2023-06-30 14:04:13] INFO root fetch - processPackages [django-computedfields]: executing diffoscope
+[2023-06-30 14:04:13] INFO root fetch - processPackages [django-computedfields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-computedfields-0.2.2.tar.gz tmp/django-computedfields-0.2.3.tar.gz --markdown 20230630/d/django-computedfields/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-30 14:04:13] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/b7/8f/20dd68d6e832776bab24a9ec17e74b4480bdf3b960f989ada95f9a4387cc/dclab-0.9.1.tar.gz
+[2023-06-30 14:04:13] INFO root fetch - processPackages [mrdja]: executing diffoscope
+[2023-06-30 14:04:13] INFO root fetch - processPackages [mrdja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrdja-0.0.8.tar.gz tmp/mrdja-0.0.9.tar.gz --markdown 20230630/m/mrdja/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 14:04:13] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-06-30 14:04:13] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.14.0.tar.gz tmp/cognite_neat-0.14.1.tar.gz --markdown 20230630/c/cognite-neat/0.14.0-0.14.1/diff.md --exclude *.pyd
+[2023-06-30 14:04:13] INFO root fetch - processPackages [yxspkg]: executing diffoscope
+[2023-06-30 14:04:13] INFO root fetch - processPackages [yxspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yxspkg-6.9.7-py3-none-any.whl.zip tmp/yxspkg-6.9.8-py3-none-any.whl.zip --markdown 20230630/y/yxspkg/6.9.7-6.9.8/diff.md --exclude *.pyd
+[2023-06-30 14:04:13] INFO root fetch - processPackages [dclab]: executing diffoscope
+[2023-06-30 14:04:13] INFO root fetch - processPackages [dclab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dclab-0.9.0.tar.gz tmp/dclab-0.9.1.tar.gz --markdown 20230630/d/dclab/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-30 14:04:14] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-30 14:04:14] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-30 14:04:14] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Start processing: grai-source-postgres
+[2023-06-30 14:04:14] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-30 14:04:14] INFO root fetch - processPackages [grai-source-postgres]: New version: [0.2.0a1] Old Version: [0.1.9]
+[2023-06-30 14:04:14] INFO root fetch - processPackages [grai-source-postgres]: Downloading https://files.pythonhosted.org/packages/d9/c3/053ad6c134151ee11af50edd6bcdbab63797a2e653695a28458085741337/grai_source_postgres-0.1.9.tar.gz
+[2023-06-30 14:04:14] INFO root fetch - processPackages [lingtrain-aligner]: Remove: archive file [/home/abi/fetcher/tmp/lingtrain-aligner-0.8.7.tar.gz]
+[2023-06-30 14:04:14] INFO root fetch - processPackages [lingtrain-aligner]: Remove: archive file [/home/abi/fetcher/tmp/lingtrain-aligner-0.8.8.tar.gz]
+[2023-06-30 14:04:14] INFO root fetch - processPackages [lingtrain-aligner]: Start processing: aicoder
+[2023-06-30 14:04:14] INFO root fetch - main [MainThread]: End processing [lingtrain-aligner]: success
+[2023-06-30 14:04:14] INFO root fetch - processPackages [aicoder]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-30 14:04:14] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/9b/d9/a9471f798b9dc4a57f90ad04edb7ede4d979f73c806290f34ad435479c19/aicoder-0.1.7-py3-none-any.whl
+[2023-06-30 14:04:14] INFO root fetch - processPackages [grai-source-postgres]: Downloading https://files.pythonhosted.org/packages/7f/f8/187a4b43c699b939ebcb2e3b0f2554e0f418f68cb6670cbe404b7d452f9a/grai_source_postgres-0.2.0a1.tar.gz
+[2023-06-30 14:04:14] INFO root fetch - processPackages [grai-source-postgres]: executing diffoscope
+[2023-06-30 14:04:14] INFO root fetch - processPackages [grai-source-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_postgres-0.1.9.tar.gz tmp/grai_source_postgres-0.2.0a1.tar.gz --markdown 20230630/g/grai-source-postgres/0.1.9-0.2.0a1/diff.md --exclude *.pyd
+[2023-06-30 14:04:14] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/0b/5a/e30892d263eff6d956b046dfbb0f4b2fdd0bcc04e5dad957155f0c575bd8/aicoder-0.1.8-py3-none-any.whl
+[2023-06-30 14:04:14] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.1.5.tar.gz]
+[2023-06-30 14:04:14] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.1.6.tar.gz]
+[2023-06-30 14:04:14] INFO root fetch - processPackages [nopasaran]: Start processing: Connectome-Utilities
+[2023-06-30 14:04:14] INFO root fetch - main [MainThread]: End processing [nopasaran]: success
+[2023-06-30 14:04:14] INFO root fetch - processPackages [hanzidentifier]: Remove: archive file [/home/abi/fetcher/tmp/hanzidentifier-1.1.0.tar.gz]
+[2023-06-30 14:04:14] INFO root fetch - processPackages [hanzidentifier]: Remove: archive file [/home/abi/fetcher/tmp/hanzidentifier-1.2.0.tar.gz]
+[2023-06-30 14:04:14] INFO root fetch - processPackages [hanzidentifier]: Start processing: fa-models
+[2023-06-30 14:04:14] INFO root fetch - main [MainThread]: End processing [hanzidentifier]: success
+[2023-06-30 14:04:14] INFO root fetch - processPackages [fa-models]: New version: [1.0.57] Old Version: [1.0.56]
+[2023-06-30 14:04:14] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-06-30 14:04:14] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.1.7-py3-none-any.whl.zip tmp/aicoder-0.1.8-py3-none-any.whl.zip --markdown 20230630/a/aicoder/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-30 14:04:14] WARNING root fetch - processPackages [Connectome-Utilities]: Skipping, unable to determine old version
+[2023-06-30 14:04:14] INFO root fetch - processPackages [Connectome-Utilities]: Start processing: supervisely
+[2023-06-30 14:04:14] INFO root fetch - main [MainThread]: End processing [Connectome-Utilities] error
+[2023-06-30 14:04:14] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/6c/31/b327ba3e44f724cafc6924d37d70fa53977e227e80f36a0bb161ce4b50ef/fa-models-1.0.56.tar.gz
+[2023-06-30 14:04:14] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-30 14:04:14] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-06-30 14:04:14] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/31/d6/779e17b11d0b24ae5936219a3df6e842e9e1c16f9f827adf85a8d18bad8a/fa-models-1.0.57.tar.gz
+[2023-06-30 14:04:15] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-06-30 14:04:15] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-06-30 14:04:15] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.56.tar.gz tmp/fa-models-1.0.57.tar.gz --markdown 20230630/f/fa-models/1.0.56-1.0.57/diff.md --exclude *.pyd
+[2023-06-30 14:04:15] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-06-30 14:04:15] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230630/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-30 14:04:15] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-15.0.1.8.3-py3-none-any.whl.zip]
+[2023-06-30 14:04:15] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-15.0.1.9.0-py3-none-any.whl.zip]
+[2023-06-30 14:04:15] INFO root fetch - processPackages [odoo-addon-ddmrp]: Start processing: mobile-env-rl
+[2023-06-30 14:04:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2023-06-30 14:04:15] WARNING root fetch - processPackages [mobile-env-rl]: Skipping, unable to determine old version
+[2023-06-30 14:04:15] INFO root fetch - processPackages [mobile-env-rl]: Start processing: sniimapp
+[2023-06-30 14:04:15] INFO root fetch - main [MainThread]: End processing [mobile-env-rl] error
+[2023-06-30 14:04:15] INFO root fetch - processPackages [sniimapp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 14:04:15] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/fb/d1/ec907fcf8092b0658f18c33c834998acf50826cf6eed46c8361c96638f8f/sniimapp-0.0.8.tar.gz
+[2023-06-30 14:04:15] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.7-py3-none-any.whl.zip]
+[2023-06-30 14:04:15] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.8-py3-none-any.whl.zip]
+[2023-06-30 14:04:15] INFO root fetch - processPackages [yxspkg]: Start processing: herdmod
+[2023-06-30 14:04:15] INFO root fetch - main [MainThread]: End processing [yxspkg]: success
+[2023-06-30 14:04:15] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/32/41/5f0bd7028c0c84a365a70d9ce3684ef44e347a22a1d33861d0f928009701/sniimapp-0.0.9.tar.gz
+[2023-06-30 14:04:15] INFO root fetch - processPackages [herdmod]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-30 14:04:15] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-06-30 14:04:15] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.8.tar.gz tmp/sniimapp-0.0.9.tar.gz --markdown 20230630/s/sniimapp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 14:04:15] INFO root fetch - processPackages [grai-source-postgres]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_postgres-0.1.9.tar.gz]
+[2023-06-30 14:04:15] INFO root fetch - processPackages [grai-source-postgres]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_postgres-0.2.0a1.tar.gz]
+[2023-06-30 14:04:15] INFO root fetch - main [MainThread]: End processing [grai-source-postgres]: success
+[2023-06-30 14:04:15] INFO root fetch - processPackages [herdmod]: Downloading https://files.pythonhosted.org/packages/74/9e/6f442046d70dcf123f9c35beea5df87ee937faef6a3be25749fee0ecaba9/herdmod-0.0.1.tar.gz
+[2023-06-30 14:04:15] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.1.7-py3-none-any.whl.zip]
+[2023-06-30 14:04:15] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.1.8-py3-none-any.whl.zip]
+[2023-06-30 14:04:15] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-06-30 14:04:16] INFO root fetch - processPackages [herdmod]: Downloading https://files.pythonhosted.org/packages/40/fd/8a3da8e031950f8ad2bae9912380b61ea3bc1fd39b24238fc6812383cf93/herdmod-0.0.2.tar.gz
+[2023-06-30 14:04:16] INFO root fetch - processPackages [herdmod]: executing diffoscope
+[2023-06-30 14:04:16] INFO root fetch - processPackages [herdmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herdmod-0.0.1.tar.gz tmp/herdmod-0.0.2.tar.gz --markdown 20230630/h/herdmod/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 14:04:16] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.56.tar.gz]
+[2023-06-30 14:04:16] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.57.tar.gz]
+[2023-06-30 14:04:16] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-06-30 14:04:16] INFO root fetch - processPackages [mrdja]: Remove: archive file [/home/abi/fetcher/tmp/mrdja-0.0.8.tar.gz]
+[2023-06-30 14:04:16] INFO root fetch - processPackages [mrdja]: Remove: archive file [/home/abi/fetcher/tmp/mrdja-0.0.9.tar.gz]
+[2023-06-30 14:04:16] INFO root fetch - main [MainThread]: End processing [mrdja]: success
+[2023-06-30 14:04:16] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.8.tar.gz]
+[2023-06-30 14:04:16] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.9.tar.gz]
+[2023-06-30 14:04:16] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-06-30 14:04:17] INFO root fetch - processPackages [herdmod]: Remove: archive file [/home/abi/fetcher/tmp/herdmod-0.0.1.tar.gz]
+[2023-06-30 14:04:17] INFO root fetch - processPackages [herdmod]: Remove: archive file [/home/abi/fetcher/tmp/herdmod-0.0.2.tar.gz]
+[2023-06-30 14:04:17] INFO root fetch - main [MainThread]: End processing [herdmod]: success
+[2023-06-30 14:04:17] INFO root fetch - processPackages [dclab]: Remove: archive file [/home/abi/fetcher/tmp/dclab-0.9.0.tar.gz]
+[2023-06-30 14:04:17] INFO root fetch - processPackages [dclab]: Remove: archive file [/home/abi/fetcher/tmp/dclab-0.9.1.tar.gz]
+[2023-06-30 14:04:17] INFO root fetch - main [MainThread]: End processing [dclab]: success
+[2023-06-30 14:04:18] INFO root fetch - processPackages [django-computedfields]: Remove: archive file [/home/abi/fetcher/tmp/django-computedfields-0.2.2.tar.gz]
+[2023-06-30 14:04:18] INFO root fetch - processPackages [django-computedfields]: Remove: archive file [/home/abi/fetcher/tmp/django-computedfields-0.2.3.tar.gz]
+[2023-06-30 14:04:18] INFO root fetch - main [MainThread]: End processing [django-computedfields]: success
+[2023-06-30 14:04:19] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-06-30 14:04:19] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-06-30 14:04:19] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-06-30 14:06:20] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.14.0.tar.gz]
+[2023-06-30 14:06:20] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.14.1.tar.gz]
+[2023-06-30 14:06:20] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-06-30 14:06:20] INFO root fetch - main [MainThread]: Store serial: [18710238]
