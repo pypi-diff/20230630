@@ -11389,3 +11389,58 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 06:15:05] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
 [2023-06-30 06:15:05] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
 [2023-06-30 06:15:05] INFO root fetch - main [MainThread]: Store serial: [18705820]
+[2023-06-30 06:20:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705820]
+[2023-06-30 06:20:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-30 06:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multicast-expert
+[2023-06-30 06:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mercury-sync
+[2023-06-30 06:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localmd
+[2023-06-30 06:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: windbg-copilot
+[2023-06-30 06:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: windbg-copilot
+[2023-06-30 06:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dea-tools
+[2023-06-30 06:20:14] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-30 06:20:14] INFO root fetch - processPackages [localmd]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-30 06:20:14] INFO root fetch - processPackages [multicast-expert]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-30 06:20:14] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 06:20:14] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 06:20:15] INFO root fetch - processPackages [dea-tools]: New version: [0.2.8.dev97] Old Version: [0.2.8.dev96]
+[2023-06-30 06:20:15] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-06-30 06:20:15] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-06-30 06:20:15] INFO root fetch - processPackages [multicast-expert]: Downloading https://files.pythonhosted.org/packages/85/8b/12f5c49ad21771d1beaafd07e46d1ded0e71926b11426648a2d3b23027d2/multicast_expert-1.2.0.tar.gz
+[2023-06-30 06:20:15] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-06-30 06:20:15] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/a5/8f/e6c38c4a30e34e27c73d390677fb69b536831fdf18ceac5323ec7e5952f2/dea-tools-0.2.8.dev96.tar.gz
+[2023-06-30 06:20:15] INFO root fetch - processPackages [localmd]: Downloading https://files.pythonhosted.org/packages/10/16/af69a91b829c2076c87ed169a696168e0659d22357f0261dfeccf7f7e84f/localmd-0.0.1.tar.gz
+[2023-06-30 06:20:15] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-06-30 06:20:15] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-06-30 06:20:15] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/6c/a2/54f9080291998aff375fbdeae573a4329cd884f655a27302bbcdf010cc6d/dea-tools-0.2.8.dev97.tar.gz
+[2023-06-30 06:20:15] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-06-30 06:20:15] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-06-30 06:20:15] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230630/w/windbg-copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 06:20:15] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-06-30 06:20:15] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230630/w/windbg-copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 06:20:15] INFO root fetch - processPackages [multicast-expert]: Downloading https://files.pythonhosted.org/packages/bc/c5/51a1e9a7e04b73c8708e8edb9a10b69ff7ea8b3b635f526ce5d5f2935e7b/multicast_expert-1.2.1.tar.gz
+[2023-06-30 06:20:15] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-06-30 06:20:15] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230630/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-30 06:20:15] INFO root fetch - processPackages [dea-tools]: executing diffoscope
+[2023-06-30 06:20:15] INFO root fetch - processPackages [dea-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dea-tools-0.2.8.dev96.tar.gz tmp/dea-tools-0.2.8.dev97.tar.gz --markdown 20230630/d/dea-tools/0.2.8.dev96-0.2.8.dev97/diff.md --exclude *.pyd
+[2023-06-30 06:20:15] INFO root fetch - processPackages [multicast-expert]: executing diffoscope
+[2023-06-30 06:20:15] INFO root fetch - processPackages [multicast-expert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicast_expert-1.2.0.tar.gz tmp/multicast_expert-1.2.1.tar.gz --markdown 20230630/m/multicast-expert/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-30 06:20:15] INFO root fetch - processPackages [localmd]: Downloading https://files.pythonhosted.org/packages/62/03/b6ee721c75075ced87582f376e84d1d6bb061eaa63fa7369d4764b0e1aee/localmd-0.0.2.tar.gz
+[2023-06-30 06:20:15] INFO root fetch - processPackages [localmd]: executing diffoscope
+[2023-06-30 06:20:15] INFO root fetch - processPackages [localmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localmd-0.0.1.tar.gz tmp/localmd-0.0.2.tar.gz --markdown 20230630/l/localmd/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 06:20:16] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-06-30 06:20:16] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-06-30 06:20:16] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-06-30 06:20:16] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-06-30 06:20:16] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-06-30 06:20:16] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-06-30 06:20:16] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-06-30 06:20:16] INFO root fetch - processPackages [multicast-expert]: Remove: archive file [/home/abi/fetcher/tmp/multicast_expert-1.2.0.tar.gz]
+[2023-06-30 06:20:16] INFO root fetch - processPackages [multicast-expert]: Remove: archive file [/home/abi/fetcher/tmp/multicast_expert-1.2.1.tar.gz]
+[2023-06-30 06:20:16] INFO root fetch - main [MainThread]: End processing [multicast-expert]: success
+[2023-06-30 06:20:16] INFO root fetch - processPackages [localmd]: Remove: archive file [/home/abi/fetcher/tmp/localmd-0.0.1.tar.gz]
+[2023-06-30 06:20:16] INFO root fetch - processPackages [localmd]: Remove: archive file [/home/abi/fetcher/tmp/localmd-0.0.2.tar.gz]
+[2023-06-30 06:20:16] INFO root fetch - main [MainThread]: End processing [localmd]: success
+[2023-06-30 06:20:16] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea-tools-0.2.8.dev96.tar.gz]
+[2023-06-30 06:20:16] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea-tools-0.2.8.dev97.tar.gz]
+[2023-06-30 06:20:16] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
+[2023-06-30 06:20:16] INFO root fetch - main [MainThread]: Store serial: [18705841]
