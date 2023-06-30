@@ -2777,3 +2777,95 @@
 [2023-06-30 02:48:18] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306290045.tar.gz]
 [2023-06-30 02:48:18] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-30 02:48:18] INFO root fetch - main [MainThread]: Store serial: [18702724]
+[2023-06-30 02:53:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702724]
+[2023-06-30 02:53:27] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-30 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rembg
+[2023-06-30 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autotraders
+[2023-06-30 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-pricing
+[2023-06-30 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypha
+[2023-06-30 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-organizations
+[2023-06-30 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyppbox
+[2023-06-30 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-comprehend-s3olap
+[2023-06-30 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: psbs
+[2023-06-30 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyterlab-templates
+[2023-06-30 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aicoder
+[2023-06-30 02:53:27] WARNING root fetch - processPackages [openai-pricing]: Skipping, unable to determine old version
+[2023-06-30 02:53:27] INFO root fetch - processPackages [openai-pricing]: Start processing: fastgenerateapi
+[2023-06-30 02:53:27] INFO root fetch - main [MainThread]: End processing [openai-pricing] error
+[2023-06-30 02:53:27] INFO root fetch - processPackages [jupyterlab-templates]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-30 02:53:27] INFO root fetch - processPackages [autotraders]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-30 02:53:27] INFO root fetch - processPackages [pyppbox]: New version: [3.0b3] Old Version: [3.0b2]
+[2023-06-30 02:53:27] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-06-30 02:53:27] INFO root fetch - processPackages [aicoder]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-30 02:53:27] INFO root fetch - processPackages [psbs]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-30 02:53:27] INFO root fetch - processPackages [rembg]: New version: [2.0.49] Old Version: [2.0.48]
+[2023-06-30 02:53:27] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-30 02:53:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-30 02:53:27] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/7d/83/93dec8526ac31aba83a36c4a9452ac994c7a30d4ce44692a28363a650e5b/autotraders-1.6.0.tar.gz
+[2023-06-30 02:53:27] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-06-30 02:53:28] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-30 02:53:28] INFO root fetch - processPackages [pyppbox]: Downloading https://files.pythonhosted.org/packages/ff/5d/375471a60165b054f8c12ab4c0449254b83674e75e8bf1432d51edb44854/pyppbox-3.0b2.tar.gz
+[2023-06-30 02:53:28] INFO root fetch - processPackages [rembg]: Downloading https://files.pythonhosted.org/packages/ca/44/8dd7c2ff53744a816f005bd894e9acd3d39a703e81a07d46d8e73be89a48/rembg-2.0.48.tar.gz
+[2023-06-30 02:53:28] INFO root fetch - processPackages [psbs]: Downloading https://files.pythonhosted.org/packages/9b/76/8ceb2bb888df96a753e01e4e2379c875c85926f8bca05cf34b7c51b0a2ba/psbs-0.1.3.tar.gz
+[2023-06-30 02:53:28] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/28/99/620a58904e610eb09fdb654b4397380757123329c65e78b3772e6acff5c2/aicoder-0.1.5-py3-none-any.whl
+[2023-06-30 02:53:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-30 02:53:28] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-30 02:53:28] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-06-30 02:53:28] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/fa/ff/a8723fb335c80330c505642927e4a61c306235ed61caa8130fb1cf1b1353/autotraders-1.6.1.tar.gz
+[2023-06-30 02:53:28] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-30 02:53:28] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-30 02:53:28] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/7f/91/a405456acd3b77c270c049a322420d06af1f82de5a3e7eef455613f9c791/fastgenerateapi-0.0.6.tar.gz
+[2023-06-30 02:53:28] INFO root fetch - processPackages [jupyterlab-templates]: Downloading https://files.pythonhosted.org/packages/15/4a/635a7147c1ce3c41c57b28a074e443a8daf8dbbf6914abd0a8b5b97c716d/jupyterlab_templates-0.4.0.tar.gz
+[2023-06-30 02:53:28] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-06-30 02:53:28] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230630/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-06-30 02:53:28] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-06-30 02:53:28] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-1.6.0.tar.gz tmp/autotraders-1.6.1.tar.gz --markdown 20230630/a/autotraders/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-30 02:53:28] INFO root fetch - processPackages [psbs]: Downloading https://files.pythonhosted.org/packages/8c/97/008367d728c55657094b6e850e1a04a2a522da91418f1709f14b89a7cda6/psbs-0.1.4.tar.gz
+[2023-06-30 02:53:28] INFO root fetch - processPackages [pyppbox]: Downloading https://files.pythonhosted.org/packages/79/af/ab7ca0bb9374bb47e488d39ad5ca17b8dfc4d934de15e25f04edcb13716f/pyppbox-3.0b3.tar.gz
+[2023-06-30 02:53:28] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/3e/44/5249f1d04f6df9e8b7f8d59fd363e904bb87d062d279e586158d9b008613/aicoder-0.1.6-py3-none-any.whl
+[2023-06-30 02:53:28] INFO root fetch - processPackages [rembg]: Downloading https://files.pythonhosted.org/packages/42/86/7763c60086d3b6bb306057737309e99b58bf215f0190fbfba1f590c814de/rembg-2.0.49.tar.gz
+[2023-06-30 02:53:28] INFO root fetch - processPackages [psbs]: executing diffoscope
+[2023-06-30 02:53:28] INFO root fetch - processPackages [psbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psbs-0.1.3.tar.gz tmp/psbs-0.1.4.tar.gz --markdown 20230630/p/psbs/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-30 02:53:28] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-06-30 02:53:28] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.1.5-py3-none-any.whl.zip tmp/aicoder-0.1.6-py3-none-any.whl.zip --markdown 20230630/a/aicoder/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-30 02:53:28] INFO root fetch - processPackages [pyppbox]: executing diffoscope
+[2023-06-30 02:53:28] INFO root fetch - processPackages [pyppbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyppbox-3.0b2.tar.gz tmp/pyppbox-3.0b3.tar.gz --markdown 20230630/p/pyppbox/3.0b2-3.0b3/diff.md --exclude *.pyd
+[2023-06-30 02:53:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-30 02:53:28] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/83/6d/2cc828965a510fdfcf565bbee0529b755e68f8a9e0de2e06584bd1f6b9fb/fastgenerateapi-0.0.7.tar.gz
+[2023-06-30 02:53:28] INFO root fetch - processPackages [jupyterlab-templates]: Downloading https://files.pythonhosted.org/packages/f0/c3/fa6b8c391f3a5beecf9e819644167043b30b0b3b6a5895a81419ef00a91b/jupyterlab_templates-0.4.1.tar.gz
+[2023-06-30 02:53:28] INFO root fetch - processPackages [rembg]: executing diffoscope
+[2023-06-30 02:53:28] INFO root fetch - processPackages [rembg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rembg-2.0.48.tar.gz tmp/rembg-2.0.49.tar.gz --markdown 20230630/r/rembg/2.0.48-2.0.49/diff.md --exclude *.pyd
+[2023-06-30 02:53:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-30 02:53:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230630/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-30 02:53:28] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2023-06-30 02:53:28] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.6.tar.gz tmp/fastgenerateapi-0.0.7.tar.gz --markdown 20230630/f/fastgenerateapi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-30 02:53:28] INFO root fetch - processPackages [jupyterlab-templates]: executing diffoscope
+[2023-06-30 02:53:28] INFO root fetch - processPackages [jupyterlab-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_templates-0.4.0.tar.gz tmp/jupyterlab_templates-0.4.1.tar.gz --markdown 20230630/j/jupyterlab-templates/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-30 02:53:29] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.1.5-py3-none-any.whl.zip]
+[2023-06-30 02:53:29] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.1.6-py3-none-any.whl.zip]
+[2023-06-30 02:53:29] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-06-30 02:53:29] INFO root fetch - processPackages [psbs]: Remove: archive file [/home/abi/fetcher/tmp/psbs-0.1.3.tar.gz]
+[2023-06-30 02:53:29] INFO root fetch - processPackages [psbs]: Remove: archive file [/home/abi/fetcher/tmp/psbs-0.1.4.tar.gz]
+[2023-06-30 02:53:29] INFO root fetch - main [MainThread]: End processing [psbs]: success
+[2023-06-30 02:53:30] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.6.0.tar.gz]
+[2023-06-30 02:53:30] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.6.1.tar.gz]
+[2023-06-30 02:53:30] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-06-30 02:53:30] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-30 02:53:30] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-30 02:53:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-30 02:53:30] INFO root fetch - processPackages [rembg]: Remove: archive file [/home/abi/fetcher/tmp/rembg-2.0.48.tar.gz]
+[2023-06-30 02:53:30] INFO root fetch - processPackages [rembg]: Remove: archive file [/home/abi/fetcher/tmp/rembg-2.0.49.tar.gz]
+[2023-06-30 02:53:30] INFO root fetch - main [MainThread]: End processing [rembg]: success
+[2023-06-30 02:53:30] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-06-30 02:53:30] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-06-30 02:53:30] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-06-30 02:53:31] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.6.tar.gz]
+[2023-06-30 02:53:31] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.7.tar.gz]
+[2023-06-30 02:53:31] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2023-06-30 02:53:31] INFO root fetch - processPackages [jupyterlab-templates]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_templates-0.4.0.tar.gz]
+[2023-06-30 02:53:31] INFO root fetch - processPackages [jupyterlab-templates]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_templates-0.4.1.tar.gz]
+[2023-06-30 02:53:31] INFO root fetch - main [MainThread]: End processing [jupyterlab-templates]: success
+[2023-06-30 02:53:33] INFO root fetch - processPackages [pyppbox]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox-3.0b2.tar.gz]
+[2023-06-30 02:53:33] INFO root fetch - processPackages [pyppbox]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox-3.0b3.tar.gz]
+[2023-06-30 02:53:33] INFO root fetch - main [MainThread]: End processing [pyppbox]: success
+[2023-06-30 02:53:33] INFO root fetch - main [MainThread]: Store serial: [18702762]
