@@ -18720,3 +18720,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 12:43:33] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-4.6.0a1688120123.tar.gz]
 [2023-06-30 12:43:33] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
 [2023-06-30 12:43:33] INFO root fetch - main [MainThread]: Store serial: [18708967]
+[2023-06-30 12:48:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18708967]
+[2023-06-30 12:48:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-30 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RelStorage
+[2023-06-30 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: event-model
+[2023-06-30 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hacs-frontend
+[2023-06-30 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: specklia
+[2023-06-30 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inuits-policy-based-auth
+[2023-06-30 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TEST-TC
+[2023-06-30 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aa-fleetfinder
+[2023-06-30 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: servicefoundry
+[2023-06-30 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cognite-sdk
+[2023-06-30 12:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netbox-cisco-support-plugin
+[2023-06-30 12:48:43] INFO root fetch - processPackages [TEST-TC]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 12:48:43] INFO root fetch - processPackages [specklia]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-30 12:48:43] INFO root fetch - processPackages [hacs-frontend]: New version: [9] Old Version: [8]
+[2023-06-30 12:48:43] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 12:48:43] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.9rc2] Old Version: [0.9.9rc1]
+[2023-06-30 12:48:43] INFO root fetch - processPackages [cognite-sdk]: New version: [6.5.7] Old Version: [6.5.6]
+[2023-06-30 12:48:43] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/4b/54/4a6311d8b103f58145787acb710d11417db7aa8446ae2bec85633213f873/hacs-frontend-8.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/6f/e0/017b19a86d3424b8a81bdfca2c2c80fb5e172a0922225ccccec2b5f887c1/TEST_TC-0.1.8.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/5a/0f/5286dc4f95f369ee3525eac6e7f91ec5bfa97f90fd13fe012bf7aaffdd7b/specklia-1.1.6.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [inuits-policy-based-auth]: New version: [4.0.0] Old Version: [3.0.1]
+[2023-06-30 12:48:43] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [aa-fleetfinder]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-30 12:48:43] INFO root fetch - processPackages [event-model]: New version: [1.9.0a3] Old Version: [1.9.0a2]
+[2023-06-30 12:48:43] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/cf/3d/45cce2a587ad2caf386abbf8aa60a4603316826c6ad98b7be8d9d39f32e0/cognite_sdk-6.5.6.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [RelStorage]: New version: [4.0.0a1] Old Version: [3.5.0a6]
+[2023-06-30 12:48:43] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/02/05/5016312c66b2c7a88f194b61f74c045e7449386ad8b2d1c5248a45a6094f/servicefoundry-0.9.9rc1.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/6d/5c/f25b41776fc35340d66c8aa3ad4776d1da3fea7196e32769a31ac9e448c2/specklia-1.1.7.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/22/5c/36515670aef534d1fa215574fa87bf9cf9968666fce06689c80a084fb36b/TEST_TC-0.1.9.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/7b/e1/a89861aececc92c48683bbb172c8d1a6324194c9caa2b3d1e869416304e7/cognite_sdk-6.5.7.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-06-30 12:48:43] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.1.6.tar.gz tmp/specklia-1.1.7.tar.gz --markdown 20230630/s/specklia/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-30 12:48:43] INFO root fetch - processPackages [inuits-policy-based-auth]: Downloading https://files.pythonhosted.org/packages/68/8e/3167adcc2c41ec0765528cb56ee582d47326489feee891cc9332a704a753/inuits_policy_based_auth-3.0.1.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-30 12:48:43] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230630/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 12:48:43] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/95/2d/4d48175602335d472c23250316e448a45d05e4002ce13dc0e65cd515514a/servicefoundry-0.9.9rc2.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/27/64/99fc7d5e575ed7ac25aaf6fa2230eea1499ac447c06f0c88af1a96d19d69/hacs-frontend-9.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-06-30 12:48:43] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-0.1.8.tar.gz tmp/TEST_TC-0.1.9.tar.gz --markdown 20230630/T/TEST-TC/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 12:48:43] INFO root fetch - processPackages [event-model]: Downloading https://files.pythonhosted.org/packages/99/ee/42e07110de4632fbb07b21d5e2137eb8cd05b20958b88fd1353c88310172/event-model-1.9.0a2.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [RelStorage]: Downloading https://files.pythonhosted.org/packages/1c/80/e0cc19359c3cb603de0a16b835f19c7920008bb9badf28ca78317a477876/RelStorage-3.5.0a6.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-06-30 12:48:43] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.5.6.tar.gz tmp/cognite_sdk-6.5.7.tar.gz --markdown 20230630/c/cognite-sdk/6.5.6-6.5.7/diff.md --exclude *.pyd
+[2023-06-30 12:48:43] INFO root fetch - processPackages [aa-fleetfinder]: Downloading https://files.pythonhosted.org/packages/dc/48/370cfc4f16e98a09f27743d4b1cef728c05e2a7d0605f173059d64610c38/aa_fleetfinder-1.2.0.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2023-06-30 12:48:43] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.9rc1.tar.gz tmp/servicefoundry-0.9.9rc2.tar.gz --markdown 20230630/s/servicefoundry/0.9.9rc1-0.9.9rc2/diff.md --exclude *.pyd
+[2023-06-30 12:48:43] INFO root fetch - processPackages [hacs-frontend]: executing diffoscope
+[2023-06-30 12:48:43] INFO root fetch - processPackages [hacs-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hacs-frontend-8.tar.gz tmp/hacs-frontend-9.tar.gz --markdown 20230630/h/hacs-frontend/8-9/diff.md --exclude *.pyd
+[2023-06-30 12:48:43] INFO root fetch - processPackages [inuits-policy-based-auth]: Downloading https://files.pythonhosted.org/packages/f4/da/d5aae4568bb75525688b374d39e049f257d40dd2f4d36f52701afc876b6a/inuits_policy_based_auth-4.0.0.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [inuits-policy-based-auth]: executing diffoscope
+[2023-06-30 12:48:43] INFO root fetch - processPackages [inuits-policy-based-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inuits_policy_based_auth-3.0.1.tar.gz tmp/inuits_policy_based_auth-4.0.0.tar.gz --markdown 20230630/i/inuits-policy-based-auth/3.0.1-4.0.0/diff.md --exclude *.pyd
+[2023-06-30 12:48:43] INFO root fetch - processPackages [aa-fleetfinder]: Downloading https://files.pythonhosted.org/packages/38/e1/ba156e07082a319feb6e515917a80bf0f87891456ec6c48b395f566a0cf6/aa_fleetfinder-1.3.0.tar.gz
+[2023-06-30 12:48:43] INFO root fetch - processPackages [aa-fleetfinder]: executing diffoscope
+[2023-06-30 12:48:43] INFO root fetch - processPackages [aa-fleetfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_fleetfinder-1.2.0.tar.gz tmp/aa_fleetfinder-1.3.0.tar.gz --markdown 20230630/a/aa-fleetfinder/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-30 12:48:44] INFO root fetch - processPackages [RelStorage]: Downloading https://files.pythonhosted.org/packages/43/20/79e388c7c6c953695c96d9d8e70829462ede05f6e25885cb938b344162d8/RelStorage-4.0.0a1.tar.gz
+[2023-06-30 12:48:44] INFO root fetch - processPackages [event-model]: Downloading https://files.pythonhosted.org/packages/0f/6e/02fa17189113f1bef88703ae97792f1e2ebeef32a91ac72031c979e58f6e/event-model-1.9.0a3.tar.gz
+[2023-06-30 12:48:44] INFO root fetch - processPackages [event-model]: executing diffoscope
+[2023-06-30 12:48:44] INFO root fetch - processPackages [event-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event-model-1.9.0a2.tar.gz tmp/event-model-1.9.0a3.tar.gz --markdown 20230630/e/event-model/1.9.0a2-1.9.0a3/diff.md --exclude *.pyd
+[2023-06-30 12:48:44] INFO root fetch - processPackages [RelStorage]: executing diffoscope
+[2023-06-30 12:48:44] INFO root fetch - processPackages [RelStorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RelStorage-3.5.0a6.tar.gz tmp/RelStorage-4.0.0a1.tar.gz --markdown 20230630/R/RelStorage/3.5.0a6-4.0.0a1/diff.md --exclude *.pyd
+[2023-06-30 12:48:44] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.1.6.tar.gz]
+[2023-06-30 12:48:44] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.1.7.tar.gz]
+[2023-06-30 12:48:44] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-06-30 12:48:44] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.8.tar.gz]
+[2023-06-30 12:48:44] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.9.tar.gz]
+[2023-06-30 12:48:44] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-06-30 12:48:45] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-30 12:48:45] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-30 12:48:45] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-30 12:48:45] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-8.tar.gz]
+[2023-06-30 12:48:45] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-9.tar.gz]
+[2023-06-30 12:48:45] INFO root fetch - main [MainThread]: End processing [hacs-frontend]: success
+[2023-06-30 12:48:45] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc1.tar.gz]
+[2023-06-30 12:48:45] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc2.tar.gz]
+[2023-06-30 12:48:45] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2023-06-30 12:48:45] INFO root fetch - processPackages [event-model]: Remove: archive file [/home/abi/fetcher/tmp/event-model-1.9.0a2.tar.gz]
+[2023-06-30 12:48:45] INFO root fetch - processPackages [event-model]: Remove: archive file [/home/abi/fetcher/tmp/event-model-1.9.0a3.tar.gz]
+[2023-06-30 12:48:45] INFO root fetch - main [MainThread]: End processing [event-model]: success
+[2023-06-30 12:48:46] INFO root fetch - processPackages [aa-fleetfinder]: Remove: archive file [/home/abi/fetcher/tmp/aa_fleetfinder-1.2.0.tar.gz]
+[2023-06-30 12:48:46] INFO root fetch - processPackages [aa-fleetfinder]: Remove: archive file [/home/abi/fetcher/tmp/aa_fleetfinder-1.3.0.tar.gz]
+[2023-06-30 12:48:46] INFO root fetch - main [MainThread]: End processing [aa-fleetfinder]: success
+[2023-06-30 12:48:46] INFO root fetch - processPackages [inuits-policy-based-auth]: Remove: archive file [/home/abi/fetcher/tmp/inuits_policy_based_auth-3.0.1.tar.gz]
+[2023-06-30 12:48:46] INFO root fetch - processPackages [inuits-policy-based-auth]: Remove: archive file [/home/abi/fetcher/tmp/inuits_policy_based_auth-4.0.0.tar.gz]
+[2023-06-30 12:48:46] INFO root fetch - main [MainThread]: End processing [inuits-policy-based-auth]: success
+[2023-06-30 12:48:48] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.5.6.tar.gz]
+[2023-06-30 12:48:48] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.5.7.tar.gz]
+[2023-06-30 12:48:48] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-06-30 12:49:08] INFO root fetch - processPackages [RelStorage]: Remove: archive file [/home/abi/fetcher/tmp/RelStorage-3.5.0a6.tar.gz]
+[2023-06-30 12:49:08] INFO root fetch - processPackages [RelStorage]: Remove: archive file [/home/abi/fetcher/tmp/RelStorage-4.0.0a1.tar.gz]
+[2023-06-30 12:49:08] INFO root fetch - main [MainThread]: End processing [RelStorage]: success
+[2023-06-30 12:49:08] INFO root fetch - main [MainThread]: Store serial: [18709002]
