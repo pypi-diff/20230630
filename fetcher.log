@@ -2889,3 +2889,84 @@
 [2023-06-30 02:58:44] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
 [2023-06-30 02:58:44] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
 [2023-06-30 02:58:44] INFO root fetch - main [MainThread]: Store serial: [18702775]
+[2023-06-30 03:03:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702775]
+[2023-06-30 03:03:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-30 03:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: velesresearch
+[2023-06-30 03:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbi
+[2023-06-30 03:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-databrew-cicd
+[2023-06-30 03:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Pulse3D
+[2023-06-30 03:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-pricing
+[2023-06-30 03:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-substance-painter
+[2023-06-30 03:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plone.restapi
+[2023-06-30 03:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bioversions
+[2023-06-30 03:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-organizations
+[2023-06-30 03:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BeeDrive
+[2023-06-30 03:03:52] INFO root fetch - processPackages [Pulse3D]: New version: [0.33.9] Old Version: [0.33.8]
+[2023-06-30 03:03:52] INFO root fetch - processPackages [nbi]: New version: [0.3.1] Old Version: [0.0.1]
+[2023-06-30 03:03:52] INFO root fetch - processPackages [velesresearch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 03:03:52] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-30 03:03:52] WARNING root fetch - processPackages [openai-pricing]: Skipping, unable to determine old version
+[2023-06-30 03:03:52] WARNING root fetch - processPackages [types-substance-painter]: Skipping, unable to determine old version
+[2023-06-30 03:03:52] INFO root fetch - main [MainThread]: End processing [openai-pricing] error
+[2023-06-30 03:03:52] INFO root fetch - main [MainThread]: End processing [types-substance-painter] error
+[2023-06-30 03:03:53] INFO root fetch - processPackages [plone.restapi]: New version: [8.9.1] Old Version: [8.9.0]
+[2023-06-30 03:03:53] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-30 03:03:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-30 03:03:53] INFO root fetch - processPackages [BeeDrive]: New version: [0.3.7.1] Old Version: [0.3.6.1]
+[2023-06-30 03:03:53] INFO root fetch - processPackages [velesresearch]: Downloading https://files.pythonhosted.org/packages/d4/47/f403bfae871a2804e955911398b6a50c78be6c3b05f7f4c0a8e817c893ac/velesresearch-0.0.8.tar.gz
+[2023-06-30 03:03:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-30 03:03:53] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-30 03:03:53] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-06-30 03:03:53] INFO root fetch - processPackages [nbi]: Downloading https://files.pythonhosted.org/packages/8a/36/a7d008a732971b91e6bf860645bbe28ee04a24114a2e117ea70a66f90516/nbi-0.0.1-py3-none-any.whl
+[2023-06-30 03:03:53] INFO root fetch - processPackages [plone.restapi]: Downloading https://files.pythonhosted.org/packages/6d/e8/e32eb898d045619683790f432ac985e414f02b7acdf3035d4b2e7d92a046/plone.restapi-8.9.0.tar.gz
+[2023-06-30 03:03:53] INFO root fetch - processPackages [Pulse3D]: Downloading https://files.pythonhosted.org/packages/04/9d/0c6a47f0db508f90286b673abb964ae964032c7f77cc8b11c9a484349ae9/Pulse3D-0.33.8.tar.gz
+[2023-06-30 03:03:53] INFO root fetch - processPackages [velesresearch]: Downloading https://files.pythonhosted.org/packages/6b/dd/b64796e835f52b11e97b904279adda31584edbc802d8e231bb1b3a00f6a3/velesresearch-0.0.9.tar.gz
+[2023-06-30 03:03:53] INFO root fetch - processPackages [BeeDrive]: Downloading https://files.pythonhosted.org/packages/d1/71/1069f21c774df93977c4f7e0c9d6bae88c56e20d288efe80e69ee58fab40/BeeDrive-0.3.6.1.tar.gz
+[2023-06-30 03:03:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-30 03:03:53] INFO root fetch - processPackages [velesresearch]: executing diffoscope
+[2023-06-30 03:03:53] INFO root fetch - processPackages [velesresearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velesresearch-0.0.8.tar.gz tmp/velesresearch-0.0.9.tar.gz --markdown 20230630/v/velesresearch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 03:03:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-30 03:03:53] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230630/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-30 03:03:53] INFO root fetch - processPackages [nbi]: Downloading https://files.pythonhosted.org/packages/5c/e4/c3d82efa889d9b19e39de1af002f25395da4c742fa1e27729a38dd4c5143/nbi-0.3.1.tar.gz
+[2023-06-30 03:03:53] INFO root fetch - processPackages [Pulse3D]: Downloading https://files.pythonhosted.org/packages/c6/97/41984430cef31e00a4dbcb6ba9652156e059270f6c7317150222d3ddf347/Pulse3D-0.33.9.tar.gz
+[2023-06-30 03:03:53] INFO root fetch - processPackages [BeeDrive]: Downloading https://files.pythonhosted.org/packages/a2/cb/42f8b980de6e42a220f194824cfdce16d451f015945f903ccee14fddce0a/BeeDrive-0.3.7.1.tar.gz
+[2023-06-30 03:03:53] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-06-30 03:03:53] INFO root fetch - processPackages [nbi]: executing diffoscope
+[2023-06-30 03:03:53] INFO root fetch - processPackages [nbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbi-0.0.1-py3-none-any.whl.zip tmp/nbi-0.3.1.tar.gz --markdown 20230630/n/nbi/0.0.1-0.3.1/diff.md --exclude *.pyd
+[2023-06-30 03:03:53] INFO root fetch - processPackages [Pulse3D]: executing diffoscope
+[2023-06-30 03:03:53] INFO root fetch - processPackages [Pulse3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pulse3D-0.33.8.tar.gz tmp/Pulse3D-0.33.9.tar.gz --markdown 20230630/P/Pulse3D/0.33.8-0.33.9/diff.md --exclude *.pyd
+[2023-06-30 03:03:53] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-06-30 03:03:53] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230630/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-30 03:03:53] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-30 03:03:53] INFO root fetch - processPackages [BeeDrive]: executing diffoscope
+[2023-06-30 03:03:53] INFO root fetch - processPackages [BeeDrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeeDrive-0.3.6.1.tar.gz tmp/BeeDrive-0.3.7.1.tar.gz --markdown 20230630/B/BeeDrive/0.3.6.1-0.3.7.1/diff.md --exclude *.pyd
+[2023-06-30 03:03:54] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-30 03:03:54] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230630/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-30 03:03:54] INFO root fetch - processPackages [plone.restapi]: Downloading https://files.pythonhosted.org/packages/33/68/6801f068e5c970b2e51849ae5831a9c2172d1179cfbfdb656bdcf249b4bf/plone.restapi-8.9.1.tar.gz
+[2023-06-30 03:03:54] INFO root fetch - processPackages [nbi]: Remove: archive file [/home/abi/fetcher/tmp/nbi-0.0.1-py3-none-any.whl.zip]
+[2023-06-30 03:03:54] INFO root fetch - processPackages [nbi]: Remove: archive file [/home/abi/fetcher/tmp/nbi-0.3.1.tar.gz]
+[2023-06-30 03:03:54] INFO root fetch - main [MainThread]: End processing [nbi]: success
+[2023-06-30 03:03:54] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-30 03:03:54] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-30 03:03:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-30 03:03:55] INFO root fetch - processPackages [velesresearch]: Remove: archive file [/home/abi/fetcher/tmp/velesresearch-0.0.8.tar.gz]
+[2023-06-30 03:03:55] INFO root fetch - processPackages [velesresearch]: Remove: archive file [/home/abi/fetcher/tmp/velesresearch-0.0.9.tar.gz]
+[2023-06-30 03:03:55] INFO root fetch - main [MainThread]: End processing [velesresearch]: success
+[2023-06-30 03:03:55] INFO root fetch - processPackages [BeeDrive]: Remove: archive file [/home/abi/fetcher/tmp/BeeDrive-0.3.6.1.tar.gz]
+[2023-06-30 03:03:55] INFO root fetch - processPackages [BeeDrive]: Remove: archive file [/home/abi/fetcher/tmp/BeeDrive-0.3.7.1.tar.gz]
+[2023-06-30 03:03:55] INFO root fetch - main [MainThread]: End processing [BeeDrive]: success
+[2023-06-30 03:03:55] INFO root fetch - processPackages [Pulse3D]: Remove: archive file [/home/abi/fetcher/tmp/Pulse3D-0.33.8.tar.gz]
+[2023-06-30 03:03:55] INFO root fetch - processPackages [Pulse3D]: Remove: archive file [/home/abi/fetcher/tmp/Pulse3D-0.33.9.tar.gz]
+[2023-06-30 03:03:55] INFO root fetch - main [MainThread]: End processing [Pulse3D]: success
+[2023-06-30 03:03:55] INFO root fetch - processPackages [plone.restapi]: executing diffoscope
+[2023-06-30 03:03:55] INFO root fetch - processPackages [plone.restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.restapi-8.9.0.tar.gz tmp/plone.restapi-8.9.1.tar.gz --markdown 20230630/p/plone.restapi/8.9.0-8.9.1/diff.md --exclude *.pyd
+[2023-06-30 03:03:56] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-30 03:03:56] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-30 03:03:56] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-30 03:04:02] INFO root fetch - processPackages [plone.restapi]: Remove: archive file [/home/abi/fetcher/tmp/plone.restapi-8.9.0.tar.gz]
+[2023-06-30 03:04:02] INFO root fetch - processPackages [plone.restapi]: Remove: archive file [/home/abi/fetcher/tmp/plone.restapi-8.9.1.tar.gz]
+[2023-06-30 03:04:02] INFO root fetch - main [MainThread]: End processing [plone.restapi]: success
+[2023-06-30 03:04:14] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-06-30 03:04:14] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-06-30 03:04:14] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-06-30 03:04:14] INFO root fetch - main [MainThread]: Store serial: [18702816]
