@@ -11519,3 +11519,48 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 06:25:30] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.3.1.tar.gz]
 [2023-06-30 06:25:30] INFO root fetch - main [MainThread]: End processing [evadb]: success
 [2023-06-30 06:25:30] INFO root fetch - main [MainThread]: Store serial: [18705879]
+[2023-06-30 06:30:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705879]
+[2023-06-30 06:30:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-30 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oloren
+[2023-06-30 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-qt5-cef
+[2023-06-30 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windbg-copilot
+[2023-06-30 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tdxpy
+[2023-06-30 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micropython-icp10111
+[2023-06-30 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agixtsdk
+[2023-06-30 06:30:39] WARNING root fetch - processPackages [test-qt5-cef]: Skipping, unable to determine old version
+[2023-06-30 06:30:39] INFO root fetch - main [MainThread]: End processing [test-qt5-cef] error
+[2023-06-30 06:30:39] INFO root fetch - processPackages [tdxpy]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-30 06:30:39] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 06:30:39] INFO root fetch - processPackages [agixtsdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-30 06:30:39] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 06:30:39] WARNING root fetch - processPackages [micropython-icp10111]: Skipping, unable to determine old version
+[2023-06-30 06:30:39] INFO root fetch - main [MainThread]: End processing [micropython-icp10111] error
+[2023-06-30 06:30:39] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-06-30 06:30:39] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/5d/d0/f97c50b863a2d79ed8e9cb6b1fa77def5b60d2ec15c5abacb3c3b064ede9/agixtsdk-0.0.5.tar.gz
+[2023-06-30 06:30:39] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-30 06:30:39] INFO root fetch - processPackages [tdxpy]: Downloading https://files.pythonhosted.org/packages/50/cf/2159155bee162fc3d6e48e21c9bae8d29a8e3b6c609bb5cb39922082daa2/tdxpy-0.2.1.tar.gz
+[2023-06-30 06:30:40] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-06-30 06:30:40] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/9c/95/92fcfef71732586811e4394d4a54e318e85ff7e12237c100253dc3280c46/agixtsdk-0.0.6.tar.gz
+[2023-06-30 06:30:40] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-30 06:30:40] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-06-30 06:30:40] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230630/w/windbg-copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 06:30:40] INFO root fetch - processPackages [agixtsdk]: executing diffoscope
+[2023-06-30 06:30:40] INFO root fetch - processPackages [agixtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixtsdk-0.0.5.tar.gz tmp/agixtsdk-0.0.6.tar.gz --markdown 20230630/a/agixtsdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-30 06:30:40] INFO root fetch - processPackages [tdxpy]: Downloading https://files.pythonhosted.org/packages/ef/ed/f6845c0452a20a811f02fb422b4424808fceb8db08f5a0c816a37f979ca0/tdxpy-0.2.2.tar.gz
+[2023-06-30 06:30:40] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-30 06:30:40] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230630/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 06:30:40] INFO root fetch - processPackages [tdxpy]: executing diffoscope
+[2023-06-30 06:30:40] INFO root fetch - processPackages [tdxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdxpy-0.2.1.tar.gz tmp/tdxpy-0.2.2.tar.gz --markdown 20230630/t/tdxpy/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-30 06:30:41] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-06-30 06:30:41] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-06-30 06:30:41] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-06-30 06:30:41] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.5.tar.gz]
+[2023-06-30 06:30:41] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.6.tar.gz]
+[2023-06-30 06:30:41] INFO root fetch - main [MainThread]: End processing [agixtsdk]: success
+[2023-06-30 06:30:41] INFO root fetch - processPackages [tdxpy]: Remove: archive file [/home/abi/fetcher/tmp/tdxpy-0.2.1.tar.gz]
+[2023-06-30 06:30:41] INFO root fetch - processPackages [tdxpy]: Remove: archive file [/home/abi/fetcher/tmp/tdxpy-0.2.2.tar.gz]
+[2023-06-30 06:30:41] INFO root fetch - main [MainThread]: End processing [tdxpy]: success
+[2023-06-30 06:30:45] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-30 06:30:45] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-30 06:30:45] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-30 06:30:45] INFO root fetch - main [MainThread]: Store serial: [18705902]
