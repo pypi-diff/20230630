@@ -22934,3 +22934,176 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 15:06:33] INFO root fetch - processPackages [preheat-open]: Remove: archive file [/home/abi/fetcher/tmp/preheat_open-1.39.tar.gz]
 [2023-06-30 15:06:33] INFO root fetch - main [MainThread]: End processing [preheat-open]: success
 [2023-06-30 15:06:33] INFO root fetch - main [MainThread]: Store serial: [18711105]
+[2023-06-30 15:11:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18711105]
+[2023-06-30 15:11:43] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-30 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testless-textanalyzer
+[2023-06-30 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-06-30 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-access-sdk
+[2023-06-30 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: griffon
+[2023-06-30 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ice-simplex-assimilate
+[2023-06-30 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yeref
+[2023-06-30 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: typeconvert
+[2023-06-30 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sparql-visualizer
+[2023-06-30 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: herdmod
+[2023-06-30 15:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cosmian-anonymization
+[2023-06-30 15:11:43] INFO root fetch - processPackages [griffon]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-30 15:11:43] INFO root fetch - processPackages [herdmod]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-30 15:11:43] INFO root fetch - processPackages [ice-simplex-assimilate]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-30 15:11:43] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-30 15:11:43] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-06-30 15:11:43] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/0b/6b/5564fe5b66bd54e15cf6684604c2924c6d6a5b6aab4160ec053aea1dcab8/griffon-0.2.8.tar.gz
+[2023-06-30 15:11:43] INFO root fetch - processPackages [herdmod]: Downloading https://files.pythonhosted.org/packages/40/fd/8a3da8e031950f8ad2bae9912380b61ea3bc1fd39b24238fc6812383cf93/herdmod-0.0.2.tar.gz
+[2023-06-30 15:11:43] INFO root fetch - processPackages [ice-simplex-assimilate]: Downloading https://files.pythonhosted.org/packages/f7/99/899068c730831578581ffb64b40297e11666f7ee19b480e5d9ac2b39d4af/ice_simplex_assimilate-0.1.1.tar.gz
+[2023-06-30 15:11:43] WARNING root fetch - processPackages [testless-textanalyzer]: Skipping, unable to determine old version
+[2023-06-30 15:11:43] INFO root fetch - processPackages [testless-textanalyzer]: Start processing: nbdev-stdlib
+[2023-06-30 15:11:43] WARNING root fetch - processPackages [sparql-visualizer]: Skipping, unable to determine old version
+[2023-06-30 15:11:43] INFO root fetch - processPackages [sparql-visualizer]: Start processing: asterisk-plus-agent
+[2023-06-30 15:11:43] INFO root fetch - processPackages [typeconvert]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-30 15:11:43] INFO root fetch - main [MainThread]: End processing [testless-textanalyzer] error
+[2023-06-30 15:11:43] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-06-30 15:11:43] INFO root fetch - main [MainThread]: End processing [sparql-visualizer] error
+[2023-06-30 15:11:43] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-06-30 15:11:43] INFO root fetch - processPackages [cosmian-anonymization]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-30 15:11:43] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.6.30] Old Version: [2023.6.29]
+[2023-06-30 15:11:43] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/e8/3c/17888a21a950e536dbbfb731858cdc8be559b6a88de9a48f58a3cbf592d4/griffon-0.2.9.tar.gz
+[2023-06-30 15:11:43] INFO root fetch - processPackages [asterisk-plus-agent]: New version: [3.0.0] Old Version: [2.5.1]
+[2023-06-30 15:11:43] INFO root fetch - processPackages [ice-simplex-assimilate]: Downloading https://files.pythonhosted.org/packages/20/93/59dbaf9e5e4af77140b57457d360c2efa2809cbfb4e8cd7d3a7aef381e4c/ice_simplex_assimilate-0.1.2.tar.gz
+[2023-06-30 15:11:43] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-06-30 15:11:43] INFO root fetch - processPackages [griffon]: executing diffoscope
+[2023-06-30 15:11:43] INFO root fetch - processPackages [griffon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffon-0.2.8.tar.gz tmp/griffon-0.2.9.tar.gz --markdown 20230630/g/griffon/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-30 15:11:43] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 15:11:43] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-06-30 15:11:43] INFO root fetch - processPackages [typeconvert]: Downloading https://files.pythonhosted.org/packages/5b/cd/cf0665e9f4ab3a93fe16eb2aa0dd821d72147d785e560a28539b13945778/typeconvert-0.1.3.tar.gz
+[2023-06-30 15:11:43] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f5/c1/c75ac4e835e5c0a56c5cf6ebaa51a0cf74d7aa002c91ddd64b7cba56d4af/fbgemm_gpu_nightly_cpu-2023.6.29-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-30 15:11:43] INFO root fetch - processPackages [cosmian-anonymization]: Downloading https://files.pythonhosted.org/packages/bc/d0/7e9d4f72712d995fa9174ade85b7f56958bbee78553f48282e7f0ccd9ddf/cosmian_anonymization-1.1.0-py3-none-any.whl
+[2023-06-30 15:11:43] INFO root fetch - processPackages [herdmod]: Downloading https://files.pythonhosted.org/packages/c0/07/a3c8bcb0adc45d7fdc0c7dd86d041da813ddb51a63770e4286349280de0a/herdmod-0.0.3.tar.gz
+[2023-06-30 15:11:43] INFO root fetch - processPackages [ice-simplex-assimilate]: executing diffoscope
+[2023-06-30 15:11:43] INFO root fetch - processPackages [ice-simplex-assimilate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ice_simplex_assimilate-0.1.1.tar.gz tmp/ice_simplex_assimilate-0.1.2.tar.gz --markdown 20230630/i/ice-simplex-assimilate/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-30 15:11:43] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-30 15:11:43] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230630/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-30 15:11:43] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-30 15:11:43] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-06-30 15:11:43] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230630/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-06-30 15:11:43] INFO root fetch - processPackages [asterisk-plus-agent]: Downloading https://files.pythonhosted.org/packages/7a/9a/94c41f40935b1c68039676a52c35309b1fbd089b24bbb926252bbcf004c1/asterisk-plus-agent-2.5.1.tar.gz
+[2023-06-30 15:11:43] INFO root fetch - processPackages [herdmod]: executing diffoscope
+[2023-06-30 15:11:43] INFO root fetch - processPackages [herdmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herdmod-0.0.2.tar.gz tmp/herdmod-0.0.3.tar.gz --markdown 20230630/h/herdmod/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-30 15:11:43] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-30 15:11:43] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-30 15:11:43] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230630/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 15:11:44] INFO root fetch - processPackages [cosmian-anonymization]: Downloading https://files.pythonhosted.org/packages/2d/16/912bd1ae8985aca5c2d18c6d8fb3aabb83042ed371fe5de8287094dd21bb/cosmian_anonymization-1.1.1-py3-none-any.whl
+[2023-06-30 15:11:44] INFO root fetch - processPackages [asterisk-plus-agent]: Downloading https://files.pythonhosted.org/packages/c5/47/fa287d761a8e69263ad075c2a989264d520fa656e001e293bd4ee08c2dd3/asterisk-plus-agent-3.0.0.tar.gz
+[2023-06-30 15:11:44] INFO root fetch - processPackages [cosmian-anonymization]: executing diffoscope
+[2023-06-30 15:11:44] INFO root fetch - processPackages [cosmian-anonymization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmian_anonymization-1.1.0-py3-none-any.whl.zip tmp/cosmian_anonymization-1.1.1-py3-none-any.whl.zip --markdown 20230630/c/cosmian-anonymization/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-30 15:11:44] INFO root fetch - processPackages [asterisk-plus-agent]: executing diffoscope
+[2023-06-30 15:11:44] INFO root fetch - processPackages [asterisk-plus-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asterisk-plus-agent-2.5.1.tar.gz tmp/asterisk-plus-agent-3.0.0.tar.gz --markdown 20230630/a/asterisk-plus-agent/2.5.1-3.0.0/diff.md --exclude *.pyd
+[2023-06-30 15:11:44] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f7/e8/78410c5d8b3f468f30f937aa93a03a065cd9d0482bc2b03f9453f8e0e2cc/fbgemm_gpu_nightly_cpu-2023.6.30-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-30 15:11:45] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-06-30 15:11:45] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.6.29-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.6.30-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230630/f/fbgemm-gpu-nightly-cpu/2023.6.29-2023.6.30/diff.md --exclude *.pyd
+[2023-06-30 15:11:45] INFO root fetch - processPackages [ice-simplex-assimilate]: Remove: archive file [/home/abi/fetcher/tmp/ice_simplex_assimilate-0.1.1.tar.gz]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [ice-simplex-assimilate]: Remove: archive file [/home/abi/fetcher/tmp/ice_simplex_assimilate-0.1.2.tar.gz]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [ice-simplex-assimilate]: Start processing: email-finder-website
+[2023-06-30 15:11:45] INFO root fetch - main [MainThread]: End processing [ice-simplex-assimilate]: success
+[2023-06-30 15:11:45] INFO root fetch - processPackages [typeconvert]: Downloading https://files.pythonhosted.org/packages/c8/78/20700bd1336e417af25c17f1793511cd0d3280514b5e7c2ce31055b5a2f6/typeconvert-0.1.4.tar.gz
+[2023-06-30 15:11:45] WARNING root fetch - processPackages [email-finder-website]: Skipping, unable to determine old version
+[2023-06-30 15:11:45] INFO root fetch - processPackages [email-finder-website]: Start processing: pepperize.cdk-route53-health-check
+[2023-06-30 15:11:45] INFO root fetch - main [MainThread]: End processing [email-finder-website] error
+[2023-06-30 15:11:45] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [yeref]: Start processing: PyMLST
+[2023-06-30 15:11:45] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-30 15:11:45] INFO root fetch - processPackages [herdmod]: Remove: archive file [/home/abi/fetcher/tmp/herdmod-0.0.2.tar.gz]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [herdmod]: Remove: archive file [/home/abi/fetcher/tmp/herdmod-0.0.3.tar.gz]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [herdmod]: Start processing: xmen
+[2023-06-30 15:11:45] INFO root fetch - main [MainThread]: End processing [herdmod]: success
+[2023-06-30 15:11:45] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-06-30 15:11:45] INFO root fetch - processPackages [PyMLST]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [xmen]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [cosmian-anonymization]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_anonymization-1.1.0-py3-none-any.whl.zip]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [cosmian-anonymization]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_anonymization-1.1.1-py3-none-any.whl.zip]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [cosmian-anonymization]: Start processing: nopasaran
+[2023-06-30 15:11:45] INFO root fetch - main [MainThread]: End processing [cosmian-anonymization]: success
+[2023-06-30 15:11:45] INFO root fetch - processPackages [nopasaran]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [asterisk-plus-agent]: Remove: archive file [/home/abi/fetcher/tmp/asterisk-plus-agent-2.5.1.tar.gz]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [asterisk-plus-agent]: Remove: archive file [/home/abi/fetcher/tmp/asterisk-plus-agent-3.0.0.tar.gz]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [asterisk-plus-agent]: Start processing: pynaroma
+[2023-06-30 15:11:45] INFO root fetch - main [MainThread]: End processing [asterisk-plus-agent]: success
+[2023-06-30 15:11:45] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/2e/76/889e2e716e40b501895c259513d8e4e12a2477266774d40af987ec6b225f/nopasaran-0.1.8.tar.gz
+[2023-06-30 15:11:45] INFO root fetch - processPackages [PyMLST]: Downloading https://files.pythonhosted.org/packages/f1/ee/77f0663a2221d7e44b07a14f74c6d3279c19640338e84f2c39ed984bb166/PyMLST-2.1.3.tar.gz
+[2023-06-30 15:11:45] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-06-30 15:11:45] INFO root fetch - processPackages [xmen]: Downloading https://files.pythonhosted.org/packages/12/a8/19a62bc350785862b61537b842d822ef91628e5101b084820478550a1f42/xmen-0.9.6.tar.gz
+[2023-06-30 15:11:45] INFO root fetch - processPackages [pynaroma]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [typeconvert]: executing diffoscope
+[2023-06-30 15:11:45] INFO root fetch - processPackages [typeconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeconvert-0.1.3.tar.gz tmp/typeconvert-0.1.4.tar.gz --markdown 20230630/t/typeconvert/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-30 15:11:45] INFO root fetch - processPackages [griffon]: Remove: archive file [/home/abi/fetcher/tmp/griffon-0.2.8.tar.gz]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [griffon]: Remove: archive file [/home/abi/fetcher/tmp/griffon-0.2.9.tar.gz]
+[2023-06-30 15:11:45] INFO root fetch - processPackages [griffon]: Start processing: clubbi-utils
+[2023-06-30 15:11:45] INFO root fetch - main [MainThread]: End processing [griffon]: success
+[2023-06-30 15:11:45] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/06/39/faad0468f9b182e1dd512d9780ad8fa0e88b792e6ff42e0e5fb141a79b46/nopasaran-0.1.9.tar.gz
+[2023-06-30 15:11:46] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-06-30 15:11:46] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230630/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 15:11:46] INFO root fetch - processPackages [nopasaran]: executing diffoscope
+[2023-06-30 15:11:46] INFO root fetch - processPackages [nopasaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopasaran-0.1.8.tar.gz tmp/nopasaran-0.1.9.tar.gz --markdown 20230630/n/nopasaran/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 15:11:46] INFO root fetch - processPackages [pynaroma]: Downloading https://files.pythonhosted.org/packages/3c/2e/f39b601a8ff0b37d6a95975ab5d5a9211837726e6ca6fd680a2553ca93f0/pynaroma-0.4.0.tar.gz
+[2023-06-30 15:11:46] INFO root fetch - processPackages [clubbi-utils]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-06-30 15:11:46] INFO root fetch - processPackages [PyMLST]: Downloading https://files.pythonhosted.org/packages/58/54/4ddd2e96629a17bf60e728e48e53e47f0720710db9b1416b3d34716f9824/PyMLST-2.1.4.tar.gz
+[2023-06-30 15:11:46] INFO root fetch - processPackages [xmen]: Downloading https://files.pythonhosted.org/packages/82/cc/7bf902539759845e1a4794c9af16a60f5b78b2872d419c8656f9fc5298fa/xmen-0.9.7.tar.gz
+[2023-06-30 15:11:46] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-06-30 15:11:46] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-06-30 15:11:46] INFO root fetch - processPackages [finbourne-access-sdk]: Start processing: feedancy
+[2023-06-30 15:11:46] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-06-30 15:11:46] INFO root fetch - processPackages [PyMLST]: executing diffoscope
+[2023-06-30 15:11:46] INFO root fetch - processPackages [PyMLST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMLST-2.1.3.tar.gz tmp/PyMLST-2.1.4.tar.gz --markdown 20230630/P/PyMLST/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-06-30 15:11:46] INFO root fetch - processPackages [feedancy]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-30 15:11:46] INFO root fetch - processPackages [xmen]: executing diffoscope
+[2023-06-30 15:11:46] INFO root fetch - processPackages [xmen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmen-0.9.6.tar.gz tmp/xmen-0.9.7.tar.gz --markdown 20230630/x/xmen/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-30 15:11:46] INFO root fetch - processPackages [feedancy]: Downloading https://files.pythonhosted.org/packages/5d/c8/de1b42dfbf9473d6b9a412a47b32f5eae2aaccf734eebbf09ea677a13bef/feedancy-0.0.0.tar.gz
+[2023-06-30 15:11:46] INFO root fetch - processPackages [pynaroma]: Downloading https://files.pythonhosted.org/packages/8d/a3/5300d86128a134cdacbf8566d3836c19ad6fcd3ddddefb72b054d0018a2b/pynaroma-0.4.1.tar.gz
+[2023-06-30 15:11:46] INFO root fetch - processPackages [clubbi-utils]: Downloading https://files.pythonhosted.org/packages/f6/7a/7564c9d027e8e16cb0c0424d75c652316965b0fd1712910d3944f896861e/clubbi_utils-5.0.2.tar.gz
+[2023-06-30 15:11:46] INFO root fetch - processPackages [pynaroma]: executing diffoscope
+[2023-06-30 15:11:46] INFO root fetch - processPackages [pynaroma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynaroma-0.4.0.tar.gz tmp/pynaroma-0.4.1.tar.gz --markdown 20230630/p/pynaroma/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-30 15:11:46] INFO root fetch - processPackages [feedancy]: Downloading https://files.pythonhosted.org/packages/1a/eb/53cf4181984e036e07c149318553a66eab913f8124a18aa7bc4ff96ff7c2/feedancy-0.0.1.tar.gz
+[2023-06-30 15:11:46] INFO root fetch - processPackages [clubbi-utils]: executing diffoscope
+[2023-06-30 15:11:46] INFO root fetch - processPackages [clubbi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clubbi_utils-5.0.1.tar.gz tmp/clubbi_utils-5.0.2.tar.gz --markdown 20230630/c/clubbi-utils/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-06-30 15:11:46] INFO root fetch - processPackages [feedancy]: executing diffoscope
+[2023-06-30 15:11:46] INFO root fetch - processPackages [feedancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feedancy-0.0.0.tar.gz tmp/feedancy-0.0.1.tar.gz --markdown 20230630/f/feedancy/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-30 15:11:47] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-30 15:11:47] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-30 15:11:47] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: nbdev-numpy
+[2023-06-30 15:11:47] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-30 15:11:47] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.1.8.tar.gz]
+[2023-06-30 15:11:47] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.1.9.tar.gz]
+[2023-06-30 15:11:47] INFO root fetch - main [MainThread]: End processing [nopasaran]: success
+[2023-06-30 15:11:47] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 15:11:47] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-30 15:11:47] INFO root fetch - processPackages [typeconvert]: Remove: archive file [/home/abi/fetcher/tmp/typeconvert-0.1.3.tar.gz]
+[2023-06-30 15:11:47] INFO root fetch - processPackages [typeconvert]: Remove: archive file [/home/abi/fetcher/tmp/typeconvert-0.1.4.tar.gz]
+[2023-06-30 15:11:47] INFO root fetch - main [MainThread]: End processing [typeconvert]: success
+[2023-06-30 15:11:47] INFO root fetch - processPackages [clubbi-utils]: Remove: archive file [/home/abi/fetcher/tmp/clubbi_utils-5.0.1.tar.gz]
+[2023-06-30 15:11:47] INFO root fetch - processPackages [clubbi-utils]: Remove: archive file [/home/abi/fetcher/tmp/clubbi_utils-5.0.2.tar.gz]
+[2023-06-30 15:11:47] INFO root fetch - main [MainThread]: End processing [clubbi-utils]: success
+[2023-06-30 15:11:47] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-30 15:11:48] INFO root fetch - processPackages [PyMLST]: Remove: archive file [/home/abi/fetcher/tmp/PyMLST-2.1.3.tar.gz]
+[2023-06-30 15:11:48] INFO root fetch - processPackages [PyMLST]: Remove: archive file [/home/abi/fetcher/tmp/PyMLST-2.1.4.tar.gz]
+[2023-06-30 15:11:48] INFO root fetch - main [MainThread]: End processing [PyMLST]: success
+[2023-06-30 15:11:48] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-30 15:11:48] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230630/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 15:11:48] INFO root fetch - processPackages [xmen]: Remove: archive file [/home/abi/fetcher/tmp/xmen-0.9.6.tar.gz]
+[2023-06-30 15:11:48] INFO root fetch - processPackages [xmen]: Remove: archive file [/home/abi/fetcher/tmp/xmen-0.9.7.tar.gz]
+[2023-06-30 15:11:48] INFO root fetch - main [MainThread]: End processing [xmen]: success
+[2023-06-30 15:11:48] INFO root fetch - processPackages [pynaroma]: Remove: archive file [/home/abi/fetcher/tmp/pynaroma-0.4.0.tar.gz]
+[2023-06-30 15:11:48] INFO root fetch - processPackages [pynaroma]: Remove: archive file [/home/abi/fetcher/tmp/pynaroma-0.4.1.tar.gz]
+[2023-06-30 15:11:48] INFO root fetch - main [MainThread]: End processing [pynaroma]: success
+[2023-06-30 15:11:49] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-30 15:11:49] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-30 15:11:49] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-30 15:11:49] INFO root fetch - processPackages [feedancy]: Remove: archive file [/home/abi/fetcher/tmp/feedancy-0.0.0.tar.gz]
+[2023-06-30 15:11:49] INFO root fetch - processPackages [feedancy]: Remove: archive file [/home/abi/fetcher/tmp/feedancy-0.0.1.tar.gz]
+[2023-06-30 15:11:49] INFO root fetch - main [MainThread]: End processing [feedancy]: success
+[2023-06-30 15:11:49] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-06-30 15:11:49] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-06-30 15:11:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-06-30 15:12:31] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.29-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-30 15:12:31] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.30-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-30 15:12:31] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-06-30 15:12:31] INFO root fetch - main [MainThread]: Store serial: [18711181]
