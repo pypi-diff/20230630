@@ -19302,3 +19302,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 13:10:12] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a5.tar.gz]
 [2023-06-30 13:10:12] INFO root fetch - main [MainThread]: End processing [dataplicity]: success
 [2023-06-30 13:10:12] INFO root fetch - main [MainThread]: Store serial: [18709267]
+[2023-06-30 13:15:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18709267]
+[2023-06-30 13:15:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-30 13:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sniimapp
+[2023-06-30 13:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grai-source-dbt-cloud
+[2023-06-30 13:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feedancy
+[2023-06-30 13:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drf-rehive-extras
+[2023-06-30 13:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fatfs
+[2023-06-30 13:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lamindb_setup
+[2023-06-30 13:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-simple-accounting
+[2023-06-30 13:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyms-nist-search
+[2023-06-30 13:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbox-cisco-support-plugin
+[2023-06-30 13:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lnschema_core
+[2023-06-30 13:15:22] WARNING root fetch - processPackages [feedancy]: Skipping, unable to determine old version
+[2023-06-30 13:15:22] INFO root fetch - main [MainThread]: End processing [feedancy] error
+[2023-06-30 13:15:22] INFO root fetch - processPackages [fatfs]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-30 13:15:22] INFO root fetch - processPackages [sniimapp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 13:15:22] INFO root fetch - processPackages [lamindb_setup]: New version: [0.48.0] Old Version: [0.47.9]
+[2023-06-30 13:15:22] INFO root fetch - processPackages [django-simple-accounting]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-30 13:15:22] INFO root fetch - processPackages [grai-source-dbt-cloud]: New version: [0.1.0a1] Old Version: [0.0.5]
+[2023-06-30 13:15:22] INFO root fetch - processPackages [drf-rehive-extras]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-30 13:15:22] INFO root fetch - processPackages [pyms-nist-search]: New version: [0.6.0] Old Version: [0.5.0b3]
+[2023-06-30 13:15:22] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-30 13:15:22] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 13:15:22] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/fb/d1/ec907fcf8092b0658f18c33c834998acf50826cf6eed46c8361c96638f8f/sniimapp-0.0.8.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [django-simple-accounting]: Downloading https://files.pythonhosted.org/packages/e2/6d/b1f762f2da57b0b52ef9d4fe6c4cabc3634991d3b334a0022fadb448d1bb/django_simple_accounting-0.1.3.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [drf-rehive-extras]: Downloading https://files.pythonhosted.org/packages/c1/1f/66d0a491fe38b3b55f881c4033346f0de427928bc94a7440e842b97286da/drf-rehive-extras-2.0.1.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [grai-source-dbt-cloud]: Downloading https://files.pythonhosted.org/packages/c9/3a/d0fda501b7d19207eb576e372c0f03ca27e54f4825772208d1017cd8aa25/grai_source_dbt_cloud-0.0.5.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/91/8d/c5571bc83bbcc08295c0e157cb8fa4a6a3ab5991a802816b85abae6cac44/lamindb_setup-0.47.9.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [fatfs]: Downloading https://files.pythonhosted.org/packages/e2/a8/36f1c773f3e0bfa6513dd751374b1afec56973617d684bd4090a56b5fa98/fatfs-0.0.6.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [pyms-nist-search]: Downloading https://files.pythonhosted.org/packages/5a/fc/66c5e02e9748edee325e50d37f3477eb4fd670e7efd3b1c5f59a69383858/pyms-nist-search-0.5.0b3.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/32/41/5f0bd7028c0c84a365a70d9ce3684ef44e347a22a1d33861d0f928009701/sniimapp-0.0.9.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-06-30 13:15:22] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.8.tar.gz tmp/sniimapp-0.0.9.tar.gz --markdown 20230630/s/sniimapp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 13:15:22] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-06-30 13:15:22] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230630/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-30 13:15:22] INFO root fetch - processPackages [drf-rehive-extras]: Downloading https://files.pythonhosted.org/packages/51/49/739ffd3dc0e0cd8b17029720066f4097272a2969051ff8b88fd9ebccca3e/drf-rehive-extras-2.0.2.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [django-simple-accounting]: Downloading https://files.pythonhosted.org/packages/52/b7/ded283726defe56de2e9a0ad87db5f81f9db025d7e7934c6e3e55e15a89c/django_simple_accounting-0.1.4.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [grai-source-dbt-cloud]: Downloading https://files.pythonhosted.org/packages/1b/8e/4a397ab5bcd89b38985618502508f02d75f5756befad340569177a1fe7c5/grai_source_dbt_cloud-0.1.0a1.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/e1/6a/f22e23dc298dd796df8325c49816027760d02d7407983a92ef4a96a0a3e4/lamindb_setup-0.48.0.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [drf-rehive-extras]: executing diffoscope
+[2023-06-30 13:15:22] INFO root fetch - processPackages [drf-rehive-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-rehive-extras-2.0.1.tar.gz tmp/drf-rehive-extras-2.0.2.tar.gz --markdown 20230630/d/drf-rehive-extras/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-30 13:15:22] INFO root fetch - processPackages [django-simple-accounting]: executing diffoscope
+[2023-06-30 13:15:22] INFO root fetch - processPackages [django-simple-accounting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_simple_accounting-0.1.3.tar.gz tmp/django_simple_accounting-0.1.4.tar.gz --markdown 20230630/d/django-simple-accounting/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-30 13:15:22] INFO root fetch - processPackages [fatfs]: Downloading https://files.pythonhosted.org/packages/46/b7/0ec2f5c4b5d2eeb09cc87aaf1b04a90bdc4458e6f3b415444bd2af065f56/fatfs-0.0.7.tar.gz
+[2023-06-30 13:15:22] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-30 13:15:22] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230630/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 13:15:22] INFO root fetch - processPackages [grai-source-dbt-cloud]: executing diffoscope
+[2023-06-30 13:15:22] INFO root fetch - processPackages [grai-source-dbt-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_dbt_cloud-0.0.5.tar.gz tmp/grai_source_dbt_cloud-0.1.0a1.tar.gz --markdown 20230630/g/grai-source-dbt-cloud/0.0.5-0.1.0a1/diff.md --exclude *.pyd
+[2023-06-30 13:15:22] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-06-30 13:15:22] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.47.9.tar.gz tmp/lamindb_setup-0.48.0.tar.gz --markdown 20230630/l/lamindb_setup/0.47.9-0.48.0/diff.md --exclude *.pyd
+[2023-06-30 13:15:22] INFO root fetch - processPackages [pyms-nist-search]: Downloading https://files.pythonhosted.org/packages/99/a1/2a62cb6e7f5cde1bffbbff24ebb4ebf2448b37c4d3c5260f302af1e696a4/pyms-nist-search-0.6.0.tar.gz
+[2023-06-30 13:15:23] INFO root fetch - processPackages [fatfs]: executing diffoscope
+[2023-06-30 13:15:23] INFO root fetch - processPackages [fatfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fatfs-0.0.6.tar.gz tmp/fatfs-0.0.7.tar.gz --markdown 20230630/f/fatfs/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-30 13:15:23] INFO root fetch - processPackages [pyms-nist-search]: executing diffoscope
+[2023-06-30 13:15:23] INFO root fetch - processPackages [pyms-nist-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyms-nist-search-0.5.0b3.tar.gz tmp/pyms-nist-search-0.6.0.tar.gz --markdown 20230630/p/pyms-nist-search/0.5.0b3-0.6.0/diff.md --exclude *.pyd
+[2023-06-30 13:15:24] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.8.tar.gz]
+[2023-06-30 13:15:24] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.9.tar.gz]
+[2023-06-30 13:15:24] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-06-30 13:15:24] INFO root fetch - processPackages [django-simple-accounting]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_accounting-0.1.3.tar.gz]
+[2023-06-30 13:15:24] INFO root fetch - processPackages [django-simple-accounting]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_accounting-0.1.4.tar.gz]
+[2023-06-30 13:15:24] INFO root fetch - main [MainThread]: End processing [django-simple-accounting]: success
+[2023-06-30 13:15:24] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-06-30 13:15:24] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-06-30 13:15:24] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-06-30 13:15:24] INFO root fetch - processPackages [drf-rehive-extras]: Remove: archive file [/home/abi/fetcher/tmp/drf-rehive-extras-2.0.1.tar.gz]
+[2023-06-30 13:15:24] INFO root fetch - processPackages [drf-rehive-extras]: Remove: archive file [/home/abi/fetcher/tmp/drf-rehive-extras-2.0.2.tar.gz]
+[2023-06-30 13:15:24] INFO root fetch - main [MainThread]: End processing [drf-rehive-extras]: success
+[2023-06-30 13:15:24] INFO root fetch - processPackages [grai-source-dbt-cloud]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_dbt_cloud-0.0.5.tar.gz]
+[2023-06-30 13:15:24] INFO root fetch - processPackages [grai-source-dbt-cloud]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_dbt_cloud-0.1.0a1.tar.gz]
+[2023-06-30 13:15:24] INFO root fetch - main [MainThread]: End processing [grai-source-dbt-cloud]: success
+[2023-06-30 13:15:24] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-30 13:15:24] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-30 13:15:24] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-30 13:15:24] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.47.9.tar.gz]
+[2023-06-30 13:15:24] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.48.0.tar.gz]
+[2023-06-30 13:15:24] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-06-30 13:15:25] INFO root fetch - processPackages [fatfs]: Remove: archive file [/home/abi/fetcher/tmp/fatfs-0.0.6.tar.gz]
+[2023-06-30 13:15:25] INFO root fetch - processPackages [fatfs]: Remove: archive file [/home/abi/fetcher/tmp/fatfs-0.0.7.tar.gz]
+[2023-06-30 13:15:25] INFO root fetch - main [MainThread]: End processing [fatfs]: success
+[2023-06-30 13:15:27] INFO root fetch - processPackages [pyms-nist-search]: Remove: archive file [/home/abi/fetcher/tmp/pyms-nist-search-0.5.0b3.tar.gz]
+[2023-06-30 13:15:27] INFO root fetch - processPackages [pyms-nist-search]: Remove: archive file [/home/abi/fetcher/tmp/pyms-nist-search-0.6.0.tar.gz]
+[2023-06-30 13:15:27] INFO root fetch - main [MainThread]: End processing [pyms-nist-search]: success
+[2023-06-30 13:15:27] INFO root fetch - main [MainThread]: Store serial: [18709342]
