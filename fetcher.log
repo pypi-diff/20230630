@@ -16764,3 +16764,178 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 11:11:49] INFO root fetch - processPackages [inmanta-module-terraform]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_terraform-1.3.9-py3-none-any.whl.zip]
 [2023-06-30 11:11:49] INFO root fetch - main [MainThread]: End processing [inmanta-module-terraform]: success
 [2023-06-30 11:11:49] INFO root fetch - main [MainThread]: Store serial: [18708032]
+[2023-06-30 11:16:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18708032]
+[2023-06-30 11:16:58] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-30 11:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoxx
+[2023-06-30 11:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caraml-upi-protos
+[2023-06-30 11:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inmanta-module-openstack
+[2023-06-30 11:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: leafy
+[2023-06-30 11:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: petsc
+[2023-06-30 11:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: petsc4py
+[2023-06-30 11:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: glue-helper-lib
+[2023-06-30 11:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dover-lap
+[2023-06-30 11:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stdocker
+[2023-06-30 11:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: waivek
+[2023-06-30 11:16:58] INFO root fetch - processPackages [inmanta-module-openstack]: New version: [3.8.9] Old Version: [3.8.8]
+[2023-06-30 11:16:58] INFO root fetch - processPackages [autoxx]: New version: [0.0.38] Old Version: [0.0.37]
+[2023-06-30 11:16:58] INFO root fetch - processPackages [petsc4py]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-30 11:16:58] INFO root fetch - processPackages [leafy]: New version: [0.1.5a0] Old Version: [0.1.4]
+[2023-06-30 11:16:58] INFO root fetch - processPackages [petsc]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-06-30 11:16:58] INFO root fetch - processPackages [waivek]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 11:16:58] INFO root fetch - processPackages [caraml-upi-protos]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-30 11:16:58] INFO root fetch - processPackages [dover-lap]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-30 11:16:58] INFO root fetch - processPackages [glue-helper-lib]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-30 11:16:58] INFO root fetch - processPackages [stdocker]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-30 11:16:58] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/8c/d1/949e523dd2d5b53ef756c740c7633425f3adeb94ad2c376cf81a62587e2e/waivek-0.1.8.tar.gz
+[2023-06-30 11:16:58] INFO root fetch - processPackages [stdocker]: Downloading https://files.pythonhosted.org/packages/ac/0b/057a4d8a98cd54a1851e4bc2a65840e582f69062d5afe4c3e764085c67a7/stdocker-1.1.0.tar.gz
+[2023-06-30 11:16:58] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/b1/63/f887cfd4a25b1d6943a14d14fe5c0cdf57a57d35ef8d9ebbad44771089ae/autoxx-0.0.37.tar.gz
+[2023-06-30 11:16:58] INFO root fetch - processPackages [petsc4py]: Downloading https://files.pythonhosted.org/packages/ab/7e/4a73e2c00a9853d12d5092329c2c66be43cb73595303447841abf9fba2b0/petsc4py-3.9.0.tar.gz
+[2023-06-30 11:16:58] INFO root fetch - processPackages [inmanta-module-openstack]: Downloading https://files.pythonhosted.org/packages/b8/ed/dc7a845daa165c3cfc3c12ef96c447175015bb41e514fd1b700f667f8f17/inmanta_module_openstack-3.8.8-py3-none-any.whl
+[2023-06-30 11:16:59] INFO root fetch - processPackages [petsc]: Downloading https://files.pythonhosted.org/packages/e6/6c/555ad15fd1f9f2d8a044577c2df9fe855a7cd0f47d2716ebf478a2ca0a37/petsc-3.9.1.tar.gz
+[2023-06-30 11:16:59] INFO root fetch - processPackages [dover-lap]: Downloading https://files.pythonhosted.org/packages/c9/48/8f66040949191bd265d6e1213007a3ee1dc2474a424cd4d2ef756dfdfdaf/dover-lap-1.2.0.tar.gz
+[2023-06-30 11:16:59] INFO root fetch - processPackages [glue-helper-lib]: Downloading https://files.pythonhosted.org/packages/22/3f/157fa1410237a917052edfc13a52f9f3a26f302e4a74d422549d0aa54bfb/glue_helper_lib-0.5.3.tar.gz
+[2023-06-30 11:16:59] INFO root fetch - processPackages [caraml-upi-protos]: Downloading https://files.pythonhosted.org/packages/a5/e1/8ff2b653a808d2d48156d174c2f89ccd3a7ab99fecfc342cbb6681bcf20f/caraml-upi-protos-0.3.5.tar.gz
+[2023-06-30 11:16:59] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/a4/ea/4c15b5c565a13175de2213d36052b88233e76e92301d40a51c483f4f346c/waivek-0.1.9.tar.gz
+[2023-06-30 11:16:59] INFO root fetch - processPackages [leafy]: Downloading https://files.pythonhosted.org/packages/e4/24/4f5c97d5effe3cd68511caeb60f30fcdf7a46652ccb7829b737252ff7f24/leafy-0.1.4.tar.gz
+[2023-06-30 11:16:59] INFO root fetch - processPackages [stdocker]: Downloading https://files.pythonhosted.org/packages/90/06/e7facdc7e84038876e41fe7fe7fbc78cab1f85d5cc3aea48b4578bf683bd/stdocker-1.1.1.tar.gz
+[2023-06-30 11:16:59] INFO root fetch - processPackages [waivek]: executing diffoscope
+[2023-06-30 11:16:59] INFO root fetch - processPackages [waivek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waivek-0.1.8.tar.gz tmp/waivek-0.1.9.tar.gz --markdown 20230630/w/waivek/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 11:16:59] INFO root fetch - processPackages [stdocker]: executing diffoscope
+[2023-06-30 11:16:59] INFO root fetch - processPackages [stdocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdocker-1.1.0.tar.gz tmp/stdocker-1.1.1.tar.gz --markdown 20230630/s/stdocker/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-30 11:16:59] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/88/ee/7b40a5a506e832b0d667941bf247cffb505ed6ca43076def918a265813cd/autoxx-0.0.38.tar.gz
+[2023-06-30 11:16:59] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-06-30 11:16:59] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.37.tar.gz tmp/autoxx-0.0.38.tar.gz --markdown 20230630/a/autoxx/0.0.37-0.0.38/diff.md --exclude *.pyd
+[2023-06-30 11:16:59] INFO root fetch - processPackages [leafy]: Downloading https://files.pythonhosted.org/packages/88/a0/c7ae1d87ea90e297fdfc3a8927a48b02b3e968d377015c074acf44dddff3/leafy-0.1.5a0-cp39-cp39-win_amd64.whl
+[2023-06-30 11:16:59] INFO root fetch - processPackages [caraml-upi-protos]: Downloading https://files.pythonhosted.org/packages/d6/84/60b22c8465f0bb306fc7ea9aa0cf48473849b3cb917987709aef483821b8/caraml-upi-protos-0.3.6.tar.gz
+[2023-06-30 11:16:59] INFO root fetch - processPackages [caraml-upi-protos]: executing diffoscope
+[2023-06-30 11:16:59] INFO root fetch - processPackages [caraml-upi-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caraml-upi-protos-0.3.5.tar.gz tmp/caraml-upi-protos-0.3.6.tar.gz --markdown 20230630/c/caraml-upi-protos/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-30 11:16:59] INFO root fetch - processPackages [dover-lap]: Downloading https://files.pythonhosted.org/packages/11/0b/3c1053c5e3f94617579eebd8732a07d5c6528e7c8491c23e33d933858d60/dover-lap-1.3.0.tar.gz
+[2023-06-30 11:16:59] INFO root fetch - processPackages [glue-helper-lib]: Downloading https://files.pythonhosted.org/packages/2a/46/37aab38d99b81d41b8ee1e81abac07d05e6195c9b36b88439062822a905f/glue_helper_lib-0.5.4.tar.gz
+[2023-06-30 11:16:59] INFO root fetch - processPackages [inmanta-module-openstack]: Downloading https://files.pythonhosted.org/packages/50/f1/2b8129f38f67b72e7f4fcd74a0b009c2241a137c4a941d32b9ea515bbc11/inmanta_module_openstack-3.8.9-py3-none-any.whl
+[2023-06-30 11:16:59] INFO root fetch - processPackages [dover-lap]: executing diffoscope
+[2023-06-30 11:16:59] INFO root fetch - processPackages [dover-lap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dover-lap-1.2.0.tar.gz tmp/dover-lap-1.3.0.tar.gz --markdown 20230630/d/dover-lap/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-30 11:16:59] INFO root fetch - processPackages [glue-helper-lib]: executing diffoscope
+[2023-06-30 11:16:59] INFO root fetch - processPackages [glue-helper-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_helper_lib-0.5.3.tar.gz tmp/glue_helper_lib-0.5.4.tar.gz --markdown 20230630/g/glue-helper-lib/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-30 11:16:59] INFO root fetch - processPackages [leafy]: executing diffoscope
+[2023-06-30 11:16:59] INFO root fetch - processPackages [leafy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leafy-0.1.4.tar.gz tmp/leafy-0.1.5a0-cp39-cp39-win_amd64.whl.zip --markdown 20230630/l/leafy/0.1.4-0.1.5a0/diff.md --exclude *.pyd
+[2023-06-30 11:16:59] INFO root fetch - processPackages [inmanta-module-openstack]: executing diffoscope
+[2023-06-30 11:16:59] INFO root fetch - processPackages [inmanta-module-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_openstack-3.8.8-py3-none-any.whl.zip tmp/inmanta_module_openstack-3.8.9-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-openstack/3.8.8-3.8.9/diff.md --exclude *.pyd
+[2023-06-30 11:16:59] INFO root fetch - processPackages [petsc4py]: Downloading https://files.pythonhosted.org/packages/91/8c/2c5d593b5dc7aff46bd56b7c71fc5550bd342c8295440eb8c9cb255f2e71/petsc4py-3.9.1.tar.gz
+[2023-06-30 11:16:59] WARNING root fetch - processPackages [petsc]: Skipping package: exceeds size limit 11609124>=10485760
+[2023-06-30 11:16:59] INFO root fetch - processPackages [petsc]: Start processing: EnergyCapSdk
+[2023-06-30 11:16:59] INFO root fetch - main [MainThread]: End processing [petsc] error
+[2023-06-30 11:16:59] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2304.4627] Old Version: [8.2304.4626]
+[2023-06-30 11:17:00] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/7b/ed/cc7dde9cc034347e41f0d05193be52d074a8616b4a95f55d7068aa9a2f9a/EnergyCapSdk-8.2304.4626.tar.gz
+[2023-06-30 11:17:00] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/bf/fe/7246dc3117d0605acd7eaebca406e1f6739b8ca6a881f72e52646d12fd4d/EnergyCapSdk-8.2304.4627.tar.gz
+[2023-06-30 11:17:00] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-06-30 11:17:00] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2304.4626.tar.gz tmp/EnergyCapSdk-8.2304.4627.tar.gz --markdown 20230630/E/EnergyCapSdk/8.2304.4626-8.2304.4627/diff.md --exclude *.pyd
+[2023-06-30 11:17:00] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.8.tar.gz]
+[2023-06-30 11:17:00] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.9.tar.gz]
+[2023-06-30 11:17:00] INFO root fetch - processPackages [waivek]: Start processing: autodistill-albef
+[2023-06-30 11:17:00] INFO root fetch - main [MainThread]: End processing [waivek]: success
+[2023-06-30 11:17:00] WARNING root fetch - processPackages [autodistill-albef]: Skipping, unable to determine old version
+[2023-06-30 11:17:00] INFO root fetch - processPackages [autodistill-albef]: Start processing: specklia
+[2023-06-30 11:17:00] INFO root fetch - main [MainThread]: End processing [autodistill-albef] error
+[2023-06-30 11:17:00] INFO root fetch - processPackages [specklia]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-30 11:17:00] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.37.tar.gz]
+[2023-06-30 11:17:00] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.38.tar.gz]
+[2023-06-30 11:17:00] INFO root fetch - processPackages [autoxx]: Start processing: pyspartn
+[2023-06-30 11:17:00] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-06-30 11:17:00] INFO root fetch - processPackages [pyspartn]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 11:17:00] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/5a/0f/5286dc4f95f369ee3525eac6e7f91ec5bfa97f90fd13fe012bf7aaffdd7b/specklia-1.1.6.tar.gz
+[2023-06-30 11:17:00] INFO root fetch - processPackages [petsc4py]: executing diffoscope
+[2023-06-30 11:17:00] INFO root fetch - processPackages [petsc4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petsc4py-3.9.0.tar.gz tmp/petsc4py-3.9.1.tar.gz --markdown 20230630/p/petsc4py/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-30 11:17:00] INFO root fetch - processPackages [leafy]: Remove: archive file [/home/abi/fetcher/tmp/leafy-0.1.4.tar.gz]
+[2023-06-30 11:17:00] INFO root fetch - processPackages [leafy]: Remove: archive file [/home/abi/fetcher/tmp/leafy-0.1.5a0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-30 11:17:00] INFO root fetch - processPackages [leafy]: Start processing: openmetadata-ingestion
+[2023-06-30 11:17:00] INFO root fetch - main [MainThread]: End processing [leafy]: success
+[2023-06-30 11:17:00] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.1.0.0.dev0] Old Version: [1.1.0.0]
+[2023-06-30 11:17:00] INFO root fetch - processPackages [pyspartn]: Downloading https://files.pythonhosted.org/packages/94/8b/c16a772c937771bc6cf1954e6aeb9df5fd1f249f678070d5acac6630da73/pyspartn-0.1.8.tar.gz
+[2023-06-30 11:17:00] INFO root fetch - processPackages [glue-helper-lib]: Remove: archive file [/home/abi/fetcher/tmp/glue_helper_lib-0.5.3.tar.gz]
+[2023-06-30 11:17:00] INFO root fetch - processPackages [glue-helper-lib]: Remove: archive file [/home/abi/fetcher/tmp/glue_helper_lib-0.5.4.tar.gz]
+[2023-06-30 11:17:00] INFO root fetch - processPackages [glue-helper-lib]: Start processing: openmetadata-managed-apis
+[2023-06-30 11:17:00] INFO root fetch - main [MainThread]: End processing [glue-helper-lib]: success
+[2023-06-30 11:17:01] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.1.0.0.dev0] Old Version: [1.1.0.0]
+[2023-06-30 11:17:01] INFO root fetch - processPackages [inmanta-module-openstack]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_openstack-3.8.8-py3-none-any.whl.zip]
+[2023-06-30 11:17:01] INFO root fetch - processPackages [inmanta-module-openstack]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_openstack-3.8.9-py3-none-any.whl.zip]
+[2023-06-30 11:17:01] INFO root fetch - processPackages [inmanta-module-openstack]: Start processing: weworkapi-cfomp
+[2023-06-30 11:17:01] INFO root fetch - main [MainThread]: End processing [inmanta-module-openstack]: success
+[2023-06-30 11:17:01] INFO root fetch - processPackages [weworkapi-cfomp]: New version: [1.1.5.dev0] Old Version: [1.1.4]
+[2023-06-30 11:17:01] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/b0/02/4fd7d60dc73db5109d58e1e9016d5c5ad6bd14ef4e100ba7cd758284f764/openmetadata-ingestion-1.1.0.0.tar.gz
+[2023-06-30 11:17:01] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/6d/5c/f25b41776fc35340d66c8aa3ad4776d1da3fea7196e32769a31ac9e448c2/specklia-1.1.7.tar.gz
+[2023-06-30 11:17:01] INFO root fetch - processPackages [pyspartn]: Downloading https://files.pythonhosted.org/packages/1b/d8/9d7f1bd2c7c0dc03fdaa056a21295742adab9bb6a8172e27fc1a400ad1c9/pyspartn-0.1.9.tar.gz
+[2023-06-30 11:17:01] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-06-30 11:17:01] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.1.6.tar.gz tmp/specklia-1.1.7.tar.gz --markdown 20230630/s/specklia/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-30 11:17:01] INFO root fetch - processPackages [stdocker]: Remove: archive file [/home/abi/fetcher/tmp/stdocker-1.1.0.tar.gz]
+[2023-06-30 11:17:01] INFO root fetch - processPackages [stdocker]: Remove: archive file [/home/abi/fetcher/tmp/stdocker-1.1.1.tar.gz]
+[2023-06-30 11:17:01] INFO root fetch - processPackages [stdocker]: Start processing: osbuilder
+[2023-06-30 11:17:01] INFO root fetch - main [MainThread]: End processing [stdocker]: success
+[2023-06-30 11:17:01] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/a1/5d/c599c45be2df212ce3b17f21472249787edfff31ec0e4fbb236156967bbc/openmetadata_managed_apis-1.1.0.0.tar.gz
+[2023-06-30 11:17:01] INFO root fetch - processPackages [pyspartn]: executing diffoscope
+[2023-06-30 11:17:01] INFO root fetch - processPackages [pyspartn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspartn-0.1.8.tar.gz tmp/pyspartn-0.1.9.tar.gz --markdown 20230630/p/pyspartn/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 11:17:01] INFO root fetch - processPackages [osbuilder]: New version: [3.2.1.1] Old Version: [3.1.5]
+[2023-06-30 11:17:01] INFO root fetch - processPackages [weworkapi-cfomp]: Downloading https://files.pythonhosted.org/packages/fe/93/5d3450353066c5bbace3d43538f1bfffb61bb98d647438f014658ff74c32/weworkapi_cfomp-1.1.4-py3-none-any.whl
+[2023-06-30 11:17:01] INFO root fetch - processPackages [osbuilder]: Downloading https://files.pythonhosted.org/packages/2e/07/9f3b64ac186a8e213d1a035c121c8cc1fceb2dee7140fd3b11feb0c2a5b9/osbuilder-3.1.5.tar.gz
+[2023-06-30 11:17:01] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/c8/3c/2a25529cfc182e35ae210b3f8714d6bb7862aa0bd7e97762b6b43851db9a/openmetadata-ingestion-1.1.0.0.dev0.tar.gz
+[2023-06-30 11:17:01] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/d6/d9/f36fd57fe7c41f7149c960dbad0bbec174738d4ddde9a2ecb728b705e1f1/openmetadata_managed_apis-1.1.0.0.dev0.tar.gz
+[2023-06-30 11:17:01] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2023-06-30 11:17:01] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.1.0.0.tar.gz tmp/openmetadata-ingestion-1.1.0.0.dev0.tar.gz --markdown 20230630/o/openmetadata-ingestion/1.1.0.0-1.1.0.0.dev0/diff.md --exclude *.pyd
+[2023-06-30 11:17:01] INFO root fetch - processPackages [dover-lap]: Remove: archive file [/home/abi/fetcher/tmp/dover-lap-1.2.0.tar.gz]
+[2023-06-30 11:17:01] INFO root fetch - processPackages [dover-lap]: Remove: archive file [/home/abi/fetcher/tmp/dover-lap-1.3.0.tar.gz]
+[2023-06-30 11:17:01] INFO root fetch - processPackages [dover-lap]: Start processing: modular-sdk
+[2023-06-30 11:17:01] INFO root fetch - main [MainThread]: End processing [dover-lap]: success
+[2023-06-30 11:17:01] INFO root fetch - processPackages [weworkapi-cfomp]: Downloading https://files.pythonhosted.org/packages/a5/32/15431d224d608b6d1b482f1f1c8f86bea968d114044007a32aadbe962981/weworkapi_cfomp-1.1.5.dev0-py3.6.egg
+[2023-06-30 11:17:01] INFO root fetch - processPackages [caraml-upi-protos]: Remove: archive file [/home/abi/fetcher/tmp/caraml-upi-protos-0.3.5.tar.gz]
+[2023-06-30 11:17:01] INFO root fetch - processPackages [caraml-upi-protos]: Remove: archive file [/home/abi/fetcher/tmp/caraml-upi-protos-0.3.6.tar.gz]
+[2023-06-30 11:17:01] INFO root fetch - processPackages [caraml-upi-protos]: Start processing: replit2
+[2023-06-30 11:17:01] INFO root fetch - main [MainThread]: End processing [caraml-upi-protos]: success
+[2023-06-30 11:17:01] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2023-06-30 11:17:01] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.1.0.0.tar.gz tmp/openmetadata_managed_apis-1.1.0.0.dev0.tar.gz --markdown 20230630/o/openmetadata-managed-apis/1.1.0.0-1.1.0.0.dev0/diff.md --exclude *.pyd
+[2023-06-30 11:17:01] INFO root fetch - processPackages [modular-sdk]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-06-30 11:17:01] WARNING root fetch - processPackages [replit2]: Skipping, unable to determine old version
+[2023-06-30 11:17:01] INFO root fetch - processPackages [replit2]: Start processing: openqaoa-core
+[2023-06-30 11:17:01] INFO root fetch - main [MainThread]: End processing [replit2] error
+[2023-06-30 11:17:01] INFO root fetch - processPackages [weworkapi-cfomp]: executing diffoscope
+[2023-06-30 11:17:01] INFO root fetch - processPackages [weworkapi-cfomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weworkapi_cfomp-1.1.4-py3-none-any.whl.zip tmp/weworkapi_cfomp-1.1.5.dev0-py3.6.egg --markdown 20230630/w/weworkapi-cfomp/1.1.4-1.1.5.dev0/diff.md --exclude *.pyd
+[2023-06-30 11:17:01] WARNING root fetch - processPackages [openqaoa-core]: Skipping, unable to determine old version
+[2023-06-30 11:17:01] INFO root fetch - processPackages [openqaoa-core]: Start processing: drive
+[2023-06-30 11:17:01] INFO root fetch - main [MainThread]: End processing [openqaoa-core] error
+[2023-06-30 11:17:01] INFO root fetch - processPackages [drive]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-30 11:17:01] ERROR root fetch - processPackages [osbuilder]: Unable to fetch info: No such project/version 'osbuilder' 3.2.1.1
+[2023-06-30 11:17:01] INFO root fetch - main [MainThread]: End processing [osbuilder] error
+[2023-06-30 11:17:01] INFO root fetch - processPackages [modular-sdk]: Downloading https://files.pythonhosted.org/packages/7c/6e/70c655040a3d848952f186689de60467f39f1059a81e8501cb042abd6ccf/modular_sdk-2.1.3.tar.gz
+[2023-06-30 11:17:01] INFO root fetch - processPackages [drive]: Downloading https://files.pythonhosted.org/packages/00/4f/d75141db1cf526184b7684d76e2c8c86a64e6ecdcc4305532dbe666c3f95/drive-0.4.2.tar.gz
+[2023-06-30 11:17:01] INFO root fetch - processPackages [drive]: Downloading https://files.pythonhosted.org/packages/57/ef/70e98a9978fd8c58a70356fe9c2307bafff1a995204719c49ccaabab8cb6/drive-0.4.3.tar.gz
+[2023-06-30 11:17:02] INFO root fetch - processPackages [drive]: executing diffoscope
+[2023-06-30 11:17:02] INFO root fetch - processPackages [drive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drive-0.4.2.tar.gz tmp/drive-0.4.3.tar.gz --markdown 20230630/d/drive/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-30 11:17:02] INFO root fetch - processPackages [modular-sdk]: Downloading https://files.pythonhosted.org/packages/f7/11/bd2123e103dfdc8a69a52234944847a3a1bca63fa1c3ca84a8d58f31e8d6/modular_sdk-2.1.4.tar.gz
+[2023-06-30 11:17:02] INFO root fetch - processPackages [modular-sdk]: executing diffoscope
+[2023-06-30 11:17:02] INFO root fetch - processPackages [modular-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modular_sdk-2.1.3.tar.gz tmp/modular_sdk-2.1.4.tar.gz --markdown 20230630/m/modular-sdk/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-06-30 11:17:02] INFO root fetch - processPackages [pyspartn]: Remove: archive file [/home/abi/fetcher/tmp/pyspartn-0.1.8.tar.gz]
+[2023-06-30 11:17:02] INFO root fetch - processPackages [pyspartn]: Remove: archive file [/home/abi/fetcher/tmp/pyspartn-0.1.9.tar.gz]
+[2023-06-30 11:17:02] INFO root fetch - main [MainThread]: End processing [pyspartn]: success
+[2023-06-30 11:17:02] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.1.6.tar.gz]
+[2023-06-30 11:17:02] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.1.7.tar.gz]
+[2023-06-30 11:17:02] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-06-30 11:17:03] INFO root fetch - processPackages [weworkapi-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/weworkapi_cfomp-1.1.4-py3-none-any.whl.zip]
+[2023-06-30 11:17:03] INFO root fetch - processPackages [weworkapi-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/weworkapi_cfomp-1.1.5.dev0-py3.6.egg]
+[2023-06-30 11:17:03] INFO root fetch - main [MainThread]: End processing [weworkapi-cfomp]: success
+[2023-06-30 11:17:03] INFO root fetch - processPackages [drive]: Remove: archive file [/home/abi/fetcher/tmp/drive-0.4.2.tar.gz]
+[2023-06-30 11:17:03] INFO root fetch - processPackages [drive]: Remove: archive file [/home/abi/fetcher/tmp/drive-0.4.3.tar.gz]
+[2023-06-30 11:17:03] INFO root fetch - main [MainThread]: End processing [drive]: success
+[2023-06-30 11:17:03] INFO root fetch - processPackages [modular-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modular_sdk-2.1.3.tar.gz]
+[2023-06-30 11:17:03] INFO root fetch - processPackages [modular-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modular_sdk-2.1.4.tar.gz]
+[2023-06-30 11:17:03] INFO root fetch - main [MainThread]: End processing [modular-sdk]: success
+[2023-06-30 11:17:04] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.1.0.0.tar.gz]
+[2023-06-30 11:17:04] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.1.0.0.dev0.tar.gz]
+[2023-06-30 11:17:04] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2023-06-30 11:17:11] INFO root fetch - processPackages [petsc4py]: Remove: archive file [/home/abi/fetcher/tmp/petsc4py-3.9.0.tar.gz]
+[2023-06-30 11:17:11] INFO root fetch - processPackages [petsc4py]: Remove: archive file [/home/abi/fetcher/tmp/petsc4py-3.9.1.tar.gz]
+[2023-06-30 11:17:11] INFO root fetch - main [MainThread]: End processing [petsc4py]: success
+[2023-06-30 11:17:25] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.0.tar.gz]
+[2023-06-30 11:17:25] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.0.dev0.tar.gz]
+[2023-06-30 11:17:25] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2023-06-30 11:17:33] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4626.tar.gz]
+[2023-06-30 11:17:33] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4627.tar.gz]
+[2023-06-30 11:17:33] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-06-30 11:17:33] INFO root fetch - main [MainThread]: Store serial: [18708130]
