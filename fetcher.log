@@ -11158,3 +11158,114 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 05:57:37] INFO root fetch - processPackages [jennifer-python]: Remove: archive file [/home/abi/fetcher/tmp/jennifer_python-5.6.1.9-py3-none-any.whl.zip]
 [2023-06-30 05:57:37] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
 [2023-06-30 05:57:37] INFO root fetch - main [MainThread]: Store serial: [18705731]
+[2023-06-30 06:02:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705731]
+[2023-06-30 06:02:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-30 06:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiomodbus
+[2023-06-30 06:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lispi
+[2023-06-30 06:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-hr-employee-calendar-planning
+[2023-06-30 06:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: herdmod
+[2023-06-30 06:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: egune
+[2023-06-30 06:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-sddp20190103
+[2023-06-30 06:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flux-local
+[2023-06-30 06:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyauxlib
+[2023-06-30 06:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kimariDraw
+[2023-06-30 06:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: automation-file-dev
+[2023-06-30 06:02:54] INFO root fetch - processPackages [aiomodbus]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-06-30 06:02:54] INFO root fetch - processPackages [pyauxlib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-30 06:02:55] INFO root fetch - processPackages [kimariDraw]: New version: [1.2.0] Old Version: [1.1.5]
+[2023-06-30 06:02:55] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: New version: [13.0.1.5.3.dev2] Old Version: [13.0.1.5.2.dev2]
+[2023-06-30 06:02:55] INFO root fetch - processPackages [herdmod]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-30 06:02:55] INFO root fetch - processPackages [automation-file-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 06:02:55] INFO root fetch - processPackages [flux-local]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-30 06:02:55] INFO root fetch - processPackages [egune]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-30 06:02:55] INFO root fetch - processPackages [alibabacloud-sddp20190103]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 06:02:55] INFO root fetch - processPackages [lispi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 06:02:55] INFO root fetch - processPackages [alibabacloud-sddp20190103]: Downloading https://files.pythonhosted.org/packages/b0/51/84375bf8559ee80432e32840af39229469c8e605d7b09618569a21dc29ae/alibabacloud_sddp20190103-1.0.8.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [flux-local]: Downloading https://files.pythonhosted.org/packages/55/48/21ed05573fded1dc61ec7bf4a90e06c727bf35e190c98afaa77177e131ab/flux-local-1.3.2.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [kimariDraw]: Downloading https://files.pythonhosted.org/packages/ab/e7/985741795ce23659bf4b84bca597edb1c9bea2ebba391caeb39b553c72b8/kimariDraw-1.1.5.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [pyauxlib]: Downloading https://files.pythonhosted.org/packages/44/b0/45d59808b106acfceda0cb6215d42283823c7f40689c308a7b8a45546f70/pyauxlib-0.0.1.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/61/fb/e5c9903cfed2a75131b093a563d54661b9da14cb4f1f93d25efd75027bf7/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.2.dev2-py3-none-any.whl
+[2023-06-30 06:02:55] INFO root fetch - processPackages [aiomodbus]: Downloading https://files.pythonhosted.org/packages/d8/8c/6db85a0355c0dedcd835042d325f7a561c03ccdf3c6963e264d0a9b3c249/aiomodbus-0.5.2.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [herdmod]: Downloading https://files.pythonhosted.org/packages/78/ed/0ab802ebabf9d5fdd5aa86df7d4b44bfe5883dda3c6831ca31e6169e0d06/herdmod-0.0.0.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/a8/ac/0c7d47373834088c1e51432abf5758c7c09f8c3303b11513d87897381400/automation_file_dev-0.0.8.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [egune]: Downloading https://files.pythonhosted.org/packages/97/42/7c2dd6b04736bffa890a5c34420b59d954c6102f8fa405f25d20c6f27334/egune-0.2.8.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [lispi]: Downloading https://files.pythonhosted.org/packages/9c/7f/0c9e6313dd6013a177f1338ec67e62b3299e517a0a3332ed88082bf1e692/lispi-0.0.8.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [alibabacloud-sddp20190103]: Downloading https://files.pythonhosted.org/packages/68/d3/1d06b6808ff2c2254967946d19183d05c527527eba95daacc295e228abdb/alibabacloud_sddp20190103-1.0.9.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [kimariDraw]: Downloading https://files.pythonhosted.org/packages/40/fc/fdebc70dee8a9318472eb45e370bee0cc4036036913bc7ebd58836189488/kimariDraw-1.2.0.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [flux-local]: Downloading https://files.pythonhosted.org/packages/cb/88/9c880b3d5dc2363ef21d5d468a46e869ca8a6a587ceee18e55b5865cb142/flux-local-1.3.3.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [alibabacloud-sddp20190103]: executing diffoscope
+[2023-06-30 06:02:55] INFO root fetch - processPackages [alibabacloud-sddp20190103]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sddp20190103-1.0.8.tar.gz tmp/alibabacloud_sddp20190103-1.0.9.tar.gz --markdown 20230630/a/alibabacloud-sddp20190103/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 06:02:55] INFO root fetch - processPackages [pyauxlib]: Downloading https://files.pythonhosted.org/packages/87/a1/bd9c2702d887a9691256942db357cdd9139466f92c9602ddcea41e0f747f/pyauxlib-0.0.2.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [kimariDraw]: executing diffoscope
+[2023-06-30 06:02:55] INFO root fetch - processPackages [kimariDraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kimariDraw-1.1.5.tar.gz tmp/kimariDraw-1.2.0.tar.gz --markdown 20230630/k/kimariDraw/1.1.5-1.2.0/diff.md --exclude *.pyd
+[2023-06-30 06:02:55] INFO root fetch - processPackages [flux-local]: executing diffoscope
+[2023-06-30 06:02:55] INFO root fetch - processPackages [flux-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-local-1.3.2.tar.gz tmp/flux-local-1.3.3.tar.gz --markdown 20230630/f/flux-local/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-30 06:02:55] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/98/3c/49001525e665cafe69d30c035cccd4e16cd7a6dddef1371b84a8f500b8a6/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.3.dev2-py3-none-any.whl
+[2023-06-30 06:02:55] INFO root fetch - processPackages [herdmod]: Downloading https://files.pythonhosted.org/packages/74/9e/6f442046d70dcf123f9c35beea5df87ee937faef6a3be25749fee0ecaba9/herdmod-0.0.1.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [egune]: Downloading https://files.pythonhosted.org/packages/f6/3f/63951447f046b34d9d429bbf3a8f8e46cd998e857461e5ba92c8b1a76ede/egune-0.2.9.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [aiomodbus]: Downloading https://files.pythonhosted.org/packages/df/9f/3535b13f618983bf51ea56b5df159ad31e3fd73e86c5adc9904dcbb22c71/aiomodbus-0.6.0.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/01/7f/12e7511afb9c1d3533be1bb5782b028b4e743036972a3bed3ce053bb52ac/automation_file_dev-0.0.9.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [lispi]: Downloading https://files.pythonhosted.org/packages/ca/1f/23df1db28ad6bf7bdb525f4a33610af27bf7586e021ca102d4047f383353/lispi-0.0.9.tar.gz
+[2023-06-30 06:02:55] INFO root fetch - processPackages [automation-file-dev]: executing diffoscope
+[2023-06-30 06:02:55] INFO root fetch - processPackages [automation-file-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file_dev-0.0.8.tar.gz tmp/automation_file_dev-0.0.9.tar.gz --markdown 20230630/a/automation-file-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 06:02:55] INFO root fetch - processPackages [lispi]: executing diffoscope
+[2023-06-30 06:02:55] INFO root fetch - processPackages [lispi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lispi-0.0.8.tar.gz tmp/lispi-0.0.9.tar.gz --markdown 20230630/l/lispi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 06:02:55] INFO root fetch - processPackages [pyauxlib]: executing diffoscope
+[2023-06-30 06:02:55] INFO root fetch - processPackages [pyauxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyauxlib-0.0.1.tar.gz tmp/pyauxlib-0.0.2.tar.gz --markdown 20230630/p/pyauxlib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 06:02:55] INFO root fetch - processPackages [aiomodbus]: executing diffoscope
+[2023-06-30 06:02:55] INFO root fetch - processPackages [aiomodbus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomodbus-0.5.2.tar.gz tmp/aiomodbus-0.6.0.tar.gz --markdown 20230630/a/aiomodbus/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-06-30 06:02:55] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: executing diffoscope
+[2023-06-30 06:02:55] INFO root fetch - processPackages [herdmod]: executing diffoscope
+[2023-06-30 06:02:55] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.2.dev2-py3-none-any.whl.zip tmp/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.3.dev2-py3-none-any.whl.zip --markdown 20230630/o/odoo13-addon-hr-employee-calendar-planning/13.0.1.5.2.dev2-13.0.1.5.3.dev2/diff.md --exclude *.pyd
+[2023-06-30 06:02:55] INFO root fetch - processPackages [herdmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herdmod-0.0.0.tar.gz tmp/herdmod-0.0.1.tar.gz --markdown 20230630/h/herdmod/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-30 06:02:56] INFO root fetch - processPackages [egune]: executing diffoscope
+[2023-06-30 06:02:56] INFO root fetch - processPackages [egune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/egune-0.2.8.tar.gz tmp/egune-0.2.9.tar.gz --markdown 20230630/e/egune/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-30 06:02:57] INFO root fetch - processPackages [kimariDraw]: Remove: archive file [/home/abi/fetcher/tmp/kimariDraw-1.1.5.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - processPackages [kimariDraw]: Remove: archive file [/home/abi/fetcher/tmp/kimariDraw-1.2.0.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - processPackages [kimariDraw]: Start processing: evals-nightly
+[2023-06-30 06:02:57] INFO root fetch - main [MainThread]: End processing [kimariDraw]: success
+[2023-06-30 06:02:57] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230629] Old Version: [1.0.3.dev20230628]
+[2023-06-30 06:02:57] INFO root fetch - processPackages [flux-local]: Remove: archive file [/home/abi/fetcher/tmp/flux-local-1.3.2.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - processPackages [flux-local]: Remove: archive file [/home/abi/fetcher/tmp/flux-local-1.3.3.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - processPackages [flux-local]: Start processing: yuptools
+[2023-06-30 06:02:57] INFO root fetch - main [MainThread]: End processing [flux-local]: success
+[2023-06-30 06:02:57] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/5a/6c/1831ba9ddb095a05c06d453465464fdcdfbe30e8ddd42da3eaa6354ccc09/evals-nightly-1.0.3.dev20230628.tar.gz
+[2023-06-30 06:02:57] INFO root fetch - processPackages [yuptools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-30 06:02:57] INFO root fetch - processPackages [aiomodbus]: Remove: archive file [/home/abi/fetcher/tmp/aiomodbus-0.5.2.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - processPackages [aiomodbus]: Remove: archive file [/home/abi/fetcher/tmp/aiomodbus-0.6.0.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - main [MainThread]: End processing [aiomodbus]: success
+[2023-06-30 06:02:57] INFO root fetch - processPackages [yuptools]: Downloading https://files.pythonhosted.org/packages/77/61/868bae9784efdd55ea21496a871d1a55a48f4b0d803fe5b78aa78e07536a/yuptools-0.1.3.tar.gz
+[2023-06-30 06:02:57] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.8.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.9.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - main [MainThread]: End processing [automation-file-dev]: success
+[2023-06-30 06:02:57] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/42/51/0f72ad409530751e5abfd90ea8eb176cc5439b1614b473db7dafa2b69498/evals-nightly-1.0.3.dev20230629.tar.gz
+[2023-06-30 06:02:57] INFO root fetch - processPackages [lispi]: Remove: archive file [/home/abi/fetcher/tmp/lispi-0.0.8.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - processPackages [lispi]: Remove: archive file [/home/abi/fetcher/tmp/lispi-0.0.9.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - main [MainThread]: End processing [lispi]: success
+[2023-06-30 06:02:57] INFO root fetch - processPackages [herdmod]: Remove: archive file [/home/abi/fetcher/tmp/herdmod-0.0.0.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - processPackages [herdmod]: Remove: archive file [/home/abi/fetcher/tmp/herdmod-0.0.1.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - main [MainThread]: End processing [herdmod]: success
+[2023-06-30 06:02:57] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-06-30 06:02:57] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230628.tar.gz tmp/evals-nightly-1.0.3.dev20230629.tar.gz --markdown 20230630/e/evals-nightly/1.0.3.dev20230628-1.0.3.dev20230629/diff.md --exclude *.pyd
+[2023-06-30 06:02:57] INFO root fetch - processPackages [yuptools]: Downloading https://files.pythonhosted.org/packages/56/aa/bc5642c81409d4344618f66b481fa6382c736dc7590109b9f4d218a0309d/yuptools-0.1.4.tar.gz
+[2023-06-30 06:02:57] INFO root fetch - processPackages [pyauxlib]: Remove: archive file [/home/abi/fetcher/tmp/pyauxlib-0.0.1.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - processPackages [pyauxlib]: Remove: archive file [/home/abi/fetcher/tmp/pyauxlib-0.0.2.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - main [MainThread]: End processing [pyauxlib]: success
+[2023-06-30 06:02:57] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.2.dev2-py3-none-any.whl.zip]
+[2023-06-30 06:02:57] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.3.dev2-py3-none-any.whl.zip]
+[2023-06-30 06:02:57] INFO root fetch - main [MainThread]: End processing [odoo13-addon-hr-employee-calendar-planning]: success
+[2023-06-30 06:02:57] INFO root fetch - processPackages [yuptools]: executing diffoscope
+[2023-06-30 06:02:57] INFO root fetch - processPackages [yuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuptools-0.1.3.tar.gz tmp/yuptools-0.1.4.tar.gz --markdown 20230630/y/yuptools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-30 06:02:57] INFO root fetch - processPackages [alibabacloud-sddp20190103]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sddp20190103-1.0.8.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - processPackages [alibabacloud-sddp20190103]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sddp20190103-1.0.9.tar.gz]
+[2023-06-30 06:02:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-sddp20190103]: success
+[2023-06-30 06:02:59] INFO root fetch - processPackages [yuptools]: Remove: archive file [/home/abi/fetcher/tmp/yuptools-0.1.3.tar.gz]
+[2023-06-30 06:02:59] INFO root fetch - processPackages [yuptools]: Remove: archive file [/home/abi/fetcher/tmp/yuptools-0.1.4.tar.gz]
+[2023-06-30 06:02:59] INFO root fetch - main [MainThread]: End processing [yuptools]: success
+[2023-06-30 06:03:01] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230628.tar.gz]
+[2023-06-30 06:03:01] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230629.tar.gz]
+[2023-06-30 06:03:01] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-06-30 06:03:50] INFO root fetch - processPackages [egune]: Remove: archive file [/home/abi/fetcher/tmp/egune-0.2.8.tar.gz]
+[2023-06-30 06:03:50] INFO root fetch - processPackages [egune]: Remove: archive file [/home/abi/fetcher/tmp/egune-0.2.9.tar.gz]
+[2023-06-30 06:03:50] INFO root fetch - main [MainThread]: End processing [egune]: success
+[2023-06-30 06:03:50] INFO root fetch - main [MainThread]: Store serial: [18705764]
