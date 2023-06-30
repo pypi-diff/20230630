@@ -16570,3 +16570,197 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 11:06:34] INFO root fetch - processPackages [pyaedt]: Remove: archive file [/home/abi/fetcher/tmp/pyaedt-0.6.82.tar.gz]
 [2023-06-30 11:06:34] INFO root fetch - main [MainThread]: End processing [pyaedt]: success
 [2023-06-30 11:06:34] INFO root fetch - main [MainThread]: Store serial: [18707962]
+[2023-06-30 11:11:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18707962]
+[2023-06-30 11:11:44] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-30 11:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inmanta-module-ip
+[2023-06-30 11:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-cisco-support-plugin
+[2023-06-30 11:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inmanta-module-ubuntu
+[2023-06-30 11:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funsecret
+[2023-06-30 11:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xj-role
+[2023-06-30 11:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inmanta-module-user
+[2023-06-30 11:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: isystem.connect
+[2023-06-30 11:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: funbuild
+[2023-06-30 11:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inmanta-module-postgresql
+[2023-06-30 11:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eodc
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-ip]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-ubuntu]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-30 11:11:44] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 11:11:44] INFO root fetch - processPackages [funbuild]: New version: [202306301707] Old Version: [202306301655]
+[2023-06-30 11:11:44] INFO root fetch - processPackages [funsecret]: New version: [202306301706] Old Version: [202306301705]
+[2023-06-30 11:11:44] INFO root fetch - processPackages [eodc]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-postgresql]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-user]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 11:11:44] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 11:11:44] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2023-06-30 11:11:44] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/1a/cf/3fa14673d75edbb5da8478de4201544339e26296398df2d0be95113f0989/eodc-2023.6.8.tar.gz
+[2023-06-30 11:11:44] INFO root fetch - processPackages [funsecret]: Downloading https://files.pythonhosted.org/packages/c7/4a/e1389a82b2bc0026c9b8a8a2fe2377f8a60b8429db78d59f4a7ba3b30bf8/funsecret-202306301705.tar.gz
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-postgresql]: Downloading https://files.pythonhosted.org/packages/b1/7d/cd1afcd7579800818cbfa7e5ccb3c777e0ed0fd7f215b2c4b35fd065daa2/inmanta_module_postgresql-0.4.2-py3-none-any.whl
+[2023-06-30 11:11:44] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-ip]: Downloading https://files.pythonhosted.org/packages/de/1e/2f1cc0f6ad6f1b398e425241c78042482d02d3b75ebd9ad4e0e58b3986f8/inmanta_module_ip-1.2.8-py3-none-any.whl
+[2023-06-30 11:11:44] INFO root fetch - processPackages [funbuild]: Downloading https://files.pythonhosted.org/packages/90/54/e68256c7afa79ee821e6d8fba1a1018675c6e25c6330816642d941894bdb/funbuild-202306301655.tar.gz
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-ubuntu]: Downloading https://files.pythonhosted.org/packages/01/af/445557bd978a0267b7bf0af81e98e1bdc2663150ad291bb6aa00ed56bef3/inmanta_module_ubuntu-0.4.8-py3-none-any.whl
+[2023-06-30 11:11:44] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/6b/8b/97965272d3462d0f7d0a27d169efd5145a23039e46eb22ce86c516d7eb65/xj_role-1.0.8.tar.gz
+[2023-06-30 11:11:44] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2023-06-30 11:11:44] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/c5/83/63873bbcccf7bb07f0a25f386840631889a5c10e88af7af1eb0baeb16508/eodc-2023.6.9.tar.gz
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-user]: Downloading https://files.pythonhosted.org/packages/bc/cf/cd7d10e6f49701122bf9e3501c3baa0eac416dbc8908ac81de31621f54ca/inmanta_module_user-0.1.8-py3-none-any.whl
+[2023-06-30 11:11:44] INFO root fetch - processPackages [eodc]: executing diffoscope
+[2023-06-30 11:11:44] INFO root fetch - processPackages [eodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc-2023.6.8.tar.gz tmp/eodc-2023.6.9.tar.gz --markdown 20230630/e/eodc/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-30 11:11:44] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-30 11:11:44] INFO root fetch - processPackages [funbuild]: Downloading https://files.pythonhosted.org/packages/dc/21/e77674952717cf182ea31273fc225247e7fbd9920cf32e9e5efdf03894df/funbuild-202306301707.tar.gz
+[2023-06-30 11:11:44] INFO root fetch - processPackages [funsecret]: Downloading https://files.pythonhosted.org/packages/91/50/a8c0ff31daa3ec7c1dd6d6f2cdc5ed4de43550c3917e7ae18cb9e3a7a17f/funsecret-202306301706.tar.gz
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-postgresql]: Downloading https://files.pythonhosted.org/packages/65/53/e39e7c5412e435f283ab2e1bca8268b5762cdf9d27985762c4a3ebee22f4/inmanta_module_postgresql-0.4.3-py3-none-any.whl
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-ubuntu]: Downloading https://files.pythonhosted.org/packages/4e/a2/18455687ba3ec1755f9ce6fabfc850ae51586b53f645da28dbca7c8a0751/inmanta_module_ubuntu-0.4.9-py3-none-any.whl
+[2023-06-30 11:11:44] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-06-30 11:11:44] INFO root fetch - processPackages [funsecret]: executing diffoscope
+[2023-06-30 11:11:44] INFO root fetch - processPackages [funsecret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funsecret-202306301705.tar.gz tmp/funsecret-202306301706.tar.gz --markdown 20230630/f/funsecret/202306301705-202306301706/diff.md --exclude *.pyd
+[2023-06-30 11:11:44] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-30 11:11:44] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230630/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-postgresql]: executing diffoscope
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_postgresql-0.4.2-py3-none-any.whl.zip tmp/inmanta_module_postgresql-0.4.3-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-postgresql/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-ip]: Downloading https://files.pythonhosted.org/packages/f8/92/273f315d9248c3a3f1b3e218de74c0b9ce85265f290f81e7a1acb0590563/inmanta_module_ip-1.2.9-py3-none-any.whl
+[2023-06-30 11:11:44] INFO root fetch - processPackages [funbuild]: executing diffoscope
+[2023-06-30 11:11:44] INFO root fetch - processPackages [funbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funbuild-202306301655.tar.gz tmp/funbuild-202306301707.tar.gz --markdown 20230630/f/funbuild/202306301655-202306301707/diff.md --exclude *.pyd
+[2023-06-30 11:11:44] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-06-30 11:11:44] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.8.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230630/x/xj-role/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 11:11:44] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-user]: Downloading https://files.pythonhosted.org/packages/e1/97/d6a2113a89215e6fef2e38c577bb2d7da2657f88c3e697587d34801e3107/inmanta_module_user-0.1.9-py3-none-any.whl
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-ubuntu]: executing diffoscope
+[2023-06-30 11:11:44] INFO root fetch - processPackages [inmanta-module-ubuntu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_ubuntu-0.4.8-py3-none-any.whl.zip tmp/inmanta_module_ubuntu-0.4.9-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-ubuntu/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-30 11:11:45] INFO root fetch - processPackages [inmanta-module-ip]: executing diffoscope
+[2023-06-30 11:11:45] INFO root fetch - processPackages [inmanta-module-ip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_ip-1.2.8-py3-none-any.whl.zip tmp/inmanta_module_ip-1.2.9-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-ip/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-30 11:11:45] INFO root fetch - processPackages [inmanta-module-user]: executing diffoscope
+[2023-06-30 11:11:45] INFO root fetch - processPackages [inmanta-module-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_user-0.1.8-py3-none-any.whl.zip tmp/inmanta_module_user-0.1.9-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-user/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 11:11:45] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2023-06-30 11:11:45] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20230630/i/isystem.connect/9.21.98.0-9.21.99.0/diff.md --exclude *.pyd
+[2023-06-30 11:11:46] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2023.6.8.tar.gz]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2023.6.9.tar.gz]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [eodc]: Start processing: inmanta-module-web
+[2023-06-30 11:11:46] INFO root fetch - main [MainThread]: End processing [eodc]: success
+[2023-06-30 11:11:46] INFO root fetch - processPackages [inmanta-module-web]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [funsecret]: Remove: archive file [/home/abi/fetcher/tmp/funsecret-202306301705.tar.gz]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [funsecret]: Remove: archive file [/home/abi/fetcher/tmp/funsecret-202306301706.tar.gz]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [funsecret]: Start processing: jack-matchmaker
+[2023-06-30 11:11:46] INFO root fetch - main [MainThread]: End processing [funsecret]: success
+[2023-06-30 11:11:46] INFO root fetch - processPackages [inmanta-module-web]: Downloading https://files.pythonhosted.org/packages/94/74/a31aad9e4f64015e204c8344d4951745975beb9daf024c3a67e58969f01d/inmanta_module_web-0.3.8-py3-none-any.whl
+[2023-06-30 11:11:46] INFO root fetch - processPackages [jack-matchmaker]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [inmanta-module-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_postgresql-0.4.2-py3-none-any.whl.zip]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [inmanta-module-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_postgresql-0.4.3-py3-none-any.whl.zip]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [inmanta-module-postgresql]: Start processing: inmanta-module-yum
+[2023-06-30 11:11:46] INFO root fetch - main [MainThread]: End processing [inmanta-module-postgresql]: success
+[2023-06-30 11:11:46] INFO root fetch - processPackages [inmanta-module-yum]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [inmanta-module-web]: Downloading https://files.pythonhosted.org/packages/b5/8f/7bae3fa34999e1efcfe07e1d84e927f06d04eec5cb354b98a3abc453ed58/inmanta_module_web-0.3.9-py3-none-any.whl
+[2023-06-30 11:11:46] INFO root fetch - processPackages [jack-matchmaker]: Downloading https://files.pythonhosted.org/packages/b2/c0/c2c1c97debcb5998e1a4f1120dc9f91ea56bef33b3804502bed09f1f96e9/jack-matchmaker-0.8.2.tar.gz
+[2023-06-30 11:11:46] INFO root fetch - processPackages [inmanta-module-web]: executing diffoscope
+[2023-06-30 11:11:46] INFO root fetch - processPackages [inmanta-module-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_web-0.3.8-py3-none-any.whl.zip tmp/inmanta_module_web-0.3.9-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-web/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-30 11:11:46] INFO root fetch - processPackages [funbuild]: Remove: archive file [/home/abi/fetcher/tmp/funbuild-202306301655.tar.gz]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [funbuild]: Remove: archive file [/home/abi/fetcher/tmp/funbuild-202306301707.tar.gz]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [funbuild]: Start processing: cognite-power-ops
+[2023-06-30 11:11:46] INFO root fetch - main [MainThread]: End processing [funbuild]: success
+[2023-06-30 11:11:46] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Start processing: inmanta-module-std
+[2023-06-30 11:11:46] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-30 11:11:46] INFO root fetch - processPackages [inmanta-module-ubuntu]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_ubuntu-0.4.8-py3-none-any.whl.zip]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [inmanta-module-ubuntu]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_ubuntu-0.4.9-py3-none-any.whl.zip]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [inmanta-module-ubuntu]: Start processing: pytest-unused-fixtures
+[2023-06-30 11:11:46] INFO root fetch - main [MainThread]: End processing [inmanta-module-ubuntu]: success
+[2023-06-30 11:11:46] INFO root fetch - processPackages [inmanta-module-std]: New version: [4.1.8] Old Version: [4.1.7]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [pytest-unused-fixtures]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-30 11:11:46] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-06-30 11:11:46] INFO root fetch - processPackages [inmanta-module-yum]: Downloading https://files.pythonhosted.org/packages/61/0c/cbede36296af4ffd985f8aaf6b45daa9480815fc0f369ea87c208dd40165/inmanta_module_yum-0.7.4-py3-none-any.whl
+[2023-06-30 11:11:46] INFO root fetch - processPackages [inmanta-module-std]: Downloading https://files.pythonhosted.org/packages/fd/a7/08272acfb27a04abe40baab65a8d2899c047805887b5426aa25212c8e59d/inmanta_module_std-4.1.7-py3-none-any.whl
+[2023-06-30 11:11:46] INFO root fetch - processPackages [jack-matchmaker]: Downloading https://files.pythonhosted.org/packages/9b/e6/c676d45a77a293bbc67a9e63b363fa42e214cd05ca5f9d1ecc0ee5030c58/jack-matchmaker-0.9.0.tar.gz
+[2023-06-30 11:11:46] INFO root fetch - processPackages [pytest-unused-fixtures]: Downloading https://files.pythonhosted.org/packages/c9/2a/fa12737984a42842b849ea969acc6ae4b0ae6d78d0bd39d7a4eeba06df2e/pytest_unused_fixtures-0.1.2.tar.gz
+[2023-06-30 11:11:46] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-ip]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_ip-1.2.8-py3-none-any.whl.zip]
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-ip]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_ip-1.2.9-py3-none-any.whl.zip]
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-ip]: Start processing: inmanta-module-terraform
+[2023-06-30 11:11:47] INFO root fetch - main [MainThread]: End processing [inmanta-module-ip]: success
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-terraform]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-30 11:11:47] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.8.tar.gz]
+[2023-06-30 11:11:47] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
+[2023-06-30 11:11:47] INFO root fetch - processPackages [xj-role]: Start processing: pycades
+[2023-06-30 11:11:47] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-06-30 11:11:47] INFO root fetch - processPackages [pycades]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-30 11:11:47] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-06-30 11:11:47] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230630/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-user]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_user-0.1.8-py3-none-any.whl.zip]
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-user]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_user-0.1.9-py3-none-any.whl.zip]
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-user]: Start processing: Digital-Farming-Solution
+[2023-06-30 11:11:47] INFO root fetch - main [MainThread]: End processing [inmanta-module-user]: success
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-yum]: Downloading https://files.pythonhosted.org/packages/e4/86/b8b55ac72dcd2fa153a1756f7e27dd6df2f2f85e0324157ac2ac82a05750/inmanta_module_yum-0.7.5-py3-none-any.whl
+[2023-06-30 11:11:47] INFO root fetch - processPackages [Digital-Farming-Solution]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-30 11:11:47] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2023-06-30 11:11:47] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2023-06-30 11:11:47] INFO root fetch - processPackages [jack-matchmaker]: executing diffoscope
+[2023-06-30 11:11:47] INFO root fetch - processPackages [jack-matchmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jack-matchmaker-0.8.2.tar.gz tmp/jack-matchmaker-0.9.0.tar.gz --markdown 20230630/j/jack-matchmaker/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-30 11:11:47] INFO root fetch - processPackages [isystem.connect]: Start processing: inmanta-module-vyos
+[2023-06-30 11:11:47] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-vyos]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-yum]: executing diffoscope
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-yum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_yum-0.7.4-py3-none-any.whl.zip tmp/inmanta_module_yum-0.7.5-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-yum/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-06-30 11:11:47] INFO root fetch - processPackages [pytest-unused-fixtures]: Downloading https://files.pythonhosted.org/packages/dd/6b/a1403e2e1ede4ffe8fb20cf3be47a42cd97e5c30b092a30873dc9562cdbd/pytest_unused_fixtures-0.1.3.tar.gz
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-terraform]: Downloading https://files.pythonhosted.org/packages/d6/c8/e01c0937e9d3b851ce4611806ab9eb2c47cb8aac0e652697e5bf3b595df8/inmanta_module_terraform-1.3.8-py3-none-any.whl
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-std]: Downloading https://files.pythonhosted.org/packages/c6/c1/cf3b43e4715cb2d46bb4135d71cbcbce4a55d17271ea7060eadc028c3f69/inmanta_module_std-4.1.8-py3-none-any.whl
+[2023-06-30 11:11:47] INFO root fetch - processPackages [pytest-unused-fixtures]: executing diffoscope
+[2023-06-30 11:11:47] INFO root fetch - processPackages [pycades]: Downloading https://files.pythonhosted.org/packages/d8/5b/1c64543132a388437b1c6b23ef4967d311ce40e5786ec3f9378f28fa5105/pycades-1.1.2-py3-none-manylinux_2_35_x86_64.whl
+[2023-06-30 11:11:47] INFO root fetch - processPackages [pytest-unused-fixtures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_unused_fixtures-0.1.2.tar.gz tmp/pytest_unused_fixtures-0.1.3.tar.gz --markdown 20230630/p/pytest-unused-fixtures/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-30 11:11:47] INFO root fetch - processPackages [Digital-Farming-Solution]: Downloading https://files.pythonhosted.org/packages/fa/ad/85ecaf6c1b11cd5b1cd72d34574f9cbc19fa02b5c43bb5749c5417f728a0/Digital_Farming_Solution-0.1.2.tar.gz
+[2023-06-30 11:11:47] WARNING root fetch - processPackages [pycades]: Skipping package: exceeds size limit 13701335>=10485760
+[2023-06-30 11:11:47] INFO root fetch - processPackages [pycades]: Start processing: tasknet
+[2023-06-30 11:11:47] INFO root fetch - main [MainThread]: End processing [pycades] error
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-vyos]: Downloading https://files.pythonhosted.org/packages/15/ef/5e6d89b4f15cf371096531d20f2e38459e606a1d14eab6c62c8dee653724/inmanta_module_vyos-3.0.4-py3-none-any.whl
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-std]: executing diffoscope
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_std-4.1.7-py3-none-any.whl.zip tmp/inmanta_module_std-4.1.8-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-std/4.1.7-4.1.8/diff.md --exclude *.pyd
+[2023-06-30 11:11:47] INFO root fetch - processPackages [tasknet]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-30 11:11:47] INFO root fetch - processPackages [tasknet]: Downloading https://files.pythonhosted.org/packages/68/62/c1a8b0523c4c4bf417bfd30d9575606b9f5865084f23356173adc64f9f15/tasknet-1.8.0.tar.gz
+[2023-06-30 11:11:47] INFO root fetch - processPackages [Digital-Farming-Solution]: Downloading https://files.pythonhosted.org/packages/d9/ea/37fc134671018c4197bd1f142d1bbdd63ccf591077a56a63eb9120f27111/Digital_Farming_Solution-0.1.3.tar.gz
+[2023-06-30 11:11:47] INFO root fetch - processPackages [tasknet]: Downloading https://files.pythonhosted.org/packages/9e/0f/6b503cbc1a8ea21dc3286c2dc50b71751f72f32c9b73e987057cb7d5cdbf/tasknet-1.9.0.tar.gz
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-vyos]: Downloading https://files.pythonhosted.org/packages/96/bb/4021e1214ce43449c09a73e696c5f1af826b79cd66f00f65fbe7e805fbea/inmanta_module_vyos-3.0.5-py3-none-any.whl
+[2023-06-30 11:11:47] INFO root fetch - processPackages [Digital-Farming-Solution]: executing diffoscope
+[2023-06-30 11:11:47] INFO root fetch - processPackages [Digital-Farming-Solution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Digital_Farming_Solution-0.1.2.tar.gz tmp/Digital_Farming_Solution-0.1.3.tar.gz --markdown 20230630/D/Digital-Farming-Solution/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-vyos]: executing diffoscope
+[2023-06-30 11:11:47] INFO root fetch - processPackages [inmanta-module-vyos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_vyos-3.0.4-py3-none-any.whl.zip tmp/inmanta_module_vyos-3.0.5-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-vyos/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-06-30 11:11:47] INFO root fetch - processPackages [tasknet]: executing diffoscope
+[2023-06-30 11:11:47] INFO root fetch - processPackages [tasknet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tasknet-1.8.0.tar.gz tmp/tasknet-1.9.0.tar.gz --markdown 20230630/t/tasknet/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-30 11:11:48] INFO root fetch - processPackages [inmanta-module-terraform]: Downloading https://files.pythonhosted.org/packages/d3/64/35c699a23de9e5f7a2fd6adb1d04bc370b3a425742b79b04db64874d362f/inmanta_module_terraform-1.3.9-py3-none-any.whl
+[2023-06-30 11:11:48] INFO root fetch - processPackages [inmanta-module-web]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_web-0.3.8-py3-none-any.whl.zip]
+[2023-06-30 11:11:48] INFO root fetch - processPackages [inmanta-module-web]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_web-0.3.9-py3-none-any.whl.zip]
+[2023-06-30 11:11:48] INFO root fetch - processPackages [inmanta-module-web]: Start processing: tf-nightly
+[2023-06-30 11:11:48] INFO root fetch - main [MainThread]: End processing [inmanta-module-web]: success
+[2023-06-30 11:11:48] INFO root fetch - processPackages [inmanta-module-terraform]: executing diffoscope
+[2023-06-30 11:11:48] INFO root fetch - processPackages [inmanta-module-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_terraform-1.3.8-py3-none-any.whl.zip tmp/inmanta_module_terraform-1.3.9-py3-none-any.whl.zip --markdown 20230630/i/inmanta-module-terraform/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-30 11:11:48] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230630] Old Version: [2.14.0.dev20230629]
+[2023-06-30 11:11:48] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/7a/d0/5142ba11cb2a47ab86bc99c4b32b1a1018af6c550c442a7517c1dba58395/tf_nightly-2.14.0.dev20230629-cp39-cp39-win_amd64.whl
+[2023-06-30 11:11:48] INFO root fetch - processPackages [inmanta-module-yum]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_yum-0.7.4-py3-none-any.whl.zip]
+[2023-06-30 11:11:48] INFO root fetch - processPackages [inmanta-module-yum]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_yum-0.7.5-py3-none-any.whl.zip]
+[2023-06-30 11:11:48] INFO root fetch - main [MainThread]: End processing [inmanta-module-yum]: success
+[2023-06-30 11:11:48] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/dd/a1/5fdba15984a1d9ada125130d7fe54d242bce94f6be8cf675eea994b63eba/tf_nightly-2.14.0.dev20230630-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-30 11:11:48] INFO root fetch - processPackages [pytest-unused-fixtures]: Remove: archive file [/home/abi/fetcher/tmp/pytest_unused_fixtures-0.1.2.tar.gz]
+[2023-06-30 11:11:48] INFO root fetch - processPackages [pytest-unused-fixtures]: Remove: archive file [/home/abi/fetcher/tmp/pytest_unused_fixtures-0.1.3.tar.gz]
+[2023-06-30 11:11:48] INFO root fetch - main [MainThread]: End processing [pytest-unused-fixtures]: success
+[2023-06-30 11:11:48] INFO root fetch - processPackages [inmanta-module-std]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_std-4.1.7-py3-none-any.whl.zip]
+[2023-06-30 11:11:48] INFO root fetch - processPackages [inmanta-module-std]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_std-4.1.8-py3-none-any.whl.zip]
+[2023-06-30 11:11:48] INFO root fetch - main [MainThread]: End processing [inmanta-module-std]: success
+[2023-06-30 11:11:48] INFO root fetch - processPackages [jack-matchmaker]: Remove: archive file [/home/abi/fetcher/tmp/jack-matchmaker-0.8.2.tar.gz]
+[2023-06-30 11:11:48] INFO root fetch - processPackages [jack-matchmaker]: Remove: archive file [/home/abi/fetcher/tmp/jack-matchmaker-0.9.0.tar.gz]
+[2023-06-30 11:11:48] INFO root fetch - main [MainThread]: End processing [jack-matchmaker]: success
+[2023-06-30 11:11:49] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 490859037>=10485760
+[2023-06-30 11:11:49] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-06-30 11:11:49] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-06-30 11:11:49] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-06-30 11:11:49] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-06-30 11:11:49] INFO root fetch - processPackages [Digital-Farming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Farming_Solution-0.1.2.tar.gz]
+[2023-06-30 11:11:49] INFO root fetch - processPackages [Digital-Farming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Farming_Solution-0.1.3.tar.gz]
+[2023-06-30 11:11:49] INFO root fetch - main [MainThread]: End processing [Digital-Farming-Solution]: success
+[2023-06-30 11:11:49] INFO root fetch - processPackages [tasknet]: Remove: archive file [/home/abi/fetcher/tmp/tasknet-1.8.0.tar.gz]
+[2023-06-30 11:11:49] INFO root fetch - processPackages [tasknet]: Remove: archive file [/home/abi/fetcher/tmp/tasknet-1.9.0.tar.gz]
+[2023-06-30 11:11:49] INFO root fetch - main [MainThread]: End processing [tasknet]: success
+[2023-06-30 11:11:49] INFO root fetch - processPackages [inmanta-module-vyos]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_vyos-3.0.4-py3-none-any.whl.zip]
+[2023-06-30 11:11:49] INFO root fetch - processPackages [inmanta-module-vyos]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_vyos-3.0.5-py3-none-any.whl.zip]
+[2023-06-30 11:11:49] INFO root fetch - main [MainThread]: End processing [inmanta-module-vyos]: success
+[2023-06-30 11:11:49] INFO root fetch - processPackages [inmanta-module-terraform]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_terraform-1.3.8-py3-none-any.whl.zip]
+[2023-06-30 11:11:49] INFO root fetch - processPackages [inmanta-module-terraform]: Remove: archive file [/home/abi/fetcher/tmp/inmanta_module_terraform-1.3.9-py3-none-any.whl.zip]
+[2023-06-30 11:11:49] INFO root fetch - main [MainThread]: End processing [inmanta-module-terraform]: success
+[2023-06-30 11:11:49] INFO root fetch - main [MainThread]: Store serial: [18708032]
