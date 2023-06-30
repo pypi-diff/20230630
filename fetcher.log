@@ -10025,3 +10025,129 @@ AssertionError: tmp/PyFakeDados-0.0.1.2.tar.gz does not exist
 [2023-06-30 04:46:58] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
 [2023-06-30 04:46:58] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-06-30 04:46:58] INFO root fetch - main [MainThread]: Store serial: [18705294]
+[2023-06-30 04:52:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705294]
+[2023-06-30 04:52:17] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-30 04:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windbg-copilot
+[2023-06-30 04:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iam-actions
+[2023-06-30 04:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aibabyllmclient
+[2023-06-30 04:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: databend
+[2023-06-30 04:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2023-06-30 04:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: windbg-copilot
+[2023-06-30 04:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: visualpython
+[2023-06-30 04:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: teamanchorhello
+[2023-06-30 04:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nics
+[2023-06-30 04:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jupyterlab-visualpython
+[2023-06-30 04:52:17] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 04:52:17] INFO root fetch - processPackages [teamanchorhello]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-30 04:52:17] INFO root fetch - processPackages [aibabyllmclient]: New version: [1.3] Old Version: [1.2]
+[2023-06-30 04:52:17] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 04:52:17] INFO root fetch - processPackages [databend]: New version: [1.2.1] Old Version: [1.1.71]
+[2023-06-30 04:52:17] INFO root fetch - processPackages [nics]: New version: [1.0.0rc9] Old Version: [1.0.0rc8]
+[2023-06-30 04:52:17] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230630] Old Version: [1.2.20230629]
+[2023-06-30 04:52:17] INFO root fetch - processPackages [yplib]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-30 04:52:17] INFO root fetch - processPackages [aibabyllmclient]: Downloading https://files.pythonhosted.org/packages/f1/c0/6eb288db681713ba4f82b7e2332674c80be27382a640e7f5da58264079ed/aibabyllmclient-1.2.tar.gz
+[2023-06-30 04:52:17] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/2a/95/827e42bcc2c84911f217f4da34316ada0eadf83a9ea123ef6510c4272c41/nics-1.0.0rc8.tar.gz
+[2023-06-30 04:52:17] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/c8/fa/21500b7e76291990632ddcafba6c00f2e880347d3f30d2d5641dfc40816c/teamanchorhello-0.0.4.tar.gz
+[2023-06-30 04:52:17] INFO root fetch - processPackages [jupyterlab-visualpython]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-06-30 04:52:17] INFO root fetch - processPackages [visualpython]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-06-30 04:52:17] INFO root fetch - processPackages [jupyterlab-visualpython]: Downloading https://files.pythonhosted.org/packages/e1/31/3c035507ef6a7c56693a422184aaa1b3d8404bf4edb01212c4eb53e19a64/jupyterlab_visualpython-2.4.0.tar.gz
+[2023-06-30 04:52:17] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-06-30 04:52:17] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-06-30 04:52:17] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/88/78/9844c0f36cced406fcbafd26deddd0c3ac5c1d741341c3a67d3d182bec51/yplib-2.0.1.tar.gz
+[2023-06-30 04:52:17] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/32/6d/2a654267707f8290d533cc23fb9de77e4a50565b49d2d0f781a51574478c/iam_actions-1.2.20230629.tar.gz
+[2023-06-30 04:52:17] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/3d/83/240d75147af5164f723e0c6d3e616164991da1f7a1868792239e41bb412a/teamanchorhello-0.0.5.tar.gz
+[2023-06-30 04:52:17] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/72/38/7046c8637a7d130c807ab2860601c06fa4773f0142ef9fb0dc2342e09a97/databend-1.1.71-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-30 04:52:17] INFO root fetch - processPackages [visualpython]: Downloading https://files.pythonhosted.org/packages/6b/60/aebf2eb7a247b4b333bb64f7991045f936c7ced574d3bac7ac80d8ae045d/visualpython-2.4.0.tar.gz
+[2023-06-30 04:52:17] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/18/3e/c9428066a9b1775cf3259ac1885d2a4b68522eeb8327de46159ad37427d7/nics-1.0.0rc9.tar.gz
+[2023-06-30 04:52:17] WARNING root fetch - processPackages [jupyterlab-visualpython]: Skipping package: exceeds size limit 19093023>=10485760
+[2023-06-30 04:52:17] INFO root fetch - processPackages [jupyterlab-visualpython]: Start processing: nextpcg
+[2023-06-30 04:52:17] INFO root fetch - main [MainThread]: End processing [jupyterlab-visualpython] error
+[2023-06-30 04:52:17] INFO root fetch - processPackages [teamanchorhello]: executing diffoscope
+[2023-06-30 04:52:17] INFO root fetch - processPackages [teamanchorhello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teamanchorhello-0.0.4.tar.gz tmp/teamanchorhello-0.0.5.tar.gz --markdown 20230630/t/teamanchorhello/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-30 04:52:17] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-30 04:52:17] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-1.0.0rc8.tar.gz tmp/nics-1.0.0rc9.tar.gz --markdown 20230630/n/nics/1.0.0rc8-1.0.0rc9/diff.md --exclude *.pyd
+[2023-06-30 04:52:17] INFO root fetch - processPackages [aibabyllmclient]: Downloading https://files.pythonhosted.org/packages/13/51/a1bac50ac09f9bb9bf3a7f5ac32b90768a9dccb4e08e631101f9c2a3783b/aibabyllmclient-1.3.tar.gz
+[2023-06-30 04:52:17] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 29504347>=10485760
+[2023-06-30 04:52:17] INFO root fetch - processPackages [databend]: Start processing: odoo-addon-account-invoice-restrict-linked-so
+[2023-06-30 04:52:17] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-06-30 04:52:17] INFO root fetch - processPackages [aibabyllmclient]: executing diffoscope
+[2023-06-30 04:52:17] INFO root fetch - processPackages [aibabyllmclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibabyllmclient-1.2.tar.gz tmp/aibabyllmclient-1.3.tar.gz --markdown 20230630/a/aibabyllmclient/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-30 04:52:17] WARNING root fetch - processPackages [odoo-addon-account-invoice-restrict-linked-so]: Skipping, unable to determine old version
+[2023-06-30 04:52:17] INFO root fetch - processPackages [odoo-addon-account-invoice-restrict-linked-so]: Start processing: aibabyllmclient
+[2023-06-30 04:52:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-restrict-linked-so] error
+[2023-06-30 04:52:17] WARNING root fetch - processPackages [visualpython]: Skipping package: exceeds size limit 14911331>=10485760
+[2023-06-30 04:52:17] INFO root fetch - processPackages [visualpython]: Start processing: pypcapkit
+[2023-06-30 04:52:17] INFO root fetch - main [MainThread]: End processing [visualpython] error
+[2023-06-30 04:52:17] INFO root fetch - processPackages [nextpcg]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-30 04:52:17] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e3/cd/19f086bde10f1a01667ff9867aff0fb4eab4eaaea6f1cb6f69dfddc96a7e/yplib-2.0.2.tar.gz
+[2023-06-30 04:52:17] INFO root fetch - processPackages [aibabyllmclient]: New version: [1.4] Old Version: [1.3]
+[2023-06-30 04:52:17] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.3] Old Version: [1.0.2.post8]
+[2023-06-30 04:52:17] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/92/66/0a88dbd67a2320841df4906ade7fd4237560a3f405f58bd0d724f158cd35/nextpcg-0.5.4.tar.gz
+[2023-06-30 04:52:17] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/97/7c/7ae7fd3a33c5e6c0aac713b65a54ad3291892a4a55e19a1a5e59295eb923/iam_actions-1.2.20230630.tar.gz
+[2023-06-30 04:52:18] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-06-30 04:52:18] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-06-30 04:52:18] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-30 04:52:18] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230629.tar.gz tmp/iam_actions-1.2.20230630.tar.gz --markdown 20230630/i/iam-actions/1.2.20230629-1.2.20230630/diff.md --exclude *.pyd
+[2023-06-30 04:52:18] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-30 04:52:18] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.0.1.tar.gz tmp/yplib-2.0.2.tar.gz --markdown 20230630/y/yplib/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-30 04:52:18] INFO root fetch - processPackages [aibabyllmclient]: Downloading https://files.pythonhosted.org/packages/52/2f/0458ef51ee68a6b4fde901f127edab6ad1559f9d7ff20470c4998cf72e57/aibabyllmclient-1.4.tar.gz
+[2023-06-30 04:52:18] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/27/b6/c55debf2c14e5145e07f1b38b2d1ff284822b9dfcf5a4b44f758fc007f48/pypcapkit-1.0.2.post8.tar.gz
+[2023-06-30 04:52:18] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-06-30 04:52:18] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230630/w/windbg-copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 04:52:18] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-06-30 04:52:18] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230630/w/windbg-copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 04:52:18] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/1a/bc/e2e552ea4fe38e0c0ccfb167755e8736cc325eca25e7d2e2fdc98ece75c7/nextpcg-0.5.5.tar.gz
+[2023-06-30 04:52:18] INFO root fetch - processPackages [aibabyllmclient]: executing diffoscope
+[2023-06-30 04:52:18] INFO root fetch - processPackages [aibabyllmclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibabyllmclient-1.3.tar.gz tmp/aibabyllmclient-1.4.tar.gz --markdown 20230630/a/aibabyllmclient/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-30 04:52:18] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-06-30 04:52:18] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.5.4.tar.gz tmp/nextpcg-0.5.5.tar.gz --markdown 20230630/n/nextpcg/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-30 04:52:18] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/1d/71/2c6af78dd4a7df047e72d105bac883057fe65d22eeb213593a1c316cddd9/pypcapkit-1.0.3.tar.gz
+[2023-06-30 04:52:18] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-06-30 04:52:18] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.2.post8.tar.gz tmp/pypcapkit-1.0.3.tar.gz --markdown 20230630/p/pypcapkit/1.0.2.post8-1.0.3/diff.md --exclude *.pyd
+[2023-06-30 04:52:19] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.4.tar.gz]
+[2023-06-30 04:52:19] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.5.tar.gz]
+[2023-06-30 04:52:19] INFO root fetch - main [MainThread]: End processing [teamanchorhello]: success
+[2023-06-30 04:52:19] INFO root fetch - processPackages [aibabyllmclient]: Remove: archive file [/home/abi/fetcher/tmp/aibabyllmclient-1.2.tar.gz]
+[2023-06-30 04:52:19] INFO root fetch - processPackages [aibabyllmclient]: Remove: archive file [/home/abi/fetcher/tmp/aibabyllmclient-1.3.tar.gz]
+[2023-06-30 04:52:19] INFO root fetch - main [MainThread]: End processing [aibabyllmclient]: success
+[2023-06-30 04:52:19] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc8.tar.gz]
+[2023-06-30 04:52:19] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc9.tar.gz]
+[2023-06-30 04:52:19] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-30 04:52:19] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.0.1.tar.gz]
+[2023-06-30 04:52:19] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.0.2.tar.gz]
+[2023-06-30 04:52:19] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-30 04:52:19] ERROR root fetch - processPackages [aibabyllmclient]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
+
+[2023-06-30 04:52:19] INFO root fetch - main [MainThread]: End processing [aibabyllmclient] error
+[2023-06-30 04:52:19] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-06-30 04:52:19] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-06-30 04:52:19] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-06-30 04:52:19] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-06-30 04:52:20] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.4.tar.gz]
+[2023-06-30 04:52:20] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.5.tar.gz]
+[2023-06-30 04:52:20] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-06-30 04:52:24] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.2.post8.tar.gz]
+[2023-06-30 04:52:24] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.3.tar.gz]
+[2023-06-30 04:52:24] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-06-30 04:52:25] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230629.tar.gz]
+[2023-06-30 04:52:25] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230630.tar.gz]
+[2023-06-30 04:52:25] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-30 04:52:25] INFO root fetch - main [MainThread]: Store serial: [18705336]
