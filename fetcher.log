@@ -11924,3 +11924,93 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 07:02:46] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip]
 [2023-06-30 07:02:46] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2023-06-30 07:02:46] INFO root fetch - main [MainThread]: Store serial: [18706078]
+[2023-06-30 07:07:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706078]
+[2023-06-30 07:07:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-30 07:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: speed-benchmark
+[2023-06-30 07:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Simplex
+[2023-06-30 07:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: md2site
+[2023-06-30 07:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-pe
+[2023-06-30 07:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnata-plugin-runtime
+[2023-06-30 07:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spark-quality-rules-tools
+[2023-06-30 07:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multi-model-server
+[2023-06-30 07:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightning-template
+[2023-06-30 07:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: searchlogit
+[2023-06-30 07:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: func-ai
+[2023-06-30 07:07:55] INFO root fetch - processPackages [speed-benchmark]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-30 07:07:55] WARNING root fetch - processPackages [md2site]: Skipping, unable to determine old version
+[2023-06-30 07:07:55] INFO root fetch - processPackages [md2site]: Start processing: slitherin
+[2023-06-30 07:07:55] INFO root fetch - main [MainThread]: End processing [md2site] error
+[2023-06-30 07:07:55] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-30 07:07:55] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-30 07:07:55] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-06-30 07:07:55] INFO root fetch - processPackages [lightning-template]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 07:07:55] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 07:07:55] INFO root fetch - processPackages [func-ai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-30 07:07:55] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230630] Old Version: [0.1.1.dev20230629]
+[2023-06-30 07:07:55] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-30 07:07:55] WARNING root fetch - processPackages [slitherin]: Skipping, unable to determine old version
+[2023-06-30 07:07:55] INFO root fetch - processPackages [slitherin]: Start processing: seismic-rna
+[2023-06-30 07:07:55] INFO root fetch - main [MainThread]: End processing [slitherin] error
+[2023-06-30 07:07:55] WARNING root fetch - processPackages [seismic-rna]: Skipping, unable to determine old version
+[2023-06-30 07:07:55] INFO root fetch - main [MainThread]: End processing [seismic-rna] error
+[2023-06-30 07:07:55] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/bb/23/283f51826390193fc77c120c748d3599480b234089dc9eea07057d06ac6a/lightning-template-1.0.8.tar.gz
+[2023-06-30 07:07:55] INFO root fetch - processPackages [func-ai]: Downloading https://files.pythonhosted.org/packages/0d/ce/84a9717f1103ff07715ba979a4a621995cce5295e27ddd463eec7a000c90/func_ai-0.0.3.tar.gz
+[2023-06-30 07:07:55] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-30 07:07:55] INFO root fetch - processPackages [speed-benchmark]: Downloading https://files.pythonhosted.org/packages/30/e8/65f6e99609a1fe11b4722450f0a79ddfed177c3034d608b9161958710a08/speed-benchmark-1.0.0.tar.gz
+[2023-06-30 07:07:55] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/9a/62/bc4c0d3de5663b08977e8d81be9b4cbf08814b3f6f3ddb8fb81e0482d908/spark_quality_rules_tools-0.3.0.tar.gz
+[2023-06-30 07:07:55] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2023-06-30 07:07:55] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/3c/15/188896748e785a66931b38a2f6e0ae23e7a6c736948e3b34b74d3220587a/lightning-template-1.0.9.tar.gz
+[2023-06-30 07:07:55] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/6a/ea/3c66dd9a7b8d8667d3987cbe70a78f9eabcae0218c9d93db3e7016c2036b/rapid_pe-0.1.1.dev20230629.tar.gz
+[2023-06-30 07:07:55] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/71/fe/525adfc16647206017d2898a9f436996bc906ecd86240a5d0bac16555638/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl
+[2023-06-30 07:07:55] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-30 07:07:55] INFO root fetch - processPackages [func-ai]: Downloading https://files.pythonhosted.org/packages/60/99/d7a23dc7ea7b5e281baf158188b4b32904da09b4d6e98c75ab003d975329/func_ai-0.0.4.tar.gz
+[2023-06-30 07:07:55] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-06-30 07:07:55] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.0.8.tar.gz tmp/lightning-template-1.0.9.tar.gz --markdown 20230630/l/lightning-template/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 07:07:55] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-30 07:07:55] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230630/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-30 07:07:55] INFO root fetch - processPackages [speed-benchmark]: Downloading https://files.pythonhosted.org/packages/31/21/1ce71f23360fae629008d850581cdc469949fa20282239e8813e4b98e074/speed-benchmark-1.0.1.tar.gz
+[2023-06-30 07:07:55] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/eb/15/c9b873ec133949ab4958928c2f31fd05a20bc5df96dd351bc13454bc5e11/spark_quality_rules_tools-0.3.1.tar.gz
+[2023-06-30 07:07:55] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-30 07:07:55] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230630/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 07:07:55] INFO root fetch - processPackages [func-ai]: executing diffoscope
+[2023-06-30 07:07:55] INFO root fetch - processPackages [func-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/func_ai-0.0.3.tar.gz tmp/func_ai-0.0.4.tar.gz --markdown 20230630/f/func-ai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-30 07:07:55] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/d4/07/50e5017399f7fbfcf24ce42677f0694830f8572fcbffbaba4c615be6c375/rapid_pe-0.1.1.dev20230630.tar.gz
+[2023-06-30 07:07:55] INFO root fetch - processPackages [speed-benchmark]: executing diffoscope
+[2023-06-30 07:07:55] INFO root fetch - processPackages [speed-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speed-benchmark-1.0.0.tar.gz tmp/speed-benchmark-1.0.1.tar.gz --markdown 20230630/s/speed-benchmark/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-30 07:07:55] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-06-30 07:07:55] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.3.0.tar.gz tmp/spark_quality_rules_tools-0.3.1.tar.gz --markdown 20230630/s/spark-quality-rules-tools/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-30 07:07:55] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2023-06-30 07:07:55] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-30 07:07:55] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230629.tar.gz tmp/rapid_pe-0.1.1.dev20230630.tar.gz --markdown 20230630/r/rapid-pe/0.1.1.dev20230629-0.1.1.dev20230630/diff.md --exclude *.pyd
+[2023-06-30 07:07:56] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-06-30 07:07:56] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230630/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-30 07:07:56] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/8f/99/93562b28a43421a18cd68c1a4e0a811721a99e39d3720642e78a9b79550b/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl
+[2023-06-30 07:07:56] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-06-30 07:07:56] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230630/G/Geode-Simplex/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-06-30 07:07:57] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.8.tar.gz]
+[2023-06-30 07:07:57] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.9.tar.gz]
+[2023-06-30 07:07:57] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-06-30 07:07:57] INFO root fetch - processPackages [func-ai]: Remove: archive file [/home/abi/fetcher/tmp/func_ai-0.0.3.tar.gz]
+[2023-06-30 07:07:57] INFO root fetch - processPackages [func-ai]: Remove: archive file [/home/abi/fetcher/tmp/func_ai-0.0.4.tar.gz]
+[2023-06-30 07:07:57] INFO root fetch - main [MainThread]: End processing [func-ai]: success
+[2023-06-30 07:07:57] INFO root fetch - processPackages [speed-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/speed-benchmark-1.0.0.tar.gz]
+[2023-06-30 07:07:57] INFO root fetch - processPackages [speed-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/speed-benchmark-1.0.1.tar.gz]
+[2023-06-30 07:07:57] INFO root fetch - main [MainThread]: End processing [speed-benchmark]: success
+[2023-06-30 07:07:57] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230629.tar.gz]
+[2023-06-30 07:07:57] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230630.tar.gz]
+[2023-06-30 07:07:57] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-30 07:07:57] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-30 07:07:57] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-30 07:07:57] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-30 07:07:57] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.3.0.tar.gz]
+[2023-06-30 07:07:57] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.3.1.tar.gz]
+[2023-06-30 07:07:57] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-06-30 07:07:57] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.8.tar.gz]
+[2023-06-30 07:07:57] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
+[2023-06-30 07:07:57] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-06-30 07:08:20] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-30 07:08:20] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-30 07:08:20] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-06-30 07:10:55] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-30 07:10:55] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-30 07:10:55] INFO root fetch - main [MainThread]: Store serial: [18706133]
