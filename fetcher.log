@@ -13924,3 +13924,106 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 09:13:00] INFO root fetch - processPackages [jolt]: Remove: archive file [/home/abi/fetcher/tmp/jolt-0.9.97.tar.gz]
 [2023-06-30 09:13:00] INFO root fetch - main [MainThread]: End processing [jolt]: success
 [2023-06-30 09:13:00] INFO root fetch - main [MainThread]: Store serial: [18706898]
+[2023-06-30 09:18:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706898]
+[2023-06-30 09:18:09] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-30 09:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poe-shell
+[2023-06-30 09:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-nightly
+[2023-06-30 09:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: searchlogit
+[2023-06-30 09:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmeel-gmp
+[2023-06-30 09:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sniimapp
+[2023-06-30 09:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ns-asphalt9
+[2023-06-30 09:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hubble-exchange
+[2023-06-30 09:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: slpkg
+[2023-06-30 09:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: distool
+[2023-06-30 09:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tfq-nightly
+[2023-06-30 09:18:09] INFO root fetch - processPackages [hubble-exchange]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 09:18:09] WARNING root fetch - processPackages [poe-shell]: Skipping, unable to determine old version
+[2023-06-30 09:18:09] INFO root fetch - processPackages [poe-shell]: Start processing: asp-chef-cli
+[2023-06-30 09:18:09] INFO root fetch - main [MainThread]: End processing [poe-shell] error
+[2023-06-30 09:18:09] INFO root fetch - processPackages [sniimapp]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-30 09:18:09] WARNING root fetch - processPackages [ns-asphalt9]: Skipping, unable to determine old version
+[2023-06-30 09:18:09] INFO root fetch - processPackages [ns-asphalt9]: Start processing: safe-ds
+[2023-06-30 09:18:09] WARNING root fetch - processPackages [cmeel-gmp]: Skipping, unable to determine old version
+[2023-06-30 09:18:09] INFO root fetch - main [MainThread]: End processing [ns-asphalt9] error
+[2023-06-30 09:18:09] INFO root fetch - processPackages [distool]: New version: [0.1.8.1] Old Version: [0.1.8]
+[2023-06-30 09:18:09] INFO root fetch - processPackages [cmeel-gmp]: Start processing: audio-separator
+[2023-06-30 09:18:09] INFO root fetch - main [MainThread]: End processing [cmeel-gmp] error
+[2023-06-30 09:18:09] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-30 09:18:09] INFO root fetch - processPackages [asp-chef-cli]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-30 09:18:09] INFO root fetch - processPackages [safe-ds]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-30 09:18:09] INFO root fetch - processPackages [slpkg]: New version: [4.9.1] Old Version: [4.9.0b0]
+[2023-06-30 09:18:09] INFO root fetch - processPackages [audio-separator]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-30 09:18:09] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2023-06-30 09:18:09] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230630] Old Version: [0.7.3.dev20230629]
+[2023-06-30 09:18:09] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-30 09:18:09] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/f7/63/42c29e0063414ee6858fc38f4f12dbde5c04f29ffb6df993911826afed85/audio-separator-0.1.3.tar.gz
+[2023-06-30 09:18:09] INFO root fetch - processPackages [distool]: Downloading https://files.pythonhosted.org/packages/cb/ba/6ad544caaf50d300a3e93abf9d5b973a0fdebab2e34489ba5921c78a63f0/distool-0.1.8.tar.gz
+[2023-06-30 09:18:09] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/e3/9d/a8b6d2ddb52fdba9d29007134f34a2cf300599b81b6776d5e30c14af8a61/sniimapp-0.0.7.tar.gz
+[2023-06-30 09:18:09] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/bf/e9/710641609a7dcb6fb60c18014c89c2550bf713f4fd7a2c1e67d999b4f897/hubble_exchange-0.1.0.tar.gz
+[2023-06-30 09:18:09] INFO root fetch - processPackages [asp-chef-cli]: Downloading https://files.pythonhosted.org/packages/42/d0/21620018e379072047373b6f38abc8339b6d122af688476b259e096e298c/asp_chef_cli-0.1.5.tar.gz
+[2023-06-30 09:18:09] INFO root fetch - processPackages [safe-ds]: Downloading https://files.pythonhosted.org/packages/09/f6/a6b32c0bddd70e357b5ee90c9b88c336cc90c5fb454915f0b87e3d58a1b6/safe_ds-0.8.0.tar.gz
+[2023-06-30 09:18:09] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/43/71/f8f52134d85d521094906041116d9c15a7ebacf0755e82a2396c2728f637/slpkg-4.9.0b0.tar.gz
+[2023-06-30 09:18:09] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2023-06-30 09:18:09] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/30/34/071c5c8f2b70b3f6e390dcf807b389d26f30a95827776ac1e882d1e51731/tfq_nightly-0.7.3.dev20230629-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-30 09:18:09] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-06-30 09:18:09] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822715>=10485760
+[2023-06-30 09:18:09] INFO root fetch - processPackages [tfq-nightly]: Start processing: distool
+[2023-06-30 09:18:09] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-30 09:18:09] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/07/65/2496bd957ea731da5ced5f7dd311deda722c6fadb1532f5745c830893321/audio-separator-0.1.4.tar.gz
+[2023-06-30 09:18:09] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-06-30 09:18:09] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230630/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-30 09:18:09] INFO root fetch - processPackages [distool]: New version: [0.1.8.1] Old Version: [0.1.8]
+[2023-06-30 09:18:09] INFO root fetch - processPackages [distool]: Downloading https://files.pythonhosted.org/packages/7b/e9/e0ae53a373a4549fab6d62eb7867648620f550c8c858b571f3e03c4a198e/distool-0.1.8.1.tar.gz
+[2023-06-30 09:18:09] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/af/fd/dda0498e3018b5d0b793a1bd9ae7ee2d497fd437151d2f05ece2ec8283fd/hubble_exchange-0.1.1.tar.gz
+[2023-06-30 09:18:09] INFO root fetch - processPackages [asp-chef-cli]: Downloading https://files.pythonhosted.org/packages/80/46/a3f2d6de74c783553381fd990d37f93cb73d5249944fb694937686979d42/asp_chef_cli-0.1.6.tar.gz
+[2023-06-30 09:18:09] INFO root fetch - processPackages [audio-separator]: executing diffoscope
+[2023-06-30 09:18:09] INFO root fetch - processPackages [audio-separator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio-separator-0.1.3.tar.gz tmp/audio-separator-0.1.4.tar.gz --markdown 20230630/a/audio-separator/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-30 09:18:09] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/fb/d1/ec907fcf8092b0658f18c33c834998acf50826cf6eed46c8361c96638f8f/sniimapp-0.0.8.tar.gz
+[2023-06-30 09:18:10] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/13/75/1d4a01778004004775d192e0072baad1ed274f78cd4f75867537e6ca8922/slpkg-4.9.1.tar.gz
+[2023-06-30 09:18:10] INFO root fetch - processPackages [hubble-exchange]: executing diffoscope
+[2023-06-30 09:18:10] INFO root fetch - processPackages [distool]: executing diffoscope
+[2023-06-30 09:18:10] INFO root fetch - processPackages [hubble-exchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubble_exchange-0.1.0.tar.gz tmp/hubble_exchange-0.1.1.tar.gz --markdown 20230630/h/hubble-exchange/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 09:18:10] INFO root fetch - processPackages [distool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distool-0.1.8.tar.gz tmp/distool-0.1.8.1.tar.gz --markdown 20230630/d/distool/0.1.8-0.1.8.1/diff.md --exclude *.pyd
+[2023-06-30 09:18:10] INFO root fetch - processPackages [distool]: executing diffoscope
+[2023-06-30 09:18:10] INFO root fetch - processPackages [distool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distool-0.1.8.tar.gz tmp/distool-0.1.8.1.tar.gz --markdown 20230630/d/distool/0.1.8-0.1.8.1/diff.md --exclude *.pyd
+[2023-06-30 09:18:10] INFO root fetch - processPackages [safe-ds]: Downloading https://files.pythonhosted.org/packages/bd/f8/60207d42597a9f68aa486aee74213d0424e53d4bd7cce2a8b050d148f4ed/safe_ds-0.9.0.tar.gz
+[2023-06-30 09:18:10] INFO root fetch - processPackages [asp-chef-cli]: executing diffoscope
+[2023-06-30 09:18:10] INFO root fetch - processPackages [asp-chef-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asp_chef_cli-0.1.5.tar.gz tmp/asp_chef_cli-0.1.6.tar.gz --markdown 20230630/a/asp-chef-cli/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-30 09:18:10] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-06-30 09:18:10] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.7.tar.gz tmp/sniimapp-0.0.8.tar.gz --markdown 20230630/s/sniimapp/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-30 09:18:10] INFO root fetch - processPackages [slpkg]: executing diffoscope
+[2023-06-30 09:18:10] INFO root fetch - processPackages [slpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slpkg-4.9.0b0.tar.gz tmp/slpkg-4.9.1.tar.gz --markdown 20230630/s/slpkg/4.9.0b0-4.9.1/diff.md --exclude *.pyd
+[2023-06-30 09:18:10] INFO root fetch - processPackages [safe-ds]: executing diffoscope
+[2023-06-30 09:18:10] INFO root fetch - processPackages [safe-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_ds-0.8.0.tar.gz tmp/safe_ds-0.9.0.tar.gz --markdown 20230630/s/safe-ds/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-30 09:18:10] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-06-30 09:18:11] INFO root fetch - processPackages [asp-chef-cli]: Remove: archive file [/home/abi/fetcher/tmp/asp_chef_cli-0.1.5.tar.gz]
+[2023-06-30 09:18:11] INFO root fetch - processPackages [asp-chef-cli]: Remove: archive file [/home/abi/fetcher/tmp/asp_chef_cli-0.1.6.tar.gz]
+[2023-06-30 09:18:11] INFO root fetch - main [MainThread]: End processing [asp-chef-cli]: success
+[2023-06-30 09:18:11] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-30 09:18:11] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230630/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-30 09:18:11] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio-separator-0.1.3.tar.gz]
+[2023-06-30 09:18:11] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio-separator-0.1.4.tar.gz]
+[2023-06-30 09:18:11] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
+[2023-06-30 09:18:11] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.7.tar.gz]
+[2023-06-30 09:18:11] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.8.tar.gz]
+[2023-06-30 09:18:11] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-06-30 09:18:11] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.1.0.tar.gz]
+[2023-06-30 09:18:11] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.1.1.tar.gz]
+[2023-06-30 09:18:11] INFO root fetch - main [MainThread]: End processing [hubble-exchange]: success
+[2023-06-30 09:18:11] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-4.9.0b0.tar.gz]
+[2023-06-30 09:18:11] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-4.9.1.tar.gz]
+[2023-06-30 09:18:11] INFO root fetch - main [MainThread]: End processing [slpkg]: success
+[2023-06-30 09:18:11] INFO root fetch - processPackages [safe-ds]: Remove: archive file [/home/abi/fetcher/tmp/safe_ds-0.8.0.tar.gz]
+[2023-06-30 09:18:11] INFO root fetch - processPackages [safe-ds]: Remove: archive file [/home/abi/fetcher/tmp/safe_ds-0.9.0.tar.gz]
+[2023-06-30 09:18:11] INFO root fetch - main [MainThread]: End processing [safe-ds]: success
+[2023-06-30 09:18:12] INFO root fetch - processPackages [distool]: Remove: archive file [/home/abi/fetcher/tmp/distool-0.1.8.tar.gz]
+[2023-06-30 09:18:12] INFO root fetch - processPackages [distool]: Remove: archive file [/home/abi/fetcher/tmp/distool-0.1.8.1.tar.gz]
+[2023-06-30 09:18:12] INFO root fetch - main [MainThread]: End processing [distool]: success
+[2023-06-30 09:18:12] INFO root fetch - main [MainThread]: End processing [distool]: success
+[2023-06-30 09:18:13] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.8.tar.gz]
+[2023-06-30 09:18:13] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
+[2023-06-30 09:18:13] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-06-30 09:18:21] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-06-30 09:18:21] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-06-30 09:18:21] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-30 09:18:21] INFO root fetch - main [MainThread]: Store serial: [18706943]
