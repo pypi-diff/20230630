@@ -10488,3 +10488,61 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 05:08:55] INFO root fetch - processPackages [ht-pricing-module]: Remove: archive file [/home/abi/fetcher/tmp/ht_pricing_module-0.3.0.tar.gz]
 [2023-06-30 05:08:55] INFO root fetch - main [MainThread]: End processing [ht-pricing-module]: success
 [2023-06-30 05:08:55] INFO root fetch - main [MainThread]: Store serial: [18705488]
+[2023-06-30 05:13:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705488]
+[2023-06-30 05:14:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-30 05:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plateOCR
+[2023-06-30 05:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multicast-expert
+[2023-06-30 05:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yplib
+[2023-06-30 05:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: laningfaiss
+[2023-06-30 05:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2023-06-30 05:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ggvlib
+[2023-06-30 05:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yplib
+[2023-06-30 05:14:04] ERROR root fetch - processPackages [plateOCR]: Unable to get metadata: No such project 'plateOCR'
+[2023-06-30 05:14:04] INFO root fetch - main [MainThread]: End processing [plateOCR] error
+[2023-06-30 05:14:04] INFO root fetch - processPackages [multicast-expert]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-06-30 05:14:04] INFO root fetch - processPackages [laningfaiss]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 05:14:04] INFO root fetch - processPackages [yplib]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-30 05:14:04] INFO root fetch - processPackages [yplib]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-30 05:14:04] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-30 05:14:04] INFO root fetch - processPackages [ggvlib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-30 05:14:04] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f4/ee/a6dfcdeb688e0ebde09717782ab786d40be34110e397309ef8b0520e9b19/yplib-2.0.3.tar.gz
+[2023-06-30 05:14:04] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-30 05:14:04] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f4/ee/a6dfcdeb688e0ebde09717782ab786d40be34110e397309ef8b0520e9b19/yplib-2.0.3.tar.gz
+[2023-06-30 05:14:05] INFO root fetch - processPackages [multicast-expert]: Downloading https://files.pythonhosted.org/packages/1f/36/dcf0d1d723b61db725b4ce4ce47eed825b78dfa7760933136d977cb0d8d2/multicast_expert-1.1.2.tar.gz
+[2023-06-30 05:14:05] INFO root fetch - processPackages [laningfaiss]: Downloading https://files.pythonhosted.org/packages/3c/a2/d626670633c7ae20a67f4f753cf5ac19b4ccd1543bdb928c5ca71ff08bce/laningfaiss-0.1.0.tar.gz
+[2023-06-30 05:14:05] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-30 05:14:05] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/c8/a4/76d1f8bec5b3584ef0e86ce8e53ab63916ffc36fcb0d2d8b4f0d337700c3/ggvlib-0.2.8.tar.gz
+[2023-06-30 05:14:05] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-30 05:14:05] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230630/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-30 05:14:05] INFO root fetch - processPackages [multicast-expert]: Downloading https://files.pythonhosted.org/packages/85/8b/12f5c49ad21771d1beaafd07e46d1ded0e71926b11426648a2d3b23027d2/multicast_expert-1.2.0.tar.gz
+[2023-06-30 05:14:05] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/dd/1b/4dbd66f1302141e2cea5d24d0e3a53ec7f892b4288129b981e36817c5762/yplib-2.0.4.tar.gz
+[2023-06-30 05:14:05] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/dd/1b/4dbd66f1302141e2cea5d24d0e3a53ec7f892b4288129b981e36817c5762/yplib-2.0.4.tar.gz
+[2023-06-30 05:14:05] INFO root fetch - processPackages [multicast-expert]: executing diffoscope
+[2023-06-30 05:14:05] INFO root fetch - processPackages [multicast-expert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicast_expert-1.1.2.tar.gz tmp/multicast_expert-1.2.0.tar.gz --markdown 20230630/m/multicast-expert/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-06-30 05:14:05] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-30 05:14:05] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.0.3.tar.gz tmp/yplib-2.0.4.tar.gz --markdown 20230630/y/yplib/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-30 05:14:05] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-30 05:14:05] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.0.3.tar.gz tmp/yplib-2.0.4.tar.gz --markdown 20230630/y/yplib/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-30 05:14:05] INFO root fetch - processPackages [laningfaiss]: Downloading https://files.pythonhosted.org/packages/d4/56/23c6dabeab3110f67abdd2518d48a15cd14f07aaedc4ddf750278ff63c64/laningfaiss-0.1.1.tar.gz
+[2023-06-30 05:14:05] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/34/94/a276f716d8fabdf90cef3cc2a1fccf75e3e71e43c098bb84478fc31b0ff6/ggvlib-0.2.9.tar.gz
+[2023-06-30 05:14:05] INFO root fetch - processPackages [laningfaiss]: executing diffoscope
+[2023-06-30 05:14:05] INFO root fetch - processPackages [laningfaiss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laningfaiss-0.1.0.tar.gz tmp/laningfaiss-0.1.1.tar.gz --markdown 20230630/l/laningfaiss/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 05:14:05] INFO root fetch - processPackages [ggvlib]: executing diffoscope
+[2023-06-30 05:14:05] INFO root fetch - processPackages [ggvlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggvlib-0.2.8.tar.gz tmp/ggvlib-0.2.9.tar.gz --markdown 20230630/g/ggvlib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-30 05:14:06] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-30 05:14:06] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-30 05:14:06] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-30 05:14:06] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.0.3.tar.gz]
+[2023-06-30 05:14:06] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.0.4.tar.gz]
+[2023-06-30 05:14:06] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-30 05:14:06] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-30 05:14:06] INFO root fetch - processPackages [multicast-expert]: Remove: archive file [/home/abi/fetcher/tmp/multicast_expert-1.1.2.tar.gz]
+[2023-06-30 05:14:06] INFO root fetch - processPackages [multicast-expert]: Remove: archive file [/home/abi/fetcher/tmp/multicast_expert-1.2.0.tar.gz]
+[2023-06-30 05:14:06] INFO root fetch - main [MainThread]: End processing [multicast-expert]: success
+[2023-06-30 05:14:06] INFO root fetch - processPackages [ggvlib]: Remove: archive file [/home/abi/fetcher/tmp/ggvlib-0.2.8.tar.gz]
+[2023-06-30 05:14:06] INFO root fetch - processPackages [ggvlib]: Remove: archive file [/home/abi/fetcher/tmp/ggvlib-0.2.9.tar.gz]
+[2023-06-30 05:14:06] INFO root fetch - main [MainThread]: End processing [ggvlib]: success
+[2023-06-30 05:14:06] INFO root fetch - processPackages [laningfaiss]: Remove: archive file [/home/abi/fetcher/tmp/laningfaiss-0.1.0.tar.gz]
+[2023-06-30 05:14:06] INFO root fetch - processPackages [laningfaiss]: Remove: archive file [/home/abi/fetcher/tmp/laningfaiss-0.1.1.tar.gz]
+[2023-06-30 05:14:06] INFO root fetch - main [MainThread]: End processing [laningfaiss]: success
+[2023-06-30 05:14:06] INFO root fetch - main [MainThread]: Store serial: [18705509]
