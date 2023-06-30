@@ -2715,3 +2715,65 @@
 [2023-06-30 02:42:57] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
 [2023-06-30 02:42:57] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-06-30 02:42:57] INFO root fetch - main [MainThread]: Store serial: [18702703]
+[2023-06-30 02:48:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702703]
+[2023-06-30 02:48:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-30 02:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: state-machine-semaphore
+[2023-06-30 02:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zksync2
+[2023-06-30 02:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2023-06-30 02:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfds-nightly
+[2023-06-30 02:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rtorrent-rpc
+[2023-06-30 02:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imjoy-rpc
+[2023-06-30 02:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kubric-nightly
+[2023-06-30 02:48:06] INFO root fetch - processPackages [zksync2]: New version: [0.6.0b1] Old Version: [0.5.0]
+[2023-06-30 02:48:06] INFO root fetch - processPackages [rtorrent-rpc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-30 02:48:06] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-30 02:48:06] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230630.0.45.178308] Old Version: [20230629.9.26.822535]
+[2023-06-30 02:48:06] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306290045] Old Version: [4.9.2.dev202306280046]
+[2023-06-30 02:48:06] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-30 02:48:06] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/87/92/4e49fec2fdcf2364a5748d2d38725fb1700be5489bddd83991ad59486047/rtorrent_rpc-0.0.4.tar.gz
+[2023-06-30 02:48:06] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-30 02:48:06] INFO root fetch - processPackages [zksync2]: Downloading https://files.pythonhosted.org/packages/9e/a1/79a7b8d1e524ec929095d8d7cf558580da11445183090fb330d1e7d3adbf/zksync2-0.5.0.tar.gz
+[2023-06-30 02:48:06] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-06-30 02:48:06] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-06-30 02:48:06] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/56/c6/c7de72fa66d4933642351f3b8bc4d7848115561e812e2fb5eed81925e375/certora-cli-alpha-master-20230629.9.26.822535.tar.gz
+[2023-06-30 02:48:07] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-30 02:48:07] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/29/23/f5df68cbaebc277722cbd3df5407a44140f0424336dbfbea2903bd3ab8a5/tfds-nightly-4.9.2.dev202306280046.tar.gz
+[2023-06-30 02:48:07] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37420529>=10485760
+[2023-06-30 02:48:07] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-30 02:48:07] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/a4/ce/1891cab800fed694b4b7b09a1f1d8db1fe608844e80240674ee31a89d9c6/rtorrent_rpc-0.0.5.tar.gz
+[2023-06-30 02:48:07] INFO root fetch - processPackages [zksync2]: Downloading https://files.pythonhosted.org/packages/11/f8/2997af54349347db2af597cfbf56cdfd233fb5075397824e9e5eae7e80a9/zksync2-0.6.0b1.tar.gz
+[2023-06-30 02:48:07] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-06-30 02:48:07] INFO root fetch - processPackages [rtorrent-rpc]: executing diffoscope
+[2023-06-30 02:48:07] INFO root fetch - processPackages [rtorrent-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtorrent_rpc-0.0.4.tar.gz tmp/rtorrent_rpc-0.0.5.tar.gz --markdown 20230630/r/rtorrent-rpc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-30 02:48:07] INFO root fetch - processPackages [zksync2]: executing diffoscope
+[2023-06-30 02:48:07] INFO root fetch - processPackages [zksync2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zksync2-0.5.0.tar.gz tmp/zksync2-0.6.0b1.tar.gz --markdown 20230630/z/zksync2/0.5.0-0.6.0b1/diff.md --exclude *.pyd
+[2023-06-30 02:48:07] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-06-30 02:48:07] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-30 02:48:07] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-06-30 02:48:07] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230630/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-30 02:48:07] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-30 02:48:07] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230630/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-30 02:48:07] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-30 02:48:07] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230630/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-30 02:48:07] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/98/5e/d10fbfda72d744bf513c0870fbdcdb8314be85b8816728fa46747d781413/tfds-nightly-4.9.2.dev202306290045.tar.gz
+[2023-06-30 02:48:07] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-30 02:48:07] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306280046.tar.gz tmp/tfds-nightly-4.9.2.dev202306290045.tar.gz --markdown 20230630/t/tfds-nightly/4.9.2.dev202306280046-4.9.2.dev202306290045/diff.md --exclude *.pyd
+[2023-06-30 02:48:08] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.0.4.tar.gz]
+[2023-06-30 02:48:08] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.0.5.tar.gz]
+[2023-06-30 02:48:08] INFO root fetch - main [MainThread]: End processing [rtorrent-rpc]: success
+[2023-06-30 02:48:08] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-06-30 02:48:08] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-06-30 02:48:08] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-06-30 02:48:08] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-06-30 02:48:08] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-06-30 02:48:08] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-30 02:48:08] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-30 02:48:08] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-30 02:48:08] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-30 02:48:10] INFO root fetch - processPackages [zksync2]: Remove: archive file [/home/abi/fetcher/tmp/zksync2-0.5.0.tar.gz]
+[2023-06-30 02:48:10] INFO root fetch - processPackages [zksync2]: Remove: archive file [/home/abi/fetcher/tmp/zksync2-0.6.0b1.tar.gz]
+[2023-06-30 02:48:10] INFO root fetch - main [MainThread]: End processing [zksync2]: success
+[2023-06-30 02:48:18] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306280046.tar.gz]
+[2023-06-30 02:48:18] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306290045.tar.gz]
+[2023-06-30 02:48:18] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-30 02:48:18] INFO root fetch - main [MainThread]: Store serial: [18702724]
