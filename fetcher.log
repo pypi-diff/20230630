@@ -3422,3 +3422,60 @@
 [2023-06-30 03:25:10] INFO root fetch - processPackages [ncbi-datasets-pylib]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-datasets-pylib-9.1.0.tar.gz]
 [2023-06-30 03:25:10] INFO root fetch - main [MainThread]: End processing [ncbi-datasets-pylib]: success
 [2023-06-30 03:25:10] INFO root fetch - main [MainThread]: Store serial: [18702986]
+[2023-06-30 03:30:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702986]
+[2023-06-30 03:30:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-30 03:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enfugue
+[2023-06-30 03:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bkbit
+[2023-06-30 03:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-structlog
+[2023-06-30 03:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyagrum-nightly
+[2023-06-30 03:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-subminute
+[2023-06-30 03:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphreduce
+[2023-06-30 03:30:19] INFO root fetch - processPackages [enfugue]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-30 03:30:19] INFO root fetch - processPackages [bkbit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-30 03:30:19] INFO root fetch - processPackages [django-structlog]: New version: [5.2.0] Old Version: [5.1.0]
+[2023-06-30 03:30:19] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-30 03:30:19] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-06-30 03:30:19] INFO root fetch - processPackages [graphreduce]: New version: [0.6] Old Version: [0.5]
+[2023-06-30 03:30:19] INFO root fetch - processPackages [django-structlog]: Downloading https://files.pythonhosted.org/packages/99/41/640579bd2e419748c34f0feba87efa79ccf13303de60948f4381acff3afb/django-structlog-5.1.0.tar.gz
+[2023-06-30 03:30:19] INFO root fetch - processPackages [bkbit]: Downloading https://files.pythonhosted.org/packages/19/30/879e194a4dd9714ab00e2c821c62330102aab96730ed376a8d4700f55167/bkbit-0.0.1.tar.gz
+[2023-06-30 03:30:19] INFO root fetch - processPackages [enfugue]: Downloading https://files.pythonhosted.org/packages/43/2f/f21d00f6718f081caf1a33a1a678853b5286f9d34b395fd0617c8e6cb42b/enfugue-0.1.1.tar.gz
+[2023-06-30 03:30:19] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-30 03:30:19] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/43/63/ee86dd3901e481e5e0099d5a03e594c8e1dfca2f1b2637b6f11299b977d7/graphreduce-0.5.tar.gz
+[2023-06-30 03:30:19] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-06-30 03:30:19] INFO root fetch - processPackages [bkbit]: Downloading https://files.pythonhosted.org/packages/83/1b/e1b9cdd6d0764c405e4a729e5c634067b960618df76b69e0822bcc97ac43/bkbit-0.0.2.tar.gz
+[2023-06-30 03:30:19] INFO root fetch - processPackages [bkbit]: executing diffoscope
+[2023-06-30 03:30:19] INFO root fetch - processPackages [bkbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkbit-0.0.1.tar.gz tmp/bkbit-0.0.2.tar.gz --markdown 20230630/b/bkbit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 03:30:19] INFO root fetch - processPackages [enfugue]: Downloading https://files.pythonhosted.org/packages/90/0c/33a1e1c5021f120aef04d162ddad14c57e34be50223789ceace9ae3b9236/enfugue-0.1.2.tar.gz
+[2023-06-30 03:30:19] INFO root fetch - processPackages [django-structlog]: Downloading https://files.pythonhosted.org/packages/9e/0a/4359d6a9b97529d6593f5f85a8d0572c5bb049a10c0fc7386df351cc2646/django-structlog-5.2.0.tar.gz
+[2023-06-30 03:30:19] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-30 03:30:19] INFO root fetch - processPackages [django-structlog]: executing diffoscope
+[2023-06-30 03:30:19] INFO root fetch - processPackages [django-structlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-structlog-5.1.0.tar.gz tmp/django-structlog-5.2.0.tar.gz --markdown 20230630/d/django-structlog/5.1.0-5.2.0/diff.md --exclude *.pyd
+[2023-06-30 03:30:19] INFO root fetch - processPackages [enfugue]: executing diffoscope
+[2023-06-30 03:30:19] INFO root fetch - processPackages [enfugue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enfugue-0.1.1.tar.gz tmp/enfugue-0.1.2.tar.gz --markdown 20230630/e/enfugue/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-30 03:30:19] INFO root fetch - processPackages [graphreduce]: Downloading https://files.pythonhosted.org/packages/9b/f5/483fdf02050eebfe057115f4638cf8f7f8099c7a1906871a71b081152abc/graphreduce-0.6.tar.gz
+[2023-06-30 03:30:20] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-06-30 03:30:20] INFO root fetch - processPackages [graphreduce]: executing diffoscope
+[2023-06-30 03:30:20] INFO root fetch - processPackages [graphreduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphreduce-0.5.tar.gz tmp/graphreduce-0.6.tar.gz --markdown 20230630/g/graphreduce/0.5-0.6/diff.md --exclude *.pyd
+[2023-06-30 03:30:20] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-30 03:30:20] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230630/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-30 03:30:20] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-06-30 03:30:20] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230630/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-06-30 03:30:21] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-0.5.tar.gz]
+[2023-06-30 03:30:21] INFO root fetch - processPackages [graphreduce]: Remove: archive file [/home/abi/fetcher/tmp/graphreduce-0.6.tar.gz]
+[2023-06-30 03:30:21] INFO root fetch - main [MainThread]: End processing [graphreduce]: success
+[2023-06-30 03:30:21] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-30 03:30:21] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-30 03:30:21] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-30 03:30:21] INFO root fetch - processPackages [django-structlog]: Remove: archive file [/home/abi/fetcher/tmp/django-structlog-5.1.0.tar.gz]
+[2023-06-30 03:30:21] INFO root fetch - processPackages [django-structlog]: Remove: archive file [/home/abi/fetcher/tmp/django-structlog-5.2.0.tar.gz]
+[2023-06-30 03:30:21] INFO root fetch - main [MainThread]: End processing [django-structlog]: success
+[2023-06-30 03:30:21] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-30 03:30:21] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-30 03:30:21] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-06-30 03:30:22] INFO root fetch - processPackages [enfugue]: Remove: archive file [/home/abi/fetcher/tmp/enfugue-0.1.1.tar.gz]
+[2023-06-30 03:30:22] INFO root fetch - processPackages [enfugue]: Remove: archive file [/home/abi/fetcher/tmp/enfugue-0.1.2.tar.gz]
+[2023-06-30 03:30:22] INFO root fetch - main [MainThread]: End processing [enfugue]: success
+[2023-06-30 03:30:22] INFO root fetch - processPackages [bkbit]: Remove: archive file [/home/abi/fetcher/tmp/bkbit-0.0.1.tar.gz]
+[2023-06-30 03:30:22] INFO root fetch - processPackages [bkbit]: Remove: archive file [/home/abi/fetcher/tmp/bkbit-0.0.2.tar.gz]
+[2023-06-30 03:30:22] INFO root fetch - main [MainThread]: End processing [bkbit]: success
+[2023-06-30 03:30:22] INFO root fetch - main [MainThread]: Store serial: [18703020]
