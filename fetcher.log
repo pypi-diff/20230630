@@ -17147,3 +17147,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 11:22:47] INFO root fetch - processPackages [openqaoa]: Remove: archive file [/home/abi/fetcher/tmp/openqaoa-0.1.3rc1.tar.gz]
 [2023-06-30 11:22:47] INFO root fetch - main [MainThread]: End processing [openqaoa]: success
 [2023-06-30 11:22:47] INFO root fetch - main [MainThread]: Store serial: [18708208]
+[2023-06-30 11:27:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18708208]
+[2023-06-30 11:27:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-30 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docker-shaper
+[2023-06-30 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fipper
+[2023-06-30 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gumpy
+[2023-06-30 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modular-cli-sdk
+[2023-06-30 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: embiggen
+[2023-06-30 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: weworkapi-cfomp
+[2023-06-30 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cleanphi
+[2023-06-30 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: selis
+[2023-06-30 11:27:57] WARNING root fetch - processPackages [modular-cli-sdk]: Skipping, unable to determine old version
+[2023-06-30 11:27:57] INFO root fetch - main [MainThread]: End processing [modular-cli-sdk] error
+[2023-06-30 11:27:57] INFO root fetch - processPackages [embiggen]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-30 11:27:57] INFO root fetch - processPackages [weworkapi-cfomp]: New version: [1.1.5.dev2] Old Version: [1.1.4]
+[2023-06-30 11:27:57] INFO root fetch - processPackages [gumpy]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-30 11:27:57] INFO root fetch - processPackages [docker-shaper]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-30 11:27:57] INFO root fetch - processPackages [fipper]: New version: [0.0.4.dev1] Old Version: [0.0.3]
+[2023-06-30 11:27:57] INFO root fetch - processPackages [cleanphi]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-30 11:27:57] INFO root fetch - processPackages [selis]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-30 11:27:57] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/93/68/e13cdca050b32069a58f9e36d05835a384d261a5d1f299af468629e721e1/embiggen-0.9.2.tar.gz
+[2023-06-30 11:27:57] INFO root fetch - processPackages [weworkapi-cfomp]: Downloading https://files.pythonhosted.org/packages/fe/93/5d3450353066c5bbace3d43538f1bfffb61bb98d647438f014658ff74c32/weworkapi_cfomp-1.1.4-py3-none-any.whl
+[2023-06-30 11:27:57] INFO root fetch - processPackages [docker-shaper]: Downloading https://files.pythonhosted.org/packages/bb/ad/68b127a4a0250821ddbcacf8d91801ee46c78c0dd2d4d73b9a8d02a1c7f1/docker_shaper-0.1.3.tar.gz
+[2023-06-30 11:27:57] INFO root fetch - processPackages [fipper]: Downloading https://files.pythonhosted.org/packages/71/ca/9678a0431947fe4ab8818497ca8c6ceb44fc560822760c7fd70949b0d5f3/fipper-0.0.3.tar.gz
+[2023-06-30 11:27:57] INFO root fetch - processPackages [gumpy]: Downloading https://files.pythonhosted.org/packages/24/46/90eab1547e7f2a0c0fb361fc02bd943178e5ade15205789bdaaebe174c1a/gumpy-1.2.0.tar.gz
+[2023-06-30 11:27:57] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/ea/38/fe874c4a07059e07a69e1031fa1913de8fb76fa4f0983ba46498093c0a66/selis-1.0.0.tar.gz
+[2023-06-30 11:27:57] INFO root fetch - processPackages [cleanphi]: Downloading https://files.pythonhosted.org/packages/a9/36/c8fac72da2b1352ad82b1161799a15224e390e02a1f2c37ca0456a4e11eb/cleanphi-0.1.0-py3-none-any.whl
+[2023-06-30 11:27:57] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/4b/25/4e08b9a62e34917ef75c8ed47526252ca4bcd5d5e15961bc14dc9486ccf8/embiggen-0.9.3.tar.gz
+[2023-06-30 11:27:57] INFO root fetch - processPackages [weworkapi-cfomp]: Downloading https://files.pythonhosted.org/packages/99/dc/9400d6c0ee92868365329af0ab1c17f94ff6ae07d859419e17cfb5eef7a6/weworkapi_cfomp-1.1.5.dev2-py3-none-any.whl
+[2023-06-30 11:27:57] INFO root fetch - processPackages [embiggen]: executing diffoscope
+[2023-06-30 11:27:57] INFO root fetch - processPackages [embiggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embiggen-0.9.2.tar.gz tmp/embiggen-0.9.3.tar.gz --markdown 20230630/e/embiggen/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-30 11:27:57] INFO root fetch - processPackages [docker-shaper]: Downloading https://files.pythonhosted.org/packages/8b/f1/575709bdfc25fa7e0f17de50f416ebdd4d23efde95ea31ade032365c16f0/docker_shaper-0.1.4.tar.gz
+[2023-06-30 11:27:57] INFO root fetch - processPackages [gumpy]: Downloading https://files.pythonhosted.org/packages/60/30/9d0b3f95ab76cf76fc0deb20eb05acc48224731b519c884ed68936c2c1ea/gumpy-1.2.1.tar.gz
+[2023-06-30 11:27:57] INFO root fetch - processPackages [cleanphi]: Downloading https://files.pythonhosted.org/packages/21/b1/b992d859fe94d65240c38bd571de5c559b3a816743db2ff87404d515e31b/cleanphi-0.2.0-py3-none-any.whl
+[2023-06-30 11:27:57] INFO root fetch - processPackages [fipper]: Downloading https://files.pythonhosted.org/packages/97/5f/e0c81a521da20be870646c6da4ac1ce279911d452e22ab7e7bc23036aa90/fipper-0.0.4.dev1.tar.gz
+[2023-06-30 11:27:57] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/73/ae/49c4890858e1707e0915873dc1119f0c787c9f121e181beef150f957b093/selis-1.0.1.tar.gz
+[2023-06-30 11:27:57] INFO root fetch - processPackages [weworkapi-cfomp]: executing diffoscope
+[2023-06-30 11:27:57] INFO root fetch - processPackages [weworkapi-cfomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weworkapi_cfomp-1.1.4-py3-none-any.whl.zip tmp/weworkapi_cfomp-1.1.5.dev2-py3-none-any.whl.zip --markdown 20230630/w/weworkapi-cfomp/1.1.4-1.1.5.dev2/diff.md --exclude *.pyd
+[2023-06-30 11:27:57] INFO root fetch - processPackages [selis]: executing diffoscope
+[2023-06-30 11:27:57] INFO root fetch - processPackages [selis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selis-1.0.0.tar.gz tmp/selis-1.0.1.tar.gz --markdown 20230630/s/selis/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-30 11:27:57] INFO root fetch - processPackages [cleanphi]: executing diffoscope
+[2023-06-30 11:27:57] INFO root fetch - processPackages [cleanphi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanphi-0.1.0-py3-none-any.whl.zip tmp/cleanphi-0.2.0-py3-none-any.whl.zip --markdown 20230630/c/cleanphi/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-30 11:27:57] INFO root fetch - processPackages [fipper]: executing diffoscope
+[2023-06-30 11:27:57] INFO root fetch - processPackages [fipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fipper-0.0.3.tar.gz tmp/fipper-0.0.4.dev1.tar.gz --markdown 20230630/f/fipper/0.0.3-0.0.4.dev1/diff.md --exclude *.pyd
+[2023-06-30 11:27:57] INFO root fetch - processPackages [docker-shaper]: executing diffoscope
+[2023-06-30 11:27:57] INFO root fetch - processPackages [docker-shaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_shaper-0.1.3.tar.gz tmp/docker_shaper-0.1.4.tar.gz --markdown 20230630/d/docker-shaper/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-30 11:27:57] INFO root fetch - processPackages [gumpy]: executing diffoscope
+[2023-06-30 11:27:57] INFO root fetch - processPackages [gumpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gumpy-1.2.0.tar.gz tmp/gumpy-1.2.1.tar.gz --markdown 20230630/g/gumpy/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-30 11:27:59] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-1.0.0.tar.gz]
+[2023-06-30 11:27:59] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-1.0.1.tar.gz]
+[2023-06-30 11:27:59] INFO root fetch - main [MainThread]: End processing [selis]: success
+[2023-06-30 11:27:59] INFO root fetch - processPackages [cleanphi]: Remove: archive file [/home/abi/fetcher/tmp/cleanphi-0.1.0-py3-none-any.whl.zip]
+[2023-06-30 11:27:59] INFO root fetch - processPackages [cleanphi]: Remove: archive file [/home/abi/fetcher/tmp/cleanphi-0.2.0-py3-none-any.whl.zip]
+[2023-06-30 11:27:59] INFO root fetch - main [MainThread]: End processing [cleanphi]: success
+[2023-06-30 11:27:59] INFO root fetch - processPackages [docker-shaper]: Remove: archive file [/home/abi/fetcher/tmp/docker_shaper-0.1.3.tar.gz]
+[2023-06-30 11:27:59] INFO root fetch - processPackages [docker-shaper]: Remove: archive file [/home/abi/fetcher/tmp/docker_shaper-0.1.4.tar.gz]
+[2023-06-30 11:27:59] INFO root fetch - main [MainThread]: End processing [docker-shaper]: success
+[2023-06-30 11:27:59] INFO root fetch - processPackages [weworkapi-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/weworkapi_cfomp-1.1.4-py3-none-any.whl.zip]
+[2023-06-30 11:27:59] INFO root fetch - processPackages [weworkapi-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/weworkapi_cfomp-1.1.5.dev2-py3-none-any.whl.zip]
+[2023-06-30 11:27:59] INFO root fetch - main [MainThread]: End processing [weworkapi-cfomp]: success
+[2023-06-30 11:27:59] INFO root fetch - processPackages [gumpy]: Remove: archive file [/home/abi/fetcher/tmp/gumpy-1.2.0.tar.gz]
+[2023-06-30 11:27:59] INFO root fetch - processPackages [gumpy]: Remove: archive file [/home/abi/fetcher/tmp/gumpy-1.2.1.tar.gz]
+[2023-06-30 11:27:59] INFO root fetch - main [MainThread]: End processing [gumpy]: success
+[2023-06-30 11:27:59] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.2.tar.gz]
+[2023-06-30 11:27:59] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.3.tar.gz]
+[2023-06-30 11:27:59] INFO root fetch - main [MainThread]: End processing [embiggen]: success
+[2023-06-30 11:28:02] INFO root fetch - processPackages [fipper]: Remove: archive file [/home/abi/fetcher/tmp/fipper-0.0.3.tar.gz]
+[2023-06-30 11:28:02] INFO root fetch - processPackages [fipper]: Remove: archive file [/home/abi/fetcher/tmp/fipper-0.0.4.dev1.tar.gz]
+[2023-06-30 11:28:02] INFO root fetch - main [MainThread]: End processing [fipper]: success
+[2023-06-30 11:28:02] INFO root fetch - main [MainThread]: Store serial: [18708229]
