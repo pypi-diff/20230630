@@ -1733,3 +1733,171 @@
 [2023-06-30 02:05:26] INFO root fetch - processPackages [awkward-cpp]: Remove: archive file [/home/abi/fetcher/tmp/awkward-cpp-9.tar.gz]
 [2023-06-30 02:05:26] INFO root fetch - main [MainThread]: End processing [awkward-cpp]: success
 [2023-06-30 02:05:26] INFO root fetch - main [MainThread]: Store serial: [18702354]
+[2023-06-30 02:10:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702354]
+[2023-06-30 02:10:35] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-30 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-ecosystem-services
+[2023-06-30 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxkern-nightly
+[2023-06-30 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ICICONSOLEGPT
+[2023-06-30 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: faker-file
+[2023-06-30 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asposecellscloud
+[2023-06-30 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: damask-parse
+[2023-06-30 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxutils-nightly
+[2023-06-30 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oloren
+[2023-06-30 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mmq
+[2023-06-30 02:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ml-compiler-opt
+[2023-06-30 02:10:35] INFO root fetch - processPackages [asposecellscloud]: New version: [23.6] Old Version: [23.5.1]
+[2023-06-30 02:10:35] INFO root fetch - processPackages [ICICONSOLEGPT]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-30 02:10:35] INFO root fetch - processPackages [damask-parse]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-30 02:10:35] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-30 02:10:35] WARNING root fetch - processPackages [mmq]: Skipping, unable to determine old version
+[2023-06-30 02:10:35] INFO root fetch - processPackages [mmq]: Start processing: pydwm1001
+[2023-06-30 02:10:35] INFO root fetch - processPackages [faker-file]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-30 02:10:35] INFO root fetch - main [MainThread]: End processing [mmq] error
+[2023-06-30 02:10:35] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 02:10:35] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202306300007] Old Version: [0.0.1.dev202306290007]
+[2023-06-30 02:10:35] INFO root fetch - processPackages [pydwm1001]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-30 02:10:35] INFO root fetch - processPackages [damask-parse]: Downloading https://files.pythonhosted.org/packages/97/96/069bda6e959f7bfda169c4fc5a14dbefc137d9bd390f1add7c86e12e8b66/damask-parse-0.2.8.tar.gz
+[2023-06-30 02:10:35] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-30 02:10:35] INFO root fetch - processPackages [pydwm1001]: Downloading https://files.pythonhosted.org/packages/3c/83/9cd2ff07d39bb4fd392c4cb015896582fd46507a81796318ab1cf2732323/pydwm1001-0.5.0.tar.gz
+[2023-06-30 02:10:35] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230630] Old Version: [0.0.8.dev20230629]
+[2023-06-30 02:10:35] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-30 02:10:35] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-30 02:10:35] INFO root fetch - processPackages [ICICONSOLEGPT]: Downloading https://files.pythonhosted.org/packages/ff/e3/46bfea7729a4ea2915b268d783d9107f90d37bcd881e0cb282e5c0088655/ICICONSOLEGPT-0.0.2.tar.gz
+[2023-06-30 02:10:35] INFO root fetch - processPackages [asposecellscloud]: Downloading https://files.pythonhosted.org/packages/79/6b/7af47e23362d72d823c5cae7b4346030545b1b4137ce5a4b8371f442a426/asposecellscloud-23.5.1.tar.gz
+[2023-06-30 02:10:36] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/f2/60/db18b5975cef694fb1b510d69a38bf5f4856c621123c8ed905f6760636eb/ml-compiler-opt-0.0.1.dev202306290007.tar.gz
+[2023-06-30 02:10:36] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/3b/a1/ad4ac7b368163a317102172cd45891028d6b068dc096e110814cc517deed/faker-file-0.9.2.tar.gz
+[2023-06-30 02:10:36] INFO root fetch - processPackages [pydwm1001]: Downloading https://files.pythonhosted.org/packages/d2/36/9b3c7603ec9af53151a143f5ae4cb00e31ccd9d8d1e407e1f0f2fd8f0e98/pydwm1001-0.6.0.tar.gz
+[2023-06-30 02:10:36] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-30 02:10:36] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/02/6c/bc999947a681dd177356262c49806f9906e0d262969aa0c6cec292c7fe64/jaxutils-nightly-0.0.8.dev20230629.tar.gz
+[2023-06-30 02:10:36] INFO root fetch - processPackages [damask-parse]: Downloading https://files.pythonhosted.org/packages/4c/eb/906dd073c1ba8c4d7c57b70e3ff1b1aa3cc647c68a720b1f710a2ca17acd/damask-parse-0.2.9.tar.gz
+[2023-06-30 02:10:36] INFO root fetch - processPackages [ICICONSOLEGPT]: Downloading https://files.pythonhosted.org/packages/5b/4d/3a673fb13f22a25ca5d5156dae8ea9183cdc821ea5ff37972e4d5653d53f/ICICONSOLEGPT-0.0.3.tar.gz
+[2023-06-30 02:10:36] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-30 02:10:36] INFO root fetch - processPackages [pydwm1001]: executing diffoscope
+[2023-06-30 02:10:36] INFO root fetch - processPackages [pydwm1001]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydwm1001-0.5.0.tar.gz tmp/pydwm1001-0.6.0.tar.gz --markdown 20230630/p/pydwm1001/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-30 02:10:36] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-30 02:10:36] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-30 02:10:36] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230630/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-30 02:10:36] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-30 02:10:36] INFO root fetch - processPackages [damask-parse]: executing diffoscope
+[2023-06-30 02:10:36] INFO root fetch - processPackages [damask-parse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damask-parse-0.2.8.tar.gz tmp/damask-parse-0.2.9.tar.gz --markdown 20230630/d/damask-parse/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-30 02:10:36] INFO root fetch - processPackages [ICICONSOLEGPT]: executing diffoscope
+[2023-06-30 02:10:36] INFO root fetch - processPackages [ICICONSOLEGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICICONSOLEGPT-0.0.2.tar.gz tmp/ICICONSOLEGPT-0.0.3.tar.gz --markdown 20230630/I/ICICONSOLEGPT/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-30 02:10:36] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/d4/6e/e46bed8c651a483a1b4ded119a7cfe4069739709cb0cd216b5482836a941/ml-compiler-opt-0.0.1.dev202306300007.tar.gz
+[2023-06-30 02:10:36] INFO root fetch - processPackages [asposecellscloud]: Downloading https://files.pythonhosted.org/packages/60/08/aa895d8da33adea04ebe59a73ef7223bdfb4cab9ca73cf0187c2f6a77cb2/asposecellscloud-23.6.tar.gz
+[2023-06-30 02:10:36] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-30 02:10:36] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-30 02:10:36] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230630/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-30 02:10:36] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230630/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 02:10:36] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/91/2c/08a72a0cb6b8f0b657b334700bce122299a7f1c0d94c1e201959121ee226/faker-file-0.9.3.tar.gz
+[2023-06-30 02:10:36] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/2c/02/c89f6de322516bb1b7e3be2b5c6a136ec54c6039f111a4f33952fc3d2ea2/jaxutils-nightly-0.0.8.dev20230630.tar.gz
+[2023-06-30 02:10:36] INFO root fetch - processPackages [faker-file]: executing diffoscope
+[2023-06-30 02:10:36] INFO root fetch - processPackages [faker-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-0.9.2.tar.gz tmp/faker-file-0.9.3.tar.gz --markdown 20230630/f/faker-file/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-30 02:10:36] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-06-30 02:10:36] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202306290007.tar.gz tmp/ml-compiler-opt-0.0.1.dev202306300007.tar.gz --markdown 20230630/m/ml-compiler-opt/0.0.1.dev202306290007-0.0.1.dev202306300007/diff.md --exclude *.pyd
+[2023-06-30 02:10:36] INFO root fetch - processPackages [asposecellscloud]: executing diffoscope
+[2023-06-30 02:10:36] INFO root fetch - processPackages [asposecellscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asposecellscloud-23.5.1.tar.gz tmp/asposecellscloud-23.6.tar.gz --markdown 20230630/a/asposecellscloud/23.5.1-23.6/diff.md --exclude *.pyd
+[2023-06-30 02:10:36] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-30 02:10:36] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230629.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230630.tar.gz --markdown 20230630/j/jaxutils-nightly/0.0.8.dev20230629-0.0.8.dev20230630/diff.md --exclude *.pyd
+[2023-06-30 02:10:37] INFO root fetch - processPackages [pydwm1001]: Remove: archive file [/home/abi/fetcher/tmp/pydwm1001-0.5.0.tar.gz]
+[2023-06-30 02:10:37] INFO root fetch - processPackages [pydwm1001]: Remove: archive file [/home/abi/fetcher/tmp/pydwm1001-0.6.0.tar.gz]
+[2023-06-30 02:10:37] INFO root fetch - processPackages [pydwm1001]: Start processing: torchlayers-nightly
+[2023-06-30 02:10:37] INFO root fetch - main [MainThread]: End processing [pydwm1001]: success
+[2023-06-30 02:10:37] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1688083671] Old Version: [1687997315]
+[2023-06-30 02:10:37] INFO root fetch - processPackages [ICICONSOLEGPT]: Remove: archive file [/home/abi/fetcher/tmp/ICICONSOLEGPT-0.0.2.tar.gz]
+[2023-06-30 02:10:37] INFO root fetch - processPackages [ICICONSOLEGPT]: Remove: archive file [/home/abi/fetcher/tmp/ICICONSOLEGPT-0.0.3.tar.gz]
+[2023-06-30 02:10:37] INFO root fetch - processPackages [ICICONSOLEGPT]: Start processing: cdk-aws-discord-notifiers
+[2023-06-30 02:10:37] INFO root fetch - main [MainThread]: End processing [ICICONSOLEGPT]: success
+[2023-06-30 02:10:37] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 02:10:37] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-30 02:10:37] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-30 02:10:37] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: ICICONSOLEGPT
+[2023-06-30 02:10:37] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-30 02:10:38] INFO root fetch - processPackages [ICICONSOLEGPT]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-30 02:10:38] INFO root fetch - processPackages [damask-parse]: Remove: archive file [/home/abi/fetcher/tmp/damask-parse-0.2.8.tar.gz]
+[2023-06-30 02:10:38] INFO root fetch - processPackages [damask-parse]: Remove: archive file [/home/abi/fetcher/tmp/damask-parse-0.2.9.tar.gz]
+[2023-06-30 02:10:38] INFO root fetch - processPackages [damask-parse]: Start processing: outerbounds
+[2023-06-30 02:10:38] INFO root fetch - main [MainThread]: End processing [damask-parse]: success
+[2023-06-30 02:10:38] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/21/fd/940741753c726e3d12f7cb299a334868d827c9d9807e380a01e4fc1b560d/torchlayers-nightly-1687997315.tar.gz
+[2023-06-30 02:10:38] INFO root fetch - processPackages [ICICONSOLEGPT]: Downloading https://files.pythonhosted.org/packages/ff/e3/46bfea7729a4ea2915b268d783d9107f90d37bcd881e0cb282e5c0088655/ICICONSOLEGPT-0.0.2.tar.gz
+[2023-06-30 02:10:38] INFO root fetch - processPackages [outerbounds]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-30 02:10:38] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230629.tar.gz]
+[2023-06-30 02:10:38] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230630.tar.gz]
+[2023-06-30 02:10:38] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: vesselapi
+[2023-06-30 02:10:38] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-30 02:10:38] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/db/c3/414322f3ea100053ac3662e6bb112f6d3bc83f54c5c0996e89fef5c3d384/outerbounds-0.3.8-py3-none-any.whl
+[2023-06-30 02:10:38] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-06-30 02:10:38] INFO root fetch - processPackages [ICICONSOLEGPT]: Downloading https://files.pythonhosted.org/packages/5b/4d/3a673fb13f22a25ca5d5156dae8ea9183cdc821ea5ff37972e4d5653d53f/ICICONSOLEGPT-0.0.3.tar.gz
+[2023-06-30 02:10:38] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.32.0]
+[2023-06-30 02:10:38] INFO root fetch - processPackages [ICICONSOLEGPT]: executing diffoscope
+[2023-06-30 02:10:38] INFO root fetch - processPackages [ICICONSOLEGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICICONSOLEGPT-0.0.2.tar.gz tmp/ICICONSOLEGPT-0.0.3.tar.gz --markdown 20230630/I/ICICONSOLEGPT/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-30 02:10:38] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/eb/c8/c87d25484be12f66ee78314f7ebd89ca4200a29e85c757b1d2e469e06c52/outerbounds-0.3.9-py3-none-any.whl
+[2023-06-30 02:10:38] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/8d/9a/446fd65683632e40d8cd72746d554345b16cdee247a7c80213b788206a6b/vesselapi-3.32.0.tar.gz
+[2023-06-30 02:10:38] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/b0/3c/6439d73c1afad63a1d2eaecdd72d1478d1d79e250283ab47e1a1675c4b82/torchlayers-nightly-1688083671.tar.gz
+[2023-06-30 02:10:38] INFO root fetch - processPackages [outerbounds]: executing diffoscope
+[2023-06-30 02:10:38] INFO root fetch - processPackages [outerbounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outerbounds-0.3.8-py3-none-any.whl.zip tmp/outerbounds-0.3.9-py3-none-any.whl.zip --markdown 20230630/o/outerbounds/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-30 02:10:38] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-30 02:10:38] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1687997315.tar.gz tmp/torchlayers-nightly-1688083671.tar.gz --markdown 20230630/t/torchlayers-nightly/1687997315-1688083671/diff.md --exclude *.pyd
+[2023-06-30 02:10:38] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306290007.tar.gz]
+[2023-06-30 02:10:38] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306300007.tar.gz]
+[2023-06-30 02:10:38] INFO root fetch - processPackages [ml-compiler-opt]: Start processing: cdk-common
+[2023-06-30 02:10:38] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-06-30 02:10:38] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-30 02:10:38] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-06-30 02:10:38] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-06-30 02:10:38] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-06-30 02:10:38] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-06-30 02:10:38] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.32.0.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230630/v/vesselapi/3.32.0-3.5.2/diff.md --exclude *.pyd
+[2023-06-30 02:10:39] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-06-30 02:10:39] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230630/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 02:10:39] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-30 02:10:39] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-30 02:10:39] INFO root fetch - processPackages [data-ecosystem-services]: Start processing: cdk8s-grafana
+[2023-06-30 02:10:39] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-30 02:10:39] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-30 02:10:39] INFO root fetch - processPackages [ICICONSOLEGPT]: Remove: archive file [/home/abi/fetcher/tmp/ICICONSOLEGPT-0.0.2.tar.gz]
+[2023-06-30 02:10:39] INFO root fetch - processPackages [ICICONSOLEGPT]: Remove: archive file [/home/abi/fetcher/tmp/ICICONSOLEGPT-0.0.3.tar.gz]
+[2023-06-30 02:10:39] INFO root fetch - processPackages [ICICONSOLEGPT]: Start processing: cdk8s
+[2023-06-30 02:10:39] INFO root fetch - main [MainThread]: End processing [ICICONSOLEGPT]: success
+[2023-06-30 02:10:39] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.88]
+[2023-06-30 02:10:39] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-06-30 02:10:39] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/6e/f5/390f92d0c04fc7744fc6850aff734095b3cda18a85972f566ac1a42ac208/cdk8s-2.7.88.tar.gz
+[2023-06-30 02:10:39] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.8-py3-none-any.whl.zip]
+[2023-06-30 02:10:39] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.9-py3-none-any.whl.zip]
+[2023-06-30 02:10:39] INFO root fetch - main [MainThread]: End processing [outerbounds]: success
+[2023-06-30 02:10:39] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-06-30 02:10:39] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-06-30 02:10:39] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230630/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-30 02:10:39] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/71/30/02a1bcc270c53f6b55cd50dc45c426ecdc5d520a1a3f21057474d46e3de9/cdk8s-2.7.9.tar.gz
+[2023-06-30 02:10:40] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-06-30 02:10:40] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-06-30 02:10:40] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.88.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230630/c/cdk8s/2.7.88-2.7.9/diff.md --exclude *.pyd
+[2023-06-30 02:10:40] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-06-30 02:10:40] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-06-30 02:10:40] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-06-30 02:10:40] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.2.tar.gz]
+[2023-06-30 02:10:40] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.3.tar.gz]
+[2023-06-30 02:10:40] INFO root fetch - main [MainThread]: End processing [faker-file]: success
+[2023-06-30 02:10:40] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687997315.tar.gz]
+[2023-06-30 02:10:40] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1688083671.tar.gz]
+[2023-06-30 02:10:40] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-30 02:10:40] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-06-30 02:10:40] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230630/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-30 02:10:41] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.88.tar.gz]
+[2023-06-30 02:10:41] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.9.tar.gz]
+[2023-06-30 02:10:41] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-06-30 02:10:41] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-06-30 02:10:41] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-06-30 02:10:41] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-06-30 02:10:42] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-06-30 02:10:42] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-06-30 02:10:42] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-06-30 02:10:43] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.32.0.tar.gz]
+[2023-06-30 02:10:43] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-06-30 02:10:43] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-06-30 02:10:43] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-30 02:10:43] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-30 02:10:43] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-30 02:10:46] INFO root fetch - processPackages [asposecellscloud]: Remove: archive file [/home/abi/fetcher/tmp/asposecellscloud-23.5.1.tar.gz]
+[2023-06-30 02:10:46] INFO root fetch - processPackages [asposecellscloud]: Remove: archive file [/home/abi/fetcher/tmp/asposecellscloud-23.6.tar.gz]
+[2023-06-30 02:10:46] INFO root fetch - main [MainThread]: End processing [asposecellscloud]: success
+[2023-06-30 02:10:46] INFO root fetch - main [MainThread]: Store serial: [18702411]
