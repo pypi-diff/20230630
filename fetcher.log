@@ -17955,3 +17955,121 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 12:00:24] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.840.tar.gz]
 [2023-06-30 12:00:24] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
 [2023-06-30 12:00:24] INFO root fetch - main [MainThread]: Store serial: [18708522]
+[2023-06-30 12:05:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18708522]
+[2023-06-30 12:05:33] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-30 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crypto-screening
+[2023-06-30 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: JustScan
+[2023-06-30 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaces
+[2023-06-30 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mentord
+[2023-06-30 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaces
+[2023-06-30 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fnapy
+[2023-06-30 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gefpy
+[2023-06-30 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: speculos
+[2023-06-30 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dol
+[2023-06-30 12:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lnschema_bionty
+[2023-06-30 12:05:33] INFO root fetch - processPackages [mentord]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-06-30 12:05:33] INFO root fetch - processPackages [gefpy]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-30 12:05:33] INFO root fetch - processPackages [spaces]: New version: [0.5b1] Old Version: [0.4b1]
+[2023-06-30 12:05:33] INFO root fetch - processPackages [crypto-screening]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-06-30 12:05:33] INFO root fetch - processPackages [spaces]: New version: [0.5b1] Old Version: [0.4b1]
+[2023-06-30 12:05:33] INFO root fetch - processPackages [fnapy]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-30 12:05:33] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-30 12:05:33] INFO root fetch - processPackages [speculos]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-30 12:05:33] INFO root fetch - processPackages [dol]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-30 12:05:33] INFO root fetch - processPackages [JustScan]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-30 12:05:33] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/8a/8b/0fa1999ba5c28980af324dfae6fba5b5190d1a4db339cb57d36a64271596/mentord-1.1.9.tar.gz
+[2023-06-30 12:05:33] INFO root fetch - processPackages [fnapy]: Downloading https://files.pythonhosted.org/packages/a3/a2/a7d1b3770798e9f38ad20c81a42646d9f55e55bad91c59f3794c9cabde64/fnapy-1.4.0.tar.gz
+[2023-06-30 12:05:33] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-06-30 12:05:33] INFO root fetch - processPackages [dol]: Downloading https://files.pythonhosted.org/packages/ca/4a/8b3ea3c301d23fc29b9dc4b0961ff15d18cbb97d3e1a68397e3af340077d/dol-0.1.98.tar.gz
+[2023-06-30 12:05:33] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/ff/8f/a5b28c74c62d829eda3bae81ea36ef66de4ef8543087715e518de984a7a9/spaces-0.4b1.tar.gz
+[2023-06-30 12:05:33] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/ff/8f/a5b28c74c62d829eda3bae81ea36ef66de4ef8543087715e518de984a7a9/spaces-0.4b1.tar.gz
+[2023-06-30 12:05:34] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/8c/97/fe35506740e2dbf27c35c57909bd7f12a03af663a583363b88ff7ecbd552/crypto-screening-1.5.0.tar.gz
+[2023-06-30 12:05:34] INFO root fetch - processPackages [gefpy]: Downloading https://files.pythonhosted.org/packages/74/18/e54a8174866b3870038e6bc026b90b064d05d985fe90321f177fc1c07a15/gefpy-0.7.0-cp38-cp38-win_amd64.whl
+[2023-06-30 12:05:34] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-06-30 12:05:34] INFO root fetch - processPackages [speculos]: Downloading https://files.pythonhosted.org/packages/d2/c7/1b87e8baff2f3595baccf39cf7c5d67bad352f5567b4b96a618a7db35216/speculos-0.2.6.tar.gz
+[2023-06-30 12:05:34] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-06-30 12:05:34] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230630/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-30 12:05:34] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/04/68/31a8ea47fecac2e2540946a35a7e51bb3151871c3f56e1f8d55c7101e51a/JustScan-1.2.4.tar.gz
+[2023-06-30 12:05:34] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/f1/ae/45ee45cab5f7bd04b6992d327d995a0148c81964c51b41c9ea583dd96f7a/mentord-1.2.0.tar.gz
+[2023-06-30 12:05:34] INFO root fetch - processPackages [fnapy]: Downloading https://files.pythonhosted.org/packages/a6/42/078a30a504a872cf99ae033218f143a35bb099189c516561e4653c8a037a/fnapy-1.4.1.tar.gz
+[2023-06-30 12:05:34] WARNING root fetch - processPackages [gefpy]: Skipping package: exceeds size limit 26223434>=10485760
+[2023-06-30 12:05:34] INFO root fetch - processPackages [gefpy]: Start processing: macrometa-target-mssql
+[2023-06-30 12:05:34] INFO root fetch - main [MainThread]: End processing [gefpy] error
+[2023-06-30 12:05:34] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/a4/f8/780419504e7f9e4b7a61178fd82c3bdeede3e334cf05dadf6d4f439cd607/spaces-0.5b1.tar.gz
+[2023-06-30 12:05:34] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/a4/f8/780419504e7f9e4b7a61178fd82c3bdeede3e334cf05dadf6d4f439cd607/spaces-0.5b1.tar.gz
+[2023-06-30 12:05:34] INFO root fetch - processPackages [dol]: Downloading https://files.pythonhosted.org/packages/6f/21/71e7389816fcb2eaef9a689b287a1892994811398bf622e15dccee9768f9/dol-0.1.99.tar.gz
+[2023-06-30 12:05:34] INFO root fetch - processPackages [mentord]: executing diffoscope
+[2023-06-30 12:05:34] INFO root fetch - processPackages [mentord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentord-1.1.9.tar.gz tmp/mentord-1.2.0.tar.gz --markdown 20230630/m/mentord/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-06-30 12:05:34] WARNING root fetch - processPackages [speculos]: Skipping package: exceeds size limit 16138162>=10485760
+[2023-06-30 12:05:34] INFO root fetch - processPackages [speculos]: Start processing: JustScan
+[2023-06-30 12:05:34] INFO root fetch - main [MainThread]: End processing [speculos] error
+[2023-06-30 12:05:34] INFO root fetch - processPackages [fnapy]: executing diffoscope
+[2023-06-30 12:05:34] INFO root fetch - processPackages [fnapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnapy-1.4.0.tar.gz tmp/fnapy-1.4.1.tar.gz --markdown 20230630/f/fnapy/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-30 12:05:34] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 12:05:34] INFO root fetch - processPackages [JustScan]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-06-30 12:05:34] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-06-30 12:05:34] INFO root fetch - processPackages [dol]: executing diffoscope
+[2023-06-30 12:05:34] INFO root fetch - processPackages [dol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dol-0.1.98.tar.gz tmp/dol-0.1.99.tar.gz --markdown 20230630/d/dol/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-30 12:05:34] INFO root fetch - processPackages [spaces]: executing diffoscope
+[2023-06-30 12:05:34] INFO root fetch - processPackages [spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaces-0.4b1.tar.gz tmp/spaces-0.5b1.tar.gz --markdown 20230630/s/spaces/0.4b1-0.5b1/diff.md --exclude *.pyd
+[2023-06-30 12:05:34] INFO root fetch - processPackages [spaces]: executing diffoscope
+[2023-06-30 12:05:34] INFO root fetch - processPackages [spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaces-0.4b1.tar.gz tmp/spaces-0.5b1.tar.gz --markdown 20230630/s/spaces/0.4b1-0.5b1/diff.md --exclude *.pyd
+[2023-06-30 12:05:34] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/56/67/9ecf731f5ff7bab6df7607f1c852cba3e2ce7e3f767f6d0b4ea2c24cb320/crypto-screening-1.6.0.tar.gz
+[2023-06-30 12:05:34] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/4b/42/f521b4b4de792269f70c44f969668b9b89bd162781d0b7ddd521b9273071/JustScan-1.2.5.tar.gz
+[2023-06-30 12:05:34] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/4b/42/f521b4b4de792269f70c44f969668b9b89bd162781d0b7ddd521b9273071/JustScan-1.2.5.tar.gz
+[2023-06-30 12:05:34] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-06-30 12:05:34] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-30 12:05:34] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.2.4.tar.gz tmp/JustScan-1.2.5.tar.gz --markdown 20230630/J/JustScan/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-30 12:05:34] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-30 12:05:34] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230630/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 12:05:34] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-06-30 12:05:34] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-1.5.0.tar.gz tmp/crypto-screening-1.6.0.tar.gz --markdown 20230630/c/crypto-screening/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-06-30 12:05:34] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/3e/da/748b73b3e57daeb4a6c9927a1a759bf4c1ddb900cc724e25ceca89860534/JustScan-1.2.6.tar.gz
+[2023-06-30 12:05:34] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-30 12:05:34] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.2.5.tar.gz tmp/JustScan-1.2.6.tar.gz --markdown 20230630/J/JustScan/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-06-30 12:05:35] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.1.9.tar.gz]
+[2023-06-30 12:05:35] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.2.0.tar.gz]
+[2023-06-30 12:05:35] INFO root fetch - processPackages [mentord]: Start processing: gallon
+[2023-06-30 12:05:35] INFO root fetch - main [MainThread]: End processing [mentord]: success
+[2023-06-30 12:05:35] INFO root fetch - processPackages [gallon]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-30 12:05:35] INFO root fetch - processPackages [gallon]: Downloading https://files.pythonhosted.org/packages/99/f5/04e3ebf4e7af7cfae8246f644621bef098503bc4305a902c6481a8851c8f/gallon-0.0.1.tar.gz
+[2023-06-30 12:05:35] INFO root fetch - processPackages [fnapy]: Remove: archive file [/home/abi/fetcher/tmp/fnapy-1.4.0.tar.gz]
+[2023-06-30 12:05:35] INFO root fetch - processPackages [fnapy]: Remove: archive file [/home/abi/fetcher/tmp/fnapy-1.4.1.tar.gz]
+[2023-06-30 12:05:35] INFO root fetch - processPackages [fnapy]: Start processing: autodistill-yolov5
+[2023-06-30 12:05:35] INFO root fetch - main [MainThread]: End processing [fnapy]: success
+[2023-06-30 12:05:36] INFO root fetch - processPackages [gallon]: Downloading https://files.pythonhosted.org/packages/b7/8f/ae44a5bac3c1d6426371032dc46150b125785ed7227cb1f19cd09bb84980/gallon-0.0.2.tar.gz
+[2023-06-30 12:05:36] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.4b1.tar.gz]
+[2023-06-30 12:05:36] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.5b1.tar.gz]
+[2023-06-30 12:05:36] INFO root fetch - main [MainThread]: End processing [spaces]: success
+[2023-06-30 12:05:36] INFO root fetch - processPackages [autodistill-yolov5]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-30 12:05:36] INFO root fetch - processPackages [gallon]: executing diffoscope
+[2023-06-30 12:05:36] INFO root fetch - processPackages [gallon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gallon-0.0.1.tar.gz tmp/gallon-0.0.2.tar.gz --markdown 20230630/g/gallon/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 12:05:36] INFO root fetch - processPackages [dol]: Remove: archive file [/home/abi/fetcher/tmp/dol-0.1.98.tar.gz]
+[2023-06-30 12:05:36] INFO root fetch - processPackages [dol]: Remove: archive file [/home/abi/fetcher/tmp/dol-0.1.99.tar.gz]
+[2023-06-30 12:05:36] INFO root fetch - main [MainThread]: End processing [dol]: success
+[2023-06-30 12:05:36] INFO root fetch - processPackages [autodistill-yolov5]: Downloading https://files.pythonhosted.org/packages/4d/66/7fa8e1ab4706e310aa3cda6309955959cd0294ad2bba136d79d06b57936b/autodistill-yolov5-0.1.1.tar.gz
+[2023-06-30 12:05:36] INFO root fetch - main [MainThread]: End processing [spaces]: success
+[2023-06-30 12:05:36] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-06-30 12:05:36] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-06-30 12:05:36] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-06-30 12:05:36] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.5.0.tar.gz]
+[2023-06-30 12:05:36] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.6.0.tar.gz]
+[2023-06-30 12:05:36] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-06-30 12:05:36] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-06-30 12:05:36] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-06-30 12:05:36] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-30 12:05:36] INFO root fetch - processPackages [autodistill-yolov5]: Downloading https://files.pythonhosted.org/packages/0a/8e/87293c5eb4b71a4c1026f1db5e404867b147cc5c1de7bcabeb1dd093c63b/autodistill-yolov5-0.1.2.tar.gz
+[2023-06-30 12:05:36] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.2.4.tar.gz]
+[2023-06-30 12:05:36] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.2.5.tar.gz]
+[2023-06-30 12:05:36] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-30 12:05:36] INFO root fetch - processPackages [autodistill-yolov5]: executing diffoscope
+[2023-06-30 12:05:36] INFO root fetch - processPackages [autodistill-yolov5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill-yolov5-0.1.1.tar.gz tmp/autodistill-yolov5-0.1.2.tar.gz --markdown 20230630/a/autodistill-yolov5/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-30 12:05:36] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.2.6.tar.gz]
+[2023-06-30 12:05:36] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-30 12:05:37] INFO root fetch - processPackages [gallon]: Remove: archive file [/home/abi/fetcher/tmp/gallon-0.0.1.tar.gz]
+[2023-06-30 12:05:37] INFO root fetch - processPackages [gallon]: Remove: archive file [/home/abi/fetcher/tmp/gallon-0.0.2.tar.gz]
+[2023-06-30 12:05:37] INFO root fetch - main [MainThread]: End processing [gallon]: success
+[2023-06-30 12:05:37] INFO root fetch - processPackages [autodistill-yolov5]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-yolov5-0.1.1.tar.gz]
+[2023-06-30 12:05:37] INFO root fetch - processPackages [autodistill-yolov5]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-yolov5-0.1.2.tar.gz]
+[2023-06-30 12:05:37] INFO root fetch - main [MainThread]: End processing [autodistill-yolov5]: success
+[2023-06-30 12:05:37] INFO root fetch - main [MainThread]: Store serial: [18708562]
