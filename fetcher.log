@@ -19215,3 +19215,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 13:04:59] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
 [2023-06-30 13:04:59] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
 [2023-06-30 13:04:59] INFO root fetch - main [MainThread]: Store serial: [18709236]
+[2023-06-30 13:10:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18709236]
+[2023-06-30 13:10:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-30 13:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: malariagen-data
+[2023-06-30 13:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sniimapp
+[2023-06-30 13:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fuzzy-hash
+[2023-06-30 13:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataplicity
+[2023-06-30 13:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nopasaran
+[2023-06-30 13:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: caen-felib
+[2023-06-30 13:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PlumedToHTML
+[2023-06-30 13:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netbox-cisco-support-plugin
+[2023-06-30 13:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: superagent-py
+[2023-06-30 13:10:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: marlin-pytorch
+[2023-06-30 13:10:09] INFO root fetch - processPackages [fuzzy-hash]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-30 13:10:09] INFO root fetch - processPackages [sniimapp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 13:10:09] WARNING root fetch - processPackages [nopasaran]: Skipping, unable to determine old version
+[2023-06-30 13:10:09] INFO root fetch - main [MainThread]: End processing [nopasaran] error
+[2023-06-30 13:10:09] INFO root fetch - processPackages [dataplicity]: New version: [0.5.9a5] Old Version: [0.5.9a4]
+[2023-06-30 13:10:09] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 13:10:09] INFO root fetch - processPackages [malariagen-data]: New version: [7.9.0] Old Version: [7.8.0]
+[2023-06-30 13:10:09] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/fb/d1/ec907fcf8092b0658f18c33c834998acf50826cf6eed46c8361c96638f8f/sniimapp-0.0.8.tar.gz
+[2023-06-30 13:10:09] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-30 13:10:09] INFO root fetch - processPackages [PlumedToHTML]: New version: [0.9] Old Version: [0.8]
+[2023-06-30 13:10:09] INFO root fetch - processPackages [marlin-pytorch]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-30 13:10:09] INFO root fetch - processPackages [superagent-py]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-06-30 13:10:09] INFO root fetch - processPackages [caen-felib]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-30 13:10:09] INFO root fetch - processPackages [fuzzy-hash]: Downloading https://files.pythonhosted.org/packages/23/86/7a1077789ad4c46c9276004cc7558adeecc5a1c3fc8ae9e71a64a09d4d4e/fuzzy-hash-0.0.1.tar.gz
+[2023-06-30 13:10:09] INFO root fetch - processPackages [malariagen-data]: Downloading https://files.pythonhosted.org/packages/9e/29/72945bdf0a3a5a8dfc38d850dbc5fae804a684861a80c6c30679bd7256c8/malariagen_data-7.8.0.tar.gz
+[2023-06-30 13:10:09] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/ef/55/51d0f967e475001f99b73eb9ff910341b5f4e3c0a8b008f0651338bde6ae/dataplicity-0.5.9a4.tar.gz
+[2023-06-30 13:10:09] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/32/41/5f0bd7028c0c84a365a70d9ce3684ef44e347a22a1d33861d0f928009701/sniimapp-0.0.9.tar.gz
+[2023-06-30 13:10:09] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-30 13:10:09] INFO root fetch - processPackages [marlin-pytorch]: Downloading https://files.pythonhosted.org/packages/1a/83/b4012c8d3e6f357761ba23211460dca06976af04082bd570708876683d65/marlin_pytorch-0.3.1.tar.gz
+[2023-06-30 13:10:09] INFO root fetch - processPackages [caen-felib]: Downloading https://files.pythonhosted.org/packages/fb/d3/6199a67371d5fdbd69aeb229d34e5128a99136f82417fd0b1bd3254e451e/caen_felib-1.0.4.tar.gz
+[2023-06-30 13:10:09] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/81/95/5ed2d773d95e4fcba932cfdf67091abff694ff6ee4f10462588473535c97/PlumedToHTML-0.8.tar.gz
+[2023-06-30 13:10:09] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-06-30 13:10:09] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.8.tar.gz tmp/sniimapp-0.0.9.tar.gz --markdown 20230630/s/sniimapp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 13:10:09] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/7f/79/c7825600843fc20133e0e27f77355f5a5d6acfd2e137643be3343bcbce90/superagent_py-0.0.26.tar.gz
+[2023-06-30 13:10:09] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-30 13:10:09] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230630/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 13:10:09] INFO root fetch - processPackages [fuzzy-hash]: Downloading https://files.pythonhosted.org/packages/cc/a8/04d66768409adc43406028247c987a887c99cb911b74c745ad2f2655ff45/fuzzy-hash-0.0.2.tar.gz
+[2023-06-30 13:10:09] INFO root fetch - processPackages [malariagen-data]: Downloading https://files.pythonhosted.org/packages/e1/54/d7d5810d9fdad664c7b64e30e1079ffa30cebed856f05428d04c4024eb65/malariagen_data-7.9.0.tar.gz
+[2023-06-30 13:10:10] INFO root fetch - processPackages [malariagen-data]: executing diffoscope
+[2023-06-30 13:10:10] INFO root fetch - processPackages [malariagen-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malariagen_data-7.8.0.tar.gz tmp/malariagen_data-7.9.0.tar.gz --markdown 20230630/m/malariagen-data/7.8.0-7.9.0/diff.md --exclude *.pyd
+[2023-06-30 13:10:10] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/90/33/51cf718679e72aa0262c29bc64715d7498269d5de2a09e211efe30644d63/dataplicity-0.5.9a5.tar.gz
+[2023-06-30 13:10:10] INFO root fetch - processPackages [caen-felib]: Downloading https://files.pythonhosted.org/packages/ba/eb/1b8cd621fc441fff61658c88c29f37ff887d57a3270c5e305b86f6a2dbd5/caen_felib-1.0.5.tar.gz
+[2023-06-30 13:10:10] INFO root fetch - processPackages [fuzzy-hash]: executing diffoscope
+[2023-06-30 13:10:10] INFO root fetch - processPackages [fuzzy-hash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzy-hash-0.0.1.tar.gz tmp/fuzzy-hash-0.0.2.tar.gz --markdown 20230630/f/fuzzy-hash/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 13:10:10] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/99/2c/f602bea5ed044eca8c79323876fde82334d231bc693396d108734fd3b59f/superagent_py-0.0.27.tar.gz
+[2023-06-30 13:10:10] INFO root fetch - processPackages [marlin-pytorch]: Downloading https://files.pythonhosted.org/packages/5f/a5/87dc7356a2efc6582638860b6c30eb5e566e733519659e926da17c45ccce/marlin_pytorch-0.3.2.tar.gz
+[2023-06-30 13:10:10] INFO root fetch - processPackages [dataplicity]: executing diffoscope
+[2023-06-30 13:10:10] INFO root fetch - processPackages [dataplicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplicity-0.5.9a4.tar.gz tmp/dataplicity-0.5.9a5.tar.gz --markdown 20230630/d/dataplicity/0.5.9a4-0.5.9a5/diff.md --exclude *.pyd
+[2023-06-30 13:10:10] INFO root fetch - processPackages [caen-felib]: executing diffoscope
+[2023-06-30 13:10:10] INFO root fetch - processPackages [caen-felib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caen_felib-1.0.4.tar.gz tmp/caen_felib-1.0.5.tar.gz --markdown 20230630/c/caen-felib/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-30 13:10:10] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/d0/90/42341120e8c5d44ef5413125d4ea0ec3c0e2ca685bfe6358a3c5aa6fc7f9/PlumedToHTML-0.9.tar.gz
+[2023-06-30 13:10:10] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2023-06-30 13:10:10] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.0.26.tar.gz tmp/superagent_py-0.0.27.tar.gz --markdown 20230630/s/superagent-py/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-06-30 13:10:10] INFO root fetch - processPackages [marlin-pytorch]: executing diffoscope
+[2023-06-30 13:10:10] INFO root fetch - processPackages [marlin-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marlin_pytorch-0.3.1.tar.gz tmp/marlin_pytorch-0.3.2.tar.gz --markdown 20230630/m/marlin-pytorch/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-30 13:10:10] INFO root fetch - processPackages [PlumedToHTML]: executing diffoscope
+[2023-06-30 13:10:10] INFO root fetch - processPackages [PlumedToHTML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlumedToHTML-0.8.tar.gz tmp/PlumedToHTML-0.9.tar.gz --markdown 20230630/P/PlumedToHTML/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-30 13:10:11] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.8.tar.gz]
+[2023-06-30 13:10:11] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.9.tar.gz]
+[2023-06-30 13:10:11] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-06-30 13:10:11] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-30 13:10:11] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-30 13:10:11] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-30 13:10:11] INFO root fetch - processPackages [fuzzy-hash]: Remove: archive file [/home/abi/fetcher/tmp/fuzzy-hash-0.0.1.tar.gz]
+[2023-06-30 13:10:11] INFO root fetch - processPackages [fuzzy-hash]: Remove: archive file [/home/abi/fetcher/tmp/fuzzy-hash-0.0.2.tar.gz]
+[2023-06-30 13:10:11] INFO root fetch - main [MainThread]: End processing [fuzzy-hash]: success
+[2023-06-30 13:10:11] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.26.tar.gz]
+[2023-06-30 13:10:11] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.27.tar.gz]
+[2023-06-30 13:10:11] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2023-06-30 13:10:11] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.8.tar.gz]
+[2023-06-30 13:10:11] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.9.tar.gz]
+[2023-06-30 13:10:11] INFO root fetch - main [MainThread]: End processing [PlumedToHTML]: success
+[2023-06-30 13:10:11] INFO root fetch - processPackages [caen-felib]: Remove: archive file [/home/abi/fetcher/tmp/caen_felib-1.0.4.tar.gz]
+[2023-06-30 13:10:11] INFO root fetch - processPackages [caen-felib]: Remove: archive file [/home/abi/fetcher/tmp/caen_felib-1.0.5.tar.gz]
+[2023-06-30 13:10:11] INFO root fetch - main [MainThread]: End processing [caen-felib]: success
+[2023-06-30 13:10:12] INFO root fetch - processPackages [marlin-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/marlin_pytorch-0.3.1.tar.gz]
+[2023-06-30 13:10:12] INFO root fetch - processPackages [marlin-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/marlin_pytorch-0.3.2.tar.gz]
+[2023-06-30 13:10:12] INFO root fetch - main [MainThread]: End processing [marlin-pytorch]: success
+[2023-06-30 13:10:12] INFO root fetch - processPackages [malariagen-data]: Remove: archive file [/home/abi/fetcher/tmp/malariagen_data-7.8.0.tar.gz]
+[2023-06-30 13:10:12] INFO root fetch - processPackages [malariagen-data]: Remove: archive file [/home/abi/fetcher/tmp/malariagen_data-7.9.0.tar.gz]
+[2023-06-30 13:10:12] INFO root fetch - main [MainThread]: End processing [malariagen-data]: success
+[2023-06-30 13:10:12] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a4.tar.gz]
+[2023-06-30 13:10:12] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a5.tar.gz]
+[2023-06-30 13:10:12] INFO root fetch - main [MainThread]: End processing [dataplicity]: success
+[2023-06-30 13:10:12] INFO root fetch - main [MainThread]: Store serial: [18709267]
