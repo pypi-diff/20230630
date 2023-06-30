@@ -10990,3 +10990,96 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 05:41:17] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
 [2023-06-30 05:41:17] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-06-30 05:41:17] INFO root fetch - main [MainThread]: Store serial: [18705667]
+[2023-06-30 05:46:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705667]
+[2023-06-30 05:46:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-30 05:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gsoup
+[2023-06-30 05:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mapdata
+[2023-06-30 05:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dank-mids
+[2023-06-30 05:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amqp-workers
+[2023-06-30 05:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazysdk
+[2023-06-30 05:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: citation-utils
+[2023-06-30 05:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oloren
+[2023-06-30 05:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: blockit
+[2023-06-30 05:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anyon
+[2023-06-30 05:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dingtalk-stream
+[2023-06-30 05:46:26] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 05:46:26] INFO root fetch - processPackages [mapdata]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-06-30 05:46:26] INFO root fetch - processPackages [gsoup]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 05:46:26] INFO root fetch - processPackages [citation-utils]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-30 05:46:26] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-30 05:46:26] INFO root fetch - processPackages [blockit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-30 05:46:26] INFO root fetch - processPackages [amqp-workers]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-30 05:46:26] INFO root fetch - processPackages [anyon]: New version: [3.5.0rc1] Old Version: [3.4.8]
+[2023-06-30 05:46:26] INFO root fetch - processPackages [dingtalk-stream]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-06-30 05:46:26] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 05:46:26] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-30 05:46:26] INFO root fetch - processPackages [blockit]: Downloading https://files.pythonhosted.org/packages/99/31/5dc639e045602bb2044f70ac46c841c8fa1f77edf96d6ab7f33a0fcb82f3/blockit-0.0.2.tar.gz
+[2023-06-30 05:46:26] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-30 05:46:26] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/74/f0/cdd606c881ed004bf329dc3fcd9ec639dc5e091a1f5f3f47671fb2fa2656/mapdata-2.8.1.tar.gz
+[2023-06-30 05:46:26] INFO root fetch - processPackages [amqp-workers]: Downloading https://files.pythonhosted.org/packages/fc/79/da0bbfe6b48b21cd105bc633ff6dbcfe5e56f8481f4588ab8d7d7f663fee/amqp_workers-0.1.2.tar.gz
+[2023-06-30 05:46:26] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-06-30 05:46:26] INFO root fetch - processPackages [citation-utils]: Downloading https://files.pythonhosted.org/packages/8c/29/4d7353079b8d833d01dbad8aabf4b8263988d8792b3f05eb4d6955efbb39/citation_utils-0.4.6.tar.gz
+[2023-06-30 05:46:26] INFO root fetch - processPackages [gsoup]: Downloading https://files.pythonhosted.org/packages/fe/9b/153b9913a4b567dd9c8edbb5268c5f168d4c0e71be7650cc2e24097fe2ee/gsoup-0.0.8.tar.gz
+[2023-06-30 05:46:26] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/76/b7/3af3d4f62f8fad141d0fc953350f6b332670712046cff28a391e8107c842/anyon-3.4.8-cp311-none-win_amd64.whl
+[2023-06-30 05:46:27] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/63/00/48d32788505bf7a36702d082d2e857f253d9a87be1182382b865207ad909/dingtalk-stream-0.5.2.tar.gz
+[2023-06-30 05:46:27] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-30 05:46:27] INFO root fetch - processPackages [blockit]: Downloading https://files.pythonhosted.org/packages/2c/d5/db9246bc52f1b87584a2bc9ba3e452697afd648127fd4186c657bd380266/blockit-0.0.3.tar.gz
+[2023-06-30 05:46:27] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-30 05:46:27] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230630/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-30 05:46:27] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-30 05:46:27] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/97/4f/4c2d6731ab48c9a9248fa8f1d2bafeb92ccfc97918c26a0d8c5cfb7a87d2/mapdata-2.8.2.tar.gz
+[2023-06-30 05:46:27] INFO root fetch - processPackages [citation-utils]: Downloading https://files.pythonhosted.org/packages/cf/fa/eff9441d742fa9c6703fb6b8f9ffc3cd1c9a8b82da3340ff058a2c9eba72/citation_utils-0.4.7.tar.gz
+[2023-06-30 05:46:27] INFO root fetch - processPackages [blockit]: executing diffoscope
+[2023-06-30 05:46:27] INFO root fetch - processPackages [blockit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockit-0.0.2.tar.gz tmp/blockit-0.0.3.tar.gz --markdown 20230630/b/blockit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-30 05:46:27] INFO root fetch - processPackages [amqp-workers]: Downloading https://files.pythonhosted.org/packages/24/50/5e93f2118c58f0de7250d1496cfd94d87c51ea74d87f3ec502098f57b2c1/amqp_workers-0.1.3.tar.gz
+[2023-06-30 05:46:27] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/75/45/2c68860e4b1a617d12de5f1aa90072b6c76b3fb322884189034dd9d3bfed/anyon-3.5.0rc1-cp311-none-macosx_10_9_universal2.whl
+[2023-06-30 05:46:27] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/dd/73/0b95e81172554684a9d06499106897a32c801a659d0539149f71b1d22a13/dingtalk-stream-0.6.0.tar.gz
+[2023-06-30 05:46:27] INFO root fetch - processPackages [mapdata]: executing diffoscope
+[2023-06-30 05:46:27] INFO root fetch - processPackages [mapdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapdata-2.8.1.tar.gz tmp/mapdata-2.8.2.tar.gz --markdown 20230630/m/mapdata/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2023-06-30 05:46:27] INFO root fetch - processPackages [citation-utils]: executing diffoscope
+[2023-06-30 05:46:27] INFO root fetch - processPackages [citation-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_utils-0.4.6.tar.gz tmp/citation_utils-0.4.7.tar.gz --markdown 20230630/c/citation-utils/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-30 05:46:27] INFO root fetch - processPackages [gsoup]: Downloading https://files.pythonhosted.org/packages/ab/33/9007a7b5227ef7142666eeff93d37cce2f5cc5d1032cbf8c1a1174af84f8/gsoup-0.0.9.tar.gz
+[2023-06-30 05:46:27] INFO root fetch - processPackages [amqp-workers]: executing diffoscope
+[2023-06-30 05:46:27] INFO root fetch - processPackages [amqp-workers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amqp_workers-0.1.2.tar.gz tmp/amqp_workers-0.1.3.tar.gz --markdown 20230630/a/amqp-workers/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-30 05:46:27] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-30 05:46:27] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230630/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 05:46:27] INFO root fetch - processPackages [dingtalk-stream]: executing diffoscope
+[2023-06-30 05:46:27] INFO root fetch - processPackages [dingtalk-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingtalk-stream-0.5.2.tar.gz tmp/dingtalk-stream-0.6.0.tar.gz --markdown 20230630/d/dingtalk-stream/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-06-30 05:46:27] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-06-30 05:46:27] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.4.8-cp311-none-win_amd64.whl.zip tmp/anyon-3.5.0rc1-cp311-none-macosx_10_9_universal2.whl.zip --markdown 20230630/a/anyon/3.4.8-3.5.0rc1/diff.md --exclude *.pyd
+[2023-06-30 05:46:27] INFO root fetch - processPackages [gsoup]: executing diffoscope
+[2023-06-30 05:46:27] INFO root fetch - processPackages [gsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsoup-0.0.8.tar.gz tmp/gsoup-0.0.9.tar.gz --markdown 20230630/g/gsoup/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 05:46:27] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-06-30 05:46:27] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-06-30 05:46:27] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230630/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 05:46:29] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-2.8.1.tar.gz]
+[2023-06-30 05:46:29] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-2.8.2.tar.gz]
+[2023-06-30 05:46:29] INFO root fetch - main [MainThread]: End processing [mapdata]: success
+[2023-06-30 05:46:29] INFO root fetch - processPackages [amqp-workers]: Remove: archive file [/home/abi/fetcher/tmp/amqp_workers-0.1.2.tar.gz]
+[2023-06-30 05:46:29] INFO root fetch - processPackages [amqp-workers]: Remove: archive file [/home/abi/fetcher/tmp/amqp_workers-0.1.3.tar.gz]
+[2023-06-30 05:46:29] INFO root fetch - main [MainThread]: End processing [amqp-workers]: success
+[2023-06-30 05:46:29] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-30 05:46:29] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-30 05:46:29] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-30 05:46:29] INFO root fetch - processPackages [blockit]: Remove: archive file [/home/abi/fetcher/tmp/blockit-0.0.2.tar.gz]
+[2023-06-30 05:46:29] INFO root fetch - processPackages [blockit]: Remove: archive file [/home/abi/fetcher/tmp/blockit-0.0.3.tar.gz]
+[2023-06-30 05:46:29] INFO root fetch - main [MainThread]: End processing [blockit]: success
+[2023-06-30 05:46:29] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.4.8-cp311-none-win_amd64.whl.zip]
+[2023-06-30 05:46:29] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.5.0rc1-cp311-none-macosx_10_9_universal2.whl.zip]
+[2023-06-30 05:46:29] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-06-30 05:46:29] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-06-30 05:46:29] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-06-30 05:46:29] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-06-30 05:46:29] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.5.2.tar.gz]
+[2023-06-30 05:46:29] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.6.0.tar.gz]
+[2023-06-30 05:46:29] INFO root fetch - main [MainThread]: End processing [dingtalk-stream]: success
+[2023-06-30 05:46:29] INFO root fetch - processPackages [citation-utils]: Remove: archive file [/home/abi/fetcher/tmp/citation_utils-0.4.6.tar.gz]
+[2023-06-30 05:46:29] INFO root fetch - processPackages [citation-utils]: Remove: archive file [/home/abi/fetcher/tmp/citation_utils-0.4.7.tar.gz]
+[2023-06-30 05:46:29] INFO root fetch - main [MainThread]: End processing [citation-utils]: success
+[2023-06-30 05:46:30] INFO root fetch - processPackages [gsoup]: Remove: archive file [/home/abi/fetcher/tmp/gsoup-0.0.8.tar.gz]
+[2023-06-30 05:46:30] INFO root fetch - processPackages [gsoup]: Remove: archive file [/home/abi/fetcher/tmp/gsoup-0.0.9.tar.gz]
+[2023-06-30 05:46:30] INFO root fetch - main [MainThread]: End processing [gsoup]: success
+[2023-06-30 05:46:32] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-30 05:46:32] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-30 05:46:32] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-30 05:46:32] INFO root fetch - main [MainThread]: Store serial: [18705699]
