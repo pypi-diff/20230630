@@ -13086,3 +13086,51 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 08:25:06] INFO root fetch - processPackages [taskcluster]: Remove: archive file [/home/abi/fetcher/tmp/taskcluster-7.0.1.tar.gz]
 [2023-06-30 08:25:06] INFO root fetch - main [MainThread]: End processing [taskcluster]: success
 [2023-06-30 08:25:06] INFO root fetch - main [MainThread]: Store serial: [18706554]
+[2023-06-30 08:30:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706554]
+[2023-06-30 08:30:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-30 08:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mona-openai
+[2023-06-30 08:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fake-bpy-module-latest
+[2023-06-30 08:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-30 08:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-jsonpath
+[2023-06-30 08:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plugp100
+[2023-06-30 08:30:15] INFO root fetch - processPackages [mona-openai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 08:30:15] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230629] Old Version: [20230628]
+[2023-06-30 08:30:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-30 08:30:15] INFO root fetch - processPackages [python-jsonpath]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-30 08:30:15] INFO root fetch - processPackages [plugp100]: New version: [3.0.0] Old Version: [2.5.1]
+[2023-06-30 08:30:15] INFO root fetch - processPackages [mona-openai]: Downloading https://files.pythonhosted.org/packages/9a/0c/b3bb8583f943b3f6cc4b0cadb609e0ac8e6f9bf44f52ffe6b0c0c443d658/mona-openai-0.0.8.tar.gz
+[2023-06-30 08:30:15] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/ff/05/870e36f7f563bd7f04c2b112ab12a910e9ff70d6db321ee2869e192b012c/fake-bpy-module-latest-20230628.tar.gz
+[2023-06-30 08:30:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-30 08:30:16] INFO root fetch - processPackages [python-jsonpath]: Downloading https://files.pythonhosted.org/packages/0a/38/bc1cec64d7a2b198c0b3e9cd7d3cf5193094f508e0d5cf51ba5743989a7b/python_jsonpath-0.7.1.tar.gz
+[2023-06-30 08:30:16] INFO root fetch - processPackages [plugp100]: Downloading https://files.pythonhosted.org/packages/15/37/374add4fcf98a9a970eb3b74731a50c20ce3374763dfb92ab454c6fd16f1/plugp100-2.5.1.tar.gz
+[2023-06-30 08:30:16] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/42/14/20ff6f549e40a0ab99512fbac1e84fd48d704a936dae76e1618e9e436f87/fake-bpy-module-latest-20230629.tar.gz
+[2023-06-30 08:30:16] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-30 08:30:16] INFO root fetch - processPackages [mona-openai]: Downloading https://files.pythonhosted.org/packages/3a/e9/4cfecb78a8e95122ad07460c6ed375915cf6d311c4f7e6ee18b19a446588/mona-openai-0.0.9.tar.gz
+[2023-06-30 08:30:16] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-30 08:30:16] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230630/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-30 08:30:16] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-06-30 08:30:16] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230628.tar.gz tmp/fake-bpy-module-latest-20230629.tar.gz --markdown 20230630/f/fake-bpy-module-latest/20230628-20230629/diff.md --exclude *.pyd
+[2023-06-30 08:30:16] INFO root fetch - processPackages [mona-openai]: executing diffoscope
+[2023-06-30 08:30:16] INFO root fetch - processPackages [mona-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mona-openai-0.0.8.tar.gz tmp/mona-openai-0.0.9.tar.gz --markdown 20230630/m/mona-openai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 08:30:16] INFO root fetch - processPackages [python-jsonpath]: Downloading https://files.pythonhosted.org/packages/d5/23/cf94d8b9ef4519eb311ce1a92886bf4d570ab4e63c0fd60f21861207ad48/python_jsonpath-0.8.0.tar.gz
+[2023-06-30 08:30:16] INFO root fetch - processPackages [plugp100]: Downloading https://files.pythonhosted.org/packages/62/b6/c0f6c5f52f04de7572602698c172571eb7e8964a0240ec4c7b9780791082/plugp100-3.0.0.tar.gz
+[2023-06-30 08:30:16] INFO root fetch - processPackages [python-jsonpath]: executing diffoscope
+[2023-06-30 08:30:16] INFO root fetch - processPackages [python-jsonpath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_jsonpath-0.7.1.tar.gz tmp/python_jsonpath-0.8.0.tar.gz --markdown 20230630/p/python-jsonpath/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-30 08:30:16] INFO root fetch - processPackages [plugp100]: executing diffoscope
+[2023-06-30 08:30:16] INFO root fetch - processPackages [plugp100]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugp100-2.5.1.tar.gz tmp/plugp100-3.0.0.tar.gz --markdown 20230630/p/plugp100/2.5.1-3.0.0/diff.md --exclude *.pyd
+[2023-06-30 08:30:17] INFO root fetch - processPackages [mona-openai]: Remove: archive file [/home/abi/fetcher/tmp/mona-openai-0.0.8.tar.gz]
+[2023-06-30 08:30:17] INFO root fetch - processPackages [mona-openai]: Remove: archive file [/home/abi/fetcher/tmp/mona-openai-0.0.9.tar.gz]
+[2023-06-30 08:30:17] INFO root fetch - main [MainThread]: End processing [mona-openai]: success
+[2023-06-30 08:30:17] INFO root fetch - processPackages [plugp100]: Remove: archive file [/home/abi/fetcher/tmp/plugp100-2.5.1.tar.gz]
+[2023-06-30 08:30:17] INFO root fetch - processPackages [plugp100]: Remove: archive file [/home/abi/fetcher/tmp/plugp100-3.0.0.tar.gz]
+[2023-06-30 08:30:17] INFO root fetch - main [MainThread]: End processing [plugp100]: success
+[2023-06-30 08:30:17] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-30 08:30:17] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-30 08:30:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-30 08:30:25] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230628.tar.gz]
+[2023-06-30 08:30:25] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230629.tar.gz]
+[2023-06-30 08:30:25] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-06-30 08:31:10] INFO root fetch - processPackages [python-jsonpath]: Remove: archive file [/home/abi/fetcher/tmp/python_jsonpath-0.7.1.tar.gz]
+[2023-06-30 08:31:10] INFO root fetch - processPackages [python-jsonpath]: Remove: archive file [/home/abi/fetcher/tmp/python_jsonpath-0.8.0.tar.gz]
+[2023-06-30 08:31:10] INFO root fetch - main [MainThread]: End processing [python-jsonpath]: success
+[2023-06-30 08:31:10] INFO root fetch - main [MainThread]: Store serial: [18706569]
