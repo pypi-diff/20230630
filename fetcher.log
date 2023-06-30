@@ -14302,3 +14302,48 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 09:34:24] INFO root fetch - processPackages [openmetadata-sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-sqllineage-1.1.0.1.tar.gz]
 [2023-06-30 09:34:24] INFO root fetch - main [MainThread]: End processing [openmetadata-sqllineage]: success
 [2023-06-30 09:34:24] INFO root fetch - main [MainThread]: Store serial: [18707043]
+[2023-06-30 09:39:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18707043]
+[2023-06-30 09:39:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-30 09:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-website-google-analytics-4
+[2023-06-30 09:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: session-repository
+[2023-06-30 09:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jipdate
+[2023-06-30 09:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-product-pack-category-restriction
+[2023-06-30 09:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ns-asphalt9
+[2023-06-30 09:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: up-enhsp
+[2023-06-30 09:39:33] INFO root fetch - processPackages [session-repository]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 09:39:33] INFO root fetch - processPackages [ns-asphalt9]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-30 09:39:33] INFO root fetch - processPackages [jipdate]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-30 09:39:33] INFO root fetch - processPackages [up-enhsp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 09:39:33] WARNING root fetch - processPackages [odoo13-addon-website-google-analytics-4]: Skipping, unable to determine old version
+[2023-06-30 09:39:33] INFO root fetch - main [MainThread]: End processing [odoo13-addon-website-google-analytics-4] error
+[2023-06-30 09:39:33] WARNING root fetch - processPackages [odoo13-addon-product-pack-category-restriction]: Skipping, unable to determine old version
+[2023-06-30 09:39:33] INFO root fetch - main [MainThread]: End processing [odoo13-addon-product-pack-category-restriction] error
+[2023-06-30 09:39:33] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/b8/2e/5274411983dd86f412dd8fb3bbe5accfa66d9abf812d24b971b8b5298ff6/ns_asphalt9-0.0.2.tar.gz
+[2023-06-30 09:39:33] INFO root fetch - processPackages [up-enhsp]: Downloading https://files.pythonhosted.org/packages/ee/da/d75e6cb221567e40a63dce5636ed9a1da002bd6081730c5b4ca5c6c32981/up_enhsp-0.0.8.tar.gz
+[2023-06-30 09:39:33] INFO root fetch - processPackages [session-repository]: Downloading https://files.pythonhosted.org/packages/61/2c/983d8688c4e766f150d0bca504b58c4409455417dd368c75a83831f2a017/session-repository-0.1.0.tar.gz
+[2023-06-30 09:39:33] INFO root fetch - processPackages [jipdate]: Downloading https://files.pythonhosted.org/packages/25/27/9d78c1ca31664c94e5c5be2ddd7385b5d77049f8238aafe80d3fab3dcaf4/jipdate-2.0.1.tar.gz
+[2023-06-30 09:39:33] INFO root fetch - processPackages [up-enhsp]: Downloading https://files.pythonhosted.org/packages/f5/aa/1993e760de457168893925e9742993e9ac1648d509b9206348e5fe17e85e/up_enhsp-0.0.9.tar.gz
+[2023-06-30 09:39:33] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/d1/7d/054c2129b376b00f789cdb3788445055284c417800aab85971d7783cdd38/ns_asphalt9-0.0.3.tar.gz
+[2023-06-30 09:39:34] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2023-06-30 09:39:34] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-0.0.2.tar.gz tmp/ns_asphalt9-0.0.3.tar.gz --markdown 20230630/n/ns-asphalt9/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-30 09:39:34] INFO root fetch - processPackages [session-repository]: Downloading https://files.pythonhosted.org/packages/d5/d3/36c625a46f4083b74c4e6072c7b0529f38388f83e1c6485f51f411a3ad9e/session-repository-0.1.1.tar.gz
+[2023-06-30 09:39:34] INFO root fetch - processPackages [up-enhsp]: executing diffoscope
+[2023-06-30 09:39:34] INFO root fetch - processPackages [up-enhsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_enhsp-0.0.8.tar.gz tmp/up_enhsp-0.0.9.tar.gz --markdown 20230630/u/up-enhsp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 09:39:34] INFO root fetch - processPackages [jipdate]: Downloading https://files.pythonhosted.org/packages/5f/fa/0c004a662252d3fd2a33d11d2378adcc7a647ec3a7ffab65f69df19052c5/jipdate-2.0.2.tar.gz
+[2023-06-30 09:39:34] INFO root fetch - processPackages [session-repository]: executing diffoscope
+[2023-06-30 09:39:34] INFO root fetch - processPackages [session-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/session-repository-0.1.0.tar.gz tmp/session-repository-0.1.1.tar.gz --markdown 20230630/s/session-repository/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 09:39:34] INFO root fetch - processPackages [jipdate]: executing diffoscope
+[2023-06-30 09:39:34] INFO root fetch - processPackages [jipdate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jipdate-2.0.1.tar.gz tmp/jipdate-2.0.2.tar.gz --markdown 20230630/j/jipdate/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-30 09:39:35] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.0.2.tar.gz]
+[2023-06-30 09:39:35] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.0.3.tar.gz]
+[2023-06-30 09:39:35] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2023-06-30 09:39:35] INFO root fetch - processPackages [session-repository]: Remove: archive file [/home/abi/fetcher/tmp/session-repository-0.1.0.tar.gz]
+[2023-06-30 09:39:35] INFO root fetch - processPackages [session-repository]: Remove: archive file [/home/abi/fetcher/tmp/session-repository-0.1.1.tar.gz]
+[2023-06-30 09:39:35] INFO root fetch - main [MainThread]: End processing [session-repository]: success
+[2023-06-30 09:39:35] INFO root fetch - processPackages [up-enhsp]: Remove: archive file [/home/abi/fetcher/tmp/up_enhsp-0.0.8.tar.gz]
+[2023-06-30 09:39:35] INFO root fetch - processPackages [up-enhsp]: Remove: archive file [/home/abi/fetcher/tmp/up_enhsp-0.0.9.tar.gz]
+[2023-06-30 09:39:35] INFO root fetch - main [MainThread]: End processing [up-enhsp]: success
+[2023-06-30 09:39:35] INFO root fetch - processPackages [jipdate]: Remove: archive file [/home/abi/fetcher/tmp/jipdate-2.0.1.tar.gz]
+[2023-06-30 09:39:35] INFO root fetch - processPackages [jipdate]: Remove: archive file [/home/abi/fetcher/tmp/jipdate-2.0.2.tar.gz]
+[2023-06-30 09:39:35] INFO root fetch - main [MainThread]: End processing [jipdate]: success
+[2023-06-30 09:39:35] INFO root fetch - main [MainThread]: Store serial: [18707063]
