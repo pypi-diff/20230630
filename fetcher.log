@@ -18311,3 +18311,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 12:22:16] INFO root fetch - processPackages [jupyter-locuszoom]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_locuszoom-0.1.1.dev0.tar.gz]
 [2023-06-30 12:22:16] INFO root fetch - main [MainThread]: End processing [jupyter-locuszoom]: success
 [2023-06-30 12:22:16] INFO root fetch - main [MainThread]: Store serial: [18708750]
+[2023-06-30 12:27:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18708750]
+[2023-06-30 12:27:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-30 12:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: servicefoundry
+[2023-06-30 12:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinybird-cli
+[2023-06-30 12:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: micropython-captive-dhcp-server
+[2023-06-30 12:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycsbinarywriter
+[2023-06-30 12:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2023-06-30 12:27:25] INFO root fetch - processPackages [micropython-captive-dhcp-server]: New version: [0.0.4.dev0] Old Version: [0.0.3.dev0]
+[2023-06-30 12:27:25] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.9rc2] Old Version: [0.9.9rc1]
+[2023-06-30 12:27:25] INFO root fetch - processPackages [pycsbinarywriter]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 12:27:25] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-30 12:27:25] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-06-30 12:27:25] INFO root fetch - processPackages [micropython-captive-dhcp-server]: Downloading https://files.pythonhosted.org/packages/fb/78/ec5bfd8bb09149459f462346e4b98510a2cf1d11934c754481eb9186f22b/micropython-captive-dhcp-server-0.0.3.dev0.tar.gz
+[2023-06-30 12:27:25] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-06-30 12:27:25] INFO root fetch - processPackages [pycsbinarywriter]: Downloading https://files.pythonhosted.org/packages/60/f5/12d001055637ce7c4fcdb649b07d6d6c553c9861a97b9bf796f644448fe5/pycsbinarywriter-0.1.0.tar.gz
+[2023-06-30 12:27:25] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-06-30 12:27:25] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/02/05/5016312c66b2c7a88f194b61f74c045e7449386ad8b2d1c5248a45a6094f/servicefoundry-0.9.9rc1.tar.gz
+[2023-06-30 12:27:25] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-06-30 12:27:25] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-06-30 12:27:25] INFO root fetch - processPackages [micropython-captive-dhcp-server]: Downloading https://files.pythonhosted.org/packages/39/ff/66fb11fa9bd6ccaa43cae8bdcae01d0b03203930699413eb8cbd02a24220/micropython-captive-dhcp-server-0.0.4.dev0.tar.gz
+[2023-06-30 12:27:25] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-06-30 12:27:25] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230630/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-06-30 12:27:26] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/95/2d/4d48175602335d472c23250316e448a45d05e4002ce13dc0e65cd515514a/servicefoundry-0.9.9rc2.tar.gz
+[2023-06-30 12:27:26] INFO root fetch - processPackages [pycsbinarywriter]: Downloading https://files.pythonhosted.org/packages/f0/24/1f7846b438c2c300f2f5056aa86ff0b02dfd51881c2efb9e09d0d6d2bf7f/pycsbinarywriter-0.1.1.tar.gz
+[2023-06-30 12:27:26] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-30 12:27:26] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230630/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-30 12:27:26] INFO root fetch - processPackages [micropython-captive-dhcp-server]: executing diffoscope
+[2023-06-30 12:27:26] INFO root fetch - processPackages [micropython-captive-dhcp-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-captive-dhcp-server-0.0.3.dev0.tar.gz tmp/micropython-captive-dhcp-server-0.0.4.dev0.tar.gz --markdown 20230630/m/micropython-captive-dhcp-server/0.0.3.dev0-0.0.4.dev0/diff.md --exclude *.pyd
+[2023-06-30 12:27:26] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2023-06-30 12:27:26] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.9rc1.tar.gz tmp/servicefoundry-0.9.9rc2.tar.gz --markdown 20230630/s/servicefoundry/0.9.9rc1-0.9.9rc2/diff.md --exclude *.pyd
+[2023-06-30 12:27:26] INFO root fetch - processPackages [pycsbinarywriter]: executing diffoscope
+[2023-06-30 12:27:26] INFO root fetch - processPackages [pycsbinarywriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycsbinarywriter-0.1.0.tar.gz tmp/pycsbinarywriter-0.1.1.tar.gz --markdown 20230630/p/pycsbinarywriter/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 12:27:27] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-06-30 12:27:27] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-06-30 12:27:27] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-06-30 12:27:27] INFO root fetch - processPackages [micropython-captive-dhcp-server]: Remove: archive file [/home/abi/fetcher/tmp/micropython-captive-dhcp-server-0.0.3.dev0.tar.gz]
+[2023-06-30 12:27:27] INFO root fetch - processPackages [micropython-captive-dhcp-server]: Remove: archive file [/home/abi/fetcher/tmp/micropython-captive-dhcp-server-0.0.4.dev0.tar.gz]
+[2023-06-30 12:27:27] INFO root fetch - main [MainThread]: End processing [micropython-captive-dhcp-server]: success
+[2023-06-30 12:27:27] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-06-30 12:27:27] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-06-30 12:27:27] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-30 12:27:27] INFO root fetch - processPackages [pycsbinarywriter]: Remove: archive file [/home/abi/fetcher/tmp/pycsbinarywriter-0.1.0.tar.gz]
+[2023-06-30 12:27:27] INFO root fetch - processPackages [pycsbinarywriter]: Remove: archive file [/home/abi/fetcher/tmp/pycsbinarywriter-0.1.1.tar.gz]
+[2023-06-30 12:27:27] INFO root fetch - main [MainThread]: End processing [pycsbinarywriter]: success
+[2023-06-30 12:27:27] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc1.tar.gz]
+[2023-06-30 12:27:27] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc2.tar.gz]
+[2023-06-30 12:27:27] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2023-06-30 12:27:27] INFO root fetch - main [MainThread]: Store serial: [18708767]
