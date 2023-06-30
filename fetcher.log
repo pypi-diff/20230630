@@ -11801,3 +11801,87 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 06:52:18] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.3.2rc1.tar.gz]
 [2023-06-30 06:52:18] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-06-30 06:52:18] INFO root fetch - main [MainThread]: Store serial: [18705989]
+[2023-06-30 06:57:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705989]
+[2023-06-30 06:57:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-30 06:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cnocr
+[2023-06-30 06:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grai-source-bigquery
+[2023-06-30 06:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agixt
+[2023-06-30 06:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ez-wsi-dicomweb
+[2023-06-30 06:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grai-graph
+[2023-06-30 06:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-git-gitlab
+[2023-06-30 06:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: speed-benchmark
+[2023-06-30 06:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omnata-plugin-runtime
+[2023-06-30 06:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cnocr
+[2023-06-30 06:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xw-utils
+[2023-06-30 06:57:28] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 06:57:28] INFO root fetch - processPackages [ez-wsi-dicomweb]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-30 06:57:28] ERROR root fetch - processPackages [speed-benchmark]: Unable to get metadata: No such project 'speed-benchmark'
+[2023-06-30 06:57:28] INFO root fetch - processPackages [grai-graph]: New version: [0.2.4a2] Old Version: [0.2.4a0]
+[2023-06-30 06:57:28] INFO root fetch - main [MainThread]: End processing [speed-benchmark] error
+[2023-06-30 06:57:28] INFO root fetch - processPackages [cnocr]: New version: [2.2.3] Old Version: [2.2.2.3]
+[2023-06-30 06:57:28] INFO root fetch - processPackages [grai-source-bigquery]: New version: [0.1.2a1] Old Version: [0.1.1]
+[2023-06-30 06:57:28] INFO root fetch - processPackages [agixt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-30 06:57:28] INFO root fetch - processPackages [cnocr]: New version: [2.2.3] Old Version: [2.2.2.3]
+[2023-06-30 06:57:28] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 06:57:28] INFO root fetch - processPackages [grai-graph]: Downloading https://files.pythonhosted.org/packages/62/6f/2b1d90b7eca858ce42e27f85a5dca13e07aa012752aaff4862735c81d036/grai_graph-0.2.4a0.tar.gz
+[2023-06-30 06:57:28] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 06:57:28] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/72/f6/05aa84da4a4a92f60509327d99757c9f44d33c306ee6f42fdbbbf0dd5b69/agixt-1.2.8.tar.gz
+[2023-06-30 06:57:28] INFO root fetch - processPackages [cnocr]: Downloading https://files.pythonhosted.org/packages/c5/dd/46c94aa92a5019aeb3c52a5e040ffbb264f49c93c70d0642bc29f4198919/cnocr-2.2.2.3.tar.gz
+[2023-06-30 06:57:28] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/82/bd/d9ef7d7e80615891233574e60b7ad06ffe654478c7c187214024c1937b38/grai_source_bigquery-0.1.1.tar.gz
+[2023-06-30 06:57:28] INFO root fetch - processPackages [cnocr]: Downloading https://files.pythonhosted.org/packages/c5/dd/46c94aa92a5019aeb3c52a5e040ffbb264f49c93c70d0642bc29f4198919/cnocr-2.2.2.3.tar.gz
+[2023-06-30 06:57:28] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/92/b1/f665930988976d735c90a8c003aeba5c20bea03bd96a8d030f2ed2c2f9fc/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl
+[2023-06-30 06:57:28] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-06-30 06:57:28] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-30 06:57:28] INFO root fetch - processPackages [grai-graph]: Downloading https://files.pythonhosted.org/packages/f4/20/8fa10aebde283268cecde999b6df2ba0f97548da1eda9fc13862fca07fee/grai_graph-0.2.4a2.tar.gz
+[2023-06-30 06:57:28] INFO root fetch - processPackages [ez-wsi-dicomweb]: Downloading https://files.pythonhosted.org/packages/06/e5/90bb1fa0858b6093ae8a51390f462c194eceedda48a93f343c3ded5ad707/ez_wsi_dicomweb-1.0.2.tar.gz
+[2023-06-30 06:57:29] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/ad/3a/7b239b1c21f484f09369851f21976facf1680c29f5c7c2993e0349cb6b1f/agixt-1.2.9.tar.gz
+[2023-06-30 06:57:29] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/5b/7c/b84604cdca8973ecf2d664f9d5e9cf240fda8895ac03cbfc69fc2b59b7ae/grai_source_bigquery-0.1.2a1.tar.gz
+[2023-06-30 06:57:29] INFO root fetch - processPackages [ez-wsi-dicomweb]: executing diffoscope
+[2023-06-30 06:57:29] INFO root fetch - processPackages [ez-wsi-dicomweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez_wsi_dicomweb-1.0.1.tar.gz tmp/ez_wsi_dicomweb-1.0.2.tar.gz --markdown 20230630/e/ez-wsi-dicomweb/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-30 06:57:29] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/75/bf/b4b1fd4ce01d8bdefccc982d9d85c0794307e529b68823871084d0ef833e/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl
+[2023-06-30 06:57:29] INFO root fetch - processPackages [grai-graph]: executing diffoscope
+[2023-06-30 06:57:29] INFO root fetch - processPackages [grai-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_graph-0.2.4a0.tar.gz tmp/grai_graph-0.2.4a2.tar.gz --markdown 20230630/g/grai-graph/0.2.4a0-0.2.4a2/diff.md --exclude *.pyd
+[2023-06-30 06:57:29] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-30 06:57:29] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.8.tar.gz tmp/agixt-1.2.9.tar.gz --markdown 20230630/a/agixt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-30 06:57:29] INFO root fetch - processPackages [cnocr]: Downloading https://files.pythonhosted.org/packages/fd/8c/17cfded5e41fb58428c23d33d41a3387592328be7a808b25c1b13f62b6b3/cnocr-2.2.3.tar.gz
+[2023-06-30 06:57:29] INFO root fetch - processPackages [cnocr]: Downloading https://files.pythonhosted.org/packages/fd/8c/17cfded5e41fb58428c23d33d41a3387592328be7a808b25c1b13f62b6b3/cnocr-2.2.3.tar.gz
+[2023-06-30 06:57:29] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-30 06:57:29] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230630/x/xia-git-gitlab/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 06:57:29] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-06-30 06:57:29] INFO root fetch - processPackages [grai-source-bigquery]: executing diffoscope
+[2023-06-30 06:57:29] INFO root fetch - processPackages [grai-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_bigquery-0.1.1.tar.gz tmp/grai_source_bigquery-0.1.2a1.tar.gz --markdown 20230630/g/grai-source-bigquery/0.1.1-0.1.2a1/diff.md --exclude *.pyd
+[2023-06-30 06:57:29] INFO root fetch - processPackages [cnocr]: executing diffoscope
+[2023-06-30 06:57:29] INFO root fetch - processPackages [cnocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnocr-2.2.2.3.tar.gz tmp/cnocr-2.2.3.tar.gz --markdown 20230630/c/cnocr/2.2.2.3-2.2.3/diff.md --exclude *.pyd
+[2023-06-30 06:57:29] INFO root fetch - processPackages [cnocr]: executing diffoscope
+[2023-06-30 06:57:29] INFO root fetch - processPackages [cnocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnocr-2.2.2.3.tar.gz tmp/cnocr-2.2.3.tar.gz --markdown 20230630/c/cnocr/2.2.2.3-2.2.3/diff.md --exclude *.pyd
+[2023-06-30 06:57:29] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-06-30 06:57:29] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230630/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 06:57:29] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-30 06:57:29] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-30 06:57:29] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230630/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 06:57:30] INFO root fetch - processPackages [ez-wsi-dicomweb]: Remove: archive file [/home/abi/fetcher/tmp/ez_wsi_dicomweb-1.0.1.tar.gz]
+[2023-06-30 06:57:30] INFO root fetch - processPackages [ez-wsi-dicomweb]: Remove: archive file [/home/abi/fetcher/tmp/ez_wsi_dicomweb-1.0.2.tar.gz]
+[2023-06-30 06:57:30] INFO root fetch - main [MainThread]: End processing [ez-wsi-dicomweb]: success
+[2023-06-30 06:57:30] INFO root fetch - processPackages [grai-graph]: Remove: archive file [/home/abi/fetcher/tmp/grai_graph-0.2.4a0.tar.gz]
+[2023-06-30 06:57:30] INFO root fetch - processPackages [grai-graph]: Remove: archive file [/home/abi/fetcher/tmp/grai_graph-0.2.4a2.tar.gz]
+[2023-06-30 06:57:30] INFO root fetch - main [MainThread]: End processing [grai-graph]: success
+[2023-06-30 06:57:30] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip]
+[2023-06-30 06:57:30] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip]
+[2023-06-30 06:57:30] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-30 06:57:30] INFO root fetch - processPackages [grai-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_bigquery-0.1.1.tar.gz]
+[2023-06-30 06:57:30] INFO root fetch - processPackages [grai-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_bigquery-0.1.2a1.tar.gz]
+[2023-06-30 06:57:30] INFO root fetch - main [MainThread]: End processing [grai-source-bigquery]: success
+[2023-06-30 06:57:30] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-30 06:57:30] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-30 06:57:30] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-06-30 06:57:31] INFO root fetch - processPackages [cnocr]: Remove: archive file [/home/abi/fetcher/tmp/cnocr-2.2.2.3.tar.gz]
+[2023-06-30 06:57:31] INFO root fetch - processPackages [cnocr]: Remove: archive file [/home/abi/fetcher/tmp/cnocr-2.2.3.tar.gz]
+[2023-06-30 06:57:31] INFO root fetch - main [MainThread]: End processing [cnocr]: success
+[2023-06-30 06:57:31] INFO root fetch - main [MainThread]: End processing [cnocr]: success
+[2023-06-30 06:57:31] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-30 06:57:31] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-30 06:57:31] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-30 06:57:33] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.8.tar.gz]
+[2023-06-30 06:57:33] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.9.tar.gz]
+[2023-06-30 06:57:33] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-30 06:57:33] INFO root fetch - main [MainThread]: Store serial: [18706024]
