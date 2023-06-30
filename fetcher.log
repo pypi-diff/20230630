@@ -17728,3 +17728,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 11:49:01] INFO root fetch - processPackages [python-icat]: Remove: archive file [/home/abi/fetcher/tmp/python-icat-1.1.0.tar.gz]
 [2023-06-30 11:49:01] INFO root fetch - main [MainThread]: End processing [python-icat]: success
 [2023-06-30 11:49:01] INFO root fetch - main [MainThread]: Store serial: [18708448]
+[2023-06-30 11:54:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18708448]
+[2023-06-30 11:54:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-30 11:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-serve
+[2023-06-30 11:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycrawlers
+[2023-06-30 11:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhttpx
+[2023-06-30 11:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sunpeek
+[2023-06-30 11:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-06-30 11:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addon-survey-contact-generation
+[2023-06-30 11:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tarantool
+[2023-06-30 11:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drf-rehive-extras
+[2023-06-30 11:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: JustScan
+[2023-06-30 11:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mltrainer
+[2023-06-30 11:54:11] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-30 11:54:11] INFO root fetch - processPackages [drf-rehive-extras]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-30 11:54:11] INFO root fetch - processPackages [mltrainer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 11:54:11] INFO root fetch - processPackages [pycrawlers]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-30 11:54:11] INFO root fetch - processPackages [pyhttpx]: New version: [2.10.9] Old Version: [2.10.8]
+[2023-06-30 11:54:11] INFO root fetch - processPackages [JustScan]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-30 11:54:11] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-30 11:54:11] INFO root fetch - processPackages [odoo13-addon-survey-contact-generation]: New version: [13.0.1.1.0] Old Version: [13.0.1.0.1.dev3]
+[2023-06-30 11:54:11] INFO root fetch - processPackages [tarantool]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-30 11:54:11] INFO root fetch - processPackages [kcli]: New version: [99.0.202306300949] Old Version: [99.0.202306292317]
+[2023-06-30 11:54:11] INFO root fetch - processPackages [drf-rehive-extras]: Downloading https://files.pythonhosted.org/packages/d8/ac/9382edda2048961b24bf25a64d24a14294d8ba4e618d687f096f41ff153f/drf-rehive-extras-2.0.0.tar.gz
+[2023-06-30 11:54:11] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/12/f9/2a3cb15df27454ba4057ed0f13c49c6719846f17e7c78f44fe4b00487f49/JustScan-1.2.2.tar.gz
+[2023-06-30 11:54:11] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c5/6d/5c68a3be4b9d7acea2cbe6b5b43d5340d79bea72a7256672483a9a9f7894/kcli-99.0.202306292317-py3-none-any.whl
+[2023-06-30 11:54:11] INFO root fetch - processPackages [pycrawlers]: Downloading https://files.pythonhosted.org/packages/1f/6a/537a9b84a2270d19aa4f38bacbcc35cf053047c19129df993c8f2360aa58/pycrawlers-0.1.2.tar.gz
+[2023-06-30 11:54:11] INFO root fetch - processPackages [odoo13-addon-survey-contact-generation]: Downloading https://files.pythonhosted.org/packages/7b/d7/1836c78088677d07999b52aba3965878cd4b40361159543900e5981154f9/odoo13_addon_survey_contact_generation-13.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-30 11:54:11] INFO root fetch - processPackages [tarantool]: Downloading https://files.pythonhosted.org/packages/57/18/12c7426dd3c36be1d311f3c361e70f7090c9417bcb2434fd148d3dacb630/tarantool-1.0.0.tar.gz
+[2023-06-30 11:54:11] INFO root fetch - processPackages [pyhttpx]: Downloading https://files.pythonhosted.org/packages/e8/7b/8f8de8c1845d046a8c6555caab2bab64211d8f348be59963d654c6028d42/pyhttpx-2.10.8.tar.gz
+[2023-06-30 11:54:11] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-06-30 11:54:11] INFO root fetch - processPackages [mltrainer]: Downloading https://files.pythonhosted.org/packages/93/b2/715b4853ee7780906f3c8555f4cf12f651cebf741ca101168e044937e0ab/mltrainer-0.1.0.tar.gz
+[2023-06-30 11:54:11] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/7d/87/fc2d2721ed03813871d259741139dcbcb0f1a5a7686743ee6d533d5af952/sunpeek-0.2.8-py3-none-any.whl
+[2023-06-30 11:54:11] INFO root fetch - processPackages [drf-rehive-extras]: Downloading https://files.pythonhosted.org/packages/c1/1f/66d0a491fe38b3b55f881c4033346f0de427928bc94a7440e842b97286da/drf-rehive-extras-2.0.1.tar.gz
+[2023-06-30 11:54:11] INFO root fetch - processPackages [drf-rehive-extras]: executing diffoscope
+[2023-06-30 11:54:11] INFO root fetch - processPackages [drf-rehive-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-rehive-extras-2.0.0.tar.gz tmp/drf-rehive-extras-2.0.1.tar.gz --markdown 20230630/d/drf-rehive-extras/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-30 11:54:11] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/95/31/7a0b5c46c04ff32fc16f644fa1e2883f4b27d1bf3741c8a0c53d29d2729b/JustScan-1.2.3.tar.gz
+[2023-06-30 11:54:11] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c9/45/42bace84e8a8e1d436b54803e10f4c7a1c05dad227cceba1a6f9b0c8b70d/kcli-99.0.202306300949-py3-none-any.whl
+[2023-06-30 11:54:11] INFO root fetch - processPackages [pycrawlers]: Downloading https://files.pythonhosted.org/packages/cf/e8/8b4a903dfd2c24e457205a3d450e06d190222a04b5968cd6884148149f5f/pycrawlers-0.1.3.tar.gz
+[2023-06-30 11:54:11] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-30 11:54:11] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.2.2.tar.gz tmp/JustScan-1.2.3.tar.gz --markdown 20230630/J/JustScan/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-30 11:54:11] INFO root fetch - processPackages [pycrawlers]: executing diffoscope
+[2023-06-30 11:54:11] INFO root fetch - processPackages [pycrawlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrawlers-0.1.2.tar.gz tmp/pycrawlers-0.1.3.tar.gz --markdown 20230630/p/pycrawlers/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-30 11:54:11] INFO root fetch - processPackages [pyhttpx]: Downloading https://files.pythonhosted.org/packages/42/27/1c53acb55e76b786991c330e65d19e810d5b3acc2029a35f603b63a14b7c/pyhttpx-2.10.9.tar.gz
+[2023-06-30 11:54:11] INFO root fetch - processPackages [mltrainer]: Downloading https://files.pythonhosted.org/packages/f6/d4/1b5c0a3f8e525b7aea2be6bf5986a4a087bb3d5d4bcd3a963bff2bd86877/mltrainer-0.1.1.tar.gz
+[2023-06-30 11:54:11] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-30 11:54:11] INFO root fetch - processPackages [odoo13-addon-survey-contact-generation]: Downloading https://files.pythonhosted.org/packages/de/6f/839448eb71e5fd3e59b9203bff63c4cf59edcb6feb308e64bd49b359a679/odoo13_addon_survey_contact_generation-13.0.1.1.0-py3-none-any.whl
+[2023-06-30 11:54:11] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306292317-py3-none-any.whl.zip tmp/kcli-99.0.202306300949-py3-none-any.whl.zip --markdown 20230630/k/kcli/99.0.202306292317-99.0.202306300949/diff.md --exclude *.pyd
+[2023-06-30 11:54:11] INFO root fetch - processPackages [tarantool]: Downloading https://files.pythonhosted.org/packages/4f/16/880e9051f696eaa1c4edce69281af52debb971d7220bca67b0dd131cc61b/tarantool-1.1.0.tar.gz
+[2023-06-30 11:54:11] INFO root fetch - processPackages [pyhttpx]: executing diffoscope
+[2023-06-30 11:54:11] INFO root fetch - processPackages [pyhttpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhttpx-2.10.8.tar.gz tmp/pyhttpx-2.10.9.tar.gz --markdown 20230630/p/pyhttpx/2.10.8-2.10.9/diff.md --exclude *.pyd
+[2023-06-30 11:54:11] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-06-30 11:54:11] INFO root fetch - processPackages [mltrainer]: executing diffoscope
+[2023-06-30 11:54:11] INFO root fetch - processPackages [mltrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltrainer-0.1.0.tar.gz tmp/mltrainer-0.1.1.tar.gz --markdown 20230630/m/mltrainer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 11:54:11] INFO root fetch - processPackages [odoo13-addon-survey-contact-generation]: executing diffoscope
+[2023-06-30 11:54:11] INFO root fetch - processPackages [odoo13-addon-survey-contact-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_survey_contact_generation-13.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo13_addon_survey_contact_generation-13.0.1.1.0-py3-none-any.whl.zip --markdown 20230630/o/odoo13-addon-survey-contact-generation/13.0.1.0.1.dev3-13.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-30 11:54:11] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-30 11:54:11] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230630/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-30 11:54:11] INFO root fetch - processPackages [tarantool]: executing diffoscope
+[2023-06-30 11:54:11] INFO root fetch - processPackages [tarantool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarantool-1.0.0.tar.gz tmp/tarantool-1.1.0.tar.gz --markdown 20230630/t/tarantool/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-30 11:54:12] INFO root fetch - processPackages [sunpeek]: Downloading https://files.pythonhosted.org/packages/a5/83/92e0e84a50850a618aae14d33638554bcbb3ccc7fc4a8bad2c03cfa0ed20/sunpeek-0.2.9-py3-none-any.whl
+[2023-06-30 11:54:12] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-06-30 11:54:12] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230630/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-30 11:54:13] INFO root fetch - processPackages [drf-rehive-extras]: Remove: archive file [/home/abi/fetcher/tmp/drf-rehive-extras-2.0.0.tar.gz]
+[2023-06-30 11:54:13] INFO root fetch - processPackages [drf-rehive-extras]: Remove: archive file [/home/abi/fetcher/tmp/drf-rehive-extras-2.0.1.tar.gz]
+[2023-06-30 11:54:13] INFO root fetch - processPackages [drf-rehive-extras]: Start processing: pipeline-ai
+[2023-06-30 11:54:13] INFO root fetch - main [MainThread]: End processing [drf-rehive-extras]: success
+[2023-06-30 11:54:13] INFO root fetch - processPackages [pipeline-ai]: New version: [0.5.0b9] Old Version: [0.5.0b8]
+[2023-06-30 11:54:13] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/45/84/69fb620c6f6b3f06697d71d86fa7f79d152166acbaff211bb451a9c093d9/pipeline_ai-0.5.0b8.tar.gz
+[2023-06-30 11:54:13] INFO root fetch - processPackages [mltrainer]: Remove: archive file [/home/abi/fetcher/tmp/mltrainer-0.1.0.tar.gz]
+[2023-06-30 11:54:13] INFO root fetch - processPackages [mltrainer]: Remove: archive file [/home/abi/fetcher/tmp/mltrainer-0.1.1.tar.gz]
+[2023-06-30 11:54:13] INFO root fetch - processPackages [mltrainer]: Start processing: kfish
+[2023-06-30 11:54:13] INFO root fetch - main [MainThread]: End processing [mltrainer]: success
+[2023-06-30 11:54:13] INFO root fetch - processPackages [pycrawlers]: Remove: archive file [/home/abi/fetcher/tmp/pycrawlers-0.1.2.tar.gz]
+[2023-06-30 11:54:13] INFO root fetch - processPackages [pycrawlers]: Remove: archive file [/home/abi/fetcher/tmp/pycrawlers-0.1.3.tar.gz]
+[2023-06-30 11:54:13] INFO root fetch - main [MainThread]: End processing [pycrawlers]: success
+[2023-06-30 11:54:13] INFO root fetch - processPackages [kfish]: New version: [99.0.202306300953] Old Version: [99.0.202306292319]
+[2023-06-30 11:54:13] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/b7/28/822a6cc9e70825b5c051ab9bf029b954982ed00aa6b036349995dcf4c5fa/pipeline_ai-0.5.0b9.tar.gz
+[2023-06-30 11:54:13] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/75/20/41da27985e1327ea687691541c17977bb76fb84686d5fda59992ec21a2aa/kfish-99.0.202306292319-py3-none-any.whl
+[2023-06-30 11:54:13] INFO root fetch - processPackages [pipeline-ai]: executing diffoscope
+[2023-06-30 11:54:13] INFO root fetch - processPackages [pipeline-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_ai-0.5.0b8.tar.gz tmp/pipeline_ai-0.5.0b9.tar.gz --markdown 20230630/p/pipeline-ai/0.5.0b8-0.5.0b9/diff.md --exclude *.pyd
+[2023-06-30 11:54:13] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.2.2.tar.gz]
+[2023-06-30 11:54:13] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.2.3.tar.gz]
+[2023-06-30 11:54:13] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-30 11:54:13] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-06-30 11:54:13] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-06-30 11:54:13] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-30 11:54:13] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/7a/3a/fe69ef7fd65b8528dc95c9bfb089818b493939ea3ceb691e748c10d4a6e0/kfish-99.0.202306300953-py3-none-any.whl
+[2023-06-30 11:54:14] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-30 11:54:14] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306292319-py3-none-any.whl.zip tmp/kfish-99.0.202306300953-py3-none-any.whl.zip --markdown 20230630/k/kfish/99.0.202306292319-99.0.202306300953/diff.md --exclude *.pyd
+[2023-06-30 11:54:14] INFO root fetch - processPackages [pyhttpx]: Remove: archive file [/home/abi/fetcher/tmp/pyhttpx-2.10.8.tar.gz]
+[2023-06-30 11:54:14] INFO root fetch - processPackages [pyhttpx]: Remove: archive file [/home/abi/fetcher/tmp/pyhttpx-2.10.9.tar.gz]
+[2023-06-30 11:54:14] INFO root fetch - main [MainThread]: End processing [pyhttpx]: success
+[2023-06-30 11:54:14] INFO root fetch - processPackages [odoo13-addon-survey-contact-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_survey_contact_generation-13.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-30 11:54:14] INFO root fetch - processPackages [odoo13-addon-survey-contact-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_survey_contact_generation-13.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-30 11:54:14] INFO root fetch - main [MainThread]: End processing [odoo13-addon-survey-contact-generation]: success
+[2023-06-30 11:54:14] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.8-py3-none-any.whl.zip]
+[2023-06-30 11:54:14] INFO root fetch - processPackages [sunpeek]: Remove: archive file [/home/abi/fetcher/tmp/sunpeek-0.2.9-py3-none-any.whl.zip]
+[2023-06-30 11:54:14] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-06-30 11:54:14] INFO root fetch - processPackages [tarantool]: Remove: archive file [/home/abi/fetcher/tmp/tarantool-1.0.0.tar.gz]
+[2023-06-30 11:54:14] INFO root fetch - processPackages [tarantool]: Remove: archive file [/home/abi/fetcher/tmp/tarantool-1.1.0.tar.gz]
+[2023-06-30 11:54:14] INFO root fetch - main [MainThread]: End processing [tarantool]: success
+[2023-06-30 11:54:15] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306292319-py3-none-any.whl.zip]
+[2023-06-30 11:54:15] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306300953-py3-none-any.whl.zip]
+[2023-06-30 11:54:15] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-30 11:54:15] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-0.5.0b8.tar.gz]
+[2023-06-30 11:54:15] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-0.5.0b9.tar.gz]
+[2023-06-30 11:54:15] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
+[2023-06-30 11:54:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306292317-py3-none-any.whl.zip]
+[2023-06-30 11:54:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306300949-py3-none-any.whl.zip]
+[2023-06-30 11:54:19] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-30 11:54:19] INFO root fetch - main [MainThread]: Store serial: [18708484]
