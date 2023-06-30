@@ -14117,3 +14117,113 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 09:23:35] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.94.dev1.tar.gz]
 [2023-06-30 09:23:35] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
 [2023-06-30 09:23:35] INFO root fetch - main [MainThread]: Store serial: [18706979]
+[2023-06-30 09:28:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706979]
+[2023-06-30 09:28:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-30 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wagtail-site-inheritance
+[2023-06-30 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sniimapp
+[2023-06-30 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: translate-toolkit
+[2023-06-30 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycrawlers
+[2023-06-30 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vcorelib
+[2023-06-30 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: khoj-assistant
+[2023-06-30 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SydneyGPT
+[2023-06-30 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: authress-sdk
+[2023-06-30 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: documentdataextraction
+[2023-06-30 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yellowdog-python-examples
+[2023-06-30 09:28:44] INFO root fetch - processPackages [translate-toolkit]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-06-30 09:28:44] INFO root fetch - processPackages [pycrawlers]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-30 09:28:44] INFO root fetch - processPackages [sniimapp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 09:28:44] INFO root fetch - processPackages [wagtail-site-inheritance]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-30 09:28:44] INFO root fetch - processPackages [authress-sdk]: New version: [2.0.24] Old Version: [2.0.23]
+[2023-06-30 09:28:44] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [6.0.8] Old Version: [6.0.7]
+[2023-06-30 09:28:44] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev98] Old Version: [0.6.3.dev97]
+[2023-06-30 09:28:44] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 09:28:44] INFO root fetch - processPackages [SydneyGPT]: New version: [0.11.8] Old Version: [0.11.6]
+[2023-06-30 09:28:44] INFO root fetch - processPackages [vcorelib]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-30 09:28:45] INFO root fetch - processPackages [authress-sdk]: Downloading https://files.pythonhosted.org/packages/c4/bc/217f9bee8517f9b25d01b10825f392801470c5729c0a2633184701ab65be/authress-sdk-2.0.23.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/fb/d1/ec907fcf8092b0658f18c33c834998acf50826cf6eed46c8361c96638f8f/sniimapp-0.0.8.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/52/3e/00e8a7320c4f8c9c3debe4b1423c02ef13f01f377e74630e1cc35e085a3a/khoj_assistant-0.6.3.dev97.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-06-30 09:28:45] INFO root fetch - processPackages [wagtail-site-inheritance]: Downloading https://files.pythonhosted.org/packages/89/6c/6e374c457c2e45a6cebd990b029745211acd34f9227f30f80395cd66e8fc/wagtail-site-inheritance-1.0.0.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [pycrawlers]: Downloading https://files.pythonhosted.org/packages/06/cd/cb233cb9c772bd55efe9b8a95fab44abcad5ac10ea864d3658303175c7c7/pycrawlers-0.1.1.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [translate-toolkit]: Downloading https://files.pythonhosted.org/packages/c5/af/4e8d1c57d68b80bfcf3320cbfa99ccb29b9c7be267029524d12187a924d7/translate-toolkit-3.9.1.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [SydneyGPT]: Downloading https://files.pythonhosted.org/packages/32/da/670c644719172def667163c90a2dec3204d99983e33dbc6be637b2111899/SydneyGPT-0.11.6.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/0c/a3/11e01c026bbd903576280ddbe921499de590ae979e2da1004319954b5dc6/vcorelib-2.2.0.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-06-30 09:28:45] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/32/41/5f0bd7028c0c84a365a70d9ce3684ef44e347a22a1d33861d0f928009701/sniimapp-0.0.9.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [authress-sdk]: Downloading https://files.pythonhosted.org/packages/63/2b/e47bd7709c1e8b72fbfab28935e0727bc924066fd1b2a86f1a70fd73c410/authress-sdk-2.0.24.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/a2/48/cdf0ef4fc387a3a6c47a9aaba1885cff4396c3237e445564179d92552e23/yellowdog-python-examples-6.0.8.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-06-30 09:28:45] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230630/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 09:28:45] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-06-30 09:28:45] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.8.tar.gz tmp/sniimapp-0.0.9.tar.gz --markdown 20230630/s/sniimapp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 09:28:45] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/9d/ff/7cbd5090c4832c8d2352fba09f03c093a4d17e209c1cf794a07d2b16b554/khoj_assistant-0.6.3.dev98.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/7b/b2/f2c6a2d9d0f399db2ae4b6ba5dd9a347908693d0f9366ce546dbe65228ed/vcorelib-2.2.1.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [authress-sdk]: executing diffoscope
+[2023-06-30 09:28:45] INFO root fetch - processPackages [authress-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authress-sdk-2.0.23.tar.gz tmp/authress-sdk-2.0.24.tar.gz --markdown 20230630/a/authress-sdk/2.0.23-2.0.24/diff.md --exclude *.pyd
+[2023-06-30 09:28:45] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2023-06-30 09:28:45] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-6.0.7.tar.gz tmp/yellowdog-python-examples-6.0.8.tar.gz --markdown 20230630/y/yellowdog-python-examples/6.0.7-6.0.8/diff.md --exclude *.pyd
+[2023-06-30 09:28:45] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2023-06-30 09:28:45] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-2.2.0.tar.gz tmp/vcorelib-2.2.1.tar.gz --markdown 20230630/v/vcorelib/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-30 09:28:45] INFO root fetch - processPackages [pycrawlers]: Downloading https://files.pythonhosted.org/packages/1f/6a/537a9b84a2270d19aa4f38bacbcc35cf053047c19129df993c8f2360aa58/pycrawlers-0.1.2.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [SydneyGPT]: Downloading https://files.pythonhosted.org/packages/cf/90/3a1577af82495529b5937d9a4b224d0923bf74bad9c9c13dacb422b9a24c/SydneyGPT-0.11.8.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [wagtail-site-inheritance]: Downloading https://files.pythonhosted.org/packages/a9/7d/8d2d2010fb6d3d6800ff8a5b28cb834047874e9bb23b7c5025e1d9d63b37/wagtail-site-inheritance-1.1.0.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [pycrawlers]: executing diffoscope
+[2023-06-30 09:28:45] INFO root fetch - processPackages [pycrawlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrawlers-0.1.1.tar.gz tmp/pycrawlers-0.1.2.tar.gz --markdown 20230630/p/pycrawlers/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-30 09:28:45] INFO root fetch - processPackages [SydneyGPT]: executing diffoscope
+[2023-06-30 09:28:45] INFO root fetch - processPackages [SydneyGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SydneyGPT-0.11.6.tar.gz tmp/SydneyGPT-0.11.8.tar.gz --markdown 20230630/S/SydneyGPT/0.11.6-0.11.8/diff.md --exclude *.pyd
+[2023-06-30 09:28:45] INFO root fetch - processPackages [wagtail-site-inheritance]: executing diffoscope
+[2023-06-30 09:28:45] INFO root fetch - processPackages [translate-toolkit]: Downloading https://files.pythonhosted.org/packages/1b/b6/8552b915b1bf2f0e08b96cbbecd4a78c1b4a62d9c473785c11e24abde83e/translate-toolkit-3.9.2.tar.gz
+[2023-06-30 09:28:45] INFO root fetch - processPackages [wagtail-site-inheritance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-site-inheritance-1.0.0.tar.gz tmp/wagtail-site-inheritance-1.1.0.tar.gz --markdown 20230630/w/wagtail-site-inheritance/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-30 09:28:45] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-30 09:28:45] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev97.tar.gz tmp/khoj_assistant-0.6.3.dev98.tar.gz --markdown 20230630/k/khoj-assistant/0.6.3.dev97-0.6.3.dev98/diff.md --exclude *.pyd
+[2023-06-30 09:28:45] INFO root fetch - processPackages [translate-toolkit]: executing diffoscope
+[2023-06-30 09:28:45] INFO root fetch - processPackages [translate-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translate-toolkit-3.9.1.tar.gz tmp/translate-toolkit-3.9.2.tar.gz --markdown 20230630/t/translate-toolkit/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-06-30 09:28:46] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-06-30 09:28:46] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-06-30 09:28:46] INFO root fetch - processPackages [documentdataextraction]: Start processing: langport
+[2023-06-30 09:28:46] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-06-30 09:28:46] INFO root fetch - processPackages [langport]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-30 09:28:47] INFO root fetch - processPackages [langport]: Downloading https://files.pythonhosted.org/packages/eb/b0/5e79b254e8edbd978ee5f268c1590311b4694573560bb1e29e5fd5786aa4/langport-0.2.1.tar.gz
+[2023-06-30 09:28:47] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.8.tar.gz]
+[2023-06-30 09:28:47] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.9.tar.gz]
+[2023-06-30 09:28:47] INFO root fetch - processPackages [sniimapp]: Start processing: airflow-code-editor
+[2023-06-30 09:28:47] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-06-30 09:28:47] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.7.tar.gz]
+[2023-06-30 09:28:47] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.8.tar.gz]
+[2023-06-30 09:28:47] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2023-06-30 09:28:47] INFO root fetch - processPackages [airflow-code-editor]: New version: [7.3.0] Old Version: [7.2.1]
+[2023-06-30 09:28:47] INFO root fetch - processPackages [langport]: Downloading https://files.pythonhosted.org/packages/9d/28/1a66f1bf65afdbca70e8ff9f81ad294cfa4e21cc7fa6a980dc3f14bcbe08/langport-0.3.0.tar.gz
+[2023-06-30 09:28:47] INFO root fetch - processPackages [langport]: executing diffoscope
+[2023-06-30 09:28:47] INFO root fetch - processPackages [langport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langport-0.2.1.tar.gz tmp/langport-0.3.0.tar.gz --markdown 20230630/l/langport/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-30 09:28:47] INFO root fetch - processPackages [SydneyGPT]: Remove: archive file [/home/abi/fetcher/tmp/SydneyGPT-0.11.6.tar.gz]
+[2023-06-30 09:28:47] INFO root fetch - processPackages [SydneyGPT]: Remove: archive file [/home/abi/fetcher/tmp/SydneyGPT-0.11.8.tar.gz]
+[2023-06-30 09:28:47] INFO root fetch - main [MainThread]: End processing [SydneyGPT]: success
+[2023-06-30 09:28:47] INFO root fetch - processPackages [airflow-code-editor]: Downloading https://files.pythonhosted.org/packages/b6/a4/5784b7b3b7b55009992aac196876d20f911c045452d839fa5a92cf77e4ae/airflow_code_editor-7.2.1.tar.gz
+[2023-06-30 09:28:47] INFO root fetch - processPackages [pycrawlers]: Remove: archive file [/home/abi/fetcher/tmp/pycrawlers-0.1.1.tar.gz]
+[2023-06-30 09:28:47] INFO root fetch - processPackages [pycrawlers]: Remove: archive file [/home/abi/fetcher/tmp/pycrawlers-0.1.2.tar.gz]
+[2023-06-30 09:28:47] INFO root fetch - main [MainThread]: End processing [pycrawlers]: success
+[2023-06-30 09:28:47] INFO root fetch - processPackages [wagtail-site-inheritance]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-site-inheritance-1.0.0.tar.gz]
+[2023-06-30 09:28:47] INFO root fetch - processPackages [wagtail-site-inheritance]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-site-inheritance-1.1.0.tar.gz]
+[2023-06-30 09:28:47] INFO root fetch - main [MainThread]: End processing [wagtail-site-inheritance]: success
+[2023-06-30 09:28:47] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.2.0.tar.gz]
+[2023-06-30 09:28:47] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.2.1.tar.gz]
+[2023-06-30 09:28:47] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2023-06-30 09:28:47] INFO root fetch - processPackages [airflow-code-editor]: Downloading https://files.pythonhosted.org/packages/2c/ff/df7b3e6c51cfbd69aba9f97f9ad2caa97ebcf0fd5bb3bc6c1f01c76ed481/airflow_code_editor-7.3.0.tar.gz
+[2023-06-30 09:28:48] INFO root fetch - processPackages [airflow-code-editor]: executing diffoscope
+[2023-06-30 09:28:48] INFO root fetch - processPackages [airflow-code-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_code_editor-7.2.1.tar.gz tmp/airflow_code_editor-7.3.0.tar.gz --markdown 20230630/a/airflow-code-editor/7.2.1-7.3.0/diff.md --exclude *.pyd
+[2023-06-30 09:28:48] INFO root fetch - processPackages [authress-sdk]: Remove: archive file [/home/abi/fetcher/tmp/authress-sdk-2.0.23.tar.gz]
+[2023-06-30 09:28:48] INFO root fetch - processPackages [authress-sdk]: Remove: archive file [/home/abi/fetcher/tmp/authress-sdk-2.0.24.tar.gz]
+[2023-06-30 09:28:48] INFO root fetch - main [MainThread]: End processing [authress-sdk]: success
+[2023-06-30 09:28:48] INFO root fetch - processPackages [langport]: Remove: archive file [/home/abi/fetcher/tmp/langport-0.2.1.tar.gz]
+[2023-06-30 09:28:48] INFO root fetch - processPackages [langport]: Remove: archive file [/home/abi/fetcher/tmp/langport-0.3.0.tar.gz]
+[2023-06-30 09:28:48] INFO root fetch - main [MainThread]: End processing [langport]: success
+[2023-06-30 09:28:50] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev97.tar.gz]
+[2023-06-30 09:28:50] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev98.tar.gz]
+[2023-06-30 09:28:50] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-30 09:28:56] INFO root fetch - processPackages [translate-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/translate-toolkit-3.9.1.tar.gz]
+[2023-06-30 09:28:56] INFO root fetch - processPackages [translate-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/translate-toolkit-3.9.2.tar.gz]
+[2023-06-30 09:28:56] INFO root fetch - main [MainThread]: End processing [translate-toolkit]: success
+[2023-06-30 09:29:08] INFO root fetch - processPackages [airflow-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/airflow_code_editor-7.2.1.tar.gz]
+[2023-06-30 09:29:08] INFO root fetch - processPackages [airflow-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/airflow_code_editor-7.3.0.tar.gz]
+[2023-06-30 09:29:08] INFO root fetch - main [MainThread]: End processing [airflow-code-editor]: success
+[2023-06-30 09:29:08] INFO root fetch - main [MainThread]: Store serial: [18707015]
