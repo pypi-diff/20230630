@@ -3088,3 +3088,48 @@
 [2023-06-30 03:09:27] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
 [2023-06-30 03:09:27] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2023-06-30 03:09:27] INFO root fetch - main [MainThread]: Store serial: [18702862]
+[2023-06-30 03:14:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702862]
+[2023-06-30 03:14:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-30 03:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emmet-builders
+[2023-06-30 03:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncgui
+[2023-06-30 03:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emmet-api
+[2023-06-30 03:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quiltcore
+[2023-06-30 03:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qcloud-user
+[2023-06-30 03:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qcloud-setup
+[2023-06-30 03:14:36] INFO root fetch - processPackages [asyncgui]: New version: [0.6.0.dev0] Old Version: [0.5.5]
+[2023-06-30 03:14:36] WARNING root fetch - processPackages [qcloud-user]: Skipping, unable to determine old version
+[2023-06-30 03:14:36] INFO root fetch - main [MainThread]: End processing [qcloud-user] error
+[2023-06-30 03:14:36] INFO root fetch - processPackages [quiltcore]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-30 03:14:36] INFO root fetch - processPackages [emmet-builders]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-30 03:14:36] WARNING root fetch - processPackages [qcloud-setup]: Skipping, unable to determine old version
+[2023-06-30 03:14:36] INFO root fetch - main [MainThread]: End processing [qcloud-setup] error
+[2023-06-30 03:14:36] INFO root fetch - processPackages [emmet-api]: New version: [0.58.0] Old Version: [0.57.2]
+[2023-06-30 03:14:36] INFO root fetch - processPackages [asyncgui]: Downloading https://files.pythonhosted.org/packages/e8/2a/2049a49aee3a1ef19385e5ca8da7420f07034014a1b1f9912a17ab41d6db/asyncgui-0.5.5.tar.gz
+[2023-06-30 03:14:36] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/b3/9f/ec08c5daefc1dab5587b18b933f8845a69362d5e4f4cd605e3028250efa8/emmet-builders-0.9.2.tar.gz
+[2023-06-30 03:14:36] INFO root fetch - processPackages [quiltcore]: Downloading https://files.pythonhosted.org/packages/eb/e5/3546921443ca77759f6a70aabf409b15871d4586fdaa2e50a10e17d36d5c/quiltcore-0.1.1.tar.gz
+[2023-06-30 03:14:36] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/fc/cb/425cef397fc4d96d44196b401529cea648c48f791be07fca336e488cebc8/emmet-api-0.57.2.tar.gz
+[2023-06-30 03:14:36] INFO root fetch - processPackages [asyncgui]: Downloading https://files.pythonhosted.org/packages/75/73/063c489d3fb4f771ed432ce6d147fa1516a08426b2a59fd433c249bbbd8b/asyncgui-0.6.0.dev0.tar.gz
+[2023-06-30 03:14:36] INFO root fetch - processPackages [quiltcore]: Downloading https://files.pythonhosted.org/packages/60/d6/41b12995308f1b96f18ef2a5dfa7560facd914d32c4c27855a949959b696/quiltcore-0.1.2.tar.gz
+[2023-06-30 03:14:36] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/d3/8a/c73672eb055bc5323b006090ad1112b6027d2d5cbbe46b35eaa33b3924be/emmet-builders-0.9.3.tar.gz
+[2023-06-30 03:14:36] INFO root fetch - processPackages [asyncgui]: executing diffoscope
+[2023-06-30 03:14:36] INFO root fetch - processPackages [asyncgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncgui-0.5.5.tar.gz tmp/asyncgui-0.6.0.dev0.tar.gz --markdown 20230630/a/asyncgui/0.5.5-0.6.0.dev0/diff.md --exclude *.pyd
+[2023-06-30 03:14:36] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/44/6e/8274e030af8745da268a5d2a8f19348daf849affc23e8f34c0dacfd45a64/emmet-api-0.58.0.tar.gz
+[2023-06-30 03:14:36] INFO root fetch - processPackages [quiltcore]: executing diffoscope
+[2023-06-30 03:14:36] INFO root fetch - processPackages [quiltcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quiltcore-0.1.1.tar.gz tmp/quiltcore-0.1.2.tar.gz --markdown 20230630/q/quiltcore/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-30 03:14:36] INFO root fetch - processPackages [emmet-builders]: executing diffoscope
+[2023-06-30 03:14:36] INFO root fetch - processPackages [emmet-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-builders-0.9.2.tar.gz tmp/emmet-builders-0.9.3.tar.gz --markdown 20230630/e/emmet-builders/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-30 03:14:36] INFO root fetch - processPackages [emmet-api]: executing diffoscope
+[2023-06-30 03:14:36] INFO root fetch - processPackages [emmet-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-api-0.57.2.tar.gz tmp/emmet-api-0.58.0.tar.gz --markdown 20230630/e/emmet-api/0.57.2-0.58.0/diff.md --exclude *.pyd
+[2023-06-30 03:14:37] INFO root fetch - processPackages [asyncgui]: Remove: archive file [/home/abi/fetcher/tmp/asyncgui-0.5.5.tar.gz]
+[2023-06-30 03:14:37] INFO root fetch - processPackages [asyncgui]: Remove: archive file [/home/abi/fetcher/tmp/asyncgui-0.6.0.dev0.tar.gz]
+[2023-06-30 03:14:37] INFO root fetch - main [MainThread]: End processing [asyncgui]: success
+[2023-06-30 03:14:37] INFO root fetch - processPackages [quiltcore]: Remove: archive file [/home/abi/fetcher/tmp/quiltcore-0.1.1.tar.gz]
+[2023-06-30 03:14:37] INFO root fetch - processPackages [quiltcore]: Remove: archive file [/home/abi/fetcher/tmp/quiltcore-0.1.2.tar.gz]
+[2023-06-30 03:14:37] INFO root fetch - main [MainThread]: End processing [quiltcore]: success
+[2023-06-30 03:14:37] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.2.tar.gz]
+[2023-06-30 03:14:37] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.3.tar.gz]
+[2023-06-30 03:14:37] INFO root fetch - main [MainThread]: End processing [emmet-builders]: success
+[2023-06-30 03:14:39] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.57.2.tar.gz]
+[2023-06-30 03:14:39] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.58.0.tar.gz]
+[2023-06-30 03:14:39] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
+[2023-06-30 03:14:39] INFO root fetch - main [MainThread]: Store serial: [18702884]
