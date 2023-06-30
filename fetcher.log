@@ -21425,3 +21425,250 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 14:17:00] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2023.6.30.20.15.36.tar.gz]
 [2023-06-30 14:17:00] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2023-06-30 14:17:00] INFO root fetch - main [MainThread]: Store serial: [18710426]
+[2023-06-30 14:22:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18710426]
+[2023-06-30 14:22:12] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-06-30 14:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multi-start
+[2023-06-30 14:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apidev-coop-cms
+[2023-06-30 14:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyphishtanklookup
+[2023-06-30 14:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composabl-dev
+[2023-06-30 14:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyatlan
+[2023-06-30 14:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-cisco-support-plugin
+[2023-06-30 14:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-dllib-spark3
+[2023-06-30 14:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: resonances
+[2023-06-30 14:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: func-ai
+[2023-06-30 14:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydantic-extra-types
+[2023-06-30 14:22:12] INFO root fetch - processPackages [multi-start]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-06-30 14:22:12] INFO root fetch - processPackages [pyphishtanklookup]: New version: [1.3.0] Old Version: [1.2]
+[2023-06-30 14:22:12] INFO root fetch - processPackages [pydantic-extra-types]: New version: [2.0.0] Old Version: [0.0.1]
+[2023-06-30 14:22:12] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 14:22:12] INFO root fetch - processPackages [resonances]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-30 14:22:12] INFO root fetch - processPackages [func-ai]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-30 14:22:12] INFO root fetch - processPackages [composabl-dev]: New version: [0.2.3.dev3] Old Version: [0.2.2.dev3]
+[2023-06-30 14:22:12] INFO root fetch - processPackages [pyatlan]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-30 14:22:12] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230630] Old Version: [2.4.0b20230629]
+[2023-06-30 14:22:12] INFO root fetch - processPackages [apidev-coop-cms]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-06-30 14:22:12] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/5f/75/8e9b6ac669a9290c17db68bdb6cfb13ab9ac497949a2166991693a7c5eda/netbox-cisco-support-plugin-0.0.8.tar.gz
+[2023-06-30 14:22:12] INFO root fetch - processPackages [func-ai]: Downloading https://files.pythonhosted.org/packages/16/95/7ee81fd09bc180c5b479d40ef865337063c19a398158bc6a3b05a14cbde9/func_ai-0.0.5.tar.gz
+[2023-06-30 14:22:12] INFO root fetch - processPackages [apidev-coop-cms]: Downloading https://files.pythonhosted.org/packages/ff/33/bd30cff98819ad028f33894de25bcc7f2f83e1f1e7811c8d7fd78ac466af/apidev-coop_cms-1.6.1.tar.gz
+[2023-06-30 14:22:12] INFO root fetch - processPackages [pyphishtanklookup]: Downloading https://files.pythonhosted.org/packages/13/a9/e2ee66bd4b98fd7704c0d5c334919555ee35679b91366dfcb3bee6d7af22/pyphishtanklookup-1.2.tar.gz
+[2023-06-30 14:22:12] INFO root fetch - processPackages [multi-start]: Downloading https://files.pythonhosted.org/packages/42/6f/c54f9ff201ceb8de9caa0974fb9afd0068bc708e3d1240a62408cae65d35/multi_start-0.0.2.tar.gz
+[2023-06-30 14:22:13] INFO root fetch - processPackages [pydantic-extra-types]: Downloading https://files.pythonhosted.org/packages/40/70/8465749c8d882b69493206602c1a0ab2da34cba5c53a57d36ec26d53e593/pydantic_extra_types-0.0.1.tar.gz
+[2023-06-30 14:22:13] INFO root fetch - processPackages [resonances]: Downloading https://files.pythonhosted.org/packages/b4/52/52a923a9dda4c34a7ddaddfcb355f06b1ea5cb13390803ae3f51d13ed911/resonances-0.2.6.tar.gz
+[2023-06-30 14:22:13] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/f7/98/91ffa788f04f75154d4d46e5f680c43e28d85b3b04f5ddfcb9448e1796ad/bigdl-dllib-spark3-2.4.0b20230629.tar.gz
+[2023-06-30 14:22:13] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/21/c7/f0d88b469db9a95c70141c81251bc12354e6bd93e10a17df0e9094a06e64/composabl_dev-0.2.2.dev3-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-30 14:22:13] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/e9/8a/8e1ae75c0899bd1f261baf39d89df78dac0fd262397575bdbe753273368d/pyatlan-0.1.3.tar.gz
+[2023-06-30 14:22:13] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61328896>=10485760
+[2023-06-30 14:22:13] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: cmaclp
+[2023-06-30 14:22:13] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-06-30 14:22:13] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/a5/bf/72846d57ebe903748908b82db594c2d1fcfd14aff137f339aa050db50b40/netbox-cisco-support-plugin-0.0.9.tar.gz
+[2023-06-30 14:22:13] INFO root fetch - processPackages [cmaclp]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 14:22:13] INFO root fetch - processPackages [func-ai]: Downloading https://files.pythonhosted.org/packages/ba/f6/f0e1b71bc5d7164e22654501216a7a702a69913ceb7bbc8cd4a658ecc61b/func_ai-0.0.6.tar.gz
+[2023-06-30 14:22:13] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-06-30 14:22:13] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.8.tar.gz tmp/netbox-cisco-support-plugin-0.0.9.tar.gz --markdown 20230630/n/netbox-cisco-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 14:22:13] INFO root fetch - processPackages [multi-start]: Downloading https://files.pythonhosted.org/packages/cd/79/66e489bc44affbf964c6e08a609e89e775a819daab453187e59a7eca1a10/multi_start-1.0.0.tar.gz
+[2023-06-30 14:22:13] INFO root fetch - processPackages [pydantic-extra-types]: Downloading https://files.pythonhosted.org/packages/5f/14/0672f0a16b238037c169fdf125da75705cf253c84fc712608545c47c79ae/pydantic_extra_types-2.0.0.tar.gz
+[2023-06-30 14:22:13] INFO root fetch - processPackages [apidev-coop-cms]: Downloading https://files.pythonhosted.org/packages/74/a4/4d8e490249bfc5759c3c430b4c9c816963d48d5b86b84b9349406cddbcff/apidev-coop_cms-1.6.2.tar.gz
+[2023-06-30 14:22:13] INFO root fetch - processPackages [func-ai]: executing diffoscope
+[2023-06-30 14:22:13] INFO root fetch - processPackages [func-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/func_ai-0.0.5.tar.gz tmp/func_ai-0.0.6.tar.gz --markdown 20230630/f/func-ai/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-30 14:22:13] INFO root fetch - processPackages [resonances]: Downloading https://files.pythonhosted.org/packages/51/8b/34acc8524475c4152759d8401e66772294e7d38daa483cc0e7beb38b674b/resonances-0.2.7.tar.gz
+[2023-06-30 14:22:13] INFO root fetch - processPackages [pyphishtanklookup]: Downloading https://files.pythonhosted.org/packages/46/0d/cf332330a67ed7b66423ff17efcf1419570150668f4ab5723bf0c33c0260/pyphishtanklookup-1.3.0.tar.gz
+[2023-06-30 14:22:13] INFO root fetch - processPackages [cmaclp]: Downloading https://files.pythonhosted.org/packages/c2/a8/ae2d215bfa6e4b575ef04b267ed485a2ad22a1ca4d3668db5ae148e51449/cmaclp-0.1.0-py3-none-any.whl
+[2023-06-30 14:22:13] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/a4/72/b9b88ed7c3dd705cbb3f17327cbfbf340c68bd7f37cccfd66620784daabe/pyatlan-0.2.0.tar.gz
+[2023-06-30 14:22:13] INFO root fetch - processPackages [pydantic-extra-types]: executing diffoscope
+[2023-06-30 14:22:13] INFO root fetch - processPackages [pydantic-extra-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_extra_types-0.0.1.tar.gz tmp/pydantic_extra_types-2.0.0.tar.gz --markdown 20230630/p/pydantic-extra-types/0.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-30 14:22:13] INFO root fetch - processPackages [multi-start]: executing diffoscope
+[2023-06-30 14:22:13] INFO root fetch - processPackages [multi-start]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_start-0.0.2.tar.gz tmp/multi_start-1.0.0.tar.gz --markdown 20230630/m/multi-start/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-30 14:22:13] INFO root fetch - processPackages [resonances]: executing diffoscope
+[2023-06-30 14:22:13] INFO root fetch - processPackages [resonances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resonances-0.2.6.tar.gz tmp/resonances-0.2.7.tar.gz --markdown 20230630/r/resonances/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-30 14:22:13] INFO root fetch - processPackages [pyphishtanklookup]: executing diffoscope
+[2023-06-30 14:22:13] INFO root fetch - processPackages [pyphishtanklookup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphishtanklookup-1.2.tar.gz tmp/pyphishtanklookup-1.3.0.tar.gz --markdown 20230630/p/pyphishtanklookup/1.2-1.3.0/diff.md --exclude *.pyd
+[2023-06-30 14:22:13] INFO root fetch - processPackages [apidev-coop-cms]: executing diffoscope
+[2023-06-30 14:22:13] INFO root fetch - processPackages [apidev-coop-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidev-coop_cms-1.6.1.tar.gz tmp/apidev-coop_cms-1.6.2.tar.gz --markdown 20230630/a/apidev-coop-cms/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-06-30 14:22:13] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2023-06-30 14:22:13] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-0.1.3.tar.gz tmp/pyatlan-0.2.0.tar.gz --markdown 20230630/p/pyatlan/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-30 14:22:13] INFO root fetch - processPackages [cmaclp]: Downloading https://files.pythonhosted.org/packages/f3/cc/80d1c9d67a2735a3e94443c71e2bd0e775505a6dca1d2d17bfd496f39555/cmaclp-0.1.1-py3-none-any.whl
+[2023-06-30 14:22:13] INFO root fetch - processPackages [cmaclp]: executing diffoscope
+[2023-06-30 14:22:13] INFO root fetch - processPackages [cmaclp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmaclp-0.1.0-py3-none-any.whl.zip tmp/cmaclp-0.1.1-py3-none-any.whl.zip --markdown 20230630/c/cmaclp/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 14:22:13] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/ff/69/caa4f330f35ba0b6828da0dd2e288bf1192a9fa476089150ad877b95dfb6/composabl_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-30 14:22:14] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-06-30 14:22:14] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.2.2.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230630/c/composabl-dev/0.2.2.dev3-0.2.3.dev3/diff.md --exclude *.pyd
+[2023-06-30 14:22:14] INFO root fetch - processPackages [func-ai]: Remove: archive file [/home/abi/fetcher/tmp/func_ai-0.0.5.tar.gz]
+[2023-06-30 14:22:14] INFO root fetch - processPackages [func-ai]: Remove: archive file [/home/abi/fetcher/tmp/func_ai-0.0.6.tar.gz]
+[2023-06-30 14:22:14] INFO root fetch - processPackages [func-ai]: Start processing: pydozer-log
+[2023-06-30 14:22:14] INFO root fetch - main [MainThread]: End processing [func-ai]: success
+[2023-06-30 14:22:14] INFO root fetch - processPackages [pydozer-log]: New version: [0.1.27] Old Version: [0.1.26]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.8.tar.gz]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.9.tar.gz]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Start processing: bigdl-orca-spark3
+[2023-06-30 14:22:15] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-06-30 14:22:15] INFO root fetch - processPackages [pydantic-extra-types]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_extra_types-0.0.1.tar.gz]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [pydantic-extra-types]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_extra_types-2.0.0.tar.gz]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [pydantic-extra-types]: Start processing: feedancy
+[2023-06-30 14:22:15] INFO root fetch - main [MainThread]: End processing [pydantic-extra-types]: success
+[2023-06-30 14:22:15] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230630] Old Version: [2.4.0b20230629]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [feedancy]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [multi-start]: Remove: archive file [/home/abi/fetcher/tmp/multi_start-0.0.2.tar.gz]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [multi-start]: Remove: archive file [/home/abi/fetcher/tmp/multi_start-1.0.0.tar.gz]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [multi-start]: Start processing: bigdl-friesian-spark3
+[2023-06-30 14:22:15] INFO root fetch - main [MainThread]: End processing [multi-start]: success
+[2023-06-30 14:22:15] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230630] Old Version: [2.4.0b20230629]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [pydozer-log]: Downloading https://files.pythonhosted.org/packages/1e/15/d2b857bf0f86aa46fd1d0769b3d75b97c5f85d8f6bbd5a4d89a22bebbeb3/pydozer_log-0.1.26-pp39-pypy39_pp73-manylinux_2_34_s390x.whl
+[2023-06-30 14:22:15] INFO root fetch - processPackages [feedancy]: Downloading https://files.pythonhosted.org/packages/5d/c8/de1b42dfbf9473d6b9a412a47b32f5eae2aaccf734eebbf09ea677a13bef/feedancy-0.0.0.tar.gz
+[2023-06-30 14:22:15] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/55/b3/8586bf26ca1a3d9241f09103295edd7db8a9f281caa877c3d262ca940bb5/bigdl_orca_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-30 14:22:15] INFO root fetch - processPackages [resonances]: Remove: archive file [/home/abi/fetcher/tmp/resonances-0.2.6.tar.gz]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [resonances]: Remove: archive file [/home/abi/fetcher/tmp/resonances-0.2.7.tar.gz]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [resonances]: Start processing: bigdl-chronos-spark3
+[2023-06-30 14:22:15] INFO root fetch - main [MainThread]: End processing [resonances]: success
+[2023-06-30 14:22:15] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207827>=10485760
+[2023-06-30 14:22:15] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: Aruna-Python-API
+[2023-06-30 14:22:15] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-06-30 14:22:15] INFO root fetch - processPackages [cmaclp]: Remove: archive file [/home/abi/fetcher/tmp/cmaclp-0.1.0-py3-none-any.whl.zip]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [cmaclp]: Remove: archive file [/home/abi/fetcher/tmp/cmaclp-0.1.1-py3-none-any.whl.zip]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [cmaclp]: Start processing: cg
+[2023-06-30 14:22:15] INFO root fetch - main [MainThread]: End processing [cmaclp]: success
+[2023-06-30 14:22:15] INFO root fetch - processPackages [pyphishtanklookup]: Remove: archive file [/home/abi/fetcher/tmp/pyphishtanklookup-1.2.tar.gz]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [pyphishtanklookup]: Remove: archive file [/home/abi/fetcher/tmp/pyphishtanklookup-1.3.0.tar.gz]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [pyphishtanklookup]: Start processing: bigdl-spark3
+[2023-06-30 14:22:15] INFO root fetch - main [MainThread]: End processing [pyphishtanklookup]: success
+[2023-06-30 14:22:15] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230630] Old Version: [2.4.0b20230629]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [Aruna-Python-API]: New version: [1.1.0rc7] Old Version: [1.1.0rc6]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [cg]: New version: [37.0.9] Old Version: [37.0.8]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/16/24/21060ee9da753e5e500fb1f1aab19ce16668994d136d462fcc0b03458117/bigdl_friesian_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-30 14:22:15] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230630] Old Version: [2.4.0b20230629]
+[2023-06-30 14:22:15] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ec/1d/c584ab5bd145f7bc64a980cb9243f2ce4190d6259515da4ad36aa6cd5b8d/cg-37.0.8.tar.gz
+[2023-06-30 14:22:15] INFO root fetch - processPackages [feedancy]: Downloading https://files.pythonhosted.org/packages/1a/eb/53cf4181984e036e07c149318553a66eab913f8124a18aa7bc4ff96ff7c2/feedancy-0.0.1.tar.gz
+[2023-06-30 14:22:15] INFO root fetch - processPackages [pydozer-log]: Downloading https://files.pythonhosted.org/packages/25/89/d83bfbdf70d69c5dfaa5596210abaf2664b314b076594157e6299cf566d4/pydozer_log-0.1.27-pp39-pypy39_pp73-manylinux_2_34_s390x.whl
+[2023-06-30 14:22:15] INFO root fetch - processPackages [feedancy]: executing diffoscope
+[2023-06-30 14:22:15] INFO root fetch - processPackages [feedancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feedancy-0.0.0.tar.gz tmp/feedancy-0.0.1.tar.gz --markdown 20230630/f/feedancy/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-30 14:22:15] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/b2/17/b4c0ddd8c365a8f19869cfd8e87964e5a73fc0c6a2d233d7da8f5c04c840/bigdl_chronos_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-30 14:22:15] INFO root fetch - processPackages [Aruna-Python-API]: Downloading https://files.pythonhosted.org/packages/99/cc/b50267839617e32e4f7ad9be009b6ff97dc503a4531893e25bae92c04fbb/Aruna-Python-API-1.1.0rc6.tar.gz
+[2023-06-30 14:22:15] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/ee/f5/e3e949819f23d7b41dfaaaf3f19af07bfde73a540653991075da01183259/bigdl_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-30 14:22:15] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/e8/6f/6e1d8cd9e48feb8ac972c2e7a642bbad20f1afddc053afd522eac2de85c4/bigdl_friesian_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl
+[2023-06-30 14:22:15] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/7e/80bbf10d5634a932760fbb85138245f7f53ad73bcdd6d223800c8b51e56f/cg-37.0.9.tar.gz
+[2023-06-30 14:22:15] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-30 14:22:15] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.8.tar.gz tmp/cg-37.0.9.tar.gz --markdown 20230630/c/cg/37.0.8-37.0.9/diff.md --exclude *.pyd
+[2023-06-30 14:22:15] INFO root fetch - processPackages [Aruna-Python-API]: Downloading https://files.pythonhosted.org/packages/c8/52/2e74344c2ce558047ec5d92877dc056abe42c66253cf7c0e5648c3c24ac5/Aruna-Python-API-1.1.0rc7.tar.gz
+[2023-06-30 14:22:15] INFO root fetch - processPackages [pydozer-log]: executing diffoscope
+[2023-06-30 14:22:15] INFO root fetch - processPackages [pydozer-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydozer_log-0.1.26-pp39-pypy39_pp73-manylinux_2_34_s390x.whl.zip tmp/pydozer_log-0.1.27-pp39-pypy39_pp73-manylinux_2_34_s390x.whl.zip --markdown 20230630/p/pydozer-log/0.1.26-0.1.27/diff.md --exclude *.pyd
+[2023-06-30 14:22:15] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-06-30 14:22:15] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip --markdown 20230630/b/bigdl-friesian-spark3/2.4.0b20230629-2.4.0b20230630/diff.md --exclude *.pyd
+[2023-06-30 14:22:15] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/6e/2e/4617a2a61043a65c358616355dbfdce72336e00a13d826e121c438b1a454/bigdl_chronos_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl
+[2023-06-30 14:22:16] INFO root fetch - processPackages [Aruna-Python-API]: executing diffoscope
+[2023-06-30 14:22:16] INFO root fetch - processPackages [Aruna-Python-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Aruna-Python-API-1.1.0rc6.tar.gz tmp/Aruna-Python-API-1.1.0rc7.tar.gz --markdown 20230630/A/Aruna-Python-API/1.1.0rc6-1.1.0rc7/diff.md --exclude *.pyd
+[2023-06-30 14:22:16] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-06-30 14:22:16] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip --markdown 20230630/b/bigdl-chronos-spark3/2.4.0b20230629-2.4.0b20230630/diff.md --exclude *.pyd
+[2023-06-30 14:22:16] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/92/90/7d51e35067cbd6347019f0be5b047894536684093749bc57737470bcbf3e/bigdl_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl
+[2023-06-30 14:22:16] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-06-30 14:22:16] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip --markdown 20230630/b/bigdl-spark3/2.4.0b20230629-2.4.0b20230630/diff.md --exclude *.pyd
+[2023-06-30 14:22:16] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-0.1.3.tar.gz]
+[2023-06-30 14:22:16] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-0.2.0.tar.gz]
+[2023-06-30 14:22:16] INFO root fetch - processPackages [pyatlan]: Start processing: nopasaran
+[2023-06-30 14:22:16] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2023-06-30 14:22:16] INFO root fetch - processPackages [nopasaran]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-30 14:22:16] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/74/f0/6e184afe442cc7a09f65789e3e16a6ad2c05ae7bbe2c5071683d9b389372/nopasaran-0.1.7.tar.gz
+[2023-06-30 14:22:16] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.2.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-30 14:22:16] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.3.dev3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-30 14:22:16] INFO root fetch - processPackages [composabl-dev]: Start processing: czsc
+[2023-06-30 14:22:16] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-06-30 14:22:16] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/2e/76/889e2e716e40b501895c259513d8e4e12a2477266774d40af987ec6b225f/nopasaran-0.1.8.tar.gz
+[2023-06-30 14:22:16] INFO root fetch - processPackages [czsc]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-30 14:22:17] INFO root fetch - processPackages [nopasaran]: executing diffoscope
+[2023-06-30 14:22:17] INFO root fetch - processPackages [nopasaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopasaran-0.1.7.tar.gz tmp/nopasaran-0.1.8.tar.gz --markdown 20230630/n/nopasaran/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-30 14:22:17] INFO root fetch - processPackages [czsc]: Downloading https://files.pythonhosted.org/packages/ff/64/49e6809b474049632717e96f3a51bcdab728d63517d8ec0eb228e09ad52d/czsc-0.9.8.tar.gz
+[2023-06-30 14:22:17] INFO root fetch - processPackages [czsc]: Downloading https://files.pythonhosted.org/packages/65/2a/c6b0017939d88546e65732fc499326433b075adecda347c5aca412e4fe77/czsc-0.9.9.tar.gz
+[2023-06-30 14:22:17] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-30 14:22:17] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-30 14:22:17] INFO root fetch - processPackages [bigdl-spark3]: Start processing: pydantic-settings
+[2023-06-30 14:22:17] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-06-30 14:22:17] INFO root fetch - processPackages [pydantic-settings]: New version: [2.0b2] Old Version: [2.0b1]
+[2023-06-30 14:22:17] INFO root fetch - processPackages [czsc]: executing diffoscope
+[2023-06-30 14:22:17] INFO root fetch - processPackages [czsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czsc-0.9.8.tar.gz tmp/czsc-0.9.9.tar.gz --markdown 20230630/c/czsc/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-30 14:22:17] INFO root fetch - processPackages [pydantic-settings]: Downloading https://files.pythonhosted.org/packages/4d/cf/5fba1186a17a2838ab243586c284bebcee8f13a6eb5028c41c2f70f7e938/pydantic_settings-2.0b1.tar.gz
+[2023-06-30 14:22:18] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-30 14:22:18] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-30 14:22:18] INFO root fetch - processPackages [bigdl-friesian-spark3]: Start processing: pydantic
+[2023-06-30 14:22:18] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-06-30 14:22:18] INFO root fetch - processPackages [pydantic]: New version: [2.0b3] Old Version: [2.0b2]
+[2023-06-30 14:22:18] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.1.7.tar.gz]
+[2023-06-30 14:22:18] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.1.8.tar.gz]
+[2023-06-30 14:22:18] INFO root fetch - processPackages [nopasaran]: Start processing: unified-planning
+[2023-06-30 14:22:18] INFO root fetch - main [MainThread]: End processing [nopasaran]: success
+[2023-06-30 14:22:18] INFO root fetch - processPackages [pydantic-settings]: Downloading https://files.pythonhosted.org/packages/28/a8/876b31f0d37f6691a6f0cc192fb4328dfb89d63d2fcdc52101e5b8646a01/pydantic_settings-2.0b2.tar.gz
+[2023-06-30 14:22:18] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-06-30 14:22:18] INFO root fetch - processPackages [pydantic-settings]: executing diffoscope
+[2023-06-30 14:22:18] INFO root fetch - processPackages [pydantic-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_settings-2.0b1.tar.gz tmp/pydantic_settings-2.0b2.tar.gz --markdown 20230630/p/pydantic-settings/2.0b1-2.0b2/diff.md --exclude *.pyd
+[2023-06-30 14:22:18] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-06-30 14:22:18] INFO root fetch - processPackages [pydantic]: Downloading https://files.pythonhosted.org/packages/05/6f/504e94dcda88a5ec8c680864d188bf3501090536f0bbd3e72c8cb22446bf/pydantic-2.0b2.tar.gz
+[2023-06-30 14:22:18] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/47/44/b13fcddb5405f914c9898095cd7fd61a47cc4647a4065d3a61f28919f91a/unified_planning-0.6.0.94.dev1.tar.gz
+[2023-06-30 14:22:18] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-30 14:22:18] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-30 14:22:18] INFO root fetch - processPackages [bigdl-chronos-spark3]: Start processing: azuresphere-device-api
+[2023-06-30 14:22:18] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-06-30 14:22:18] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-06-30 14:22:18] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230630/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-06-30 14:22:18] INFO root fetch - processPackages [azuresphere-device-api]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-30 14:22:18] INFO root fetch - processPackages [pydantic]: Downloading https://files.pythonhosted.org/packages/85/13/e96e6dda5cf3fb8f8df959d1bfaa819869328ffb0d8ed7d27eb36659093e/pydantic-2.0b3.tar.gz
+[2023-06-30 14:22:18] INFO root fetch - processPackages [pydantic]: executing diffoscope
+[2023-06-30 14:22:18] INFO root fetch - processPackages [pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-2.0b2.tar.gz tmp/pydantic-2.0b3.tar.gz --markdown 20230630/p/pydantic/2.0b2-2.0b3/diff.md --exclude *.pyd
+[2023-06-30 14:22:18] INFO root fetch - processPackages [feedancy]: Remove: archive file [/home/abi/fetcher/tmp/feedancy-0.0.0.tar.gz]
+[2023-06-30 14:22:18] INFO root fetch - processPackages [feedancy]: Remove: archive file [/home/abi/fetcher/tmp/feedancy-0.0.1.tar.gz]
+[2023-06-30 14:22:18] INFO root fetch - processPackages [feedancy]: Start processing: mouse2
+[2023-06-30 14:22:18] INFO root fetch - main [MainThread]: End processing [feedancy]: success
+[2023-06-30 14:22:18] INFO root fetch - processPackages [azuresphere-device-api]: Downloading https://files.pythonhosted.org/packages/53/74/c59e902d6e8d090f85574d0a269a3b27adebf42ba6e0e221c928378f33bf/azuresphere-device-api-1.1.0.tar.gz
+[2023-06-30 14:22:19] INFO root fetch - processPackages [mouse2]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-30 14:22:19] INFO root fetch - processPackages [azuresphere-device-api]: Downloading https://files.pythonhosted.org/packages/ef/7f/173a252d9ab0a7e6f2a39c599a252b4673e48f29e8aced21150bea3d0172/azuresphere-device-api-1.1.1.tar.gz
+[2023-06-30 14:22:19] INFO root fetch - processPackages [mouse2]: Downloading https://files.pythonhosted.org/packages/71/af/4471c4bdb401c2eb1af021c6ca28e08d5d508db68923ca092b4bd35171e5/mouse2-0.2.8.tar.gz
+[2023-06-30 14:22:19] INFO root fetch - processPackages [azuresphere-device-api]: executing diffoscope
+[2023-06-30 14:22:19] INFO root fetch - processPackages [azuresphere-device-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azuresphere-device-api-1.1.0.tar.gz tmp/azuresphere-device-api-1.1.1.tar.gz --markdown 20230630/a/azuresphere-device-api/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-30 14:22:19] INFO root fetch - processPackages [czsc]: Remove: archive file [/home/abi/fetcher/tmp/czsc-0.9.8.tar.gz]
+[2023-06-30 14:22:19] INFO root fetch - processPackages [czsc]: Remove: archive file [/home/abi/fetcher/tmp/czsc-0.9.9.tar.gz]
+[2023-06-30 14:22:19] INFO root fetch - processPackages [czsc]: Start processing: pydatawork
+[2023-06-30 14:22:19] INFO root fetch - main [MainThread]: End processing [czsc]: success
+[2023-06-30 14:22:19] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 14:22:19] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-30 14:22:19] INFO root fetch - processPackages [mouse2]: Downloading https://files.pythonhosted.org/packages/38/4f/0f78a073a4cba3f2a488e767e2ad7e4de4de2f9a4993165d4e4cbecbc753/mouse2-0.2.9.tar.gz
+[2023-06-30 14:22:19] INFO root fetch - processPackages [Aruna-Python-API]: Remove: archive file [/home/abi/fetcher/tmp/Aruna-Python-API-1.1.0rc6.tar.gz]
+[2023-06-30 14:22:19] INFO root fetch - processPackages [Aruna-Python-API]: Remove: archive file [/home/abi/fetcher/tmp/Aruna-Python-API-1.1.0rc7.tar.gz]
+[2023-06-30 14:22:19] INFO root fetch - processPackages [Aruna-Python-API]: Start processing: herdmod
+[2023-06-30 14:22:19] INFO root fetch - main [MainThread]: End processing [Aruna-Python-API]: success
+[2023-06-30 14:22:19] INFO root fetch - processPackages [herdmod]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-30 14:22:19] INFO root fetch - processPackages [mouse2]: executing diffoscope
+[2023-06-30 14:22:19] INFO root fetch - processPackages [mouse2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mouse2-0.2.8.tar.gz tmp/mouse2-0.2.9.tar.gz --markdown 20230630/m/mouse2/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-30 14:22:19] INFO root fetch - processPackages [pydantic-settings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_settings-2.0b1.tar.gz]
+[2023-06-30 14:22:19] INFO root fetch - processPackages [pydantic-settings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_settings-2.0b2.tar.gz]
+[2023-06-30 14:22:19] INFO root fetch - main [MainThread]: End processing [pydantic-settings]: success
+[2023-06-30 14:22:19] INFO root fetch - processPackages [herdmod]: Downloading https://files.pythonhosted.org/packages/74/9e/6f442046d70dcf123f9c35beea5df87ee937faef6a3be25749fee0ecaba9/herdmod-0.0.1.tar.gz
+[2023-06-30 14:22:19] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-30 14:22:19] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-30 14:22:19] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230630/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 14:22:19] INFO root fetch - processPackages [herdmod]: Downloading https://files.pythonhosted.org/packages/40/fd/8a3da8e031950f8ad2bae9912380b61ea3bc1fd39b24238fc6812383cf93/herdmod-0.0.2.tar.gz
+[2023-06-30 14:22:20] INFO root fetch - processPackages [herdmod]: executing diffoscope
+[2023-06-30 14:22:20] INFO root fetch - processPackages [herdmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herdmod-0.0.1.tar.gz tmp/herdmod-0.0.2.tar.gz --markdown 20230630/h/herdmod/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-30 14:22:20] INFO root fetch - processPackages [azuresphere-device-api]: Remove: archive file [/home/abi/fetcher/tmp/azuresphere-device-api-1.1.0.tar.gz]
+[2023-06-30 14:22:20] INFO root fetch - processPackages [azuresphere-device-api]: Remove: archive file [/home/abi/fetcher/tmp/azuresphere-device-api-1.1.1.tar.gz]
+[2023-06-30 14:22:20] INFO root fetch - main [MainThread]: End processing [azuresphere-device-api]: success
+[2023-06-30 14:22:21] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-30 14:22:21] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-30 14:22:21] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-30 14:22:21] INFO root fetch - processPackages [herdmod]: Remove: archive file [/home/abi/fetcher/tmp/herdmod-0.0.1.tar.gz]
+[2023-06-30 14:22:21] INFO root fetch - processPackages [herdmod]: Remove: archive file [/home/abi/fetcher/tmp/herdmod-0.0.2.tar.gz]
+[2023-06-30 14:22:21] INFO root fetch - main [MainThread]: End processing [herdmod]: success
+[2023-06-30 14:22:21] INFO root fetch - processPackages [mouse2]: Remove: archive file [/home/abi/fetcher/tmp/mouse2-0.2.8.tar.gz]
+[2023-06-30 14:22:21] INFO root fetch - processPackages [mouse2]: Remove: archive file [/home/abi/fetcher/tmp/mouse2-0.2.9.tar.gz]
+[2023-06-30 14:22:21] INFO root fetch - main [MainThread]: End processing [mouse2]: success
+[2023-06-30 14:22:21] INFO root fetch - processPackages [apidev-coop-cms]: Remove: archive file [/home/abi/fetcher/tmp/apidev-coop_cms-1.6.1.tar.gz]
+[2023-06-30 14:22:21] INFO root fetch - processPackages [apidev-coop-cms]: Remove: archive file [/home/abi/fetcher/tmp/apidev-coop_cms-1.6.2.tar.gz]
+[2023-06-30 14:22:21] INFO root fetch - main [MainThread]: End processing [apidev-coop-cms]: success
+[2023-06-30 14:22:22] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.9.dev1.tar.gz]
+[2023-06-30 14:22:22] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.94.dev1.tar.gz]
+[2023-06-30 14:22:22] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-06-30 14:22:25] INFO root fetch - processPackages [pydantic]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-2.0b2.tar.gz]
+[2023-06-30 14:22:25] INFO root fetch - processPackages [pydantic]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-2.0b3.tar.gz]
+[2023-06-30 14:22:25] INFO root fetch - main [MainThread]: End processing [pydantic]: success
+[2023-06-30 14:22:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.8.tar.gz]
+[2023-06-30 14:22:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
+[2023-06-30 14:22:30] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-30 14:22:45] INFO root fetch - processPackages [pydozer-log]: Remove: archive file [/home/abi/fetcher/tmp/pydozer_log-0.1.26-pp39-pypy39_pp73-manylinux_2_34_s390x.whl.zip]
+[2023-06-30 14:22:45] INFO root fetch - processPackages [pydozer-log]: Remove: archive file [/home/abi/fetcher/tmp/pydozer_log-0.1.27-pp39-pypy39_pp73-manylinux_2_34_s390x.whl.zip]
+[2023-06-30 14:22:45] INFO root fetch - main [MainThread]: End processing [pydozer-log]: success
+[2023-06-30 14:22:45] INFO root fetch - main [MainThread]: Store serial: [18710585]
