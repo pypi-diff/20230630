@@ -15368,3 +15368,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 10:22:50] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs-analysis-2.7.7.tar.gz]
 [2023-06-30 10:22:50] INFO root fetch - main [MainThread]: End processing [scs-analysis]: success
 [2023-06-30 10:22:50] INFO root fetch - main [MainThread]: Store serial: [18707462]
+[2023-06-30 10:27:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18707462]
+[2023-06-30 10:27:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-30 10:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: classifiercluster
+[2023-06-30 10:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-adapter-telegram
+[2023-06-30 10:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: createpass
+[2023-06-30 10:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: timeseriesflattener
+[2023-06-30 10:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AFR
+[2023-06-30 10:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: policyengine-core
+[2023-06-30 10:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airball
+[2023-06-30 10:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: canaille
+[2023-06-30 10:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: domain-admin
+[2023-06-30 10:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pallet-sim
+[2023-06-30 10:27:59] WARNING root fetch - processPackages [AFR]: Skipping, unable to determine old version
+[2023-06-30 10:27:59] INFO root fetch - processPackages [AFR]: Start processing: windbg-copilot
+[2023-06-30 10:27:59] INFO root fetch - main [MainThread]: End processing [AFR] error
+[2023-06-30 10:27:59] WARNING root fetch - processPackages [classifiercluster]: Skipping, unable to determine old version
+[2023-06-30 10:27:59] INFO root fetch - processPackages [classifiercluster]: Start processing: pyrdfsubset
+[2023-06-30 10:27:59] INFO root fetch - processPackages [nonebot-adapter-telegram]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-06-30 10:27:59] WARNING root fetch - processPackages [createpass]: Skipping, unable to determine old version
+[2023-06-30 10:27:59] INFO root fetch - main [MainThread]: End processing [classifiercluster] error
+[2023-06-30 10:27:59] INFO root fetch - processPackages [airball]: New version: [0.4.2] Old Version: [0.4.0]
+[2023-06-30 10:27:59] INFO root fetch - main [MainThread]: End processing [createpass] error
+[2023-06-30 10:27:59] INFO root fetch - processPackages [canaille]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 10:27:59] INFO root fetch - processPackages [pallet-sim]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 10:27:59] INFO root fetch - processPackages [policyengine-core]: New version: [2.3.0] Old Version: [2.2.1]
+[2023-06-30 10:27:59] INFO root fetch - processPackages [timeseriesflattener]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-30 10:27:59] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 10:27:59] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-30 10:27:59] INFO root fetch - processPackages [pyrdfsubset]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-30 10:27:59] INFO root fetch - processPackages [airball]: Downloading https://files.pythonhosted.org/packages/5b/0c/11460ab68c8ad1f7eb03fdad0d0839cbad1b06f5d661281aa8b6567c41e4/airball-0.4.0.tar.gz
+[2023-06-30 10:27:59] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/42/0c/4af684f7e690600ace3d75b427ba8c2c96809329599b3327ef63df0b01b8/timeseriesflattener-1.3.0.tar.gz
+[2023-06-30 10:27:59] INFO root fetch - processPackages [canaille]: Downloading https://files.pythonhosted.org/packages/d6/eb/991a3a33db9ca5921988151369084477a94b823d1f0b8df10104a1cf97eb/Canaille-0.0.8.tar.gz
+[2023-06-30 10:27:59] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-06-30 10:27:59] INFO root fetch - processPackages [pyrdfsubset]: Downloading https://files.pythonhosted.org/packages/5c/3b/0d7e0d9698637e1fb7521f0fc26ada690df60e87315c34531e4962a0c322/pyrdfsubset-0.1.0.tar.gz
+[2023-06-30 10:28:00] INFO root fetch - processPackages [pallet-sim]: Downloading https://files.pythonhosted.org/packages/b4/57/2e833d36605054bd1bccd1c0e9ff05e29f56fd4e8cbafb447edd67754eff/pallet_sim-0.0.8.tar.gz
+[2023-06-30 10:28:00] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-06-30 10:28:00] INFO root fetch - processPackages [nonebot-adapter-telegram]: Downloading https://files.pythonhosted.org/packages/39/63/352c95368189e3a1a9e243c03e6ff9d5aa229d35b74c7bd9917b194bcd0f/nonebot-adapter-telegram-0.1.0b8.tar.gz
+[2023-06-30 10:28:00] INFO root fetch - processPackages [pyrdfsubset]: Downloading https://files.pythonhosted.org/packages/c0/3e/89dec5f49343a049fa42266a9f48e5afd90726dd1c2ba50a852771770128/pyrdfsubset-0.1.2.tar.gz
+[2023-06-30 10:28:00] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/b8/22/829832f1e2085a2699baff65f9e35ecf6c6226d813d7efe95b8fe170af6e/policyengine-core-2.2.1.tar.gz
+[2023-06-30 10:28:00] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-06-30 10:28:00] INFO root fetch - processPackages [airball]: Downloading https://files.pythonhosted.org/packages/aa/82/3708a9537a92d2a6e8e719070f2fdfa8d302627aa34d8e0364761c85c556/airball-0.4.2.tar.gz
+[2023-06-30 10:28:00] INFO root fetch - processPackages [pyrdfsubset]: executing diffoscope
+[2023-06-30 10:28:00] INFO root fetch - processPackages [pyrdfsubset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrdfsubset-0.1.0.tar.gz tmp/pyrdfsubset-0.1.2.tar.gz --markdown 20230630/p/pyrdfsubset/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-30 10:28:00] INFO root fetch - processPackages [pallet-sim]: Downloading https://files.pythonhosted.org/packages/e2/73/02dd1e82bd4dd354713ac31b25d69a39732010050bc31c25e3bc5d83760d/pallet_sim-0.0.9.tar.gz
+[2023-06-30 10:28:00] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-06-30 10:28:00] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-06-30 10:28:00] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230630/w/windbg-copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 10:28:00] INFO root fetch - processPackages [airball]: executing diffoscope
+[2023-06-30 10:28:00] INFO root fetch - processPackages [airball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airball-0.4.0.tar.gz tmp/airball-0.4.2.tar.gz --markdown 20230630/a/airball/0.4.0-0.4.2/diff.md --exclude *.pyd
+[2023-06-30 10:28:00] INFO root fetch - processPackages [nonebot-adapter-telegram]: Downloading https://files.pythonhosted.org/packages/5a/6e/76d06955b2984df0f0ae7d55dc31701c60646490b4b698e6d5ea1f1b4e1f/nonebot-adapter-telegram-0.1.0b9.tar.gz
+[2023-06-30 10:28:00] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/6d/82/f2ddae235ffb2a4d43470748be2c55c5af3bd43f1433b44cc7df9d1de96d/timeseriesflattener-1.3.1.tar.gz
+[2023-06-30 10:28:00] INFO root fetch - processPackages [pallet-sim]: executing diffoscope
+[2023-06-30 10:28:00] INFO root fetch - processPackages [pallet-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pallet_sim-0.0.8.tar.gz tmp/pallet_sim-0.0.9.tar.gz --markdown 20230630/p/pallet-sim/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 10:28:00] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/62/dd/4886474f4aed1ebc0dbd32738f9ca8e16e3b731f33b07f312202ac16a1e4/policyengine-core-2.3.0.tar.gz
+[2023-06-30 10:28:00] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-30 10:28:00] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230630/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-30 10:28:00] INFO root fetch - processPackages [nonebot-adapter-telegram]: executing diffoscope
+[2023-06-30 10:28:00] INFO root fetch - processPackages [nonebot-adapter-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-adapter-telegram-0.1.0b8.tar.gz tmp/nonebot-adapter-telegram-0.1.0b9.tar.gz --markdown 20230630/n/nonebot-adapter-telegram/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-06-30 10:28:00] INFO root fetch - processPackages [policyengine-core]: executing diffoscope
+[2023-06-30 10:28:00] INFO root fetch - processPackages [policyengine-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-core-2.2.1.tar.gz tmp/policyengine-core-2.3.0.tar.gz --markdown 20230630/p/policyengine-core/2.2.1-2.3.0/diff.md --exclude *.pyd
+[2023-06-30 10:28:00] INFO root fetch - processPackages [timeseriesflattener]: executing diffoscope
+[2023-06-30 10:28:00] INFO root fetch - processPackages [timeseriesflattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeseriesflattener-1.3.0.tar.gz tmp/timeseriesflattener-1.3.1.tar.gz --markdown 20230630/t/timeseriesflattener/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-30 10:28:00] INFO root fetch - processPackages [canaille]: Downloading https://files.pythonhosted.org/packages/ea/de/e5cb98bd36f4d3ede89c7fd372eb1414185d621efaba9f50b438082962d5/Canaille-0.0.9.tar.gz
+[2023-06-30 10:28:01] INFO root fetch - processPackages [canaille]: executing diffoscope
+[2023-06-30 10:28:01] INFO root fetch - processPackages [canaille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Canaille-0.0.8.tar.gz tmp/Canaille-0.0.9.tar.gz --markdown 20230630/c/canaille/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 10:28:01] INFO root fetch - processPackages [pyrdfsubset]: Remove: archive file [/home/abi/fetcher/tmp/pyrdfsubset-0.1.0.tar.gz]
+[2023-06-30 10:28:01] INFO root fetch - processPackages [pyrdfsubset]: Remove: archive file [/home/abi/fetcher/tmp/pyrdfsubset-0.1.2.tar.gz]
+[2023-06-30 10:28:01] INFO root fetch - main [MainThread]: End processing [pyrdfsubset]: success
+[2023-06-30 10:28:01] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-06-30 10:28:01] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-06-30 10:28:01] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-06-30 10:28:01] INFO root fetch - processPackages [airball]: Remove: archive file [/home/abi/fetcher/tmp/airball-0.4.0.tar.gz]
+[2023-06-30 10:28:01] INFO root fetch - processPackages [airball]: Remove: archive file [/home/abi/fetcher/tmp/airball-0.4.2.tar.gz]
+[2023-06-30 10:28:01] INFO root fetch - main [MainThread]: End processing [airball]: success
+[2023-06-30 10:28:03] INFO root fetch - processPackages [nonebot-adapter-telegram]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-adapter-telegram-0.1.0b8.tar.gz]
+[2023-06-30 10:28:03] INFO root fetch - processPackages [nonebot-adapter-telegram]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-adapter-telegram-0.1.0b9.tar.gz]
+[2023-06-30 10:28:03] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-telegram]: success
+[2023-06-30 10:28:04] INFO root fetch - processPackages [pallet-sim]: Remove: archive file [/home/abi/fetcher/tmp/pallet_sim-0.0.8.tar.gz]
+[2023-06-30 10:28:04] INFO root fetch - processPackages [pallet-sim]: Remove: archive file [/home/abi/fetcher/tmp/pallet_sim-0.0.9.tar.gz]
+[2023-06-30 10:28:04] INFO root fetch - main [MainThread]: End processing [pallet-sim]: success
+[2023-06-30 10:28:04] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-1.3.0.tar.gz]
+[2023-06-30 10:28:04] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-1.3.1.tar.gz]
+[2023-06-30 10:28:04] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
+[2023-06-30 10:28:04] INFO root fetch - processPackages [policyengine-core]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-core-2.2.1.tar.gz]
+[2023-06-30 10:28:04] INFO root fetch - processPackages [policyengine-core]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-core-2.3.0.tar.gz]
+[2023-06-30 10:28:04] INFO root fetch - main [MainThread]: End processing [policyengine-core]: success
+[2023-06-30 10:28:10] INFO root fetch - processPackages [canaille]: Remove: archive file [/home/abi/fetcher/tmp/Canaille-0.0.8.tar.gz]
+[2023-06-30 10:28:10] INFO root fetch - processPackages [canaille]: Remove: archive file [/home/abi/fetcher/tmp/Canaille-0.0.9.tar.gz]
+[2023-06-30 10:28:10] INFO root fetch - main [MainThread]: End processing [canaille]: success
+[2023-06-30 10:28:16] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-06-30 10:28:16] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-06-30 10:28:16] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-30 10:28:16] INFO root fetch - main [MainThread]: Store serial: [18707507]
