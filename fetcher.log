@@ -12014,3 +12014,165 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 07:10:55] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-06-30 07:10:55] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-06-30 07:10:55] INFO root fetch - main [MainThread]: Store serial: [18706133]
+[2023-06-30 07:16:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706133]
+[2023-06-30 07:16:09] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-30 07:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dask-cuda
+[2023-06-30 07:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azureml-dataprep
+[2023-06-30 07:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-aws
+[2023-06-30 07:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tflite-model-maker-nightly
+[2023-06-30 07:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PEALS
+[2023-06-30 07:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PEALS
+[2023-06-30 07:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llama-index
+[2023-06-30 07:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-index
+[2023-06-30 07:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xt-st-common
+[2023-06-30 07:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: checkmk-dev-tools
+[2023-06-30 07:16:10] INFO root fetch - processPackages [azureml-dataprep]: New version: [4.9.7] Old Version: [4.9.6]
+[2023-06-30 07:16:10] INFO root fetch - processPackages [PEALS]: New version: [1.2.4] Old Version: [1.2.1]
+[2023-06-30 07:16:10] INFO root fetch - processPackages [PEALS]: New version: [1.2.4] Old Version: [1.2.1]
+[2023-06-30 07:16:10] INFO root fetch - processPackages [xt-st-common]: New version: [0.9.1] Old Version: [0.8.4]
+[2023-06-30 07:16:10] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230630] Old Version: [23.8.0a230629]
+[2023-06-30 07:16:10] INFO root fetch - processPackages [checkmk-dev-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 07:16:10] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-30 07:16:10] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-06-30 07:16:10] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-30 07:16:10] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/e7/ef/5ac2e57c98df5426a980cbfc9db93d6554fd46f96a4ddf5f7a9161da2ca3/xt_st_common-0.8.4.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306300510] Old Version: [0.4.3.dev202306290508]
+[2023-06-30 07:16:10] INFO root fetch - processPackages [azureml-dataprep]: Downloading https://files.pythonhosted.org/packages/15/14/eda431e84d48f89e3474c6cdedace69e7bb15c9e9ef73c4d0714fe1ad78d/azureml_dataprep-4.9.6-py3-none-any.whl
+[2023-06-30 07:16:10] WARNING root fetch - processPackages [azureml-dataprep]: Skipping package: exceeds size limit 38445808>=10485760
+[2023-06-30 07:16:10] INFO root fetch - processPackages [azureml-dataprep]: Start processing: tflite-support-nightly
+[2023-06-30 07:16:10] INFO root fetch - main [MainThread]: End processing [azureml-dataprep] error
+[2023-06-30 07:16:10] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/a5/44/09fe3238664c76b0dde99d19f15393d76e212e1d1eec081b474e6eaae194/checkmk_dev_tools-0.1.8.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [PEALS]: Downloading https://files.pythonhosted.org/packages/61/91/7da5fef816c90f23f21a27c3c6ff53e20bf07cb951eb7f59eee137e6ffdf/PEALS-1.2.1.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [PEALS]: Downloading https://files.pythonhosted.org/packages/61/91/7da5fef816c90f23f21a27c3c6ff53e20bf07cb951eb7f59eee137e6ffdf/PEALS-1.2.1.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: Downloading https://files.pythonhosted.org/packages/aa/2e/834bb9d56f903b34743b3b8d5766864ad4e2a039b6c88e65b6d835c946e4/cdktf-cdktf-provider-aws-9.0.8.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/c0/22/484229d88746cadd7d2bff4232dc3fb89e79a1f82b859468c75540c22ddc/dask-cuda-23.8.0a230629.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230628] Old Version: [0.4.4.dev20230627]
+[2023-06-30 07:16:10] WARNING root fetch - processPackages [cdktf-cdktf-provider-aws]: Skipping package: exceeds size limit 23814479>=10485760
+[2023-06-30 07:16:10] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: Start processing: cyberdrop-dl
+[2023-06-30 07:16:10] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/39/ed/965dee00b18d04a9e723c02a028442b257e1b226780861f81ac52cd324ba/gpt_index-0.6.8.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-aws] error
+[2023-06-30 07:16:10] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/d3/4b/00ae0f7f080e6af5bd9982eacd12aa12fc9b1a851af2c968f95da9954b34/tflite-model-maker-nightly-0.4.3.dev202306290508.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/f3/a4/8fcac26c887b38aa528079ee4a511159fe89337c438c32c575ef70afe1dc/llama_index-0.6.8.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-06-30 07:16:10] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/84/fc/6f6475d464365036657b56c52cfad28e615d9a4188397f8df800326cdcfb/tflite_support_nightly-0.4.4.dev20230627-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-30 07:16:10] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [PEALS]: Downloading https://files.pythonhosted.org/packages/86/9e/676517e8f347ce69639021c28d806b9081255c8982fe9adbce2baf9b6935/PEALS-1.2.4.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [PEALS]: Downloading https://files.pythonhosted.org/packages/86/9e/676517e8f347ce69639021c28d806b9081255c8982fe9adbce2baf9b6935/PEALS-1.2.4.tar.gz
+[2023-06-30 07:16:10] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 60815122>=10485760
+[2023-06-30 07:16:10] INFO root fetch - processPackages [tflite-support-nightly]: Start processing: swordcloud
+[2023-06-30 07:16:10] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-06-30 07:16:10] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/b2/aa/224101dd79c81a9eb2699d7e4a46f76682a57ab1948707a2664611a78006/dask-cuda-23.8.0a230630.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [swordcloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 07:16:10] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/c1/1e/654ed63ab53350017ff4219e2e1d8cc32780c62f86a397bbc8134674c84e/checkmk_dev_tools-0.1.9.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [PEALS]: executing diffoscope
+[2023-06-30 07:16:10] INFO root fetch - processPackages [PEALS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PEALS-1.2.1.tar.gz tmp/PEALS-1.2.4.tar.gz --markdown 20230630/P/PEALS/1.2.1-1.2.4/diff.md --exclude *.pyd
+[2023-06-30 07:16:10] INFO root fetch - processPackages [PEALS]: executing diffoscope
+[2023-06-30 07:16:10] INFO root fetch - processPackages [PEALS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PEALS-1.2.1.tar.gz tmp/PEALS-1.2.4.tar.gz --markdown 20230630/P/PEALS/1.2.1-1.2.4/diff.md --exclude *.pyd
+[2023-06-30 07:16:10] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fd/af/29feddbce0290a3ddaa8adad399a5fa0c83d3d4d9637bf47751161c55d5c/gpt_index-0.6.9.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/34/87/d0dac8dc812501931891fb373f74fe7f2b3861df51b993145aba0ccf8f19/tflite-model-maker-nightly-0.4.3.dev202306300510.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-30 07:16:10] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230629.tar.gz tmp/dask-cuda-23.8.0a230630.tar.gz --markdown 20230630/d/dask-cuda/23.8.0a230629-23.8.0a230630/diff.md --exclude *.pyd
+[2023-06-30 07:16:10] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/9c/96/62b5a23720114f0ce0f6331a1c6f89c27b66d44db7187a5632221f0d6f27/llama_index-0.6.9.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [swordcloud]: Downloading https://files.pythonhosted.org/packages/93/e6/106173bf5524cd4e6f7b2105e572c5df6830f48cfc3d94216c258ea29f76/swordcloud-0.0.8.tar.gz
+[2023-06-30 07:16:10] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-30 07:16:10] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230630/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-30 07:16:10] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-30 07:16:10] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-30 07:16:10] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306290508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306300510.tar.gz --markdown 20230630/t/tflite-model-maker-nightly/0.4.3.dev202306290508-0.4.3.dev202306300510/diff.md --exclude *.pyd
+[2023-06-30 07:16:10] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230630/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-30 07:16:10] INFO root fetch - processPackages [checkmk-dev-tools]: executing diffoscope
+[2023-06-30 07:16:10] INFO root fetch - processPackages [checkmk-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkmk_dev_tools-0.1.8.tar.gz tmp/checkmk_dev_tools-0.1.9.tar.gz --markdown 20230630/c/checkmk-dev-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 07:16:11] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-06-30 07:16:11] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230630/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-06-30 07:16:11] INFO root fetch - processPackages [swordcloud]: Downloading https://files.pythonhosted.org/packages/fd/ef/79cab39250f234ac1666316bc4fbe697b572cac7515501c1665ed5d123f7/swordcloud-0.0.9.tar.gz
+[2023-06-30 07:16:11] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/6d/9f/d7b6e076e0332094ff9e8fe2cea0214fcf82c92bbdaf98d2091fcdd42bbb/xt_st_common-0.9.1.tar.gz
+[2023-06-30 07:16:11] INFO root fetch - processPackages [swordcloud]: executing diffoscope
+[2023-06-30 07:16:11] INFO root fetch - processPackages [swordcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swordcloud-0.0.8.tar.gz tmp/swordcloud-0.0.9.tar.gz --markdown 20230630/s/swordcloud/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 07:16:12] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.8.tar.gz]
+[2023-06-30 07:16:12] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.9.tar.gz]
+[2023-06-30 07:16:12] INFO root fetch - processPackages [checkmk-dev-tools]: Start processing: arcan
+[2023-06-30 07:16:12] INFO root fetch - main [MainThread]: End processing [checkmk-dev-tools]: success
+[2023-06-30 07:16:12] INFO root fetch - processPackages [arcan]: New version: [1.1.1] Old Version: [1.0.1]
+[2023-06-30 07:16:12] INFO root fetch - processPackages [PEALS]: Remove: archive file [/home/abi/fetcher/tmp/PEALS-1.2.1.tar.gz]
+[2023-06-30 07:16:12] INFO root fetch - processPackages [PEALS]: Remove: archive file [/home/abi/fetcher/tmp/PEALS-1.2.4.tar.gz]
+[2023-06-30 07:16:12] INFO root fetch - processPackages [PEALS]: Start processing: speed-benchmark
+[2023-06-30 07:16:12] INFO root fetch - main [MainThread]: End processing [PEALS]: success
+[2023-06-30 07:16:12] INFO root fetch - processPackages [speed-benchmark]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-30 07:16:12] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-06-30 07:16:12] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-06-30 07:16:12] INFO root fetch - processPackages [cyberdrop-dl]: Start processing: allure-combine
+[2023-06-30 07:16:12] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-06-30 07:16:12] INFO root fetch - processPackages [speed-benchmark]: Downloading https://files.pythonhosted.org/packages/31/21/1ce71f23360fae629008d850581cdc469949fa20282239e8813e4b98e074/speed-benchmark-1.0.1.tar.gz
+[2023-06-30 07:16:12] INFO root fetch - processPackages [arcan]: Downloading https://files.pythonhosted.org/packages/3a/d0/a8c34c26d17f44e599fad934d1ede3d734c5a7309a9d76ac4f44b873fa0c/arcan-1.1.1.tar.gz
+[2023-06-30 07:16:12] INFO root fetch - processPackages [allure-combine]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-30 07:16:12] INFO root fetch - processPackages [arcan]: executing diffoscope
+[2023-06-30 07:16:12] INFO root fetch - processPackages [arcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcan-1.0.1.tar.gz tmp/arcan-1.1.1.tar.gz --markdown 20230630/a/arcan/1.0.1-1.1.1/diff.md --exclude *.pyd
+[2023-06-30 07:16:12] INFO root fetch - processPackages [xt-st-common]: executing diffoscope
+[2023-06-30 07:16:12] INFO root fetch - processPackages [xt-st-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xt_st_common-0.8.4.tar.gz tmp/xt_st_common-0.9.1.tar.gz --markdown 20230630/x/xt-st-common/0.8.4-0.9.1/diff.md --exclude *.pyd
+[2023-06-30 07:16:13] INFO root fetch - processPackages [speed-benchmark]: Downloading https://files.pythonhosted.org/packages/a7/de/c6179a3f5b8e03842a5571b1f83ed8bfd85b33a1790f763ddc89482f6cbc/speed-benchmark-1.0.2.tar.gz
+[2023-06-30 07:16:13] INFO root fetch - processPackages [allure-combine]: Downloading https://files.pythonhosted.org/packages/5f/e5/9f3811cff402085a153168d318dea9413482c39a6ccf91c814a116b75cb9/allure_combine-1.0.7.tar.gz
+[2023-06-30 07:16:13] INFO root fetch - processPackages [speed-benchmark]: executing diffoscope
+[2023-06-30 07:16:13] INFO root fetch - processPackages [speed-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speed-benchmark-1.0.1.tar.gz tmp/speed-benchmark-1.0.2.tar.gz --markdown 20230630/s/speed-benchmark/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-30 07:16:13] INFO root fetch - processPackages [PEALS]: Start processing: psdr-jit
+[2023-06-30 07:16:13] INFO root fetch - main [MainThread]: End processing [PEALS]: success
+[2023-06-30 07:16:13] WARNING root fetch - processPackages [psdr-jit]: Skipping, unable to determine old version
+[2023-06-30 07:16:13] INFO root fetch - processPackages [psdr-jit]: Start processing: odoo-addon-partner-stage
+[2023-06-30 07:16:13] INFO root fetch - main [MainThread]: End processing [psdr-jit] error
+[2023-06-30 07:16:13] INFO root fetch - processPackages [swordcloud]: Remove: archive file [/home/abi/fetcher/tmp/swordcloud-0.0.8.tar.gz]
+[2023-06-30 07:16:13] INFO root fetch - processPackages [swordcloud]: Remove: archive file [/home/abi/fetcher/tmp/swordcloud-0.0.9.tar.gz]
+[2023-06-30 07:16:13] INFO root fetch - processPackages [swordcloud]: Start processing: windbg-copilot
+[2023-06-30 07:16:13] INFO root fetch - main [MainThread]: End processing [swordcloud]: success
+[2023-06-30 07:16:13] INFO root fetch - processPackages [odoo-addon-partner-stage]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-30 07:16:13] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 07:16:13] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-06-30 07:16:13] INFO root fetch - processPackages [allure-combine]: Downloading https://files.pythonhosted.org/packages/01/71/9e8c58166d3769919faf8d56af787efe6dc2b0e35baa151939423dfff873/allure_combine-1.0.8.tar.gz
+[2023-06-30 07:16:13] INFO root fetch - processPackages [odoo-addon-partner-stage]: Downloading https://files.pythonhosted.org/packages/19/29/f67004857a125b2ec30cd8446e4e62854abe765cbcea6927a21491706e7a/odoo_addon_partner_stage-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-30 07:16:13] INFO root fetch - processPackages [allure-combine]: executing diffoscope
+[2023-06-30 07:16:13] INFO root fetch - processPackages [allure-combine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allure_combine-1.0.7.tar.gz tmp/allure_combine-1.0.8.tar.gz --markdown 20230630/a/allure-combine/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-30 07:16:13] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-06-30 07:16:13] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-06-30 07:16:13] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230630/w/windbg-copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 07:16:13] INFO root fetch - processPackages [odoo-addon-partner-stage]: Downloading https://files.pythonhosted.org/packages/12/e6/cb2c7cb171c6f3a4a7b9e039b737429d3cb149ce1219bc854d949c45d3ed/odoo_addon_partner_stage-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-30 07:16:13] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230629.tar.gz]
+[2023-06-30 07:16:13] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230630.tar.gz]
+[2023-06-30 07:16:13] INFO root fetch - processPackages [dask-cuda]: Start processing: tflite-runtime-nightly
+[2023-06-30 07:16:13] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-30 07:16:13] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230628] Old Version: [2.14.0.dev20230627]
+[2023-06-30 07:16:13] INFO root fetch - processPackages [odoo-addon-partner-stage]: executing diffoscope
+[2023-06-30 07:16:13] INFO root fetch - processPackages [odoo-addon-partner-stage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_stage-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_partner_stage-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230630/o/odoo-addon-partner-stage/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-30 07:16:14] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/9a/ea/b6716dbbefa29b75d923ec5e2e2f6f3305a2c3ead3773f91dbee2dd7663b/tflite_runtime_nightly-2.14.0.dev20230627-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-30 07:16:14] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-1.0.1.tar.gz]
+[2023-06-30 07:16:14] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-1.1.1.tar.gz]
+[2023-06-30 07:16:14] INFO root fetch - main [MainThread]: End processing [arcan]: success
+[2023-06-30 07:16:14] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/b4/99/b9b3e09d3f0cbfe648b8e4e070715cb22b66553a219a2ef1cb5320db110e/tflite_runtime_nightly-2.14.0.dev20230628-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-30 07:16:14] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-06-30 07:16:14] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230627-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230628-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230630/t/tflite-runtime-nightly/2.14.0.dev20230627-2.14.0.dev20230628/diff.md --exclude *.pyd
+[2023-06-30 07:16:14] INFO root fetch - processPackages [speed-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/speed-benchmark-1.0.1.tar.gz]
+[2023-06-30 07:16:14] INFO root fetch - processPackages [speed-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/speed-benchmark-1.0.2.tar.gz]
+[2023-06-30 07:16:14] INFO root fetch - main [MainThread]: End processing [speed-benchmark]: success
+[2023-06-30 07:16:14] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-06-30 07:16:14] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-06-30 07:16:14] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-06-30 07:16:15] INFO root fetch - processPackages [allure-combine]: Remove: archive file [/home/abi/fetcher/tmp/allure_combine-1.0.7.tar.gz]
+[2023-06-30 07:16:15] INFO root fetch - processPackages [allure-combine]: Remove: archive file [/home/abi/fetcher/tmp/allure_combine-1.0.8.tar.gz]
+[2023-06-30 07:16:15] INFO root fetch - main [MainThread]: End processing [allure-combine]: success
+[2023-06-30 07:16:15] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306290508.tar.gz]
+[2023-06-30 07:16:15] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306300510.tar.gz]
+[2023-06-30 07:16:15] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-30 07:16:15] INFO root fetch - processPackages [odoo-addon-partner-stage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_stage-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-30 07:16:15] INFO root fetch - processPackages [odoo-addon-partner-stage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_stage-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-30 07:16:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-stage]: success
+[2023-06-30 07:16:15] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.8.tar.gz]
+[2023-06-30 07:16:15] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.9.tar.gz]
+[2023-06-30 07:16:15] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-06-30 07:16:15] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230627-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-30 07:16:15] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230628-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-30 07:16:15] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-06-30 07:16:17] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.8.tar.gz]
+[2023-06-30 07:16:17] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
+[2023-06-30 07:16:17] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-30 07:16:18] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-0.8.4.tar.gz]
+[2023-06-30 07:16:18] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-0.9.1.tar.gz]
+[2023-06-30 07:16:18] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
+[2023-06-30 07:16:18] INFO root fetch - main [MainThread]: Store serial: [18706199]
