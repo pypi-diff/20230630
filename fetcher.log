@@ -11653,3 +11653,42 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 06:36:02] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-06-30 06:36:02] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-30 06:36:02] INFO root fetch - main [MainThread]: Store serial: [18705931]
+[2023-06-30 06:41:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705931]
+[2023-06-30 06:41:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-30 06:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oloren
+[2023-06-30 06:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panda-server
+[2023-06-30 06:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cnstd
+[2023-06-30 06:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vstutils
+[2023-06-30 06:41:11] INFO root fetch - processPackages [cnstd]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-30 06:41:11] INFO root fetch - processPackages [vstutils]: New version: [5.5.9] Old Version: [5.5.8]
+[2023-06-30 06:41:11] INFO root fetch - processPackages [panda-server]: New version: [0.0.62] Old Version: [0.0.60]
+[2023-06-30 06:41:11] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-30 06:41:11] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-30 06:41:11] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/04/8a/5724aea5d6620bbcdb34b6d807e6551956415c0dae780c291e66666eb80d/vstutils-5.5.8.tar.gz
+[2023-06-30 06:41:11] INFO root fetch - processPackages [panda-server]: Downloading https://files.pythonhosted.org/packages/a2/28/31c58d2adb6a75451e27180249a02dc362016f0f4cb71739985a10a3dc4b/panda-server-0.0.60.tar.gz
+[2023-06-30 06:41:11] INFO root fetch - processPackages [cnstd]: Downloading https://files.pythonhosted.org/packages/81/52/3aad8a3932c072b9c9a0a43c78d289c16cfef33b3d8882ee446fb1a93523/cnstd-1.2.2.tar.gz
+[2023-06-30 06:41:12] INFO root fetch - processPackages [panda-server]: Downloading https://files.pythonhosted.org/packages/a7/70/0dc58b4b05a472008bba380d868a88b0f2b7ca1b9ded61677dda4a5dc0ba/panda-server-0.0.62.tar.gz
+[2023-06-30 06:41:12] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-30 06:41:12] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/7d/de/5fd14fb992480bd60b3834a727cf11227fcb8ea5ae74cb50eb029de28b97/vstutils-5.5.9.tar.gz
+[2023-06-30 06:41:12] INFO root fetch - processPackages [panda-server]: executing diffoscope
+[2023-06-30 06:41:12] INFO root fetch - processPackages [panda-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda-server-0.0.60.tar.gz tmp/panda-server-0.0.62.tar.gz --markdown 20230630/p/panda-server/0.0.60-0.0.62/diff.md --exclude *.pyd
+[2023-06-30 06:41:12] INFO root fetch - processPackages [cnstd]: Downloading https://files.pythonhosted.org/packages/4d/e4/3f8b0efb29417a9f10f4cb8ab7e333b4ffce33d4dfa84d280e4343417c9d/cnstd-1.2.3.tar.gz
+[2023-06-30 06:41:12] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-06-30 06:41:12] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.5.8.tar.gz tmp/vstutils-5.5.9.tar.gz --markdown 20230630/v/vstutils/5.5.8-5.5.9/diff.md --exclude *.pyd
+[2023-06-30 06:41:12] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-30 06:41:12] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230630/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-30 06:41:12] INFO root fetch - processPackages [cnstd]: executing diffoscope
+[2023-06-30 06:41:12] INFO root fetch - processPackages [cnstd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnstd-1.2.2.tar.gz tmp/cnstd-1.2.3.tar.gz --markdown 20230630/c/cnstd/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-30 06:41:14] INFO root fetch - processPackages [cnstd]: Remove: archive file [/home/abi/fetcher/tmp/cnstd-1.2.2.tar.gz]
+[2023-06-30 06:41:14] INFO root fetch - processPackages [cnstd]: Remove: archive file [/home/abi/fetcher/tmp/cnstd-1.2.3.tar.gz]
+[2023-06-30 06:41:14] INFO root fetch - main [MainThread]: End processing [cnstd]: success
+[2023-06-30 06:41:14] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.8.tar.gz]
+[2023-06-30 06:41:14] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.9.tar.gz]
+[2023-06-30 06:41:14] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-06-30 06:41:14] INFO root fetch - processPackages [panda-server]: Remove: archive file [/home/abi/fetcher/tmp/panda-server-0.0.60.tar.gz]
+[2023-06-30 06:41:14] INFO root fetch - processPackages [panda-server]: Remove: archive file [/home/abi/fetcher/tmp/panda-server-0.0.62.tar.gz]
+[2023-06-30 06:41:14] INFO root fetch - main [MainThread]: End processing [panda-server]: success
+[2023-06-30 06:41:17] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-30 06:41:17] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-30 06:41:17] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-30 06:41:17] INFO root fetch - main [MainThread]: Store serial: [18705944]
