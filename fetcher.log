@@ -12542,3 +12542,33 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 07:47:44] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc8.tar.gz]
 [2023-06-30 07:47:44] INFO root fetch - main [MainThread]: End processing [petisco]: success
 [2023-06-30 07:47:44] INFO root fetch - main [MainThread]: Store serial: [18706364]
+[2023-06-30 07:52:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706364]
+[2023-06-30 07:52:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-30 07:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Hefesto
+[2023-06-30 07:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dart-tools
+[2023-06-30 07:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandas-money
+[2023-06-30 07:52:53] INFO root fetch - processPackages [dart-tools]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-30 07:52:53] INFO root fetch - processPackages [Hefesto]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-30 07:52:53] INFO root fetch - processPackages [pandas-money]: New version: [1.0.0a0] Old Version: [0.2.2]
+[2023-06-30 07:52:53] INFO root fetch - processPackages [pandas-money]: Downloading https://files.pythonhosted.org/packages/56/33/b595165e006b783e299d7af7823a234f03683aa5d90d9150d97ce0481c3b/pandas_money-0.2.2.tar.gz
+[2023-06-30 07:52:53] INFO root fetch - processPackages [dart-tools]: Downloading https://files.pythonhosted.org/packages/43/f3/dbfc784623d217afa2806707bd9a23cccef3095fd25988b8f8ca8b125b08/dart-tools-0.3.7.tar.gz
+[2023-06-30 07:52:53] INFO root fetch - processPackages [Hefesto]: Downloading https://files.pythonhosted.org/packages/3a/e5/b4f9bf6a24a603264cc92bf58c9772036ddb4b352faf94555d75efb27007/Hefesto-0.4.4.tar.gz
+[2023-06-30 07:52:54] INFO root fetch - processPackages [pandas-money]: Downloading https://files.pythonhosted.org/packages/b4/28/01c9aec5b2200a5c757dae82eaa41dc45e3b2ae8fb9a7287a2a392c7eded/pandas_money-1.0.0a0.tar.gz
+[2023-06-30 07:52:54] INFO root fetch - processPackages [Hefesto]: Downloading https://files.pythonhosted.org/packages/53/9f/7476cd4564bd67c74547fe53f3aa5772000fc506b1c36ba56b0db037b8a2/Hefesto-0.4.5.tar.gz
+[2023-06-30 07:52:54] INFO root fetch - processPackages [dart-tools]: Downloading https://files.pythonhosted.org/packages/52/87/e2be161d34a0a98dc553ad132f20885b1c38d0ecfa1258ed2bb4fce5491b/dart-tools-0.3.8.tar.gz
+[2023-06-30 07:52:54] INFO root fetch - processPackages [pandas-money]: executing diffoscope
+[2023-06-30 07:52:54] INFO root fetch - processPackages [pandas-money]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas_money-0.2.2.tar.gz tmp/pandas_money-1.0.0a0.tar.gz --markdown 20230630/p/pandas-money/0.2.2-1.0.0a0/diff.md --exclude *.pyd
+[2023-06-30 07:52:54] INFO root fetch - processPackages [Hefesto]: executing diffoscope
+[2023-06-30 07:52:54] INFO root fetch - processPackages [Hefesto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hefesto-0.4.4.tar.gz tmp/Hefesto-0.4.5.tar.gz --markdown 20230630/H/Hefesto/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-30 07:52:54] INFO root fetch - processPackages [dart-tools]: executing diffoscope
+[2023-06-30 07:52:54] INFO root fetch - processPackages [dart-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dart-tools-0.3.7.tar.gz tmp/dart-tools-0.3.8.tar.gz --markdown 20230630/d/dart-tools/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-30 07:52:54] ERROR root fetch - processPackages [dart-tools]: Diffoscope failed: Error: error creating container storage: the container name "amazing_bell" is already in use by "6d653b16ed652b4ae48ac41f803c0c31f6fc0a101208cb5d831bb89935c98873". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-30 07:52:54] INFO root fetch - main [MainThread]: End processing [dart-tools] error
+[2023-06-30 07:52:55] INFO root fetch - processPackages [pandas-money]: Remove: archive file [/home/abi/fetcher/tmp/pandas_money-0.2.2.tar.gz]
+[2023-06-30 07:52:55] INFO root fetch - processPackages [pandas-money]: Remove: archive file [/home/abi/fetcher/tmp/pandas_money-1.0.0a0.tar.gz]
+[2023-06-30 07:52:55] INFO root fetch - main [MainThread]: End processing [pandas-money]: success
+[2023-06-30 07:52:55] INFO root fetch - processPackages [Hefesto]: Remove: archive file [/home/abi/fetcher/tmp/Hefesto-0.4.4.tar.gz]
+[2023-06-30 07:52:55] INFO root fetch - processPackages [Hefesto]: Remove: archive file [/home/abi/fetcher/tmp/Hefesto-0.4.5.tar.gz]
+[2023-06-30 07:52:55] INFO root fetch - main [MainThread]: End processing [Hefesto]: success
+[2023-06-30 07:52:55] INFO root fetch - main [MainThread]: Store serial: [18706374]
