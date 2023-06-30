@@ -12812,3 +12812,36 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 08:03:20] INFO root fetch - processPackages [jquants-api-client]: Remove: archive file [/home/abi/fetcher/tmp/jquants_api_client-1.4.0.tar.gz]
 [2023-06-30 08:03:20] INFO root fetch - main [MainThread]: End processing [jquants-api-client]: success
 [2023-06-30 08:03:20] INFO root fetch - main [MainThread]: Store serial: [18706450]
+[2023-06-30 08:08:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706450]
+[2023-06-30 08:08:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-30 08:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parsagon
+[2023-06-30 08:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextpcg
+[2023-06-30 08:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2023-06-30 08:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-sqs-client
+[2023-06-30 08:08:29] INFO root fetch - processPackages [nextpcg]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-06-30 08:08:29] INFO root fetch - processPackages [parsagon]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-06-30 08:08:29] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/40/83/259c993d0fca97f0f9bb9138b2be3e05d3db67a760781986d994027cd095/nextpcg-0.5.7.tar.gz
+[2023-06-30 08:08:29] WARNING root fetch - processPackages [simple-sqs-client]: Skipping, unable to determine old version
+[2023-06-30 08:08:29] INFO root fetch - main [MainThread]: End processing [simple-sqs-client] error
+[2023-06-30 08:08:29] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230630] Old Version: [2.4.0.dev20230629]
+[2023-06-30 08:08:29] INFO root fetch - processPackages [parsagon]: Downloading https://files.pythonhosted.org/packages/05/79/4ec027216572c2de4f919d108b0e65b8511dce9a9f33f89a385148d6b458/parsagon-0.7.3.tar.gz
+[2023-06-30 08:08:29] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/21/e3/8961a1cf36f2a32bba3be0f2801702c4fb37c36164a44be1749419c9b3e7/nextpcg-0.5.8.tar.gz
+[2023-06-30 08:08:29] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e7/4f/01dd6a2ef27a68a11ce25ebaf7fa7c32619e47274a032ce4052198df5409/pyg_nightly-2.4.0.dev20230629.tar.gz
+[2023-06-30 08:08:29] INFO root fetch - processPackages [parsagon]: Downloading https://files.pythonhosted.org/packages/72/af/d6ae14b29c7476d7e261d7ab8e6a7a828621c5a5d5ab92ab0fa7c2d0613f/parsagon-0.7.4.tar.gz
+[2023-06-30 08:08:30] INFO root fetch - processPackages [parsagon]: executing diffoscope
+[2023-06-30 08:08:30] INFO root fetch - processPackages [parsagon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsagon-0.7.3.tar.gz tmp/parsagon-0.7.4.tar.gz --markdown 20230630/p/parsagon/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-06-30 08:08:30] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-06-30 08:08:30] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.5.7.tar.gz tmp/nextpcg-0.5.8.tar.gz --markdown 20230630/n/nextpcg/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-06-30 08:08:30] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/49/d5/4d77fde4651795c04cc15aa24c852abf9851dc23201d63ed6830e7e05162/pyg_nightly-2.4.0.dev20230630.tar.gz
+[2023-06-30 08:08:30] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-30 08:08:30] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230629.tar.gz tmp/pyg_nightly-2.4.0.dev20230630.tar.gz --markdown 20230630/p/pyg-nightly/2.4.0.dev20230629-2.4.0.dev20230630/diff.md --exclude *.pyd
+[2023-06-30 08:08:31] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.7.tar.gz]
+[2023-06-30 08:08:31] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.8.tar.gz]
+[2023-06-30 08:08:31] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-06-30 08:08:36] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230629.tar.gz]
+[2023-06-30 08:08:36] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230630.tar.gz]
+[2023-06-30 08:08:36] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-30 08:09:22] INFO root fetch - processPackages [parsagon]: Remove: archive file [/home/abi/fetcher/tmp/parsagon-0.7.3.tar.gz]
+[2023-06-30 08:09:22] INFO root fetch - processPackages [parsagon]: Remove: archive file [/home/abi/fetcher/tmp/parsagon-0.7.4.tar.gz]
+[2023-06-30 08:09:22] INFO root fetch - main [MainThread]: End processing [parsagon]: success
+[2023-06-30 08:09:22] INFO root fetch - main [MainThread]: Store serial: [18706469]
