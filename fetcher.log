@@ -13580,3 +13580,137 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 08:57:12] INFO root fetch - processPackages [odoo12-addon-stock-picking-send-by-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_picking_send_by_mail-12.0.1.1.0.99.dev2-py3-none-any.whl.zip]
 [2023-06-30 08:57:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-picking-send-by-mail]: success
 [2023-06-30 08:57:12] INFO root fetch - main [MainThread]: Store serial: [18706753]
+[2023-06-30 09:02:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18706753]
+[2023-06-30 09:02:21] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-30 09:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audio-separator
+[2023-06-30 09:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-pbx-admin
+[2023-06-30 09:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hezar
+[2023-06-30 09:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mistapi
+[2023-06-30 09:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sarus
+[2023-06-30 09:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfts
+[2023-06-30 09:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ytdl-sub
+[2023-06-30 09:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: speakez
+[2023-06-30 09:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mirar
+[2023-06-30 09:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: irene-pro
+[2023-06-30 09:02:21] INFO root fetch - processPackages [audio-separator]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-30 09:02:21] INFO root fetch - processPackages [sarus]: New version: [0.7.4.dev1] Old Version: [0.7.4.dev0]
+[2023-06-30 09:02:21] INFO root fetch - processPackages [hezar]: New version: [0.13.3] Old Version: [0.12.0]
+[2023-06-30 09:02:21] INFO root fetch - processPackages [ytdl-sub]: New version: [2023.6.30] Old Version: [2023.6.3]
+[2023-06-30 09:02:21] INFO root fetch - processPackages [django-pbx-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-30 09:02:21] WARNING root fetch - processPackages [speakez]: Skipping, unable to determine old version
+[2023-06-30 09:02:21] INFO root fetch - processPackages [tfts]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-30 09:02:21] INFO root fetch - processPackages [mistapi]: New version: [0.41.9] Old Version: [0.41.8]
+[2023-06-30 09:02:21] INFO root fetch - processPackages [speakez]: Start processing: hubotlibs
+[2023-06-30 09:02:21] INFO root fetch - main [MainThread]: End processing [speakez] error
+[2023-06-30 09:02:21] INFO root fetch - processPackages [mirar]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-30 09:02:21] INFO root fetch - processPackages [irene-pro]: New version: [0.0.77] Old Version: [0.0.76]
+[2023-06-30 09:02:21] INFO root fetch - processPackages [hubotlibs]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-30 09:02:21] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/5d/89/1e07bfd3d252b2b5c525353006d441e9b58a55ac738e2b41a0ecfacf2008/django_pbx_admin-1.8.1-py3-none-any.whl
+[2023-06-30 09:02:21] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/08/91/3032e3c3cb1bd1173c0aefda1069024595c93a946cc7945e32e42904a5a6/sarus-0.7.4.dev0.tar.gz
+[2023-06-30 09:02:21] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/e1/6d/3a3da8b1a8081732036cac9976155ed25006692dc0d50256ec4f22126ee5/ytdl-sub-2023.6.3.tar.gz
+[2023-06-30 09:02:21] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/db/89/7b094edf7ed8f2fba12c4981dcc4831fdf7d3db04e4517cc3bc54e451b52/audio-separator-0.1.2.tar.gz
+[2023-06-30 09:02:21] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/7c/7e/c80f4702c10dec7db81faaea2d584d96aa31fc91f05e2e141180faf6efd7/mistapi-0.41.8.tar.gz
+[2023-06-30 09:02:21] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/e2/57/87f523a521446f66dc945c2739ea9a4562db45b7f5c9f7ae0fd60a7a4de5/irene_pro-0.0.76.tar.gz
+[2023-06-30 09:02:21] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/dd/cc/9e6ed7dc583d8cdd36fd496961117f72953f93a173028b7cfa57387ddef0/hezar-0.12.0.tar.gz
+[2023-06-30 09:02:21] INFO root fetch - processPackages [tfts]: Downloading https://files.pythonhosted.org/packages/8c/c5/8f76fd0255fc6a3264546af68f40f68a9bca0eb777e0b432114baa03dad4/tfts-0.0.7.tar.gz
+[2023-06-30 09:02:21] INFO root fetch - processPackages [mirar]: Downloading https://files.pythonhosted.org/packages/0f/db/15f114c51125f396150e5da07ab4ab61aff02f1bdfbe526677a2fddfd413/mirar-0.8.3.tar.gz
+[2023-06-30 09:02:21] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/c6/4a/ba36b68eb3318a5bde138083dbd614a51efa7f9bdb95c20dd2bcdb6cc5d9/hubotlibs-0.1.7.tar.gz
+[2023-06-30 09:02:21] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/a0/f6/81f7a7b9ad127436f60f7dec6e82fe12e5c2217e6368a7bfab73168b4299/ytdl-sub-2023.6.30.tar.gz
+[2023-06-30 09:02:21] WARNING root fetch - processPackages [mirar]: Skipping package: exceeds size limit 90046650>=10485760
+[2023-06-30 09:02:21] INFO root fetch - processPackages [mirar]: Start processing: py-mdbx
+[2023-06-30 09:02:21] INFO root fetch - main [MainThread]: End processing [mirar] error
+[2023-06-30 09:02:21] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/f7/63/42c29e0063414ee6858fc38f4f12dbde5c04f29ffb6df993911826afed85/audio-separator-0.1.3.tar.gz
+[2023-06-30 09:02:21] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/a3/87/50499a1649cc8ee7ea26f354e4c9e73cf7f6d2306c93979b1aeae31288ea/irene_pro-0.0.77.tar.gz
+[2023-06-30 09:02:21] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2023-06-30 09:02:21] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2023.6.3.tar.gz tmp/ytdl-sub-2023.6.30.tar.gz --markdown 20230630/y/ytdl-sub/2023.6.3-2023.6.30/diff.md --exclude *.pyd
+[2023-06-30 09:02:21] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/38/5c/95fc9e731ec8cc02fd2a7761c6d1d4c9fd65e7e1e8f2099604decbb0afce/sarus-0.7.4.dev1.tar.gz
+[2023-06-30 09:02:21] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/80/d3/b266dd4edb93a3e8306915b9003b44b3217feb55cf5e562b2563675b50bf/mistapi-0.41.9.tar.gz
+[2023-06-30 09:02:22] INFO root fetch - processPackages [audio-separator]: executing diffoscope
+[2023-06-30 09:02:22] INFO root fetch - processPackages [audio-separator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio-separator-0.1.2.tar.gz tmp/audio-separator-0.1.3.tar.gz --markdown 20230630/a/audio-separator/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-30 09:02:22] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/59/c0/ee58836316553380b4dc29220a467c80c871f0625522f69f2d4ec592a448/hezar-0.13.3.tar.gz
+[2023-06-30 09:02:22] INFO root fetch - processPackages [tfts]: Downloading https://files.pythonhosted.org/packages/8c/dc/0f2425950f0ac9bfd5148aa33a90618939f6707e8d28c4f5abdf2c7329d2/tfts-0.0.8.tar.gz
+[2023-06-30 09:02:22] WARNING root fetch - processPackages [py-mdbx]: Skipping, unable to determine old version
+[2023-06-30 09:02:22] INFO root fetch - processPackages [py-mdbx]: Start processing: mathkit
+[2023-06-30 09:02:22] INFO root fetch - main [MainThread]: End processing [py-mdbx] error
+[2023-06-30 09:02:22] INFO root fetch - processPackages [mistapi]: executing diffoscope
+[2023-06-30 09:02:22] INFO root fetch - processPackages [mistapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistapi-0.41.8.tar.gz tmp/mistapi-0.41.9.tar.gz --markdown 20230630/m/mistapi/0.41.8-0.41.9/diff.md --exclude *.pyd
+[2023-06-30 09:02:22] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-30 09:02:22] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.76.tar.gz tmp/irene_pro-0.0.77.tar.gz --markdown 20230630/i/irene-pro/0.0.76-0.0.77/diff.md --exclude *.pyd
+[2023-06-30 09:02:22] INFO root fetch - processPackages [mathkit]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-30 09:02:22] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-06-30 09:02:22] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.12.0.tar.gz tmp/hezar-0.13.3.tar.gz --markdown 20230630/h/hezar/0.12.0-0.13.3/diff.md --exclude *.pyd
+[2023-06-30 09:02:22] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/af/21/2070def89ab4338e97c74f037932dc96ff4050b074399635a047908b63bd/hubotlibs-0.1.8.tar.gz
+[2023-06-30 09:02:22] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/71/9a/935fb87ed74fc9a9413cb798492923b5f553de22b3ac8938d8804afea25b/mathkit-0.1.0.tar.gz
+[2023-06-30 09:02:22] INFO root fetch - processPackages [sarus]: executing diffoscope
+[2023-06-30 09:02:22] INFO root fetch - processPackages [sarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus-0.7.4.dev0.tar.gz tmp/sarus-0.7.4.dev1.tar.gz --markdown 20230630/s/sarus/0.7.4.dev0-0.7.4.dev1/diff.md --exclude *.pyd
+[2023-06-30 09:02:22] INFO root fetch - processPackages [hubotlibs]: executing diffoscope
+[2023-06-30 09:02:22] INFO root fetch - processPackages [hubotlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubotlibs-0.1.7.tar.gz tmp/hubotlibs-0.1.8.tar.gz --markdown 20230630/h/hubotlibs/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-30 09:02:22] INFO root fetch - processPackages [tfts]: executing diffoscope
+[2023-06-30 09:02:22] INFO root fetch - processPackages [tfts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfts-0.0.7.tar.gz tmp/tfts-0.0.8.tar.gz --markdown 20230630/t/tfts/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-30 09:02:22] INFO root fetch - processPackages [mathkit]: Downloading https://files.pythonhosted.org/packages/81/1a/71b5299f2cb7df828727ffd1a7947b71db50a4ec1430a748c0b918298c7b/mathkit-0.1.1.tar.gz
+[2023-06-30 09:02:22] INFO root fetch - processPackages [mathkit]: executing diffoscope
+[2023-06-30 09:02:22] INFO root fetch - processPackages [mathkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathkit-0.1.0.tar.gz tmp/mathkit-0.1.1.tar.gz --markdown 20230630/m/mathkit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-30 09:02:23] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/9f/68/7cd5526d96c78fa3115fa7d469d50acb284144a6d6468ec29edac3ec09ff/django_pbx_admin-1.9.0-py3-none-any.whl
+[2023-06-30 09:02:23] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio-separator-0.1.2.tar.gz]
+[2023-06-30 09:02:23] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio-separator-0.1.3.tar.gz]
+[2023-06-30 09:02:23] INFO root fetch - processPackages [audio-separator]: Start processing: crunchie
+[2023-06-30 09:02:23] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
+[2023-06-30 09:02:23] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.76.tar.gz]
+[2023-06-30 09:02:23] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.77.tar.gz]
+[2023-06-30 09:02:23] INFO root fetch - processPackages [irene-pro]: Start processing: sniimapp
+[2023-06-30 09:02:23] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-30 09:02:23] INFO root fetch - processPackages [crunchie]: New version: [205.0.0] Old Version: [2.0.0]
+[2023-06-30 09:02:23] INFO root fetch - processPackages [sniimapp]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-30 09:02:23] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/35/0b/af6b32692532d29195ac8507e906d24880c57c788735618c3950d3424a66/sniimapp-0.0.5.tar.gz
+[2023-06-30 09:02:23] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.1.7.tar.gz]
+[2023-06-30 09:02:23] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.1.8.tar.gz]
+[2023-06-30 09:02:23] INFO root fetch - processPackages [hubotlibs]: Start processing: simple-sqs-client
+[2023-06-30 09:02:23] INFO root fetch - main [MainThread]: End processing [hubotlibs]: success
+[2023-06-30 09:02:23] INFO root fetch - processPackages [crunchie]: Downloading https://files.pythonhosted.org/packages/71/b8/aaf2539e7848d7d80782e8bef562296cb5951431613445ef856c2b1d87e6/crunchie-2.0.0.tar.gz
+[2023-06-30 09:02:23] INFO root fetch - processPackages [sniimapp]: Downloading https://files.pythonhosted.org/packages/b0/23/3833aa9a9f8373d8051eec2eab46ff5defe4c41fbbffcb8e51cfb00d420b/sniimapp-0.0.6.tar.gz
+[2023-06-30 09:02:23] WARNING root fetch - processPackages [simple-sqs-client]: Skipping, unable to determine old version
+[2023-06-30 09:02:23] INFO root fetch - processPackages [simple-sqs-client]: Start processing: spaceone-inventory
+[2023-06-30 09:02:23] INFO root fetch - main [MainThread]: End processing [simple-sqs-client] error
+[2023-06-30 09:02:23] INFO root fetch - processPackages [sniimapp]: executing diffoscope
+[2023-06-30 09:02:23] INFO root fetch - processPackages [sniimapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp-0.0.5.tar.gz tmp/sniimapp-0.0.6.tar.gz --markdown 20230630/s/sniimapp/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-30 09:02:23] INFO root fetch - processPackages [tfts]: Remove: archive file [/home/abi/fetcher/tmp/tfts-0.0.7.tar.gz]
+[2023-06-30 09:02:23] INFO root fetch - processPackages [tfts]: Remove: archive file [/home/abi/fetcher/tmp/tfts-0.0.8.tar.gz]
+[2023-06-30 09:02:23] INFO root fetch - main [MainThread]: End processing [tfts]: success
+[2023-06-30 09:02:23] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.12.0.tar.gz]
+[2023-06-30 09:02:23] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.13.3.tar.gz]
+[2023-06-30 09:02:23] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-06-30 09:02:24] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-0.1.0.tar.gz]
+[2023-06-30 09:02:24] INFO root fetch - processPackages [mathkit]: Remove: archive file [/home/abi/fetcher/tmp/mathkit-0.1.1.tar.gz]
+[2023-06-30 09:02:24] INFO root fetch - main [MainThread]: End processing [mathkit]: success
+[2023-06-30 09:02:24] INFO root fetch - processPackages [spaceone-inventory]: New version: [1.9.7rc1] Old Version: [1.9.7.3]
+[2023-06-30 09:02:24] INFO root fetch - processPackages [crunchie]: Downloading https://files.pythonhosted.org/packages/7d/fb/e196af65ea3b567722847537f71a51c7e929c991e898c2ee3ca51003a02d/crunchie-205.0.0.tar.gz
+[2023-06-30 09:02:24] INFO root fetch - processPackages [crunchie]: executing diffoscope
+[2023-06-30 09:02:24] INFO root fetch - processPackages [crunchie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunchie-2.0.0.tar.gz tmp/crunchie-205.0.0.tar.gz --markdown 20230630/c/crunchie/2.0.0-205.0.0/diff.md --exclude *.pyd
+[2023-06-30 09:02:24] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/a9/82/c593d30951fa8a48a0777598d6512a6f1c3d737ee4831063408619868fff/spaceone_inventory-1.9.7.3-py3-none-any.whl
+[2023-06-30 09:02:24] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/8b/3e/9b66d8ee4c516bd667673a5577cc4743104de117a9cf1693532b741e45c4/spaceone_inventory-1.9.7rc1-py3-none-any.whl
+[2023-06-30 09:02:24] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.5.tar.gz]
+[2023-06-30 09:02:24] INFO root fetch - processPackages [sniimapp]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp-0.0.6.tar.gz]
+[2023-06-30 09:02:24] INFO root fetch - main [MainThread]: End processing [sniimapp]: success
+[2023-06-30 09:02:24] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2023-06-30 09:02:24] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip --markdown 20230630/s/spaceone-inventory/1.9.7.3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-30 09:02:25] INFO root fetch - processPackages [crunchie]: Remove: archive file [/home/abi/fetcher/tmp/crunchie-2.0.0.tar.gz]
+[2023-06-30 09:02:25] INFO root fetch - processPackages [crunchie]: Remove: archive file [/home/abi/fetcher/tmp/crunchie-205.0.0.tar.gz]
+[2023-06-30 09:02:25] INFO root fetch - main [MainThread]: End processing [crunchie]: success
+[2023-06-30 09:02:25] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.6.3.tar.gz]
+[2023-06-30 09:02:25] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.6.30.tar.gz]
+[2023-06-30 09:02:25] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2023-06-30 09:02:25] INFO root fetch - processPackages [django-pbx-admin]: executing diffoscope
+[2023-06-30 09:02:25] INFO root fetch - processPackages [django-pbx-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip --markdown 20230630/d/django-pbx-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-30 09:02:25] INFO root fetch - processPackages [sarus]: Remove: archive file [/home/abi/fetcher/tmp/sarus-0.7.4.dev0.tar.gz]
+[2023-06-30 09:02:25] INFO root fetch - processPackages [sarus]: Remove: archive file [/home/abi/fetcher/tmp/sarus-0.7.4.dev1.tar.gz]
+[2023-06-30 09:02:25] INFO root fetch - main [MainThread]: End processing [sarus]: success
+[2023-06-30 09:02:26] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip]
+[2023-06-30 09:02:26] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-30 09:02:26] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2023-06-30 09:02:27] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.8.tar.gz]
+[2023-06-30 09:02:27] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.41.9.tar.gz]
+[2023-06-30 09:02:27] INFO root fetch - main [MainThread]: End processing [mistapi]: success
+[2023-06-30 09:02:30] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip]
+[2023-06-30 09:02:30] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip]
+[2023-06-30 09:02:30] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
+[2023-06-30 09:02:30] INFO root fetch - main [MainThread]: Store serial: [18706808]
