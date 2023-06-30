@@ -2970,3 +2970,121 @@
 [2023-06-30 03:04:14] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-06-30 03:04:14] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-06-30 03:04:14] INFO root fetch - main [MainThread]: Store serial: [18702816]
+[2023-06-30 03:09:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18702816]
+[2023-06-30 03:09:22] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-30 03:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sns-notify
+[2023-06-30 03:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyberdrop-dl
+[2023-06-30 03:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: concept-x-converter
+[2023-06-30 03:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-email-accounts
+[2023-06-30 03:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-30 03:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neon-diana-utils
+[2023-06-30 03:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: matflow-new
+[2023-06-30 03:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: estival
+[2023-06-30 03:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emmet-core
+[2023-06-30 03:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DKUtils
+[2023-06-30 03:09:22] INFO root fetch - processPackages [django-email-accounts]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-30 03:09:22] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-30 03:09:22] INFO root fetch - processPackages [concept-x-converter]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-30 03:09:22] INFO root fetch - processPackages [estival]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-30 03:09:22] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-30 03:09:22] INFO root fetch - processPackages [emmet-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-30 03:09:22] INFO root fetch - processPackages [DKUtils]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-30 03:09:22] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-30 03:09:22] INFO root fetch - processPackages [neon-diana-utils]: New version: [0.0.6a4] Old Version: [0.0.6a3]
+[2023-06-30 03:09:22] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-06-30 03:09:22] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/33/06/64bf36c9f9b85be9b3b28a1d21d5a2698384823379079834bc89f2af1e7e/matflow_new-0.3.0a8.tar.gz
+[2023-06-30 03:09:22] INFO root fetch - processPackages [concept-x-converter]: Downloading https://files.pythonhosted.org/packages/e8/49/bacf6f0b0c2691018c2cd30f5cdf914ee7118e779a857cddd21679a51eba/concept_x_converter-0.3.3-cp37-abi3-win_amd64.whl
+[2023-06-30 03:09:22] INFO root fetch - processPackages [estival]: Downloading https://files.pythonhosted.org/packages/3d/2c/a023b18e9b59e60cd7dfd274f093049ddf38c699f0932d3690c7e54749c9/estival-0.3.0.tar.gz
+[2023-06-30 03:09:22] INFO root fetch - processPackages [django-email-accounts]: Downloading https://files.pythonhosted.org/packages/d6/20/dc063ad8f00e9b159264efb49b653186a3417360806bd746fb61346319d6/django-email-accounts-0.1.0.tar.gz
+[2023-06-30 03:09:22] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/68/c9/418420420155f18aa38d7861e0cfcd92e65ff36933188ec860c52817fd64/matflow_new-0.3.0a9.tar.gz
+[2023-06-30 03:09:23] INFO root fetch - processPackages [neon-diana-utils]: Downloading https://files.pythonhosted.org/packages/64/24/4790ac8ff4d56921ffedd892da3a1bfc8eee6808aa4e86bbf6f319de627e/neon_diana_utils-0.0.6a3-py3-none-any.whl
+[2023-06-30 03:09:23] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-06-30 03:09:23] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/79/85/be17b500afc3d15c1ca6b73b0cf8b7564ecc06d89b27d59ca86581efa254/emmet-core-0.9.2.tar.gz
+[2023-06-30 03:09:23] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2023-06-30 03:09:23] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a8.tar.gz tmp/matflow_new-0.3.0a9.tar.gz --markdown 20230630/m/matflow-new/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-30 03:09:23] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-06-30 03:09:23] INFO root fetch - processPackages [DKUtils]: Downloading https://files.pythonhosted.org/packages/63/4c/b0cbf3191cab5fddb12ab88051535c8be35784af55224c3144950cae24cc/DKUtils-2.9.5.tar.gz
+[2023-06-30 03:09:23] INFO root fetch - processPackages [concept-x-converter]: Downloading https://files.pythonhosted.org/packages/bc/39/3677b95b069cccc43260d50a3f4447a13d4588bf4f9eeef7fadc6dea25df/concept_x_converter-0.3.4-cp37-abi3-win_amd64.whl
+[2023-06-30 03:09:23] INFO root fetch - processPackages [django-email-accounts]: Downloading https://files.pythonhosted.org/packages/f0/60/4a6a7f4a0ef3489b4eb04d88c4511a31dd60a269bc725bda514d2611b268/django-email-accounts-0.2.0.tar.gz
+[2023-06-30 03:09:23] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-06-30 03:09:23] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230630/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-06-30 03:09:23] INFO root fetch - processPackages [estival]: Downloading https://files.pythonhosted.org/packages/43/44/acdd54b7c3553ca5236276442904d0fdca5f33005931f5a7192cfa8159c6/estival-0.3.1.tar.gz
+[2023-06-30 03:09:23] INFO root fetch - processPackages [neon-diana-utils]: Downloading https://files.pythonhosted.org/packages/71/c7/fb781895f66bb3f26d95a3c967c040747be83d52ffb972594a6e8b95d110/neon_diana_utils-0.0.6a4-py3-none-any.whl
+[2023-06-30 03:09:23] INFO root fetch - processPackages [django-email-accounts]: executing diffoscope
+[2023-06-30 03:09:23] INFO root fetch - processPackages [django-email-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-email-accounts-0.1.0.tar.gz tmp/django-email-accounts-0.2.0.tar.gz --markdown 20230630/d/django-email-accounts/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-30 03:09:23] INFO root fetch - processPackages [concept-x-converter]: executing diffoscope
+[2023-06-30 03:09:23] INFO root fetch - processPackages [concept-x-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concept_x_converter-0.3.3-cp37-abi3-win_amd64.whl.zip tmp/concept_x_converter-0.3.4-cp37-abi3-win_amd64.whl.zip --markdown 20230630/c/concept-x-converter/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-30 03:09:23] INFO root fetch - processPackages [estival]: executing diffoscope
+[2023-06-30 03:09:23] INFO root fetch - processPackages [estival]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estival-0.3.0.tar.gz tmp/estival-0.3.1.tar.gz --markdown 20230630/e/estival/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-30 03:09:23] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-06-30 03:09:23] INFO root fetch - processPackages [neon-diana-utils]: executing diffoscope
+[2023-06-30 03:09:23] INFO root fetch - processPackages [neon-diana-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_diana_utils-0.0.6a3-py3-none-any.whl.zip tmp/neon_diana_utils-0.0.6a4-py3-none-any.whl.zip --markdown 20230630/n/neon-diana-utils/0.0.6a3-0.0.6a4/diff.md --exclude *.pyd
+[2023-06-30 03:09:23] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/a8/71/fb3a5816288c941fd4a8039c02a612bdb6b1e002843cb9c029f1a4210aaa/emmet-core-0.9.3.tar.gz
+[2023-06-30 03:09:23] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-06-30 03:09:23] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230630/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-30 03:09:23] INFO root fetch - processPackages [emmet-core]: executing diffoscope
+[2023-06-30 03:09:23] INFO root fetch - processPackages [emmet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-core-0.9.2.tar.gz tmp/emmet-core-0.9.3.tar.gz --markdown 20230630/e/emmet-core/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-30 03:09:23] INFO root fetch - processPackages [DKUtils]: Downloading https://files.pythonhosted.org/packages/78/0e/2d9847e06f772dff53050d9ca9f796fb0dc164ef3d70354f80c0ba6f8aff/DKUtils-2.9.6.tar.gz
+[2023-06-30 03:09:23] INFO root fetch - processPackages [DKUtils]: executing diffoscope
+[2023-06-30 03:09:23] INFO root fetch - processPackages [DKUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DKUtils-2.9.5.tar.gz tmp/DKUtils-2.9.6.tar.gz --markdown 20230630/D/DKUtils/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-30 03:09:24] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a8.tar.gz]
+[2023-06-30 03:09:24] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a9.tar.gz]
+[2023-06-30 03:09:24] INFO root fetch - processPackages [matflow-new]: Start processing: cdk-lambda-layer-curl
+[2023-06-30 03:09:24] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2023-06-30 03:09:24] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-06-30 03:09:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-30 03:09:24] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-06-30 03:09:24] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-06-30 03:09:24] INFO root fetch - processPackages [cyberdrop-dl]: Start processing: aemcmc-nightly
+[2023-06-30 03:09:24] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-06-30 03:09:24] INFO root fetch - processPackages [django-email-accounts]: Remove: archive file [/home/abi/fetcher/tmp/django-email-accounts-0.1.0.tar.gz]
+[2023-06-30 03:09:24] INFO root fetch - processPackages [django-email-accounts]: Remove: archive file [/home/abi/fetcher/tmp/django-email-accounts-0.2.0.tar.gz]
+[2023-06-30 03:09:24] INFO root fetch - processPackages [django-email-accounts]: Start processing: emmet-builders
+[2023-06-30 03:09:24] INFO root fetch - main [MainThread]: End processing [django-email-accounts]: success
+[2023-06-30 03:09:24] INFO root fetch - processPackages [concept-x-converter]: Remove: archive file [/home/abi/fetcher/tmp/concept_x_converter-0.3.3-cp37-abi3-win_amd64.whl.zip]
+[2023-06-30 03:09:24] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230630] Old Version: [0.0.8.dev20230629]
+[2023-06-30 03:09:24] INFO root fetch - processPackages [concept-x-converter]: Remove: archive file [/home/abi/fetcher/tmp/concept_x_converter-0.3.4-cp37-abi3-win_amd64.whl.zip]
+[2023-06-30 03:09:24] INFO root fetch - main [MainThread]: End processing [concept-x-converter]: success
+[2023-06-30 03:09:24] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-30 03:09:24] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230630/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-30 03:09:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-30 03:09:24] INFO root fetch - processPackages [estival]: Remove: archive file [/home/abi/fetcher/tmp/estival-0.3.0.tar.gz]
+[2023-06-30 03:09:24] INFO root fetch - processPackages [estival]: Remove: archive file [/home/abi/fetcher/tmp/estival-0.3.1.tar.gz]
+[2023-06-30 03:09:24] INFO root fetch - main [MainThread]: End processing [estival]: success
+[2023-06-30 03:09:25] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/15/c2/eea07c94eac2ead7dda78156743d02ada4c64d7c01af0195a6a623fba43e/aemcmc-nightly-0.0.8.dev20230629.tar.gz
+[2023-06-30 03:09:25] INFO root fetch - processPackages [neon-diana-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon_diana_utils-0.0.6a3-py3-none-any.whl.zip]
+[2023-06-30 03:09:25] INFO root fetch - processPackages [neon-diana-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon_diana_utils-0.0.6a4-py3-none-any.whl.zip]
+[2023-06-30 03:09:25] INFO root fetch - main [MainThread]: End processing [neon-diana-utils]: success
+[2023-06-30 03:09:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-30 03:09:25] INFO root fetch - processPackages [DKUtils]: Remove: archive file [/home/abi/fetcher/tmp/DKUtils-2.9.5.tar.gz]
+[2023-06-30 03:09:25] INFO root fetch - processPackages [DKUtils]: Remove: archive file [/home/abi/fetcher/tmp/DKUtils-2.9.6.tar.gz]
+[2023-06-30 03:09:25] INFO root fetch - main [MainThread]: End processing [DKUtils]: success
+[2023-06-30 03:09:25] INFO root fetch - processPackages [emmet-builders]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-30 03:09:25] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-06-30 03:09:25] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-06-30 03:09:25] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-06-30 03:09:25] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/9d/16/3fc6403e7c1d8d456e4d54064f526e95b3f8af555614431e8cacca0c71a9/aemcmc-nightly-0.0.8.dev20230630.tar.gz
+[2023-06-30 03:09:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-30 03:09:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230630/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-30 03:09:25] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-30 03:09:25] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230629.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230630.tar.gz --markdown 20230630/a/aemcmc-nightly/0.0.8.dev20230629-0.0.8.dev20230630/diff.md --exclude *.pyd
+[2023-06-30 03:09:25] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/b3/9f/ec08c5daefc1dab5587b18b933f8845a69362d5e4f4cd605e3028250efa8/emmet-builders-0.9.2.tar.gz
+[2023-06-30 03:09:25] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/d3/8a/c73672eb055bc5323b006090ad1112b6027d2d5cbbe46b35eaa33b3924be/emmet-builders-0.9.3.tar.gz
+[2023-06-30 03:09:26] INFO root fetch - processPackages [emmet-builders]: executing diffoscope
+[2023-06-30 03:09:26] INFO root fetch - processPackages [emmet-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-builders-0.9.2.tar.gz tmp/emmet-builders-0.9.3.tar.gz --markdown 20230630/e/emmet-builders/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-30 03:09:26] INFO root fetch - processPackages [emmet-core]: Remove: archive file [/home/abi/fetcher/tmp/emmet-core-0.9.2.tar.gz]
+[2023-06-30 03:09:26] INFO root fetch - processPackages [emmet-core]: Remove: archive file [/home/abi/fetcher/tmp/emmet-core-0.9.3.tar.gz]
+[2023-06-30 03:09:26] INFO root fetch - main [MainThread]: End processing [emmet-core]: success
+[2023-06-30 03:09:26] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230629.tar.gz]
+[2023-06-30 03:09:26] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230630.tar.gz]
+[2023-06-30 03:09:26] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-30 03:09:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-30 03:09:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-30 03:09:26] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-30 03:09:26] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.2.tar.gz]
+[2023-06-30 03:09:26] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.3.tar.gz]
+[2023-06-30 03:09:26] INFO root fetch - main [MainThread]: End processing [emmet-builders]: success
+[2023-06-30 03:09:27] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-06-30 03:09:27] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-06-30 03:09:27] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-30 03:09:27] INFO root fetch - main [MainThread]: Store serial: [18702862]
