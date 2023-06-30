@@ -11368,3 +11368,24 @@ AssertionError: tmp/aibabyllmclient-1.3.tar.gz does not exist
 [2023-06-30 06:09:54] INFO root fetch - processPackages [refyre]: Remove: archive file [/home/abi/fetcher/tmp/refyre-0.0.1.5.2.tar.gz]
 [2023-06-30 06:09:54] INFO root fetch - main [MainThread]: End processing [refyre]: success
 [2023-06-30 06:09:54] INFO root fetch - main [MainThread]: Store serial: [18705808]
+[2023-06-30 06:14:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18705808]
+[2023-06-30 06:15:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-30 06:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windbg-copilot
+[2023-06-30 06:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlglot
+[2023-06-30 06:15:03] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 06:15:03] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-06-30 06:15:03] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-06-30 06:15:04] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-06-30 06:15:04] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-06-30 06:15:04] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-06-30 06:15:04] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230630/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-06-30 06:15:04] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-06-30 06:15:04] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-06-30 06:15:04] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230630/w/windbg-copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 06:15:05] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-06-30 06:15:05] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-06-30 06:15:05] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-06-30 06:15:05] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2023-06-30 06:15:05] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2023-06-30 06:15:05] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-06-30 06:15:05] INFO root fetch - main [MainThread]: Store serial: [18705820]
