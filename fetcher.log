@@ -15917,3 +15917,239 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-30 10:50:34] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4626.tar.gz]
 [2023-06-30 10:50:34] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
 [2023-06-30 10:50:34] INFO root fetch - main [MainThread]: Store serial: [18707726]
+[2023-06-30 10:55:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18707726]
+[2023-06-30 10:55:44] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-30 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idrlnet
+[2023-06-30 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esmerald
+[2023-06-30 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypermobil
+[2023-06-30 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djecrety
+[2023-06-30 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-inclusion-schema
+[2023-06-30 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-poke
+[2023-06-30 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: funfluid
+[2023-06-30 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: irene-pro
+[2023-06-30 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: periflow-cli
+[2023-06-30 10:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-blive-danmaku
+[2023-06-30 10:55:44] INFO root fetch - processPackages [mypermobil]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-30 10:55:44] WARNING root fetch - processPackages [funfluid]: Skipping, unable to determine old version
+[2023-06-30 10:55:44] INFO root fetch - processPackages [idrlnet]: New version: [2.0.0] Old Version: [0.1.0rc1]
+[2023-06-30 10:55:44] INFO root fetch - processPackages [data-inclusion-schema]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-30 10:55:44] INFO root fetch - processPackages [funfluid]: Start processing: fast-model-server
+[2023-06-30 10:55:44] INFO root fetch - processPackages [periflow-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-30 10:55:44] INFO root fetch - main [MainThread]: End processing [funfluid] error
+[2023-06-30 10:55:44] INFO root fetch - processPackages [nonebot-plugin-poke]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-30 10:55:44] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: New version: [0.3.22] Old Version: [0.3.21]
+[2023-06-30 10:55:44] INFO root fetch - processPackages [djecrety]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-30 10:55:44] INFO root fetch - processPackages [irene-pro]: New version: [0.0.79] Old Version: [0.0.77]
+[2023-06-30 10:55:44] INFO root fetch - processPackages [fast-model-server]: New version: [1.1.0.2] Old Version: [1.1.0.1]
+[2023-06-30 10:55:44] INFO root fetch - processPackages [esmerald]: New version: [1.3.0] Old Version: [1.2.5]
+[2023-06-30 10:55:44] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/a3/87/50499a1649cc8ee7ea26f354e4c9e73cf7f6d2306c93979b1aeae31288ea/irene_pro-0.0.77.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Downloading https://files.pythonhosted.org/packages/42/19/9a3a57085fac18826e08881bc39d8a9d0c7bd9676a2413c0b38874feb055/nonebot_plugin_blive_danmaku-0.3.21.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [nonebot-plugin-poke]: Downloading https://files.pythonhosted.org/packages/d3/43/d6add7388247a6512087e10f59ea50ef1dc3352b664b5e4d232740a935be/nonebot_plugin_poke-0.0.4.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [mypermobil]: Downloading https://files.pythonhosted.org/packages/2d/b3/d6c528d23c2dc2718304b32d2ff29496692d2083255cda1ac03e535c18fb/mypermobil-0.1.1.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [periflow-cli]: Downloading https://files.pythonhosted.org/packages/79/1c/b3b2f9a6b6d9f22e255d49aee10bb9f84e47c16e581383be7e3c5bc43736/periflow-cli-0.1.8.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [idrlnet]: Downloading https://files.pythonhosted.org/packages/c7/8b/f963cbcf45eed5f0cfb304636373b4f8be9ba5530c1ba8f97637f98dd5d1/idrlnet-0.1.0rc1.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [djecrety]: Downloading https://files.pythonhosted.org/packages/7b/80/0e6e3db99cf42731978f37c3662bac2fe6331a4f6bb67904ca2f5804df2c/djecrety-1.0.8.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [data-inclusion-schema]: Downloading https://files.pythonhosted.org/packages/02/13/b64476ffa7f940d7b35b018b0e169ea584484e886d6731ddb62e4dd8164b/data-inclusion-schema-0.8.0.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [fast-model-server]: Downloading https://files.pythonhosted.org/packages/7b/8b/ce93407638718fc631fd2717b5989f328ac0bb23d73d44ffa1720103e160/fast_model_server-1.1.0.1-py2.py3-none-any.whl
+[2023-06-30 10:55:44] INFO root fetch - processPackages [esmerald]: Downloading https://files.pythonhosted.org/packages/83/b9/f310d250301fea62e0fbd8b79a9940b30bccc97f7d62d6cfed1236ad32a9/esmerald-1.2.5.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [nonebot-plugin-poke]: Downloading https://files.pythonhosted.org/packages/f1/23/ca4bfb46dd9a9be0a70c52d9d1ef6bd62d7b5734833e36c9186b1717bdb4/nonebot_plugin_poke-0.0.5.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/73/74/1cdd3610fc61a044bfdef8166950587d80fe51a459aa8b575f2631a357a7/irene_pro-0.0.79.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Downloading https://files.pythonhosted.org/packages/47/27/ef2e54502d071d2ec033547bbcea3082bf16e84af0ec18fb0f1d7fdfc55b/nonebot_plugin_blive_danmaku-0.3.22.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [mypermobil]: Downloading https://files.pythonhosted.org/packages/e7/06/194201387149ef152d659e58614e0a41c64ff3fd8db07d53ebf59f8be197/mypermobil-0.1.2.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [nonebot-plugin-poke]: executing diffoscope
+[2023-06-30 10:55:44] INFO root fetch - processPackages [nonebot-plugin-poke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_poke-0.0.4.tar.gz tmp/nonebot_plugin_poke-0.0.5.tar.gz --markdown 20230630/n/nonebot-plugin-poke/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-30 10:55:44] INFO root fetch - processPackages [fast-model-server]: Downloading https://files.pythonhosted.org/packages/dd/c2/c2c0a354bba6c23855226828a526f0b47d5791ebac25d63ce60b790feef8/fast_model_server-1.1.0.2-py2.py3-none-any.whl
+[2023-06-30 10:55:44] INFO root fetch - processPackages [mypermobil]: executing diffoscope
+[2023-06-30 10:55:44] INFO root fetch - processPackages [mypermobil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypermobil-0.1.1.tar.gz tmp/mypermobil-0.1.2.tar.gz --markdown 20230630/m/mypermobil/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-30 10:55:44] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-30 10:55:44] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.77.tar.gz tmp/irene_pro-0.0.79.tar.gz --markdown 20230630/i/irene-pro/0.0.77-0.0.79/diff.md --exclude *.pyd
+[2023-06-30 10:55:44] INFO root fetch - processPackages [periflow-cli]: Downloading https://files.pythonhosted.org/packages/cf/6f/39b88d3dc51307e8d2ca1d332977dfe697affffc6cad48b113d29331588d/periflow-cli-0.1.9.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [djecrety]: Downloading https://files.pythonhosted.org/packages/9a/92/042cf67af7d92ce5be0de59aa642ec085b613e5a638fc9fbd9efbf4ac409/djecrety-1.0.9.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [idrlnet]: Downloading https://files.pythonhosted.org/packages/34/bf/65cd0f2845504a62208f4be769144fdae16498cea9977e74b39c2410855c/idrlnet-2.0.0.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [data-inclusion-schema]: Downloading https://files.pythonhosted.org/packages/2f/3c/98e430779f6d02d78f53cf77425447a09af182a6883abfc1ae508b6fb8af/data_inclusion_schema-0.9.0.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [esmerald]: Downloading https://files.pythonhosted.org/packages/24/ee/da4173b23d36fbb16ce300c0391b4b0a265512f18b59e6a95a84bd142c89/esmerald-1.3.0.tar.gz
+[2023-06-30 10:55:44] INFO root fetch - processPackages [fast-model-server]: executing diffoscope
+[2023-06-30 10:55:44] INFO root fetch - processPackages [fast-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_model_server-1.1.0.1-py2.py3-none-any.whl.zip tmp/fast_model_server-1.1.0.2-py2.py3-none-any.whl.zip --markdown 20230630/f/fast-model-server/1.1.0.1-1.1.0.2/diff.md --exclude *.pyd
+[2023-06-30 10:55:44] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: executing diffoscope
+[2023-06-30 10:55:44] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_blive_danmaku-0.3.21.tar.gz tmp/nonebot_plugin_blive_danmaku-0.3.22.tar.gz --markdown 20230630/n/nonebot-plugin-blive-danmaku/0.3.21-0.3.22/diff.md --exclude *.pyd
+[2023-06-30 10:55:44] INFO root fetch - processPackages [djecrety]: executing diffoscope
+[2023-06-30 10:55:44] INFO root fetch - processPackages [djecrety]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djecrety-1.0.8.tar.gz tmp/djecrety-1.0.9.tar.gz --markdown 20230630/d/djecrety/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-30 10:55:44] INFO root fetch - processPackages [data-inclusion-schema]: executing diffoscope
+[2023-06-30 10:55:44] INFO root fetch - processPackages [data-inclusion-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-inclusion-schema-0.8.0.tar.gz tmp/data_inclusion_schema-0.9.0.tar.gz --markdown 20230630/d/data-inclusion-schema/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-30 10:55:44] INFO root fetch - processPackages [idrlnet]: executing diffoscope
+[2023-06-30 10:55:44] INFO root fetch - processPackages [idrlnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idrlnet-0.1.0rc1.tar.gz tmp/idrlnet-2.0.0.tar.gz --markdown 20230630/i/idrlnet/0.1.0rc1-2.0.0/diff.md --exclude *.pyd
+[2023-06-30 10:55:44] INFO root fetch - processPackages [esmerald]: executing diffoscope
+[2023-06-30 10:55:44] INFO root fetch - processPackages [esmerald]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esmerald-1.2.5.tar.gz tmp/esmerald-1.3.0.tar.gz --markdown 20230630/e/esmerald/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2023-06-30 10:55:44] INFO root fetch - processPackages [periflow-cli]: executing diffoscope
+[2023-06-30 10:55:44] INFO root fetch - processPackages [periflow-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periflow-cli-0.1.8.tar.gz tmp/periflow-cli-0.1.9.tar.gz --markdown 20230630/p/periflow-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-30 10:55:46] INFO root fetch - processPackages [nonebot-plugin-poke]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_poke-0.0.4.tar.gz]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [nonebot-plugin-poke]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_poke-0.0.5.tar.gz]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [nonebot-plugin-poke]: Start processing: aicoder
+[2023-06-30 10:55:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-poke]: success
+[2023-06-30 10:55:46] INFO root fetch - processPackages [aicoder]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/9b/d9/a9471f798b9dc4a57f90ad04edb7ede4d979f73c806290f34ad435479c19/aicoder-0.1.7-py3-none-any.whl
+[2023-06-30 10:55:46] INFO root fetch - processPackages [mypermobil]: Remove: archive file [/home/abi/fetcher/tmp/mypermobil-0.1.1.tar.gz]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [mypermobil]: Remove: archive file [/home/abi/fetcher/tmp/mypermobil-0.1.2.tar.gz]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [mypermobil]: Start processing: eodc
+[2023-06-30 10:55:46] INFO root fetch - main [MainThread]: End processing [mypermobil]: success
+[2023-06-30 10:55:46] INFO root fetch - processPackages [eodc]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/1a/cf/3fa14673d75edbb5da8478de4201544339e26296398df2d0be95113f0989/eodc-2023.6.8.tar.gz
+[2023-06-30 10:55:46] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.77.tar.gz]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.79.tar.gz]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [irene-pro]: Start processing: domain-admin
+[2023-06-30 10:55:46] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-30 10:55:46] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/0b/5a/e30892d263eff6d956b046dfbb0f4b2fdd0bcc04e5dad957155f0c575bd8/aicoder-0.1.8-py3-none-any.whl
+[2023-06-30 10:55:46] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-06-30 10:55:46] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/c5/83/63873bbcccf7bb07f0a25f386840631889a5c10e88af7af1eb0baeb16508/eodc-2023.6.9.tar.gz
+[2023-06-30 10:55:46] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-06-30 10:55:46] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.1.7-py3-none-any.whl.zip tmp/aicoder-0.1.8-py3-none-any.whl.zip --markdown 20230630/a/aicoder/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-30 10:55:46] INFO root fetch - processPackages [eodc]: executing diffoscope
+[2023-06-30 10:55:46] INFO root fetch - processPackages [eodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc-2023.6.8.tar.gz tmp/eodc-2023.6.9.tar.gz --markdown 20230630/e/eodc/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-30 10:55:46] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-06-30 10:55:46] INFO root fetch - processPackages [djecrety]: Remove: archive file [/home/abi/fetcher/tmp/djecrety-1.0.8.tar.gz]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [djecrety]: Remove: archive file [/home/abi/fetcher/tmp/djecrety-1.0.9.tar.gz]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [djecrety]: Start processing: cg
+[2023-06-30 10:55:46] INFO root fetch - main [MainThread]: End processing [djecrety]: success
+[2023-06-30 10:55:46] INFO root fetch - processPackages [cg]: New version: [37.0.9] Old Version: [37.0.8]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [fast-model-server]: Remove: archive file [/home/abi/fetcher/tmp/fast_model_server-1.1.0.1-py2.py3-none-any.whl.zip]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [fast-model-server]: Remove: archive file [/home/abi/fetcher/tmp/fast_model_server-1.1.0.2-py2.py3-none-any.whl.zip]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [fast-model-server]: Start processing: hacs-frontend
+[2023-06-30 10:55:46] INFO root fetch - main [MainThread]: End processing [fast-model-server]: success
+[2023-06-30 10:55:46] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ec/1d/c584ab5bd145f7bc64a980cb9243f2ce4190d6259515da4ad36aa6cd5b8d/cg-37.0.8.tar.gz
+[2023-06-30 10:55:46] INFO root fetch - processPackages [hacs-frontend]: New version: [9] Old Version: [8]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-30 10:55:46] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230630/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-30 10:55:46] INFO root fetch - processPackages [data-inclusion-schema]: Remove: archive file [/home/abi/fetcher/tmp/data-inclusion-schema-0.8.0.tar.gz]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [data-inclusion-schema]: Remove: archive file [/home/abi/fetcher/tmp/data_inclusion_schema-0.9.0.tar.gz]
+[2023-06-30 10:55:46] INFO root fetch - processPackages [data-inclusion-schema]: Start processing: cg2at
+[2023-06-30 10:55:46] INFO root fetch - main [MainThread]: End processing [data-inclusion-schema]: success
+[2023-06-30 10:55:47] INFO root fetch - processPackages [cg2at]: New version: [2023.6.30] Old Version: [2022.6.30]
+[2023-06-30 10:55:47] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_blive_danmaku-0.3.21.tar.gz]
+[2023-06-30 10:55:47] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_blive_danmaku-0.3.22.tar.gz]
+[2023-06-30 10:55:47] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Start processing: pyGDM2
+[2023-06-30 10:55:47] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-blive-danmaku]: success
+[2023-06-30 10:55:47] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/7e/80bbf10d5634a932760fbb85138245f7f53ad73bcdd6d223800c8b51e56f/cg-37.0.9.tar.gz
+[2023-06-30 10:55:47] INFO root fetch - processPackages [pyGDM2]: New version: [1.1.4] Old Version: [1.1.3.2]
+[2023-06-30 10:55:47] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/4b/54/4a6311d8b103f58145787acb710d11417db7aa8446ae2bec85633213f873/hacs-frontend-8.tar.gz
+[2023-06-30 10:55:47] INFO root fetch - processPackages [cg2at]: Downloading https://files.pythonhosted.org/packages/c0/7f/72a75a1af58a57843b91dd78bc7aec2b74fcc2a889fe60a646857b3e4ea5/cg2at-2022.6.30.tar.gz
+[2023-06-30 10:55:47] INFO root fetch - processPackages [periflow-cli]: Remove: archive file [/home/abi/fetcher/tmp/periflow-cli-0.1.8.tar.gz]
+[2023-06-30 10:55:47] INFO root fetch - processPackages [periflow-cli]: Remove: archive file [/home/abi/fetcher/tmp/periflow-cli-0.1.9.tar.gz]
+[2023-06-30 10:55:47] INFO root fetch - processPackages [periflow-cli]: Start processing: dlrnapi-client
+[2023-06-30 10:55:47] INFO root fetch - main [MainThread]: End processing [periflow-cli]: success
+[2023-06-30 10:55:47] INFO root fetch - processPackages [dlrnapi-client]: New version: [0.9.1] Old Version: [0.8.1]
+[2023-06-30 10:55:47] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-30 10:55:47] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.8.tar.gz tmp/cg-37.0.9.tar.gz --markdown 20230630/c/cg/37.0.8-37.0.9/diff.md --exclude *.pyd
+[2023-06-30 10:55:47] INFO root fetch - processPackages [pyGDM2]: Downloading https://files.pythonhosted.org/packages/f6/fa/11018d03e2d5623fa3dbf78578f515396b55f126d19c4b297cda7a8c3276/pyGDM2-1.1.3.2.tar.gz
+[2023-06-30 10:55:47] WARNING root fetch - processPackages [cg2at]: Skipping package: exceeds size limit 11500532>=10485760
+[2023-06-30 10:55:47] INFO root fetch - processPackages [cg2at]: Start processing: cyc-gbm
+[2023-06-30 10:55:47] INFO root fetch - main [MainThread]: End processing [cg2at] error
+[2023-06-30 10:55:47] INFO root fetch - processPackages [cyc-gbm]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-06-30 10:55:47] INFO root fetch - processPackages [cyc-gbm]: Downloading https://files.pythonhosted.org/packages/c2/dd/1f3d227d4eb12a3e7ae844f9daf543dd06c5be30ce14fef2d6f378470abc/cyc-gbm-0.0.22.tar.gz
+[2023-06-30 10:55:47] INFO root fetch - processPackages [dlrnapi-client]: Downloading https://files.pythonhosted.org/packages/54/ad/01274b2aa69df242c6b6ada268b2284b8eae607dc1a533d064adcfcf5a42/dlrnapi_client-0.8.1.tar.gz
+[2023-06-30 10:55:47] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/27/64/99fc7d5e575ed7ac25aaf6fa2230eea1499ac447c06f0c88af1a96d19d69/hacs-frontend-9.tar.gz
+[2023-06-30 10:55:47] INFO root fetch - processPackages [pyGDM2]: Downloading https://files.pythonhosted.org/packages/e3/92/8d06642b208d3a685aafb62f7ddecd5eac8769eef66fa17df663da26d956/pyGDM2-1.1.4.tar.gz
+[2023-06-30 10:55:47] INFO root fetch - processPackages [pyGDM2]: executing diffoscope
+[2023-06-30 10:55:47] INFO root fetch - processPackages [pyGDM2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyGDM2-1.1.3.2.tar.gz tmp/pyGDM2-1.1.4.tar.gz --markdown 20230630/p/pyGDM2/1.1.3.2-1.1.4/diff.md --exclude *.pyd
+[2023-06-30 10:55:47] INFO root fetch - processPackages [cyc-gbm]: Downloading https://files.pythonhosted.org/packages/a6/14/5b02fc60144fe4e01ac432afa768da6b6da198f6883340a2e9f2feec2059/cyc-gbm-0.0.23.tar.gz
+[2023-06-30 10:55:47] INFO root fetch - processPackages [hacs-frontend]: executing diffoscope
+[2023-06-30 10:55:47] INFO root fetch - processPackages [hacs-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hacs-frontend-8.tar.gz tmp/hacs-frontend-9.tar.gz --markdown 20230630/h/hacs-frontend/8-9/diff.md --exclude *.pyd
+[2023-06-30 10:55:47] INFO root fetch - processPackages [cyc-gbm]: executing diffoscope
+[2023-06-30 10:55:47] INFO root fetch - processPackages [cyc-gbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyc-gbm-0.0.22.tar.gz tmp/cyc-gbm-0.0.23.tar.gz --markdown 20230630/c/cyc-gbm/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-06-30 10:55:48] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2023.6.8.tar.gz]
+[2023-06-30 10:55:48] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2023.6.9.tar.gz]
+[2023-06-30 10:55:48] INFO root fetch - processPackages [eodc]: Start processing: pyfds
+[2023-06-30 10:55:48] INFO root fetch - main [MainThread]: End processing [eodc]: success
+[2023-06-30 10:55:48] INFO root fetch - processPackages [dlrnapi-client]: Downloading https://files.pythonhosted.org/packages/06/34/176e1dd60b337e8258ac66ca1c1e12b00c54954bdbd121d6270e892578a9/dlrnapi_client-0.9.1.tar.gz
+[2023-06-30 10:55:48] INFO root fetch - processPackages [pyfds]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-06-30 10:55:48] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.1.7-py3-none-any.whl.zip]
+[2023-06-30 10:55:48] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.1.8-py3-none-any.whl.zip]
+[2023-06-30 10:55:48] INFO root fetch - processPackages [aicoder]: Start processing: plivo
+[2023-06-30 10:55:48] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-06-30 10:55:48] INFO root fetch - processPackages [plivo]: New version: [4.9.0] Old Version: [4.8.1]
+[2023-06-30 10:55:48] INFO root fetch - processPackages [dlrnapi-client]: executing diffoscope
+[2023-06-30 10:55:48] INFO root fetch - processPackages [dlrnapi-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlrnapi_client-0.8.1.tar.gz tmp/dlrnapi_client-0.9.1.tar.gz --markdown 20230630/d/dlrnapi-client/0.8.1-0.9.1/diff.md --exclude *.pyd
+[2023-06-30 10:55:48] INFO root fetch - processPackages [pyfds]: Downloading https://files.pythonhosted.org/packages/44/97/a5812efe6de432c60c1606a6adfb4ebdaa85ed862198bdccdfcbc5c11bfe/pyfds-0.1.6.tar.gz
+[2023-06-30 10:55:48] INFO root fetch - processPackages [esmerald]: Remove: archive file [/home/abi/fetcher/tmp/esmerald-1.2.5.tar.gz]
+[2023-06-30 10:55:48] INFO root fetch - processPackages [esmerald]: Remove: archive file [/home/abi/fetcher/tmp/esmerald-1.3.0.tar.gz]
+[2023-06-30 10:55:48] INFO root fetch - processPackages [esmerald]: Start processing: django-pbx-admin
+[2023-06-30 10:55:48] INFO root fetch - main [MainThread]: End processing [esmerald]: success
+[2023-06-30 10:55:48] INFO root fetch - processPackages [django-pbx-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-30 10:55:48] INFO root fetch - processPackages [plivo]: Downloading https://files.pythonhosted.org/packages/0a/98/99826a7c72ddaccf707946547e62379085f668142ac0d12ee8ce5976e8db/plivo-4.8.1.tar.gz
+[2023-06-30 10:55:48] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/5d/89/1e07bfd3d252b2b5c525353006d441e9b58a55ac738e2b41a0ecfacf2008/django_pbx_admin-1.8.1-py3-none-any.whl
+[2023-06-30 10:55:48] INFO root fetch - processPackages [pyfds]: Downloading https://files.pythonhosted.org/packages/68/20/7f7ced2ba57028c1713286bb08b8f1c76ae01aee9287f34d7296f7be1e64/pyfds-0.2.0.tar.gz
+[2023-06-30 10:55:48] INFO root fetch - processPackages [pyfds]: executing diffoscope
+[2023-06-30 10:55:48] INFO root fetch - processPackages [pyfds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfds-0.1.6.tar.gz tmp/pyfds-0.2.0.tar.gz --markdown 20230630/p/pyfds/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-06-30 10:55:48] INFO root fetch - processPackages [plivo]: Downloading https://files.pythonhosted.org/packages/44/fb/2b8994c1e34a8038dd5d9053ab3ae690961311ff4ff8296765c93f34d440/plivo-4.9.0.tar.gz
+[2023-06-30 10:55:48] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/9f/68/7cd5526d96c78fa3115fa7d469d50acb284144a6d6468ec29edac3ec09ff/django_pbx_admin-1.9.0-py3-none-any.whl
+[2023-06-30 10:55:49] INFO root fetch - processPackages [plivo]: executing diffoscope
+[2023-06-30 10:55:49] INFO root fetch - processPackages [plivo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plivo-4.8.1.tar.gz tmp/plivo-4.9.0.tar.gz --markdown 20230630/p/plivo/4.8.1-4.9.0/diff.md --exclude *.pyd
+[2023-06-30 10:55:49] INFO root fetch - processPackages [django-pbx-admin]: executing diffoscope
+[2023-06-30 10:55:49] INFO root fetch - processPackages [django-pbx-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip --markdown 20230630/d/django-pbx-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-30 10:55:49] INFO root fetch - processPackages [cyc-gbm]: Remove: archive file [/home/abi/fetcher/tmp/cyc-gbm-0.0.22.tar.gz]
+[2023-06-30 10:55:49] INFO root fetch - processPackages [cyc-gbm]: Remove: archive file [/home/abi/fetcher/tmp/cyc-gbm-0.0.23.tar.gz]
+[2023-06-30 10:55:49] INFO root fetch - processPackages [cyc-gbm]: Start processing: dank-mids
+[2023-06-30 10:55:49] INFO root fetch - main [MainThread]: End processing [cyc-gbm]: success
+[2023-06-30 10:55:49] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-30 10:55:49] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-30 10:55:50] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-8.tar.gz]
+[2023-06-30 10:55:50] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-9.tar.gz]
+[2023-06-30 10:55:50] INFO root fetch - processPackages [hacs-frontend]: Start processing: semantha-sdk
+[2023-06-30 10:55:50] INFO root fetch - main [MainThread]: End processing [hacs-frontend]: success
+[2023-06-30 10:55:50] INFO root fetch - processPackages [dlrnapi-client]: Remove: archive file [/home/abi/fetcher/tmp/dlrnapi_client-0.8.1.tar.gz]
+[2023-06-30 10:55:50] INFO root fetch - processPackages [dlrnapi-client]: Remove: archive file [/home/abi/fetcher/tmp/dlrnapi_client-0.9.1.tar.gz]
+[2023-06-30 10:55:50] INFO root fetch - processPackages [dlrnapi-client]: Start processing: embetter
+[2023-06-30 10:55:50] INFO root fetch - main [MainThread]: End processing [dlrnapi-client]: success
+[2023-06-30 10:55:50] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-30 10:55:50] INFO root fetch - processPackages [semantha-sdk]: New version: [5.5.0] Old Version: [5.4.1]
+[2023-06-30 10:55:50] INFO root fetch - processPackages [embetter]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-30 10:55:50] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-30 10:55:50] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230630/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-30 10:55:50] INFO root fetch - processPackages [pyGDM2]: Remove: archive file [/home/abi/fetcher/tmp/pyGDM2-1.1.3.2.tar.gz]
+[2023-06-30 10:55:50] INFO root fetch - processPackages [pyGDM2]: Remove: archive file [/home/abi/fetcher/tmp/pyGDM2-1.1.4.tar.gz]
+[2023-06-30 10:55:50] INFO root fetch - processPackages [pyGDM2]: Start processing: reytool
+[2023-06-30 10:55:50] INFO root fetch - main [MainThread]: End processing [pyGDM2]: success
+[2023-06-30 10:55:50] INFO root fetch - processPackages [semantha-sdk]: Downloading https://files.pythonhosted.org/packages/d5/fd/b633d7eb98d39f90a86ecd651585c33add557ff375e2e5fa11059f329a4b/semantha_sdk-5.4.1.tar.gz
+[2023-06-30 10:55:50] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-06-30 10:55:50] INFO root fetch - processPackages [embetter]: Downloading https://files.pythonhosted.org/packages/cb/b4/26c4a672b80582866438bdc963f00d240640be70249eb642dbc1826d712d/embetter-0.4.0.tar.gz
+[2023-06-30 10:55:50] INFO root fetch - processPackages [semantha-sdk]: Downloading https://files.pythonhosted.org/packages/61/6a/96afa4ee191440ff18ef06ebef1dae36f38ceec19941230b6ac7bbb19385/semantha_sdk-5.5.0.tar.gz
+[2023-06-30 10:55:50] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-06-30 10:55:50] INFO root fetch - processPackages [semantha-sdk]: executing diffoscope
+[2023-06-30 10:55:50] INFO root fetch - processPackages [semantha-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantha_sdk-5.4.1.tar.gz tmp/semantha_sdk-5.5.0.tar.gz --markdown 20230630/s/semantha-sdk/5.4.1-5.5.0/diff.md --exclude *.pyd
+[2023-06-30 10:55:50] INFO root fetch - processPackages [embetter]: Downloading https://files.pythonhosted.org/packages/f4/76/3f2a5d6aa356d8d40e80a11749a698d7a7dc56c7143102ae38d83406e700/embetter-0.4.1.tar.gz
+[2023-06-30 10:55:50] INFO root fetch - processPackages [embetter]: executing diffoscope
+[2023-06-30 10:55:50] INFO root fetch - processPackages [embetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embetter-0.4.0.tar.gz tmp/embetter-0.4.1.tar.gz --markdown 20230630/e/embetter/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-30 10:55:50] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-06-30 10:55:51] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-06-30 10:55:51] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230630:/home/abi/fetcher/20230630:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230630/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-06-30 10:55:51] INFO root fetch - processPackages [pyfds]: Remove: archive file [/home/abi/fetcher/tmp/pyfds-0.1.6.tar.gz]
+[2023-06-30 10:55:51] INFO root fetch - processPackages [pyfds]: Remove: archive file [/home/abi/fetcher/tmp/pyfds-0.2.0.tar.gz]
+[2023-06-30 10:55:51] INFO root fetch - main [MainThread]: End processing [pyfds]: success
+[2023-06-30 10:55:51] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-30 10:55:51] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-30 10:55:51] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-30 10:55:51] INFO root fetch - processPackages [plivo]: Remove: archive file [/home/abi/fetcher/tmp/plivo-4.8.1.tar.gz]
+[2023-06-30 10:55:51] INFO root fetch - processPackages [plivo]: Remove: archive file [/home/abi/fetcher/tmp/plivo-4.9.0.tar.gz]
+[2023-06-30 10:55:51] INFO root fetch - main [MainThread]: End processing [plivo]: success
+[2023-06-30 10:55:51] INFO root fetch - processPackages [idrlnet]: Remove: archive file [/home/abi/fetcher/tmp/idrlnet-0.1.0rc1.tar.gz]
+[2023-06-30 10:55:51] INFO root fetch - processPackages [idrlnet]: Remove: archive file [/home/abi/fetcher/tmp/idrlnet-2.0.0.tar.gz]
+[2023-06-30 10:55:51] INFO root fetch - main [MainThread]: End processing [idrlnet]: success
+[2023-06-30 10:55:52] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-06-30 10:55:52] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-06-30 10:55:52] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-06-30 10:55:52] INFO root fetch - processPackages [embetter]: Remove: archive file [/home/abi/fetcher/tmp/embetter-0.4.0.tar.gz]
+[2023-06-30 10:55:52] INFO root fetch - processPackages [embetter]: Remove: archive file [/home/abi/fetcher/tmp/embetter-0.4.1.tar.gz]
+[2023-06-30 10:55:52] INFO root fetch - main [MainThread]: End processing [embetter]: success
+[2023-06-30 10:55:53] INFO root fetch - processPackages [semantha-sdk]: Remove: archive file [/home/abi/fetcher/tmp/semantha_sdk-5.4.1.tar.gz]
+[2023-06-30 10:55:53] INFO root fetch - processPackages [semantha-sdk]: Remove: archive file [/home/abi/fetcher/tmp/semantha_sdk-5.5.0.tar.gz]
+[2023-06-30 10:55:53] INFO root fetch - main [MainThread]: End processing [semantha-sdk]: success
+[2023-06-30 10:55:54] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip]
+[2023-06-30 10:55:54] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip]
+[2023-06-30 10:55:54] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
+[2023-06-30 10:55:59] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.8.tar.gz]
+[2023-06-30 10:55:59] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
+[2023-06-30 10:55:59] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-30 10:55:59] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-06-30 10:55:59] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-06-30 10:55:59] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-30 10:55:59] INFO root fetch - main [MainThread]: Store serial: [18707804]
